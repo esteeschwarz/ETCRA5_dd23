@@ -46,6 +46,8 @@ library(stringi)
 # dta2<-content(x,"text")
 getwd()
 #lapsi
+setwd("~/Documents/GitHub/ETCRA5_dd23/R")
+#ewa
 setwd("~/Documents/GIT/ETCRA5_dd23/R")
 #mini
 setwd("gith/ETCRA5_dd23/R")
@@ -54,7 +56,8 @@ setwd("gith/ETCRA5_dd23/R")
 dta2<-read_xml("data/c0_Der_Besuch_Klemm_wsource_epub.xml") #xml extracted from epub
 #this presumes a preformatted wikisource text with speaker and scene formatting in plain html,
 
-runreplace<-function(){
+#not run
+#runreplace<-function(){
 
 # xpathkl<-'/html/body/section/div/'
 # xml_child(xml_child(xml_child(xml_child(xml_child(dta2, 2), 1), 3), 12), 1)
@@ -75,6 +78,9 @@ data<-dta2
 data %>% xml_ns()
 data%>% xml_ns_strip()
 data_sf<-data
+#revert
+#data<-data_sf
+
 # Beispiel 1: xpath-Pfade anzeigen
 # Alle xpath-Pfade anzeigen
 # data %>% 
@@ -102,7 +108,7 @@ xml_text(all_divs)
 #9 personen: seperate <castItem><role>...</role></castItem>
 #</div></front>
 #10 <div type="scene" <head> </head>
-#11 <sp who="#fromspeaker id"><stage></><speaker>all_b</speaker><p>all_p</p></sp>
+#11 <sp who="#fromspeaker id"><stage></><speaker>all_b</speaker><p>all_p</p></sp>(<sp... for each speechact)</div (scene)
 #12 scene
 #13 speaker ...
 #28 ende
@@ -179,8 +185,67 @@ xml_add_child(all_div_b[m[1]])
 l2<-unlist(stri_extract_all(l1,regex="[0-9]{1,3}"))
 xml_text(all_divs[9])
 l3<-3
-k<-4
-data%>%xml_find_all(sprintf('//div/div[%s]',l2[k]))%>%xml_text()
+k<-m
+data%>%xml_find_all(sprintf('//div/div[%i]',k))%>%xml_text()
+scenearray<-list()
+for (k in m){
+  scenearray[k]<-xml_text(all_div_b[k])
+}
+x3 #all sp wrapped, to be put into corresponding scene
+###
+data%>%xml_find_all('//div/p')%>%xml_text()
+
+all_b <- data %>% 
+  xml_find_all('//div/p/b')
+txtall_b<-xml_text(all_b)
+sp1<-paste0("<speaker>",txtall_b,"</speaker>")
+sp1
+xml_text(all_b)<-sp1
+
+####################
+#reset xml
+src<-"data/c0_Der_Besuch_Klemm_wsource_epub.xml"
+dta2<-read_xml("data/c0_Der_Besuch_Klemm_wsource_epub.xml") #xml extracted from epub
+data<-dta2
+data %>% xml_ns()
+data%>% xml_ns_strip()
+data_sf<-data
+
+
+
+all_p<- data %>%
+  xml_find_all('//div/p')
+xml_text(all_p)
+txtall_p<-xml_text(all_p)
+txtall_p[4] #includes speaker declaration, i.e. first wrap speaker, then p
+regx2<-"\n"
+all_p_n<-gsub(regx2," ",data %>%
+       xml_find_all('//div/p'),perl = T)
+x2<-(all_p_n)
+xml_text(all_p)<-x2
+###
+data %>%
+  xml_find_all('//div[14]')%>%xml_text()
+d2<-read_html(src)
+d2 %>%
+  xml_find_all('//body/section/div')%>%xml_text()
+d2 %>% 
+  xml_find_all('//div/*') %>%
+  xml_path()
+
+
+
+regx1<-"((?<=</speaker>)(.*))"
+repl1<-"<p>\\2</p>"
+txtall_p<-xml_text(all_p)
+grep(regx1,txtall_p[4],perl = T,value = T)
+x<-gsub(regx1,repl1,txtall_p[4],perl = T)
+x
+x<-gsub(regx1,repl1,x2,perl = T)
+x[4]
+x3<-paste0("<sp>",x,"</sp>")
+x3[4] #all speechacts wrapped
+
 ############################################
 # 1.wrap speaker, scene, scenespeaker
 # del \n
