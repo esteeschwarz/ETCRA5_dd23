@@ -256,7 +256,7 @@ k<-1
 d2 %>% 
   xml_find_all(all_e[t1[1]]) %>%
   xml_text() #wks. all scene headings
-tx1<-data.frame()
+tx4<-data.frame()
 
 for(k in 1:length(t1)){
   row0<-t1[k]
@@ -266,10 +266,14 @@ for(k in 1:length(t1)){
   for(t in rows){
     
   #if (allscenes[k] < allscenes[k+1])
-  tx1[t,k]<-d2 %>% 
+  tx2<-d2 %>% 
     xml_find_all(all_e[t]) %>%
     xml_text()
+  tx3<-paste0("<div>",tx2,"</div>")
+  tx4[t,k]<-tx3
   }} #wks. dataframe of text along section/divs
+getwd()
+write.csv(tx1,"klemmDB001.csv")
 # #levels(allscenes)
 # t2<-(drop(array(allscenes,dim=t1)))
 # t2
