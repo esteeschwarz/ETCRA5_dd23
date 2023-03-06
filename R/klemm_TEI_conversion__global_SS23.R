@@ -229,11 +229,51 @@ data %>%
 d2<-read_html(src)
 d2 %>%
   xml_find_all('//body/section/div')%>%xml_text()
-d2 %>% 
+all_e<-d2 %>% 
   xml_find_all('//div/*') %>%
-  xml_path()
+  xml_path() #wks. finds all div elements, including p
+d2 %>% 
+  xml_find_all(all_e[201]) %>%
+  xml_text() #wks. finds single elements text, no matter what element
+#order: 22,23scene div[10]div[10]/b / 24,25 div[11]div[11]/i / 26text div/p[3] 
+#i.e.: 
+# 1. find first b which is act head
+# 2. find next b which is next act head
+regx1<-"(Akt|Auftritt|Szene|Scene)"
+allscenes<-grep(regx1,d2%>%xml_find_all('//div/*') %>%
+         xml_text())
+t1<-array()
+k<-1
+for (k in 1:length(allscenes)){
+  ifelse (allscenes[k+1]-allscenes[k]==1,
+    t1<-append(t1,allscenes[k],after = length(t1)),f<-1)
+  #levels(allscenes[k])<-2,levels(allscenes[k])<-1)
+#t1[k]<-2,t1[k]<-1)
+  }
+t1<-t1[2:length(t1)] #excluded instances where the regex appears in text
+t1
+k<-1
+d2 %>% 
+  xml_find_all(all_e[t1[1]]) %>%
+  xml_text() #wks. all scene headings
+tx1<-data.frame()
 
-
+for(k in 1:length(t1)){
+  row0<-t1[k]
+  row<-t1[k]+1
+  ifelse (k<length(t1),lastrow<-t1[k+1]-1,lastrow<-length(all_e))
+  rows<-row0:lastrow
+  for(t in rows){
+    
+  #if (allscenes[k] < allscenes[k+1])
+  tx1[t,k]<-d2 %>% 
+    xml_find_all(all_e[t]) %>%
+    xml_text()
+  }} #wks. dataframe of text along section/divs
+# #levels(allscenes)
+# t2<-(drop(array(allscenes,dim=t1)))
+# t2
+allscenes
 
 regx1<-"((?<=</speaker>)(.*))"
 repl1<-"<p>\\2</p>"
