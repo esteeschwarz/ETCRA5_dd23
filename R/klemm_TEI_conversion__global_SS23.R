@@ -12,6 +12,7 @@
 #1.abstract:
 #TEI declaration of wikisource dramatext for further processing
 getwd()
+setwd("/Users/lion/boxHKW/21S/DH")
 #src<-"~/boxHKW/21S/DH/gith/DH_essais/data/corpus/klemm_besuch/klemm_TEI.xml"
 #src<-"~/boxHKW/21S/DH/gith/DH_essais/data/corpus/klemm_besuch/klemm_TEI_wikiraw.xml"
 #src<-"https://raw.githubusercontent.com/esteeschwarz/DH_essais/main/data/corpus/klemm_besuch/klemm(1765)_clean.txt"
@@ -30,12 +31,12 @@ library(stringi)
 #txt<-httr::content(api_call,"text")
 ###################################
 # lisa scrape:
-src<-"https://de.wikisource.org/wiki/Der_Besuch_(Klemm)"
-dta1<-read_html(src)
-xpathkl<-'//*[@id="mw-content-text"]/div[1]/div[2]'
-#xpath copied from browser developer tools (safari)
-html_nodes(dta1,xpath = xpathkl)
-txt<-html_nodes(dta1,xpath = xpathkl) %>%html_text()
+# src<-"https://de.wikisource.org/wiki/Der_Besuch_(Klemm)"
+# dta1<-read_html(src)
+# xpathkl<-'//*[@id="mw-content-text"]/div[1]/div[2]'
+# #xpath copied from browser developer tools (safari)
+# html_nodes(dta1,xpath = xpathkl)
+# txt<-html_nodes(dta1,xpath = xpathkl) %>%html_text()
 #gets plain text
 #wks.
 #now with epub formatted text:
@@ -44,7 +45,11 @@ txt<-html_nodes(dta1,xpath = xpathkl) %>%html_text()
 # x<-GET(src) #no
 # dta2<-content(x,"text")
 getwd()
+#lapsi
 setwd("~/Documents/GIT/ETCRA5_dd23/R")
+#mini
+setwd("gith/ETCRA5_dd23/R")
+
 #dta2<-read_xml("local/EXC2020/DD23/data/c0_Der_Besuch__Klemm_.xhtml") #xml extracted from epub
 dta2<-read_xml("data/c0_Der_Besuch_Klemm_wsource_epub.xml") #xml extracted from epub
 #this presumes a preformatted wikisource text with speaker and scene formatting in plain html,
@@ -144,7 +149,7 @@ x
 x<-gsub(regx1,repl1,x2,perl = T)
 x[4]
 x3<-paste0("<sp>",x,"</sp>")
-x3[3] #all speechacts wrapped
+x3[4] #all speechacts wrapped
 }
 
 #wks. now back insert into xml
@@ -168,10 +173,14 @@ txt_all_div_b<-xml_text(all_div_b)
 m<-grep("(Akt|Auftritt|Szene|Scene)",txt_all_div_b)
 #get global position of each <b> to set start / end of scene
 l1<-xml_path(all_div_b)
-data%>%xml_find_all(l1[10])
+data%>%xml_find_all(l1[11])
 xml_add_child(all_div_b[m[1]])
+#head b divs (scene heading)
 l2<-unlist(stri_extract_all(l1,regex="[0-9]{1,3}"))
-
+xml_text(all_divs[9])
+l3<-3
+k<-4
+data%>%xml_find_all(sprintf('//div/div[%s]',l2[k]))%>%xml_text()
 ############################################
 # 1.wrap speaker, scene, scenespeaker
 # del \n
