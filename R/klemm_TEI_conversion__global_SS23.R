@@ -135,9 +135,9 @@ xml_text(all_i)
 all_b <- data %>% 
   xml_find_all('//div/p/b')
 txtall_b<-xml_text(all_b)
-sp1<-paste0("<speaker>",txtall_b,"</speaker>")
-sp1
-xml_text(all_b)<-sp1
+#sp1<-paste0("<speaker>",txtall_b,"</speaker>")
+#sp1
+#xml_text(all_b)<-sp1
 
 all_p<- data %>%
   xml_find_all('//div/p')
@@ -156,7 +156,7 @@ x<-gsub(regx1,repl1,x2,perl = T)
 x[4]
 x3<-paste0("<sp>",x,"</sp>")
 x3[4] #all speechacts wrapped
-}
+
 
 #wks. now back insert into xml
 all_p_mod<-x3
@@ -302,3 +302,44 @@ library(clipr)
 library(stringr)
 #txt
 #set<-txt
+#########
+# declaration from DB source created above
+d<-read.csv("klemmDB001.csv")
+#scheme of DB:
+#column per scene: NA,scene,=scene,speaker,=speaker,speaker.text
+#grep first content line
+firstlines<-array()
+k<-2
+for (k in 1:length(d)){
+m<-which(!is.na(d[,k]))
+firstlines[k]<-m[1]
+}
+firstlines<-firstlines[2:length(firstlines)]
+sceneline<-firstlines
+t_scene<-d$V1[sceneline[1]]
+
+stageline<-sceneline+2
+t_speaker<-d$V1[speakerline[1]]
+textline<-speakerline+4
+w_scene<-function(k){paste0('<div type="scene"><head>',d[sceneline[k]],'<head>')}
+d$V1[sceneline[1]]<-w_scene(1)
+for (k in 1:length(firstlines)){
+  d[sceneline[k],k+1]<-paste0('<div type="scene"><head>',d[sceneline[k],k+1],'<head>')
+}
+for (k in 1:length(firstlines)){
+  d[stageline[k],k+1]<-paste0('<stage>',d[stageline[k],k+1],'</stage>')
+}
+all_e<-d2 %>% 
+  xml_find_all('//div/*')
+all_e_p<-d2 %>% 
+  xml_find_all('//div/*') %>%
+  xml_path() #wks. finds all div elements, including p
+d2 %>% 
+  xml_find_all(all_e[201]) %>%
+  xml_text() #wks. finds single elements text, no matter what element
+#order: 22,23scene div[10]div[10]/b / 24,25 div[11]div[11]/i / 26text div/p[3] 
+library(rvest)
+xml_tag(all_e[sceneline[1]])->"head"
+html_name(all_e[sceneline[1]])<-"head"
+xml_attr(all_e[sceneline[1]],"style")<-""
+#attributes(all_e[sceneline[1]])
