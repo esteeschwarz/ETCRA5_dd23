@@ -309,49 +309,51 @@ d<-read.csv("klemmDB001.csv")
 #column per scene: NA,scene,=scene,speaker,=speaker,speaker.text
 #grep first content line
 firstlines<-array()
-k<-2
+#k<-2
 for (k in 1:length(d)){
 m<-which(!is.na(d[,k]))
 firstlines[k]<-m[1]
 }
 firstlines<-firstlines[2:length(firstlines)]
 sceneline<-firstlines
-t_scene<-d$V1[sceneline[1]]
+#t_scene<-d$V1[sceneline[1]]
 
 stageline<-sceneline+2
-t_speaker<-d$V1[speakerline[1]]
-textline<-speakerline+4
-w_scene<-function(k){paste0('<div type="scene"><head>',d[sceneline[k]],'<head>')}
+#t_speaker<-d$V1[speakerline[1]]
+#textline<-speakerline+4
+#w_scene<-function(k){paste0('<div type="scene"><head>',d[sceneline[k]],'<head>')}
 # d$V1[sceneline[1]]<-w_scene(1)
 for (k in 1:length(firstlines)){
   d[sceneline[k],k+1]<-paste0('<div type="scene"><head>',d[sceneline[k],k+1],'<head>')
+  d[sceneline[k]+1,k+1]<-NA
 }
 for (k in 1:length(firstlines)){
   d[stageline[k],k+1]<-paste0('<stage>',d[stageline[k],k+1],'</stage>')
-}
-all_e<-d2 %>% 
-  xml_find_all('//div/*')
-all_e_p<-d2 %>% 
-  xml_find_all('//div/*') %>%
-  xml_path() #wks. finds all div elements, including p
-d2 %>% 
-  xml_find_all(all_e[201]) %>%
-  xml_text() #wks. finds single elements text, no matter what element
-#order: 22,23scene div[10]div[10]/b / 24,25 div[11]div[11]/i / 26text div/p[3] 
-library(rvest)
-xml_tag(all_e[sceneline[1]])->"head"
-html_name(all_e[sceneline[1]])<-"head"
-xml_attr(all_e[sceneline[1]],"style")<-""
+  d[stageline[k]+1,k+1]<-NA
+  }
+# all_e<-d2 %>% 
+#   xml_find_all('//div/*')
+# all_e_p<-d2 %>% 
+#   xml_find_all('//div/*') %>%
+#   xml_path() #wks. finds all div elements, including p
+# d2 %>% 
+#   xml_find_all(all_e[201]) %>%
+#   xml_text() #wks. finds single elements text, no matter what element
+# #order: 22,23scene div[10]div[10]/b / 24,25 div[11]div[11]/i / 26text div/p[3] 
+# library(rvest)
+# xml_tag(all_e[sceneline[1]])->"head"
+# html_name(all_e[sceneline[1]])<-"head"
+# xml_attr(all_e[sceneline[1]],"style")<-""
 #attributes(all_e[sceneline[1]])
 ################################
 #13122.from db
-pb1<-stri_extract_all_regex(d[,2:10],"(\\[[0-9]{1,3}\\])")
+#pb1<-stri_extract_all_regex(d[,2:10],"(\\[[0-9]{1,3}\\])")
 #remove \n
 #restore
-d<-dsf
+#d<-dsf
 regx<-"(^\n)"
 repl<-""
-d2<-gsub(regx,repl,d)
+#d2<-gsub(regx,repl,d)
 rmn<-function(x) gsub(regx,repl,x)
 #rmn<-gsub(regx,repl,d)
 d2<-sapply(d[,2:10], rmn)
@@ -396,16 +398,27 @@ for(k in 1:length(d[,2])){
 pbarray #all pb rows extracted. now if pb at linestart, insert (mv) into preceding (empty, new) line
 library(R.utils)
 p1<-grep("(^\\[[0-9]{1,3}\\])",pbarray)
-p1t<-grep("(^\\[[0-9]{1,3}\\])",pbarray,value = T)
+#p1t<-grep("(^\\[[0-9]{1,3}\\])",pbarray,value = T)
 p1t<-stri_extract_all_regex(pbarray,"(^\\[[0-9]{1,3}\\])")
 
 pba2<-as.vector(d2)
 k<-1
 for (k in 1:length(p1)){
-pba2<-insert(pba2,p1[k],p1t[[p1[k]]])
+  regx<-"(^\\[[0-9]{1,3}\\] ?)"
+  p2<-grep(regx,pba2)
+  p2<-p1+k-1
+  
+    #p1t<-grep("(^\\[[0-9]{1,3}\\])",pb2,value = T)
+#  p1t<-stri_extract_all_regex(pba2,"(^\\[[0-9]{1,3}\\])")
+  p3<-p2+1
+  p1t2<-gsub("\\[|\\]","",p1t[[p1[k]]])
+  pb4<-paste0('<pb no="',p1t2,'"/>')
+  pba2<-insert(pba2,p2[k],pb4)
+  
+  pba2[p3]<-gsub(regx,"",pba2[p3])
 }
-#NO: define position of [xxx] each loop
 pba2[p1[4]]
 p1
 p1t
 pba2
+#### wks.
