@@ -343,3 +343,25 @@ xml_tag(all_e[sceneline[1]])->"head"
 html_name(all_e[sceneline[1]])<-"head"
 xml_attr(all_e[sceneline[1]],"style")<-""
 #attributes(all_e[sceneline[1]])
+################################
+#13122.from db
+pb1<-stri_extract_all_regex(d[,2:10],"(\\[[0-9]{1,3}\\])")
+#remove \n
+regx<-"(^\n)"
+repl<-""
+d<-dsf
+d2<-gsub(regx,repl,d)
+rmn<-function(x) gsub(regx,repl,x)
+rmn<-gsub(regx,repl,d)
+d2<-sapply(d[,2:10], rmn)
+dsf<-d
+d<-d2
+pbarray<-list()
+for(k in 1:length(d[,2])){
+  for (c in 1:length(d)){
+pb2<-grep("(\\[[0-9]{1,3}\\])",d[k,c],value = T)
+if (length(pb2)!=0)
+  pbarray[k]<-pb2
+  }
+}
+pbarray
