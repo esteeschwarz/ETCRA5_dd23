@@ -320,7 +320,7 @@ sceneline<-firstlines
 
 stageline<-sceneline+2
 #t_speaker<-d$V1[speakerline[1]]
-#textline<-speakerline+4
+textline<-firstlines+4
 #w_scene<-function(k){paste0('<div type="scene"><head>',d[sceneline[k]],'<head>')}
 # d$V1[sceneline[1]]<-w_scene(1)
 for (k in 1:length(firstlines)){
@@ -422,3 +422,39 @@ p1
 p1t
 pba2
 #### wks.
+#########
+# df of array
+pbdf<-matrix(pba2,ncol = 9)
+pbdf<-data.frame(pbdf)
+#declare <sp>,wrap <p>
+pbdf[textline[1],1]
+#get speaker
+for (c in 1:length(pbdf)){
+  regx<-"^([A-Za-z]{1,10})\\. ?"
+  repl<-"<speaker>\\1</speaker>"
+ # sp1<-stri_extract_all_regex(pbdf[,c],regx)
+  pbdf[,c]<-gsub(regx,repl,pbdf[,c])
+}
+#### wks. bis auf staged speaker declaration
+#########
+c<-1
+for (c in 1:length(pbdf)){
+  regx<-"((?<=</speaker>)(.*))"
+  repl<-"<p>\\1</p>"
+  sp1<-stri_extract_all_regex(pbdf[,c],regx)
+  pbdf[,c]<-gsub(regx,repl,pbdf[,c],perl = T)
+}
+sp1
+#### wks.
+#########
+c<-1
+for (c in 1:length(pbdf)){
+  t1<-textline[c]
+  t2<-is.na(pbdf[,c])
+  t2<-sceneline[c+1]-1
+  for (r in t1:t2){
+  paste0("<sp>",pbdf[r,c],"</sp>")
+  }
+#  pbdf[,c]<-gsub(regx,repl,pbdf[,c],perl = T)
+}
+
