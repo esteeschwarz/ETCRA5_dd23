@@ -322,7 +322,7 @@ stageline<-sceneline+2
 t_speaker<-d$V1[speakerline[1]]
 textline<-speakerline+4
 w_scene<-function(k){paste0('<div type="scene"><head>',d[sceneline[k]],'<head>')}
-d$V1[sceneline[1]]<-w_scene(1)
+# d$V1[sceneline[1]]<-w_scene(1)
 for (k in 1:length(firstlines)){
   d[sceneline[k],k+1]<-paste0('<div type="scene"><head>',d[sceneline[k],k+1],'<head>')
 }
@@ -347,21 +347,65 @@ xml_attr(all_e[sceneline[1]],"style")<-""
 #13122.from db
 pb1<-stri_extract_all_regex(d[,2:10],"(\\[[0-9]{1,3}\\])")
 #remove \n
+#restore
+d<-dsf
 regx<-"(^\n)"
 repl<-""
-d<-dsf
 d2<-gsub(regx,repl,d)
 rmn<-function(x) gsub(regx,repl,x)
-rmn<-gsub(regx,repl,d)
+#rmn<-gsub(regx,repl,d)
 d2<-sapply(d[,2:10], rmn)
-dsf<-d
+#dsf<-d
 d<-d2
 pbarray<-list()
 for(k in 1:length(d[,2])){
-  for (c in 1:length(d)){
+  for (c in 1:length(d[1,])){
 pb2<-grep("(\\[[0-9]{1,3}\\])",d[k,c],value = T)
 if (length(pb2)!=0)
   pbarray[k]<-pb2
   }
 }
 pbarray
+d<-data.frame(d2)
+regx<-"(\n)"
+repl<-" "
+rmn<-function(x) gsub(regx,repl,x)
+#rmn<-gsub(regx,repl,d)
+d2<-sapply(d[,1:9], rmn)
+dsf<-d
+#d<-d2
+d<-data.frame(d2)
+pbarray<-matrix(nrow = length(d[,2]), ncol = length(d[1,]))
+for(k in 1:length(d[,2])){
+  for (c in 1:length(d[1,])){
+    pb2<-grep("(\\[[0-9]{1,3}\\])",d[k,c],value = T)
+    if (length(pb2)!=0)
+      pbarray[k,c]<-pb2
+  }
+}
+# d<-data.frame(d2)
+# pbarray<-list()
+# for(k in 1:length(d[,2])){
+#   for (c in 1:length(d[1,])){
+#     pb2<-grep("(\\[[0-9]{1,3}\\])",d[k,c],value = T)
+#     if (length(pb2)!=0)
+#       pbarray[[c]]<-pb2
+#   }
+# }
+
+pbarray #all pb rows extracted. now if pb at linestart, insert (mv) into preceding (empty, new) line
+library(R.utils)
+p1<-grep("(^\\[[0-9]{1,3}\\])",pbarray)
+p1t<-grep("(^\\[[0-9]{1,3}\\])",pbarray,value = T)
+p1t<-stri_extract_all_regex(pbarray,"(^\\[[0-9]{1,3}\\])")
+
+pba2<-as.vector(d2)
+k<-1
+for (k in 1:length(p1)){
+pba2<-insert(pba2,p1[k],p1t[[p1[k]]])
+}
+#NO: define position of [xxx] each loop
+pba2[p1[4]]
+p1
+p1t
+pba2
