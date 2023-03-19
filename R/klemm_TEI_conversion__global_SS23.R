@@ -417,37 +417,41 @@ for (k in 1:length(p1)){
   
   pba2[p3]<-gsub(regx,"",pba2[p3])
 }
-pba2[p1[4]]
-p1
-p1t
-pba2
+#pba2[p1[4]]
+#p1
+#p1t
+#pba2
 #### wks.
-#########
+###########################
+###########################
+## THIS >>> ###############
 # df of array
 pbdf<-matrix(pba2,ncol = 9)
 pbdf<-data.frame(pbdf)
 #declare <sp>,wrap <p>
-pbdf[textline[1],1]
+#pbdf[textline[1],1]
 #get speaker
-for (c in 1:length(pbdf)){
-  regx<-"^([A-Za-z]{1,10})\\. ?"
-  repl<-"<speaker>\\1</speaker>"
- # sp1<-stri_extract_all_regex(pbdf[,c],regx)
-  pbdf[,c]<-gsub(regx,repl,pbdf[,c])
-}
+# for (c in 1:length(pbdf)){
+#   regx<-"^([A-Za-z]{1,10})\\. ?"
+#   repl<-"<speaker>\\1</speaker>"
+#  # sp1<-stri_extract_all_regex(pbdf[,c],regx)
+#   pbdf[,c]<-gsub(regx,repl,pbdf[,c])
+# }
 #### wks. bis auf staged speaker declaration
 # again
-c<-1
-regx<-"^([A-Za-z]{1,10})\\. ?"
-sp1<-stri_extract_all_regex(pbdf[,1],regx)
-sp1<-unlist(unique(sp1))
-sp1<-sp1[!is.na(sp1)]
-sp1<-unlist(stri_split(sp1,regex="\\."))
-m<-grep("[A-Za-z]",sp1)
-sp1<-sp1[m]
-sp2<-paste(sp1,collapse = "|")
-sp3<-paste0("^(",sp2,"). ?")
-c<-3
+# c<-1
+# regx<-"^([A-Za-z]{1,10})\\. ?"
+# sp1<-stri_extract_all_regex(pbdf[,1],regx)
+# sp1<-unlist(unique(sp1))
+# sp1<-sp1[!is.na(sp1)]
+# sp1<-unlist(stri_split(sp1,regex="\\."))
+# m<-grep("[A-Za-z]",sp1)
+# sp1<-sp1[m]
+# sp1
+# sp1[length(sp1)+1]<-"Bediente"
+# sp2<-paste(sp1,collapse = "|")
+# sp3<-paste0("^(",sp2,"). ?")
+# c<-3
 for (c in 1:length(pbdf[1,])){
   regx<-"^([A-Za-z]{1,10})\\. ?"
   sp1<-stri_extract_all_regex(pbdf[,c],regx)
@@ -456,27 +460,49 @@ for (c in 1:length(pbdf[1,])){
   sp1<-unlist(stri_split(sp1,regex="\\."))
   m<-grep("[A-Za-z]",sp1)
   sp1<-sp1[m]
-  sp2<-paste(sp1,collapse = "|")
+  sp1[length(sp1)+1]<-"Bediente"
+  
+    sp2<-paste(sp1,collapse = "|")
   #find evtl. stage dir after speaker:
   #chk if char between sp2 and \.
   sp3<-paste0("^((",sp2,"))(.+\\.)")
-  sp4<-stri_extract_all_regex(pbdf[,c],sp3)
-  sp5<-unlist(unique(sp4))
-  sp5<-stri_split(sp5,regex="\\.")
+  #sp4<-stri_extract_all_regex(pbdf[,c],sp3)
+  #sp5<-unlist(unique(sp4))
+  #sp5<-stri_split(sp5,regex="\\.")
   m<-grep(sp3,pbdf[,c],perl = T)
+  pbdf[m,c] #next: isolate speaker / stage before 1st \.
+  #chk for characters between speaker and \.
+  #r1<-"^((?=(Cydalise|Celimene)[^\\.]))(.+?\\.)" #YES.
+  #r1<-"^((?=(Cydalise|Celimene)[^\\.]))(.+?\\.)" #groups:
+  #r1<-"^(?=(Cydalise|Celimene)([^\\.])(.+?\\.))(.+?\\.)"   
+  r1<-paste0("^(?=(",sp2,")([^\\.])(.+?\\.))(.+?\\.)") #YES.
+  m<-grep(r1,pbdf[,c],perl = T)
   pbdf[m,c]
-  m<-gregexec("[A-Za-z]{1,50}",sp5[[20]])
-  m
-  sp5[[19]][1]
-  c
+  pbdf[m,c]<-gsub(r1,"<speaker>\\1</speaker><stage>\\3</stage>",pbdf[m,c],perl = T)
+  #m<-gregexec("[A-Za-z]{1,50}",sp5[[20]])
+  #m
+  #sp5[[19]][1]
+  #c
+  #
   sp3<-paste0("^(",sp2,"). ?")
-  
+  c
      #regx<-"^([A-Za-z]{1,10})\\. ?"
   # regx<-sp3
    repl<-"<speaker>\\1</speaker>"
   # sp1<-stri_extract_all_regex(pbdf[,c],regx)
   pbdf[,c]<-gsub(sp3,repl,pbdf[,c])
+  r1<-"(</speaker>|</stage>)(.*)"
+  m<-grep(r1,pbdf[,c],perl = T)
+  pbdf[m,c]
+  pbdf[m,c]<-gsub(r1,"\\1<p>\\2</p>",pbdf[m,c],perl = T)
+  
 }
+
+getwd()
+write.csv(pbdf,"klemmDB002.csv")
+##############################################
+##############################################
+## <<<<< #####################################
 c
 #########
 c<-1
