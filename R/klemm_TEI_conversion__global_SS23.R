@@ -436,6 +436,48 @@ for (c in 1:length(pbdf)){
   pbdf[,c]<-gsub(regx,repl,pbdf[,c])
 }
 #### wks. bis auf staged speaker declaration
+# again
+c<-1
+regx<-"^([A-Za-z]{1,10})\\. ?"
+sp1<-stri_extract_all_regex(pbdf[,1],regx)
+sp1<-unlist(unique(sp1))
+sp1<-sp1[!is.na(sp1)]
+sp1<-unlist(stri_split(sp1,regex="\\."))
+m<-grep("[A-Za-z]",sp1)
+sp1<-sp1[m]
+sp2<-paste(sp1,collapse = "|")
+sp3<-paste0("^(",sp2,"). ?")
+c<-3
+for (c in 1:length(pbdf[1,])){
+  regx<-"^([A-Za-z]{1,10})\\. ?"
+  sp1<-stri_extract_all_regex(pbdf[,c],regx)
+  sp1<-unlist(unique(sp1))
+  sp1<-sp1[!is.na(sp1)]
+  sp1<-unlist(stri_split(sp1,regex="\\."))
+  m<-grep("[A-Za-z]",sp1)
+  sp1<-sp1[m]
+  sp2<-paste(sp1,collapse = "|")
+  #find evtl. stage dir after speaker:
+  #chk if char between sp2 and \.
+  sp3<-paste0("^((",sp2,"))(.+\\.)")
+  sp4<-stri_extract_all_regex(pbdf[,c],sp3)
+  sp5<-unlist(unique(sp4))
+  sp5<-stri_split(sp5,regex="\\.")
+  m<-grep(sp3,pbdf[,c],perl = T)
+  pbdf[m,c]
+  m<-gregexec("[A-Za-z]{1,50}",sp5[[20]])
+  m
+  sp5[[19]][1]
+  c
+  sp3<-paste0("^(",sp2,"). ?")
+  
+     #regx<-"^([A-Za-z]{1,10})\\. ?"
+  # regx<-sp3
+   repl<-"<speaker>\\1</speaker>"
+  # sp1<-stri_extract_all_regex(pbdf[,c],regx)
+  pbdf[,c]<-gsub(sp3,repl,pbdf[,c])
+}
+c
 #########
 c<-1
 for (c in 1:length(pbdf)){
