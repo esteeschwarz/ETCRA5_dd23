@@ -12,7 +12,7 @@
 #1.abstract:
 #TEI declaration of wikisource dramatext for further processing
 getwd()
-setwd("/Users/lion/boxHKW/21S/DH")
+#setwd("/Users/lion/boxHKW/21S/DH")
 #src<-"~/boxHKW/21S/DH/gith/DH_essais/data/corpus/klemm_besuch/klemm_TEI.xml"
 #src<-"~/boxHKW/21S/DH/gith/DH_essais/data/corpus/klemm_besuch/klemm_TEI_wikiraw.xml"
 #src<-"https://raw.githubusercontent.com/esteeschwarz/DH_essais/main/data/corpus/klemm_besuch/klemm(1765)_clean.txt"
@@ -48,10 +48,11 @@ getwd()
 #lapsi
 setwd("~/Documents/GitHub/ETCRA5_dd23/R")
 #ewa
-setwd("~/Documents/GIT/ETCRA5_dd23/R")
+#setwd("~/Documents/GIT/ETCRA5_dd23/R")
 #mini
-setwd("gith/ETCRA5_dd23/R")
+#setwd("gith/ETCRA5_dd23/R")
 
+deprfun<-function(){
 #dta2<-read_xml("local/EXC2020/DD23/data/c0_Der_Besuch__Klemm_.xhtml") #xml extracted from epub
 dta2<-read_xml("data/c0_Der_Besuch_Klemm_wsource_epub.xml") #xml extracted from epub
 #this presumes a preformatted wikisource text with speaker and scene formatting in plain html,
@@ -201,40 +202,42 @@ txtall_b<-xml_text(all_b)
 sp1<-paste0("<speaker>",txtall_b,"</speaker>")
 sp1
 xml_text(all_b)<-sp1
-
+}#end deprecated
 ####################
 #reset xml
 src<-"data/c0_Der_Besuch_Klemm_wsource_epub.xml"
-dta2<-read_xml("data/c0_Der_Besuch_Klemm_wsource_epub.xml") #xml extracted from epub
-data<-dta2
-data %>% xml_ns()
-data%>% xml_ns_strip()
-data_sf<-data
+# dta2<-read_xml("data/c0_Der_Besuch_Klemm_wsource_epub.xml") #xml extracted from epub
+# data<-dta2
+# data %>% xml_ns()
+# data%>% xml_ns_strip()
+# data_sf<-data
 
 
 
-all_p<- data %>%
-  xml_find_all('//div/p')
-xml_text(all_p)
-txtall_p<-xml_text(all_p)
-txtall_p[4] #includes speaker declaration, i.e. first wrap speaker, then p
-regx2<-"\n"
-all_p_n<-gsub(regx2," ",data %>%
-       xml_find_all('//div/p'),perl = T)
-x2<-(all_p_n)
-xml_text(all_p)<-x2
+# all_p<- data %>%
+#   xml_find_all('//div/p')
+# xml_text(all_p)
+# txtall_p<-xml_text(all_p)
+# txtall_p[4] #includes speaker declaration, i.e. first wrap speaker, then p
+# regx2<-"\n"
+# all_p_n<-gsub(regx2," ",data %>%
+#        xml_find_all('//div/p'),perl = T)
+# x2<-(all_p_n)
+# xml_text(all_p)<-x2
 ###
-data %>%
-  xml_find_all('//div[14]')%>%xml_text()
+# data %>%
+#   xml_find_all('//div[14]')%>%xml_text()
+
 d2<-read_html(src)
-d2 %>%
-  xml_find_all('//body/section/div')%>%xml_text()
+# d2 %>%
+#   xml_find_all('//body/section/div')%>%xml_text()
+#all elements##
 all_e<-d2 %>% 
   xml_find_all('//div/*') %>%
   xml_path() #wks. finds all div elements, including p
-d2 %>% 
-  xml_find_all(all_e[201]) %>%
-  xml_text() #wks. finds single elements text, no matter what element
+# d2 %>% 
+#   xml_find_all(all_e[201]) %>%
+#   xml_text() #wks. finds single elements text, no matter what element
 #order: 22,23scene div[10]div[10]/b / 24,25 div[11]div[11]/i / 26text div/p[3] 
 #i.e.: 
 # 1. find first b which is act head
@@ -250,12 +253,12 @@ for (k in 1:length(allscenes)){
   #levels(allscenes[k])<-2,levels(allscenes[k])<-1)
 #t1[k]<-2,t1[k]<-1)
   }
-t1<-t1[2:length(t1)] #excluded instances where the regex appears in text
+t1<-t1[2:length(t1)] 
 t1
 k<-1
-d2 %>% 
-  xml_find_all(all_e[t1[1]]) %>%
-  xml_text() #wks. all scene headings
+# d2 %>% 
+#   xml_find_all(all_e[t1[1]]) %>%
+#   xml_text() #wks. all scene headings
 tx4<-data.frame()
 
 for(k in 1:length(t1)){
@@ -269,33 +272,34 @@ for(k in 1:length(t1)){
   tx2<-d2 %>% 
     xml_find_all(all_e[t]) %>%
     xml_text()
-  tx3<-paste0("<div>",tx2,"</div>")
-  tx4[t,k]<-tx3
+  tx3<-paste0("<div>",tx2,"</div>") #NO
+  tx3<-tx2
+   tx4[t,k]<-tx3
   }} #wks. dataframe of text along section/divs
 getwd()
-write.csv(tx1,"klemmDB001.csv")
+#write.csv(tx1,"klemmDB001.csv")
 # #levels(allscenes)
 # t2<-(drop(array(allscenes,dim=t1)))
 # t2
 allscenes
 
-regx1<-"((?<=</speaker>)(.*))"
-repl1<-"<p>\\2</p>"
-txtall_p<-xml_text(all_p)
-grep(regx1,txtall_p[4],perl = T,value = T)
-x<-gsub(regx1,repl1,txtall_p[4],perl = T)
-x
-x<-gsub(regx1,repl1,x2,perl = T)
-x[4]
-x3<-paste0("<sp>",x,"</sp>")
-x3[4] #all speechacts wrapped
+# regx1<-"((?<=</speaker>)(.*))"
+# repl1<-"<p>\\2</p>"
+# txtall_p<-xml_text(all_p)
+# grep(regx1,txtall_p[4],perl = T,value = T)
+# x<-gsub(regx1,repl1,txtall_p[4],perl = T)
+# x
+# x<-gsub(regx1,repl1,x2,perl = T)
+# x[4]
+# x3<-paste0("<sp>",x,"</sp>")
+# x3[4] #all speechacts wrapped
 
 ############################################
 # 1.wrap speaker, scene, scenespeaker
 # del \n
 
 #txt<-html_nodes(dta1,xpath = xpathkl) %>%html_text()
-xml_find_all(dta2,xpathkl)
+#xml_find_all(dta2,xpathkl)
 #library(stringi)
 library(clipr)
 #library(xml2)
@@ -304,7 +308,11 @@ library(stringr)
 #set<-txt
 #########
 # declaration from DB source created above
-d<-read.csv("klemmDB001.csv")
+#d<-read.csv("klemmDB001.csv")
+s<-2 #first column = first scene, 
+#from tx4 db created above
+d<-tx4
+s<-1 #first column 1 with tx4 db
 #scheme of DB:
 #column per scene: NA,scene,=scene,speaker,=speaker,speaker.text
 #grep first content line
@@ -314,7 +322,7 @@ for (k in 1:length(d)){
 m<-which(!is.na(d[,k]))
 firstlines[k]<-m[1]
 }
-firstlines<-firstlines[2:length(firstlines)]
+firstlines<-firstlines[s:length(firstlines)]
 sceneline<-firstlines
 #t_scene<-d$V1[sceneline[1]]
 
@@ -323,14 +331,23 @@ stageline<-sceneline+2
 textline<-firstlines+4
 #w_scene<-function(k){paste0('<div type="scene"><head>',d[sceneline[k]],'<head>')}
 # d$V1[sceneline[1]]<-w_scene(1)
-for (k in 1:length(firstlines)){
-  d[sceneline[k],k+1]<-paste0('<div type="scene"><head>',d[sceneline[k],k+1],'<head>')
-  d[sceneline[k]+1,k+1]<-NA
+# for (k in 1:length(firstlines)){
+#   d[sceneline[k],k+1]<-paste0('<div type="scene"><head>',d[sceneline[k],k+1],'<head>')
+#   d[sceneline[k]+1,k+1]<-NA
+# }
+# for (k in 1:length(firstlines)){
+#   d[stageline[k],k+1]<-paste0('<stage>',d[stageline[k],k+1],'</stage>')
+#   d[stageline[k]+1,k+1]<-NA
+#   }
+for (k in s:length(firstlines)){
+  d[sceneline[k],k]<-paste0('<div type="scene"><head>',d[sceneline[k],k],'<head>')
+  d[sceneline[k]+1,k]<-NA
 }
-for (k in 1:length(firstlines)){
-  d[stageline[k],k+1]<-paste0('<stage>',d[stageline[k],k+1],'</stage>')
-  d[stageline[k]+1,k+1]<-NA
-  }
+for (k in s:length(firstlines)){
+  d[stageline[k],k]<-paste0('<stage>',d[stageline[k],k],'</stage>')
+  d[stageline[k]+1,k]<-NA
+}
+
 # all_e<-d2 %>% 
 #   xml_find_all('//div/*')
 # all_e_p<-d2 %>% 
@@ -356,7 +373,7 @@ repl<-""
 #d2<-gsub(regx,repl,d)
 rmn<-function(x) gsub(regx,repl,x)
 #rmn<-gsub(regx,repl,d)
-d2<-sapply(d[,2:10], rmn)
+d2<-sapply(d[,s:length(d)], rmn)
 #dsf<-d
 d<-d2
 pbarray<-list()
@@ -367,13 +384,13 @@ if (length(pb2)!=0)
   pbarray[k]<-pb2
   }
 }
-pbarray
+#pbarray
 d<-data.frame(d2)
-regx<-"(\n)"
+regx<-"(\n)" 
 repl<-" "
 rmn<-function(x) gsub(regx,repl,x)
 #rmn<-gsub(regx,repl,d)
-d2<-sapply(d[,1:9], rmn)
+d2<-sapply(d[,s:length(d)], rmn)
 dsf<-d
 #d<-d2
 d<-data.frame(d2)
@@ -395,9 +412,9 @@ for(k in 1:length(d[,2])){
 #   }
 # }
 
-pbarray #all pb rows extracted. now if pb at linestart, insert (mv) into preceding (empty, new) line
+#pbarray #all pb rows extracted. now if pb at linestart, insert (mv) into preceding (empty, new) line
 library(R.utils)
-p1<-grep("(^\\[[0-9]{1,3}\\])",pbarray)
+p1<-grep("(^\\[[0-9]{1,3}\\])",pbarray) #grep all [123]
 #p1t<-grep("(^\\[[0-9]{1,3}\\])",pbarray,value = T)
 p1t<-stri_extract_all_regex(pbarray,"(^\\[[0-9]{1,3}\\])")
 
@@ -460,8 +477,14 @@ for (c in 1:length(pbdf[1,])){
   sp1<-unlist(stri_split(sp1,regex="\\."))
   m<-grep("[A-Za-z]",sp1)
   sp1<-sp1[m]
-  sp1[length(sp1)+1]<-"Bediente"
-  
+  #############
+  #THIS to declare individually in header by piece, 
+  #intends to grep speaker definitions which differ (characters) from
+  #declaration in scene personae or are not introduced at all according to
+  #the scheme.
+  #
+    sp1[length(sp1)+1]<-"Bediente"  
+  #############
     sp2<-paste(sp1,collapse = "|")
   #find evtl. stage dir after speaker:
   #chk if char between sp2 and \.
@@ -495,8 +518,16 @@ for (c in 1:length(pbdf[1,])){
   m<-grep(r1,pbdf[,c],perl = T)
   pbdf[m,c]
   pbdf[m,c]<-gsub(r1,"\\1<p>\\2</p>",pbdf[m,c],perl = T)
+  r1<-"^(<speaker>)"
+  m<-grep(r1,pbdf[,c])
+  pbdf[m,c]<-paste0("<sp>",pbdf[m,c],"</sp>")
   
 }
+# for (c in 1:length(pbdf)){
+#   regx<-"^(<speaker>)"
+#   m<-grep(regx,pbdf[,c])
+#   pbdf[m,c]<-paste0("<sp>",pbdf[m,c],"</sp>")
+# }
 
 getwd()
 write.csv(pbdf,"klemmDB002.csv")
@@ -506,23 +537,20 @@ write.csv(pbdf,"klemmDB002.csv")
 c
 #########
 c<-1
-for (c in 1:length(pbdf)){
-  regx<-"((?<=</speaker>)(.*))"
-  repl<-"<p>\\1</p>"
-  sp1<-stri_extract_all_regex(pbdf[,c],regx)
-  pbdf[,c]<-gsub(regx,repl,pbdf[,c],perl = T)
-}
 sp1
 #### wks.
 #########
-c<-1
-for (c in 1:length(pbdf)){
-  t1<-textline[c]
-  t2<-is.na(pbdf[,c])
-  t2<-sceneline[c+1]-1
-  for (r in t1:t2){
-  paste0("<sp>",pbdf[r,c],"</sp>")
-  }
-#  pbdf[,c]<-gsub(regx,repl,pbdf[,c],perl = T)
-}
+c<-9
+
+# for (c in 1:length(pbdf)){
+#   t1<-textline[c]
+#   #t2<-is.na(pbdf[,c])
+#   t2<-sceneline[c+1]-1
+#   if (c<length(pbdf))
+#     t2<-sceneline[c+1]-1
+#   for (r in t1:t2){
+#   pbdf[,c]<-paste0("<sp>",pbdf[r,c],"</sp>")
+#   }
+#   #pbdf[,c]<-gsub(regx,repl,pbdf[,c],perl = T)
+# }
 
