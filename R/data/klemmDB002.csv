@@ -22,7 +22,7 @@
 "21",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "22","<div type=""scene""><head>Erster Auftritt.<head>",NA,NA,NA,NA,NA,NA,NA,NA
 "23",NA,NA,NA,NA,NA,NA,NA,NA,NA
-"24","<stage>Celimene, Finette.</stage><p></p>",NA,NA,NA,NA,NA,NA,NA,NA
+"24","<stage>Celimene, Finette.</stage>",NA,NA,NA,NA,NA,NA,NA,NA
 "25",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "26","<sp><speaker>Celimene</speaker><p>Siehst du nun, wie behutsam man mit den Mannspersonen umgehen muß? Wie lange man sie für rechtschaffen, für zärtlich, für beständig halten kann? und auf einmal ist der Verräther da. Alle sind Verräther, alle Mannspersonen. Wie sehr danke ich dem Himmel, daß ich Erasten nunmehro meine Hand nicht schon vor einem Vierteljahre gegeben habe. [578] Itzt wäre ich wieder so elend, so unglücklich, wie in meiner ersten Ehe. Und ich habe es noch nicht einmal meiner Klugheit zu danken, ein Zufall hat seine Gemüthsart aufgedecket. Du hast Wunder gedacht, wie gut du Erasten kennst. Nicht wahr, du hast dich betrogen?</p></sp>",NA,NA,NA,NA,NA,NA,NA,NA
 "27","<sp><speaker>Finette</speaker><p>Ich gestehe es ihr Gnaden, ich hätte Häuser auf den Erast bauen wollen. Er war immer so sanftmüthig wie ein Lamm, er hat sich ja gewunden, gedreht. Auf diese Art sind freylich die Mannsbilder keinen Kreutzer werth. Der Erast, das fromme Lämmel.</p></sp>",NA,NA,NA,NA,NA,NA,NA,NA
@@ -48,7 +48,7 @@
 "47","<sp><speaker>Celimene</speaker><p>Nun so geh, ich werde dir schon läuten, wenn ich dich brauche.</p></sp>",NA,NA,NA,NA,NA,NA,NA,NA
 "48","","<div type=""scene""><head>Zweyter Auftritt.<head>",NA,NA,NA,NA,NA,NA,NA
 "49",NA,NA,NA,NA,NA,NA,NA,NA,NA
-"50",NA,"<stage>Chlorinde und Celimene.</stage><p></p>",NA,NA,NA,NA,NA,NA,NA
+"50",NA,"<stage>Chlorinde und Celimene.</stage>",NA,NA,NA,NA,NA,NA,NA
 "51",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "52",NA,"<sp><speaker>Celimene</speaker><p>Willkommen meine liebe Fräulein, ha das ist recht brav, daß sie mir die Ehre erweisen –</p></sp>",NA,NA,NA,NA,NA,NA,NA
 "53",NA,"<sp><speaker>Chlorinde</speaker><p>Ihre Dienerin, gnädige Frau. Das ist ja wieder ein elendes Wetter, es ist als wenn wir diesen Sommer gar keinen schönen Tag zu sehn kriegen könnten.</p></sp>",NA,NA,NA,NA,NA,NA,NA
@@ -71,7 +71,7 @@
 "70",NA,"<sp><speaker>Chlorinde</speaker><p>Diese Lobrede hatte ich nicht vermuthet. Allein so belebt er auch in ihren Augen seyn mag, so ist er doch ein gefährlicher Mensch, ein Freygeist, für den sich jedes Frauenzimmer in Acht nehmen sollte, die ihre Ehre lieb hat. Wer kömmt denn da? Gott vergieb mir meine Sünde, das ist ja Cydalise.</p></sp>",NA,NA,NA,NA,NA,NA,NA
 "71",NA,"","<div type=""scene""><head>Dritter Auftritt.<head>",NA,NA,NA,NA,NA,NA
 "72",NA,NA,NA,NA,NA,NA,NA,NA,NA
-"73",NA,NA,"<stage>Chlorinde, Celimene, Cydalise.</stage><p></p>",NA,NA,NA,NA,NA,NA
+"73",NA,NA,"<stage>Chlorinde, Celimene, Cydalise.</stage>",NA,NA,NA,NA,NA,NA
 "74",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "75",NA,NA,"<sp><speaker>Celimene</speaker><p>Seyn sie tausendmal willkommen, mein lieber Schatz.</p></sp>",NA,NA,NA,NA,NA,NA
 "76",NA,NA,"<sp><speaker>Chlorinde</speaker><p>O meine englische Cydalise, lassen sie sich ein Bussel geben, recht lange habe ich sie nicht gesehn. Sie sind doch immer noch meine liebwertheste Freundin?</p></sp>",NA,NA,NA,NA,NA,NA
@@ -97,7 +97,7 @@
 "96",NA,NA,"<sp><speaker>Cydalise</speaker><p><stage>spöttisch.</stage> Vielleicht muß man ihnen dazu Glück wünschen, gnädige Frau. Der Damis – –</p></sp>",NA,NA,NA,NA,NA,NA
 "97",NA,NA,"","<div type=""scene""><head>Vierter Auftritt.<head>",NA,NA,NA,NA,NA
 "98",NA,NA,NA,NA,NA,NA,NA,NA,NA
-"99",NA,NA,NA,"<stage>Damis und die vorigen.</stage><p></p>",NA,NA,NA,NA,NA
+"99",NA,NA,NA,"<stage>Damis und die vorigen.</stage>",NA,NA,NA,NA,NA
 "100",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "101",NA,NA,NA,"<sp><speaker>Damis</speaker><p>Ich habe meinen Namen nennen hören – Ha – Was – – In der That – –</p></sp>",NA,NA,NA,NA,NA
 "102",NA,NA,NA,"<sp><speaker>Celimene</speaker><p>Willkommen Herr Damis! Was fehlt ihnen?</p></sp>",NA,NA,NA,NA,NA
@@ -134,7 +134,7 @@
 "133",NA,NA,NA,"<pb no=""587""/>",NA,NA,NA,NA,NA
 "134",NA,NA,NA,"","<div type=""scene""><head>Fünfter Auftritt.<head>",NA,NA,NA,NA
 "135",NA,NA,NA,NA,NA,NA,NA,NA,NA
-"136",NA,NA,NA,NA,"<stage>Die vorigen und Erast.</stage><p></p>",NA,NA,NA,NA
+"136",NA,NA,NA,NA,"<stage>Die vorigen und Erast.</stage>",NA,NA,NA,NA
 "137",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "138",NA,NA,NA,NA,"<sp><speaker>Erast</speaker><p>O Gott! was sehe ich? Ich – ha – habe – –</p></sp>",NA,NA,NA,NA
 "139",NA,NA,NA,NA,"<sp><speaker>Celimene</speaker><p>Kommen sie Erast? Nun das freut mich.</p></sp>",NA,NA,NA,NA
@@ -153,13 +153,13 @@
 "152",NA,NA,NA,NA,"<sp><speaker>Celimene</speaker><p>Warum? weil man ihr Vergnügen befördert? Ich habe mir deswegen ein recht verbindliches Compliment von ihnen versprochen. (Welcher Triumph für dein gekränktes Herz, Celimene!)</p></sp>",NA,NA,NA,NA
 "153",NA,NA,NA,NA,"","<div type=""scene""><head>Sechster Auftritt.<head>",NA,NA,NA
 "154",NA,NA,NA,NA,NA,NA,NA,NA,NA
-"155",NA,NA,NA,NA,NA,"<stage>Ein Bedienter und die vorigen.</stage><p></p>",NA,NA,NA
+"155",NA,NA,NA,NA,NA,"<stage>Ein Bedienter und die vorigen.</stage>",NA,NA,NA
 "156",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "157",NA,NA,NA,NA,NA,"<sp><speaker>Bediente</speaker><p><stage>zu Celimenen.</stage> Ihr Gnaden, es ist der Laquey von der Hofräthin da, und hat eine Post an ihr Gnaden.</p></sp>",NA,NA,NA
 "158",NA,NA,NA,NA,NA,"<sp><speaker>Celimene</speaker><p>Ich bitte unterthänig, bleiben sie, meine lieben Fräulein, ich werde gleich wieder aufwarten.</p></sp>",NA,NA,NA
 "159",NA,NA,NA,NA,NA,"","<div type=""scene""><head>Siebenter Auftritt.<head>",NA,NA
 "160",NA,NA,NA,NA,NA,NA,NA,NA,NA
-"161",NA,NA,NA,NA,NA,NA,"<stage>Cydalise, Damis, Chlorinde und Erast.</stage><p></p>",NA,NA
+"161",NA,NA,NA,NA,NA,NA,"<stage>Cydalise, Damis, Chlorinde und Erast.</stage>",NA,NA
 "162",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "163",NA,NA,NA,NA,NA,NA,"<sp><speaker>Chlorinde</speaker><p>A propos, Herr Erast! Herr Damis ist ein Bräutigam.</p></sp>",NA,NA
 "164",NA,NA,NA,NA,NA,NA,"<sp><speaker>Erast</speaker><p>So?</p></sp>",NA,NA
@@ -178,7 +178,7 @@
 "177",NA,NA,NA,NA,NA,NA,"<sp><speaker>Damis</speaker><p>Ich freue mich, wenn ich ihren Beyfall habe.</p></sp>",NA,NA
 "178",NA,NA,NA,NA,NA,NA,"","<div type=""scene""><head>Achter Auftritt.<head>",NA
 "179",NA,NA,NA,NA,NA,NA,NA,NA,NA
-"180",NA,NA,NA,NA,NA,NA,NA,"<stage>Celimene und die vorigen.</stage><p></p>",NA
+"180",NA,NA,NA,NA,NA,NA,NA,"<stage>Celimene und die vorigen.</stage>",NA
 "181",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "182",NA,NA,NA,NA,NA,NA,NA,"<sp><speaker>Celimene</speaker><p>Ich bitte um Vergebung, meine Fräulein. Nun so lassen sie uns denn miteinander plaudern. Damis, sie sind ja sonst ein fruchtbarer Kopf. Erzählen sie uns doch etwas.</p></sp>",NA
 "183",NA,NA,NA,NA,NA,NA,NA,"<sp><speaker>Cydalise</speaker><p>Ich bitte um Vergebung, ich muß nach Hause, ich danke ihnen für die Ehre, die sie mir haben erzeigen wollen. Die Ehre war recht groß, recht groß. Kommen sie, Erast.</p></sp>",NA
@@ -198,7 +198,7 @@
 "197",NA,NA,NA,NA,NA,NA,NA,"<sp><speaker>Celimene</speaker><p>Auch das von den Prüden, wenn ich bitten darf.</p></sp>",NA
 "198",NA,NA,NA,NA,NA,NA,NA,"","<div type=""scene""><head>Neunter Auftritt.<head>"
 "199",NA,NA,NA,NA,NA,NA,NA,NA,NA
-"200",NA,NA,NA,NA,NA,NA,NA,NA,"<stage>Cydalise [Korrektur: Celimene], Erast, Damis.</stage><p></p>"
+"200",NA,NA,NA,NA,NA,NA,NA,NA,"<stage>Cydalise [Korrektur: Celimene], Erast, Damis.</stage>"
 "201",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "202",NA,NA,NA,NA,NA,NA,NA,NA,"<sp><speaker>Celimene</speaker><p>Wie gefiel ihnen dieser Auftritt, Herr Damis?</p></sp>"
 "203",NA,NA,NA,NA,NA,NA,NA,NA,"<sp><speaker>Damis</speaker><p>Unvergleichlich, ihr Gnaden. Erast, was Henker! du siehst aus, als wenn du verrückt wärest? Du wirst den Teufel kriegen, wenn du zu Cydalisen kömmst. Schau doch, was wir für einen Wechsel getroffen [591] haben; ich machte Anfangs meine Aufwartung der Cydalise, und du der gnädigen Frau da. Itzt wird die Fräulein Cydalise deine Gemahlin, und die gnädige Frau meine. Ich bin mit dem Tausch zufrieden.</p></sp>"
@@ -220,7 +220,7 @@
 "219",NA,NA,NA,NA,NA,NA,NA,NA,"Ende des Lustspiels."
 "220",NA,NA,NA,NA,NA,NA,NA,NA,"Ende des Lustspiels."
 "221",NA,NA,NA,NA,NA,NA,NA,NA,"<sp><speaker>K</speaker><p>     </p></sp>"
-"222",NA,NA,NA,NA,NA,NA,NA,NA,"<sp><speaker>K</speaker><p></p></sp>"
+"222",NA,NA,NA,NA,NA,NA,NA,NA,"<sp><speaker>K</speaker></sp>"
 "223",NA,NA,NA,NA,NA,NA,NA,NA," "
 "224",NA,NA,NA,NA,NA,NA,NA,NA," "
 "225",NA,NA,NA,NA,NA,NA,NA,NA," "
