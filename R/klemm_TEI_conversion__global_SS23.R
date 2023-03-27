@@ -55,6 +55,7 @@ getwd()
 src<-"https://raw.githubusercontent.com/esteeschwarz/ETCRA5_dd23/main/R/data/c0_Der_Besuch_Klemm_wsource_epub.xml"
 #src<-"data/c0_Der_Besuch_Klemm_wsource_epub.xml"
 d2<-read_html(src)
+d3<-d2
 ####all elements##
 all_e<-d2 %>% 
   xml_find_all('//div/*') %>%
@@ -62,8 +63,70 @@ all_e<-d2 %>%
 regx1<-"(Akt|Auftritt|Szene|Scene)"
 allscenes<-grep(regx1,d2%>%xml_find_all('//div/*') %>%
          xml_text())
+#### 13131.
+# find lines to change in divs:
+all_sc_b
+all_e
+
+tdiv<-d2 %>% 
+  xml_find_all('//div/*') %>%
+  xml_text()
+tdiv[r_b]
+length(d3$node)
+d3 %>% 
+  xml_find_all(paste0(all_e,"/b"))
+xml_find_all(all_e) %>%
+  xml_text()
+
+regx<-"\\]/b"
+r_b<-d2 %>% 
+  xml_find_all('//div/*') %>% xml_path()%>% 
+  grep(pattern=regx)
+regx<-"\\]/i"
+r_i<-d2 %>% 
+  xml_find_all('//div/*') %>% xml_path()%>% 
+  grep(pattern=regx)
+regx<-"/p"
+r_p<-d2 %>% 
+  xml_find_all('//div/*') %>% xml_path()%>% 
+  grep(pattern=regx)
+r_t<-d2%>%xml_find_all('//div/*')%>%xml_attr("style")
+r_t_s<-grep(pattern="text-align",r_t)
+
+all_e
+xml_text(all_e)
+xml_find_all('//div/*')
+all_e[r_b]
+d2 %>% 
+  xml_find_all('//div/*')[r_b]
+d2 %>% 
+  xml_find_all('//div/*')
+d2 %>% 
+  xml_find_all(all_e[r_b[6]]) %>% xml_text()
+d2 %>% 
+  xml_find_all(all_e[r_b_head[10]]) %>% xml_text()
+d2 %>% 
+  xml_find_all(all_e[r_i_sp[9]]) %>% xml_text()
+d2 %>% 
+  xml_find_all(all_e[r_p[161]]) %>% xml_text()
+d2 %>% 
+  xml_find_all(all_e[r_t_s[7]]) %>% xml_text()
+
+firstlines_2
+r_b[6]
+r_b
+r_b_head<-r_b[7:15]
+firstlines<-r_b_head #all scene head lines
+r_i_sp<-r_i[2:10] 
+stageline<-r_i_sp #all scene speaker stage lines
+r_p_txt<-r_p[3:length(r_p)]
+textline<-r_p_txt
 t1<-array()
 #k<-1
+#chk length:
+chkl<-length(r_b)+length(r_i)+length(r_p)
+chkl<-length(firstlines)+length(stageline)+length(textline)
+df_scenes<-data.frame(row=1:length(all_e))
 for (k in 1:length(allscenes)){
   ifelse (allscenes[k+1]-allscenes[k]==1,
     t1<-append(t1,allscenes[k],after = length(t1)),f<-1)
@@ -103,16 +166,22 @@ s<-1 #first column 1 with tx4 db
 #column per scene: NA,scene,=scene,speaker,=speaker,speaker.text
 #grep first content line
 firstlines<-array()
-#k<-2
-for (k in 1:length(d)){
-m<-which(!is.na(d[,k]))
-firstlines[k]<-m[1]
-}
-firstlines<-firstlines[s:length(firstlines)]
-sceneline<-firstlines
-stageline<-sceneline+2
-textline<-firstlines+4
+r_b_head
+firstlines
+stageline
+textline
 
+#k<-2
+#depr###
+# for (k in 1:length(d)){
+# m<-which(!is.na(d[,k]))
+# firstlines[k]<-m[1]
+# }
+# firstlines<-firstlines[s:length(firstlines)]
+# sceneline<-firstlines
+# stageline<-sceneline+2
+# textline<-firstlines+4
+###
 for (k in s:length(firstlines)){
   d[sceneline[k],k]<-paste0('<div type="scene"><head>',d[sceneline[k],k],'<head>')
   d[sceneline[k]+1,k]<-NA
