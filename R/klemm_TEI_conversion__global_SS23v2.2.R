@@ -278,8 +278,10 @@ m4
 m5<-grep("<sp>",pbdf$tei1[m4-1])
 pbdf$tei1[m4-1][m5]<-paste0(pbdf$tei1[m4-1][m5],"</div>")
 ###########
+#TODO: book head, front, last lines
 
 getwd()
 wdir<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/R"
 write.csv(pbdf,paste(wdir,"data","klemmDB002b.csv",sep = "/"))
+
 
