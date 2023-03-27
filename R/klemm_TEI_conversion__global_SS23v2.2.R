@@ -67,16 +67,6 @@ all_e<-d2 %>%
 # find lines to change in divs:
 #all_sc_b
 all_e
-# 
-# tdiv<-d2 %>% 
-#   xml_find_all('//div/*') %>%
-#   xml_text()
-# tdiv[r_b]
-# #length(d3$node)
-# d3 %>% 
-#   xml_find_all(paste0(all_e,"/b"))
-# xml_find_all(all_e) %>%
-#   xml_text()
 
 regx<-"\\]/b"
 r_b<-d2 %>% 
@@ -204,35 +194,6 @@ for (k in 1:length(r_b_head)){
   df_scenes[r0_stage,"pb2"]<-paste0('<stage>',df_scenes[r0_stage,"pb2"],'</stage>')
 }
 ################################
-#13122.from db
-#pagebreaks array
-# pbarray<-list()
-# for(k in 1:length(d[,2])){
-#   for (c in 1:length(d[1,])){
-#     pb2<-grep("(\\[[0-9]{1,3}\\])",d[k,c],value = T)
-#     if (length(pb2)!=0)
-#       pbarray[k]<-pb2
-#   }
-# }
-# #pbarray
-# #pbarray #all pb rows extracted. now if pb at linestart, insert (mv) into preceding (empty, new) line
-# p1<-grep("(^\\[[0-9]{1,3}\\])",pbarray) #grep all [123]
-# #p1t<-grep("(^\\[[0-9]{1,3}\\])",pbarray,value = T)
-# p1t<-stri_extract_all_regex(pbarray,"(^\\[[0-9]{1,3}\\])")
-# 
-# pba2<-as.vector(d2)
-# k<-1
-# for (k in 1:length(p1)){
-#   regx<-"(^\\[[0-9]{1,3}\\] ?)"
-#   p2<-grep(regx,pba2)
-#   p2<-p1+k-1
-#   p3<-p2+1
-#   p1t2<-gsub("\\[|\\]","",p1t[[p1[k]]])
-#   pb4<-paste0('<pb no="',p1t2,'"/>')
-#   pba2<-insert(pba2,p2[k],pb4)
-#   
-#   pba2[p3]<-gsub(regx,"",pba2[p3])
-# }
 #### wks.
 ###########################
 ###########################
@@ -292,6 +253,23 @@ d
 
 getwd()
 wdir<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/R"
-#write.csv(pbdf,paste(wdir,"data","klemmDB002b.csv",sep = "/"))
+write.csv(pbdf,paste(wdir,"data","klemmDB002b.csv",sep = "/"))
 ##############################################
 ##############################################
+m<-grep("<",pbdf$pb2)
+pbdf$tei1<-NA
+pbdf$tei1[m]<-pbdf$pb2[m]
+mna<-is.na(pbdf$tei1)
+mna
+mna1<-mna-1
+mna1<-mna1*-1
+mna2<-!is.na(pbdf$tei1)
+m2<-grepl("<sp>",pbdf$tei1)
+mna3<-mna2-1
+mna3
+mna4<-mna3!=0
+mna4
+mna5<-mna2==m2
+mna5
+pbdf$chk<-mna5
+
