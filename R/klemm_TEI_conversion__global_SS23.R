@@ -126,7 +126,91 @@ t1<-array()
 #chk length:
 chkl<-length(r_b)+length(r_i)+length(r_p)
 chkl<-length(firstlines)+length(stageline)+length(textline)
+#########
+k<-1
 df_scenes<-data.frame(row=1:length(all_e))
+df_scenes$cpt<-d2 %>% xml_find_all('//div/*') %>%xml_text()
+
+regx<-"(^\n)"
+repl<-""
+rmn<-function(x) gsub(regx,repl,x)
+df_scenes$cpt<-sapply(df_scenes$cpt,rmn)
+
+d<-df_scenes
+
+regx<-"(\n)" 
+repl<-" "
+rmn<-function(x) gsub(regx,repl,x)
+#rmn<-gsub(regx,repl,d)
+d$cpt<-sapply(d$cpt, rmn)
+
+for (k in 1:length(r_b_head)){
+  r0_head<-r_b_head[k]
+  r0_stage<-r_i_sp[k]
+  r0_text<-r0_stage+1
+  r1_text<-r_b_head[k+1]-3
+  c<-k+length(df_scenes)
+  c<-length(df_scenes)+1
+  df_scenes[r0_head,c]<-paste0('<div type="scene"><head>',df_scenes[r0_head,"cpt"],'<head>')
+  df_scenes[r0_stage,c]<-paste0('<stage>',df_scenes[r0_stage,"cpt"],'</stage>')
+}
+###
+
+#pagebreaks array
+pbarray<-array()
+#for(k in 1:length(d[,2])){
+  for (k in 1:length(d$cpt)){
+    pb2<-grep("(\\[[0-9]{1,3}\\])",d[k,c],value = T)
+    ifelse(length(pb2)!=0,pbarray[k]<-pb2,pbarray[k]<-NA)
+  }
+#}
+pbarray
+#d<-data.frame(d2)
+# regx<-"(\n)" 
+# repl<-" "
+# rmn<-function(x) gsub(regx,repl,x)
+# #rmn<-gsub(regx,repl,d)
+# d$cpt<-sapply(d$cpt, rmn)
+dsf<-d
+#d<-d2
+d<-data.frame(d2)
+# pbarray<-matrix(nrow = length(d[,2]), ncol = length(d[1,]))
+# for(k in 1:length(d[,2])){
+#   for (c in 1:length(d[1,])){
+#     pb2<-grep("(\\[[0-9]{1,3}\\])",d[k,c],value = T)
+#     ifelse(length(pb2)!=0,pbarray[k,c]<-pb2,pbarray[k]<-NA)
+#   }
+# }
+#pbarray #all pb rows extracted. now if pb at linestart, insert (mv) into preceding (empty, new) line
+p1<-grep("(^\\[[0-9]{1,3}\\])",pbarray) #grep all [123]
+#p1t<-grep("(^\\[[0-9]{1,3}\\])",pbarray,value = T)
+p1t<-stri_extract_all_regex(pbarray,"(^\\[[0-9]{1,3}\\])")
+p1t
+pba2<-d$cpt
+k<-1
+
+for (k in 1:length(p1)){
+  regx<-"(^\\[[0-9]{1,3}\\] ?)"
+  p2<-grep(regx,pba2)
+  p2<-p1+k-1
+  p3<-p2+1
+  p1t2<-gsub("\\[|\\]","",p1t[[p1[k]]])
+  pb4<-paste0('<pb no="',p1t2,'"/>')
+  pba2<-insert(pba2,p2[k],pb4)
+  
+  pba2[p3]<-gsub(regx,"",pba2[p3])
+
+  }
+d$cpt2<-pba2
+d2<-data.frame(cpt=pba2)
+for(k in 1:length(d[,2])){
+#  for (c in 1:length(d[1,])){
+  p1t2<-gsub("\\[|\\]","",p1t[[p1[k]]])
+  pb4<-paste0('<pb no="',p1t2,'"/>')
+  #}
+}
+#####
+pba2
 for (k in 1:length(allscenes)){
   ifelse (allscenes[k+1]-allscenes[k]==1,
     t1<-append(t1,allscenes[k],after = length(t1)),f<-1)
@@ -203,6 +287,7 @@ rmn<-function(x) gsub(regx,repl,x)
 d2<-sapply(d[,s:length(d)], rmn)
 #dsf<-d
 d<-d2
+
 #pagebreaks array
 pbarray<-list()
 for(k in 1:length(d[,2])){
