@@ -250,26 +250,36 @@ d
   pbdf$pb2[m]<-gsub(r1,"",pbdf$pb2[m])
   
 
-
-getwd()
-wdir<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/R"
-write.csv(pbdf,paste(wdir,"data","klemmDB002b.csv",sep = "/"))
 ##############################################
 ##############################################
+#close wrap scene <div
 m<-grep("<",pbdf$pb2)
 pbdf$tei1<-NA
 pbdf$tei1[m]<-pbdf$pb2[m]
 mna<-is.na(pbdf$tei1)
-mna
+#mna
 mna1<-mna-1
-mna1<-mna1*-1
-mna2<-!is.na(pbdf$tei1)
-m2<-grepl("<sp>",pbdf$tei1)
-mna3<-mna2-1
-mna3
-mna4<-mna3!=0
-mna4
-mna5<-mna2==m2
-mna5
-pbdf$chk<-mna5
+#mna1<-mna1*-1
+#mna2<-!is.na(pbdf$tei1)
+#m2<-grepl("<sp>",pbdf$tei1)
+#mna3<-mna2-1
+#mna3
+#mna4<-mna3!=0
+#mna4
+#mna5<-mna2==m2
+#mna5
+#pbdf$chk<-mna5
+#exp: if <sp> line is followed by NA line, close </div> at the end after </sp>
+#or: assemble scenes
+#m3<-grep("<sp>",pbdf$tei1[mna-1])
+#m3
+m4<-grep(0,mna1)
+m4
+m5<-grep("<sp>",pbdf$tei1[m4-1])
+pbdf$tei1[m4-1][m5]<-paste0(pbdf$tei1[m4-1][m5],"</div>")
+###########
+
+getwd()
+wdir<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/R"
+write.csv(pbdf,paste(wdir,"data","klemmDB002b.csv",sep = "/"))
 
