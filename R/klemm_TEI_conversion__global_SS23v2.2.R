@@ -223,7 +223,8 @@ d
   m<-grep(sp3,pbdf$pb2,perl = T)
   #pbdf$pb2[m] #next: isolate speaker / stage before 1st \.
   #chk for characters between speaker and \.
-  r1<-paste0("^(?=(",sp2,")([^\\.])(.+?\\.))(.+?\\.)") ##paste speaker array with regex for staged speakers
+  #regexr: ^(?=(Celimene|Finette|Chlorinde|Cydalise|Damis|Erast|Bedienter|Bediente)([^\.])(.+?\.))(.+?\.)(.*)
+  r1<-paste0("^(?=(",sp2,")([^\\.])(.+?\\.))(.+?\\.)(.*)") ##paste speaker array with regex for staged speakers
   r1
   temp_a<-array(pbdf$pb2)
   temp_d<-1:length(temp_a)
@@ -234,11 +235,15 @@ d
   m2<-textline%in%m
   pbdf$pb2[textline[m2]]
   m<-textline[m2]
-  pbdf$pb2[m]<-gsub(r1,"<speaker>\\1</speaker><stage>\\3</stage>",pbdf$pb2[m],perl = T)
+  pbdf$pb2[m]<-gsub(r1,"<speaker>\\1</speaker><stage>\\3</stage><p>\\5</p>",pbdf$pb2[m],perl = T)
   sp3<-paste0("^(",sp2,")\\. ?") #paste speaker array with regex for standard speakers followed by [. ]
   repl<-"<speaker>\\1</speaker>"
   pbdf$pb2[textline]<-gsub(sp3,repl,pbdf$pb2[textline])
-  r1<-"(</speaker>|</stage>)(.*)"
+  r1<-"(</stage>)(.*)"
+  m<-grep(r1,pbdf$pb2,perl = T)
+  #pbdf$pb2[m]
+  pbdf$pb2[m]<-gsub(r1,"\\1<p>\\2</p>",pbdf$pb2[m],perl = T)
+  r1<-"(</speaker>)(.*)[^stage]"
   m<-grep(r1,pbdf$pb2,perl = T)
   pbdf$pb2[m]
   pbdf$pb2[m]<-gsub(r1,"\\1<p>\\2</p>",pbdf$pb2[m],perl = T)
