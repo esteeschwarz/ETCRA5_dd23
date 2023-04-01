@@ -206,7 +206,7 @@ a<-unlist(stri_split_boundaries(pbdf$cpt[stageline],type="word"))
 b<-grep("[A-Z]",a)
 c<-unique(a[b])
 d<-c(c[c(1,2,3,4,5,7,9)])
-d
+speakerarray<-d
   #############
   #THIS to declare individually in header by piece, 
   #intends to grep speaker definitions which differ (characters) from
@@ -220,6 +220,7 @@ d
   #find evtl. stage dir after speaker:
   #chk if char between sp2 (speaker) and \.
   sp3<-paste0("^((",sp2,"))(.+\\.)")
+  speakerregex<-sp2
   m<-grep(sp3,pbdf$pb2,perl = T)
   #pbdf$pb2[m] #next: isolate speaker / stage before 1st \.
   #chk for characters between speaker and \.
@@ -235,9 +236,9 @@ d
   m2<-textline%in%m
   pbdf$pb2[textline[m2]]
   m<-textline[m2]
-  pbdf$pb2[m]<-gsub(r1,"<speaker>\\1</speaker><stage>\\3</stage><p>\\5</p>",pbdf$pb2[m],perl = T)
+  pbdf$pb2[m]<-gsub(r1,'<sp who="#\\1"><speaker>\\1</speaker><stage>\\3</stage><p>\\5</p>',pbdf$pb2[m],perl = T)
   sp3<-paste0("^(",sp2,")\\. ?") #paste speaker array with regex for standard speakers followed by [. ]
-  repl<-"<speaker>\\1</speaker>"
+  repl<-'<sp who="#\\1"><speaker>\\1</speaker>'
   pbdf$pb2[textline]<-gsub(sp3,repl,pbdf$pb2[textline])
   r1<-"(</stage>)(.*)"
   m<-grep(r1,pbdf$pb2,perl = T)
@@ -253,8 +254,25 @@ d
   r1<-"(<p></p>)" #rm obsolete tagging after stage directions (scene personae)
   m<-grep(r1,pbdf$pb2)
   pbdf$pb2[m]<-gsub(r1,"",pbdf$pb2[m])
+  # r1<-'(#[A-Z].+?)(?=")'
+  # m1<-grep(r1,pbdf$pb2)
+  # ex1<-stri_split_regex(stri_extract_all_regex(pbdf$pb2,pattern=r1,simplify = T),"#",simplify = T)
+  # ex2<-decapitalize(ex1[,2])
+  # ex3<-unique(ex2)
+  # ex3<-ex3[ex3!=""]
+  # ex3
+  sp2
+  spsmall<-decapitalize(speakerarray)
+  ex3<-spsmall
   
-
+  k<-1
+  for (k in 1:length(speakerarray)){
+    r1<-paste0('<sp who="#(',speakerarray[k],')">')
+    m<-grep(r1,pbdf$pb2)
+    repl<-paste0('<sp who="#',ex3[k],'"')
+    pbdf$pb2[m]<-gsub(r1,repl,pbdf$pb2[m])        
+  }
+  #ex2
 ##############################################
 ##############################################
 #close wrap scene <div
