@@ -189,7 +189,7 @@ for (k in 1:length(r_b_head)){
   r1_text<-r_b_head[k+1]-3
   c<-k+length(df_scenes)
   c<-length(df_scenes)+1
-  df_scenes[r0_head,"pb2"]<-paste0('<div type="scene"><head>',df_scenes[r0_head,"pb2"],'<head>')
+  df_scenes[r0_head,"pb2"]<-paste0('<div type="scene"><head>',df_scenes[r0_head,"pb2"],'</head>')
   
   df_scenes[r0_stage,"pb2"]<-paste0('<stage>',df_scenes[r0_stage,"pb2"],'</stage>')
 }
@@ -203,6 +203,7 @@ for (k in 1:length(r_b_head)){
 # pbdf<-data.frame(pbdf)
 pbdf<-df_scenes
 a<-unlist(stri_split_boundaries(pbdf$cpt[stageline],type="word"))
+a
 b<-grep("[A-Z]",a)
 c<-unique(a[b])
 d<-c(c[c(1,2,3,4,5,7,9)])
@@ -220,6 +221,7 @@ speakerarray<-d
   #find evtl. stage dir after speaker:
   #chk if char between sp2 (speaker) and \.
   sp3<-paste0("^((",sp2,"))(.+\\.)")
+  sp3
   speakerregex<-sp2
   m<-grep(sp3,pbdf$pb2,perl = T)
   #pbdf$pb2[m] #next: isolate speaker / stage before 1st \.
@@ -236,25 +238,28 @@ speakerarray<-d
   m2<-textline%in%m
   pbdf$pb2[textline[m2]]
   m<-textline[m2]
-  pbdf$pb2[m]<-gsub(r1,'<sp who="#\\1"><speaker>\\1</speaker><stage>\\3</stage><p>\\5</p>',pbdf$pb2[m],perl = T)
-  sp3<-paste0("^(",sp2,")\\. ?") #paste speaker array with regex for standard speakers followed by [. ]
-  repl<-'<sp who="#\\1"><speaker>\\1</speaker>'
+  pbdf$pb2[m]<-gsub(r1,'<sp who="#\\1"><speaker>\\1</speaker><stage>\\3</stage><p>\\5</p></sp>',pbdf$pb2[m],perl = T)
+  sp3<-paste0("^(",sp2,")(\\. ?)(.*)") #paste speaker array with regex for standard speakers followed by [. ]
+  repl<-'<sp who="#\\1"><speaker>\\1</speaker><p>\\3</p></sp>'
+  ###########
   pbdf$pb2[textline]<-gsub(sp3,repl,pbdf$pb2[textline])
-  r1<-"(</stage>)(.*)"
-  m<-grep(r1,pbdf$pb2,perl = T)
-  #pbdf$pb2[m]
-  pbdf$pb2[m]<-gsub(r1,"\\1<p>\\2</p>",pbdf$pb2[m],perl = T)
-  r1<-"(</speaker>)(.*)[^stage]"
-  m<-grep(r1,pbdf$pb2,perl = T)
-  pbdf$pb2[m]
-  pbdf$pb2[m]<-gsub(r1,"\\1<p>\\2</p>",pbdf$pb2[m],perl = T)
-  r1<-"^(<speaker>)"
-  m<-grep(r1,pbdf$pb2)
-  pbdf$pb2[m]<-paste0("<sp>",pbdf$pb2[m],"</sp>")
-  r1<-"(<p></p>)" #rm obsolete tagging after stage directions (scene personae)
-  m<-grep(r1,pbdf$pb2)
-  pbdf$pb2[m]<-gsub(r1,"",pbdf$pb2[m])
-  # r1<-'(#[A-Z].+?)(?=")'
+  
+  
+  # r1<-"(</stage>)(.*)"
+  # m<-grep(r1,pbdf$pb2,perl = T)
+  # #pbdf$pb2[m]
+  # pbdf$pb2[m]<-gsub(r1,"\\1<p>\\2</p>",pbdf$pb2[m],perl = T)
+  # r1<-"(</speaker>)(.*)[^stage]"
+  # m<-grep(r1,pbdf$pb2,perl = T)
+  # pbdf$pb2[m]
+  # pbdf$pb2[m]<-gsub(r1,"\\1<p>\\2</p></sp>",pbdf$pb2[m],perl = T)
+  # r1<-"^(<speaker>)"
+  # m<-grep(r1,pbdf$pb2)
+  # pbdf$pb2[m]<-paste0("<sp>",pbdf$pb2[m],"</sp>")
+  # r1<-"(<p></p>)" #rm obsolete tagging after stage directions (scene personae)
+  # m<-grep(r1,pbdf$pb2)
+  # pbdf$pb2[m]<-gsub(r1,"",pbdf$pb2[m])
+  # # r1<-'(#[A-Z].+?)(?=")'
   # m1<-grep(r1,pbdf$pb2)
   # ex1<-stri_split_regex(stri_extract_all_regex(pbdf$pb2,pattern=r1,simplify = T),"#",simplify = T)
   # ex2<-decapitalize(ex1[,2])
@@ -269,7 +274,7 @@ speakerarray<-d
   for (k in 1:length(speakerarray)){
     r1<-paste0('<sp who="#(',speakerarray[k],')">')
     m<-grep(r1,pbdf$pb2)
-    repl<-paste0('<sp who="#',ex3[k],'"')
+    repl<-paste0('<sp who="#',ex3[k],'">')
     pbdf$pb2[m]<-gsub(r1,repl,pbdf$pb2[m])        
   }
   #ex2
@@ -298,13 +303,16 @@ mna1<-mna-1
 #m3
 m4<-grep(0,mna1)
 m4
-m5<-grep("<sp>",pbdf$tei1[m4-1])
+m5<-grep("<sp",pbdf$tei1[m4-1])
 pbdf$tei1[m4-1][m5]<-paste0(pbdf$tei1[m4-1][m5],"</div>")
+# m6<-grep(-1,mna1) #last <sp>text
+# pbdf$tei1[m6[length(m6)]]<-paste0(pbdf$tei1[m6[length(m6)]],"</div>")
 ###########
 #TODO: book head, front, last lines
 
 getwd()
 wdir<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/R"
 write.csv(pbdf,paste(wdir,"data","klemmDB002b.csv",sep = "/"))
+writeLines(pbdf$tei1[m6],paste(wdir,"data","klemmDB002b.html",sep = "/"))
 
 
