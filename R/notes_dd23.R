@@ -57,3 +57,16 @@ ff<-frequencytable(d1)
 ff<-t(ff)
 fdf<-data.frame(token=rownames(ff),count=ff[,1])
 ff2<-fdf[order(ff[,],decreasing = T),]
+library(quanteda)
+#dtx<-loadText(paste0(qddf$X1[nr],":",qddf$X3[nr])) #NO funct()
+fieldnames = c("Teufel")
+dictionaryStatistics(
+  d1,
+#  fields = DramaAnalysis::base_dictionary[fieldnames],
+  segment = c("Drama", "Act", "Scene"),
+  normalizeByCharacter = TRUE,
+  normalizeByField = FALSE,
+  byCharacter = TRUE,
+  column = "Token.lemma",
+  ci = TRUE
+)
