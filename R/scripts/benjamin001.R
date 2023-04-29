@@ -148,6 +148,7 @@ length(m)
 k<-1
 bookns<-unique(d4$book)
 setwd("~/boxHKW/UNI/21S/DH")
+d6<-data.frame()
 for (k in 1:length(bookns)){
   #a<-c(1,2,3,4,5)
   d5<-subset(d4,d4$book==bookns[k])
@@ -158,10 +159,11 @@ for (k in 1:length(bookns)){
 #  d13<-d12
   #getwd()
   ns<-paste0("local/R/corpus/xl6/",bookns[k],".xlsx")
-  write_xlsx(d5,ns)
-}
+#  write_xlsx(d5,ns)
+d6<-rbind(d6,d5)
+  }
 getwd()
-write.csv(d5,"local/R/corpus/benjamin_db_d5.csv")
+write.csv(d6,"benjamin_db_d6.csv")
 write_xlsx(d3,"corpus/xl6/benjamin_db001.xlsx")
 library(readxl)
 dx<-read_xlsx("local/R/corpus/benjamin_db001.xlsx")
@@ -225,3 +227,54 @@ dir.create(zippath)
 nszip<-paste0(datetime,"_benjamin_tagged_corpus.zip")
 zipfile<-paste(zippath,nszip,sep = "/")
 zip(zipfile = zipfile,paste(annispath,annisfiles,sep = "/"))
+
+###
+getwd()
+b1<-read_table("annis-export_Zeichen.csv")
+mean(b1$`2_anno_default_ns::tok_position`)
+plot(b1$`2_anno_default_ns::tok_position`,type = "h")
+m<-which(d6$lemma=="Zeichen")
+mean(d6$tok_position[m])
+d6$tok[m[6]]
+box1<-data.frame()
+boxplot(d6$tok_position[m])
+tlemma="Zeichen"
+boxout<-function(tlemma){
+box1<-data.frame()
+d61<-subset(d6,d6$book=="buch1"&d6$lemma==tlemma)$tok_position
+d62<-subset(d6,d6$book=="buch2"&d6$lemma==tlemma)$tok_position
+d63<-subset(d6,d6$book=="buch3"&d6$lemma==tlemma)$tok_position
+d64<-subset(d6,d6$book=="buch4"&d6$lemma==tlemma)$tok_position
+d65<-subset(d6,d6$book=="buch5"&d6$lemma==tlemma)$tok_position
+#box1<-boxplot(d61,d62,d63,d64,d65)
+box1<-list(d61,d62,d63,d64,d65)
+
+#box1d6$book=="buch1"][d6$tok_position[m]]
+}
+boxout_t<-function(ttok){
+  box1<-data.frame()
+  d61<-subset(d6,d6$book=="buch1"&d6$tok==ttok)$tok_position
+  d62<-subset(d6,d6$book=="buch2"&d6$tok==ttok)$tok_position
+  d63<-subset(d6,d6$book=="buch3"&d6$tok==ttok)$tok_position
+  d64<-subset(d6,d6$book=="buch4"&d6$tok==ttok)$tok_position
+  d65<-subset(d6,d6$book=="buch5"&d6$tok==ttok)$tok_position
+  #box1<-boxplot(d61,d62,d63,d64,d65)
+  box1<-list(d61,d62,d63,d64,d65)
+  
+  #box1d6$book=="buch1"][d6$tok_position[m]]
+}
+
+boxp<-boxout("Zeichen")
+boxplot(boxp)
+boxp<-boxout("sie")
+#par(new=T)
+boxplot(boxp,col = 3)
+plot(boxp[[5]],type = "l")
+
+boxp<-boxout_t("ich")
+#par(new=T)
+boxplot(boxp,col = 3)
+plot(boxp[[5]],type = "l")
+
+boxp
+
