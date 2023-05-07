@@ -452,4 +452,33 @@ write.csv(pbdf,paste(wdir,"data",paste0(dramans,"DB002b.csv"),sep = "/"))
 writeLines(pbdf$tei1[m6],paste(wdir,"data",paste0(dramans,"DB002b.html"),sep = "/"))
 
 ## stray <div>: Baron... erleichtern</div> (Beide. wodurch)
+########wks.
+#integrate into dracor scheme:
+getwd()
+src<-"~/Documents/GitHub/ETCRA5_dd23/R/data/gerXXX-kotzebue-blindgeladen.tei_onlyheader.xml"
+# d5<-read_xml("~/Documents/GitHub/ETCRA5_dd23/R/data/gerXXX-kotzebue-blindgeladen.tei_onlyheader.xml")
+# d5%>% xml_ns_strip()
+# xml_add_child(d5,"text")
+# d5txt<-as.list(pbdf$tei1[m6])
+# d5["text"]<-d5txt
+# xml_add_child(d5,d5txt)
+# d5t<-d5%>%xml_find_all("//text")
+# d5addtxt<-function(what)xml_add_child(d5t,what)
+# lapply(d5t, d5addtxt)
+# codef<-function(x) stri_extract_all_regex(x,"(#[A-Z]{3})")
+# ms7<-lapply(sent1, codef)
+# for(k in d5txt){
+#   xml_add_child(d5t,k)
+# }
+# d6txt<-c(d5$doc,d5txt)
+# d5text<-unlist(d5$node)
+d6<-readLines(src)
+m<-grep("</standOff>",d6)
+library(R.utils)
+d7<-insert(d6,m+1,"<text>")
+d8<-insert(d7,m+2,pbdf$tei1[m6])
+m<-length(d8)-1
+d8[m]<-"</text>"
+writeLines(d8,paste(wdir,"data","gerXXX-kotzebue-blindgeladen.tei_Rcombined.xml",sep = "/"))
 
+#writeLines(d8,"gerXXX-kotzebue-blindgeladen.tei_Rcombined.xml")

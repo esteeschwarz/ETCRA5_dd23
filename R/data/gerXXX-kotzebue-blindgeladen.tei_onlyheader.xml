@@ -1,0 +1,91 @@
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ger000577" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Blind geladen</title>
+        <title type="sub">Lustspiel in einem Akt</title>
+        <author>
+          <persName>
+            <forename>August</forename>
+            <forename>von</forename>
+            <surname>Kotzebue</surname>
+          </persName>
+          <idno type="wikidata">XXXXX</idno>
+          <idno type="pnd">XXXXX</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Wikisource</name>
+          <idno type="URL">https://de.wikisource.org/wiki/Blind_geladen</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <title>August von Kotzebue: Blind geladen. Lustspiel ein einem Akt.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="baron" sex="MALE">
+            <persName>Baron</persName>
+          </person>
+          <person xml:id="krips" sex="MALE">
+            <persName>Krips</persName>
+          </person>
+          <person xml:id="zauser" sex="MALE">
+            <persName>Zauser</persName>
+          </person>
+          <person xml:id="thal" sex="MALE">
+            <persName>Thal</persName>
+          </person>
+          <person xml:id="blum" sex="MALE">
+            <persName>Blum</persName>
+          </person>
+          <person xml:id="michel" sex="MALE">
+            <persName>Michel</persName>
+          </person>
+          <person xml:id="wilhelmine" sex="FEMALE">
+            <persName>Wilhelmine</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-06-20">(ss) convert from source</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1811">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/XXXXX" passive="http://www.wikidata.org/entity/Q112654763"/>
+    </listRelation>
+  </standOff>
+  
+</TEI>
