@@ -11,6 +11,7 @@
 #20230320(09.37)
 #database of complete text
 #wrapped elements in db
+
 ###########################
 #1.abstract:
 #TEI declaration of wikisource dramatext for further processing
@@ -52,8 +53,10 @@ getwd()
 #mini
 #setwd("gith/ETCRA5_dd23/R")
 ####################
-src<-"https://raw.githubusercontent.com/esteeschwarz/ETCRA5_dd23/main/R/data/c0_Der_Besuch_Klemm_wsource_epub.xml"
+#src<-"https://raw.githubusercontent.com/esteeschwarz/ETCRA5_dd23/main/R/data/c0_Der_Besuch_Klemm_wsource_epub.xml"
 src<-"https://raw.githubusercontent.com/esteeschwarz/ETCRA5_dd23/main/R/data/c0_Blind_geladen_wsource_epub.xml"
+srcdr<-"https://raw.githubusercontent.com/esteeschwarz/ETCRA5_dd23/main/R/data/gerXXX-kotzebue-blindgeladen.tei_onlyheader.xml"
+
 #src<-"data/c0_Der_Besuch_Klemm_wsource_epub.xml"
 d2<-read_html(src)
 d3<-d2
@@ -455,7 +458,7 @@ writeLines(pbdf$tei1[m6],paste(wdir,"data",paste0(dramans,"DB002b.html"),sep = "
 ########wks.
 #integrate into dracor scheme:
 getwd()
-src<-"~/Documents/GitHub/ETCRA5_dd23/R/data/gerXXX-kotzebue-blindgeladen.tei_onlyheader.xml"
+#src<-"~/Documents/GitHub/ETCRA5_dd23/R/data/gerXXX-kotzebue-blindgeladen.tei_onlyheader.xml"
 # d5<-read_xml("~/Documents/GitHub/ETCRA5_dd23/R/data/gerXXX-kotzebue-blindgeladen.tei_onlyheader.xml")
 # d5%>% xml_ns_strip()
 # xml_add_child(d5,"text")
@@ -472,7 +475,7 @@ src<-"~/Documents/GitHub/ETCRA5_dd23/R/data/gerXXX-kotzebue-blindgeladen.tei_onl
 # }
 # d6txt<-c(d5$doc,d5txt)
 # d5text<-unlist(d5$node)
-d6<-readLines(src)
+d6<-readLines(srcdr)
 m<-grep("</standOff>",d6)
 library(R.utils)
 d7<-insert(d6,m+1,"<text>")
@@ -480,5 +483,5 @@ d8<-insert(d7,m+2,pbdf$tei1[m6])
 m<-length(d8)-1
 d8[m]<-"</text>"
 writeLines(d8,paste(wdir,"data","gerXXX-kotzebue-blindgeladen.tei_Rcombined.xml",sep = "/"))
-
+system('xmlformat --config-file=/Users/guhl/Documents/GitHub/ezdrama/format.conf "/Users/guhl/Documents/GitHub/ETCRA5_dd23/R/data/gerXXX-kotzebue-blindgeladen.tei_Rcombined.xml" > "/Users/guhl/Documents/GitHub/ETCRA5_dd23/R/data/gerXXX-kotzebue-blindgeladen.tei_final.xml"')
 #writeLines(d8,"gerXXX-kotzebue-blindgeladen.tei_Rcombined.xml")
