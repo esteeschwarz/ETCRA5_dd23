@@ -10,7 +10,7 @@
 "9",9,"","","","",NA
 "10",10,"[74]","","","",NA
 "11",11,"Personen.","Personen.","Personen.","",NA
-"12",12,"Personen.","Personen.","Personen.","<div type=""Dramatis Personae""><castList><head>Personen.</head><castItem><role>Baron Eschenholz</role><desc>ein Landedelmann</desc></castItem<castItem><role>Wilhelmine</role><desc>seine Tochter</desc></castItem<castItem><role>Hauptmann von Thal</role><desc></desc></castItem<castItem><role>Krips</role><desc>sein Bedienter</desc></castItem<castItem><role>Rittmeister von Blum</role><desc></desc></castItem<castItem><role>Zauser</role><desc>sein Bedienter</desc></castItem<castItem><role>Michel</role><desc>ein Ziegelbrenner</desc></castItem</div>","<div type=""Dramatis Personae""><castList><head>Personen.</head><castItem><role>Baron Eschenholz</role><desc>ein Landedelmann</desc></castItem<castItem><role>Wilhelmine</role><desc>seine Tochter</desc></castItem<castItem><role>Hauptmann von Thal</role><desc></desc></castItem<castItem><role>Krips</role><desc>sein Bedienter</desc></castItem<castItem><role>Rittmeister von Blum</role><desc></desc></castItem<castItem><role>Zauser</role><desc>sein Bedienter</desc></castItem<castItem><role>Michel</role><desc>ein Ziegelbrenner</desc></castItem</div>"
+"12",12,"Personen.","Personen.","Personen.","<div type=""Dramatis Personae""><castList><head>Personen.</head><castItem><role>Baron Eschenholz</role><roleDesc>ein Landedelmann</roleDesc></castItem<castItem><role>Wilhelmine</role><roleDesc>seine Tochter</roleDesc></castItem<castItem><role>Hauptmann von Thal</role><roleDesc></roleDesc></castItem<castItem><role>Krips</role><roleDesc>sein Bedienter</roleDesc></castItem<castItem><role>Rittmeister von Blum</role><roleDesc></roleDesc></castItem<castItem><role>Zauser</role><roleDesc>sein Bedienter</roleDesc></castItem<castItem><role>Michel</role><roleDesc>ein Ziegelbrenner</roleDesc></castItem</div>","<div type=""Dramatis Personae""><castList><head>Personen.</head><castItem><role>Baron Eschenholz</role><roleDesc>ein Landedelmann</roleDesc></castItem<castItem><role>Wilhelmine</role><roleDesc>seine Tochter</roleDesc></castItem<castItem><role>Hauptmann von Thal</role><roleDesc></roleDesc></castItem<castItem><role>Krips</role><roleDesc>sein Bedienter</roleDesc></castItem<castItem><role>Rittmeister von Blum</role><roleDesc></roleDesc></castItem<castItem><role>Zauser</role><roleDesc>sein Bedienter</roleDesc></castItem<castItem><role>Michel</role><roleDesc>ein Ziegelbrenner</roleDesc></castItem</div>"
 "13",13,"","","","",NA
 "14",14,"Baron Eschenholz, ein Landedelmann.
 Wilhelmine, seine Tochter.
@@ -1309,8 +1309,8 @@ hält nicht eher, bis er über die Gränze ist.","Blum (der im Vorgrunde eschein
 "536",536,"Thal.
 Jetzt hinauf zu dem Fräulein.","Thal. Jetzt hinauf zu dem Fräulein.","<sp who=""#thal""><speaker>Thal</speaker><p>Jetzt hinauf zu dem Fräulein.</p></sp>","","<sp who=""#thal""><speaker>Thal</speaker><p>Jetzt hinauf zu dem Fräulein.</p></sp>"
 "537",537,"Blum.
-Jetzt zu Wilhelminen.","Blum. Jetzt zu Wilhelminen.","<sp who=""#blum""><speaker>Blum</speaker><p>Jetzt zu Wilhelminen.</p></sp>","","<sp who=""#blum""><speaker>Blum</speaker><p>Jetzt zu Wilhelminen.</p></sp></div>"
-"538",538,"(Beide stoßen auf einander, prallen zurück, und betrachten einander eine Weile mit komischer Verwunderung.)","(Beide stoßen auf einander, prallen zurück, und betrachten einander eine Weile mit komischer Verwunderung.)","(Beide stoßen auf einander, prallen zurück, und betrachten einander eine Weile mit komischer Verwunderung.)","",NA
+Jetzt zu Wilhelminen.","Blum. Jetzt zu Wilhelminen.","<sp who=""#blum""><speaker>Blum</speaker><p>Jetzt zu Wilhelminen.</p></sp>","","<sp who=""#blum""><speaker>Blum</speaker><p>Jetzt zu Wilhelminen.</p></sp>"
+"538",538,"(Beide stoßen auf einander, prallen zurück, und betrachten einander eine Weile mit komischer Verwunderung.)","(Beide stoßen auf einander, prallen zurück, und betrachten einander eine Weile mit komischer Verwunderung.)","(Beide stoßen auf einander, prallen zurück, und betrachten einander eine Weile mit komischer Verwunderung.)","<stage>(Beide stoßen auf einander, prallen zurück, und betrachten einander eine Weile mit komischer Verwunderung.)</stage>","<stage>(Beide stoßen auf einander, prallen zurück, und betrachten einander eine Weile mit komischer Verwunderung.)</stage>"
 "539",539,"Blum.
 Ei sieh da, Herr Bruder?","Blum. Ei sieh da, Herr Bruder?","<sp who=""#blum""><speaker>Blum</speaker><p>Ei sieh da, Herr Bruder?</p></sp>","","<sp who=""#blum""><speaker>Blum</speaker><p>Ei sieh da, Herr Bruder?</p></sp>"
 "540",540,"Thal.
@@ -1564,5 +1564,5 @@ O er kommt noch früh genug zur Hochzeit.","Thal. O er kommt noch früh genug zu
 "647",647,"","","","",NA
 "648",648,"","","","",NA
 "649",649,"","","","",NA
-"650",650,"(Mit Leipziger Universität-Censur).","(Mit Leipziger Universität-Censur).","(Mit Leipziger Universität-Censur).","",NA
+"650",650,"(Mit Leipziger Universität-Censur).","(Mit Leipziger Universität-Censur).","(Mit Leipziger Universität-Censur).","<trailer>(Mit Leipziger Universität-Censur).</trailer></body>","<trailer>(Mit Leipziger Universität-Censur).</trailer></body>"
 "651",651,"","","","",NA

@@ -352,8 +352,8 @@ d
   drperson_d[,2]<-gsub("^ ","",drperson_d[,2])
   drperson_d<-drperson_d[1:7,]
   drperson_d[,1]<-paste0('<role>',drperson_d[,1],'</role>')
-  drperson_d[,2]<-paste0('<desc>',drperson_d[,2],'</desc>')
-  drperson_c<-paste0('<castItem>',drperson_d[,1],drperson_d[,2],'</castItem')
+  drperson_d[,2]<-paste0('<roleDesc>',drperson_d[,2],'</roleDesc>')
+  drperson_c<-paste0('<castItem>',drperson_d[,1],drperson_d[,2],'</castItem>')
   drperson_e<-stri_join(drperson_c,collapse = "")
   pbdf$man[12]<-paste0('<div type="Dramatis Personae"><castList><head>',
                        pbdf$pb2[12],'</head>',drperson_e,'</div>')
@@ -364,7 +364,9 @@ d
   pbdf$man[22]<-"</front><body>"
   pb1<-stri_extract(pbdf$cpt[1],regex="[0-9]{1,3}")
   pbdf$man[1]<-paste0('<pb no="',pb1,'"/>')
-  
+  m<-grep("Censur",pbdf$pb2)
+  pbdf$man[m]<-paste0("<trailer>",pbdf$pb2[m],"</trailer></body>")
+  pbdf$man[538]<-paste0("<stage>",pbdf$pb2[538],"</stage>")
   
   # r1<-"(</stage>)(.*)"
   # m<-grep(r1,pbdf$pb2,perl = T)
@@ -427,10 +429,16 @@ mna1<-mna-1
 #m3<-grep("<sp>",pbdf$tei1[mna-1])
 #m3
 m4<-grep(0,mna1)
+mna1
 m4
 m5<-grep("<sp",pbdf$tei1[m4-1])
+m5 #23 scenes
+m41<-m4-1
+pbdf$tei1[m41][m5]
+#CRITICAL
 pbdf$tei1[m4-1][m5]<-paste0(pbdf$tei1[m4-1][m5],"</div>")
-m6<-grep(-1,mna1) #last <sp>text
+m6<-grep(-1,mna1) #valid lines
+m6
 # pbdf$tei1[m6[length(m6)]]<-paste0(pbdf$tei1[m6[length(m6)]],"</div>")
 ###########
 getwd()
