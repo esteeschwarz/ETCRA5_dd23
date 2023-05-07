@@ -369,4 +369,5 @@ wdir<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/R"
 write.csv(pbdf,paste(wdir,"data",paste0(dramans,"DB002b.csv"),sep = "/"))
 writeLines(pbdf$tei1[m6],paste(wdir,"data",paste0(dramans,"DB002b.html"),sep = "/"))
 
+## stray <div>: Baron... erleichtern</div> (Beide. wodurch)
 
