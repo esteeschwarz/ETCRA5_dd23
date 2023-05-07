@@ -3,16 +3,16 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Der Besuch</title>
-        <title type="sub">Ein Lustspiel in einem Aufzuge</title>
+        <title type="main">Blind geladen</title>
+        <title type="sub">Lustspiel in einem Akt</title>
         <author>
           <persName>
-            <forename>Christian</forename>
-            <forename>Gottlob</forename>
-            <surname>Klemm</surname>
+            <forename>August</forename>
+            <forename>von</forename>
+            <surname>Kotzebue</surname>
           </persName>
-          <idno type="wikidata">Q21156171</idno>
-          <idno type="pnd">100303935</idno>
+          <idno type="wikidata">XXXXX</idno>
+          <idno type="pnd">XXXXX</idno>
         </author>
       </titleStmt>
       <publicationStmt>
@@ -28,14 +28,12 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Wikisource</name>
-          <idno type="URL">https://de.wikisource.org/wiki/Der_Besuch_(Klemm)</idno>
+          <idno type="URL">https://de.wikisource.org/wiki/Blind_geladen</idno>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
           <bibl type="originalSource">
-            <title>Christian Gottlob Klemm: Der Besuch. Ein Lustspiel in einem Aufzuge. In: Der
-              österreichische Patriot. Drey und vier und siebenzigstes Stück. Wien: Schulz 1765, S.
-              577–592.</title>
+            <title>August von Kotzebue: Blind geladen. Lustspiel ein einem Akt.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -43,26 +41,26 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="celimene" sex="FEMALE">
-            <persName>Celimene</persName>
+          <person xml:id="baron" sex="MALE">
+            <persName>Baron</persName>
           </person>
-          <person xml:id="finette" sex="FEMALE">
-            <persName>Finette</persName>
+          <person xml:id="krips" sex="MALE">
+            <persName>Krips</persName>
           </person>
-          <person xml:id="chlorinde" sex="FEMALE">
-            <persName>Chlorinde</persName>
+          <person xml:id="zauser" sex="MALE">
+            <persName>Zauser</persName>
           </person>
-          <person xml:id="cydalise" sex="FEMALE">
-            <persName>Cydalise</persName>
+          <person xml:id="thal" sex="MALE">
+            <persName>Thal</persName>
           </person>
-          <person xml:id="damis" sex="MALE">
-            <persName>Damis</persName>
+          <person xml:id="blum" sex="MALE">
+            <persName>Blum</persName>
           </person>
-          <person xml:id="erast" sex="MALE">
-            <persName>Erast</persName>
+          <person xml:id="michel" sex="MALE">
+            <persName>Michel</persName>
           </person>
-          <person xml:id="ein_bedienter" sex="MALE">
-            <persName>Ein Bedienter</persName>
+          <person xml:id="wilhelmine" sex="FEMALE">
+            <persName>Wilhelmine</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -81,12 +79,12 @@
   </teiHeader>
   <standOff>
     <listEvent>
-      <event type="print" when="1765">
+      <event type="print" when="1811">
         <desc/>
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ger000577" passive="http://www.wikidata.org/entity/Q112654763"/>
+      <relation name="wikidata" active="https://dracor.org/entity/XXXXX" passive="http://www.wikidata.org/entity/Q112654763"/>
     </listRelation>
   </standOff>
   <text>
@@ -101,9 +99,9 @@
         <head>Personen.</head>
         <castItem><role>Baron Eschenholz</role><roleDesc>ein Landedelmann</roleDesc></castItem>
         <castItem><role>Wilhelmine</role><roleDesc>seine Tochter</roleDesc></castItem>
-        <castItem><role>Hauptmann von Thal</role><roleDesc/></castItem>
+        <castItem><role>Hauptmann von Thal</role><roleDesc></roleDesc></castItem>
         <castItem><role>Krips</role><roleDesc>sein Bedienter</roleDesc></castItem>
-        <castItem><role>Rittmeister von Blum</role><roleDesc/></castItem>
+        <castItem><role>Rittmeister von Blum</role><roleDesc></roleDesc></castItem>
         <castItem><role>Zauser</role><roleDesc>sein Bedienter</roleDesc></castItem>
         <castItem><role>Michel</role><roleDesc>ein Ziegelbrenner</roleDesc></castItem>
     </castList>
@@ -313,10 +311,10 @@
 <sp who="#thal"><speaker>Thal</speaker><p>Die Leute übernachten in der Schenke, der Wirth ist ein Spitzbube, stiehlt einen Pack, man wird es nicht gewahr, der Transport geht am andern Morgen weiter. Flugs öffnet der Dieb die gestohlne Waare, wird ohnmächtig, bekommt auf der Stelle ein Fieber; man schickt nach diesem ehrlichen Manne – es ist der Chirurgus aus dem nächsten Städtchen – er kommt, er sieht Beulen, er erschrickt, und kurz, es ist die Pest.</p></sp>
 <sp who="#blum"><speaker>Blum</speaker><p>Die Pest?</p></sp>
 <sp who="#thal"><speaker>Thal</speaker><p>Ja, die Pest, nicht wahr, mein Herr? <pb no="100"/> </p></sp>
-<sp who="#zauser"><speaker>Zauser</speaker><stage>(nickt).</stage><p/></sp>
+<sp who="#zauser"><speaker>Zauser</speaker><stage>(nickt).</stage><p></p></sp>
 <sp who="#blum"><speaker>Blum</speaker><p>Das wär der Teufel!</p></sp>
 <sp who="#thal"><speaker>Thal</speaker><p>Der Wirth und seine Frau sind schon gestorben, die Kinder liegen in den letzten Zügen. Alle Bauern, die in der Schenke ihren Schnaps getrunken haben, fühlen schon die Pest in allen Gliedern. Nicht wahr, mein Herr?</p></sp>
-<sp who="#zauser"><speaker>Zauser</speaker><stage>(nickt).</stage><p/></sp>
+<sp who="#zauser"><speaker>Zauser</speaker><stage>(nickt).</stage><p></p></sp>
 <sp who="#blum"><speaker>Blum</speaker><p>Das ist eine schreckliche Begebenheit.</p></sp>
 <sp who="#thal"><speaker>Thal</speaker><p>Im Schlosse wird eingepackt, der Baron mit seiner ganzen Familie eilt nach der Stadt –</p></sp>
 <sp who="#blum"><speaker>Blum</speaker><p>Daran thut er sehr wohl.</p></sp>
@@ -327,7 +325,7 @@
 <sp who="#thal"><speaker>Thal</speaker><p>Meine Kalesche ist angespannt, mein Reitpferd ist gesattelt. Gegen den Feind hab’ ich Courage, aber nicht gegen die Pest.</p></sp>
 <sp who="#blum"><speaker>Blum</speaker><p>Der Henker mag mit der Pest anbinden.</p></sp>
 <sp who="#thal"><speaker>Thal</speaker><p>Wirf Dich in meinen Wagen, Herr Bruder, ich trabe neben her, unsere Leute kommen nach. Hier ist kein Augenblick zu versäumen, nicht wahr, mein Herr?</p></sp>
-<sp who="#zauser"><speaker>Zauser</speaker><stage>(nickt).</stage><p/></sp>
+<sp who="#zauser"><speaker>Zauser</speaker><stage>(nickt).</stage><p></p></sp>
 <sp who="#thal"><speaker>Thal</speaker><p>Die Freundschaft hat mich ohnehin schon verleitet, mein Leben aufs Spiel zu setzen, denn es war mir unmöglich, ohne Dich das Dorf zu verlassen.</p></sp>
 <sp who="#blum"><speaker>Blum</speaker><p>Ich bin sehr gerührt von Deiner brüderlichen Liebe.</p></sp>
 <sp who="#thal"><speaker>Thal</speaker><p>Nun so komm, ehe es zu spät wird. <pb no="102"/> </p></sp>
@@ -549,7 +547,7 @@
 <div type="scene"><head>Ein und zwanzigste Scene.</head>
 <stage>Zauser. Die Vorigen.</stage>
 <sp who="#zauser"><speaker>Zauser</speaker><stage>(mit Thals Mantel und Reisemütze.</stage><p> Er räuspert sich.)</p></sp>
-<sp who="#krips"><speaker>Krips</speaker><stage>(scheint dadurch erst aufmerksam auf ihn zu werden, und bewillkommt ihn in den Bart brummend).</stage><p/></sp>
+<sp who="#krips"><speaker>Krips</speaker><stage>(scheint dadurch erst aufmerksam auf ihn zu werden, und bewillkommt ihn in den Bart brummend).</stage><p></p></sp>
 <sp who="#zauser"><speaker>Zauser</speaker><stage>(steckt schüchtern die Hand aus dem Mantel hervor, und reicht sie Krips).</stage><p> Hum, hum.</p></sp>
 <sp who="#krips"><speaker>Krips</speaker><stage>(schüttelt ihm die Hand).</stage><p> Hum, hum. <pb no="130"/> </p></sp>
 <sp who="#zauser"><speaker>Zauser</speaker><stage>(deutet, ob es gefällig sey zu fahren.</stage><p>) Hum, hum.</p></sp>
@@ -633,7 +631,7 @@
 <sp who="#blum"><speaker>Blum</speaker><p>Bist Du ganz verblendet?</p></sp>
 <sp who="#thal"><speaker>Thal</speaker><p>Ich muß Blut sehn.</p></sp>
 <sp who="#blum"><speaker>Blum</speaker><p>Nun so geh zum Teufel! (er schießt.)</p></sp>
-<sp who="#thal"><speaker>Thal</speaker><stage>(schreit ha! stürzt nieder, wälzt sich, und bedeckt die Brust mit seiner Hand).</stage><p/></sp>
+<sp who="#thal"><speaker>Thal</speaker><stage>(schreit ha! stürzt nieder, wälzt sich, und bedeckt die Brust mit seiner Hand).</stage><p></p></sp>
 <sp who="#blum"><speaker>Blum</speaker><stage>(eilt zu ihm).</stage><p> Um Gottes willen!</p></sp>
 <sp who="#thal"><speaker>Thal</speaker><p>Mitten in die Brust.</p></sp>
 <sp who="#blum"><speaker>Blum</speaker><p>Verdammte Hitze! <pb no="140"/> </p></sp>
