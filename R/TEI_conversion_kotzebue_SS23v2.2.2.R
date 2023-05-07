@@ -161,7 +161,7 @@ repl<-" "
 rmn<-function(x) gsub(regx,repl,x)
 #rmn<-gsub(regx,repl,d)
 d$cpt<-sapply(d$cpt, rmn)
-regx<-"[Ξ]"
+regx<-"\\[Ξ\\]"
 repl<-""
 rmn<-function(x) gsub(regx,repl,x)
 #rmn<-gsub(regx,repl,d)
