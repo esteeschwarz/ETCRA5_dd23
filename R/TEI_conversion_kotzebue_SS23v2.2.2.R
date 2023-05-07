@@ -280,6 +280,41 @@ d
   # }
   #missing speaker declaration in transcript
   pbdf$pb2[219]<-paste0("Krips. ",pbdf$pb2[219])
+  #speaker thal+blum, L77 <beide>
+  sp1[8]<-"Beide"
+  sp2<-paste(sp1,collapse = "|") #regex speaker array
+  r1<-paste0("^(?=(",sp2,")([^\\.])(.+?\\.))(.+?\\.)(.*)") ##paste speaker array with regex for staged speakers
+  r1
+  sp2
+  # #front pages
+  # #3,8,12,14,17,20
+  # pbdf$man<-""
+  # pbdf$man[8]<-paste0('<front><div type="front"><head>',
+  #                     pbdf$pb[3],'</head><head>',pbdf$pb[8],'</head></div>')
+  # #castlist scheme
+  # # <div type="Dramatis_Personae">
+  # #   <castList>
+  # #   <head>Personen.</head>
+  # #   <castItem>
+  # #   <role>Baron Eschenholz</role>
+  # #   <desc>, ein Landedelmann.</desc>
+  # #   </castItem>
+  # drperson<-stri_split_regex(pbdf$pb[14],pattern="\\.",simplify = T)
+  # drperson_d<-stri_split_regex(drperson,pattern = ",",simplify = T)
+  # drperson_d[,1]<-gsub("^ ","",drperson_d[,1])
+  # drperson_d[,2]<-gsub("^ ","",drperson_d[,2])
+  # drperson_d<-drperson_d[1:7,]
+  # drperson_d[,1]<-paste0('<role>',drperson_d[,1],'</role>')
+  # drperson_d[,2]<-paste0('<desc>',drperson_d[,2],'</desc>')
+  # drperson_c<-paste0('<castItem>',drperson_d[,1],drperson_d[,2],'</castItem')
+  # drperson_e<-stri_join(drperson_c,collapse = "")
+  #   pbdf$man[12]<-paste0('<div type="Dramatis Personae"><castList><head>',
+  #                     pbdf$pb[12],'</head>',drperson_e,'</div>')
+  # #stage
+  #   pbdf$man[17]<-paste0('<div type="stage">',pbdf$cpt[17],'</div>')
+  #   pbdf$man[20]<-paste0('<div type="anmerkung">',pbdf$cpt[20],'</div>')
+  # #close <front>
+  #   pbdf$man[22]<-"</front><body>"
   ##############################################
   temp_a<-array(pbdf$pb2)
   temp_d<-1:length(temp_a)
@@ -296,6 +331,39 @@ d
   repl<-'<sp who="#\\1"><speaker>\\1</speaker><p>\\3</p></sp>'
   ###########
   pbdf$pb2[textline]<-gsub(sp3,repl,pbdf$pb2[textline])
+
+  
+  #front pages
+  #3,8,12,14,17,20
+  pbdf$man<-""
+  pbdf$man[8]<-paste0('<front><div type="front"><head>',
+                      pbdf$pb2[3],'</head><head>',pbdf$pb2[8],'</head></div>')
+  #castlist scheme
+  # <div type="Dramatis_Personae">
+  #   <castList>
+  #   <head>Personen.</head>
+  #   <castItem>
+  #   <role>Baron Eschenholz</role>
+  #   <desc>, ein Landedelmann.</desc>
+  #   </castItem>
+  drperson<-stri_split_regex(pbdf$pb2[14],pattern="\\.",simplify = T)
+  drperson_d<-stri_split_regex(drperson,pattern = ",",simplify = T)
+  drperson_d[,1]<-gsub("^ ","",drperson_d[,1])
+  drperson_d[,2]<-gsub("^ ","",drperson_d[,2])
+  drperson_d<-drperson_d[1:7,]
+  drperson_d[,1]<-paste0('<role>',drperson_d[,1],'</role>')
+  drperson_d[,2]<-paste0('<desc>',drperson_d[,2],'</desc>')
+  drperson_c<-paste0('<castItem>',drperson_d[,1],drperson_d[,2],'</castItem')
+  drperson_e<-stri_join(drperson_c,collapse = "")
+  pbdf$man[12]<-paste0('<div type="Dramatis Personae"><castList><head>',
+                       pbdf$pb2[12],'</head>',drperson_e,'</div>')
+  #stage
+  pbdf$man[17]<-paste0('<div type="stage">',pbdf$pb2[17],'</div>')
+  pbdf$man[20]<-paste0('<div type="anmerkung">',pbdf$pb2[20],'</div>')
+  #close <front>
+  pbdf$man[22]<-"</front><body>"
+  pb1<-stri_extract(pbdf$cpt[1],regex="[0-9]{1,3}")
+  pbdf$man[1]<-paste0('<pb no="',pb1,'"/>')
   
   
   # r1<-"(</stage>)(.*)"
@@ -337,9 +405,13 @@ d
 m<-grep("<",pbdf$pb2)
 pbdf$tei1<-NA
 pbdf$tei1[m]<-pbdf$pb2[m]
+#TODO: book head, front, last lines
+m<-grep("<",pbdf$man)
+pbdf$tei1[m]<-pbdf$man[m]
 mna<-is.na(pbdf$tei1)
 #mna
 mna1<-mna-1
+
 #mna1<-mna1*-1
 #mna2<-!is.na(pbdf$tei1)
 #m2<-grepl("<sp>",pbdf$tei1)
@@ -361,8 +433,6 @@ pbdf$tei1[m4-1][m5]<-paste0(pbdf$tei1[m4-1][m5],"</div>")
 m6<-grep(-1,mna1) #last <sp>text
 # pbdf$tei1[m6[length(m6)]]<-paste0(pbdf$tei1[m6[length(m6)]],"</div>")
 ###########
-#TODO: book head, front, last lines
-
 getwd()
 wdir<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/R"
 
