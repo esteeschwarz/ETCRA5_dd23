@@ -356,7 +356,7 @@ d
   drperson_c<-paste0('<castItem>',drperson_d[,1],drperson_d[,2],'</castItem>')
   drperson_e<-stri_join(drperson_c,collapse = "")
   pbdf$man[12]<-paste0('<div type="Dramatis Personae"><castList><head>',
-                       pbdf$pb2[12],'</head>',drperson_e,'</div>')
+                       pbdf$pb2[12],'</head>',drperson_e,'</castList></div>')
   #stage
   pbdf$man[17]<-paste0('<div type="stage">',pbdf$pb2[17],'</div>')
   pbdf$man[20]<-paste0('<div type="anmerkung">',pbdf$pb2[20],'</div>')
@@ -367,6 +367,10 @@ d
   m<-grep("Censur",pbdf$pb2)
   pbdf$man[m]<-paste0("<trailer>",pbdf$pb2[m],"</trailer></body>")
   pbdf$man[538]<-paste0("<stage>",pbdf$pb2[538],"</stage>")
+  pbdf$man[146]<-paste0(stri_extract(pbdf$pb2[146],regex="<.*"),"</div>")
+  pbdf$man[153]<-paste0('<sp who="#zauser"><speaker>Zauser</speaker><p>',pbdf$pb2[153],'</p></sp>')
+  pbdf$man[499]<-paste0('<stage>',pbdf$pb2[499],'</stage>')
+  pbdf$man[528]<-paste0('<stage>',pbdf$pb2[528],'</stage>')
   
   # r1<-"(</stage>)(.*)"
   # m<-grep(r1,pbdf$pb2,perl = T)
