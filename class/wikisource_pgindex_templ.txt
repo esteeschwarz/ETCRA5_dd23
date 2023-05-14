@@ -1,0 +1,93 @@
+{{Textdaten
+|VORIGER=
+|NÄCHSTER=
+|AUTOR=Anonym (= [[Johann Jakob Bodmer|Johann Jacob Bodmer]])
+|TITEL=Polytimet
+|SUBTITEL=Ein Trauerspiel. Durch Lessings Philotas oder ungerathenen Helden veranlasset.
+|HERKUNFT=off
+|HERAUSGEBER=
+|AUFLAGE=
+|VERLAG=Conrad Orell & Comp.
+|ENTSTEHUNGSJAHR=
+|ERSCHEINUNGSJAHR=1760
+|ERSCHEINUNGSORT=Zürich
+|ÜBERSETZER=
+|ORIGINALTITEL=
+|ORIGINALSUBTITEL=
+|ORIGINALHERKUNFT=
+|WIKIPEDIA=
+|BILD=Bodmer polytimet 1760.pdf{{!}}page=1
+|QUELLE={{SBB|PPN74604349X}} = {{co|Bodmer polytimet 1760.pdf}}
+|KURZBESCHREIBUNG=
+|SONSTIGES={{VD18|11719486}}
+|BENUTZERHILFE=on
+|INDEXSEITE=Bodmer polytimet 1760.pdf
+|BEARBEITUNGSSTAND=unvollständig
+}}
+
+{{BlockSatzStart}}
+{{SeitePR|1|Bodmer polytimet 1760.pdf/1}}
+{{SeitePR|2|Bodmer polytimet 1760.pdf/2}}
+{{SeitePR|3|Bodmer polytimet 1760.pdf/3}}
+{{SeitePR|4|Bodmer polytimet 1760.pdf/4}}
+{{SeitePR|5|Bodmer polytimet 1760.pdf/5}}
+{{SeitePR|6|Bodmer polytimet 1760.pdf/6}}
+{{SeitePR|7|Bodmer polytimet 1760.pdf/7}}
+{{SeitePR|8|Bodmer polytimet 1760.pdf/8}}
+{{SeitePR|9|Bodmer polytimet 1760.pdf/9}}
+{{SeitePR|10|Bodmer polytimet 1760.pdf/10}}
+{{SeitePR|11|Bodmer polytimet 1760.pdf/11}}
+{{SeitePR|12|Bodmer polytimet 1760.pdf/12}}
+{{SeitePR|13|Bodmer polytimet 1760.pdf/13}}
+{{SeitePR|14|Bodmer polytimet 1760.pdf/14}}
+{{SeitePR|15|Bodmer polytimet 1760.pdf/15}}
+{{SeitePR|16|Bodmer polytimet 1760.pdf/16}}
+{{SeitePR|17|Bodmer polytimet 1760.pdf/17}}
+{{SeitePR|18|Bodmer polytimet 1760.pdf/18}}
+{{SeitePR|19|Bodmer polytimet 1760.pdf/19}}
+{{SeitePR|20|Bodmer polytimet 1760.pdf/20}}
+{{SeitePR|21|Bodmer polytimet 1760.pdf/21}}
+{{SeitePR|22|Bodmer polytimet 1760.pdf/22}}
+{{SeitePR|23|Bodmer polytimet 1760.pdf/23}}
+{{SeitePR|24|Bodmer polytimet 1760.pdf/24}}
+{{SeitePR|25|Bodmer polytimet 1760.pdf/25}}
+{{SeitePR|26|Bodmer polytimet 1760.pdf/26}}
+{{SeitePR|27|Bodmer polytimet 1760.pdf/27}}
+{{SeitePR|28|Bodmer polytimet 1760.pdf/28}}
+{{SeitePR|29|Bodmer polytimet 1760.pdf/29}}
+{{SeitePR|30|Bodmer polytimet 1760.pdf/30}}
+{{SeitePR|31|Bodmer polytimet 1760.pdf/31}}
+{{SeitePR|32|Bodmer polytimet 1760.pdf/32}}
+{{SeitePR|33|Bodmer polytimet 1760.pdf/33}}
+{{SeitePR|34|Bodmer polytimet 1760.pdf/34}}
+{{SeitePR|35|Bodmer polytimet 1760.pdf/35}}
+{{SeitePR|36|Bodmer polytimet 1760.pdf/36}}
+{{SeitePR|37|Bodmer polytimet 1760.pdf/37}}
+{{SeitePR|38|Bodmer polytimet 1760.pdf/38}}
+{{SeitePR|39|Bodmer polytimet 1760.pdf/39}}
+{{SeitePR|40|Bodmer polytimet 1760.pdf/40}}
+{{SeitePR|41|Bodmer polytimet 1760.pdf/41}}
+{{SeitePR|42|Bodmer polytimet 1760.pdf/42}}
+{{SeitePR|43|Bodmer polytimet 1760.pdf/43}}
+{{SeitePR|44|Bodmer polytimet 1760.pdf/44}}
+{{SeitePR|45|Bodmer polytimet 1760.pdf/45}}
+{{SeitePR|46|Bodmer polytimet 1760.pdf/46}}
+{{SeitePR|47|Bodmer polytimet 1760.pdf/47}}
+{{SeitePR|48|Bodmer polytimet 1760.pdf/48}}
+{{SeitePR|49|Bodmer polytimet 1760.pdf/49}}
+{{SeitePR|50|Bodmer polytimet 1760.pdf/50}}
+{{SeitePR|51|Bodmer polytimet 1760.pdf/51}}
+{{SeitePR|52|Bodmer polytimet 1760.pdf/52}}
+{{SeitePR|53|Bodmer polytimet 1760.pdf/53}}
+{{SeitePR|54|Bodmer polytimet 1760.pdf/54}}
+{{SeitePR|55|Bodmer polytimet 1760.pdf/55}}
+{{SeitePR|56|Bodmer polytimet 1760.pdf/56}}
+{{SeitePR|57|Bodmer polytimet 1760.pdf/57}}
+{{SeitePR|58|Bodmer polytimet 1760.pdf/58}}
+
+{{BlockSatzEnd}}
+
+[[Kategorie:Deutsche Philologie]]
+[[Kategorie:1760er Jahre]]
+[[Kategorie:Deutschland]]
+[[Kategorie:Drama]]
