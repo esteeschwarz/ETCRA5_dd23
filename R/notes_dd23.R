@@ -35,7 +35,10 @@ library(xml2)
 attr(qdmeta[[1]],"language")
 qdmeta[[1]]
 f<-loadDrama("test:rjmw.0")
+f<-loadDrama("st:_geladen")
+
 installData("tg") #test, qd
+installData("kt") #test, qd
 qddf<-loadAllInstalledIds(asDataFrame = T)
 lm<-function(x) loadMeta(x)
 dmeta<-loadMeta(qddf$X3)
@@ -54,7 +57,12 @@ d1<-dpres(1)
 nr<-1
 #report(paste0(qddf$X1[nr],":",qddf$X3[nr]))
 ff<-frequencytable(d1)
+ff<-frequencytable(f)
+presence(f)
+report(f)
+utteranceStatistics(f)
 ff<-t(ff)
+plot()
 fdf<-data.frame(token=rownames(ff),count=ff[,1])
 ff2<-fdf[order(ff[,],decreasing = T),]
 library(quanteda)
