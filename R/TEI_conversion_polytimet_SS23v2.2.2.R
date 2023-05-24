@@ -98,7 +98,7 @@ r_t_s<-grep(pattern="text-align",r_t)
 regx<-"\\]/span/b"
 regx<-"\\]/b"
 #13215.polytimet
-regx<-"/div/div\\[[0-9]{1,3}\\]" #NO. greps too much
+regx<-"/div/div\\[[0-9]{1,3}\\]" #NO. greps too much, maybe not grep over xmlpath but text in df.
 r_b<-d2 %>% 
   xml_find_all('//div/*') %>% xml_path()%>% 
   grep(pattern=regx)
