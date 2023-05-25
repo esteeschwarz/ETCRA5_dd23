@@ -220,11 +220,17 @@ getwd()
 #column per scene: NA,scene,=scene,speaker,=speaker,speaker.text
 #grep first content line
 r_b_head
-firstlines
-stageline
+#polytimet:
+firstlines<-grep("Auftritt",d4$cpt)
+r_b_head<-firstlines
+#stageline<-c(13,23,stageline)
+stageline<-c(13,18,25,40,61,82,119,136)
+r_i_sp<-c(23,38,59,80,117,134)
+r_i_sp<-stageline
 textline
-
+k
 ###
+length(r_i_sp)
 for (k in 1:length(r_b_head)){
   r0_head<-r_b_head[k]
   r0_stage<-r_i_sp[k]
@@ -259,6 +265,8 @@ c<-unique(a[b])
 # d<-c(c[c(1,2,3,4,5,7,9)]) #klemm
 d<-c(c[c(2,3,4,5,7)]) #kotzebue
 d<-c("Baron","Blum","Krips","Zauser","Thal","Wilhelmine","Michel")
+d<-c("Polytimet","Aridäus","Polemon","Aristodemus","Strato","Parmenio","Heerold")
+
 speakerarray<-d
 d
   #############
@@ -289,9 +297,9 @@ d
   #   
   # }
   #missing speaker declaration in transcript
-  pbdf$pb2[219]<-paste0("Krips. ",pbdf$pb2[219])
+ # pbdf$pb2[219]<-paste0("Krips. ",pbdf$pb2[219])
   #speaker thal+blum, L77 <beide>
-  sp1[8]<-"Beide"
+  #sp1[8]<-"Beide"
   sp2<-paste(sp1,collapse = "|") #regex speaker array
   r1<-paste0("^(?=(",sp2,")([^\\.])(.+?\\.))(.+?\\.)(.*)") ##paste speaker array with regex for staged speakers
   r1
