@@ -77,7 +77,7 @@ all_e<-d2 %>%
 #all_sc_b
 all_e
 d2 %>% 
-  xml_find_all(all_e[22]) %>%
+  xml_find_all(all_e[23]) %>%
   xml_text() #zweyter auftritt
 regx<-"\\]/b"
 r_b<-d2 %>% 
@@ -86,7 +86,12 @@ r_b<-d2 %>%
 regx<-"\\]/i"
 r_i<-d2 %>% 
   xml_find_all('//div/*') %>% xml_path()%>% 
-  grep(pattern=regx)
+  grep(pattern=regx) #all scene speaker personae
+r_i_stage<-d2 %>% 
+  xml_find_all('//div/p/i') %>% xml_path() #
+#/html/body/section/div/p[98]/i
+d2 %>% 
+  xml_find_all(r_i_stage[2]) %>% xml_text()
 regx<-"/p"
 r_p<-d2 %>% 
   xml_find_all('//div/*') %>% xml_path()%>% 
@@ -137,16 +142,16 @@ all_e[r_b]
 #adapt:
  r_b_head<-r_b[4:26]
  firstlines<-r_b_head #all scene head lines
- r_i_sp<-r_i[2:24] 
+ r_i_sp<-r_i[2:24]
  ##all stage speaker
  #m<-grep("(",)
  r_i
 # r_b_head<-r_b[7:15]
 # firstlines<-r_b_head #all scene head lines
-# r_i_sp<-r_i[2:10] 
+# r_i_sp<-r_i[2:10]
 
 stageline<-r_i_sp #all scene speaker stage lines
-r_p_txt<-r_p[3:length(r_p)]
+r_p_txt<-r_p[6:length(r_p)]
 textline<-r_p_txt
 #t1<-array()
 #k<-1
@@ -233,7 +238,7 @@ k
 length(r_i_sp)
 for (k in 1:length(r_b_head)){
   r0_head<-r_b_head[k]
-  r0_stage<-r_i_sp[k]
+  r0_stage<-r_i[k]
   r0_text<-r0_stage+1
   r1_text<-r_b_head[k+1]-3
   c<-k+length(df_scenes)
@@ -265,7 +270,7 @@ c<-unique(a[b])
 # d<-c(c[c(1,2,3,4,5,7,9)]) #klemm
 d<-c(c[c(2,3,4,5,7)]) #kotzebue
 d<-c("Baron","Blum","Krips","Zauser","Thal","Wilhelmine","Michel")
-d<-c("Polytimet","Aridäus","Polemon","Aristodemus","Strato","Parmenio","Heerold")
+d<-c("Polytimet","Aridäus","Polemon","Aristodem","Strato","Parmenio","Heerold")
 
 speakerarray<-d
 d
@@ -343,19 +348,41 @@ d
   m2<-textline%in%m
   pbdf$pb2[textline[m2]]
   m<-textline[m2]
-  
-  pbdf$pb2[m]<-gsub(r1,'<sp who="#\\1"><speaker>\\1</speaker><stage>\\3</stage><p>\\5</p></sp>',pbdf$pb2[m],perl = T)
+  #critical, NO
+ # pbdf$pb2[m]<-gsub(r1,'<sp who="#\\1"><speaker>\\1</speaker><stage>\\3</stage><p>\\5</p></sp>',pbdf$pb2[m],perl = T)
   sp3<-paste0("^(",sp2,")(\\. ?)(.*)") #paste speaker array with regex for standard speakers followed by [. ]
   repl<-'<sp who="#\\1"><speaker>\\1</speaker><p>\\3</p></sp>'
   ###########
-  pbdf$pb2[textline]<-gsub(sp3,repl,pbdf$pb2[textline])
-
-  
+ # pbdf$pb2[textline]<-gsub(sp3,repl,pbdf$pb2[textline])
+#### polytimet: speaker line is extra line, not within <p>
+  r1
+  sp2
+  k<-1
+  sp4<-paste0(d,".")
+  pbdf$sp4<-NA
+  for (k in 1:length(sp4)){
+    sp<-sp4[k]
+   # m<-k==pbdf$pb2
+    k
+    
+    m<-which(sp==pbdf$pb2)
+    
+    ssm<-decapitalize(d[k])
+    
+    #mt<-m+1
+    tx<-pbdf$pb2[m+1]
+    pbdf[m,"sp4"]<-paste0('<sp who="#',ssm,'"><speaker>',sp,'</speaker><p>',tx,'</p></sp>')
+  }
+  stinst<-r_b_head[1]+2
+  pbdf$sp4[1:stinst]<-NA
+  m
+  k
+  #m<-match
   #front pages
   #3,8,12,14,17,20
   pbdf$man<-""
-  pbdf$man[8]<-paste0('<front><div type="front"><head>',
-                      pbdf$pb2[3],'</head><head>',pbdf$pb2[8],'</head></div>')
+  pbdf$man[5]<-paste0('<front><div type="front"><head>',
+                      pbdf$pb2[3],'</head><head>',pbdf$pb2[5],'</head></div>')
   #castlist scheme
   # <div type="Dramatis_Personae">
   #   <castList>
@@ -364,31 +391,32 @@ d
   #   <role>Baron Eschenholz</role>
   #   <desc>, ein Landedelmann.</desc>
   #   </castItem>
-  drperson<-stri_split_regex(pbdf$pb2[14],pattern="\\.",simplify = T)
+  drperson<-stri_split_regex(pbdf$pb2[12],pattern="\\.",simplify = T)
   drperson_d<-stri_split_regex(drperson,pattern = ",",simplify = T)
   drperson_d[,1]<-gsub("^ ","",drperson_d[,1])
   drperson_d[,2]<-gsub("^ ","",drperson_d[,2])
-  drperson_d<-drperson_d[1:7,]
+  drperson_d[3,2]<-paste(drperson_d[3,2],drperson_d[3,3],sep = ",")
+  drperson_d<-drperson_d[1:6,]
   drperson_d[,1]<-paste0('<role>',drperson_d[,1],'</role>')
   drperson_d[,2]<-paste0('<roleDesc>',drperson_d[,2],'</roleDesc>')
   drperson_c<-paste0('<castItem>',drperson_d[,1],drperson_d[,2],'</castItem>')
   drperson_e<-stri_join(drperson_c,collapse = "")
-  pbdf$man[12]<-paste0('<div type="Dramatis Personae"><castList><head>',
-                       pbdf$pb2[12],'</head>',drperson_e,'</castList></div>')
+  pbdf$man[10]<-paste0('<div type="Dramatis Personae"><castList><head>',
+                       pbdf$pb2[10],'</head>',drperson_e,'</castList></div>')
   #stage
-  pbdf$man[17]<-paste0('<div type="stage">',pbdf$pb2[17],'</div>')
-  pbdf$man[20]<-paste0('<div type="anmerkung">',pbdf$pb2[20],'</div>')
-  #close <front>
-  pbdf$man[22]<-"</front><body>"
+  # pbdf$man[17]<-paste0('<div type="stage">',pbdf$pb2[17],'</div>')
+  # pbdf$man[20]<-paste0('<div type="anmerkung">',pbdf$pb2[20],'</div>')
+  # #close <front>
+  pbdf$man[14]<-"</front><body>"
   pb1<-stri_extract(pbdf$cpt[1],regex="[0-9]{1,3}")
   pbdf$man[1]<-paste0('<pb no="',pb1,'"/>')
-  m<-grep("Censur",pbdf$pb2)
-  pbdf$man[m]<-paste0("<trailer>",pbdf$pb2[m],"</trailer></body>")
-  pbdf$man[538]<-paste0("<stage>",pbdf$pb2[538],"</stage>")
-  pbdf$man[146]<-paste0(stri_extract(pbdf$pb2[146],regex="<.*"),"</div>")
-  pbdf$man[153]<-paste0('<sp who="#zauser"><speaker>Zauser</speaker><p>',pbdf$pb2[153],'</p></sp>')
-  pbdf$man[499]<-paste0('<stage>',pbdf$pb2[499],'</stage>')
-  pbdf$man[528]<-paste0('<stage>',pbdf$pb2[528],'</stage>')
+  #m<-grep("Censur",pbdf$pb2)
+  #pbdf$man[m]<-paste0("<trailer>",pbdf$pb2[m],"</trailer></body>")
+  #pbdf$man[538]<-paste0("<stage>",pbdf$pb2[538],"</stage>")
+  #pbdf$man[146]<-paste0(stri_extract(pbdf$pb2[146],regex="<.*"),"</div>")
+  #pbdf$man[153]<-paste0('<sp who="#zauser"><speaker>Zauser</speaker><p>',pbdf$pb2[153],'</p></sp>')
+  #pbdf$man[499]<-paste0('<stage>',pbdf$pb2[499],'</stage>')
+  #pbdf$man[528]<-paste0('<stage>',pbdf$pb2[528],'</stage>')
   
   # r1<-"(</stage>)(.*)"
   # m<-grep(r1,pbdf$pb2,perl = T)
@@ -416,24 +444,38 @@ d
   ex3<-spsmall
   
   k<-1
-  for (k in 1:length(speakerarray)){
-    r1<-paste0('<sp who="#(',speakerarray[k],')">')
-    m<-grep(r1,pbdf$pb2)
-    repl<-paste0('<sp who="#',ex3[k],'">')
-    pbdf$pb2[m]<-gsub(r1,repl,pbdf$pb2[m])        
-  }
-  #ex2
+  # for (k in 1:length(speakerarray)){
+  #   r1<-paste0('<sp who="#(',speakerarray[k],')">')
+  #   m<-grep(r1,pbdf$pb2)
+  #   repl<-paste0('<sp who="#',ex3[k],'">')
+  #   pbdf$pb2[m]<-gsub(r1,repl,pbdf$pb2[m])        
+  # }
+  # #ex2
 ##############################################
 ##############################################
 #close wrap scene <div
-m<-grep("<",pbdf$pb2)
+m<-grep("^<",pbdf$pb2)
 pbdf$tei1<-NA
 pbdf$tei1[m]<-pbdf$pb2[m]
+m<-grep("^<",pbdf$sp4)
+#pbdf$tei1<-NA
+pbdf$tei1[m]<-pbdf$sp4[m]
+
 #TODO: book head, front, last lines
 m<-grep("<",pbdf$man)
 pbdf$tei1[m]<-pbdf$man[m]
+
+m<-grep("<div",pbdf$tei1)
+m
+m2<-m>r_b_head[1]
+pbdf$tei1[m[m2]]<-paste0("</div>",pbdf$tei1[m[m2]])
+m<-grep("^<",pbdf$tei1)
+m<-m[length(m)]
+pbdf$tei1[m]<-paste0(pbdf$tei1[m],"</div></body>")
+
+ 
 mna<-is.na(pbdf$tei1)
-#mna
+mna
 mna1<-mna-1
 
 #mna1<-mna1*-1
@@ -450,24 +492,29 @@ mna1<-mna-1
 #or: assemble scenes
 #m3<-grep("<sp>",pbdf$tei1[mna-1])
 #m3
-m4<-grep(0,mna1)
-mna1
-m4
-m5<-grep("<sp",pbdf$tei1[m4-1])
-m5 #23 scenes
-m41<-m4-1
-pbdf$tei1[m41][m5]
+# m4<-grep(0,mna1)
+# mna1
+# m4
+# m5<-grep("<sp",pbdf$tei1[m4-1])
+# m5 #23 scenes
+# m41<-m4-1
+# pbdf$tei1[m41][m5]
 #CRITICAL
-pbdf$tei1[m4-1][m5]<-paste0(pbdf$tei1[m4-1][m5],"</div>")
-m6<-grep(-1,mna1) #valid lines
-m6
+# pbdf$tei1[m4-1][m5]<-paste0(pbdf$tei1[m4-1][m5],"</div>")
+ m6<-grep(-1,mna1) #valid lines
+ m6
+ m6<-!is.na(pbdf$tei1)
 # pbdf$tei1[m6[length(m6)]]<-paste0(pbdf$tei1[m6[length(m6)]],"</div>")
 ###########
 getwd()
 wdir<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/R"
 
 write.csv(pbdf,paste(wdir,"data",paste0(dramans,"DB002b.csv"),sep = "/"))
-writeLines(pbdf$tei1[m6],paste(wdir,"data",paste0(dramans,"DB002b.html"),sep = "/"))
+dramawrite<-paste0(dramans,"DB002b.html")
+outns<-paste(wdir,"data",dramawrite,sep = "/")
+dramafinal<-paste0(dramans,"_staged_TEI_final.xml")
+finaloutns<-paste(wdir,"data",dramafinal,sep = "/")
+writeLines(pbdf$tei1[m6],outns)
 
 ## stray <div>: Baron... erleichtern</div> (Beide. wodurch)
 ########wks.
@@ -497,6 +544,10 @@ d7<-insert(d6,m+1,"<text>")
 d8<-insert(d7,m+2,pbdf$tei1[m6])
 m<-length(d8)-1
 d8[m]<-"</text>"
-writeLines(d8,paste(wdir,"data","gerXXX-kotzebue-blindgeladen.tei_Rcombined.xml",sep = "/"))
-system('xmlformat --config-file=/Users/guhl/Documents/GitHub/ezdrama/format.conf "/Users/guhl/Documents/GitHub/ETCRA5_dd23/R/data/gerXXX-kotzebue-blindgeladen.tei_Rcombined.xml" > "/Users/guhl/Documents/GitHub/ETCRA5_dd23/R/data/gerXXX-kotzebue-blindgeladen.tei_final.xml"')
+outns
+#writeLines(d8,paste(wdir,"data","gerXXX-kotzebue-blindgeladen.tei_Rcombined.xml",sep = "/"))
+writeLines(d8,paste(wdir,"data","gerXXX-polytimet.tei_Rcombined.xml",sep = "/"))
+
+#systemprep<-paste0('xmlformat --config-file=/Users/guhl/Documents/GitHub/ezdrama/format.conf "',outns,'" > "',finaloutns,'"')
+system('xmlformat --config-file=/Users/guhl/Documents/GitHub/ezdrama/format.conf "/Users/guhl/Documents/GitHub/ETCRA5_dd23/R/data/gerXXX-polytimet.tei_Rcombined.xml" > "/Users/guhl/Documents/GitHub/ETCRA5_dd23/R/data/gerXXX-polytimet_staged_tei_final.xml"')
 #writeLines(d8,"gerXXX-kotzebue-blindgeladen.tei_Rcombined.xml")
