@@ -52,6 +52,13 @@ getwd()
 #setwd("~/Documents/GIT/ETCRA5_dd23/R")
 #mini
 #setwd("gith/ETCRA5_dd23/R")
+#lapsi
+dev<-"/Users/guhl/Documents/GitHub/"
+#ewa
+dev<-"/Users/guhl/Documents/GIT/"
+#mini
+#dev<-"gith"
+
 ####################
 #src<-"https://raw.githubusercontent.com/esteeschwarz/ETCRA5_dd23/main/R/data/c0_Der_Besuch_Klemm_wsource_epub.xml"
 src<-"https://raw.githubusercontent.com/esteeschwarz/ETCRA5_dd23/main/R/data/c0_Blind_geladen_wsource_epub.xml"
@@ -216,7 +223,7 @@ df_scenes$pb2<-d4$cpt
 #####
 #pba2
 getwd()
-#write.csv(tx1,"klemmDB001.csv")
+dfsafe<-df_scenes
 ############################################
 #########
 #declaration from DB source created above
@@ -508,7 +515,8 @@ mna1<-mna-1
 ###########
 getwd()
 wdir<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/R"
-
+wdir<-paste(dev,"ETCRA5_dd23/R",sep = "/")
+write.csv(dfsafe,paste(wdir,"data",paste0(dramans,"DB001b.csv"),sep = "/"))
 write.csv(pbdf,paste(wdir,"data",paste0(dramans,"DB002b.csv"),sep = "/"))
 dramawrite<-paste0(dramans,"DB002b.html")
 outns<-paste(wdir,"data",dramawrite,sep = "/")
@@ -551,3 +559,10 @@ writeLines(d8,paste(wdir,"data","gerXXX-polytimet.tei_Rcombined.xml",sep = "/"))
 #systemprep<-paste0('xmlformat --config-file=/Users/guhl/Documents/GitHub/ezdrama/format.conf "',outns,'" > "',finaloutns,'"')
 system('xmlformat --config-file=/Users/guhl/Documents/GitHub/ezdrama/format.conf "/Users/guhl/Documents/GitHub/ETCRA5_dd23/R/data/gerXXX-polytimet.tei_Rcombined.xml" > "/Users/guhl/Documents/GitHub/ETCRA5_dd23/R/data/gerXXX-polytimet_staged_tei_final.xml"')
 #writeLines(d8,"gerXXX-kotzebue-blindgeladen.tei_Rcombined.xml")
+
+getwd()
+ezd<-read.csv("data/polytimetDB001b_ezdrama.csv",sep = ";")
+ezd$ezcpt<-paste0(ezd$ezd,ezd$pb2)
+m<-!is.na(ezd$ezcpt)
+writeLines(ezd$ezcpt[m],paste(wdir,"data","polytimet_ezd_.txt",sep = "/"))
+
