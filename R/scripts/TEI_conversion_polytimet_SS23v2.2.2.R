@@ -516,7 +516,6 @@ mna1<-mna-1
 getwd()
 wdir<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/R"
 wdir<-paste(dev,"ETCRA5_dd23/R",sep = "/")
-write.csv(dfsafe,paste(wdir,"data",paste0(dramans,"DB001b.csv"),sep = "/"))
 write.csv(pbdf,paste(wdir,"data",paste0(dramans,"DB002b.csv"),sep = "/"))
 dramawrite<-paste0(dramans,"DB002b.html")
 outns<-paste(wdir,"data",dramawrite,sep = "/")
@@ -561,6 +560,8 @@ system('xmlformat --config-file=/Users/guhl/Documents/GitHub/ezdrama/format.conf
 #writeLines(d8,"gerXXX-kotzebue-blindgeladen.tei_Rcombined.xml")
 
 getwd()
+# use DF, tag according to ezdrama notebook
+write.csv(dfsafe,paste(wdir,"data",paste0(dramans,"DB001b.csv"),sep = "/"))
 ezd<-read.csv("data/polytimetDB001b_ezdrama.csv",sep = ";")
 ezd$ezcpt<-paste0(ezd$ezd,ezd$pb2)
 m<-!is.na(ezd$ezcpt)

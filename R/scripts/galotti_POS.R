@@ -1,12 +1,12 @@
+#13217.potsdam block 
+#lessing, galotti PoS & lemmatization for further research
+#
 library(stringi)
-d1<-read_table("data/gerdracor_01.vert",col_names = c("token","cat","lemma"),skip = 2) #read sketchenegine vertical export of corpus
+d1<-read_table("data/lessing-galotti-sketchenginePoS_Lemma.vert",col_names = c("token","cat","lemma"),skip = 1) #read sketchenegine export table (vertical) of corpus
 
 
                
-get_pos<-function(set,set0){
-  
-  d4<-set
-  #  dns[7:14]
+get_pos<-function(set0){
   ann<-data.frame(stri_split_fixed(set0$cat,".",simplify = T))
   ns_g<-list()
   
@@ -36,18 +36,14 @@ get_pos<-function(set,set0){
   # TODO: c("zu","Auth","Sent","Psp","Cont")
 } # end get_pos
 
-ns_g2<-get_pos(d1,d1)
+ns_g2<-get_pos(d1)
 ##################
 
 ######################
 getarray<-function(set,r){
-  d5<-set
-  #s1<-d5$pos_cpt[r]
+  d4<-set
   s1<-d4$cat[r]
-  #s1<-d4$cat[119]
-  
   s1
-  #mxcolumns<-grep("x",colnames(d4))
   s2<-stri_split_regex(s1,"\\.",simplify = T)
   a<-c(s2)
   s2<-a
@@ -57,55 +53,36 @@ getarray<-function(set,r){
   return(s2)
 }
 #############################
-# NEW: ######################
 # get codes cpt, grep value of useable values in code, output to useable value standard position
 #############################
-#d5<-getdata()
-#d5<-d4
-#r<-11
-#top<-5
-#d6<-d5
-#ma<-array()
-#s2
-#d6<-matrix(nrow = length(d5$id),ncol = 8)
-#top<-1
-#l<-2
 ##########################
 colnames(d1)
 d2<-cbind(d1,x1=0,x2=0,x3=0,x4=0,x5=0,x6=0,x7=0,x8=0,x9=0)
-d4<-d2
-d5<-d4
-d6<-d4
-mxcolumns<-grep("x",colnames(d4))
+mxcolumns<-grep("x",colnames(d2))
 ###########
-# this is a 5 minute loop!
+# this is a 1 minute loop!
 ###########
-for (r in 1:length(d5$cat)){
-  #s2<- d5$pos_cpt[r]
-  s2<-getarray(d4,r)
+for (r in 1:length(d2$cat)){
+  s2<-getarray(d2,r)
   for (top in 1:length(ns_g2$cor)){
     for (l in 1:length(ns_g2$cor[[top]])){
       m1<-match(ns_g2$cor[[top]][[l]],s2)
       #s2[m1]
       
       pos<-mxcolumns[1]-1+top
-      ifelse (m1!=0,d6[r,pos]<-s2[m1],d6[r,pos]<-"-")
+      ifelse (m1!=0,d2[r,pos]<-s2[m1],d2[r,pos]<-"-")
       #cat("check token: [",r,"], tag = ",d6[r,],"\n")
       #print(d6[r,])
       print(r)
     }
   }
-  #d6[pos,1:8]<-ma
 } # end POS position correction
 ###############################
+d6<-d2
 head(d6)
 
 
 d6safe<-d6
-getwd()
-### DEFINITELY SAFE AFTER RUN! ####
-#dbwritedir<-datadir
-datadir<-"data"
 ###### finalise
 colnames(d6)
 #here stepback and run
@@ -115,6 +92,17 @@ mxcolumns<-grep("x",colnames(d6))
 dns_o<-colnames(d6)
 dns_n<-c(dns_o[1:3],dns_x)
 colnames(d6)<-dns_n
-datestamp<-"13217"
-dbname<-paste0("galotti_postagged_",datestamp,".csv")
+#clear lemma definition
+clean_lemma<-function(x) gsub("-.*","",x)
+c1<-lapply(d6$lemma, clean_lemma)
+na<-is.na(c1)
+c1[na]<-""
+c1<-unlist(c1)
+d6$lemma<-c1
+n0<-d6==0
+d6[n0]<-NA
+getwd()
+datadir<-"data"
+datestamp<-"13221"
+dbname<-paste0("lessing-galotti_PoStagged.csv")
 write.csv(d6,paste(datadir,dbname,sep="/"))
