@@ -7,7 +7,7 @@ d1<-read_table("data/lessing-galotti-sketchenginePoS_Lemma.vert",col_names = c("
 
                
 get_pos<-function(set0){
-  ann<-data.frame(stri_split_fixed(set0$cat,".",simplify = T))
+  ann<-data.frame(stri_split_fixed(set0$tag,".",simplify = T))
   ns_g<-list()
   
   ns_g[[1]]<-unique(ann$X1)
@@ -36,13 +36,12 @@ get_pos<-function(set0){
   # TODO: c("zu","Auth","Sent","Psp","Cont")
 } # end get_pos
 
-ns_g2<-get_pos(d1)
 ##################
 
 ######################
 getarray<-function(set,r){
   d4<-set
-  s1<-d4$cat[r]
+  s1<-d4$tag[r]
   s1
   s2<-stri_split_regex(s1,"\\.",simplify = T)
   a<-c(s2)
@@ -52,17 +51,20 @@ getarray<-function(set,r){
   print(s2)
   return(s2)
 }
+#d6<-d1
+#set<-d3
 #############################
 # get codes cpt, grep value of useable values in code, output to useable value standard position
 #############################
 ##########################
 colnames(d1)
-d2<-cbind(d1,x1=0,x2=0,x3=0,x4=0,x5=0,x6=0,x7=0,x8=0,x9=0)
+performsplit<-function(set){
+d2<-cbind(set,x1=0,x2=0,x3=0,x4=0,x5=0,x6=0,x7=0,x8=0,x9=0)
 mxcolumns<-grep("x",colnames(d2))
 ###########
 # this is a 1 minute loop!
 ###########
-for (r in 1:length(d2$cat)){
+for (r in 1:length(d2$tag)){
   s2<-getarray(d2,r)
   for (top in 1:length(ns_g2$cor)){
     for (l in 1:length(ns_g2$cor[[top]])){
@@ -90,7 +92,8 @@ colnames(d6)
 dns_x<-c("pos","category","funct","case","pers","num","gender","tense","mode")
 mxcolumns<-grep("x",colnames(d6))
 dns_o<-colnames(d6)
-dns_n<-c(dns_o[1:3],dns_x)
+dns_1<-length(colnames(d6))-length(mxcolumns)
+dns_n<-c(dns_o[1:dns_1],dns_x)
 colnames(d6)<-dns_n
 #clear lemma definition
 clean_lemma<-function(x) gsub("-.*","",x)
@@ -101,8 +104,42 @@ c1<-unlist(c1)
 d6$lemma<-c1
 n0<-d6==0
 d6[n0]<-NA
+return(d6)
+}
 getwd()
+###wks.
+# 2nd run with RFTagger:
+tx1<-readLines("~/boxHKW/UNI/21S/DH/local/DD23/GerDraCor_SpokenText/lessing-emilia-galotti_spoken-text.txt")
+txdf<-stri_split_boundaries(tx1,type="word",simplify = T)
+txl<-stri_split_boundaries(tx1,type="word")
+tx2<-unlist(txl)
+tx3<-tx2[tx2!=" "]
+getwd()
+writeLines(tx3,"data/lessing-galotti-tokens.txt")
+callrft<-"~/pro/RFTagger/src/rft-annotate ~/pro/RFTagger/lib/german.par data/lessing-galotti-tokens.txt data/lessing-galotti-rftagged_DF.csv"
+system(callrft)
+d3<-read_table("data/lessing-galotti-rftagged_DF.csv",col_names = c("token","tag")) #read sketchenegine export table (vertical) of corpus
+
+set<-d3
+
+ns_g2<-get_pos(set)
+d7<-performsplit(d3)
+d6<-performsplit(d1)
+
 datadir<-"data"
 datestamp<-"13221"
-dbname<-paste0("lessing-galotti_PoStagged.csv")
-write.csv(d6,paste(datadir,dbname,sep="/"))
+dbname1<-paste0("lessing-galotti_PoStagged-lemmatized.csv")
+write.csv(d6,paste(datadir,dbname1,sep="/"))
+dbname2<-paste0("lessing-galotti_PoStagged.csv")
+write.csv(d7,paste(datadir,dbname2,sep="/"))
+###wks.
+#check
+d8<-read.csv(paste0("data/",dbname1))
+d9<-read.csv(paste0("data/",dbname2))
+#remove metatokens
+m<-grep("<g/>|<s>|</s>",d8$token,invert = T)
+d8b<-d8[m,]
+write.csv(d8b,paste(datadir,dbname1,sep="/"))
+
+
+
