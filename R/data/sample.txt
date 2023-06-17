@@ -1,0 +1,4 @@
+sample.txt for translation essai
+substitution:
+here is a # raute
+here is a (stage direction)
