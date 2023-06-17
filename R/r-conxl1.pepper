@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pepper-job id="tt001" version="1.0">
+<importer name="SpreadsheetImporter" path="./data/corpus/philotas/philotas_corpus/"/>	
+<exporter name="TreetaggerExporter" path="./data/corpus/philotas/r-tt4/"/>
+</pepper-job>

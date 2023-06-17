@@ -2,7 +2,8 @@
 #lessing, galotti PoS & lemmatization for further research
 #
 library(stringi)
-d1<-read_table("data/lessing-galotti-sketchenginePoS_Lemma.vert",col_names = c("token","cat","lemma"),skip = 1) #read sketchenegine export table (vertical) of corpus
+#d1<-read_table("data/lessing-galotti-sketchenginePoS_Lemma.vert",col_names = c("token","cat","lemma"),skip = 1) #read sketchenegine export table (vertical) of corpus
+d1<-read_table("data/philotas.vert",col_names = c("token","tag","lemma"),skip = 1) #read sketchenegine export table (vertical) of corpus
 
 
                
@@ -58,12 +59,14 @@ getarray<-function(set,r){
 #############################
 ##########################
 colnames(d1)
+set<-d1
 performsplit<-function(set){
 d2<-cbind(set,x1=0,x2=0,x3=0,x4=0,x5=0,x6=0,x7=0,x8=0,x9=0)
 mxcolumns<-grep("x",colnames(d2))
 ###########
 # this is a 1 minute loop!
 ###########
+r<-3
 for (r in 1:length(d2$tag)){
   s2<-getarray(d2,r)
   for (top in 1:length(ns_g2$cor)){
@@ -110,32 +113,50 @@ getwd()
 ###wks.
 # 2nd run with RFTagger:
 tx1<-readLines("~/boxHKW/UNI/21S/DH/local/DD23/GerDraCor_SpokenText/lessing-emilia-galotti_spoken-text.txt")
+tx1<-readLines("data/corpus/philotas/gleim_Philotas.txt")
+tx1<-readLines("data/corpus/philotas/bodmer_Polytimet.txt")
+
 txdf<-stri_split_boundaries(tx1,type="word",simplify = T)
 txl<-stri_split_boundaries(tx1,type="word")
 tx2<-unlist(txl)
 tx3<-tx2[tx2!=" "]
 getwd()
-writeLines(tx3,"data/lessing-galotti-tokens.txt")
+#writeLines(tx3,"data/corpus/philotas/philotas-tokens.txt")
+writeLines(tx3,"data/corpus/philotas/polytimet-tokens.txt")
+
 callrft<-"~/pro/RFTagger/src/rft-annotate ~/pro/RFTagger/lib/german.par data/lessing-galotti-tokens.txt data/lessing-galotti-rftagged_DF.csv"
+callrft<-"~/pro/RFTagger/src/rft-annotate ~/pro/RFTagger/lib/german.par data/corpus/philotas/philotas-tokens.txt data/philotas_DF.csv"
+callrft<-"~/pro/RFTagger/src/rft-annotate ~/pro/RFTagger/lib/german.par data/corpus/philotas/polytimet-tokens.txt data/polytimet_DF.csv"
+
 system(callrft)
-d3<-read_table("data/lessing-galotti-rftagged_DF.csv",col_names = c("token","tag")) #read sketchenegine export table (vertical) of corpus
+#d3<-read_table("data/lessing-galotti-rftagged_DF.csv",col_names = c("token","tag")) #read sketchenegine export table (vertical) of corpus
+d3<-read_table("data/philotas_DF.csv",col_names = c("tok","tag")) #read sketchenegine export table (vertical) of corpus
+d3<-read_table("data/polytimet_DF.csv",col_names = c("tok","tag")) #read sketchenegine export table (vertical) of corpus
 
 set<-d3
 
 ns_g2<-get_pos(set)
 d7<-performsplit(d3)
-d6<-performsplit(d1)
+#d6<-performsplit(d1)
 
 datadir<-"data"
 datestamp<-"13221"
 dbname1<-paste0("lessing-galotti_PoStagged-lemmatized.csv")
+dbname1<-paste0("philotas_PoStagged-lemmatized.csv")
 write.csv(d6,paste(datadir,dbname1,sep="/"))
-dbname2<-paste0("lessing-galotti_PoStagged.csv")
+dbname2<-paste0("philotas_PoStagged.csv")
+dbname2<-paste0("philotas_PoStagged.csv")
+dbname2<-paste0("philotas")
+dbname2<-paste0("polytimet")
+pepperdirdd<-paste("corpus/philotas/philotas_corpus",sep = "/")
+dir.create(pepperdir)
 write.csv(d7,paste(datadir,dbname2,sep="/"))
+writexl::write_xlsx(d7,paste(datadir,pepperdirdd,paste0(dbname2,".xlsx"),sep="/"))
+
 ###wks.
 #check
 d8<-read.csv(paste0("data/",dbname1))
-d9<-read.csv(paste0("data/",dbname2))
+#d9<-read.csv(paste0("data/",dbname2))
 #remove metatokens
 m<-grep("<g/>|<s>|</s>",d8$token,invert = T)
 d8b<-d8[m,]

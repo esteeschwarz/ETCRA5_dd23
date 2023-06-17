@@ -101,3 +101,16 @@ ds<-dictionaryStatistics(
 # ds <- dictionaryStatistics(rksp.0, normalizeByField=TRUE, 
 #                            fieldnames=fnames)
 # plotSpiderWebs(ds)
+
+
+####
+#13247.before class
+ids<-loadAllInstalledIds(dataDirectory = getOption("st.datadir"))
+datadi
+ch<-characterNames(drama=f)
+ch<-loadCharacters()
+gn<-factor(c("m","m","m","m","m","f","m"))
+gn<-factor(c("m","f"))
+keywords<-keyness(ff, method="logratio",categories=gn,minimalFrequency =5)
+
+

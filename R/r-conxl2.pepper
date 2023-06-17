@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pepper-job id="tt001" version="1.0">
+<importer name="TreetaggerImporter" path="./r-tt4/SES_40_3.3.5">
+              
+            </importer>
+<exporter name="ANNISExporter" path="./r-annis3/">
+<!-- <customization>
+			<property key="pepper.after.tokenize">true
+			</property>
+		</customization> -->
+    </exporter>
+</pepper-job>
