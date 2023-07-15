@@ -51,12 +51,12 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Build with mdBook
        # uses: actions/cache/restore@v3
-       
-        run: mdbook build -d ./mdbook/workflow/book
-          with:
+        with:
             path: mdbook
             key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
 
+        run: mdbook build -d ./mdbook/workflow/book
+         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
