@@ -45,11 +45,12 @@ jobs:
         #   then install_mdb.sh;
         #   fi
         if: steps.cache-restore.outputs.cache-hit != 'true'
-          run: install_mdb.sh
+        run: install_mdb.sh
         # run: |
         #      curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
         #      rustup update
         #      cargo install --version ${MDBOOK_VERSION} mdbook
+        if: steps.cache-restore.outputs.cache-hit == 'true'
         run: mdbook build -d ./mdbook/workflow/book
       - name: Setup Pages
         id: pages
