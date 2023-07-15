@@ -45,7 +45,7 @@ jobs:
         #   then install_mdb.sh;
         #   fi
         if: steps.cache-restore.outputs.cache-hit != 'true'
-        run: install_mdb.sh
+        run: .github/workflows/install_mdb.sh
         # run: |
         #      curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
         #      rustup update
