@@ -1,0 +1,3 @@
+Source,Target,Weight,Type
+bodmer_Polytimet,gleim_Philotas,6,undirected
+gleim_Philotas,bodmer_Polytimet,6,undirected
