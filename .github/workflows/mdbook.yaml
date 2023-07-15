@@ -36,7 +36,7 @@ jobs:
       - uses: actions/cache@v3
         id: cache
         with:
-          path: mdbook
+          path: mdbooknot
           key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
 
       - name: Install mdBook
