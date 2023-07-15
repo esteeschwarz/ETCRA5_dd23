@@ -2,5 +2,5 @@
 authors = ["estee"]
 language = "en"
 multilingual = false
-src = "mdbook/workflow/src"
+src = "./mdbook/workflow/src"
 title = "Dramenanalyse"
