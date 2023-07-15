@@ -5,8 +5,8 @@ if we do not have a text file yet, first will be to transcribe some  source of t
 for that purpose you can either transcribe the text manually, from picture to text, or you use e.g. [transkribus][1], a user friendly framework for OCR (optical character recognition). with that half of the work is done by the algorithm, but you still have to check the automatic transcription for recognition failures.     
 next step if you have the transcript ready will be to upload the text page by page to [wikisource][2] where it can be proofread by others. if theres two correction runs ready, you can download the proper version of the text from which we proceed to the TEI.     
 theres multiple ways of how you can get to the TEI text. one is to wrap text elements which need to be \<marked up\> with [oxygen][3], a powerful XML editor to which the FU grants a permanent license.   
-`another way would be to use an R-script that does lot of work yet, but you'll have to very precisely define text specific parameters to be able to apply the script to your drama text. to use the script you have to be some familiar with the R language which is scheduled in class.   `
-NT: the dracor project already provides a convenient routine to preprocess your text to the TEI format, see section [4.1][4] to that.  
+`another way would be to use an R-script that does lot of work yet, but you'll have to very precisely define text specific parameters to be able to apply the script to your drama text. to use the script you have to be some familiar with the R language which is scheduled in class.   `     
+NT: the dracor project already provides a convenient routine to preprocess your text to the TEI format, see section [4.1][4] to that.      
 if all that is done you possess a finalized TEI text which allows further analysis of the drama again e.g. using python or R or e.g.[gephi][5] for network analysis.
 
 [1]:	https://readcoop.eu/transkribus/
