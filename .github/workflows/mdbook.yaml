@@ -53,10 +53,9 @@ jobs:
        # uses: actions/cache/restore@v3
        
         run: mdbook build -d ./mdbook/workflow/book
-         with:
-          path: |
-            mdbook
-          key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
+          with:
+            path: mdbook
+            key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
