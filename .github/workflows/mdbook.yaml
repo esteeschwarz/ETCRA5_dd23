@@ -32,6 +32,7 @@ jobs:
       MDBOOK_VERSION: 0.4.21
     steps:
       - uses: actions/checkout@v3
+      - name: check
       - uses: actions/cache@v3
         id: cache
         with:
@@ -39,7 +40,7 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
 
       - name: Install mdBook
-        if: steps.cache.outputs.cache-hit != 'true'
+        if: check.cache.outputs.cache-hit != 'true'
 
         run: |
           curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
