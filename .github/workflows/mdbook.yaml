@@ -33,7 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
      # - name: check
-      - uses: actions/cache@v3
+      - uses: actions/cache/restore@v3
         id: cache
         with:
           path: mdbooknot
@@ -61,6 +61,11 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./mdbook/workflow/book
+      - name: docache
+        uses: actions/cache/save@v3
+        with:
+          path: mdbook
+          key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
 
   # Deployment job
   deploy:
