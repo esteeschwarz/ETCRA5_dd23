@@ -49,12 +49,13 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+      
+      - name: Build with mdBook
         uses: actions/cache/restore@v3
         with:
           path: |
             mdbook
           key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
-      - name: Build with mdBook
         run: mdbook build -d ./mdbook/workflow/book
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
