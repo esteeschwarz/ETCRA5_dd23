@@ -1,0 +1,16 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+<title>Error 400 HTTP method GET is not supported by this URL</title>
+</head>
+<body><h2>HTTP ERROR 400 HTTP method GET is not supported by this URL</h2>
+<table>
+<tr><th>URI:</th><td>/exist/restxq/v0/corpora/ger/play/klemm-der-besuch/spoken-text-by-character.json</td></tr>
+<tr><th>STATUS:</th><td>400</td></tr>
+<tr><th>MESSAGE:</th><td>HTTP method GET is not supported by this URL</td></tr>
+<tr><th>SERVLET:</th><td>RestXqServlet</td></tr>
+</table>
+<hr/><a href="https://eclipse.org/jetty">Powered by Jetty:// 9.4.44.v20210927</a><hr/>
+
+</body>
+</html>
