@@ -39,13 +39,15 @@ jobs:
       #     path: mdbook
       #     key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
 
-      #- name: Install mdBook
+      ##########################################################
+      # routine from: https://github.com/rust-lang/mdBook/wiki/Automated-Deployment%3A-GitHub-Actions
+      ##########################################################
       - name: Install mdBook
         uses: extractions/setup-crate@v1
         with:
           owner: rust-lang
           name: mdBook
-
+      ##########################################################
         # command: |
         #   if [ steps.cache-restore.outputs.cache-hit != 'true' ];
         #   then install_mdb.sh;
