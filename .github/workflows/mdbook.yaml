@@ -33,14 +33,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
      # - name: check
-      - uses: actions/cache/restore@v3
-        id: cache-restore
-        with:
-          path: mdbook
-          key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
+      # - uses: actions/cache/restore@v3
+      #   id: cache-restore
+      #   with:
+      #     path: mdbook
+      #     key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
 
       #- name: Install mdBook
-       - name: Install mdBook
+      - name: Install mdBook
         uses: extractions/setup-crate@v1
         with:
           owner: rust-lang
