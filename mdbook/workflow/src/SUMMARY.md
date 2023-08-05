@@ -18,8 +18,10 @@
 	- [TEI preprocessing][16]
 	- [oxygen][17]
 - [text analysis tools][18]
-- [alii][19]
-	- [GaGa][20]
+	- [stylometrie][19]
+	- [networks analysis][20]
+- [alii][21]
+	- [GaGa][22]
 
 [1]:	intro.md
 [2]:	pre.md
@@ -39,5 +41,7 @@
 [16]:	tei001.md
 [17]:	oxygen009.md
 [18]:	text000.md
-[19]:	empty.md
-[20]:	gaga.md
+[19]:	stylo001.md
+[20]:	net001.md
+[21]:	empty.md
+[22]:	gaga.md

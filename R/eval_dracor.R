@@ -2,11 +2,13 @@
 library(jsonlite)
 einakter <- fromJSON("https://einakter.dracor.org/data.json")
 #fetch dataset from dracor server
-
+#set<-einakter
+getwd()
+wd<-"~/Documents/GitHub/ETCRA5_dd23/R"
+setwd(wd)
 m<-einakter$printed=="NULL"
 sum(m)
 einakter$printed[m]<-NA
-#set<-einakter
 
 #build dataframe of name in question
 spitcast<-function(set,cast){
@@ -24,3 +26,10 @@ ndf<-spitcast(einakter,name_to_analyse)
 
 #print out first 5 elements of dataframe
 head(ndf)
+
+#either:
+library(writexl)
+write_xlsx(ndf,"data/dracor_names-analysed_dataframe.xlsx")
+
+#or:
+write.csv(ndf,"data/dracor_names-analysed_dataframe.csv")
