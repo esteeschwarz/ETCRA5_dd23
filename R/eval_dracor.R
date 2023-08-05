@@ -2,6 +2,7 @@
 library(jsonlite)
 einakter <- fromJSON("https://einakter.dracor.org/data.json")
 #fetch dataset from dracor server
+#set<-einakter
 getwd()
 wd<-"~/Documents/GitHub/ETCRA5_dd23/R"
 setwd(wd)

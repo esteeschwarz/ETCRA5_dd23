@@ -12,7 +12,12 @@ library(network)
 
 src<-"https://dracor.org/api/corpora/ger/play/klemm-der-besuch/spoken-text-by-character.json"
 #dtajson<-GET(src)
+src<-"https://dracor.org/api/corpora/ger/play/lessing-emilia-galotti/spoken-text-by-character.json"
+#13302.api unavailable
+src<-"~/Documents/GitHub/ETCRA5_dd23/R/data/ger000577-klemm-der-besuch-spoken.json"
 dtatxt<-fromJSON(src)
+dtatxt<-fromJSON(dtajson)
+
 dtatxt$label
 ###
 #write textfiles
@@ -69,9 +74,11 @@ library(networkD3)
 #stylo(corpus.dir = path2, analysis.type = "CA", mfw.min = 100, mfw.max = 3000, custom.graph.title = "Klemm vs. Others", write.png.file = TRUE, gui = FALSE)
 # BCT or CA
 #stylo(corpus.dir = path2, gui = T)
+x<-doe
 nodes<-x$list.of.nodes
 edges<-x$list.of.edges
 net2 <- graph_from_data_frame(d=edges) 
+net2<-graph_from_data_frame(d=Weight)
 edges<- edges[,c("Source", "Target", "Weight")]
  edges # überprüfen
 # # neue Kantenliste speichern
@@ -97,13 +104,30 @@ simple_vertex_df <- data.frame(
   residence = c("urban", "rural", "suburban", "suburban", "rural")
 )
 simple_vertex_df
-
+simple_edge_df<-doe
 net3<-(as.network(simple_edge_df, vertices = simple_vertex_df))
 plot(net3, edge.arrow.size=.4,label=simple_vertex_df$name, 
      vertex.size=n)
 simple_vertex_df$residence
   plot(net4,label=nodes$id)
-
+###########################
+  #13302.
+  #src: https://emitanaka.org/blog/2021-02-03-current-state-of-experimental-design-r-packages/current-state-of-experimental-design-r-packages.html
+ src<-"data/ger000577-klemm-der-besuch.csv"
+  doe_imports<-read.csv(src)
+  library(ggraph)
+  doe<-doe_imports
+   graph_from_data_frame(doe_imports) %>% 
+    ggraph(layout = 'fr') +
+    geom_edge_link(aes(start_cap = label_rect(doe$source),
+                       end_cap = label_rect(doe$target)), 
+                   arrow = arrow(length = unit(2, 'mm')),
+                   color = "#79003e") + 
+    geom_node_text(aes(label = name),
+                   color = "#79003e") +
+    theme(panel.background = element_rect(fill = "#f6e5ee",
+                                          color = "#79003e"),
+          plot.margin = margin(20, 20, 20, 20))
   
   a1<-data.frame(
     from = edges$Source,

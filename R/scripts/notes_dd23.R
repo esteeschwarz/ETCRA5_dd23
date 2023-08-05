@@ -112,5 +112,5 @@ ch<-loadCharacters()
 gn<-factor(c("m","m","m","m","m","f","m"))
 gn<-factor(c("m","f"))
 keywords<-keyness(ff, method="logratio",categories=gn,minimalFrequency =5)
-
+#13302.knit to gh-pages essais
 
