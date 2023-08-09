@@ -1,9 +1,10 @@
 getwd()
+setwd("~/boxHKW/21S/DH")
 library(readr)
 library(stringi)
 library(writexl)
 d1<-read_table("local/R/corpus/benjaminfeldkraft.vert",col_names = c("token","cat","lemma"))
-datetime<-"13172.2"
+datetime<-"13324"
 #"corpus"
 #d2<-cleandb(d1)
 #d2<-preprocess_temp(d1)
@@ -43,6 +44,39 @@ get_pos<-function(set,set0){
   # its 9 fields! not 8
   # TODO: c("zu","Auth","Sent","Psp","Cont")
 } # end get_pos
+
+###13324.
+source("~/boxHKW/21S/DH/local/R/askchatgpt.R")
+######
+phrase<-"Ich mag deine Haare."
+prompt<-paste0("rate the sentiment of the phrase: (",phrase,") on a scale from 1-10 where 10 is positive.")
+q<- paste0('{"model": "text-davinci-003", "prompt": "',prompt,'", "temperature": 0, "max_tokens": 600}')
+######
+askgpt(q)
+sentence<-list()
+sentiment<-array()
+ls<-length(m1)
+k<-1
+sentimentloop<-function(){
+  for (k in 1:ls){
+    sentence[[k]]<-d1$token[m1[k]:m2[k]]
+    regx<-'[<>\\"/]'
+    m3<-grep(regx,sentence[[k]],invert = T)
+    cleansoup<-sentence[[k]][m3]
+    phrase<-paste(cleansoup,collapse = " ")
+    prompt<-paste0("rate the sentiment of the phrase: (",phrase,") on a scale from 1-10 where 10 is positive.")
+    q<- paste0('{"model": "text-davinci-003", "prompt": "',prompt,'", "temperature": 0, "max_tokens": 600}')
+    re<-askgpt(q)
+    sentiment[k]<-gsub("[^0-9]","",re)
+    
+    }
+}
+sentdf<-data.frame(sentence=1:ls,sentiment=sentiment)
+getwd()
+write_csv(sentdf,"benjamin_sentiment.csv")
+askgpt(q)
+q
+sentence[[k]]
 
 ns_g2<-get_pos(d1,d1)
 ns_g2[4]
