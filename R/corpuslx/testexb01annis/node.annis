@@ -1,0 +1,19 @@
+0	0	0	default_layer	virtualToken0	0	0	0	0	0	NULL	NULL	 	FALSE
+1	0	0	default_layer	virtualToken1	1	1	1	1	1	NULL	NULL	 	FALSE
+2	0	0	default_layer	virtualToken2	2	2	2	2	2	NULL	NULL	 	FALSE
+3	0	0	default_layer	virtualToken3	3	3	3	3	3	NULL	NULL	 	FALSE
+4	0	0	default_layer	virtualToken4	4	4	4	4	4	NULL	NULL	 	FALSE
+5	0	0	default_layer	virtualToken5	5	5	5	5	5	NULL	NULL	 	FALSE
+6	0	0	default_layer	virtualToken6	6	6	6	6	6	NULL	NULL	 	FALSE
+7	0	0	default_layer	virtualToken7	7	7	7	7	7	NULL	NULL	 	FALSE
+8	0	0	default_layer	virtualToken8	8	8	8	8	8	NULL	NULL	 	TRUE
+9	0	0	default_layer	virtualToken9	9	9	9	9	9	NULL	NULL	 	TRUE
+10	0	0	default_layer	sTok1_virtualSpan	0	0	NULL	0	0	NULL	NULL	this	FALSE
+11	0	0	default_layer	sTok2_virtualSpan	1	1	NULL	1	1	NULL	NULL	is	FALSE
+12	0	0	default_layer	sTok3_virtualSpan	2	2	NULL	2	2	NULL	NULL	a	FALSE
+13	0	0	default_layer	sTok4_virtualSpan	3	3	NULL	3	3	NULL	NULL	sample	FALSE
+14	0	0	default_layer	sTok5_virtualSpan	4	4	NULL	4	4	NULL	NULL	sentence	FALSE
+15	0	0	default_layer	sTok6_virtualSpan	5	5	NULL	5	5	NULL	NULL	of	FALSE
+16	0	0	default_layer	sTok7_virtualSpan	6	6	NULL	6	6	NULL	NULL	length	FALSE
+17	0	0	default_layer	sTok8_virtualSpan	7	7	NULL	7	7	NULL	NULL	one	FALSE
+18	0	0	default_ns	sSpan1	0	7	NULL	0	7	NULL	NULL	NULL	TRUE

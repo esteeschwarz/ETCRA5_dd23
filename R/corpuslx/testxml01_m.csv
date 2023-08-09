@@ -1,0 +1,18 @@
+tier,type,spk,tok,start,end,abb,tie
+X [v],t,SPK0,this,-0.1,-0.1,v,TIE0
+ann,a,SPK0,sentence,-0.1,-0.1,v,TIE1
+pos,a,null,NA,-0.1,-0.1,v,TIE2
+X [v],t,SPK0,is,-0.1,-0.1,v,TIE0
+pos,a,null,V,-0.1,-0.1,v,TIE2
+X [v],t,SPK0,a,-0.1,-0.1,v,TIE0
+pos,a,null,ART,-0.1,-0.1,v,TIE2
+X [v],t,SPK0,sample,-0.1,-0.1,v,TIE0
+pos,a,null,ADJ,-0.1,-0.1,v,TIE2
+X [v],t,SPK0,sentence,-0.1,-0.1,v,TIE0
+pos,a,null,N,-0.1,-0.1,v,TIE2
+X [v],t,SPK0,of,-0.1,-0.1,v,TIE0
+pos,a,null,NA,-0.1,-0.1,v,TIE2
+X [v],t,SPK0,length,-0.1,-0.1,v,TIE0
+pos,a,null,N,-0.1,-0.1,v,TIE2
+X [v],t,SPK0,one,-0.1,-0.1,v,TIE0
+pos,a,null,C,-0.1,-0.1,v,TIE2

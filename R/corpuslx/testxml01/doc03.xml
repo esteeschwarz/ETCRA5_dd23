@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<corpus name="testxml">
+    <doc id="3">
+<a att="value">a doc03sample</a>
+<a pos="NP"><c pos="ART">a</c> <b pos="N">doc03sample</b></a>
+        
+<a>This is <b><c>a doc03sample</c></b> text</a>
+<a>This is <!-- t1 --><b>a doc03sample<!-- t2 --></b> text<!-- t3 --></a>
+<a><b>...</b></a>
+<a><b>a doc03sample</b></a>
+<a>This is</a><b> a doc03sample text</b>
+    </doc>
+</corpus>

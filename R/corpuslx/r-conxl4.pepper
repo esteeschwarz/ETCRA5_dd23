@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pepper-job id="tt001" version="1.0">
+<importer name="SpreadsheetImporter" path="./xls"/>
+<exporter name="ANNISExporter" path="./testxls01annis/"/>
+</pepper-job>

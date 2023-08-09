@@ -1,0 +1,31 @@
+<anno1 anno1="a11">
+<anno2 anno2="a21">
+<primnorm primnorm="this">
+this		
+</primnorm>
+</anno2>
+</anno1>
+<anno1 anno1="a12">
+<anno2 anno2="a22">
+<primnorm primnorm="is">
+is		
+</primnorm>
+</anno2>
+</anno1>
+<anno1 anno1="a13">
+<anno2 anno2="a23">
+<primnorm primnorm="an">
+an		
+</primnorm>
+</anno2>
+</anno1>
+<anno2 anno2="a24">
+<primnorm primnorm="example">
+<anno1 anno1="a14">
+ex-		
+</anno1>
+<anno1 anno1="a15">
+ample		
+</anno1>
+</primnorm>
+</anno2>
