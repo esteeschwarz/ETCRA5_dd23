@@ -20,8 +20,9 @@
 - [text analysis tools][18]
 	- [stylometrie][19]
 	- [networks analysis][20]
-- [alii][21]
-	- [GaGa][22]
+	- [corpus of drama plays edited in class][21]
+- [alii][22]
+	- [GaGa][23]
 
 [1]:	intro.md
 [2]:	pre.md
@@ -43,5 +44,6 @@
 [18]:	text000.md
 [19]:	stylo001.md
 [20]:	net001.md
-[21]:	empty.md
-[22]:	gaga.md
+[21]:	annis01.md
+[22]:	empty.md
+[23]:	gaga.md
