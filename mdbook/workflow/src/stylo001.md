@@ -33,5 +33,5 @@ sample [GEPHI][3] output of the stylo-generated data. [`in-out_CA_100_MFWs_Culle
 [2]:	pre007.md
 [3]:	https://gephi.org
 
-[image-1]:	RPlot_001.png
+[image-1]:	Rplot_001.png
 [image-2]:	gephiexpo_001.png
