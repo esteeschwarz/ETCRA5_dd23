@@ -9,17 +9,18 @@ regex functions allow for complex string ("Zeichenketten") searches within a tex
 simple: e.g. if you want to find all occurences of a name (speaker) in a play, you could search for (if the speaker is named "Paul"):  
 `(Paul)` In R the command would be:  
 `m<-grep("Paul",textarray)` where m will be the resulting array of occurences (indices) of "Paul" within a defined array of strings. if you have a text *sample.txt* of plain text consisting of several paragraphs (where the text is divided with CARRIAGE RETURN or by means of a header) the routine looks like this:  
-\`\`\`r
-textarray\<-readLines("sample.txt")
-m\<-grep("Paul",textarray)
-print(textarray[m])
 
-	this will output only the textlines containing a `Paul`- instance.   
-	you could if you want that make a `Paula` of all `Pauls`by:   
-	```r
-	textarray.modified<-gsub("Paul","Paula",textarray)
-	print(textarray.modified)
-	
+```r
+textarray<-readLines("sample.txt")
+m<-grep("Paul",textarray)
+print(textarray[m])
+```
+this will output only the textlines containing a Paul-instance.   
+you could if you want that make a Paula of all Pauls by:   
+```r
+textarray.modified<-gsub("Paul","Paula",textarray)
+print(textarray.modified)
+```
 
 the regex methods allow very fine grained search&replace commands, see the learning tools above where you can experiment with search formula in a app or browser.
 
