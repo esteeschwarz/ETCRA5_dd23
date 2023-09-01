@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <pepper-job id="tt001" version="1.0">
-<importer name="SpreadsheetImporter" path="./xl6/SES_40_3.3.4"/>	
-<exporter name="TreetaggerExporter" path="./r-tt4/"/>
-
-
-<importer name="TreetaggerImporter" path="./r-tt4"/>
-<exporter name="ANNISExporter" path="./r-annis4/">
+<!--<importer name="SpreadsheetImporter" path="./xl6/SES_40_3.3.4"/>	
+<exporter name="TreetaggerExporter" path="./r-tt4/"/>-->
+<importer name="TreetaggerImporter" path="/Users/guhl/boxHKW/21S/DH/local/EXC2020/DD23/data/plays/dd23_17.1"/><!--
+<importer name="TEIImporter" path="/Users/guhl/boxHKW/21S/DH/local/EXC2020/DD23/data/plays/dd23_17.1"/>-->
+<exporter name="ANNISExporter" path="/Users/guhl/boxHKW/21S/DH/local/EXC2020/DD23/data/plays/annis/">
 <!-- <customization>
 			<property key="pepper.after.tokenize">true
 			</property>

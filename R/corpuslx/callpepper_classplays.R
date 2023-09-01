@@ -1,7 +1,7 @@
 
 peppercon1<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/R/corpuslx/r-conxl3_cpt.pepper"
 #peppercon2<-"/Users/guhl/Documents/GitHub/HiSon/grammar/r-conxl7.pepper"
-zippath<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/R/corpuslx/dd23.2.2"
+#zippath<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/R/corpuslx/dd23.2.2"
 zippath<-paste(getwd(),"annis",sep = "/")
 f<-list.files("dd23_17.1")
 

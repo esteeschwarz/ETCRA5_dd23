@@ -14,6 +14,7 @@ getwd()
 
 pepper.call<-function(peppercon,zippath,nszip){
 wd.act<-getwd()
+setwd(wd.act)
 #setwd("~/boxHKW/21S/DH/local/SPUND/corpuslx")
 peppercon1<-"~/boxHKW/21S/DH/local/SPUND/corpuslx/r-conxl1.pepper"
 peppercon2<-"~/boxHKW/21S/DH/local/SPUND/corpuslx/r-conxl2.pepper"
