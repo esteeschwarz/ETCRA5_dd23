@@ -54,15 +54,16 @@ d3<-d2
 #   xml_path() #wks. finds all div elements, including p
 # all_e
 all.e<-d2 %>% xml_find_all('//*[@id="actualtext"]/*') #xpath of div copied from safari 
-cat(xml_text(all.e))
+#cat(xml_text(all.e))
 all.h2<-all.e%>%xml_find_all('//h2') #act
 all.h3<-all.e%>%xml_find_all('//h3') #scene
 all.strong<-all.e%>%xml_find_all('//strong') #speaker
-all.p<-xml_find_all(all.e,'.//p')
+#all.p<-xml_find_all(all.e,'.//p')
 head(all.e)
-head(all.p) #not wks.
+#head(all.p) #not wks.
 df.l<-length(all.e)
 df.s<-data.frame(pid=1:df.l,h2=1:df.l,h3=1:df.l,strong=1:df.l,p=1:df.l)
+df.s[1:df.l,2:length(df.s)]<-NA
 df.s$cpt<-d2 %>% xml_find_all('//*[@id="actualtext"]/*')%>%xml_text()
 m.h2<-grep("h2",all.e)
 h2.temp<-xml_text(all.h2)
@@ -71,9 +72,9 @@ df.s$h3[m.h3]<-xml_text(all.h3)
 df.s$h2[m.h2]<-xml_text(all.h2)
 m.strong<-grep("strong",all.e)
 df.s$strong[m.strong]<-all.strong%>%xml_text()
-write_html(d2,"benyehuda.html")
+#write_html(d2,"benyehuda.html")
 
-k<-1
+#k<-1
 for(k in 1:length(df.s$pid)){
   df.s$p[k]<-gsub(df.s$strong[k],"",df.s$cpt[k])
 }
@@ -98,19 +99,27 @@ sp.first<-min(sp.l.m.a)
 #min(sp.l.m.a,na.rm = T)
 k<-30
 df.s$t.1<-NA
+
 for (k in sp.first:length(df.s$pid)){
-  df.s$t.1[k]<-paste0('<sp who="#',df.s$strong[k],'"><speaker>',df.s$strong[k],'</speaker>','<p>',df.s$p[k],'</p></sp>')
+  m<-grep(":",df.s$strong[k]) #only speaker declarations
+  if(m==T)
+    df.s$t.1[k]<-paste0('<sp who="#',df.s$strong[k],'"><speaker>',df.s$strong[k],'</speaker>','<p>',df.s$p[k],'</p></sp>')
 }
+m<-grep(":",df.s$strong) #only speaker declarations
+m.2<-match(sp.first,m)
+m<-m[m.2:length(m)]
+df.s$t.1[m]<-paste0('<sp who="#',df.s$strong[m],'"><speaker>',df.s$strong[m],'</speaker>','<p>',df.s$p[m],'</p></sp>')
+#wks.
+#stage directions:
+m<-grep("\\(|\\)",df.s$cpt)
+t<-"drei(malschwarzer)kater"
+regx<-"(\\((.*)\\))"
+gsub(regx,'<stage>\\2</stage>',t,perl = T)
+df.s$t.1[m]<-gsub(regx,'<stage> \\2 </stage>',df.s$cpt[m],perl=T)
 
 
 
-
-
-p.h2<-which(d2 %>% xml_find_all('//*[@id="actualtext"]/'))
-all.e<-d2 %>% xml_find_all('//*[@id="actualtext"]/*')
-m.h2<-grep("h2",all.e)
-cat(xml_text(all.h2))
-all.e
+################ this is archived >
 # regx1<-"(Akt|Auftritt|Szene|Scene)"
 # allscenes<-grep(regx1,d2%>%xml_find_all('//div/*') %>%
 #                   xml_text())
