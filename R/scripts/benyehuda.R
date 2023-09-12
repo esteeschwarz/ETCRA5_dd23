@@ -53,8 +53,12 @@ ids<-bencsv$TextID
 
 k<-2
 #for (k in 2:length(ids)){
+#save csv
+write_csv(df.s,paste0("benyehuda-",id.p,"-text.csv"))
+
 id.p<-ids[k]
-#id.p<-33373
+id.p<-33373
+#2nd: 10777
 src<-paste0("https://benyehuda.org/read/",id.p)
 
 d2<-read_html(src)
@@ -141,6 +145,7 @@ for(k in 1:length(m)){
 df.s$p.2[m[k]]<-paste0(m.sp[k,2:length(m.sp[1,])],collapse = " ")
 }
 #############
+m<-grep(":",df.s$strong) #only speaker declarations
 m.2<-match(sp.first,m)
 mna<-is.na(df.s$strong)
 df.s$p.1[mna]<-NA
@@ -150,11 +155,17 @@ sp.first
 m.2<-match(sp.first,m)
 m<-m[m.2:length(m)]
 m.speaker<-m
-df.s$t.1[m]<-paste0('<sp who="#',df.s$strong[m],'"><speaker>',df.s$strong[m],'</speaker>','<p>',df.s$p[m],'</p></sp>')
+speaker<-df.s$strong[m]
+speaker<-gsub(":","",speaker)
+speaker<-gsub('"',"''",speaker)
+#df.s$t.1[m]<-paste0('<sp who="#',df.s$strong[m],'"><speaker>',df.s$strong[m],'</speaker>','<p>',df.s$p[m],'</p></sp>')
+df.s$t.1[m]<-paste0('<sp who="#',speaker[m],'"><speaker>',speaker[m],'</speaker>','<p>',df.s$p[m],'</p></sp>')
+
 #wks. 33373
 ############second
 df.s$t.1[m]<-paste0('<sp who="#',df.s$p.1[m],'"><speaker>',df.s$p.1[m],'</speaker>','<p>',df.s$p.2[m],'</p></sp>')
 df.s$t.1[mna]<-NA
+
 #wks not for staged speakers
 m<-grep("\\(|\\)",df.s$p.1)
 sp.st<-stri_split_regex(df.s$p.1[m],"\\(",simplify = T)
@@ -168,6 +179,7 @@ m.s<-array()
 df.s$sp.in.strong<-NA
 k<-1
 sp.l[1]<-"אוריאל" #some reason speakerlist orthographiy differs from speaker entries, manually adapted
+
 for(k in 1:length(sp.l[,1])){
 m.s<-grep(sp.l[k],df.s$strong)
 df.s$sp.in.strong[m.s]<-df.s$strong[m.s]
@@ -176,12 +188,14 @@ m<-!is.na(df.s$sp.in.strong)
 df.s$sp.s[m]<-df.s$sp.in.strong[m]
 ######
 m<-m.speaker
+speaker<-df.s$sp.s[m]
+
 df.s$t.1[m]<-paste0('<sp who="#',df.s$sp.s[m],'"><speaker>',df.s$sp.s[m],'</speaker>','<p>',df.s$p.2[m],'</p></sp>')
 df.s$t.1[mna]<-NA
 
 m.s
 sp.l
-############
+###############################2nd
 #stage directions:
 m<-grep("\\(|\\)",df.s$cpt)
 t<-"drei(malschwarzer)kater"
@@ -240,6 +254,7 @@ df.s$t.2[g.h2[k]]<-paste0('<div type="act"><head>',
 #now castlist:
 #castlist.t<-stri_split_regex(df.s$cpt[castlist.s:castlist.e],"–",simplify = T)
 castlist.t<-df.s$cpt[castlist.s:castlist.e]
+castlist.t<-castlist.t[1:length(castlist.t)-1]
 df.s$t.4<-NA
 df.s$t.4[castlist.s-1]<-paste0('<div type="Dramatis Personae"><castList><head>',
                                df.s$cpt[castlist.s-1],'</head>',paste0('<castItem>',castlist.t,'</castItem>',collapse = ""),'</castList></div>')
@@ -250,17 +265,33 @@ df.s$t.5<-NA
 xp.author<-'//*[@id="header-general"]/div[3]/div[1]/div[2]/div/div[1]/div[2]/*'
 author.h<-xml_find_all(d2,xp.author)
 author.a<-xml_find_all(author.h,"a")
-xml_text(author.a)
-#wks.
-df.s$t.5[1]<-paste0('<front>',paste0(df.s$cpt[1:castlist.s-1],collapse=""),'</front>',collapse = "")
+author.ns<-xml_text(author.a)
 
+xp.work<-'//*[@id="header-general"]/div[3]/div[1]/div[2]/div/div[1]/div[1]'
+work.h<-xml_find_all(d2,xp.work)
+#work.a<-xml_find_all(work.h,"a")
+work.ns<-xml_text(work.h)
+
+#wks.
+# danielmeta:
+#   <head>
+#   <meta charset="utf-8"/>
+#   <title>חתן וכלה</title>
+#   <meta name="author" content="יצחק ליבוש פרץ"/>
+#   </head>
+frontline<-paste0('<front>',paste0(df.s$cpt[1:castlist.s-1],collapse=""),'</front>',collapse = "")
+frontline
+headerline<-paste0('<head><meta charset="utf-8"/><title>',work.ns,'</title><meta name="author" content="',author.ns,'"/></head><body>')
+headerline
+df.s$t.5[1]<-headerline
+df.s$t.5[2]<-frontline
 df.s$t.c<-NA
 df.s$t.c[!is.na(df.s$t.5)]<-df.s$t.5[!is.na(df.s$t.5)]
 df.s$t.c[!is.na(df.s$t.4)]<-df.s$t.4[!is.na(df.s$t.4)]
 #df.s$t.c[!is.na(df.s$t.4)]<-df.s$t.5[!is.na(df.s$t.5)]
 df.s$t.c[!is.na(df.s$t.2)]<-df.s$t.2[!is.na(df.s$t.2)]
-df.s$t.c[1]<-paste0("<text>",df.s$t.c[1])
-df.s$t.c[length(df.s$pid)]<-paste0(df.s$t.c[length(df.s$pid)],'</text>')
+df.s$t.c[2]<-paste0("<text>",df.s$t.c[2])
+df.s$t.c[length(df.s$pid)]<-paste0(df.s$t.c[length(df.s$pid)],'</text></body>')
 
 m<-!is.na(df.s$t.c)
 ben.ns<-paste0("benyehuda-",id.p,"-text.html")
