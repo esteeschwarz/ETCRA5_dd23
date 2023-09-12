@@ -116,7 +116,10 @@ t<-"drei(malschwarzer)kater"
 regx<-"(\\((.*)\\))"
 gsub(regx,'<stage>\\2</stage>',t,perl = T)
 df.s$t.1[m]<-gsub(regx,'<stage> \\2 </stage>',df.s$cpt[m],perl=T)
-
+a<-28
+df.s$cpt[a]
+gsub(regx,'<stage> \\2 </stage>',df.s$cpt[a],perl=T)
+df.s$t.1[28] #wks. just not in view table!
 
 
 ################ this is archived >
