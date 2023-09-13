@@ -296,6 +296,9 @@ df.s$t.c[length(df.s$pid)]<-paste0(df.s$t.c[length(df.s$pid)],'</text></body>')
 m<-!is.na(df.s$t.c)
 ben.ns<-paste0("benyehuda-",id.p,"-text.html")
 writeLines(df.s$t.c[m],ben.ns)
+xmlformat<-paste0("xmlformat -b _sfi -i ",ben.ns)
+system(xmlformat)
+
 
 #writeLines(df.s$t.c[m],"benyehuda-33373-text.html")
 
