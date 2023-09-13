@@ -144,7 +144,7 @@ k<-17
 for(k in 1:length(m)){
 df.s$p.2[m[k]]<-paste0(m.sp[k,2:length(m.sp[1,])],collapse = " ")
 }
-#############
+#############33373.
 m<-grep(":",df.s$strong) #only speaker declarations
 m.2<-match(sp.first,m)
 mna<-is.na(df.s$strong)
@@ -166,12 +166,13 @@ df.s$t.1[m]<-paste0('<sp who="#',speaker[m],'"><speaker>',speaker[m],'</speaker>
 df.s$t.1[m]<-paste0('<sp who="#',df.s$p.1[m],'"><speaker>',df.s$p.1[m],'</speaker>','<p>',df.s$p.2[m],'</p></sp>')
 df.s$t.1[mna]<-NA
 
-#wks not for staged speakers
+#wks not for staged speakers #### > HERE critical point
 m<-grep("\\(|\\)",df.s$p.1)
 sp.st<-stri_split_regex(df.s$p.1[m],"\\(",simplify = T)
 df.s$sp.s<-""
 df.s$sp.s<-df.s$p.1
 df.s$sp.s[m]<-sp.st
+df.s$stage<-NA
 for(k in 1:length(sp.st[,1])){
 df.s$stage[m]<-paste0('<stage>',sp.st[k,2],'</stage>',collapse = "")
 }
@@ -296,8 +297,11 @@ df.s$t.c[length(df.s$pid)]<-paste0(df.s$t.c[length(df.s$pid)],'</text></body>')
 m<-!is.na(df.s$t.c)
 ben.ns<-paste0("benyehuda-",id.p,"-text.html")
 writeLines(df.s$t.c[m],ben.ns)
-xmlformat<-paste0("xmlformat -b _sfi -i ",ben.ns)
+xmlformat<-paste0("xmlformat -b _sfi -i ",ben.ns) # > [newfile]
 system(xmlformat)
+#db of play:
+ben.db.ns<-paste0("benyehuda-",id.p,"-db.csv")
+write_csv(df.s,ben.db.ns)
 
 
 #writeLines(df.s$t.c[m],"benyehuda-33373-text.html")
