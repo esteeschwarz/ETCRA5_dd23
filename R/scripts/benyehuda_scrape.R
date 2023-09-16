@@ -14,7 +14,7 @@ library(xml2)
 library(stringi)
 library(stringr)
 library(R.utils)
-
+library(readr)
 ###################################
 #this calls static txt from repository
 #src<-"https://raw.githubusercontent.com/esteeschwarz/DH_essais/main/data/corpus/klemm_besuch/klemm(1765)_wiki_preprocessed.txt"
@@ -47,16 +47,14 @@ getwd()
 src<-"https://benyehuda.org/read/33373" #33373
 #src<-"data/c0_Der_Besuch_Klemm_wsource_epub.xml"
 
-bensrc<-"~/boxHKW/21S/DH/local/EXC2020/DD23/data/benyehuda.drama.csv"
-bencsv<-read.csv(bensrc)
-ids<-bencsv$TextID
+#bensrc<-"~/boxHKW/21S/DH/local/EXC2020/DD23/data/benyehuda.drama.csv"
+#bencsv<-read.csv(bensrc)
+#ids<-bencsv$TextID
 
 k<-2
 #for (k in 2:length(ids)){
-#save csv
-write_csv(df.s,paste0("benyehuda-",id.p,"-text.csv"))
 
-id.p<-ids[k]
+#id.p<-ids[k]
 id.p<-33373
 #2nd: 10777
 src<-paste0("https://benyehuda.org/read/",id.p)
@@ -103,7 +101,7 @@ castlist.e<-grep("\\* \\* \\*",df.s$cpt)
 ######################
 #start from here again
 #for second play on list:
-castlist.e<-12
+#castlist.e<-12
 sp.l<-stri_extract_all_words(df.s$cpt[castlist.s:castlist.e],simplify = T)
 sp.l
 #grep first speaker instance
@@ -111,7 +109,7 @@ sp.l.m<-sp.l%in%df.s$strong
 sp.l.m.a<-array()
 #k<-1
 for(k in 1:length(sp.l)){
-sp.l.m.a[k] <- min(grep(sp.l[k],df.s$strong))
+  sp.l.m.a[k] <- min(grep(sp.l[k],df.s$strong))
 }
 sp.l.m.a
 sp.l.m.a<-sp.l.m.a[sp.l.m.a>castlist.e]
@@ -129,22 +127,22 @@ df.s$t.1<-NA
 #   if(m==T)
 #     df.s$t.1[k]<-paste0('<sp who="#',df.s$strong[k],'"><speaker>',df.s$strong[k],'</speaker>','<p>',df.s$p[k],'</p></sp>')
 # }
-m<-grep(":",df.s$strong) #only speaker declarations
+#m<-grep(":",df.s$strong) #only speaker declarations
 #manually:
 ##########
-m<-grep("\\.",df.s$strong) #only speaker declarations
-m<-grep("\\.",df.s$cpt) #only speaker declarations
+#m<-grep("\\.",df.s$strong) #only speaker declarations
+#m<-grep("\\.",df.s$cpt) #only speaker declarations
 
-m
-m.sp<-stri_split_regex(df.s$cpt[m],"\\.",simplify = T)
-df.s$p.1<-""
-df.s$p.1[m]<-m.sp[,1]
-df.s$p.2<-""
-k<-17
-for(k in 1:length(m)){
-df.s$p.2[m[k]]<-paste0(m.sp[k,2:length(m.sp[1,])],collapse = " ")
-}
-#############33373.
+# m
+# m.sp<-stri_split_regex(df.s$cpt[m],"\\.",simplify = T)
+# df.s$p.1<-""
+# df.s$p.1[m]<-m.sp[,1]
+# df.s$p.2<-""
+# k<-17
+# for(k in 1:length(m)){
+#   df.s$p.2[m[k]]<-paste0(m.sp[k,2:length(m.sp[1,])],collapse = " ")
+# }
+#############
 m<-grep(":",df.s$strong) #only speaker declarations
 m.2<-match(sp.first,m)
 mna<-is.na(df.s$strong)
@@ -155,47 +153,73 @@ sp.first
 m.2<-match(sp.first,m)
 m<-m[m.2:length(m)]
 m.speaker<-m
-speaker<-df.s$strong[m]
+speaker<-df.s$strong
 speaker<-gsub(":","",speaker)
 speaker<-gsub('"',"''",speaker)
+speaker.u<-speaker[m]
+speaker.u<-unique(speaker.u)
+#TODO: manually edit latin speaker.u.d for speaker id entry
+speaker.u.d<-data.frame(sp.h=speaker.u,sp.d=NA)
+#speaker.u.d.2<-fix(speaker.u.d) ## >>> save somewhere before reset!
+library(clipr)
+write_clip(speaker.u.d.2$var3)
+# speaker.d.c<-c("dr_gri","ruben","hanna","mirkin","blink","miri",
+# "berla","diamenet","rubik","diamenu","klara","dimenet","daimenet","all")
+speaker.d.c<-c("dr_gri","ruben","hannah","mirkin","blink","miri",
+               "berla","diamant","rubik","diamant","klara","diamant","diamant","voice")
+# the lettering of <diamant> varies in the boldface speaker declaration,
+# normalised this here; still due 
+speaker.df<-data.frame(speaker.h=speaker.u.d$sp.h,speaker.d=speaker.d.c)
+#13377.to complete...
+df.s$speaker.d<-NA
+k<-1
+for(k in 1:length(speaker.df$speaker.h)){
+  m.h<-grep(speaker.df$speaker.h[k],speaker)
+  m.to.h<-speaker.df$speaker.d[k]
+  df.s$speaker.d[m.h]<-speaker.df$speaker.d[k]
+}
+m<-is.na(df.s$speaker.d)
 #df.s$t.1[m]<-paste0('<sp who="#',df.s$strong[m],'"><speaker>',df.s$strong[m],'</speaker>','<p>',df.s$p[m],'</p></sp>')
-df.s$t.1[m]<-paste0('<sp who="#',speaker[m],'"><speaker>',speaker[m],'</speaker>','<p>',df.s$p[m],'</p></sp>')
-
+#df.s$t.1[m]<-paste0('<sp who="#',df.s$speaker.d[m],'"><speaker>',speaker[m],'</speaker>','<p>',df.s$p[m],'</p></sp>')
+df.s$t.1<-paste0('<sp who="#',df.s$speaker.d,'"><speaker>',speaker,'</speaker>','<p>',df.s$p,'</p></sp>')
+df.s$t.1[m]<-NA
 #wks. 33373
 ############second
-df.s$t.1[m]<-paste0('<sp who="#',df.s$p.1[m],'"><speaker>',df.s$p.1[m],'</speaker>','<p>',df.s$p.2[m],'</p></sp>')
-df.s$t.1[mna]<-NA
+# df.s$t.1[m]<-paste0('<sp who="#',df.s$p.1[m],'"><speaker>',df.s$p.1[m],'</speaker>','<p>',df.s$p.2[m],'</p></sp>')
+# df.s$t.1[mna]<-NA
 
-#wks not for staged speakers #### > HERE critical point
-m<-grep("\\(|\\)",df.s$p.1)
-sp.st<-stri_split_regex(df.s$p.1[m],"\\(",simplify = T)
-df.s$sp.s<-""
-df.s$sp.s<-df.s$p.1
-df.s$sp.s[m]<-sp.st
-df.s$stage<-NA
-for(k in 1:length(sp.st[,1])){
-df.s$stage[m]<-paste0('<stage>',sp.st[k,2],'</stage>',collapse = "")
-}
-m.s<-array()
-df.s$sp.in.strong<-NA
-k<-1
-sp.l[1]<-"אוריאל" #some reason speakerlist orthographiy differs from speaker entries, manually adapted
-
-for(k in 1:length(sp.l[,1])){
-m.s<-grep(sp.l[k],df.s$strong)
-df.s$sp.in.strong[m.s]<-df.s$strong[m.s]
-}
-m<-!is.na(df.s$sp.in.strong)
-df.s$sp.s[m]<-df.s$sp.in.strong[m]
-######
-m<-m.speaker
-speaker<-df.s$sp.s[m]
-
-df.s$t.1[m]<-paste0('<sp who="#',df.s$sp.s[m],'"><speaker>',df.s$sp.s[m],'</speaker>','<p>',df.s$p.2[m],'</p></sp>')
-df.s$t.1[mna]<-NA
-
-m.s
-sp.l
+#wks not for staged speakers
+# m<-grep("\\(|\\)",df.s$p.1)
+# sp.st<-stri_split_regex(df.s$p.1[m],"\\(",simplify = T)
+# df.s$sp.s<-""
+# df.s$sp.s<-df.s$p.1
+# df.s$sp.s[m]<-sp.st
+# for(k in 1:length(sp.st[,1])){
+#   df.s$stage[m]<-paste0('<stage>',sp.st[k,2],'</stage>',collapse = "")
+# }
+# m.s<-array()
+# df.s$sp.in.strong<-NA
+# k<-1
+# sp.l[1]<-"אוריאל" #some reason speakerlist orthographiy differs from speaker entries, manually adapted
+# 
+# for(k in 1:length(sp.l[,1])){
+#   m.s<-grep(sp.l[k],df.s$strong)
+#   df.s$sp.in.strong[m.s]<-df.s$strong[m.s]
+# }
+# m<-!is.na(df.s$sp.in.strong)
+# df.s$sp.s[m]<-df.s$sp.in.strong[m]
+# ######
+# m<-m.speaker
+# speaker<-df.s$sp.s[m]
+# 
+# #df.s$t.1[m]<-paste0('<sp who="#',df.s$sp.s[m],'"><speaker>',df.s$sp.s[m],'</speaker>','<p>',df.s$p.2[m],'</p></sp>')
+# #recover 13375
+# df.s$t.1[m]<-gsub(regx,'<stage> \\2 </stage>',df.s$t.1[m],perl=T)
+# 
+# df.s$t.1[mna]<-NA
+# 
+# m.s
+# sp.l
 ###############################2nd
 #stage directions:
 m<-grep("\\(|\\)",df.s$cpt)
@@ -207,7 +231,9 @@ df.s$cpt[a]
 gsub(regx,'<stage> \\2 </stage>',df.s$cpt[a],perl=T)
 
 gsub(regx,'<stage>\\2</stage>',t,perl = T)
-df.s$t.1[m]<-gsub(regx,'<stage> \\2 </stage>',df.s$cpt[m],perl=T)
+#df.s$t.1[m]<-gsub(regx,'<stage> \\2 </stage>',df.s$cpt[m],perl=T)
+df.s$t.1[m]<-gsub(regx,'<stage> \\2 </stage>',df.s$t.1[m],perl=T)
+
 # a<-28
 # df.s$cpt[a]
 # gsub(regx,'<stage> \\2 </stage>',df.s$cpt[a],perl=T)
@@ -215,37 +241,37 @@ df.s$t.1[m]<-gsub(regx,'<stage> \\2 </stage>',df.s$cpt[m],perl=T)
 #now for h3 divs
 g.h3<-!is.na(df.s$h3)
 if(sum(g.h3)>0){
-g.h3<-which(g.h3)
-k<-1
-k<-6
-g.h3[k]
-df.s$t.3<-NA
-#if(g.h3>0))
-for (k in 1:length(g.h3)){
-  t.start<-g.h3[k]+1
-  ifelse(k<length(g.h3),t.end<-g.h3[k+1]-1,t.end<-length(df.s$pid))
-  m<-is.na(df.s$t.1)
-  df.s$t.1[m]<-""
-  df.s$t.3[g.h3[k]]<-paste0('<div type="scene"><head>',
-                            df.s$h3[g.h3[k]],'</head>',paste0(df.s$t.1[t.start:t.end],collapse=""),'</div>',collapse = "")
-}
+  g.h3<-which(g.h3)
+  k<-1
+  k<-6
+  g.h3[k]
+  df.s$t.3<-NA
+  #if(g.h3>0))
+  for (k in 1:length(g.h3)){
+    t.start<-g.h3[k]+1
+    ifelse(k<length(g.h3),t.end<-g.h3[k+1]-1,t.end<-length(df.s$pid))
+    m<-is.na(df.s$t.1)
+    df.s$t.1[m]<-""
+    df.s$t.3[g.h3[k]]<-paste0('<div type="scene"><head>',
+                              df.s$h3[g.h3[k]],'</head>',paste0(df.s$t.1[t.start:t.end],collapse=""),'</div>',collapse = "")
+  }
 }
 g.h2<-!is.na(df.s$h2)
 if(sum(g.h2)>0){
   
-g.h2<-which(!is.na(df.s$h2))
-k<-1
-k<-6
-g.h2[k]
-df.s$t.2<-NA
-for (k in 1:length(g.h2)){
-t.start<-g.h2[k]+1
-ifelse(k<length(g.h2),t.end<-g.h2[k+1]-1,t.end<-length(df.s$pid))
-m<-is.na(df.s$t.3)
-df.s$t.3[m]<-""
-df.s$t.2[g.h2[k]]<-paste0('<div type="act"><head>',
-                        df.s$h2[g.h2[k]],'</head>',paste0(df.s$t.3[t.start:t.end],collapse=""),'</div>',collapse = "")
-}
+  g.h2<-which(!is.na(df.s$h2))
+  k<-1
+  k<-6
+  g.h2[k]
+  df.s$t.2<-NA
+  for (k in 1:length(g.h2)){
+    t.start<-g.h2[k]+1
+    ifelse(k<length(g.h2),t.end<-g.h2[k+1]-1,t.end<-length(df.s$pid))
+    m<-is.na(df.s$t.3)
+    df.s$t.3[m]<-""
+    df.s$t.2[g.h2[k]]<-paste0('<div type="act"><head>',
+                              df.s$h2[g.h2[k]],'</head>',paste0(df.s$t.3[t.start:t.end],collapse=""),'</div>',collapse = "")
+  }
 }
 # df.s$t.2[1135]
 # length(paste0('<div type="act"><head>ACT ',
@@ -267,11 +293,13 @@ xp.author<-'//*[@id="header-general"]/div[3]/div[1]/div[2]/div/div[1]/div[2]/*'
 author.h<-xml_find_all(d2,xp.author)
 author.a<-xml_find_all(author.h,"a")
 author.ns<-xml_text(author.a)
+author.ns.d<-c("igal","mosinsohn")
 
 xp.work<-'//*[@id="header-general"]/div[3]/div[1]/div[2]/div/div[1]/div[1]'
 work.h<-xml_find_all(d2,xp.work)
 #work.a<-xml_find_all(work.h,"a")
 work.ns<-xml_text(work.h)
+wrk.ns.d<-"bride-and-groom"
 
 #wks.
 # danielmeta:
@@ -282,7 +310,7 @@ work.ns<-xml_text(work.h)
 #   </head>
 frontline<-paste0('<front>',paste0(df.s$cpt[1:castlist.s-1],collapse=""),'</front>',collapse = "")
 frontline
-headerline<-paste0('<head><meta charset="utf-8"/><title>',work.ns,'</title><meta name="author" content="',author.ns,'"/></head><body>')
+headerline<-paste0('<html><head><meta charset="utf-8"/><title>',work.ns,'</title><meta name="author" content="',author.ns,'"/></head><body>')
 headerline
 df.s$t.5[1]<-headerline
 df.s$t.5[2]<-frontline
@@ -292,16 +320,51 @@ df.s$t.c[!is.na(df.s$t.4)]<-df.s$t.4[!is.na(df.s$t.4)]
 #df.s$t.c[!is.na(df.s$t.4)]<-df.s$t.5[!is.na(df.s$t.5)]
 df.s$t.c[!is.na(df.s$t.2)]<-df.s$t.2[!is.na(df.s$t.2)]
 df.s$t.c[2]<-paste0("<text>",df.s$t.c[2])
-df.s$t.c[length(df.s$pid)]<-paste0(df.s$t.c[length(df.s$pid)],'</text></body>')
+df.s$t.c[length(df.s$pid)]<-paste0(df.s$t.c[length(df.s$pid)],'</text></body></html>')
+
+tei.h<-list()
+tei.h[1]<-"TEI"
+tei.h.x<-as_xml_document(tei.h)
+
+######
+# <publisher xml:id="dracor">
+#   DraCor
+# </publisher>
+#   <idno type="URL">
+#   https://dracor.org
+# </idno>
+#   <availability>
+#   <licence>
+#   <ab>
+#   CC0 1.0
+# </ab>
+#   <ref target="https://creativecommons.org/publicdomain/zero/1.0/">
+#   Licence
+# </ref>
+#   </licence>
+#   </availability>
+  ######
+tei<-xml_new_root("TEI")
+xml_add_child(tei,"teiHeader")
+#xml_add_child(tei,"teiHeader")
+xml_add_child(xml_children(tei),"fileDesc")
+xml_add_child(xml_children(xml_children(tei)),"titleStmt")
+xml_add_child(xml_children(xml_children(xml_children(tei))),"title")
+xml_add_child(xml_children(xml_children(xml_children(tei))),"author")
+xml_add_child(xml_children(xml_children(tei)),"publicationStmt",.where = 1)
+
 
 m<-!is.na(df.s$t.c)
-ben.ns<-paste0("benyehuda-",id.p,"-text.html")
+#ben.ns<-paste0("benyehuda-",id.p,"-text.xml")
+hedracor.git<-"~/documents/github/hedracor/html_scraped-refact"
+#ben.ns<-paste0(hedracor.git,"/benyehuda-",id.p,"-text.xml")
+ben.ns<-paste0(hedracor.git,"/",author.ns.d[1],"_",author.ns.d[2],"_",id.p,".xml")
+ben.ns
 writeLines(df.s$t.c[m],ben.ns)
-xmlformat<-paste0("xmlformat -b _sfi -i ",ben.ns) # > [newfile]
+#save csv
+write_csv(df.s,paste0(hedracor.git,"/benyehuda-",id.p,"-db.csv"))
+xmlformat<-paste0("xmlformat -i ",ben.ns)
 system(xmlformat)
-#db of play:
-ben.db.ns<-paste0("benyehuda-",id.p,"-db.csv")
-write_csv(df.s,ben.db.ns)
 
 
 #writeLines(df.s$t.c[m],"benyehuda-33373-text.html")
