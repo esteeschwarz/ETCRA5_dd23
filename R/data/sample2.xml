@@ -1,0 +1,32 @@
+<rootnode sth="something" descr="ex">
+    <tag sth="sth1" descr="ex" anoAttr="sth2">
+        <tag sth="sth3" descr="ex2" searchA="sth4" anoAttr="sth5">
+            <tag sth="sth6" descr="ex3" oAttr="sth7" searchA="sth8" anoAttr="sth9">
+                <tag sth="sth10" descr="ex4" oAttr="sth11" searchA="sth12" anoAttr="sth13">
+                    <someContent/>
+                </tag>
+                <someContent/>
+            </tag>
+            <tag sth="sth14" descr="ex5" oAttr="sth15" searchA="sth16" anoAttr="sth17">
+                <someContent/>
+            </tag>
+            <tag sth="sth1" descr="ex6" oAttr="sth15" searchA="sth18" anoAttr="sth17">
+                <someContent/>
+            </tag>
+        </tag>
+        <tag sth="sth10" descr="ex2" oAttr="sth19" searchA="sth20" anoAttr="sth9">
+            <someContent/>
+        </tag>
+        <tag sth="sth10" descr="ex7" searchA="sth21" anoAttr="sth13">
+            <tag sth="sth21" descr="ex8" oAttr="sth22" searchA="sth23" anoAttr="sth9">
+                <tag sth="sth23" descr="ex9" oAttr="sth22" searchA="sth24" anoAttr="sth5">
+                    <someContent/>
+                </tag>
+                <someContent/>
+            </tag>
+        </tag>
+    </tag>
+    <otherNode>
+        <someNode/>
+    </otherNode>
+</rootnode>

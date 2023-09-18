@@ -15,6 +15,7 @@ library(stringi)
 library(stringr)
 library(R.utils)
 library(readr)
+library(XML)
 ###################################
 #this calls static txt from repository
 #src<-"https://raw.githubusercontent.com/esteeschwarz/DH_essais/main/data/corpus/klemm_besuch/klemm(1765)_wiki_preprocessed.txt"
@@ -161,8 +162,8 @@ speaker.u<-unique(speaker.u)
 #TODO: manually edit latin speaker.u.d for speaker id entry
 speaker.u.d<-data.frame(sp.h=speaker.u,sp.d=NA)
 #speaker.u.d.2<-fix(speaker.u.d) ## >>> save somewhere before reset!
-library(clipr)
-write_clip(speaker.u.d.2$var3)
+#library(clipr)
+#write_clip(speaker.u.d.2$var3)
 # speaker.d.c<-c("dr_gri","ruben","hanna","mirkin","blink","miri",
 # "berla","diamenet","rubik","diamenu","klara","dimenet","daimenet","all")
 speaker.d.c<-c("dr_gri","ruben","hannah","mirkin","blink","miri",
@@ -322,10 +323,6 @@ df.s$t.c[!is.na(df.s$t.2)]<-df.s$t.2[!is.na(df.s$t.2)]
 df.s$t.c[2]<-paste0("<text>",df.s$t.c[2])
 df.s$t.c[length(df.s$pid)]<-paste0(df.s$t.c[length(df.s$pid)],'</text></body></html>')
 
-tei.h<-list()
-tei.h[1]<-"TEI"
-tei.h.x<-as_xml_document(tei.h)
-
 ######
 # <publisher xml:id="dracor">
 #   DraCor
@@ -344,6 +341,26 @@ tei.h.x<-as_xml_document(tei.h)
 #   </licence>
 #   </availability>
   ######
+src.tei<-paste("~/Documents/GitHub/hedracor/tei/",list.files("~/Documents/GitHub/hedracor/tei")[2],sep = "/")
+tei.dracor<-read_xml(src.tei)
+getwd()
+
+doc<-xmlParseDoc(src.tei)
+#x1<-xmlToList(doc)  
+x1<-xmlRoot(doc)
+x2<-xmlToList(x1)  
+#x3<-xmlToDataFrame(x1)
+
+#source<-"https://stackoverflow.com/questions/48120782/r-write-list-to-csv-line-by-line"
+# crush to flat matrix
+tei.mat <- do.call(rbind, x2) #x2=my_list
+# add in list names as new column
+tei.df <- data.frame(id = names(x2), tei.mat)
+tei.df$fileDesc$teiHeader$titleStmt$title$text
+
+write_csv(tei.df,"tei_dracor.csv")
+#xml_text(xml_find_all(tei.dracor,"//*"))<-tei.df
+tei.temp<-function(){
 tei<-xml_new_root("TEI")
 xml_add_child(tei,"teiHeader")
 #xml_add_child(tei,"teiHeader")
@@ -351,9 +368,129 @@ xml_add_child(xml_children(tei),"fileDesc")
 xml_add_child(xml_children(xml_children(tei)),"titleStmt")
 xml_add_child(xml_children(xml_children(xml_children(tei))),"title")
 xml_add_child(xml_children(xml_children(xml_children(tei))),"author")
+xml_add_child(xml_children(xml_children(xml_children(tei))),"author")
 xml_add_child(xml_children(xml_children(tei)),"publicationStmt",.where = 1)
+xml_add_child(xml_find_first(tei,"//publicationStmt"),"publisher")
+xml_add_child(xml_find_first(tei,"//publicationStmt"),"idno")
+xml_add_child(xml_find_first(tei,"//publicationStmt"),"availability")
+xml_add_child(xml_find_first(tei,"//availability"),"license")
+xml_add_child(xml_find_first(tei,"//license"),"ref")
+xml_add_child(xml_find_first(tei,"//license"),"ab")
+xml_add_child(xml_children(xml_children(tei)),"sourceDesc")
+xml_add_child(xml_find_first(tei,"//sourceDesc"),"bibl")
+xml_add_child(xml_find_first(tei,"//bibl"),"name")
+xml_add_child(xml_find_first(tei,"//bibl"),"idno")
+xml_add_child(xml_find_first(tei,"//bibl"),"availability")
+xml_add_child(xml_find_first(tei,"//bibl/availability"),"p")
+xml_add_child(xml_children(tei),"profileDesc")
+xml_add_child(xml_find_first(tei,"//profileDesc"),"particDesc")
+return(tei)
+}
+tei.temp.df<-function(){
+  tei<-xml_new_root("TEI")
+  xml_add_child(tei,"teiHeader")
+  #xml_add_child(tei,"teiHeader")
+  xml_add_child(xml_children(tei),"fileDesc")
+  xml_add_child(xml_children(xml_children(tei)),"titleStmt")
+  xml_add_child(xml_children(xml_children(xml_children(tei))),"title")
+  xml_add_child(xml_children(xml_children(xml_children(tei))),"author")
+  xml_add_child(xml_children(xml_children(xml_children(tei))),"author")
+  xml_add_child(xml_children(xml_children(tei)),"publicationStmt",.where = 1)
+  xml_add_child(xml_find_first(tei,"//publicationStmt"),"publisher")
+  xml_add_child(xml_find_first(tei,"//publicationStmt"),"idno")
+  xml_add_child(xml_find_first(tei,"//publicationStmt"),"availability")
+  xml_add_child(xml_find_first(tei,"//availability"),"license")
+  xml_add_child(xml_find_first(tei,"//license"),"ref")
+  xml_add_child(xml_find_first(tei,"//license"),"ab")
+  xml_add_child(xml_children(xml_children(tei)),"sourceDesc")
+  xml_add_child(xml_find_first(tei,"//sourceDesc"),"bibl")
+  xml_add_child(xml_find_first(tei,"//bibl"),"name")
+  xml_add_child(xml_find_first(tei,"//bibl"),"idno")
+  xml_add_child(xml_find_first(tei,"//bibl"),"availability")
+  xml_add_child(xml_find_first(tei,"//bibl/availability"),"p")
+  xml_add_child(xml_children(tei),"profileDesc")
+  xml_add_child(xml_find_first(tei,"//profileDesc"),"particDesc")
+  return(tei)
+}
+### here insert castlist adapted
+#xml_add_child(xml_find_first(tei,"//particDesc"),"")
+castlist.t
+speaker.u.d
+speaker.df
+# <listPerson>
+#   <person xml:id="ֲkַu">
+#   <persName>
+#   אֲקַו
+# </persName>
+#   </person>
+#   <person xml:id="bun">
+#   <persName>
+#   בּוּן
+# </persName>
+#   </person>
+k<-1
+tei<-tei.temp()
+tei.33373.person<-xml_new_root("particDesc")
+xml_add_child(xml_find_first(tei.33373.person,"//particDesc"),"listPerson")
+for(k in 1:length(speaker.df$speaker.d)){
+  xml_add_child(xml_find_first(tei.33373.person,"//listPerson"),"person")
+  xml_add_child(xml_find_all(tei.33373.person,"//person")[k],"persName")
+  xml_set_attr(xml_find_all(tei.33373.person,"//person")[k],"xml:id",speaker.df$speaker.d[k])
+  xml_set_text(xml_find_all(tei.33373.person,"//persName")[k],speaker.df$speaker.h[k])
+  
+}
+# x1<-xmlRoot(tei.33373.person)
+# x2<-xmlToList(tei.33373.person)  
+# #x3<-xmlToDataFrame(x1)
+# 
+# #source<-"https://stackoverflow.com/questions/48120782/r-write-list-to-csv-line-by-line"
+# # crush to flat matrix
+# tei.mat <- do.call(rbind, x2) #x2=my_list
+# # add in list names as new column
+# tei.df <- data.frame(id = names(x2), tei.mat)
+tei.df$profileDesc$teiHeader$particDesc<-tei.33373.person #no
+write_xml(as.list(tei.df),"tei_df.xml")
+saveXML(as.list(tei.df),"tei_df.xml")
+tei.df$profileDesc$teiHeader$particDesc
+# xml_remove(xml_find_all(tei.dracor,"//particDesc"))
+# xml_replace(xml_find_first(tei.dracor,"//profileDesc"),tei.33373.person)
+# html_form_set(xml_child(xml_child(xml_child(tei.dracor, 1), 2), 1),tei.33373.person)
+# xmlNode(xml_find_all(tei.dracor,"//particDesc"))<-tei.33373.person
+# xml_find_all(tei.dracor,"//particDesc")<-tei.33373.person
+# xml_add_child(xml_find_first(tei,"//particDesc"),"listPerson")
+# #xml_add_child(xml_find_all(tei,"//person"),"persName")
+# for(k in 1:length(speaker.df$speaker.d)){
+#   xml_add_child(xml_find_first(tei,"//listPerson"),"person")
+#   xml_add_child(xml_find_all(tei,"//person")[k],"persName")
+#   xml_set_attr(xml_find_all(tei,"//person")[k],"xml:id",speaker.df$speaker.d[k])
+#   xml_set_text(xml_find_all(tei,"//persName")[k],speaker.df$speaker.h[k])
+#   
+# }
+### breakpoint
+xml_add_child(tei,"standOff")
+xml_add_child(xml_find_all(tei,"//standOff"),"listEvent")
+xml_add_child(xml_find_all(tei,"//listEvent"),"event")
+xml_add_child(xml_find_all(tei,"//event"),"desc")
 
-
+#xml_set_attr(tei,"xmlns","http://www.tei-c.org/ns/1.0")
+xml_set_attr(xml_find_all(tei,"//title"),"type","main")
+xml_set_text(xml_find_first(tei,"//author"),author.ns)
+xml_set_attr(xml_find_all(tei,"//author")[2],"xml:lang","eng")
+author.ns.c<-paste0(capitalize(author.ns.d),collapse = " ")
+xml_set_text(xml_find_all(tei,"//author")[2],author.ns.c)
+xml_set_attr(xml_find_all(tei,"//publisher"),"xml:id","dracor")
+xml_set_text(xml_find_all(tei,"//publisher"),"Dracor")
+xml_set_attr(xml_find_all(tei,"//publicationStmt/idno"),"type","URL")
+xml_set_text(xml_find_all(tei,"//publicationStmt/idno"),"https://dracor.org")
+xml_set_attr(xml_find_all(tei,"//license/ref"),"target","https://creativecommons.org/publicdomain/zero/1.0/")
+xml_set_text(xml_find_all(tei,"//license/ab"),"CC0 1.0")
+xml_set_text(xml_find_all(tei,"//license/ref"),"License")
+xml_set_attr(xml_find_all(tei,"//bibl"), "type","digitalSource")
+xml_set_text(xml_find_all(tei,"//bibl/name"),"ENTER SOURCE NAME HERE")
+xml_set_attr(xml_find_all(tei,"//bibl"), "type","URL")
+xml_set_text(xml_find_all(tei,"//bibl/idno"),"ENTER SOURCE URL HERE")
+xml_set_attr(xml_find_all(tei,"//bibl/availability"), "status","free")
+xml_set_text(xml_find_all(tei,"//bibl/availability/p"),"In the public domain.")
 m<-!is.na(df.s$t.c)
 #ben.ns<-paste0("benyehuda-",id.p,"-text.xml")
 hedracor.git<-"~/documents/github/hedracor/html_scraped-refact"
