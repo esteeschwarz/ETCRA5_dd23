@@ -76,11 +76,11 @@ dta_t<-get_types(dta,1)
 #                col=2)
 if(out=="ttr")
    scatter.smooth(1:length(dta_t$ttr),dta_t$ttr,.1,.1,type="h",
-               family = "gaussian",ylab="segment type/token ratio",xlab = paste0("segments of ",l.seg," words"),
+               family = "gaussian",ylab="segment type/token ratio",main="type/token ratio",xlab = paste0("segments of ",l.seg," words"),
                col=2)
 if(out=="char")
    scatter.smooth(1:length(dta_t$chars.avg),dta_t$chars.avg,.1,.1,type="h",
-               family = "gaussian",ylab="segment average word length / chars",xlab = paste0("segments of ",l.seg," words"),
+               family = "gaussian",ylab="segment average word length / chars",main="word length",xlab = paste0("segments of ",l.seg," words"),
                col=2)
 
 # ttr.n<-get_transformed_values(unlist(dta_t$ttr))
