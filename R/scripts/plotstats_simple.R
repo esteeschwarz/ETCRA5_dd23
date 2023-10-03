@@ -9,8 +9,8 @@ library(httr)
 library(stringi)
 #library(syuzhet)
 
-src.1<-GET("https://dracor.org/api/corpora/ger/play/schlegel-die-stumme-schoenheit/spoken-text")
-src.2<-GET("https://dracor.org/api/corpora/ger/play/lessing-emilia-galotti/spoken-text")
+src.1<-"https://dracor.org/api/corpora/ger/play/schlegel-die-stumme-schoenheit/spoken-text"
+src.2<-"https://dracor.org/api/corpora/ger/play/lessing-emilia-galotti/spoken-text"
 
 #source("~/Documents/GitHub/DYN_ss22/wriddle_getstopwords.R")
 
@@ -102,7 +102,7 @@ return(dta_t)
 #                col=2)
 
 }#end plotfunction
-#plot.stats(src.2)
+#dta_t<-plot.stats(src.2,"ttr",10)
 
 
 #### keyword matrix:
