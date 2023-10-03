@@ -14,7 +14,7 @@ src.2<-GET("https://dracor.org/api/corpora/ger/play/lessing-emilia-galotti/spoke
 
 #source("~/Documents/GitHub/DYN_ss22/wriddle_getstopwords.R")
 
-plot.stats<-function(src,out){
+plot.stats<-function(src,out,seg){
 x<-GET(src)
   re<-content(x,"text")
 dta<-re
@@ -66,6 +66,7 @@ return(content_df)
 }
 ######
 l.seg<-100 # #segment length in words
+l.seg<-seg
 dta<-tx.split(re,l.seg)
 dta_t<-get_types(dta,1)
 # scatter.smooth(1:length(dta_t$ttr),dta_t$ttr,.1,.1,type="h",
@@ -82,7 +83,7 @@ dta_t<-get_types(dta,1)
 #    scatter.smooth(1:length(dta_t$chars.avg),dta_t$chars.avg,.1,.1,type="h",
 #                family = "gaussian",ylab="segment average word length / chars",main="word length",xlab = paste0("segments of ",l.seg," words"),
 #                col=2)
-
+return(dta_t)
 # ttr.n<-get_transformed_values(unlist(dta_t$ttr))
 # a2m<-max(dta_t$ttr)+.001
 # a2im<-max(ttr.n)
