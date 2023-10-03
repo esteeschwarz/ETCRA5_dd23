@@ -15,7 +15,8 @@ src.2<-GET("https://dracor.org/api/corpora/ger/play/lessing-emilia-galotti/spoke
 #source("~/Documents/GitHub/DYN_ss22/wriddle_getstopwords.R")
 
 plot.stats<-function(src){
-re<-content(src,"text")
+x<-GET(src)
+  re<-content(x,"text")
 dta<-re
 get_types<-function(set,opt){
   
