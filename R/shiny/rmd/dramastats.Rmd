@@ -1,0 +1,70 @@
+---
+title: "simple drama stats"
+author: "esteeschwarz"
+date: "`r Sys.time()`"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# some tiny plots
+- the app outputs some simple stats about any text provided via URL
+- input the URL in the textfield below. ignore any red error messages during typing, it disappears when you have input the complete adress
+- the text will be sliced according to the given segment size. if you should receive still an error, you can reduce the sample size (segmentation) if the text is very short...
+- if everythings fine the sample plots should change and show some textcharacteristics for the text you provided
+
+```{r, echo=F}
+library(shiny)
+source("https://github.com/esteeschwarz/ETCRA5_dd23/raw/master/R/scripts/plotstats_simple.R")
+# if (interactive()){
+ #shinyApp(
+ #ui=basicPage(
+inputPanel(
+# selectInput("urldep",label = "provide url that delivers raw text",choices = 
+#               c("https://dracor.org/api/corpora/ger/play/schlegel-die-stumme-schoenheit/spoken-text",
+#                 "https://dracor.org/api/corpora/ger/play/lessing-emilia-galotti/spoken-text"),
+#             selected = "https://dracor.org/api/corpora/ger/play/lessing-emilia-galotti/spoken-text"),
+     textAreaInput("url","provide text url",
+             "https://dracor.org/api/corpora/ger/play/lessing-emilia-galotti/spoken-text",width = "300px"),
+     numericInput("segm",label = "segment length (words)",value = 100,min = 2)
+  # ,submitButton("update view",icon("refresh"))
+#verbatimTextOutput("outp")
+)
+plotOutput("stat1")
+plotOutput("stat2")
+
+#),
+
+#server<-function(input,output){
+#output$stat1<- renderPlot({plot.stats(input$url,"ttr")})
+#output$stat2<- renderPlot({plot.stats(input$url,"char")})
+output$stat1<-renderPlot({
+  l.seg<-input$segm
+  dta_t<-plot.stats(input$url,"ttr",l.seg)
+  scatter.smooth(1:length(dta_t$ttr),dta_t$ttr,.1,.1,type="h",
+               family = "gaussian",ylab="segment type/token ratio",main="type/token ratio",xlab = paste0("segments of ",l.seg," words"),
+               col=2)})
+
+output$stat2<-renderPlot({ 
+  l.seg<-input$segm
+  dta_t<-plot.stats(input$url,"ttr",l.seg)
+  scatter.smooth(1:length(dta_t$chars.avg),dta_t$chars.avg,.1,.1,type="h",
+               family = "gaussian",ylab="segment average word length / chars",main="word length",xlab = paste0("segments of ",l.seg," words"),
+               col=2)})
+
+# }
+# )
+# }
+#out()
+
+#shinyApp(ui,server)
+#plot.stats("https://dracor.org/api/corpora/ger/play/lessing-emilia-galotti/spoken-text")
+
+```
+
+
+
+
