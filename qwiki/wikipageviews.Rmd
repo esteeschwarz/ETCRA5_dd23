@@ -1,0 +1,41 @@
+---
+title: "wikiviews"
+author: "esteeschwarz"
+date: "`r Sys.time()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{python pageviews,echo=F}
+import pageviewapi
+import datetime
+
+d = datetime.datetime.today()
+#print(d)
+today = d.strftime("%Y%m%d")
+xdf=pageviewapi.per_article('de.wikipedia', 'Gazastreifen', '20231005', today,
+  access='all-access', agent='all-agents', granularity='daily')
+#xdf
+import json
+x = json.dumps(xdf)
+y = json.loads(x)
+#x
+f = open("wiki_gaza.tmp.json", "w")
+f.write(x)
+f.close()
+```
+
+```{r plot, echo=FALSE}
+library(jsonlite)
+src<-"wiki_gaza.tmp.json"
+x<-fromJSON(src,simplifyDataFrame = T,flatten = T)
+xdf<-data.frame(x$items)
+par(las=2)
+xdf$timestamp<-gsub("([0-9]{8})00","\\1",xdf$timestamp)
+barplot(xdf$views,names.arg  = xdf$timestamp,main = 'de.wikipedia pageviews: "Gazastreifen"')
+```
+
