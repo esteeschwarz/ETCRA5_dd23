@@ -1,0 +1,257 @@
+---
+title: "wikiviews"
+author: "esteeschwarz"
+cache: no
+date: "`r Sys.time()`"
+output: html_document
+#output_dir: "_cache"
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache=FALSE)
+# library(jsonlite)
+# library(RMySQL)
+# library(httr)
+library(knitr)
+library(pageviews)
+#library(clipr)
+#library(xml2)
+#library(rmarkdown)
+#library(shiny)
+today<-format(Sys.time(),"%Y%m%d")
+start<-"20231006"
+```
+
+```{r calibration, echo=F}
+qc1<-c("de","Gazastreifen")
+qc2<-c("de","Völkermord")
+qc3<-c("he","עם ישראל חי")
+unders<-"_"
+subscore<-function(x){
+  o<-gsub(" ","_",x)
+}
+qc3<-subscore(qc3)
+#qc3[2]<-url_unescape(qc3[2])
+#qc3
+# caption<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/%s.wikipedia/all-access/user/Gazastreifen/daily/%s00/%s00",start,today)
+caption1<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/%s.wikipedia.org/all-access/user/%s/daily/%s00/%s00",qc1[1],qc1[2],start,today)
+caption2<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/%s.wikipedia.org/all-access/user/%s/daily/%s00/%s00",qc2[1],qc2[2],start,today)
+caption3<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/%s.wikipedia.org/all-access/user/%s/daily/%s00/%s00",qc3[1],qc3[2],start,today)
+#write_clip(caption3)
+#write_clip("https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/he.wikipedia.org/all-access/user/עם_ישראל_חי/daily/2023100600/2023102100") # chg content cache prevent: todo!
+# 14423.14425
+#clean_site()
+# invalidateLater(10000) # Refresh every 10 seconds #no
+```
+
+
+```{python pageviews,echo=F,eval=F}
+#!pip install pageviewapi
+# import pageviewapi
+# import datetime
+# 
+# d = datetime.datetime.today()
+# #print(d)
+# today = d.strftime("%Y%m%d")
+# xdf=pageviewapi.per_article('de.wikipedia', 'Gazastreifen', '20231005', today,
+#   access='all-access', agent='all-agents', granularity='daily')
+# #xdf
+# import json
+# wikijson = json.dumps(xdf)
+# #y = json.loads(wikijson)
+# #x
+# # f = open("wiki_gaza.tmp.json", "w")
+# # f.write(x)
+# # f.close()
+# import mysql.connector
+# 
+# mydb = mysql.connector.connect(
+#   host="localhost",
+#   user="",
+#   password="",
+#   database=""
+# )
+# 
+# mycursor = mydb.cursor()
+# 
+# #mycursor.execute("DROP TABLE wikisave")
+# 
+# #mycursor.execute("CREATE TABLE wikisave (json TEXT)")
+# 
+# #mycursor.execute("SHOW TABLES")
+# 
+# sql = "INSERT INTO wikisave (json,datum) VALUES (%s,%s)"
+# val = (wikijson,today)
+# mycursor.execute(sql,val)
+# #mycursor.execute("INSERT INTO wikisave (json,datum) VALUES ('{test4}', 'directR')") #wks
+# 
+# mydb.commit()
+#print(sql)
+#print(today)
+# mycursor.execute("SELECT * FROM wikisave")
+# 
+# myresult = mycursor.fetchall()
+# 
+# for x in myresult:
+#   print(x)
+```
+
+```{r plot, echo=FALSE,eval=FALSE}
+# library(jsonlite)
+# #src<-"wiki_gaza.tmp.json"
+# library(RMySQL)
+
+# options(mysql = list(
+#   "host" = "localhost",
+#   "port" = 3306,
+#   "user" = "",
+#   "password" = ""
+# ))
+# databaseName <- ""
+# table <- "wikisave"
+# 
+# saveData <- function(data) {
+#   # Connect to the database
+#   db <- dbConnect(MySQL(), dbname = databaseName, host = options()$mysql$host, 
+#                   port = options()$mysql$port, user = options()$mysql$user, 
+#                   password = options()$mysql$password)
+#   # Construct the update query by looping over the data fields
+#   query <- sprintf(
+#     "INSERT INTO %s (%s) VALUES ('%s')",
+#     table, 
+#     paste(names(data), collapse = ", "),
+#     paste(data, collapse = "', '")
+#   )
+#   # Submit the update query and disconnect
+#   dbGetQuery(db, query)
+#   dbDisconnect(db)
+# }
+# 
+# 
+# loadData <- function() {
+#   # Connect to the database
+#   db <- dbConnect(MySQL(), dbname = databaseName, host = options()$mysql$host, 
+#                   port = options()$mysql$port, user = options()$mysql$user, 
+#                   password = options()$mysql$password)
+#   # Construct the fetching query
+#   query <- "SELECT json FROM wikisave WHERE id = (SELECT MAX(id) FROM wikisave)"
+#   # Submit the fetch query and disconnect
+#   data <- dbGetQuery(db, query)
+#   #data <- dbFetch(data)
+#   dbDisconnect(db)
+#   return(data$json)
+# }
+# src<-loadData()
+# #print(src)
+# #print(src$json)
+# x<-fromJSON(src,simplifyDataFrame = T,flatten = T)
+# xdf<-data.frame(x$items)
+# par(las=2)
+# xdf$timestamp<-gsub("([0-9]{8})00","\\1",xdf$timestamp)
+# barplot(xdf$views,names.arg  = xdf$timestamp,main = 'de.wikipedia pageviews: "Gazastreifen"')
+```
+
+```{r cleanR,echo=F,fig.cap=caption,eval=FALSE}
+# library(httr)
+# library(knitr)
+# today<-format(Sys.time(),"%Y%m%d")
+# start<-"20231006"
+# timeframe.t<-paste("20231007",today,sep = " - ")
+# 
+# url<-sprintf("https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia/all-access/user/Gazastreifen/daily/%s00/%s00",start,today)
+# 
+# d<-GET(url = url)
+# r<-content(d,"text")
+# src<-r
+# x<-fromJSON(src,simplifyDataFrame = T,flatten = T)
+# xdf<-data.frame(x$items)
+# xdf$timestamp<-gsub("([0-9]{8})00","\\1",xdf$timestamp)
+# par(las=2)
+# barplot(xdf$views,names.arg  = xdf$timestamp,main = 'de.wikipedia pageviews: "Gazastreifen"')
+# rmed.t<-median(xdf$views[2:length(xdf$views)])
+# #print(rmed.t)
+# ### past
+# today<-start
+# start<-"20151010"
+# url<-sprintf("https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia/all-access/user/Gazastreifen/daily/%s00/%s00",start,today)
+# #url
+# d<-GET(url = url)
+# r<-content(d,"text")
+# src<-r
+# x<-fromJSON(src,simplifyDataFrame = T,flatten = T)
+# xdf<-data.frame(x$items)
+# xdf$timestamp<-gsub("([0-9]{8})00","\\1",xdf$timestamp)
+# rmed.p<-median(xdf$views)
+# #print(rmed.p)
+# timeframe.p<-paste(start,today,sep = " - ")
+# 
+# rdf<-data.frame(timeframe=c(timeframe.p,timeframe.t),median=c(rmed.p,rmed.t))
+# kable(rdf)
+
+```
+
+```{r,echo=F,fig.cap=caption1}
+#today<-format(Sys.time(),"%Y%m%d")
+#start<-"20231006"
+eval.df<-data.frame(date=1:100)
+eval.df$date<-NA
+eval.views<-array()
+out.plot<-function(q,ev){
+  eval.views<-ev
+  qc<-q
+  timeframe.t<-paste("20231007",today,sep = " >> ")
+
+src<-article_pageviews(paste0(
+  qc[1],".wikipedia.org"),qc[2],platform = "all",user_type = "user"
+  ,start = sprintf("%s00",start),
+  end = sprintf("%s00",today),
+  granularity = "daily"
+)
+# x<-fromJSON(src,simplifyDataFrame = T,flatten = T)
+# xdf<-data.frame(x$items)
+xdf<-src
+#eval.df$date<-xdf$date
+eval.views<-append(eval.views,xdf$views[2:length(xdf$views)])
+#xdf$timestamp<-gsub("([0-9]{8})00","\\1",xdf$timestamp)
+par(las=2)
+#p.df<-cbind(xdf$views,xdf$date)
+barplot(xdf$views ~ xdf$date,xlab="",ylab="",main = paste0(qc[1],".wikipedia pageviews: [",qc[2],"]"))
+#plot(xdf$views~xdf$timestamp,main = 'de.wikipedia pageviews: "Gazastreifen"')
+rmed.t<-median(xdf$views[2:length(xdf$views)])
+#rmed.t
+start.0<-"20151010"
+src<-article_pageviews(paste0(
+  qc[1],".wikipedia.org"),qc[2],platform = "all",user_type = "user"
+  ,start = sprintf("%s00",start.0),
+  end = sprintf("%s00",start),
+  granularity = "daily"
+)
+xdf<-src
+rmed.p<-median(xdf$views)
+#print(rmed.p)
+timeframe.p<-paste(start.0,start,sep = " >> ")
+timeframe.perc<-"relation"
+rmed.perc<-paste0(round(rmed.t/rmed.p*100,2),"%")
+
+rdf<-data.frame(timeframe=c(timeframe.p,timeframe.t,timeframe.perc),median=c(rmed.p,rmed.t,rmed.perc))
+kable(rdf)
+#print(eval.views)
+#return(eval.views)
+}
+qc1.0<-out.plot(qc1,eval.views)
+qc1.0
+#clean_site() #no site generator found
+
+#invalidateLater(10000) #no reactive environment
+```
+
+```{r echo=F,fig.cap=caption2}
+qc2.0<-out.plot(qc2,qc1.0)
+qc2.0
+```
+
+```{r echo=F,fig.cap=caption3}
+qc3.0<-out.plot(qc3,qc2.0) #no stats available
+qc3.0
+```
