@@ -68,9 +68,9 @@ caption3<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-ar
 # 
 # mydb = mysql.connector.connect(
 #   host="localhost",
-#   user="iosdbuser_01",
-#   password="getmeintothis00123",
-#   database="iosdb_001"
+#   user="",
+#   password="xxx",
+#   database="xxx"
 # )
 # 
 # mycursor = mydb.cursor()
@@ -105,10 +105,10 @@ caption3<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-ar
 # options(mysql = list(
 #   "host" = "localhost",
 #   "port" = 3306,
-#   "user" = "iosdbuser_01",
-#   "password" = "getmeintothis00123"
+#   "user" = "xxx",
+#   "password" = "xxx"
 # ))
-# databaseName <- "iosdb_001"
+# databaseName <- "xxx"
 # table <- "wikisave"
 # 
 # saveData <- function(data) {
