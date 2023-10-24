@@ -40,7 +40,7 @@ caption2<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-ar
 caption3<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/%s.wikipedia.org/all-access/user/%s/daily/%s00/%s00",qc3[1],qc3[2],start,today)
 #write_clip(caption3)
 #write_clip("https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/he.wikipedia.org/all-access/user/עם_ישראל_חי/daily/2023100600/2023102100") # chg content cache prevent: todo!
-# 14423.14425
+# 14423.14425.14434
 #clean_site()
 # invalidateLater(10000) # Refresh every 10 seconds #no
 ```
