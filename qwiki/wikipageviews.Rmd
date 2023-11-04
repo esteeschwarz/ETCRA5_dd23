@@ -34,13 +34,20 @@ subscore<-function(x){
 qc3<-subscore(qc3)
 #qc3[2]<-url_unescape(qc3[2])
 #qc3
+qc4<-c("de","Dreyfus-Affäre")
+qc5<-c("de","Novemberpogrome_1938")
 # caption<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/%s.wikipedia/all-access/user/Gazastreifen/daily/%s00/%s00",start,today)
 caption1<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/%s.wikipedia.org/all-access/user/%s/daily/%s00/%s00",qc1[1],qc1[2],start,today)
 caption2<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/%s.wikipedia.org/all-access/user/%s/daily/%s00/%s00",qc2[1],qc2[2],start,today)
 caption3<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/%s.wikipedia.org/all-access/user/%s/daily/%s00/%s00",qc3[1],qc3[2],start,today)
+caption4<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/%s.wikipedia.org/all-access/user/%s/daily/%s00/%s00",qc4[1],qc4[2],start,today)
+caption5<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/%s.wikipedia.org/all-access/user/%s/daily/%s00/%s00",qc5[1],qc5[2],start,today)
 #write_clip(caption3)
+getcaption<-function(qc){
+caption<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/%s.wikipedia.org/all-access/user/%s/daily/%s00/%s00",qc[1],qc[2],start,today)
+}
 #write_clip("https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/he.wikipedia.org/all-access/user/עם_ישראל_חי/daily/2023100600/2023102100") # chg content cache prevent: todo!
-# 14423.14425.14434
+# 14423.14425
 #clean_site()
 # invalidateLater(10000) # Refresh every 10 seconds #no
 ```
@@ -68,7 +75,7 @@ caption3<-sprintf("Q: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-ar
 # 
 # mydb = mysql.connector.connect(
 #   host="localhost",
-#   user="",
+#   user="xxx",
 #   password="xxx",
 #   database="xxx"
 # )
@@ -254,4 +261,14 @@ qc2.0
 ```{r echo=F,fig.cap=caption3}
 qc3.0<-out.plot(qc3,qc2.0) #no stats available
 qc3.0
+```
+
+```{r echo=F,fig.cap=caption4}
+qc4.0<-out.plot(qc4,qc3.0) #no stats available
+qc4.0
+```
+
+```{r echo=F,fig.cap=getcaption(qc5)}
+qc5.0<-out.plot(qc5,qc4.0) #no stats available
+qc5.0
 ```
