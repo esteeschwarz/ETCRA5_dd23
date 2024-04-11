@@ -1,8 +1,12 @@
 # info
 
 ## visualisation:
+
+st.
 [https://ada-sub.dh-index.org/shiny/work/essais/shtern/](https://ada-sub.dh-index.org/shiny/work/essais/shtern/)
 
+I.
+[https://ada-sub.dh-index.org/shiny/work/essais/shternapp/](https://ada-sub.dh-index.org/shiny/work/essais/shternapp/)
 ## method
 looping:
 R: `ex<-stri_extract_all_regex(texts[[k]],paste0("(\\b",year,"\\b)"))`
