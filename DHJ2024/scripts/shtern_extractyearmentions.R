@@ -134,9 +134,10 @@ evalyear.df.1$year<-y.unique
 # !!!> 50 plots, one/year mention
 k<-1
 for(k in 1:40){
-  
+### plotting  
 #scatter.smooth(evalyear.df.1[1:14,k]~evalyear.df.1$year[1:14])
 #par(las=1)
 plot(evalyear.df.1[1:14,k]~evalyear.df.1$year[1:14],type="l", xlab="jahrgang", ylab = "number of year mentions", main=paste0('year -',colnames(evalyear.df.1)[k], '- mentions in "Shtern" - journal'))
 }
 rm(exlist2)
+###
