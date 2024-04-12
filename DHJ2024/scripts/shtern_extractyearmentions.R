@@ -64,20 +64,22 @@ lm
 #   exyear[[y]]<-lm
 #lyear<-length(exyear[[y]])
 sumyear.df[k,y]<-lm
-if(lm>0)
-  exyear[[y]]<-ex
-}
+# if(lm>0)
+#   exyear[[y]]<-ex
+# }
   #      sumyear.a[y]<-sum(m,na.rm = T)  
 #  sumyear.a<-sum(m,na.rm = T)  
 #mna<-!is.na(exyear[[y]])
       #  sumyear.df[k,y]<-ex
 
-  if(length(exyear)>0)
-    exlist2[[k]]<-exyear
-  }
+  # if(length(exyear)>0)
+  #  # > removed, since it is no grep of lines anymore in this script version >
+  # TODO: redo with grep() to catch date lines for further processing
+  #   # exlist2[[k]]<-exyear
+   }
 colnames(sumyear.df)<-1901:1940
 rownames(sumyear.df)
-save(exlist2,file = "../exlist.grep1_1921-1940.Rdata")
+#save(exlist2,file = "../exlist.grep1_1921-1940.Rdata")
 
 save(sumyear.df,file="../sumyeardf.grep1_1901-1940.RData")
 # aggregate text/years
