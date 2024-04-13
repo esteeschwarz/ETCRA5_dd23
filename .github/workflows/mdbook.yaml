@@ -7,6 +7,7 @@ name: Deploy mdBook site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
+    paths: ['mdbook/workflow/src/**.md']
     branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
