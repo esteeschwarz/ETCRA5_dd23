@@ -118,12 +118,32 @@ s1<-sum(unlist(s1),na.rm = T)
 year.df[r,y]<-s1
 }
 }
+jsum<-array()
+for(k in 1:length(y.un)){
+  m<-grepl(y.un[k],y.split[,1])
+  
+  jsum[k]<-sum(m)
+}
+jsum
+year.df$periods<-jsum
+year.df.norm<-year.df
 evalyear.df.1<-year.df
-for(k in 2:41){
+m<-grep("[0-9]{4}",colnames(year.df))
+year.df.norm[,m]<-year.df.norm[,m]/year.df.norm$periods
+for(k in m){
   ### plotting  
   #scatter.smooth(evalyear.df.1[1:14,k]~evalyear.df.1$year[1:14])
   #par(las=1)
   plot(evalyear.df.1[1:14,k]~evalyear.df.1$year[1:14],type="l", xlab="jahrgang", ylab = "number of year mentions", main=paste0('year -',colnames(evalyear.df.1)[k], '- mentions in "Shtern" - journal'))
+
+  }
+for(k in m){
+  ### plotting  
+  #scatter.smooth(evalyear.df.1[1:14,k]~evalyear.df.1$year[1:14])
+  #par(las=1)
+  plot(year.df.norm[1:14,k]~year.df.norm$year[1:14],type="l", xlab="jahrgang", ylab = "number of year mentions (normalised)", 
+       main=paste0('year -',colnames(evalyear.df.1)[k], '- mentions in "Shtern" - journal'))
+  
 }
 
 #s1<-data.frame(unlist(s1))
