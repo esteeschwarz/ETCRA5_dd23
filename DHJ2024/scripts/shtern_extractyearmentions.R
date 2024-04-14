@@ -3,17 +3,18 @@
 #extract years mentions, corpus: shtern
 #######################################
 # read in texts locally:
-d<-list.files("~/boxHKW/21S/DH/local/EXC2020/hackathon 10 apr 24/merged2")
+d<-list.files("~/boxHKW/21S/DH/local/EXC2020/DHJ2024/merged2")
+srcdir<-"~/boxHKW/21S/DH/local/EXC2020/DHJ2024/merged2/"
 texts<-list()
 #d
 k<-1
 for(k in 1:length(d)){
-  tx<-readLines(d[k])
+  tx<-readLines(paste0(srcdir,d[k]))
   texts[[k]]<-tx
 }
 k<-1
 library(readtext)
-setwd("~/boxHKW/21S/DH/local/EXC2020/hackathon 10 apr 24/merged2")
+setwd("~/boxHKW/21S/DH/local/EXC2020/DHJ2024/merged2")
 for(k in 1:length(d)){
   tx<-readtext(d[k])$text
   texts[[k]]<-tx
