@@ -102,7 +102,7 @@ tokenlist.x[[y]][[tns]]<-fr.table
   }
 #tokenlist.x[["1927"]][[1]][[1]]
 ### wks.
-save(tokenlist.x,file = "~/boxHKW/21S/DH/local/EXC2020/DHJ2024/tokenlistx.RData")
+#save(tokenlist.x,file = "~/boxHKW/21S/DH/local/EXC2020/DHJ2024/tokenlistx.RData")
 ### now sum up mentions in year
 year.df<-data.frame(year=y.un)
 y.q<-c(1900:1940)
@@ -145,6 +145,8 @@ for(k in m){
        main=paste0('year -',colnames(evalyear.df.1)[k], '- mentions in "Shtern" - journal'))
   
 }
+#save(evalyear.df.1,file = "~/Documents/GitHub/ETCRA5_dd23/DHJ2024/data/yearmention_DF_2nd.RData")
+#write.csv(evalyear.df.1,"~/Documents/GitHub/ETCRA5_dd23/DHJ2024/data/yearmention_DF_2nd.csv")
 
 #s1<-data.frame(unlist(s1))
 # data.frame(tokenlist.x[["1927"]][[2]][["frequency"]])
