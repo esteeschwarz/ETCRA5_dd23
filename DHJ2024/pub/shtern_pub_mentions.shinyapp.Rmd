@@ -1,0 +1,49 @@
+---
+title: "shtern mentions pub_active"
+author: "esteeschwarz"
+date: "2024-04-11"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## evaluation Shtern journal 1926-1940
+### years mentions over jahrgang
+
+```{r data, echo=FALSE}
+#load("~/boxHKW/21S/DH/local/EXC2020/hackathon 10 apr 24/yearmention_DF.Rdata")
+dtemp<-tempfile()
+download.file("https://github.com/esteeschwarz/ETCRA5_dd23/raw/master/DHJ2024/data/yearmention_DF_2nd.RData",dtemp)
+load(dtemp)
+```
+
+
+```{r eruptions, echo=FALSE}
+
+inputPanel(
+  # selectInput("n_breaks", label = "Number of bins:",
+  #             choices = c(1901:1940), selected = 1901),
+  
+  sliderInput("bw_adjust", label = "year mention",
+              min = 1900, max = 1940, value = 1900, step = 1,animate = T)
+)
+
+renderPlot({
+  k<-input$bw_adjust-1899
+  print(k)
+  m<-grep("[0-9]{4}",colnames(evalyear.df.1))
+  years<-evalyear.df.1$year
+  evalyear.df.1<-evalyear.df.1[,m]
+plot(evalyear.df.1[1:14,k]~years,type="l", xlab="jahrgang", ylab = "number of year mentions", main=paste0('year -',input$bw_adjust, '- mentions in "Shtern" - journal'))
+})
+  # hist(faithful$eruptions, probability = TRUE, breaks = as.numeric(input$n_breaks),
+  #      xlab = "Duration (minutes)", main = "Geyser eruption duration")
+  # 
+  # dens <- density(faithful$eruptions, adjust = input$bw_adjust)
+  # lines(dens, col = "blue")
+#})
+```
+
+
