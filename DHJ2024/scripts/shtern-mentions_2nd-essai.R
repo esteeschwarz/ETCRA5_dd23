@@ -148,6 +148,24 @@ for(k in m){
 #save(evalyear.df.1,file = "~/Documents/GitHub/ETCRA5_dd23/DHJ2024/data/yearmention_DF_2nd.RData")
 #write.csv(evalyear.df.1,"~/Documents/GitHub/ETCRA5_dd23/DHJ2024/data/yearmention_DF_2nd.csv")
 
+### keyword analysis
+load("~/boxHKW/21S/DH/local/EXC2020/DHJ2024/tokenlistx.RData")
+library(collostructions)
+freq.list(tokenlist.x[[1]][[1]][[2]][[1]])
+key.list<-list()
+k<-1
+# for (k in 1:length(tokenlist.x)){
+#   get.fr.list<-function(x)freq.list(unlist(x[[k]]))
+#   token.fr<-lapply(tokenlist.x, get.fr.list)
+# key.list[[k]]<-token.fr  
+# }
+# key.list[[1]]
+get.fr.list<-function(x)freq.list(unlist(x))
+token.fr<-lapply(tokenlist.x, get.fr.list)
+key.list<-token.fr
+save(key.list,file = "~/boxHKW/21S/DH/local/EXC2020/DHJ2024/keywordlist.RData")
+token.fr[[2]]
+length(unlist(tokenlist.x[[1]]))
 #s1<-data.frame(unlist(s1))
 # data.frame(tokenlist.x[["1927"]][[2]][["frequency"]])
 # y="1904"
