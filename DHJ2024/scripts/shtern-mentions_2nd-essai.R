@@ -163,9 +163,17 @@ k<-1
 get.fr.list<-function(x)freq.list(unlist(x))
 token.fr<-lapply(tokenlist.x, get.fr.list)
 key.list<-token.fr
-save(key.list,file = "~/boxHKW/21S/DH/local/EXC2020/DHJ2024/keywordlist.RData")
+#save(key.list,file = "~/boxHKW/21S/DH/local/EXC2020/DHJ2024/keywordlist.RData")
 token.fr[[2]]
 length(unlist(tokenlist.x[[1]]))
+key.list[[1]]
+#############
+length(key.list[[1]][["WORD"]])
+length(unique(key.list[[1]][[1]]))
+m<-duplicated(key.list[[1]][["WORD"]])
+key.list[[1]][[1]][m]
+#table(key.list[[1]][[1]])
+
 #s1<-data.frame(unlist(s1))
 # data.frame(tokenlist.x[["1927"]][[2]][["frequency"]])
 # y="1904"
