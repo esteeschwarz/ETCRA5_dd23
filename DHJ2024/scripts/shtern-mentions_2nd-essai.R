@@ -150,7 +150,17 @@ for(k in m){
 
 ### keyword analysis
 load("~/boxHKW/21S/DH/local/EXC2020/DHJ2024/tokenlistx.RData")
+
+### to install collostructions (not on CRAN) call function
+inst.coll<-function(){
+  dtemp<-tempfile()
+  download.file("https://sfla.ch/wp-content/uploads/2021/02/collostructions_0.2.0.tar.gz",dtemp)
+  library(devtools)
+  devtools::install_local(dtemp)
+}
+#inst.coll()
 library(collostructions)
+
 freq.list(tokenlist.x[[1]][[1]][[2]][[1]])
 key.list<-list()
 k<-1
@@ -163,17 +173,51 @@ k<-1
 get.fr.list<-function(x)freq.list(unlist(x))
 token.fr<-lapply(tokenlist.x, get.fr.list)
 key.list<-token.fr
+tokenfreqlist<-key.list
 #save(key.list,file = "~/boxHKW/21S/DH/local/EXC2020/DHJ2024/keywordlist.RData")
-token.fr[[2]]
-length(unlist(tokenlist.x[[1]]))
+#save(key.list,file = "~/Documents/GitHub/ETCRA5_dd23/DHJ2024/data/keywordlist.RData")
+#token.fr[[2]]
+#length(unlist(tokenlist.x[[1]]))
+load("~/boxHKW/21S/DH/local/EXC2020/DHJ2024/keywordlist.RData")
 key.list[[1]]
 #############
 length(key.list[[1]][["WORD"]])
-length(unique(key.list[[1]][[1]]))
+length(unique(key.list[[1]][["WORD"]]))
 m<-duplicated(key.list[[1]][["WORD"]])
 key.list[[1]][[1]][m]
-#table(key.list[[1]][[1]])
-
+# sort(table(key.list[[1]][[1]]))
+# head(table(factor(key.list[[1]][[1]])))
+# table(factor(key.list[[1]][[1]]))
+head(key.list[[1]],10)
+m<-key.list[[1]][[1]]==1926
+key.list[[1]][m,1:2]
+sum(key.list[[1]][m,2]) # conforms with 2nd essai result
+m<-key.list[[1]][[1]]==1925
+key.list[[1]][m,1:2]
+sum(key.list[[1]][m,2]) # conforms with 2nd essai result
+#####
+library(quanteda.textstats)
+coll<-textstat_collocations(tokenlist.x[[1]],size = 5, min_count = 2)
+library(quanteda)
+library(tokenizers)
+t1<-tokenize_words(texts[[1]])
+t1<-tokens(texts[[1]])
+coll<-textstat_collocations(t1,size = 3, min_count = 2)
+library(topicmodels)
+ndfmat<-dfm(t1)
+m<-is.na(ndfmat)
+m<-ndfmat==""
+sum(m)
+t1.tp<-CTM(data.frame(key.list[[1]]),3)
+library(udpipe)
+t2<-data.frame(term=unlist(t1),year=1926.1)
+t3<-rbind(t2,data.frame(term=unlist(tokenize_words(texts[[2]])),year=1926.2))
+t1.kw<-keywords_rake(t3,"term","year")
+f1<-freq.list(t2$term)
+f1$WORD
+### TODO: make stopwordlist
+f1.stops<-data.frame(word=f1$WORD,stop=1)
+write.csv(f1.stops,"~/boxHKW/21S/DH/local/EXC2020/DHJ2024/share/stopwords_df.csv")
 #s1<-data.frame(unlist(s1))
 # data.frame(tokenlist.x[["1927"]][[2]][["frequency"]])
 # y="1904"
