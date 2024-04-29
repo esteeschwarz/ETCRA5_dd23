@@ -153,17 +153,21 @@ load("~/boxHKW/21S/DH/local/EXC2020/DHJ2024/tokenlistx.RData")
 
 ### to install collostructions (not on CRAN) call function
 inst.coll<-function(){
-  dtemp<-tempfile()
-  download.file("https://sfla.ch/wp-content/uploads/2021/02/collostructions_0.2.0.tar.gz",dtemp)
-  library(devtools)
-  devtools::install_local(dtemp)
+  # dtemp<-tempfile()
+  # download.file("https://sfla.ch/wp-content/uploads/2021/02/collostructions_0.2.0.tar.gz",dtemp)
+   library(devtools)
+   # devtools::install_local(dtemp)
+### the package is now on github:
+    devtools::install_github("skeptikantin/collostructions")
 }
-#inst.coll()
+t<-require("collostructions")
+if (!t)
+  inst.coll()
 library(collostructions)
 
-freq.list(tokenlist.x[[1]][[1]][[2]][[1]])
-key.list<-list()
-k<-1
+#freq.list(tokenlist.x[[1]][[1]][[2]][[1]])
+#key.list<-list()
+#k<-1
 # for (k in 1:length(tokenlist.x)){
 #   get.fr.list<-function(x)freq.list(unlist(x[[k]]))
 #   token.fr<-lapply(tokenlist.x, get.fr.list)
