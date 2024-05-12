@@ -45,6 +45,8 @@ tok.sort[m,]
 ### manually assign corrected versions in .csv
 library(stringi)
 library(utils)
+### run after modifying .csv >
+edit.xml<-function(){
 tok.ed<-read.csv("~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq/tok.freq.list.edited-yudale_tok_freq.csv")
 fns.edit<-"~/boxHKW/21S/DH/local/EXC2020/dybbuk/Yudale_der_blinder,_Emkroyt1908-xpedit001/Yudale_der_blinder,_Emkroyt1908-xp001/page/"
 #sort regexes after gefräszigkeit:
@@ -56,8 +58,9 @@ tok.ed.s<-tok.ed[order(tok.ed$bytes,decreasing = T),]
 #sort1<-stri_count(tok.ed$WORD,regex = ".")
 
 for (k in 1:length(flist)){
-  file<-paste0(fns.edit,flist[k])
-  t1<-readLines(file)
+  file.xp<-paste0(fns,flist[k])
+  t1<-readLines(file.xp)
+  file.ed<-paste0(fns.edit,flist[k])
   
   for (r in 1:length(tok.ed.s$WORD)){
     reg<-tok.ed.s$WORD[r]
@@ -68,9 +71,11 @@ for (k in 1:length(flist)){
     
     
   }
-  writeLines(t1,file)
+  writeLines(t1,file.ed)
   
 }
+}
+edit.xml()
 file
 
 
