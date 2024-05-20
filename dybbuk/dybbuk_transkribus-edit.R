@@ -3,14 +3,22 @@
 #####################
 # essai automated transkribus output correction of yiddish text
 ###############################################################
-library(xml2)
-flist<-list.files("~/boxHKW/21S/DH/local/EXC2020/dybbuk/Yudale_der_blinder,_Emkroyt1908-xp001/Yudale_der_blinder,_Emkroyt1908-xp001/page")
+#flist<-list.files("~/boxHKW/21S/DH/local/EXC2020/dybbuk/Yudale_der_blinder,_Emkroyt1908-xp001/Yudale_der_blinder,_Emkroyt1908-xp001/page")
 fns<-"~/boxHKW/21S/DH/local/EXC2020/dybbuk/Yudale_der_blinder,_Emkroyt1908-xp001/Yudale_der_blinder,_Emkroyt1908-xp001/page/"
-tlist<-list()
+fns.base<-"~/boxHKW/21S/DH/local/EXC2020/dybbuk/"
+fns.this<-"yudale_xml-edited003/"
+fns<-paste0(fns.base,fns.this,fns.this,"page/")
+fns
+flist<-list.files(fns)
+preproc.fun<-function(){ # not called function to get token list of half corrected transcription
+  library(xml2)
+  tlist<-list()
 tlines<-list()
+k<-1
 for (k in 1:length(flist)){
   file<-paste0(fns,flist[k])
   f1<-read_xml(file)
+  f1
   tlist[[k]]<-f1
   f1%>% xml_ns_strip()
   alltext<-xml_find_all(f1,".//TextLine")
@@ -30,14 +38,17 @@ tok.sort<-tok.freq[order(tok.freq$WORD),]
 tok.sort
 write.csv(tok.sort,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq.csv")
 save(tok.sort,file = "~/Documents/GitHub/ETCRA5_dd23/dybbuk/tok.sort.RData")
-f1%>% xml_ns_strip()
+#f1%>% xml_ns_strip()
 alltext<-xml_find_all(f1,".//TextLine")
 xml_text(alltext)
 #################
 m<-grep("ביז",tok.sort$WORD)
 tok.sort[m,] 
 m<-grep("בִּיז",tok.sort$WORD)
-tok.sort[m,] 
+tok.sort[m,]
+return(tok.sort)
+}
+tok.sort<-preproc.fun()
 ### wks., grep differenciates between tokens with/wo vocalisation
 ### goal: to replace not vocalised tokens in xml with manually corrected tokens. pages 1-16 are not vocalise corrected,
 ### pages 17-23 are corrected.
@@ -56,8 +67,11 @@ tok.ed.s<-tok.ed[order(tok.ed$bytes,decreasing = T),]
 ### > TODO: replace order, first lagest 
 #format(object.size("a"),units="B",digits=3,standard = "SI")
 #sort1<-stri_count(tok.ed$WORD,regex = ".")
-
-for (k in 1:length(flist)){
+### array of pages not resp. corrected w/o vokalisation:
+p.array<-c(5:16,24:70)
+# for (k in 1:length(flist)){
+for (p in 1:length(p.array)){
+  k<-p.array[p]
   file.xp<-paste0(fns,flist[k])
   t1<-readLines(file.xp)
   file.ed<-paste0(fns.edit,flist[k])
@@ -67,7 +81,7 @@ for (k in 1:length(flist)){
     repl<-tok.ed.s$cor.tok[r]
     if(!is.na(repl)&repl!="")
        t1<-gsub(reg,repl,t1)
-    cat(k,":",r,"\n")
+    cat("editing page:",p,"token:",r,"of:",length(p.array),"pages","\n")
     
     
   }
@@ -76,7 +90,7 @@ for (k in 1:length(flist)){
 }
 }
 edit.xml()
-file
+#file
 
 
 
