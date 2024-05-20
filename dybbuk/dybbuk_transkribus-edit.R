@@ -57,8 +57,8 @@ tok.sort<-preproc.fun()
 library(stringi)
 library(utils)
 ### run after modifying .csv >
-edit.xml<-function(){
 tok.ed<-read.csv("~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq/tok.freq.list.edited-yudale_tok_freq.csv")
+edit.xml<-function(){
 fns.edit<-"~/boxHKW/21S/DH/local/EXC2020/dybbuk/Yudale_der_blinder,_Emkroyt1908-xpedit001/Yudale_der_blinder,_Emkroyt1908-xp001/page/"
 #sort regexes after gefräszigkeit:
 tok.ed$bytes<-unlist(lapply(tok.ed$WORD,object.size))
@@ -90,7 +90,31 @@ for (p in 1:length(p.array)){
 }
 }
 edit.xml()
-#file
+##########
+# train: one run (pg. 1-16, 24-70 corrected, imported to transkribus, manually edited p.24, exported, 
+# run preproc.func() on new xml data
+# tokens: original: 3301, corrected: 3107
+#########################################
+# perform fuzzy match:
+library(fuzzyjoin)
+#jw
+a1<-tok.ed
+a2<-tok.sort
+j1<-stringdist_join(a1,a2,by="WORD",max_dist = 99,mode = "left",method = "jw",distance_col = "dist")
+j3<-stringdist_join(a1,a2,by="WORD",max_dist = 1,method = "jw",distance_col = "dist")
+j1[j1$dist>=1&j1$dist<=2,]
+m<-j1$dist<0.8&j1$dist>0.74
+j2<-j1[m,]
 
-
+m<-j3$dist<0.8&j3$dist>0.7
+j4<-j3[m,]
+library(stringdist)
+t1<-"ביז"
+#tok.sort[m,] 
+t2<-"בִּיז"
+t1<-"arbeit"
+t2<-"erbeit"
+stringsim(t1,t2,method = "lv",p=0.1)
+tok.ed$tok.2<-NA
+tok.ed$tok.2[1:length(tok.sort$WORD)]<-levels(tok.sort$WORD)
 
