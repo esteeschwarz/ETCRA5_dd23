@@ -27,7 +27,6 @@ words<-paste0(sample(df1$c))
 ### copilot
 
 library(stringdist)
-dictionary <- c("apple", "banana", "cherry")
 src<-"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq/tok.freq.list.edited-yudale_tok_freq.csv"
 dictionary <- read.csv(src)
 dictionary<- dictionary[55:length(dictionary$id),]
@@ -48,8 +47,6 @@ custom_spelling_checker <- function(token) {
   }
   return(corrected_word)
 }
-  token_to_check <- "aple"
-  token_to_check <- dictionary$WORD[12]
 #wks. bit
   dictionary$cor.ai<-NA
   for(k in 1:length(dictionary$WORD)){
@@ -59,8 +56,10 @@ custom_spelling_checker <- function(token) {
   cat(k,token_to_check,corrected_token,"\n")
   }
   
-corrected_token <- custom_spelling_checker(token_to_check)
-cat("Original:", token_to_check, "Corrected:", corrected_token, "\n")
+  # token_to_check <- "aple"
+  token_to_check <- dictionary$WORD[12]
+  # corrected_token <- custom_spelling_checker(token_to_check)
+# cat("Original:", token_to_check, "Corrected:", corrected_token, "\n")
 
 
 
