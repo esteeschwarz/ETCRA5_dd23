@@ -61,5 +61,13 @@ custom_spelling_checker <- function(token) {
   # corrected_token <- custom_spelling_checker(token_to_check)
 # cat("Original:", token_to_check, "Corrected:", corrected_token, "\n")
 
+library(quanteda)
 
-
+  chars<-char_segment(dictionary$WORD,".",valuetype = "regex",remove_pattern = F)
+chars[100:550]
+ngrams.2<-char_ngrams(chars,2,concatenator = "")
+ngrams[1:100]
+ngrams.2[1:100]
+m<-grepl("[א-ת]",chars)
+sum(m)
+chars[m]
