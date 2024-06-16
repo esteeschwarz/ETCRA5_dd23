@@ -4,14 +4,27 @@
 # essai automated transkribus output correction of yiddish text
 ###############################################################
 #flist<-list.files("~/boxHKW/21S/DH/local/EXC2020/dybbuk/Yudale_der_blinder,_Emkroyt1908-xp001/Yudale_der_blinder,_Emkroyt1908-xp001/page")
-fns<-"~/boxHKW/21S/DH/local/EXC2020/dybbuk/Yudale_der_blinder,_Emkroyt1908-xp001/Yudale_der_blinder,_Emkroyt1908-xp001/page/"
-fns.base<-"~/boxHKW/21S/DH/local/EXC2020/dybbuk/"
+mini<-"/Volumes/EXT"
+lapsi<-"/users/guhl/documents"
+fns.base<-"/boxHKW/21S/DH/local/EXC2020/dybbuk/"
+minichk<-list.files(mini)
+#fns.base<-paste0(lapsi,fns.base)
+#fns<-"/boxHKW/21S/DH/local/EXC2020/dybbuk/Yudale_der_blinder,_Emkroyt1908-xp001/Yudale_der_blinder,_Emkroyt1908-xp001/page/"
+if(length(minichk)>0)
+  fns.base<-paste0(mini,fns.base)
+if(length(minichk)<1)
+  fns.base<-paste0(mini,"/boxHKW/21S/DH/local/EXC2020/dybbuk/")
+
 fns.this<-"yudale_xml-edited003/"
-fns<-paste0(fns.base,fns.this,fns.this,"page/")
+fns.this<-"yudale_xml-edited003/yudale_xml-edited003-17-27/yudale_xml-edited003-17-27/"
+fns<-paste0(fns.base,fns.this,"page/")
 fns
 flist<-list.files(fns)
 preproc.fun<-function(){ # not called function to get token list of half corrected transcription
   library(xml2)
+  library(collostructions)
+  library(quanteda)
+  library(purrr)
   tlist<-list()
 tlines<-list()
 k<-1
@@ -25,9 +38,9 @@ for (k in 1:length(flist)){
   tlines[[k]]<-xml_text(alltext)
   
 }
-library(collostructions)
-library(quanteda)
-get.tok<-function(x)tokenize_word(x)
+3+4%>%sum()
+#tokeniz
+get.tok<-function(x)tokenize_word1(x)
 tok.list<-lapply(tlines, get.tok)
 f1<-read_xml(paste0(fns,flist[3]))
 tok.freq<-freq.list(unlist(tok.list))
@@ -36,8 +49,8 @@ m<-grep("דיר",tok.freq)
 m<-grep("דיִר",tok.freq)
 tok.sort<-tok.freq[order(tok.freq$WORD),]
 tok.sort
-write.csv(tok.sort,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq.csv")
-save(tok.sort,file = "~/Documents/GitHub/ETCRA5_dd23/dybbuk/tok.sort.RData")
+#write.csv(tok.sort,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq.csv")
+#save(tok.sort,file = "~/Documents/GitHub/ETCRA5_dd23/dybbuk/tok.sort.RData")
 #f1%>% xml_ns_strip()
 alltext<-xml_find_all(f1,".//TextLine")
 xml_text(alltext)
@@ -49,6 +62,8 @@ tok.sort[m,]
 return(tok.sort)
 }
 tok.sort<-preproc.fun()
+tok.sort.f<-tok.sort[order(tok.sort$FREQ,decreasing = T),]
+write.csv(tok.sort,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq_17-27.csv")
 ### wks., grep differenciates between tokens with/wo vocalisation
 ### goal: to replace not vocalised tokens in xml with manually corrected tokens. pages 1-16 are not vocalise corrected,
 ### pages 17-23 are corrected.
@@ -100,6 +115,38 @@ library(fuzzyjoin)
 #jw
 a1<-tok.ed
 a2<-tok.sort
+m1<-a2$WORD%in%a1$cor.tok
+sum(m1)
+a2$cor.tok<-NA
+a2.cor<-as.character(a2$WORD[m1])
+a2$cor.tok[m1]<-a2.cor
+write.csv(a2,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq_17-27.csv")
+a2.uncor<-a2[!m1,]
+a2.uncor$cor.tok<-""
+write.csv(a2.uncor,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq_17-27-uncor.csv")
+
+library(quanteda)
+
+chars<-char_segment(a2.cor,".",valuetype = "regex",remove_pattern = F)
+chars[100:550]
+ngrams.2<-char_ngrams(chars,2,concatenator = "")
+#ngrams[1:100]
+ngrams.2[1:100]
+ng.t<-table(ngrams.2)
+ng.t
+write.csv(ng.t,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_2grams.csv")
+ngrams.3<-char_ngrams(chars,3,concatenator = "")
+ng.t3<-table(ngrams.3)
+ng.t
+write.csv(ng.t3,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_3grams.csv")
+ngrams.4<-char_ngrams(chars,4,concatenator = "")
+ng.t4<-table(ngrams.4)
+ֿwrite.csv(ng.t4,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_4grams.csv")
+
+m<-grepl("[א-ת]",chars)
+sum(m)
+chars[m]
+###########################
 j1<-stringdist_join(a1,a2,by="WORD",max_dist = 99,mode = "left",method = "jw",distance_col = "dist")
 j3<-stringdist_join(a1,a2,by="WORD",max_dist = 1,method = "jw",distance_col = "dist")
 j1[j1$dist>=1&j1$dist<=2,]
