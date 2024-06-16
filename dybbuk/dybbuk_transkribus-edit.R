@@ -141,8 +141,7 @@ ng.t
 write.csv(ng.t3,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_3grams.csv")
 ngrams.4<-char_ngrams(chars,4,concatenator = "")
 ng.t4<-table(ngrams.4)
-ֿwrite.csv(ng.t4,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_4grams.csv")
-
+write.csv(ng.t4,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_4grams.csv")
 m<-grepl("[א-ת]",chars)
 sum(m)
 chars[m]
