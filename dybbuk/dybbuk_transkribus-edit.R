@@ -5,19 +5,19 @@
 ###############################################################
 #flist<-list.files("~/boxHKW/21S/DH/local/EXC2020/dybbuk/Yudale_der_blinder,_Emkroyt1908-xp001/Yudale_der_blinder,_Emkroyt1908-xp001/page")
 mini<-"/Volumes/EXT"
-lapsi<-"/users/guhl/documents"
-fns.base<-"/boxHKW/21S/DH/local/EXC2020/dybbuk/"
+lapsi<-"/Users/guhl/Documents"
+fns.base.1<-"/boxHKW/21S/DH/local/EXC2020/dybbuk/"
 minichk<-list.files(mini)
 #fns.base<-paste0(lapsi,fns.base)
 #fns<-"/boxHKW/21S/DH/local/EXC2020/dybbuk/Yudale_der_blinder,_Emkroyt1908-xp001/Yudale_der_blinder,_Emkroyt1908-xp001/page/"
 if(length(minichk)>0)
-  fns.base<-paste0(mini,fns.base)
+  fns.base.2<-paste0(mini,fns.base.1)
 if(length(minichk)<1)
-  fns.base<-paste0(mini,"/boxHKW/21S/DH/local/EXC2020/dybbuk/")
-
+  fns.base.2<-paste0("~/boxHKW/21S/DH/local/EXC2020/dybbuk/")
+fns.base.2
 fns.this<-"yudale_xml-edited003/"
 fns.this<-"yudale_xml-edited003/yudale_xml-edited003-17-27/yudale_xml-edited003-17-27/"
-fns<-paste0(fns.base,fns.this,"page/")
+fns<-paste0(fns.base.2,fns.this,"page/")
 fns
 flist<-list.files(fns)
 preproc.fun<-function(){ # not called function to get token list of half corrected transcription
@@ -72,9 +72,40 @@ write.csv(tok.sort,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq_17-27.
 library(stringi)
 library(utils)
 ### run after modifying .csv >
+edit.xml.top<-function(){
 tok.ed<-read.csv("~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq/tok.freq.list.edited-yudale_tok_freq.csv")
-edit.xml<-function(){
+tok.ed.1<-read.csv("~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq.14256/tok.freq.list.edited-corrected.csv")
+
+### merge corrected tables
+tok.ed.1<-read.csv("~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq.14256/tok.freq.list.edited-corrected.csv")
+tok.ed.2<-read.csv("~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq.14256/14256.17-27cor-corrected.csv")
+colnames(tok.ed.2)[1]<-"id"
+tok.ed.m<-rbind(tok.ed.1[55:length(tok.ed.1$id),c(1,2,6)],tok.ed.2[55:length(tok.ed.2$id),c(1,2,5)])
+#write.csv(tok.ed.m,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq.csv")
+### pattern replacement
+# regx.array<-c("בע","גע","פע","דע","ווע","בּע")
+# repl.array<-c("בֶּע","גֶע","פֶע","דֶע","ווֶע","בֶּע")
+# repl.array
+# reg.p.1<-"קע"
+# repl.p.1<-"קֶע"
+# repl.df<-data.frame(regx=regx.array,repl=repl.array)
+# #write.csv(repl.df,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/replace.df.csv")
+# regx.array<-c(regx.array,reg.p.1)
+# repl.array<-c(repl.array,repl.p.1)
+# regx.array
+# repl.array
+# tok.ed.m$global<-tok.ed.m$WORD
+# for(k in 1:length(regx.array)){
+#   tok.ed.m$global<-gsub(regx.array[k],repl.array[k], tok.ed.m$global)
+# }
+#tok.ed.m<-tok.ed.m[55:length(tok.ed.m$id),]
+tok.ed<-tok.ed.m
+
+edit.xml<-function(tok.ed){
+repl.df<-read.csv("~/Documents/GitHub/ETCRA5_dd23/dybbuk/replace.df-m.csv")
+
 fns.edit<-"~/boxHKW/21S/DH/local/EXC2020/dybbuk/Yudale_der_blinder,_Emkroyt1908-xpedit001/Yudale_der_blinder,_Emkroyt1908-xp001/page/"
+fns.edit<-"~/boxHKW/21S/DH/local/EXC2020/dybbuk/yudale_xml-edited003/yudale_xml-edited003-17-27/edited004/page/"
 #sort regexes after gefräszigkeit:
 tok.ed$bytes<-unlist(lapply(tok.ed$WORD,object.size))
 tok.ed.s<-tok.ed[order(tok.ed$bytes,decreasing = T),]
@@ -83,28 +114,55 @@ tok.ed.s<-tok.ed[order(tok.ed$bytes,decreasing = T),]
 #format(object.size("a"),units="B",digits=3,standard = "SI")
 #sort1<-stri_count(tok.ed$WORD,regex = ".")
 ### array of pages not resp. corrected w/o vokalisation:
-p.array<-c(5:16,24:70)
+p.array<-c(5:16,28:70)
 # for (k in 1:length(flist)){
+p<-28
+m.p<-grep(28,p.array)
+p<-m.p
+r<-5680
 for (p in 1:length(p.array)){
   k<-p.array[p]
   file.xp<-paste0(fns,flist[k])
   t1<-readLines(file.xp)
+  t1
   file.ed<-paste0(fns.edit,flist[k])
-  
-  for (r in 1:length(tok.ed.s$WORD)){
+  t1[57]
+  for (r in 55:length(tok.ed.s$WORD)){
     reg<-tok.ed.s$WORD[r]
     repl<-tok.ed.s$cor.tok[r]
+    #repl.pre<-tok.ed.s$global[r]
+    #ifelse(!is.na(repl)&repl!="",t1<-gsub(reg,repl,t1),t1<-gsub(reg,repl.pre,t1))
     if(!is.na(repl)&repl!="")
-       t1<-gsub(reg,repl,t1)
+      t1<-gsub(reg,repl,t1)
+    
     cat("editing page:",p,"token:",r,"of:",length(p.array),"pages","\n")
     
     
   }
+  # global replace pattern
+  for (g in 1:length(repl.df$regx)){
+    reg.g<-repl.df$regx[g]
+    repl.g<-repl.df$repl[g]
+    t1<-gsub(reg.g,repl.g,t1)
+  }
+  
   writeLines(t1,file.ed)
   
 }
 }
-edit.xml()
+edit.xml(tok.ed = tok.ed.m)
+} # end editxmltop
+edit.xml.top()
+# tok.ed.s[86,]
+# gsub(reg,repl.pre,t1)
+### merge ngram tables
+ng2<-read.csv("~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_2grams.csv",col.names = c("id","ngram","freq"))
+ng3<-read.csv("~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_3grams.csv",col.names = c("id","ngram","freq"))
+ng4<-read.csv("~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_4grams.csv",col.names = c("id","ngram","freq"))
+ng.n<-rbind(ng2,ng3,ng4)
+ng.n.s<-ng.n[order(ng.n$ngram),]
+#write.csv(ng.n.s,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/ngrams_sorted.csv")
+
 ##########
 # train: one run (pg. 1-16, 24-70 corrected, imported to transkribus, manually edited p.24, exported, 
 # run preproc.func() on new xml data
