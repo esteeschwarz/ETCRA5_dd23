@@ -17,10 +17,11 @@ if(length(minichk)<1)
 fns.base.2
 fns.this<-"yudale_xml-edited003/"
 fns.this<-"yudale_xml-edited003/yudale_xml-edited003-17-27/yudale_xml-edited003-17-27/"
+fns.this<-"yudale_xml-edited003/yudale_xml-edited006-17-28/yudale_xml-edited006-17-28/"
 fns<-paste0(fns.base.2,fns.this,"page/")
 fns
 flist<-list.files(fns)
-preproc.fun<-function(){ # not called function to get token list of half corrected transcription
+preproc.fun<-function(pages.cor){ # not called function to get token list of half corrected transcription
   library(xml2)
   library(collostructions)
   library(quanteda)
@@ -28,7 +29,10 @@ preproc.fun<-function(){ # not called function to get token list of half correct
   tlist<-list()
 tlines<-list()
 k<-1
-for (k in 1:length(flist)){
+pages.cor<-17:28
+for (k in pages.cor){
+  
+#for (k in 1:length(flist)){
   file<-paste0(fns,flist[k])
   f1<-read_xml(file)
   f1
@@ -63,7 +67,7 @@ return(tok.sort)
 }
 tok.sort<-preproc.fun()
 tok.sort.f<-tok.sort[order(tok.sort$FREQ,decreasing = T),]
-write.csv(tok.sort,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq_17-27.csv")
+write.csv(tok.sort,"~/Documents/GitHub/ETCRA5_dd23/dybbuk/yudale_tok_freq_17-28.csv")
 ### wks., grep differenciates between tokens with/wo vocalisation
 ### goal: to replace not vocalised tokens in xml with manually corrected tokens. pages 1-16 are not vocalise corrected,
 ### pages 17-23 are corrected.
