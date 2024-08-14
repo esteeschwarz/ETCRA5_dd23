@@ -11,3 +11,6 @@ this folder contains scripts and tables associated to working on a transcription
   - match training to gold set tokens
   - find replacement positions
   - replace token at position in training pages with vocalised gold set token
+
+#### proceeding
+TEI refactoring for yidracor: <https://github.com/esteeschwarz/dybbuk-cor>
