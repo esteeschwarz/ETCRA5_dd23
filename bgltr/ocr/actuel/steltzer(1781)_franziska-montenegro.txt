@@ -65,46 +65,20 @@ Sn
 «
 steltzer_montenegro.pdf_000004
 Perſonen:
-b/tanthetr=
 
 Montenegro, ein alter reicher Spanier.
-ranziſka, ſeine Tochter.
-aled rri i
-Katelli, ein Italiener, Vetter des Monte⸗Anfi
-negro und Franziſta's liebhaber. inleniſft
+Franziſka, ſeine Tochter.
+Katelli, ein Italiener, Vetter des Monte⸗
+negro und Franziſta's liebhaber.
 Pedrillo, Sekretär eines Miniſters.
 Anton, Katelli's Bedienter.
-nuEDin WpÜinI
-zrMC iiſc HD0
-1uni 1n
-Kamilla, Itarziſta's Mädchen. „„hꝛwanifapipad aid
-Hieronimus, ein Moͤnch. „nnmOli ut
+Kamilla, Franziska's Mädchen.
+Hieronimus, ein Moͤnch.
 Niklas, ein Bandit.
 Bedienten.
 Prieſter.
 Wache.
-Rchatlhtein ant ilnr fſert
-liat zut zünsſeeetur nönd mlige pel
-en⸗Aneltzit ruz Ne epm Nef Siege zune
-2dE naitie . annez annheri iuu
-4
-9
 Vom Morgen an bis in die ſpäte Racht.
-976
-unr.
-—
-unach areugin zie neſti
-MMiRUipdu ufi
-ate siinmugnatimnionit ungße ſap
-eALRMNST
-1dh unitm mair e
-20 MIUanpIRSj
-f.d btsrrue
-nefr
-mtri
-2u
-24 4
-21
 steltzer_montenegro.pdf_000005
 410 ( bF
  th
@@ -133,7 +107,7 @@ MAloñä
 er Aufzug.
 anputle iitttidune .
  *
-erſter Auftrit..
+#erſter Auftrit..
 Moutinegtg's Gatten bey deſſen Landgut vor Ma⸗
 1561
 drit Buſchwerk, Raſenbänke und im Hintergrun⸗
@@ -197,7 +171,7 @@ Katelli, Zu ſeiner Zeit ſag' ich ihnen alles. Ich
 liebe ſie; aber noch kindlicher will ich ſie lieben, wenn
 ſie nicht fortſahren, die Buͤrde, die mich druͤkt, mir
 abzumartern.
-Zweyter Auftrit.
+#Zweyter Auftrit.
 Die vorigen. Anton.
 Anton. (iu Montenegro.) Leute aus der Stadt
 wollen ſie ſprechen. Sie ſtellen ſich eilend.
@@ -209,13 +183,13 @@ Deit⸗
 
 A 4
 steltzer_montenegro.pdf_000008
-Dritter Auftrit.
+#Dritter Auftrit.
 Katelli und Anton, (der fortgehen will)
 Katelli. Bleib, Anton, und ſchließ mir den Gar⸗
 ten zu! — Daß es aber mein Vetter nicht merkt.
 (Enten gebt.)
 ami
-Vierter Auftrit.
+#Vierter Auftrit.
 Katelli allein.
 Richt eher will ich mich ſehen laſſen, als bis
 ich mich gefaßt habe; =— und faſſen will ich mich,
@@ -239,7 +213,7 @@ winigſtens muß du ſie verloſſen:
 Fuͤnf⸗
 steltzer_montenegro.pdf_000009
 
-Fuͤnfter Auftrit.
+#Fuͤnfter Auftrit.
 Katelli und Anton.
 Anton. Alles veſt verſchloſſen, lieber Herr,
 daß auch kein Maͤuschen hinein kann.
@@ -403,7 +377,7 @@ gatlelt.
 ilj. 11idn
 tu8ſt
 
-Zehnter Auftrit.
+#Zehnter Auftrit.
 Katelli. Stanziika.
 Franziſta. Aber du ſiehſt ſo finſter, Katelli?
 Bin, ich, dir laͤſtig?
@@ -468,12 +442,12 @@ die Dauer fehlen ſollte.
 Franziſka. (ſteht auf) Komm, wir wollen zu
 unſerm Vater laufen.
 (gehen Hand in Hand ab.)
-Eilfter Auftrit.
+#Eilfter Auftrit.
 Anton allein. (kömmt von der Gartenhausſeite)
 Die lieben Kinder! wie ſie ſich ſo gut ſind! das
 Herz moͤgte mir ſpringen, wenn ich ſie ſehe. Aber,
 aber
-Zwoͤlfter Auftrit.
+#Zwoͤlfter Auftrit.
 Anton und Kamilla.
 Kamilla. Guten Morgen, Alter!
 Anton. Guten Morgen, Maͤdel! Warum läͤuſt
@@ -569,7 +543,7 @@ einmal das tuͤkſche haͤmiſche Geſicht und — Halt!
 da kommt unſer alter Herr. Ich muß gehen, ſonſt
 murrt er mir wieder die Ohren vom Klatſchen voll.
 (läuft eiliga ſort.)
-Dreyzehnter Auftrit.
+#Dreyzehnter Auftrit.
 Anton allein
 Es war gut, daß mir mein Herr eben meinen
 Lohn gegeben hatte. Ich habe ſie auf der rechten
@@ -585,7 +559,7 @@ nach Geld; und das macht allein der leidige Puz.
 Ich werde ſie mit Gelde ſehr warm halten muͤſſen,
 wenn ſie nicht die Stange auf beiden Schultern
 tragen ſoll.
-Vierzehnter Auftrit.
+#Vierzehnter Auftrit.
 Anton und Montenegro.
 Montenegro. Was denn hier ſo allein in der
 Irre? Wo iſt dein Herr? Und meine Tochter, haſt
@@ -622,7 +596,7 @@ Katelli's Hand. (lieſt. Nach einer Pauſe) Anton,
 laß mich allein, und ſiehſt du ſie, ſo ſag ihnen, daß
 ich hier ſey.
 (Anton ab.)
-Funfzehnter Auftrit.
+#Funfzehnter Auftrit.
 Montenegro allein.
 (kieß) Hier die Antwort, beſter Vater, die ich
 Ihnen vor einer halben Stunde ſchuldig blieb: Ich
@@ -638,7 +612,7 @@ Welche Verwirrung ſie mir im Hauſe macht!
 Sechs⸗
 steltzer_montenegro.pdf_000022
 24
-Sechszehnter Auftrit.
+#Sechszehnter Auftrit.
 Montenegro und ein Bedienter.
 Bedienter. Der Pater Ziſterzius verlangt ſie
 zu ſprechen.
@@ -646,7 +620,7 @@ Montenegro. Ziſterzius? Ich kenn' ihn nicht!⸗
 — Kannſt ihn herfuͤhren; bleib aber nicht weit
 ron uns!/“
 
-Siebzehnter Auftrit.
+#Siebzehnter Auftrit.
 Die vorigen und Ziſterzius.
 
 Ziſterzius. Entſchuldigen ſie, daß ich ſie ſo⸗
@@ -734,7 +708,7 @@ und Pedrillo ſinnen auf Rache. Die Bereitung da⸗
 zu iſt gemacht. Wenn ſie den Stoß nicht zeitig vor⸗
 beugen, ſo wird er bis zur Unwehrbarkeit derb wer⸗
 den.
-Achtzehnter Auftrit.
+#Achtzehnter Auftrit.
 Die vorigen und Anton.
 Anton. (raunt demMontenegro etwas in die Ohren)
 Mont. Eben der?
@@ -755,7 +729,7 @@ ihu ſtekt, nicht ganz aufdette.
 Neun⸗
 steltzer_montenegro.pdf_000026
 38
-Neunzehnter Auftrit.
+#Neunzehnter Auftrit.
 Die vorigen, Franziſka und Katelli.
 Katelli. Warum ſo hitzig? Was iſt ihnen?
 Monten. Sieh, Katelli! wieder ein Prieſter
@@ -771,7 +745,7 @@ hen, weil du ſo überweiſe ſprichſt.
 und nach einiger Zeit gehen dieBe⸗
 dienten, die kein Geſchaͤft fuͤr ſich
 ſehen, auch ab.)
-Zwanzigſter Auftrit.
+#Zwanzigſter Auftrit.
 Montenegro, Franziſka und Katelli.
 Mont. Das hieß die Natterzunge ausſtrekken,
 ohne zu ſtechen! Kinder, er iſt kein Prieſter, ein
@@ -995,7 +969,7 @@ Zwey⸗
 steltzer_montenegro.pdf_000034
 36
 Zweyter Aufzug.
-Erſter Auftrit.
+#Erſter Auftrit.
 eim: Ein Wohnzimmer des Pedrillo.
 Pedrilo ſigt und ſchreist. Riklas Ummt bald in
 Prieſterkleidern dazu.
@@ -1166,7 +1140,7 @@ der Rachrede eben ſo lange, als bey der Vorrede auf⸗
 halten wollten. Ich muß weiter. So bald ich ir⸗
 gend naͤher Nachricht habe; bin ich wieder da..
 (ab)
-Zweyter Auftrit.
+#Zweyter Auftrit.
 Pedrillo allein. (auf und niedergehend)
 Bald wird das Meer uͤberſchiſt ſeyn! Nur eine
 kleine Sandbank verhindert die Landung noch! (Sezt
@@ -1183,7 +1157,7 @@ iſt; da ſie von dort aus ein jeder, nach Gefallen, be⸗
 ſchleichen kann? Und werden ſie ſich an ihrer eige⸗
 nen Geſellſchaſt begnuͤgen? Riklas, Riklas, dein Plan
 iſt zu hitzig gemacht.
-Dritter Auftrit.
+#Dritter Auftrit.
 Pedrillo, Riklas und Kamilla.
 Riklas. Da hab' ich einen hubſchen Vogel ge⸗
 fangen. Ich glaube, das Mädchen iſt ein Spion.
@@ -1339,7 +1313,7 @@ chen. Geh nur. Ich habe Arbeit.
 Kamilla. Ihre Dienerin, gnädiger Herr.
 6
 
-Vierter Auftrit.
+#Vierter Auftrit.
 Pedrillo und Riklas.
 (ab.)
 Riklas. Entweder die Hexe iſt ſchlau, oder hat
@@ -1410,7 +1384,7 @@ rede! (geht) Armer Alter, und du armer Katelli!
 ihr denkt wohl an nichts weniger, als das ihr auf
 den Kauf gemacht ſeyd; daß ihr meiner Nahrung hel⸗
 fen ſollt!
-Füͤnfter Auftrit.
+#Füͤnfter Auftrit.
 Pedrillo ollein.
 (ab.)
 (Zieht die Uhr heraus) Wie es ſpätet! ſchon halb
@@ -1424,7 +1398,7 @@ Iakob!
 Drit⸗
 steltzer_montenegro.pdf_000048
 Dritter Aufzug.
-Erſter Auftrit.
+#Erſter Auftrit.
 Im Hintergrunde Pedrillo und Riklas in Man⸗
 teln verhuͤllt. In der Mitte des Theaters
 ein Tiſch.
@@ -1435,10 +1409,10 @@ warten kann, da uns alles ſo zu gluͤtken ſcheint. Ich
 gierde wuͤtend macht.
 Riklas. Richt ſo laut! Wir duͤrſen hier nicht
 viel — (verbirgt ſich mit Pedrillo)
-Zweyter Auftrit.
+#Zweyter Auftrit.
 Aaton kömmt und ſetzt ein Paar Stühle um den Tiſch.
 Geht wieder.
-Dritter Auftrit.
+#Dritter Auftrit.
 Pedrillo und Riklas.
 Niklas. Sehn ſie's? Wenn's dem nicht vor
 den Ohren braußt, ſo hat er uns gewiß gehoͤrt. (ver⸗
@@ -1446,7 +1420,7 @@ bergen ſich)
 Vier⸗
 steltzer_montenegro.pdf_000049
 5
-Vierter Auftrit.
+#Vierter Auftrit.
 Ankon kömmt von der einen Seite mit Stählen. Ein
 anderer Bedienter koͤmmt von der andern Seite;
 mit Gewehr in der Hand, und trit an den Tiſch.
@@ -1467,7 +1441,7 @@ Bedienter. (der bald drauf auf der andern Seite
 abgeht) Stellt er ſich nicht an, als wenn er Angſt
 ware, auf einen ſeurigen Wagen durch die Luſt ge⸗
 holt zu werden.
-Fuͤnfter Auftrit.
+#Fuͤnfter Auftrit.
 Pedrillo und Riklas.
 Pedrillo. Und wenn uns der Teufel noch oben
 drein ſeine Garde ſchikte, ſo richten wir hier nichts
@@ -1507,7 +1481,7 @@ Neerſe und Nleine llechen ſe g
 Sech⸗
 steltzer_montenegro.pdf_000051
 53
-Sechſter Auftrit.
+#Sechſter Auftrit.
 Montenegro koͤmmt von der andern Seite faſ mit
 denen Wäͤchtern zugleich und ſezt ſich
 auf einen Stuhl.
@@ -1516,7 +1490,7 @@ Wie mein Blik ſo ganz aufgeklärt, und mein wan⸗
 kender Trit ſo veſt wird! Mit Freuden geh' ich
 jezt ins Grab, denn Sorgen bleiben nicht hinter
 mir.
-Siebenter Auftrit.
+#Siebenter Auftrit.
 Montenegro und Anton, (der aus dem Hinter⸗
 grunde dazu koͤmmt.)
 Monten. Das freut mich, Anton, daß du
@@ -1557,7 +1531,7 @@ chen unter unſerm Fuſſe. — Da kommen meine Kin⸗
 der. Laß dir nichts gegen ſie merken. Es wuͤrde ſie
 nur trübſinnig machen.
 (Anton ab.)
-Achter Auftrit.
+#Achter Auftrit.
 Montenegro, Katelli und Franziſta
 (in Reiſekleidern.)
 Monten. Der Himmel ſegne euch meine Kin⸗
@@ -1608,7 +1582,7 @@ Katelli. Ein Prieſter kömmt in den Garten!
 — Mit bewaſneten Leuten!
 Franziſka. Sie werden doch hier keinen Ver⸗
 brecher ſuchen?
-Neunter Auftrit.
+#Neunter Auftrit.
 Die vorigen, Prieſter, Wache und Anton.
 Prieſter. Iſt hier ein gewiſſer Katelli?
 Franziſka. Groſſer Gott im Himmel!
@@ -1721,7 +1695,7 @@ mächtig. Bietet euer Leben nicht muthwillig aus.
 beſchwoͤre ſie bey dei Zorn des heiligen Gerichts, daß
 ſie gelaſſen gehen!
 (Katelli, Prieſter und Wache ab.)
-Zehnter Auftrit.
+#Zehnter Auftrit.
 Montenegro. Franziſka.
 Franziſka. (nach einer kleinen Pauſe mit gebroch⸗
 ner Stimme) Katelli! — Wo biſt du? — mein
@@ -1742,7 +1716,7 @@ deſe Lochter, falfe dich!
 —
 steltzer_montenegro.pdf_000059
 61
-Eilfter Auftrit.
+#Eilfter Auftrit.
 Die vorigen, Prieſter und Wache, Franziita
 entgegen kommend.
 Franziſka. (zum Prieſter) Ha, Räuber! von
@@ -1756,7 +1730,7 @@ Mont. Nun wird Mäßigung auch mir zu
 Tochter!— Mein alles ſoll euer ſeyn. Oder nehmt
 mich alten Graukopf auch! (Prieſter und Wache mit
 Franziſka ab.)
-Zwoͤlfter Auftrit.
+#Zwoͤlfter Auftrit.
 Montenegro allein.
 Umſonſt! O, daß meine Fuͤße zu ſchwach ſind,
 ihnen nachzueilen! — Katelli, Katelli! du biſt
@@ -1773,7 +1747,7 @@ genug, nehmt zu eurer Saͤtignng auch mich! Ent⸗
 reißt meinen Haͤnden die Kruͤkke, ſchlagt meine graue
 Hirnſchaͤdet damit ein, und trinkt mein Gehirn, ihr
 Blurigel!
-Dreyzehnter Auftrit.
+#Dreyzehnter Auftrit.
 Montenegro und Katelli, der plötlich von hinten
 auf ihn zuſpringt.
 Monten. Katellt! deine Tollkühnheit, deine
@@ -1799,7 +1773,7 @@ te dich!
 Vier⸗
 steltzer_montenegro.pdf_000061
 3
-Vierzehnter Auftrit.
+#Vierzehnter Auftrit.
 Montenegro und Hieronimus.
 Hieronimus. Mein Segen mit ihnen!
 Monten. Sie kommen zu ſpaͤt, Freund. Sie
@@ -1917,7 +1891,7 @@ Vier⸗
 steltzer_montenegro.pdf_000065
 61
 Vierter Aufzug.
-Erſter Auftrit.
+#Erſter Auftrit.
 Ein Vorſaal in Montenegro's Schloß, den eine
 Lampe ganz ſchwach erleuchtet
 Katelli allein, kurt angezogen, in einen Mantel vet⸗
@@ -1966,7 +1940,7 @@ pſen ſehen, und ſinnt jezt ſchon vor der Thuͤr des
 Schloſſes den rauhſten Weg zum Tode fuͤr mich
 cus.3: 6.
 —
-Zweyter Auftrit.
+#Zweyter Auftrit.
 Katelli und Anton.
 Anton. Endlich find' ich ſie, nachdem ich weit
 und breit herumgelaufen bin. Um ihres alten Va⸗
@@ -2071,12 +2045,12 @@ fuͤr ein gutes Sterben ſeyn, wenn man fuͤr ſeinen
 Herrn ſtirbt.
 —
 (ab.)
-Dritter Auftrit.
+#Dritter Auftrit.
 Katelli allein.
 Aber, Verſtellung, wo nehm' ich dich her? Du
 und deine Freundin, die Lüge, ihr habt noch nie
 in meine Seele gewohnet.
-Vierter Auftrit.
+#Vierter Auftrit.
 Katelli. (verhüͤllt ſich etwas in Mantel). Pedrillo
 (kurz angezogen, den Degen unter den Arm haltend
 und den Huth ins Geſicht gedruͤkt.)
@@ -2164,7 +2138,7 @@ ziert. Koͤmmt ein Sturm, ſo zittert ſie vom Haupt,
 bis zum Fuß. Ihr Zittern macht die Wurzel los
 und ſie fällt. Sorgen ſie alſo fuür die Wurzel, mein
 Herr.
-Vierter Auftrit.
+#Vierter Auftrit.
 Die Vorigen.
 (Vier Vermummte tragen langſam Schrit vor Schrit
 einen Sarg in Tuͤchern. In der andern Hand Fakkeln.
@@ -2197,7 +2171,7 @@ Eine Hand ſuhr mir ubers Geſicht; zog mir den
 Arm nieder.
 Katelli. (bey Seite) Wen doch Gewiſſen ſticht!
 (Die Leiche aß mit dumpfen murmelnden Geſange.)
-Fuͤnfter Auftrit.
+#Fuͤnfter Auftrit.
 Katelli und Pedrillo.
 Katelli. Eine böſe Ahndung.
 Pedrillo. Daß du kein Wort mehr druͤber
@@ -2262,7 +2236,7 @@ Katelli. Nichts mehr.
 Pedrillo. Lieber Jahre lang im Abgrund der
 Erde, als hier noch eine Minute.
 (ab.)
-Sechſter Auftrit.
+#Sechſter Auftrit.
 Katelli allein.
 (Nach einer langen Pauſe.)
 Gottlob, daß ich den Kampf gekämpfet habe. Es
@@ -2290,7 +2264,7 @@ Ein Geſängniß, welches von einer Lampe, die im
 Hintergrunde deſſelben haͤngt, ſchwach erleuchtet
 wird. Auf der Seite, der Thuͤt gegen⸗
 uͤber, ein Bette.
-Erſter Auftrit.
+#Erſter Auftrit.
 Franziſka allein (geht mit zerriſſenen Haaren wild
 herum.)
 (Nach einer langen Pauſe.) Ha! mein Katelli!
@@ -2327,7 +2301,7 @@ de ruhen! Taͤglich eine Stunde! und dann uͤber ihn
 allein! Es iſt Pedrillo! Jezt mogt' ich wüͤnſchen,
 ein Teufel zu ſeyn! Aber Mädchenarm iſt zur Qual
 ſeines Gebeins zu ſchwach! (ſezt ſich matt nieder.)
-Zweyter Auftrit.
+#Zweyter Auftrit.
 Franziſta, Katelli in Prieſterkleidern und
 ein Gefangenwaͤrter.
 Gefangenwaͤrter. Dort auf dem Bette. Aber
@@ -2349,7 +2323,7 @@ Katelli. Die heiligen Gerichte haben einen
 Pritſfer niche ju fürchten.
 Kr, .07111
 (Geſangenwärter ab.)
-Dritter Auftrit.
+#Dritter Auftrit.
 Franziſta und Katelli.
 Franziſka. (Auffahrend und ſchaͤchtern ſich um⸗
 ſehend. Nach einer langen Pauſe.) Wehe, wehe! Sie
@@ -2517,7 +2491,7 @@ mich nicht.
 Vier⸗
 steltzer_montenegro.pdf_000086
 88
-Vierter Auftrit.
+#Vierter Auftrit.
 Die Vorigen und Pedrillo.
 (Katelli zieht ſich in den dunkelſten Winkel des Sefang⸗
 niſſes bey Franziſkas Bette zurük.
@@ -2593,7 +2567,7 @@ biſt. , :1 rEneſipen⸗tte⸗
 
 1
 
-Fünfter Auftrit.
+#Fünfter Auftrit.
 Franziſka und Katelli.
 (ab.
 Franziſka. Mein Katelli! Mein Katelli!
@@ -2640,7 +2614,7 @@ zerſchlaͤgt mir mit einmal das Wetter die Saat.
 Franziſka. Ja! Morgen iſt der Hochzeitstag!
 Aber du wirſt eine Eisſäule kuͤſſeni. (wieft ſich wie⸗
 der nieder.)
-Sechſter Auftrit.
+#Sechſter Auftrit.
 Die Vorigen und Pedrillo (mit entblößten
 Degen.)
 Pedrillo. Wie die ſchwache Hure da liegt, von
