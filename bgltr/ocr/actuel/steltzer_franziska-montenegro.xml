@@ -30,62 +30,62 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person sex="FEMALE" xml:id="kamilla">
-            <persName>Kamilla</persName>
-          </person>
-          <person sex="MALE" xml:id="der_vermummte">
-            <persName>Der Vermummte</persName>
-          </person>
-          <person sex="MALE" xml:id="niklas">
-            <persName>Niklas</persName>
-          </person>
-          <person sex="FEMALE" xml:id="franziska">
-            <persName>Franziska</persName>
-          </person>
-          <person sex="MALE" xml:id="anton">
-            <persName>Anton</persName>
-          </person>
-          <person sex="MALE" xml:id="bedienter">
-            <persName>Bedienter</persName>
-          </person>
-          <person sex="MALE" xml:id="gefangenwaͤrter">
-            <persName>Gefangenwaͤrter</persName>
-          </person>
-          <person sex="MALE" xml:id="pedrillo">
-            <persName>Pedrillo</persName>
-          </person>
-          <person sex="MALE" xml:id="montenegro">
-            <persName>Montenegro</persName>
-          </person>
-          <person sex="MALE" xml:id="zisterzius">
-            <persName>Zisterzius</persName>
-          </person>
-          <person sex="MALE" xml:id="hieronimus">
-            <persName>Hieronimus</persName>
-          </person>
           <person sex="MALE" xml:id="katelli">
             <persName>Katelli</persName>
-          </person>
-          <person sex="MALE" xml:id="monten">
-            <persName>Monten</persName>
-          </person>
-          <person sex="MALE" xml:id="mont">
-            <persName>Mont</persName>
           </person>
           <person sex="FEMALE" xml:id="franziſta">
             <persName>Franziſta</persName>
           </person>
+          <person sex="MALE" xml:id="hieronimus">
+            <persName>Hieronimus</persName>
+          </person>
+          <person sex="MALE" xml:id="anton">
+            <persName>Anton</persName>
+          </person>
+          <person sex="MALE" xml:id="prieſter">
+            <persName>Prieſter</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo">
+            <persName>Pedrillo</persName>
+          </person>
+          <person sex="FEMALE" xml:id="franziska">
+            <persName>Franziska</persName>
+          </person>
+          <person sex="MALE" xml:id="niklas">
+            <persName>Niklas</persName>
+          </person>
           <person sex="MALE" xml:id="gefangenw">
             <persName>Gefangenw</persName>
+          </person>
+          <person sex="MALE" xml:id="der_vermummte">
+            <persName>Der Vermummte</persName>
+          </person>
+          <person sex="MALE" xml:id="bedienter">
+            <persName>Bedienter</persName>
           </person>
           <person sex="FEMALE" xml:id="franziſka">
             <persName>Franziſka</persName>
           </person>
+          <person sex="MALE" xml:id="zisterzius">
+            <persName>Zisterzius</persName>
+          </person>
+          <person sex="FEMALE" xml:id="kamilla">
+            <persName>Kamilla</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro">
+            <persName>Montenegro</persName>
+          </person>
+          <person sex="MALE" xml:id="mont">
+            <persName>Mont</persName>
+          </person>
+          <person sex="MALE" xml:id="monten">
+            <persName>Monten</persName>
+          </person>
+          <person sex="MALE" xml:id="gefangenwaͤrter">
+            <persName>Gefangenwaͤrter</persName>
+          </person>
           <person sex="MALE" xml:id="ziſterzius">
             <persName>Ziſterzius</persName>
-          </person>
-          <person sex="MALE" xml:id="prieſter">
-            <persName>Prieſter</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -133,21 +133,21 @@
         </castItem>
       </castList>
     </front>
-    <body>steltzer_montenegro.pdf_000000
+    <body>00:
       https://www.deutsche-digitale-bibliothek.de/item/FLOXDC4HVX4RUQVIUVVHL4APLAZWBW3A&gt;
       VD18 14569396-001
-      steltzer_montenegro.pdf_000001
+      01:
       !@begin_transcript
       !@publish Magdeburg und Leipzig, Johann Adam Kreus, 1781.
-      steltzer_montenegro.pdf_000002
-      steltzer_montenegro.pdf_000003
+      02:
+      03:
       Franziſka Montenegro.
       Ein Trauerſpiel
       in
       fünf Aufzügen.
-      steltzer_montenegro.pdf_000004
+      04:
       <stage>Vom Morgen an bis in die ſpäte Racht.
-        steltzer_montenegro.pdf_000005</stage>
+        05:</stage>
       <div type="act">
         <head>Erster Aufzug.</head>
         <div type="scene">
@@ -170,7 +170,7 @@
             <speaker>Montenegro:</speaker>
             <p>Biſt nicht allein heut ſo mür⸗</p>
             <p>riſch; alle Tage, alle Tage! Soltſt die Stirn nicht</p>
-            <p>steltzer_montenegro.pdf_000006</p>
+            <p>06:</p>
             <p>ſo tuͤkſch zuſammenziehen. Du biſt noch jung, Ka⸗</p>
             <p>telli; das ſteht dir nicht.</p>
           </sp>
@@ -207,7 +207,7 @@
             <p>Ich weiß nicht, was ich antworten</p>
             <p>ſoll. Es iſt mir nicht ſo, als mirs ſonſt war! Das</p>
             <p>iſt alles, was ich ſagen kann..</p>
-            <p>steltzer_montenegro.pdf_000007</p>
+            <p>07:</p>
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
@@ -247,7 +247,7 @@
             <p>gerufen, Katelli? Aber davon kommſt du nicht.</p>
             <p>du ſollſt beichten, was dir im Kopfe ſtekt.</p>
             <p><stage>(ab.)</stage></p>
-            <p>steltzer_montenegro.pdf_000008</p>
+            <p>08:</p>
           </sp>
         </div>
         <div type="scene">
@@ -279,7 +279,7 @@
             mich nicht auf; Taͤglich hab' ich das Mädchen vor
             Augen. Fort, Katelli, fort! Auf eine kurze Zeit
             winigſtens muß du ſie verloſſen:
-            steltzer_montenegro.pdf_000009</stage>
+            09:</stage>
         </div>
         <div type="scene">
           <head>Fuͤnfter Auftrit.</head>
@@ -328,7 +328,7 @@
             <speaker>Anton:</speaker>
             <p>Brief und Siegels genug. Bei Tage</p>
             <p>ſuchen ſie das Madchen in allen Winkeln auf, und</p>
-            <p>steltzer_montenegro.pdf_000010</p>
+            <p>10:</p>
             <p>des Nachts plaudern ſie, wachend und ſchlafend, ſo</p>
             <p>viel von ihr, daß ich kaum meine Ruhe haben kann.</p>
           </sp>
@@ -374,7 +374,7 @@
             <speaker>Anton:</speaker>
             <p>Aber hat ihnen denn der alte Herr</p>
             <p>nichts von dem Pedrillo erzehlt? Er hat vor un⸗</p>
-            <p>steltzer_montenegro.pdf_000011</p>
+            <p>11:</p>
             <p>ſerer Ankunft um ſie angehalten, und — nach Wind</p>
             <p>geſchnappt. Er wird —</p>
           </sp>
@@ -420,7 +420,7 @@
             <p>kommen, aber man fäͤnde doch wohl einen Kopf, ei⸗</p>
             <p>nen, ſag' ich nur, der anders dächte. Roch neulich,</p>
             <p>als er ſich zu jemanden in unſerer Rachbarſchaft tra⸗</p>
-            <p>steltzer_montenegro.pdf_000012</p>
+            <p>12:</p>
             <p>gen ließ, ſagten die Träger zu mir: Weh, weh!</p>
             <p>wir haben einen tuͤkſchen Kopf getragen! Ob denn</p>
             <p>die hoͤſen Leute alle ſchwerer ſind als die guten?</p>
@@ -469,7 +469,7 @@
             <speaker>Katelli:</speaker>
             <p>Das gehört hier nicht her. Geh und</p>
             <p>pak ein !</p>
-            <p>steltzer_montenegro.pdf_000013</p>
+            <p>13:</p>
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
@@ -513,7 +513,7 @@
             <p>Mit den Zettelchen iſt es nur ſo eine</p>
             <p>häßliche Sache. Es iſt, als wenn man ſich nicht</p>
             <p>ger</p>
-            <p>steltzer_montenegro.pdf_000014</p>
+            <p>14:</p>
             <p>+#+gatlelt.</p>
           </sp>
         </div>
@@ -558,7 +558,7 @@
             <p>dich nicht, aber mein Sinn ſagte mir gleich: das</p>
             <p>iſt der gute Katelli. Ich ſah dich und liebte. Mein</p>
             <p>Vater weiß das alee. &amp;e hars ſich ofe merten</p>
-            <p>steltzer_montenegro.pdf_000015</p>
+            <p>15:</p>
             <p>laſſen, aber es nie getadelt. Du wuͤrdeſt an der</p>
             <p>Guͤte ſeines Herzens zweifeln, wenn du glaubteſt,</p>
             <p>daß er unſerer Liede zuwider ſeyn ſollte.</p>
@@ -610,7 +610,7 @@
             <p>ge genug haſt du das Boͤſe der Liebe geſchmekt,</p>
             <p>du muſt nun auch ihe tauſendſaches Gutes fühe</p>
             <p>ken.</p>
-            <p>steltzer_montenegro.pdf_000016</p>
+            <p>16:</p>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -656,7 +656,7 @@
             <p>ſich allein an, aber ſie daͤcht' ich, haͤtte nicht viel</p>
             <p>Zelit zu veraibern, wenn ſie das iheige dee, Motgene</p>
             <p>thun wollte.</p>
-            <p>steltzer_montenegro.pdf_000017</p>
+            <p>17:</p>
           </sp>
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
@@ -713,7 +713,7 @@
             <p>So, Jungfer? Da ſind ja der Herr</p>
             <p>und der Diener uͤbet ein Haus gekommen. Sie trägt</p>
             <p>ihrem Jakob denn auch woht ſchone Reuigkeiten zu?</p>
-            <p>steltzer_montenegro.pdf_000018</p>
+            <p>18:</p>
           </sp>
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
@@ -765,7 +765,7 @@
             <p>Das hat ſie bey mir ſo wenig, als dey</p>
             <p>meinem Herrn noͤthig. Er will's nicht. Er iſt kein</p>
             <p>Liebhaber von ſolchen Umſtänden, und ich gar nicht.</p>
-            <p>steltzer_montenegro.pdf_000019</p>
+            <p>19:</p>
           </sp>
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
@@ -799,7 +799,7 @@
             <p>Lohn gegeben hatte. Ich habe ſie auf der rechten</p>
             <p>Seite gefaßt. Da haͤtte ein ſchoͤnes Stuͤkchen draus</p>
             <p>werden konnen. Das Beſte iſt, daß ſie von Ka⸗</p>
-            <p>steltzer_montenegro.pdf_000020</p>
+            <p>20:</p>
             <p>telli's Abſichten noch nichts zu wiſſen ſcheint. Das</p>
             <p>Weiberzeug! Es iſt bey ihnen ein ewiges Geſchrey</p>
             <p>nach Geld; und das macht allein der leidige Puz.</p>
@@ -845,7 +845,7 @@
             <p>Vors erſte haͤtten wir nun wohl nichts mehr zu</p>
             <p>fuͤrchten. Aber, noch mehr! Pedrillo ſoll geſtern</p>
             <p>ſehr auf ſie geſchimpſt haben. Darauf hat ihm Ka⸗</p>
-            <p>steltzer_montenegro.pdf_000021</p>
+            <p>21:</p>
             <p>milla's Braͤutigam einen verworfuen Menſchen ho⸗</p>
             <p>len muͤſſen. Mit deni hat er geheim von Prie⸗</p>
             <p>ſtern und Verkleiden g/ſprochen — Rehmen ſie ſich</p>
@@ -885,7 +885,7 @@
             und weil's ihm nicht recht geweſen iſt, hat er's zer⸗
             riſſen. Erklaͤrung aber genug! Das Blizmäͤdchen!
             Welche Verwirrung ſie mir im Hauſe macht!
-            steltzer_montenegro.pdf_000022</stage>
+            22:</stage>
         </div>
         <div type="scene">
           <head>Sechszehnter Auftrit.</head>
@@ -931,7 +931,7 @@
             <p>bin ich eigen. Ich kenne ſie noch gar nicht; und</p>
             <p>mit fremden Leuten geh' ich nicht gern weit, ohne</p>
             <p>bemerdes rin.</p>
-            <p>steltzer_montenegro.pdf_000023</p>
+            <p>23:</p>
           </sp>
           <sp who="#zisterzius">
             <speaker>Zisterzius:</speaker>
@@ -970,7 +970,7 @@
             <p>Wenn ſie den Ruhm aber in meine Froͤmmigkeit ſe⸗</p>
             <p>tzen, ſo mag's ſeyn, denn ſie hat mein ganzes Haus</p>
             <p>zum Führer, bis ins Grab erwählt.</p>
-            <p>steltzer_montenegro.pdf_000024</p>
+            <p>24:</p>
           </sp>
           <sp who="#zisterzius">
             <speaker>Zisterzius:</speaker>
@@ -1019,7 +1019,7 @@
             <p>Nur noch zu ſagen, daß der Freund Per</p>
             <p>drillo's, dieſer Liebling des Fuͤrſten, dieſe Stuͤtze des</p>
             <p>ganzen Landes, ſich ſehr dadurch beleidigt glaubt, daß</p>
-            <p>steltzer_montenegro.pdf_000025</p>
+            <p>25:</p>
             <p>ihre Tochter ſeinem Freunde abgeſchlagen iſt. Er</p>
             <p>und Pedrillo ſinnen auf Rache. Die Bereitung da⸗</p>
             <p>zu iſt gemacht. Wenn ſie den Stoß nicht zeitig vor⸗</p>
@@ -1063,7 +1063,7 @@
             <p>Am beſten thut er, wenn er den Weg wieder ſucht,</p>
             <p>den er gekommen iſt, damit ich den Schelm, der in</p>
             <p>ihu ſtekt, nicht ganz aufdette.</p>
-            <p>steltzer_montenegro.pdf_000026</p>
+            <p>26:</p>
           </sp>
         </div>
         <div type="scene">
@@ -1118,7 +1118,7 @@
             <speaker>Mont:</speaker>
             <p>Wie ich dir geſagt habe, dein Anton</p>
             <p>hat mir's Leben gerettet. Er hatte von ſeinen Kom⸗</p>
-            <p>steltzer_montenegro.pdf_000027</p>
+            <p>27:</p>
             <p>men Witterung. O, es iſt ein Weſen und ein Ey⸗</p>
             <p>lohy in der Welt, daß man die Zähne druͤber zuſam⸗</p>
             <p>menſtoßen möͤgte. Menſch was biſt du?</p>
@@ -1173,7 +1173,7 @@
             <speaker>Mont:</speaker>
             <p>Seyd ihr ſchen ſo einig? Ich habe ſchon</p>
             <p>längſt eure Reigungen gemerte; ſchon längſt eingeſe⸗</p>
-            <p>steltzer_montenegro.pdf_000028</p>
+            <p>28:</p>
             <p>hen, was dir im Sinne lag, Katelli. Aber ich bin</p>
             <p>unzufrieden mit dir, daß du mirs nicht haſt ent⸗</p>
             <p>dekken wollen. Es betrift mein alles, und du traͤgſt</p>
@@ -1218,7 +1218,7 @@
             <p>Mein Vermögen, Katelli, waͤre zu klein geweſen,</p>
             <p>deine Liebe gegen mich zu belohnen. Ich habe die</p>
             <p>in Heden ſcon lanee weine hropiſta eeseben. +#+&amp;g</p>
-            <p>steltzer_montenegro.pdf_000029</p>
+            <p>29:</p>
             <p>— ſo eilig geht das nicht; dein Vater weiß noch</p>
             <p>von dieſem Allen nichts.</p>
           </sp>
@@ -1261,7 +1261,7 @@
             <speaker>Mont:</speaker>
             <p>In der Strohhuͤtte des Saroiarden,</p>
             <p>in den wüſten Thälern der Eiaglärſcher würd er euch</p>
-            <p>steltzer_montenegro.pdf_000030</p>
+            <p>30:</p>
             <p>aufſpuͤren, um ſeine Rache zu ſättigen. Bedenk!</p>
             <p>Franziſka ſchläͤgt die Hand des Sekretärs des Größ⸗</p>
             <p>ten nach dem König, gegen die Hand eines gemei⸗</p>
@@ -1304,7 +1304,7 @@
             <p>Licht um ihn ſeyn, als daß er Rache koͤnnte ſtroͤmen</p>
             <p>laſſen. Vor dem Richterſtuhl Gottes klag' ich mich</p>
             <p>ſeldſt an, wenn er uns ſchaden ſol.</p>
-            <p>steltzer_montenegro.pdf_000031</p>
+            <p>31:</p>
           </sp>
           <sp who="#mont">
             <speaker>Mont:</speaker>
@@ -1343,7 +1343,7 @@
             <p>dich nur von ihm zum Menſchenlehrer erbettelt. —</p>
             <p>Aber, beſter Vater, warum laſſen ſie noch laͤnger auf</p>
             <p>ihr Ja unſern fiehenden Blik ſchmachten?</p>
-            <p>steltzer_montenegro.pdf_000032</p>
+            <p>32:</p>
           </sp>
           <sp who="#mont">
             <speaker>Mont:</speaker>
@@ -1383,7 +1383,7 @@
             <p>Sachen mein Vertrauter geweſen iſt. Und dann,</p>
             <p>Kinder, ſo gern ich euch um mich ſehe, ſo lieb ihr</p>
             <p>mir beide ſeyd, müßt ihr mich, ſo bald ihr könnt,</p>
-            <p>steltzer_montenegro.pdf_000033</p>
+            <p>33:</p>
             <p>verlaſſen. Du haſt dieſen Weg ſelbſt erwehlt, Ka⸗</p>
             <p>telli; und er iſt der gebahntſte.</p>
           </sp>
@@ -1398,7 +1398,7 @@
             <speaker>Mont:</speaker>
             <p>Welter haben wir keine Zeit zu verſpre⸗</p>
             <p>chen. Kommt, Kinder!</p>
-            <p>steltzer_montenegro.pdf_000034</p>
+            <p>34:</p>
           </sp>
         </div>
       </div>
@@ -1448,7 +1448,7 @@
             <p>ihrem Augapfel dazu, und theilte ſo garſtige Biſſen</p>
             <p>aus, daß ſie kein anderer, als ich, der ſolche Speiſen</p>
             <p>gewohne iſt, würde verdauet haden. Ie hate ihin</p>
-            <p>steltzer_montenegro.pdf_000035</p>
+            <p>35:</p>
             <p>einen Hirks dafuͤr gegeben, aber ich mußt's bey ihm</p>
             <p>ſo gut ſparen, wie bey dem Alten. Es ſtand da ſo</p>
             <p>allerhand von Bedienten in der Rah' und in der Fer⸗,</p>
@@ -1494,7 +1494,7 @@
             <speaker>Niklas:</speaker>
             <p>Gar wohl gegeben! — Kurz zu' ſae</p>
             <p>gen, der junge Herr that ſehr vertraut mit dem Ma⸗</p>
-            <p>steltzer_montenegro.pdf_000036</p>
+            <p>36:</p>
             <p>del. Denkend, daß da wohl ſo etwas brauchbares</p>
             <p>vorfallen koͤnnte, eilk ich ſort, und als der Bedien⸗</p>
             <p>te, der mein Wachter zu ſeyn ſchien, die Augen et⸗</p>
@@ -1536,7 +1536,7 @@
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
             <p>Wie's mir in der Bruſt arbeitet!</p>
-            <p>steltzer_montenegro.pdf_000037</p>
+            <p>37:</p>
           </sp>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
@@ -1575,7 +1575,7 @@
             <p>in der lezten Stunde meines Lebens ſtaͤrken! Dop⸗</p>
             <p>peltes Leben ſoll mir der Balſam ſchenken, der aus</p>
             <p>deinen Augen guillen wird!</p>
-            <p>steltzer_montenegro.pdf_000038</p>
+            <p>38:</p>
           </sp>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
@@ -1620,7 +1620,7 @@
             <p>ich zahle dir deinen Lohn doppelt. Welch ein Ghtter⸗</p>
             <p>anblik wird es ſeyn, wenn das. Maͤdchen da vor mit</p>
             <p>auf den Knien jammere!</p>
-            <p>steltzer_montenegro.pdf_000039</p>
+            <p>39:</p>
           </sp>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
@@ -1658,7 +1658,7 @@
             kleine Sandbank verhindert die Landung noch! (Sezt
             ſich nachdenkend hin) Ich ſeh' aber warlich noch nicht
             ein, wie wir uns unenidekt ihnen nahern wollen! Es iſt
-            steltzer_montenegro.pdf_000040
+            40:
             wahr, der Garten iſt zum Verbergen buſchicht genug;
             aber ſollten ſie nicht auf Sicherheit gedacht haben, da
             ſie wiſſen, daß der Garten nach der Feldſeite offen
@@ -1704,7 +1704,7 @@
             <p><stage>(zu Niklas)</stage> Ich glaube, ſie haben</p>
             <p>meine eigenen Leute ſchon vergiſtet! — <stage>(vör ſich)</stage> Ich</p>
             <p>wdin euch ader zar Reue dringen!</p>
-            <p>steltzer_montenegro.pdf_000041</p>
+            <p>41:</p>
           </sp>
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
@@ -1756,7 +1756,7 @@
             <speaker>Kamilla:</speaker>
             <p>Wiſſen ſie, daß er Franziſka bekömmt?</p>
             <p>Sie hat mie Wahl geſagt, daß ſie vielleicht dald heirathe:</p>
-            <p>steltzer_montenegro.pdf_000042</p>
+            <p>42:</p>
             <p>aber wen? damit iſt ſie nicht herausgekominen. Ich</p>
             <p>kann's aber noch nicht glauben, was ſie da ſagen;</p>
             <p>man erfuͤhre ja wohl etwas davon. — Ich habe ſie</p>
@@ -1793,7 +1793,7 @@
             <p>werden's doch nicht ausmachen? Man erſaͤhrt auch</p>
             <p>gar nichts. Es iſt jegt recht arg in unſerin Hauſe. Und</p>
             <p>der alte Anton iſt gegen mich der Allerſchlimſte.</p>
-            <p>steltzer_montenegro.pdf_000043</p>
+            <p>43:</p>
           </sp>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
@@ -1848,7 +1848,7 @@
             <speaker>Kamilla:</speaker>
             <p>Sie denken denn, ich ſag's hier im</p>
             <p>Hauſe wieder; und weil ſie döͤſe werden würden,</p>
-            <p>steltzer_montenegro.pdf_000044</p>
+            <p>44:</p>
             <p>wenn ſie hoͤrten, daß Franziſka einen andern heirathe,</p>
             <p>ſo — Ach! ſie fuͤrchten ſich ſehr fuͤr ſie. Drum will</p>
             <p>Franziſka auch nicht in Spanien bleiben. Der junge</p>
@@ -1894,7 +1894,7 @@
             <p>ſchweigen kann. Ich bin ſo nicht, als meine Herr⸗</p>
             <p>ſchaſt denkt. Aber machen ſie nur, daß ich recht</p>
             <p>bald mit meinen Jakob Hochzeit machen kann.</p>
-            <p>steltzer_montenegro.pdf_000045</p>
+            <p>45:</p>
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
@@ -1942,7 +1942,7 @@
             <p>wir uns verbergen? Wird nicht Volks genug den</p>
             <p>Garten durchkreuzen? Ja, machten wir auch ein</p>
             <p>Meiſterſtäk, könnte das ohne Zetergeſchrey abgehen?</p>
-            <p>steltzer_montenegro.pdf_000046</p>
+            <p>46:</p>
             <p>Alles, was da iſt, wüͤrde auf uns einſtuͤrzen, wuͤr⸗</p>
             <p>de uns veſt haiten. Wir finden Wache; wir finden</p>
             <p>Zeugen bey der Hochzeit.</p>
@@ -1979,7 +1979,7 @@
             <p>wehrlos machen. Der Pfaff wird froh ſeyn, wenn</p>
             <p>er mit dem Leben davon koͤmmt, und die alten Be⸗</p>
             <p>dienten, dieſe dürten Hlapperichten Gerippe ſind leiche</p>
-            <p>steltzer_montenegro.pdf_000047</p>
+            <p>47:</p>
             <p>auſgerieben, wenn ſie uns in die Quere kommen.</p>
             <p>Ich dächte durch ſechs und wenn's auch noch mehrere</p>
             <p>ſind, haͤtten wir uns ſchon ehr durchgeſchlagen.</p>
@@ -2016,7 +2016,7 @@
             zu wehren; und Katelli? Ihm wird's gewiß nicht
             an welſchem Muthe fehlen. (Klingt zur Thuͤr hinaus)
             Iakob!
-            steltzer_montenegro.pdf_000048</stage>
+            48:</stage>
         </div>
       </div>
       <div type="act">
@@ -2053,7 +2053,7 @@
             <p>Sehn ſie's? Wenn's dem nicht vor</p>
             <p>den Ohren braußt, ſo hat er uns gewiß gehoͤrt. (ver⸗</p>
             <p>bergen ſich)</p>
-            <p>steltzer_montenegro.pdf_000049</p>
+            <p>49:</p>
           </sp>
         </div>
         <div type="scene">
@@ -2093,7 +2093,7 @@
             <p>Und wenn uns der Teufel noch oben</p>
             <p>drein ſeine Garde ſchikte, ſo richten wir hier nichts</p>
             <p>aus.</p>
-            <p>steltzer_montenegro.pdf_000050</p>
+            <p>50:</p>
           </sp>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
@@ -2143,7 +2143,7 @@
             <p>(Nach einer kleinen Pauſe kommen einige</p>
             <p>Wächter hervor und gehen uͤber's Theater.</p>
             <p>+#+Neerſe und Nleine llechen ſe g</p>
-            <p>steltzer_montenegro.pdf_000051</p>
+            <p>51:</p>
           </sp>
         </div>
         <div type="scene">
@@ -2189,7 +2189,7 @@
             <speaker>Anton:</speaker>
             <p>Den kkonnt' ich nicht ausforſchen. Kön⸗</p>
             <p>nen ſie aus des Pfaffen Reden nichts argwohnen:</p>
-            <p>steltzer_montenegro.pdf_000052</p>
+            <p>52:</p>
           </sp>
           <sp who="#monten">
             <speaker>Monten:</speaker>
@@ -2230,7 +2230,7 @@
             <speaker>Monten:</speaker>
             <p>Der Himmel ſegne euch meine Kin⸗</p>
             <p>der! (ſapt ſie ben der Hand und ſeit ſch nicder nu.i</p>
-            <p>steltzer_montenegro.pdf_000053</p>
+            <p>53:</p>
             <p>+#+nen) Wenn der Prieſter nur eilte! Aber, (ſieht</p>
             <p>nach der Uhr) er kann noch nicht kommen. An euch</p>
             <p>fehlt's nun doch nicht?</p>
@@ -2272,7 +2272,7 @@
             <p>Bitten und reiſen ſie mit uns. Ohne ſie wuͤrden</p>
             <p>wir nicht das ganze Maaß unſeres Gluͤks empfinden</p>
             <p>koͤnnen.</p>
-            <p>steltzer_montenegro.pdf_000054</p>
+            <p>54:</p>
           </sp>
           <sp who="#franziſka">
             <speaker>Franziſka:</speaker>
@@ -2333,7 +2333,7 @@
             <speaker>Katelli:</speaker>
             <p>Herr Pater! beweiſen ſie, daß die</p>
             <p>heilige Juguiſition ſie ſchitt.</p>
-            <p>steltzer_montenegro.pdf_000055</p>
+            <p>55:</p>
           </sp>
           <sp who="#prieſter">
             <speaker>Prieſter:</speaker>
@@ -2388,7 +2388,7 @@
             <p>(weinend und Franziſka immer im Arm</p>
             <p>habend) Es iſt nur eine ganz ſchwache Ohnmacht,</p>
             <p>mein Sohn.</p>
-            <p>steltzer_montenegro.pdf_000056</p>
+            <p>56:</p>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -2449,7 +2449,7 @@
             <speaker>Monten.:</speaker>
             <p>Folge, mein Sohn. Zu deinem</p>
             <p>und unſer aller Beſten rath' ich's dir. Seh, eb</p>
-            <p>steltzer_montenegro.pdf_000057</p>
+            <p>57:</p>
             <p>deine Franziſka erwacht! Ich werde ihr Herz als⸗</p>
             <p>denn leichter beruhigen koͤnnen.</p>
           </sp>
@@ -2500,7 +2500,7 @@
             <p>Gehen will ich mit euch, ihr Die⸗</p>
             <p>ner der Bosheit. O, ich kenne eure Tuͤkke! Pe⸗</p>
             <p>drillo! — witterſt du Unrath, Prieſtet? Ich fol⸗</p>
-            <p>steltzer_montenegro.pdf_000058</p>
+            <p>58:</p>
             <p>ge dir, gleich folg ich; aber meinen Degen behalt</p>
             <p>ich. Von keinem Prieſter laß' ich mich entwafnen.</p>
             <p><stage>(Wache trit zu, ihm den Degen abzunehmen.)</stage></p>
@@ -2544,7 +2544,7 @@
             <speaker>Monten.:</speaker>
             <p><stage>(ſtegt auf)</stage> Hüͤlfe, Hülfe! Meine</p>
             <p>deſe Lochter, falfe dich!</p>
-            <p>steltzer_montenegro.pdf_000059</p>
+            <p>59:</p>
           </sp>
         </div>
         <div type="scene">
@@ -2585,7 +2585,7 @@
             <p>ſen, das deinen Kopf abſchlagen wird? Und der Un⸗</p>
             <p>menſch von Prieſter! Loderte denn kein Fuͤnkchen</p>
             <p>Mieleide ia ihm? D, habt ihr noch nicht an ige</p>
-            <p>steltzer_montenegro.pdf_000060</p>
+            <p>60:</p>
             <p>genug, nehmt zu eurer Saͤtignng auch mich! Ent⸗</p>
             <p>reißt meinen Haͤnden die Kruͤkke, ſchlagt meine graue</p>
             <p>Hirnſchaͤdet damit ein, und trinkt mein Gehirn, ihr</p>
@@ -2630,7 +2630,7 @@
             <p><stage>(Der Pater Hieronimus köͤmmt)</stage> Sieh, Katelli! Ret⸗</p>
             <p>te dich!</p>
             <p><stage>(Katelli eiligſt ab.)</stage></p>
-            <p>steltzer_montenegro.pdf_000061</p>
+            <p>61:</p>
           </sp>
         </div>
         <div type="scene">
@@ -2673,7 +2673,7 @@
             <p>ligion Grauſamkeit iſt, wo man den Dornſtrauch</p>
             <p>kuͤſſen muß, und nicht einmal nach der ſchoͤnen biu⸗</p>
             <p>henden Roſe hinſchielen darf.</p>
-            <p>steltzer_montenegro.pdf_000062</p>
+            <p>62:</p>
           </sp>
           <sp who="#monten">
             <speaker>Monten.:</speaker>
@@ -2728,7 +2728,7 @@
             <p>liebten ſich ſogleich, da ſie ſich nur ſahen; denn ſie</p>
             <p>glaubten, zwey Engel muͤßten fuͤr einander geſchaf⸗</p>
             <p>fen jeyn. Eh' ſie ſich erklärten, hielt Pedrillo, der</p>
-            <p>steltzer_montenegro.pdf_000063</p>
+            <p>63:</p>
             <p>Verworfenſte vor Gott — ſie kennen ihn — um</p>
             <p>Franziſka an. Ich ſchlug ſie ihm ab. Meine</p>
             <p>Tochter willigte drein, weil ſie eine beſſere Liebe</p>
@@ -2762,7 +2762,7 @@
             <speaker>Monten.:</speaker>
             <p>Ihr Biſchof iſt ein frommer, red⸗</p>
             <p>licher Mann. Aber Frömmigkeit und Redlichkeit</p>
-            <p>steltzer_montenegro.pdf_000064</p>
+            <p>64:</p>
             <p>haben keinen Werth mehr! Sie ſind abgeſezte Muͤn⸗</p>
             <p>de! Heuchelnde Schmeichler ſind die Manner des</p>
             <p>Gluͤks!</p>
@@ -2799,7 +2799,7 @@
             <p>wir aus ſeyn. Hoͤchſtens wenige Tage noch bin ich</p>
             <p>Bürger dieſer argen Welt.</p>
             <p><stage>(hende ab.)</stage></p>
-            <p>steltzer_montenegro.pdf_000065</p>
+            <p>65:</p>
           </sp>
         </div>
       </div>
@@ -2832,7 +2832,7 @@
             <p>ſames Ding! Schuchtern und unentſchloſſen ſteh' ich</p>
             <p>da, und weiß nicht welchen Weg ich wandeln ſoll.</p>
             <p>Auf der einen Seite kettet heiſſe Liebe und tolle</p>
-            <p>steltzer_montenegro.pdf_000066</p>
+            <p>66:</p>
             <p>Wuth, zu allem bereit, was menſchliche Natur noch</p>
             <p>uͤberſteiget, meinen Fuß; und auf der andern Sei⸗</p>
             <p>te ruſt mir der Hang, der allen Menſchen angeboh⸗</p>
@@ -2864,7 +2864,7 @@
             <p>und breit herumgelaufen bin. Um ihres alten Va⸗</p>
             <p>ters, um die lezten Worte des alten Montenegro's</p>
             <p>bitt ich ſie, retten ſie ſich.</p>
-            <p>steltzer_montenegro.pdf_000067</p>
+            <p>67:</p>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -2906,7 +2906,7 @@
             <p>ziehen. Run hoͤre! du ſollſt dich verkleiden. Sollſt</p>
             <p>mit einigen Leuten dem Geſindel aufpaſſen, und ſie</p>
             <p>beide aufhehen laſſen. Alsdenn will ich den Pries</p>
-            <p>steltzer_montenegro.pdf_000068</p>
+            <p>68:</p>
             <p>ſter ſoielen. Rur mußt du dahin ſehen, daß kei⸗</p>
             <p>ner davon koͤmmt.</p>
           </sp>
@@ -2949,7 +2949,7 @@
             <p>ſie ſich in Sicherheit, und denn ſuchen ſie ſich ein</p>
             <p>paar Freunde. Ihr gutes Herz wird ſie leicht ſin⸗</p>
             <p>den.</p>
-            <p>steltzer_montenegro.pdf_000069</p>
+            <p>69:</p>
             <p>71</p>
             <p>den. Seyn ſie offenherzig gegen ſie, und füͤhren</p>
             <p>ſie mit ihnen ihre Sache aus.</p>
@@ -2990,7 +2990,7 @@
             <speaker>Anton:</speaker>
             <p><stage>(geht)</stage> Der Himmel ſey dein Be⸗</p>
             <p>gleiter! Und wenn du fällſt, ſo ſchitke mir deinen</p>
-            <p>steltzer_montenegro.pdf_000070</p>
+            <p>70:</p>
             <p>Geiſt. Ich folge dir gewiß. Was muß es nicht</p>
             <p>fuͤr ein gutes Sterben ſeyn, wenn man fuͤr ſeinen</p>
             <p>Herrn ſtirbt.</p>
@@ -3030,7 +3030,7 @@
             <p>Eines Schurken harr' ich, den ich</p>
             <p>aufſpteſſen will. Seinen Ramen kann ich nicht ſa⸗</p>
             <p>gen. Er lähmt mir die Zunge.</p>
-            <p>steltzer_montenegro.pdf_000071</p>
+            <p>71:</p>
             <p>heißt? Und keine Minute darfſt du laͤnger zoͤgern?</p>
           </sp>
           <sp who="#katelli">
@@ -3084,7 +3084,7 @@
             <p>Franziſka alſo? Hm! Run bekomm“</p>
             <p>ich Licht in der Sache. Zum ſterben iſt ſie auch zu</p>
             <p>ſchön. Ich kenn einen Prieſter. Er gehr immer</p>
-            <p>steltzer_montenegro.pdf_000072</p>
+            <p>72:</p>
             <p>mit mir. Ich trau' ihm Kopfs genug zu, das</p>
             <p>Ding recht gut zu machen. Und wenn ſie mir ein</p>
             <p>gutes Wort geben — glauben ſie's, meine kiſt geht</p>
@@ -3132,7 +3132,7 @@
             <p>weſen. (Wird immer ſurchtſamer und geht auf und</p>
             <p>dieder) Wenn mie die Rechnung zu ſrüh durchſtrlte</p>
             <p>chen würde!</p>
-            <p>steltzer_montenegro.pdf_000073</p>
+            <p>73:</p>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -3173,7 +3173,7 @@
             <p>elendes Leben ſchenken ſoll. Eure Kuͤhnheit ſchmach⸗</p>
             <p>tet nach Lohn. (Wil mit den Degen ſoſfen, fährt</p>
             <p>aber erſchrofken zutuͤt.)</p>
-            <p>steltzer_montenegro.pdf_000074</p>
+            <p>74:</p>
           </sp>
           <sp who="#der_vermummte">
             <speaker>Der Vermummte:</speaker>
@@ -3228,7 +3228,7 @@
             <p>chen Dunkel durchwurmt? Wozu der Wahnſinn? —</p>
             <p>Ahndung! Ahndungen gehoͤren den Weibern mit</p>
             <p>wakkelnden Zähnen. — Dank dem Himmel, daß</p>
-            <p>steltzer_montenegro.pdf_000075</p>
+            <p>75:</p>
             <p>ich wieder Vernunſt habe! Ich bin wieder der, der</p>
             <p>ich immer wat, und es ſoll nichts kommen, das mich</p>
             <p>von meinem Wege wegreiſſen kann. — Du haſt</p>
@@ -3276,7 +3276,7 @@
             <speaker>Katelli:</speaker>
             <p>In einer halben Stunde bin ich da.</p>
             <p>Jezt werd ich hier dleiben, und meinen Plan wei⸗</p>
-            <p>steltzer_montenegro.pdf_000076</p>
+            <p>76:</p>
             <p>ter ſtubiren. Es iſt kein Ort, der mich mehr dazu</p>
             <p>aufmuntern koͤnnte, als dieſer.</p>
           </sp>
@@ -3322,7 +3322,7 @@
             <p>ich ihm ſein Leben nicht! Ich ihm folgen? Auch</p>
             <p>deshalb ſchon' ich dich nicht, wenn du mir nicht mei⸗</p>
             <p>Franziſka gibſt. — Roch gehen die Propheten des</p>
-            <p>steltzer_montenegro.pdf_000077</p>
+            <p>77:</p>
             <p>Himmels vor mir her! Mein Auge ſieht ſie noch</p>
             <p>immer. — Ich ſoll ſein Richter ſeyn? das Amt</p>
             <p>nehm' ich willig, nehm' ich mit Freuden. Um</p>
@@ -3332,7 +3332,7 @@
             <p>ſal? Wir koͤnnen nichts thun, als uns die Wege die</p>
             <p>es uns zeigt, leicht machen, und das will ich thun.</p>
             <p>Ich will meine Seele ruͤſten.</p>
-            <p>steltzer_montenegro.pdf_000078</p>
+            <p>78:</p>
           </sp>
         </div>
       </div>
@@ -3364,7 +3364,7 @@
             <p>noch einmal ſterben kann! (Sie fällt entkräftet aufs</p>
             <p>Bette, und richtet ſich nach einiger Zeit wieder auf.)</p>
             <p>Sey mir willkommen, mein Beſter! Du haſt rit⸗</p>
-            <p>steltzer_montenegro.pdf_000079</p>
+            <p>79:</p>
             <p>terſam geſtritten. Eil in meine Arm; ſollſt dich</p>
             <p>erholen! — Wie du ſo keichſt! (als wenn ſie ihn</p>
             <p>küßt) Wie dieſer Kuß ſo ſuͤß iſt, dieſer heiſſe Kuß</p>
@@ -3396,7 +3396,7 @@
             <speaker>Katelli:</speaker>
             <p><stage>(Mit gezwungener Stimme)</stage> Deshalb</p>
             <p>komm ich. Ich wil ſie wdieder zur Vernunft brine</p>
-            <p>steltzer_montenegro.pdf_000080</p>
+            <p>80:</p>
             <p>gen. — Ihr könnt nur gehen. Ich will mit ihf</p>
             <p>allein ſeyn.</p>
           </sp>
@@ -3432,7 +3432,7 @@
             <p>denn gemacht, um zur Probe zu dienen, wieviel</p>
             <p>Laſten Misgeſchiks ein Menſchenruͤkken tragen kann?</p>
             <p>— Franziſka!</p>
-            <p>steltzer_montenegro.pdf_000081</p>
+            <p>81:</p>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -3470,7 +3470,7 @@
             <p>als wenn ich allwiſſend vorausſehen koͤnnte, daß Un⸗</p>
             <p>gluk ewig mein Loos ſeyn ſoll! — Rein! Sie</p>
             <p>wird ihre Kräſte wieder ſammlen; wird wieder das</p>
-            <p>steltzer_montenegro.pdf_000082</p>
+            <p>82:</p>
             <p>ſanſtmuͤthige gefällige Mädchen ſeyn. Aber —</p>
             <p>ſoll ich ihr die ſchrekliche Ahndung entdekken, da⸗</p>
             <p>mit ſie ſich mit mir rüſte? Ja, ſchreklich; aber</p>
@@ -3507,7 +3507,7 @@
             <p>tern Gefahren unterziehen. Laß mich hier und geh.</p>
             <p>Genug, daß fuͤr ein Lamm die Schlachtbank berei⸗</p>
             <p>tet iſt¹ Ich ſterbe jezt gern, denn du haſt mie</p>
-            <p>steltzer_montenegro.pdf_000083</p>
+            <p>83:</p>
             <p>Wonne druͤber gegoſſen. Ich habe dich noch ein⸗</p>
             <p>mal geſehen. — Aber, Katelli, was dreiſteſt du</p>
             <p>dich um nich? Du handelſt als Jüngling, nicht</p>
@@ -3544,7 +3544,7 @@
             <p>lein hier iſt ſie ein ſchwacher Schild. Ich muß ſter⸗</p>
             <p>ben, in kurzer Zeit ſterben. Ich ſehe, du haſt dei⸗</p>
             <p>gen Geiſt in Ruhe geſzt. Kein Fünkchen Seime</p>
-            <p>steltzer_montenegro.pdf_000084</p>
+            <p>84:</p>
             <p>mes ſpür ich in dir. Kaum ſah ich dich, ſo merke</p>
             <p>ich's, und nahm dich zum Lehrer. Des nicht eint</p>
             <p>gedenk, was mich mattert, bin ich jezt mehr, als</p>
@@ -3575,7 +3575,7 @@
             <p>Rettung mit dir wagen. Aber went alle Ausſicht</p>
             <p>eeg pgeianen mede denn veiſrot de die die</p>
             <p>nicht.</p>
-            <p>steltzer_montenegro.pdf_000085</p>
+            <p>85:</p>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -3614,7 +3614,7 @@
             <p>Dein Zaudern hat alles verdorben.</p>
             <p>Setze dich, dleis dep deiner Faſſing und nenne</p>
             <p>mich nicht.</p>
-            <p>steltzer_montenegro.pdf_000086</p>
+            <p>86:</p>
           </sp>
         </div>
         <div type="scene">
@@ -3652,7 +3652,7 @@
             <p>Weib das maͤnnliche Herz, bald auf bald ab, aus</p>
             <p>einem Ton in den andern, ſtimmen kann! Abet</p>
             <p>ſie mag ſich in Acht nehmen, daß ſie das meinige</p>
-            <p>steltzer_montenegro.pdf_000087</p>
+            <p>87:</p>
             <p>nicht bis zu dem tieſſten hinabſtimmt. Sein Ge⸗</p>
             <p>brauſe wuͤrd' ihr Gehirn ſprengen.</p>
           </sp>
@@ -3689,7 +3689,7 @@
             <p>Wir müſſen nie auf die Dornen die⸗</p>
             <p>ſes Lebens zuͤrnen, denn wir wiſſen nicht, wozu</p>
             <p>die Wunden, von ihnen geriſſen, uns nützen.</p>
-            <p>steltzer_montenegro.pdf_000088</p>
+            <p>88:</p>
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
@@ -3742,7 +3742,7 @@
             <speaker>Katelli:</speaker>
             <p>Länger nicht! Mann, wo biſt du, der</p>
             <p>du die Flammen ſo lange dämpift, als ich? känger</p>
-            <p>steltzer_montenegro.pdf_000089</p>
+            <p>89:</p>
             <p>nicht! Auch der Rieſe muß unterllegen, wenn der</p>
             <p>Kampf ewig währt, Ha! haͤtt' ich ihm doch jezt,</p>
             <p>da ich noch herrliches Sinnes bin, ihn mit tauſend</p>
@@ -3777,7 +3777,7 @@
             <speaker>Franziſka:</speaker>
             <p>Deine Augen trügen dich — Ich</p>
             <p>bin ein Geiſt, gekommen, Buſſe zu predigen.</p>
-            <p>steltzer_montenegro.pdf_000090</p>
+            <p>90:</p>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -3815,7 +3815,7 @@
             <speaker>Katelli:</speaker>
             <p><stage>(Meit verbiſſener Wuth)</stage> Kommen ſie!</p>
             <p>In Verttauen will ich's ſagen. Meine Verräͤhe⸗</p>
-            <p>steltzer_montenegro.pdf_000091</p>
+            <p>91:</p>
             <p>rey moͤgte dem Maͤdchen wieder zum Feldgeſchrey</p>
             <p>dienen.</p>
             <p>Pedrillo trit zu ihm.</p>
@@ -3847,7 +3847,7 @@
             <p>gleitet vom Gebet des Vaters um Strafe fuͤr das</p>
             <p>Blut ſeines Kindes; begleitet vom Gewimmer der</p>
             <p>Frommen und Bedrängten im Ungluͤt, und dieſem</p>
-            <p>steltzer_montenegro.pdf_000092</p>
+            <p>92:</p>
             <p>allen ſchleppt die Strafe ihr graues Haupt auf lang⸗</p>
             <p>ſamen Krükken nach. Dies ſind deine Gefährten.</p>
             <p>gehe den Weg froh, meine Franziſka im</p>
@@ -3857,7 +3857,7 @@
             <p>zum Gericht Franziſta! Reitung iſe hier todi.</p>
             <p>Ende des Stüts.</p>
             <p>—</p>
-            <p>steltzer_montenegro.pdf_000093</p>
+            <p>93:</p>
             <p>!@end_transcript</p>
             <p>!@begin_para</p>
             <p>Nachricht.</p>
@@ -3889,7 +3889,7 @@
             <p>3. 4. l. muthwillig. S. 91. Z. 18. l. zerpfluͤkt. S.</p>
             <p>91.3. 32.1 veſtem. S. 92. 3. 12.1. entblößtem.</p>
             <p>—</p>
-            <p>steltzer_montenegro.pdf_000094</p>
+            <p>94:</p>
             <p>!@end_para</p>
           </sp>
         </div>
