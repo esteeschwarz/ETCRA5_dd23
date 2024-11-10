@@ -102,4 +102,34 @@ t.db.m2[stage.s]
 t.db.m2[111]
 t.db.m2[973]
 m3
-writeLines(t.db.m2,"actuel/steltzer(1781)_franziska-montenegro.txt")
+#writeLines(t.db.m2,"actuel/steltzer(1781)_franziska-montenegro.txt")
+### stage 2, manually edited transcript. not save over!
+###########
+# now try ezdrama 1st run
+ezd_markup_text<-"actuel/steltzer_franziska-montenegro.txt"
+library(reticulate)
+use_miniconda(miniconda_path())
+py_available()
+reticulate::conda_list()
+use_miniconda(reticulate::conda_list()[6,2])
+py_version()
+miniconda_path()
+#######################################################
+### run ezdrama >
+system(paste0("python parser.git.py ",ezd_markup_text))
+#######################################################
+### not yet
+t.db.m3<-readLines(ezd_markup_text)
+rgdf[17,1]<-"\\+#nl\\+"
+rgdf[17,2]<-"\n"
+m<-grep(rgdf[17,1],t.db.m3)
+t.db.m3<-gsub(rgdf[17,1],rgdf[17,2],t.db.m3)
+t.db.m3[105]
+#writeLines(t.db.m3,"actuel/steltzer(1781)_franziska-montenegro.txt")
+#writeLines(t.db.m3,ezd_markup_text)
+t.db.m3<-readLines(ezd_markup_text)
+rgdf[18,1]<-".+pdf_0000(.+$)" 
+rgdf[18,2]<-"\\1:"
+#m<-grep(rgdf[17,1],t.db.m3)
+t.db.m3<-gsub(rgdf[18,1],rgdf[18,2],t.db.m3)
+writeLines(t.db.m3,ezd_markup_text)
