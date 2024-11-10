@@ -68,8 +68,7 @@ Perſonen:
 
 Montenegro, ein alter reicher Spanier.
 Franziſka, ſeine Tochter.
-Katelli, ein Italiener, Vetter des Monte⸗
-negro und Franziſta's liebhaber.
+Katelli, ein Italiener, Vetter des Montenegro und Franziſta's liebhaber.
 Pedrillo, Sekretär eines Miniſters.
 Anton, Katelli's Bedienter.
 Kamilla, Franziska's Mädchen.
@@ -78,6 +77,7 @@ Niklas, ein Bandit.
 Bedienten.
 Prieſter.
 Wache.
+
 Vom Morgen an bis in die ſpäte Racht.
 steltzer_montenegro.pdf_000005
 410 ( bF
@@ -104,36 +104,40 @@ iae lopiüie  ni utar
 urgzd alnuaüel; Mpisicht? uili. zunzi
 MAloñä
 
-er Aufzug.
+# er Aufzug.
 anputle iitttidune .
  *
-#erſter Auftrit..
-Moutinegtg's Gatten bey deſſen Landgut vor Ma⸗
+## erſter Auftrit..
+$ Moutinegtg's Gatten bey deſſen Landgut vor Ma⸗
 1561
 drit Buſchwerk, Raſenbänke und im Hintergrun⸗
 de das freye Feld.
 im. Katelli, und Montenegro, (beide auf einer Ra⸗
 2 1
 ſenbank ſitzend.)
-Montenegro. Ja, wie ich ſage; biſt nicht
+@Montenegro:
+Ja, wie ich ſage; biſt nicht
 mehr / der wakkere muntre Mann. Machteſt ſonſt
 nie) „Alten und Jungen Freude.
 Lunur Katelli. Ich war' ihnen alſo auch jezt nicht
 mehr ſo lieb, guter Vetter? Ein Bischen uͤbles Hu⸗
 mors koͤnnte Vaterliebe verkleinern? ,10.),
-Montenegro. Biſt nicht allein heut ſo mür⸗
+@Montenegro:
+Biſt nicht allein heut ſo mür⸗
 riſch; alle Tage, alle Tage! Soltſt die Stirn nicht
 K
 steltzer_montenegro.pdf_000006
 ſo tuͤkſch zuſammenziehen. Du biſt noch jung, Ka⸗
 telli; das ſteht dir nicht.
-Katelli. Es wird wieder beſſer mit mir wer⸗
+@Katelli:
+Es wird wieder beſſer mit mir wer⸗
 den. Ausgebliebne Nachrichten von meinem Vater,
 den ich in zehn Jahren nicht geſehen habe; meine
 Geſundheitsumſtaͤnde, die nicht die beſten ſind; dunk⸗
 les, truͤbſeliges Wetter, alles das ſtuͤrmt auf mich
 ein.
-Montenegro. Häͤtteſt du mir geſtern nur ei⸗
+@Montenegro:
+Häͤtteſt du mir geſtern nur ei⸗
 nenſo freunduchen Blik gegeben, als mir die Sonne
 durch mein Kammerfenſter ſchenkte, nichts ſagt' ich.
 Deine Geſundheit zu bemurren, ziemt dir auch
@@ -149,20 +153,24 @@ niedergebrannt iſt? Kurz, Vetter, es ſtekt etwas
 anders dahinter, und das jezt rein herausgeſagt!
 Vieſleicht kann ich helſen. — Du ſchweigſt? Bin
 ich ſchuld? „.
-Katelli. Ich weiß nicht, was ich antworten
+@Katelli:
+Ich weiß nicht, was ich antworten
 ſoll. Es iſt mir nicht ſo, als mirs ſonſt war! Das
 iſt alles, was ich ſagen kann..
 
 Mon⸗
 steltzer_montenegro.pdf_000007
-Montenegro. Du ſollſt nicht wiſſen, was
+@Montenegro:
+Du ſollſt nicht wiſſen, was
 du thaͤtſt? Das menſchliche Herz iſt ja ſo ein wun⸗
 derliches Ding nicht, daß es ſo ganz blind und dumm
 in den Tag hinein handeln ſollte.
-Katelli. Sie haben den Menſchen noch nicht
+@Katelli:
+Sie haben den Menſchen noch nicht
 recht ſtudirt, Lieber. Es fehlt ſeinen Handlungen
 oſt an Triebſedern, wenigſtens ſind ſie oſt ſehr lahm.
-Montenegro. Die Betrachtungen beim zubett⸗
+@Montenegro:
+Die Betrachtungen beim zubett⸗
 gehen! Bey Tage heißt's die Zeit verderben. Jezt
 dreiſt heraus, was dir fehlt, und huͤlle mir die
 Antwort nicht wieder in ſo einen philoſophiſchen Man⸗
@@ -171,9 +179,10 @@ Katelli, Zu ſeiner Zeit ſag' ich ihnen alles. Ich
 liebe ſie; aber noch kindlicher will ich ſie lieben, wenn
 ſie nicht fortſahren, die Buͤrde, die mich druͤkt, mir
 abzumartern.
-#Zweyter Auftrit.
-Die vorigen. Anton.
-Anton. (iu Montenegro.) Leute aus der Stadt
+## Zweyter Auftrit.
+$ Die vorigen. Anton.
+@Anton:
+(iu Montenegro.) Leute aus der Stadt
 wollen ſie ſprechen. Sie ſtellen ſich eilend.
 Mont. Nicht wahr? Das koͤmmt dir, wie
 gerufen, Katelli? Aber davon kommſt du nicht.
@@ -183,14 +192,15 @@ Deit⸗
 
 A 4
 steltzer_montenegro.pdf_000008
-#Dritter Auftrit.
-Katelli und Anton, (der fortgehen will)
-Katelli. Bleib, Anton, und ſchließ mir den Gar⸗
+## Dritter Auftrit.
+$ Katelli und Anton, (der fortgehen will)
+@Katelli:
+Bleib, Anton, und ſchließ mir den Gar⸗
 ten zu! — Daß es aber mein Vetter nicht merkt.
 (Enten gebt.)
 ami
-#Vierter Auftrit.
-Katelli allein.
+## Vierter Auftrit.
+$ Katelli allein.
 Richt eher will ich mich ſehen laſſen, als bis
 ich mich gefaßt habe; =— und faſſen will ich mich,
 muß ich mich! — Sonſt ſo entſchloſſen, und jezt
@@ -213,18 +223,23 @@ winigſtens muß du ſie verloſſen:
 Fuͤnf⸗
 steltzer_montenegro.pdf_000009
 
-#Fuͤnfter Auftrit.
-Katelli und Anton.
-Anton. Alles veſt verſchloſſen, lieber Herr,
+## Fuͤnfter Auftrit.
+$ Katelli und Anton.
+@Anton:
+Alles veſt verſchloſſen, lieber Herr,
 daß auch kein Maͤuschen hinein kann.
-Katelli. Pak meine Sachen ein, Anton. Wir
+@Katelli:
+Pak meine Sachen ein, Anton. Wir
 muͤſſen fort. Ich habe nöͤthige Geſchäͤſte zu Hauſe.
-Anton. Fort? Hm h und wir ſind kaum viers.
+@Anton:
+Fort? Hm h und wir ſind kaum viers.
 zehn Tage hier, und die Leute ſehen uns ſo gern? —
 Was denn zulezt die noͤthigen Geſchaͤſte anbetriſt, ſo 
-Katelli. Schweig! Ich habe geſagt; Pat
+@Katelli:
+Schweig! Ich habe geſagt; Pat
 ein! und das inuß dir genug ſeyn.
-Anton. Und das muß dir genug ſeyn! Und
+@Anton:
+Und das muß dir genug ſeyn! Und
 darum haben ſie den Garten zuſchlieſſen laſſen? Das
 haͤtten ſie mir auch bei offenen Thüren und mitten
 auf dem Markte ſagen koͤnnen. Aber ich hab's ſchon
@@ -235,9 +250,11 @@ haben ſie's endlich doch vergeſſen, was der Vater
 „nimm dich für die Mädchen in Acht! Es iſt ein
 parges Ding, ſie wieder aus dem Kopf zu bringen,
 wenn ſie ſich einmal eingeſchlichen haben!„
-Katelli. Du plapperſt da aufs Geradewohl
+@Katelli:
+Du plapperſt da aufs Geradewohl
 hin, als wenn du Brief und Siegel drüber hätteſt!
-Anton. Brief und Siegels genug. Bei Tage
+@Anton:
+Brief und Siegels genug. Bei Tage
 ſuchen ſie das Madchen in allen Winkeln auf, und
 a:
 des
@@ -246,15 +263,18 @@ steltzer_montenegro.pdf_000010
 4
 des Nachts plaudern ſie, wachend und ſchlafend, ſo
 viel von ihr, daß ich kaum meine Ruhe haben kann.
-Katelli. Du verſtehſt das Horchen ſehr gut,
+@Katelli:
+Du verſtehſt das Horchen ſehr gut,
 Anton!
-Anton. Horchen ! Da iſt was zu horchen, wenn
+@Anton:
+Horchen ! Da iſt was zu horchen, wenn
 wir kaum zwanzig Schritte von einander ſchlaſen.
 Das Bischen Glasthuͤre iſt ja auch nicht vgn Eiſen
 gemacht, daß ihr Seufzen nicht durchdringen ſoll⸗
 te. Horchen! Ich hab' in meinen Leben noch kei⸗
 nen behorcht.
-Katelli. (nach einer kleinen Pauſe) Du weißt
+@Katelli:
+(nach einer kleinen Pauſe) Du weißt
 ſchon zu viel, darum muß ich dir noch mehr ſagen.
 du biſt ein ehrlicher Kerl; haſt mir von meiner Jugend
 an treu gedient und nie meine jugendlichen Fehler
@@ -265,11 +285,14 @@ liebe Franziſta, das haſt du aus meinem Thun und
 Handlungen recht geſchloſſen, und ich finde nichts
 Tadelnswuͤrdiges darinn. Richt Anton? — Du
 ſchweigſt?
-Anton. Nicht, als wenn ich an Franziſka et⸗
+@Anton:
+Nicht, als wenn ich an Franziſka et⸗
 was auszuſetzen häͤtte! Bewahre der groſſe Gott!
 aber —
-Katelli. Und was mit dem Aber?
-Anton. Aber hat ihnen denn der alte Herr
+@Katelli:
+Und was mit dem Aber?
+@Anton:
+Aber hat ihnen denn der alte Herr
 nichts von dem Pedrillo erzehlt? Er hat vor un⸗
 ſeree
 steltzer_montenegro.pdf_000011
@@ -277,25 +300,31 @@ steltzer_montenegro.pdf_000011
 —
 ſerer Ankunft um ſie angehalten, und — nach Wind
 geſchnappt. Er wird —
-Katelli. Ich weiß alles. Er wird ſie nicht
+@Katelli:
+Ich weiß alles. Er wird ſie nicht
 laſſen, willſt du ſagen.
-Anton. Und dem alten Mann, wenn er ſie
+@Anton:
+Und dem alten Mann, wenn er ſie
 ihm nicht gibt, tauſend Poſſen ſpielen, und ihnen,
 wenn ſie Franziſka erhalten, noch einmal ſo viel,
 und —
-Katelli. Ließ ich dich ſprechen, ich glaube du
+@Katelli:
+Ließ ich dich ſprechen, ich glaube du
 pakteſt noch zehnmal dein Und aus.
-Anton. Ja, ja, und vielleicht ſo viel Poſſen
+@Anton:
+Ja, ja, und vielleicht ſo viel Poſſen
 ſpielen, daß noch die Todtengräber Verdienſt da⸗
 von haben.
-Katelli. Wahr iſts, Pedrillo ſoll ein arger
+@Katelli:
+Wahr iſts, Pedrillo ſoll ein arger
 Kopf ſeyn; allein hab ich ihn beleidigt? Warum ſollt
 er meinem Gluͤtke Fallen ſtellen? Warum — kann
 ich den Gedanken doch kaum in Worte ſaſſen —
 warum auf Blut und Mord ſinnen? Bin ich ſchuld,
 daß man ihm das beſte Maͤdchen Spaniens verſagt?
 Und Franziſta —
-Anton. Ich dächte eben ſo — aber ich ha⸗
+@Anton:
+Ich dächte eben ſo — aber ich ha⸗
 be hier weit und breit herum auch nicht einen ge⸗
 funden, der gut von ihm ſpraͤche. Freylich, ich
 bin noch eben nicht weiter, als auf die Kegelbahn ge⸗
@@ -314,36 +343,43 @@ plof mei no:
 gen ließ, ſagten die Träger zu mir: Weh, weh!
 wir haben einen tuͤkſchen Kopf getragen! Ob denn
 die hoͤſen Leute alle ſchwerer ſind als die guten?
-Katelli. Auf das Gewaͤich ſolcher Leute, hab'
+@Katelli:
+Auf das Gewaͤich ſolcher Leute, hab'
 ich ſchon oft geſagt, ſollſt du nicht bauen. Hät⸗
 ten ſie auch recht, ſo kann er doch nicht ohne Grund
 auf Tütke ſinnen. So uͤberſpannt findet man keine
 Bosheit. Und laß ihn! Was wird er koͤnnen? Heut
 iſt mein Bund mit Franziſta geſchloſſen, und mor⸗
 gen fort mit ihr nach Mailand!
-Anton. Wenn ſie nur erſt da waͤren. Eine
+@Anton:
+Wenn ſie nur erſt da waͤren. Eine
 Schlange kann in vier und zwanzig Stunden viel
 Giſt ausſpeyen.
-Katelli. (etwas hitzig) Gut, laß ihn uns nach⸗
+@Katelli:
+(etwas hitzig) Gut, laß ihn uns nach⸗
 nn eilen! Sind unſere Klingen nicht auch gewezt?
 b0i
 ° Anton. Run freylich! Ich habe zwar mit ſol⸗
 chen Sachen nicht gern etwas zu thun, wenn's aber
 ſeyn ſoll, ey nun!
-Katelli. Aber, Anton, ich bin jezt viel zu ver⸗
+@Katelli:
+Aber, Anton, ich bin jezt viel zu ver⸗
 wirrt, viel zu hitzig, einen ernſten Plan auszufuͤh⸗
 ren. Pak ein! Wir müſſen fort. Ich will mei⸗
 nen Geiſt auf der Reiſe wieder ſammlen. Wir wol⸗
 len nach Teutſchland.
-Anton. Da waͤr' ich zwar gar gern, weil's ſo
+@Anton:
+Da waͤr' ich zwar gar gern, weil's ſo
 gute Leute darin geben ſoll, —
-Katelli. Das gehört hier nicht her. Geh und
+@Katelli:
+Das gehört hier nicht her. Geh und
 pak ein !
 
 Anton.
 steltzer_montenegro.pdf_000013
 1
-Anton. Gleich, lieber Herr, bis auf ein Wort⸗
+@Anton:
+Gleich, lieber Herr, bis auf ein Wort⸗
 chen. Wenn wir nun fort reiſen, ſo weint ſich das Maͤd⸗
 chen vors erſte die Augen roth. Und ein Gluͤk, wenn's:
 mnoch dabey bleibt, denn unter uns geſagt, ich weiß 10
@@ -359,16 +395,20 @@ len? Glauben ſie, ihn und ſie wieder zu finden?
 Durch tauſend Raͤnke wuͤrd' er in irgend einen ſchwar⸗
 zen Spitzbubenwinkel ſich mit ihr hinſtehlen, und das
 gute Maͤdchen wuͤrde aus Gram ſterben.
-Katelli. (nach einer Pauſe) Du red'ſt wahr,
+@Katelli:
+(nach einer Pauſe) Du red'ſt wahr,
 Anton! Ich habe vetwirrt gedacht.
-Anton. Was wollen wir aber nun machen? 
+@Anton:
+Was wollen wir aber nun machen? 
 Faſſen ſie ſich ſo gut als ſie köͤnnen, und ſprechen ſie
 anit ihrem alten Vetter. Entdekken ſie ſich ihm und
 das ohne Zaudern..
-Katelli. Das kann ich nicht, Alter. Dazu
+@Katelli:
+Das kann ich nicht, Alter. Dazu
 bin ich noch zu warm. Aber ſchreiben will ich ihm.
 Meinſt du?
-Anton. Mit den Zettelchen iſt es nur ſo eine
+@Anton:
+Mit den Zettelchen iſt es nur ſo eine
 häßliche Sache. Es iſt, als wenn man ſich nicht
 ger
 steltzer_montenegro.pdf_000014
@@ -377,12 +417,15 @@ gatlelt.
 ilj. 11idn
 tu8ſt
 
-#Zehnter Auftrit.
-Katelli. Stanziika.
+## Zehnter Auftrit.
+$ @Katelli:
+Stanziika.
 Franziſta. Aber du ſiehſt ſo finſter, Katelli?
 Bin, ich, dir laͤſtig?
-Katelli. Dieſer Handdruk ſey Antwort.
-Franziſka. (ſezt ſich) Sez dich neben mir.
+@Katelli:
+Dieſer Handdruk ſey Antwort.
+@Franziſka:
+(ſezt ſich) Sez dich neben mir.
 Aber ſag, warum biſt du ſo zuruͤkhaltend, ſo ge⸗
 heim? Ich fuͤhle eben das, Beſter, allein ich bin
 ein arines Maͤdchen, das unter dem Zepter des An⸗
@@ -409,26 +452,33 @@ steltzer_montenegro.pdf_000015
 laſſen, aber es nie getadelt. Du wuͤrdeſt an der
 Guͤte ſeines Herzens zweifeln, wenn du glaubteſt,
 daß er unſerer Liede zuwider ſeyn ſollte.
-Katelli. Er wird's nicht thun! Gut! Aber
+@Katelli:
+Er wird's nicht thun! Gut! Aber
 bedent — Hoͤr, Franziſka! ich hab einen argen
 Traum gehabt, der mich ganz verwirrt macht. Ich
 ging am Ufer.
-Franziſka. Wenn du mich liebſt; ſo erzehle
+@Franziſka:
+Wenn du mich liebſt; ſo erzehle
 den Traum nicht. Wer will Traͤumen glauben?
-Katelli. Ich erzehle nicht, Franziſka, aber —
+@Katelli:
+Ich erzehle nicht, Franziſka, aber —
 Gort! wenn er wahr wüͤrde! der Gegenſtand des
 Traums war ich und Pedrillo.
 Franziſka.. Ich dacht's, deum wollt' ich ihn
 nicht höͤren, weil der Rame Pedrillo meinen Oh⸗
 ren mehr als Giſt iſt.
-Katelli. Dies macht mich heute ſo ſehr tief⸗
+@Katelli:
+Dies macht mich heute ſo ſehr tief⸗
 denkend. Dein Vatet wird dich um Pedrillo mir
 verſagen.
-Franziſka. Rein! das wird et nicht, wenn
+@Franziſka:
+Rein! das wird et nicht, wenn
 wir ihn bitten.
-Katelli. Aber mein Geiſt denkt ſich da immer
+@Katelli:
+Aber mein Geiſt denkt ſich da immer
 ſo etwas, das mich in Bewegung ſetzt.
-Franziſka. Du biſt ein Mann, Katelli. Scha⸗
+@Franziſka:
+Du biſt ein Mann, Katelli. Scha⸗
 me dich, daß du nicht als Mann handelſt. Lan⸗
 ge genug haſt du das Boͤſe der Liebe geſchmekt,
 du muſt nun auch ihe tauſendſaches Gutes fühe
@@ -437,94 +487,119 @@ ken.
 Ka⸗
 steltzer_montenegro.pdf_000016
 18
-Katelli. Wohl, meine Franziſka! Aber wenn
+@Katelli:
+Wohl, meine Franziſka! Aber wenn
 die Dauer fehlen ſollte.
-Franziſka. (ſteht auf) Komm, wir wollen zu
+@Franziſka:
+(ſteht auf) Komm, wir wollen zu
 unſerm Vater laufen.
 (gehen Hand in Hand ab.)
-#Eilfter Auftrit.
-Anton allein. (kömmt von der Gartenhausſeite)
+## Eilfter Auftrit.
+$ Anton allein. (kömmt von der Gartenhausſeite)
 Die lieben Kinder! wie ſie ſich ſo gut ſind! das
 Herz moͤgte mir ſpringen, wenn ich ſie ſehe. Aber,
 aber
-#Zwoͤlfter Auftrit.
-Anton und Kamilla.
-Kamilla. Guten Morgen, Alter!
-Anton. Guten Morgen, Maͤdel! Warum läͤuſt
+## Zwoͤlfter Auftrit.
+$ Anton und Kamilla.
+@Kamilla:
+Guten Morgen, Alter!
+@Anton:
+Guten Morgen, Maͤdel! Warum läͤuſt
 ſie denn hier im Garten ſo herum, und bleibt nicht
 bey ihrer Franziſta?
-Kamilla. Und warum bleibt er denn nicht
+@Kamilla:
+Und warum bleibt er denn nicht
 hübſch bey ſeinem Katelli? Was hat er hier zu
 ſuchen?
-Anton. Ich hier zu ſuchen? Mein Herr zieht
+@Anton:
+Ich hier zu ſuchen? Mein Herr zieht
 ſich allein an, aber ſie daͤcht' ich, haͤtte nicht viel
 Zelit zu veraibern, wenn ſie das iheige dee, Motgene
 thun wollte.
 Ka⸗
 steltzer_montenegro.pdf_000017
 19
-Kamilla. Uebers Geplappere! — Hor' er
+@Kamilla:
+Uebers Geplappere! — Hor' er
 einmal, Anton, ich weiß recht viel Neues. Da
 koͤnnen garſtige Streiche vorfallen.
-Anton. Wo denn? Was denn?
-Kamilla. Ey nun! das verſteht ſich ſchon.
+@Anton:
+Wo denn? Was denn?
+@Kamilla:
+Ey nun! das verſteht ſich ſchon.
 Wovon im ganzen Hauſe vom Morgen bis in den
 Abend geſprochen wird; daß der Pedrillo meine
 Franziſka nicht vergeſſen will.
-Anton. Nichts wieder, als Aufgewärmtes!
+@Anton:
+Nichts wieder, als Aufgewärmtes!
 Das dacht' ich gleich. Hor ſie! Neues, oder ich
 mache links um!
-Kamilla. Geh er doch, wenn er nicht hören
+@Kamilla:
+Geh er doch, wenn er nicht hören
 will. Muß ich's ihm denn aufdringen?
-Anton. Run, nun, Jungſer! Erzehl ſie nur.
+@Anton:
+Run, nun, Jungſer! Erzehl ſie nur.
 Ich will ſie nicht ſtoͤhren.
-Kamilla. Ich bin geſtern Abend, eh wir aufs
+@Kamilla:
+Ich bin geſtern Abend, eh wir aufs
 Gut herfuhren, bey meinem Bräͤutigam geweſen.
 Der hat mir erzehlt —
-Anton. Sag ſie mir erſtlich, wer ihr Bräuti⸗
+@Anton:
+Sag ſie mir erſtlich, wer ihr Bräuti⸗
 gam iſt? Ich dachte noch einmal mit ihr durchzu⸗
 gehen, aber —
-Kamilla. Er iſt ſo alt, und iſt doch ſo ein
+@Kamilla:
+Er iſt ſo alt, und iſt doch ſo ein
 Narr. — Pedrillo's Jakob iſt mein Bräutigam.
-Anton. So, Jungfer? Da ſind ja der Herr
+@Anton:
+So, Jungfer? Da ſind ja der Herr
 und der Diener uͤbet ein Haus gekommen. Sie trägt
 ihrem Jakob denn auch woht ſchone Reuigkeiten zu?
 B 2
 Ka
 steltzer_montenegro.pdf_000018
 20
-Kamilla. Ich hab's ihm immer geſagt, daß
+@Kamilla:
+Ich hab's ihm immer geſagt, daß
 er zu mistrauiſch waͤre. Denk er doch — ſolche
 gute Leute wie unſere Herrſchaft! Franziſka macht
 mir alle Tage Geſchenke, und der garſtige Pedrillo
 gibt ſeinen Leuten nichts. Jakob hat noch keinen
 Pfennig von ihm geſehen.
-Anton. (vor ſich) Was doch das liebe Geld nicht
+@Anton:
+(vor ſich) Was doch das liebe Geld nicht
 kann! (laut) Verzeih ſie mir! Man ſpricht ja wohl ſo
 etwas hin. — Mein cherr iſt ihr auch recht gut, und was
 das Beſte iſt — Seh ſie nur! (er nimmt ein Gold⸗
 ſtuͤt aus der Taſche) weil ſie ſo fein artig geweſen
 wäre, und wenn ſies ferner ſeyn wollte, ſo ſolle
 ichs ihr —
-Kamilla. Ey! Geb er her, Anton! Sein Herr
+@Kamilla:
+Ey! Geb er her, Anton! Sein Herr
 iſt doch auch ein gar ſcharmanter Herr! Ey! Hm!
 er ſoll auch einmal ſehen, was ich ihin nun ſo alles
 erzehlen werde, was ich von meinem Jakob hoͤre.
-Anton. Und ihrem Jakob nichts wieder ſagen?
-Kamilla. Ach, nein doch! Das leidet Jakob
+@Anton:
+Und ihrem Jakob nichts wieder ſagen?
+@Kamilla:
+Ach, nein doch! Das leidet Jakob
 nicht einmal. Geb' er nur her!
-Anton. (gibt's ihr) Da hat ſic's. Aber, aber!
+@Anton:
+(gibt's ihr) Da hat ſic's. Aber, aber!
 Es folgt mehr, wenn ſie's darnach macht.
-Kamilla. Ich will mich auch recht bey ſeinem
+@Kamilla:
+Ich will mich auch recht bey ſeinem
 Herrn bedanken. Bedanke mich auch bey ihin, Anton.
-Anton. Das hat ſie bey mir ſo wenig, als dey
+@Anton:
+Das hat ſie bey mir ſo wenig, als dey
 meinem Herrn noͤthig. Er will's nicht. Er iſt kein
 Liebhaber von ſolchen Umſtänden, und ich gar nicht.
 „
 Ka⸗
 steltzer_montenegro.pdf_000019
 21
-Kamilla. Run hör' er! Laß er mich weiter er⸗
+@Kamilla:
+Run hör' er! Laß er mich weiter er⸗
 zehlen! Wir ſind ganz davon abgekommen. Ge⸗
 ſtern morgen ſagte Jakob, waͤre ſein Herr zu Hofe
 geweſen. Als er wiedergekommen waͤre, haͤtt
@@ -543,8 +618,8 @@ einmal das tuͤkſche haͤmiſche Geſicht und — Halt!
 da kommt unſer alter Herr. Ich muß gehen, ſonſt
 murrt er mir wieder die Ohren vom Klatſchen voll.
 (läuft eiliga ſort.)
-#Dreyzehnter Auftrit.
-Anton allein
+## Dreyzehnter Auftrit.
+$ Anton allein
 Es war gut, daß mir mein Herr eben meinen
 Lohn gegeben hatte. Ich habe ſie auf der rechten
 Seite gefaßt. Da haͤtte ein ſchoͤnes Stuͤkchen draus
@@ -559,12 +634,14 @@ nach Geld; und das macht allein der leidige Puz.
 Ich werde ſie mit Gelde ſehr warm halten muͤſſen,
 wenn ſie nicht die Stange auf beiden Schultern
 tragen ſoll.
-#Vierzehnter Auftrit.
-Anton und Montenegro.
-Montenegro. Was denn hier ſo allein in der
+## Vierzehnter Auftrit.
+$ Anton und Montenegro.
+@Montenegro:
+Was denn hier ſo allein in der
 Irre? Wo iſt dein Herr? Und meine Tochter, haſt
 du die nicht geſehn?
-Anton. Die Minute waren ſie hier. Wenn
+@Anton:
+Die Minute waren ſie hier. Wenn
 ich nicht irre, ſo wollten ſie zu ihnen gehen.
 Mont. So muß ich ſie wohl im Hauſe ſu⸗
 chen? (will gehen)
@@ -573,7 +650,8 @@ Worte mit ihnen ſprechen? Ich habe hier von Ka⸗
 milla garſtige Dinge gehoͤrt. Die haͤlt's mit einem
 Bedienten des Pedrillo.
 Mont. Da ſoll ſie mir aus dem Hauſe, Anton.
-Anton. Dann machen ſie's ja noch ſchlimmer.
+@Anton:
+Dann machen ſie's ja noch ſchlimmer.
 Ich had' ihr ſchon etwas blankes aufs Maul gedruͤkt.
 Vors erſte haͤtten wir nun wohl nichts mehr zu
 fuͤrchten. Aber, noch mehr! Pedrillo ſoll geſtern
@@ -587,7 +665,8 @@ len muͤſſen. Mit deni hat er geheim von Prie⸗
 doch ums Himmelswillen in Acht.
 Mont. Mehr wußte ſie nicht, Anton? Hüͤte
 dich ja für das Schnattermaul.
-Anton. Sorgen ſie füͤr mich nicht. Ich glaube
+@Anton:
+Sorgen ſie füͤr mich nicht. Ich glaube
 von ihr ſowohl noch oͤſters etwas herauszubringen,
 aber von mir ſoll ſie nichts erſahren. Kennt noch
 keiner den alten Alton!
@@ -596,8 +675,8 @@ Katelli's Hand. (lieſt. Nach einer Pauſe) Anton,
 laß mich allein, und ſiehſt du ſie, ſo ſag ihnen, daß
 ich hier ſey.
 (Anton ab.)
-#Funfzehnter Auftrit.
-Montenegro allein.
+## Funfzehnter Auftrit.
+$ Montenegro allein.
 (kieß) Hier die Antwort, beſter Vater, die ich
 Ihnen vor einer halben Stunde ſchuldig blieb: Ich
 liebe Franziſka. Nach ernſter reifer Ueberlegung
@@ -612,21 +691,23 @@ Welche Verwirrung ſie mir im Hauſe macht!
 Sechs⸗
 steltzer_montenegro.pdf_000022
 24
-#Sechszehnter Auftrit.
-Montenegro und ein Bedienter.
+## Sechszehnter Auftrit.
+$ Montenegro und ein Bedienter.
 Bedienter. Der Pater Ziſterzius verlangt ſie
 zu ſprechen.
-Montenegro. Ziſterzius? Ich kenn' ihn nicht!⸗
+@Montenegro:
+Ziſterzius? Ich kenn' ihn nicht!⸗
 — Kannſt ihn herfuͤhren; bleib aber nicht weit
 ron uns!/“
 
-#Siebzehnter Auftrit.
-Die vorigen und Ziſterzius.
+## Siebzehnter Auftrit.
+$ Die vorigen und Ziſterzius.
 
 Ziſterzius. Entſchuldigen ſie, daß ich ſie ſo⸗
 kurz vor Tiſche beſchwere. Ich bitte mir einige ge⸗
 heime Augenblikke aus.
-Montenegro. Geheim genug hier, lieber Herr
+@Montenegro:
+Geheim genug hier, lieber Herr
 Pater. Meine Leute ſind alle ehrliches Sinns.
 Rur immer damit heraus, was ſie auf dem Her⸗
 zen haben.N Hf
@@ -708,11 +789,13 @@ und Pedrillo ſinnen auf Rache. Die Bereitung da⸗
 zu iſt gemacht. Wenn ſie den Stoß nicht zeitig vor⸗
 beugen, ſo wird er bis zur Unwehrbarkeit derb wer⸗
 den.
-#Achtzehnter Auftrit.
-Die vorigen und Anton.
-Anton. (raunt demMontenegro etwas in die Ohren)
+## Achtzehnter Auftrit.
+$ Die vorigen und Anton.
+@Anton:
+(raunt demMontenegro etwas in die Ohren)
 Mont. Eben der?
-Anton. Das Mädel hat ihm gar genau unter
+@Anton:
+Das Mädel hat ihm gar genau unter
 die Augen geſehn.
 Mont. (zu Ziſierzius) Hoͤr' er mein Freund! Wenn
 er kuͤnftig den Betruͤger ſpielen will, ſo zieh' er nicht
@@ -729,14 +812,16 @@ ihu ſtekt, nicht ganz aufdette.
 Neun⸗
 steltzer_montenegro.pdf_000026
 38
-#Neunzehnter Auftrit.
-Die vorigen, Franziſka und Katelli.
-Katelli. Warum ſo hitzig? Was iſt ihnen?
+## Neunzehnter Auftrit.
+$ Die vorigen, Franziſka und Katelli.
+@Katelli:
+Warum ſo hitzig? Was iſt ihnen?
 Monten. Sieh, Katelli! wieder ein Prieſter
 des Satans inwendig, und ein Diener Gottes aus⸗
 wendig.
 Ziſterzius. (Wendet ſich eiligſt und geht.)
-Katelli. Wieviel Otterngezuͤcht nahren die Kloͤ⸗
+@Katelli:
+Wieviel Otterngezuͤcht nahren die Kloͤ⸗
 ſter nicht! Wieviel Schurken hült das heilige Gewand.
 Ziſterzius. (Im gehen vor ſich) Jüngling, waͤr's
 hier nicht, ſo wollt' ich dich einmal von innen beſe⸗
@@ -745,14 +830,15 @@ hen, weil du ſo überweiſe ſprichſt.
 und nach einiger Zeit gehen dieBe⸗
 dienten, die kein Geſchaͤft fuͤr ſich
 ſehen, auch ab.)
-#Zwanzigſter Auftrit.
-Montenegro, Franziſka und Katelli.
+## Zwanzigſter Auftrit.
+$ Montenegro, Franziſka und Katelli.
 Mont. Das hieß die Natterzunge ausſtrekken,
 ohne zu ſtechen! Kinder, er iſt kein Prieſter, ein
 Betrüger iſt er. Dein Anton, Katelli, hat mit
 das Leben gerettet. Er kannte den Kerl und ſeine
 ganze haͤmiſche Seele.
-Katelli. Und was ſucht er bey ihnen?
+@Katelli:
+Und was ſucht er bey ihnen?
 Mont. Wie ich dir geſagt habe, dein Anton
 hat mir's Leben gerettet. Er hatte von ſeinen Kom⸗
 men
@@ -761,26 +847,31 @@ steltzer_montenegro.pdf_000027
 men Witterung. O, es iſt ein Weſen und ein Ey⸗
 lohy in der Welt, daß man die Zähne druͤber zuſam⸗
 menſtoßen möͤgte. Menſch was biſt du?
-Franziſka. Aber, lieber Vater er muß doch Vor⸗
+@Franziſka:
+Aber, lieber Vater er muß doch Vor⸗
 wand aehabt haben?
 Mont. Richts, als eitle Worte, Kind. Ich
 kann dir das jezt nicht ſagen. Wir, Katelli; wol⸗
 len nachher weiter druͤber ſprechen.
-Franziſka. Ach! lieber Vater, wenn ich recht
+@Franziſka:
+Ach! lieber Vater, wenn ich recht
 muthmaßen ſollte!
 Mont. Denkſt unrecht. Geldſchneiderey, wei⸗
 ter nichte, Franziſka! Wenn du mich liebſt, ſo ver⸗
 giß es! — Aber, Kinder, wo ſeyd ihr denn ſo lan⸗
 ge geweſen? Kann man euch denn niemals ſprechen,
 wenn man will.
-Franziſka. Vorhin waren wir hier im Garten
+@Franziſka:
+Vorhin waren wir hier im Garten
 und jezt haben wir ſie geſucht.
 Mont. Und warum, Maͤdchen?
-Franziſka. Ich habe etwas begangen, das ich
+@Franziſka:
+Ich habe etwas begangen, das ich
 ohne ihren Willen nicht haͤtte thun ſollen. Sie wer⸗
 den's mir verzeihen; es iſt nichts boͤſes. Ich ha⸗
 be — ineine Hand vergeben.
-Katelli. Und mir ſie gegeben. O, ſie lächeln,
+@Katelli:
+Und mir ſie gegeben. O, ſie lächeln,
 Vater. Ich kann ſie mit allem Recht nun ſo nennen.
 Richt?
 Mont. Seyd ihr ſchen ſo einig? Ich habe ſchon
@@ -795,19 +886,22 @@ mir's zu vertrauen. Katelli! Wie iſt die Schuͤchtern⸗
 heit dir mit einmal ſo eigen geworden? — Da hab
 ich ein Zettelchen gefunden. Wozu ſoll das? ſchaͤmt
 ſich deine Zunge gutes zu reden?
-Katelli. Beſter Vater, ich wußte nicht —
+@Katelli:
+Beſter Vater, ich wußte nicht —
 Mont. Ich weiß ſchon, was du ſagen willſt.
 Ich wuͤrde meine Tochter dir nie gerade zu abgeſchla⸗
 gen haben. Ich liebe dich, wie ſie — Aber ich
 kann's nicht vergeſſen! ſo ein Zettelchen! Und dann
 wirſſt dus dahin! Bedenk, wenn's ein Unrechter
 gefunden haͤtte!
-Franziſka. Vergeben ſie's, guter Vater, ſei⸗
+@Franziſka:
+Vergeben ſie's, guter Vater, ſei⸗
 ner Verwirrung.
 Mont. Und, Katelli; das Geſchwaͤtz vom Fuß⸗
 fallen iſt Beleidigung für mich. Bin ich ſo hartſin⸗
 nig, daß mich erſt Fußfälle beſtechen muſſen?
-Franziſka. Ach! ihre Vorwüͤrſe ſind mir zu
+@Franziſka:
+Ach! ihre Vorwüͤrſe ſind mir zu
 hart, wenn ſie unſere Liebe nicht billigen.
 Mont. Ihr ſollt beide meine Kinder ſeyn.
 Mein Vermögen, Katelli, waͤre zu klein geweſen,
@@ -818,12 +912,14 @@ steltzer_montenegro.pdf_000029
 31
 — ſo eilig geht das nicht; dein Vater weiß noch
 von dieſem Allen nichts.
-Katelli. Mein Vater, der mich ſo ſehr liebt,
+@Katelli:
+Mein Vater, der mich ſo ſehr liebt,
 ſollte mir das groͤßte Gluͤk entreiſſen? Rein, das
 wird er nicht, kann er nicht. Dieſe Freudennachricht
 wuͤrde ſein graues Haupt wieder aufrichten; und an
 ſeine Jahre noch Hunderte ketten.
-Franziſka. Er iſt uns gewiß nicht zuwider, und
+@Franziſka:
+Er iſt uns gewiß nicht zuwider, und
 ich will ihn dafuͤr lieben, wie ich ſie und meinen Ka⸗
 telli liebe.
 Mont. Kinder, ich will den Berg fuͤr uͤberſtie⸗
@@ -834,7 +930,8 @@ gebracht, und wird ſich, wie er kann, raͤchen. Ihr
 wuͤrdet zulezt ohne Gut Spanien verlaſſen muͤſſen,
 um nur euer Leben zu retten und ich — wuͤrde fuͤr
 Kummer ſterben.
-Katelli. Geben ſie mir meine Franziſka und ih⸗
+@Katelli:
+Geben ſie mir meine Franziſka und ih⸗
 ren Seegen. Des Guts und der Schlange lach ich
 dann. In einen ſernen Winkel will ich mit Fran⸗
 ziſka hinfliehen; will mit emſiger Arbeit das Brod
@@ -852,13 +949,15 @@ ten nach dem König, gegen die Hand eines gemei⸗
 nen Italieners, aus; Belügt ihn vorher, daß ſie
 nie heirathen will. Wenn du das alles üͤberdenkſt,
 ſo wird's deinen Augen dunkel werden.
-Katelli. Und laſſen ſie ihn toben. Mein Arm
+@Katelli:
+Und laſſen ſie ihn toben. Mein Arm
 iſt ſtark genug, ihn zuruͤk zu ſtoſſen. Ich will ihm
 Waſſers genug entgegen gießen, ſein Feuer zu löſchen.
 Mont. Wird der Muthige zulezt nicht unterlie⸗
 gen muͤſſen, wenn ihn Tuͤkke und Satansliſt zugleich
 bekaͤmpfen?
-Katelli. Und wer wird's ihm ſogleich ſagen,
+@Katelli:
+Und wer wird's ihm ſogleich ſagen,
 daß Franziſkafmein iſt? Geheimn wollen wir den Se⸗
 gen eines fremden Prieſters empfangen; und dann
 nehme ich meine Franziſka in den Arm, und reiſe im
@@ -868,7 +967,8 @@ Mont. Und Mailand iſt das Ende der Welt,
 mein Sohn, ſo, daß er euch nicht ſolgen könne? Der
 Arm des Koͤnigsfreundes reicht weit. Ringe deine
 Hände und ſchuͤttle den Kopf!
-Katelli. Tauſend gezukte Schwerdter wachen in
+@Katelli:
+Tauſend gezukte Schwerdter wachen in
 Mailand üͤber die Bosheit. Es wird dort zu viel
 Licht um ihn ſeyn, als daß er Rache koͤnnte ſtroͤmen
 laſſen. Vor dem Richterſtuhl Gottes klag' ich mich
@@ -878,13 +978,15 @@ steltzer_montenegro.pdf_000031
 33
 Mont. Viel geſagt, mein Sohn! Aber Ver⸗
 ſprechen fallt nie ſo ſchwer, als Erfüllung.
-Katelli. Alles will ich geben! Auch das Blut
+@Katelli:
+Alles will ich geben! Auch das Blut
 das durch meine Adern rollt, will ich fuͤr die Er⸗
 fillung dieſes Verſprechens geben. Lieber will ich
 den Dekkel meines Sarges auſſtoßen laſſen, als dem
 Sturm nicht zu wehren, der dieſe Blumen zerknik⸗
 ken will.
-Franziſka. Katelli! Biſt du ſchon wieder auſe
+@Franziſka:
+Katelli! Biſt du ſchon wieder auſe
 ſer aller Faſſung? Warum irrſt du ſchon in Leichen⸗
 haͤuſern herum? Denk, wir ſind die Roſe, die kaum
 ihr gruͤnes Joch abgeſchuͤttelt hat, und mit froher
@@ -896,7 +998,8 @@ ber, wenn du dich in Meiland nicht ſicher glaubſt,
 in einein duſtern Hayn unter einem Strohdach woh⸗
 nen. Es wird uns Pallaſts genug ſeyn, wenn wir
 drunter beyſammen ſind.
-Katelli. Du haſt recht, goͤrtliches Maͤdchen!
+@Katelli:
+Du haſt recht, goͤrtliches Maͤdchen!
 Deine Worte ſind Engelworte. Ich glaube, Gott
 hat dich zum Engel geſchaffen, und dein Vater hat
 dich nur von ihm zum Menſchenlehrer erbettelt. —
@@ -910,9 +1013,11 @@ steltzer_montenegro.pdf_000032
 Sie iſt dein, mein Sohn. Kommt in meinen vaͤ⸗
 terlichen Arm, Kinder! Ich will euch kühn in den
 Sturm der Welt hinſchikten.
-Katelli. Rehmen ſie dieſen kindlichen Kuß des
+@Katelli:
+Rehmen ſie dieſen kindlichen Kuß des
 Danks.
-Franziſka. Vater, beſter Vater!
+@Franziſka:
+Vater, beſter Vater!
 Mont. Kinder, auf beiden Seiten ſind euch
 Gruben gegraben. Ich vereinige euch, und ihr muͤßt
 bey jedem Tritte zuſehen, ob ihr auf veſten Boden
@@ -968,23 +1073,29 @@ M 1U Ie
 Zwey⸗
 steltzer_montenegro.pdf_000034
 36
-Zweyter Aufzug.
-#Erſter Auftrit.
-eim: Ein Wohnzimmer des Pedrillo.
+# Zweyter Aufzug.
+## Erſter Auftrit.
+$ eim: Ein Wohnzimmer des Pedrillo.
 Pedrilo ſigt und ſchreist. Riklas Ummt bald in
 Prieſterkleidern dazu.
-Niklas. So emſig?
-Pedrillo. Ein Dutzend Todesurtel.
+@Niklas:
+So emſig?
+@Pedrillo:
+Ein Dutzend Todesurtel.
 6
 —
 Riklas. Immerhin, wenn's nur meinem Kopf
 nicht gilt.
-Pedrillo. (ſeht auf) Run? alles gut?
-Niklas. Mehr, als gut. Wenn ſo ein Kopf druͤ⸗
+@Pedrillo:
+(ſeht auf) Run? alles gut?
+@Niklas:
+Mehr, als gut. Wenn ſo ein Kopf druͤ⸗
 ber koͤmmt! (auf ſich zeigend):
-Pedrillo. Iſt ſie mein? Haſt du den Alten
+@Pedrillo:
+Iſt ſie mein? Haſt du den Alten
 bange gemacht ?. p 1m
-Niklas. So weit noch nicht! zu dieſem Sprun⸗
+@Niklas:
+So weit noch nicht! zu dieſem Sprun⸗
 ge ſind meine Beine zu kurz. Der alte Kerl iſt ein
 barſcher Kopf. „„Fuhr mir da entgegen, als wenn er
 einen Zinsbauern vor ſich haͤtte, und pakte mir ſo
@@ -1002,7 +1113,8 @@ einen Hirks dafuͤr gegeben, aber ich mußt's bey ihm
 allerhand von Bedienten in der Rah' und in der Fer⸗,
 ne herum:. und die Burſchen koͤnnen wakker zu⸗
 ſchlagen. M2t3541
-Pedrillo. Alſo alles umſonſt? Riklas! du biſt
+@Pedrillo:
+Alſo alles umſonſt? Riklas! du biſt
 der alte nicht mehr. Sonſt floß Blut um dich her, wo
 du hintratſt, und jezt, glaub' ich, ſuchſt du nach
 Riechbuͤchſen, wenn du uur Naſen bluten ſiehſt.
@@ -1033,16 +1145,19 @@ vorfallen koͤnnte, eilk ich ſort, und als der Bedien⸗
 te, der mein Wachter zu ſeyn ſchien, die Augen et⸗
 was weggewant hatte, macht' ich rechts um, und ver⸗
 barg mich hinter einer Saͤule im Garten.
-Pedrillo. Ueber die unerhoͤrte Dreiſtigkeit! Hat⸗
+@Pedrillo:
+Ueber die unerhoͤrte Dreiſtigkeit! Hat⸗
 ten ſie dich entdekt; mit dem Leben hätteſt du's buß
 ſen muͤſſen. .E1 .
 —
-Niklas. So wäͤr ich doch wenigſtens unter ehr⸗
+@Niklas:
+So wäͤr ich doch wenigſtens unter ehr⸗
 lichen Haͤnden geſtorben, woran ich nie gedacht habe.
 Doch zur Sache! Ich muß noch weiter auf Brod ge⸗
 hen. — Das Madel iſt fuͤr ſie verlohren. Sie iſt
 gekapert.
-Pedrillo. (ſpricht Franziſka nach) Ich werde nie
+@Pedrillo:
+(ſpricht Franziſka nach) Ich werde nie
 heirathen, mein Herr! So? Wart! Der Luͤge ge⸗
 denk ich. Und du ſprangſt nicht gleich vor? Rann⸗
 teſt nicht wenigſtens einen von ihnen nieder?
@@ -1055,7 +1170,8 @@ halten, mußt' ich mich denn auch mit der Zeit pak⸗
 ken. So viel weiß ich; im Garten ſoll ſie gehalten
 werden.
 6
-Pedrillo. Wie's mir in der Bruſt arbeitet!
+@Pedrillo:
+Wie's mir in der Bruſt arbeitet!
 50
 
 Ri
@@ -1077,7 +1193,8 @@ gewiß, braver Niklas! deine Raͤnke ſind maaßlos.
 Riklas. Es iſt auch von Jugend auf meine Pre⸗
 digt geweſen; Riklas, was du lernen willſt, das ler⸗
 ne recht.
-Pedrillo. (geht höhniſch lächelnd auf und nieder)
+@Pedrillo:
+(geht höhniſch lächelnd auf und nieder)
 Ha, ich hoͤre die Erde ſchon beben, auf die ſie vor
 mir hinſtuͤrzen werden! Ich hoͤre dich ſchon wim⸗
 mern, du ſeines Ding, wenn das Blut deines Kas
@@ -1095,16 +1212,19 @@ Riklas. Und dem Mädel wollen ſie das Leben
 ſchenken? Ich daäͤchte, da wir bey der Arbeit wäͤren?
 Je mehr Arbeit, je mehr Verdienſt für mich! Doch
 das Ding ſtirbt ja wohl vom Zuſehen!
-Pedrillo. Rein, wir wollen ſie mitnehmen.
+@Pedrillo:
+Rein, wir wollen ſie mitnehmen.
 Ich will ſie einſperren, und täglich Kummer und
 Gram wieder in ihr aufſchuͤren. Aus einer Ohn⸗
 macht ſoll ſie in die andere fallen. Aus der Ohnmacht
 will ich ſie zur Verzweiflung, aus der Verzweiſlung
 zum Wahnſinn und aus dein Wahnſinn zur Raſerey
 bringen.Wr. IItſ
-Niklas. Damit halten ſie's, wie ſie wollen.
+@Niklas:
+Damit halten ſie's, wie ſie wollen.
 Daß die Komedie nur recht angefangen wird!
-Pedrillo. Deine Sache! Ich ſtekke hier in Ge⸗
+@Pedrillo:
+Deine Sache! Ich ſtekke hier in Ge⸗
 ſchaͤften. Ich folge gauz dir. ..
 Riklas. Viel läßt ſich nun nech nicht davon ſa⸗
 gen, denn unſere Kundſchaft iſt zu ſchwach. Ihre
@@ -1121,14 +1241,16 @@ auf den Knien jammere!
 Ri⸗
 steltzer_montenegro.pdf_000039
 4
-Niklas. Ha, ha! Ich denk aber immer, wenn
+@Niklas:
+Ha, ha! Ich denk aber immer, wenn
 ſie das kleine näͤrriſche Ding wieder ſehen, wird ſich's
 Qualen ſchon geben. Ich muͤßte ſie nicht kennen.
 Weiberthraͤne iſt Lockſpeiſe. Es wäͤr' auch ſonſt alles
 vergebene Arbeit, denn um ſie iſt das ganze Spekta⸗
 kel angeſangen. Das Bischen Rache iſt ſo vieler Um⸗
 ſtaͤnde nicht werth.
-Pedrillo. Nicht? Ich bin der Mann, fuͤr den
+@Pedrillo:
+Nicht? Ich bin der Mann, fuͤr den
 die groͤßten Chrenſtellen Spaniens offen ſind. Mei⸗
 ne Ehr' und alles iſt mir auf ewig verkoren, wenn
 ich mich nicht räche! Ihr Blut ſoll mir lieber, als
@@ -1140,8 +1262,8 @@ der Rachrede eben ſo lange, als bey der Vorrede auf⸗
 halten wollten. Ich muß weiter. So bald ich ir⸗
 gend naͤher Nachricht habe; bin ich wieder da..
 (ab)
-#Zweyter Auftrit.
-Pedrillo allein. (auf und niedergehend)
+## Zweyter Auftrit.
+$ Pedrillo allein. (auf und niedergehend)
 Bald wird das Meer uͤberſchiſt ſeyn! Nur eine
 kleine Sandbank verhindert die Landung noch! (Sezt
 ſich nachdenkend hin) Ich ſeh' aber warlich noch nicht
@@ -1157,56 +1279,67 @@ iſt; da ſie von dort aus ein jeder, nach Gefallen, be⸗
 ſchleichen kann? Und werden ſie ſich an ihrer eige⸗
 nen Geſellſchaſt begnuͤgen? Riklas, Riklas, dein Plan
 iſt zu hitzig gemacht.
-#Dritter Auftrit.
-Pedrillo, Riklas und Kamilla.
+## Dritter Auftrit.
+$ Pedrillo, Riklas und Kamilla.
 Riklas. Da hab' ich einen hubſchen Vogel ge⸗
 fangen. Ich glaube, das Mädchen iſt ein Spion.
-Kamilla. (weint) Ach, gnadiger Herr! Ich
+@Kamilla:
+(weint) Ach, gnadiger Herr! Ich
 komme nur her = ach! ich habe gar nichts boͤſes im
 Sinne gehabt.
-Pedrillo. Wer biſt du Maͤdchen?
+@Pedrillo:
+Wer biſt du Maͤdchen?
 Riklas. Ey, ſehen ſie ihr doch nur recht in die
 Augen. Franziſka's Kammermaͤdel! Sie läͤuſt da un⸗
 ten bey ihrem Bedienten herum, und ſtreichelt ihm
 tapfer den Bart.
-Kamilla. Ich habe gar nichts böſes gethan,
+@Kamilla:
+Ich habe gar nichts böſes gethan,
 gnadiger Herr. Ich habe dem auch nichts gethan, und
 doch ſchleppt er mich zu ihnen herauf. Ich habe nur
 ein Paar Worte mit Jakob geſprochen.
 
-Pedrillo. (zu Niklas) Ich glaube, ſie haben
+@Pedrillo:
+(zu Niklas) Ich glaube, ſie haben
 meine eigenen Leute ſchon vergiſtet! — (vör ſich) Ich
 wdin euch ader zar Reue dringen!
 
 Ka⸗
 steltzer_montenegro.pdf_000041
 43
-Kamilla. Ihr Jakob iſt mein Bräutigam: und
+@Kamilla:
+Ihr Jakob iſt mein Bräutigam: und
 mit dem hab' ich nur ein Paar Worte geſprochen —
 das iſt ja gar nichts uͤbles — und hab' ihm erzehlt
  ach, ich bitte ſie um alles in der Welt, laſſen ſie
 mich doch nur gehen! ich hab' in ihrem Hauſe ja wei⸗
 ter nichts gewollt!
-Pedrillo. Was haſt du mit meinem Bedienten
+@Pedrillo:
+Was haſt du mit meinem Bedienten
 zu ſprechen? Bräutigam! ja dahinter ſtekt etwas
 anders!
-Kamilla. Weiter gewiß nichts. Ich hab ihm
+@Kamilla:
+Weiter gewiß nichts. Ich hab ihm
 nur erzehlt, daß unſer junger Herr ſo ein guter Herr
 iſt, und daß er mir heute durch ſeinen Anton ſo ein
 ſchoͤnes Geſchenk gemacht hat.
-Pedrillo. Hm! wenn's weiter nichts iſt. Sey
+@Pedrillo:
+Hm! wenn's weiter nichts iſt. Sey
 nur nicht ſo furchtſam, mein Toͤchterchen! So iſt
 der Fremde wohl ein recht braver Mann? Alle Welt
 lobt ihn ja.
-Kamilla. Ja wohl, ein rechter Herzensmann!
+@Kamilla:
+Ja wohl, ein rechter Herzensmann!
 Ein Mann zum Verlieben!
-Pedrillo. Dann iſt's auch wohl kein Wunder,
+@Pedrillo:
+Dann iſt's auch wohl kein Wunder,
 daß Franziſka ſich in ihn verliebt hat. Sag' ihr,
 Madchen, ich freue mich recht, daß ſie ſolchen bra⸗
 ven Mann gefunden hat. (dreht ſich um und lacht)
 ¹Riklas. (zu Pedrillo) Der Fang iſt noch beſſer,
 als ich dachte!
-Kamilla. Wiſſen ſie, daß er Franziſka bekömmt?
+@Kamilla:
+Wiſſen ſie, daß er Franziſka bekömmt?
 Sie hat mie Wahl geſagt, daß ſie vielleicht dald heirathe:
 aber
 steltzer_montenegro.pdf_000042
@@ -1216,11 +1349,13 @@ kann's aber noch nicht glauben, was ſie da ſagen;
 man erfuͤhre ja wohl etwas davon. — Ich habe ſie
 immer fuͤr ſo boͤſe auf unſer Haus gehalten; aber ſie.
 ſehen ja dech ſo ſreundlich aus!
-Pedrillo. Bey ſolchem netten Mädchen muß,
+@Pedrillo:
+Bey ſolchem netten Mädchen muß,
 man ja auch nicht barſch ausſehen. (ſtreichelt ihr das
 Geſicht) Weißt du denn nichts neues Mädchen? Nichts
 von Franziſka's Hochzeit?
-Kamilla. Ja, du groſſer Gott! die iſt, wie
+@Kamilla:
+Ja, du groſſer Gott! die iſt, wie
 geſagt, im weiten Felde. Da iſt noch weder an Putz
 noch an ſonſt etwas gedacht. Erſt Verlobung und
 denn Hochzeit, wenn's anders mit dem jungen Herrn
@@ -1228,7 +1363,8 @@ denn Hochzeit, wenn's anders mit dem jungen Herrn
 Pedrillo, Kann denn die Verlobung nicht ohne
 dein Wiſſen vollzogen ſeyn?
 1111
-Kamilla. Wenn ich das nicht einmal haͤtte er⸗
+@Kamilla:
+Wenn ich das nicht einmal haͤtte er⸗
 fahren ſollen! Dech, wer weiß auch? Es iſt wohl
 heute Verlobung, wenn ſie ſo in der Stille gehalten,
 werden kann. Da iſt mit dei. Kleidern gekramt; da
@@ -1244,15 +1380,18 @@ steltzer_montenegro.pdf_000043
 45
 ¹ Riklas. (zu Pedrillo) Ruſen ſi⸗ ihren Bedienten
 zum onziehen. Wir haben keine Zeit zu verliehren.
-Pedrillo. Das iſt aber auch nicht gut, daß dir
+@Pedrillo:
+Das iſt aber auch nicht gut, daß dir
 der Alte nicht mehr traut. (fängt an ſich anzuziehen.)
-Kamilla. Im Grunde iſt's mir auch einerley.
+@Kamilla:
+Im Grunde iſt's mir auch einerley.
 Weitet ſagen dürſt' ich's doch nicht, denn er hat mir
 geſagt, daß ich noch vielmehr von ſeinem Herrn ha⸗
 ben ſollte, wenn ich zu allem hübſch ſiillſchwiege,
 und's nicht unter. die Leute braͤchte.
 
-Pedrillo. Alſo willſt du doch ſo gern ſchweigen
+@Pedrillo:
+Alſo willſt du doch ſo gern ſchweigen
 lernen? Das pflegen ſonſt die Weiber nie zu wollen.
 Fuͤr den guten Vorſatz, Mädchen, will ich dir auch
 etwas ſchenken. Ich ſeh', es iſt bey dir gut ange⸗
@@ -1261,14 +1400,17 @@ Riklas. (lacht) Vortreflich angewandt.
 I Kamilla. Das hab ich ja nicht verdient. Wenn
 es aber aufs Anwenden ankoͤmmt — daran ſoll's nicht
 fehlon. (ſieht die ganze Seene durch das Geld an)
-Pedrillo. Aber du mußt doch ſchon einmal zu
+@Pedrillo:
+Aber du mußt doch ſchon einmal zu
 viel geplaudert haben, daß dir kleiner traut? Oder
 tranſt du mir nicht?
 : Kamilla. Ja, ſie denken denn, ich werd's, weil
 Jakob mein Braͤutigam iſt — Ach ſie wiſſen ja woht,
 was ich ſagen will.
-Pedrillo. Rur heraue!“
-Kamilla. Sie denken denn, ich ſag's hier im
+@Pedrillo:
+Rur heraue!“
+@Kamilla:
+Sie denken denn, ich ſag's hier im
 Hauſe wieder; und weil ſie döͤſe werden würden,
 wenn
 steltzer_montenegro.pdf_000044
@@ -1278,43 +1420,52 @@ wenn ſie hoͤrten, daß Franziſka einen andern heirathe,
 Franziſka auch nicht in Spanien bleiben. Der junge
 Herr hat ihr uͤberdem ſo viel ſchoͤnes von Mailand
 erzehlt.
-Pedrillo. Alſo ſprechen ſie wohl recht viel von
+@Pedrillo:
+Alſo ſprechen ſie wohl recht viel von
 mir?
-Kamilla. Ja wohl. Aber wenn ich dazukom⸗
+@Kamilla:
+Ja wohl. Aber wenn ich dazukom⸗
 me, pumps! ſind ſie ſtille. Nur, daß ich zuweilen
 noch ihren Namen nennen höre.
-Pedrillo. (vor ſich) Ich ſehe wohl, in dem
+@Pedrillo:
+(vor ſich) Ich ſehe wohl, in dem
 Hauſe iſt die Behutſamkeit mit ihrem ganzen Hof⸗
 ſtaat eingekehrt. (laut) Iſt Katelli denn reich?
-Kamilla. Ja wohl! Der muß recht reich ſeyn,
+@Kamilla:
+Ja wohl! Der muß recht reich ſeyn,
 weil er ſo viele Geſchenke im Hauſe austheilt. (Sieht
 das Geld in der Hand an) Aber, daß ſie mir ſo viel
 Geld geben fuͤr nichts und wieder nichts. Sie muͤſ⸗
 ſen doch noch ein beſſerer Herr ſeyn, als Katelli.
-Pedrillo. Das verdienſt du ſchon, weil du ſo
+@Pedrillo:
+Das verdienſt du ſchon, weil du ſo
 ein dreiſtes Maͤdchen biſt. Aber, hoͤr! Umſonſt ſollſt
 du's auch nicht haben. Du muß nun auch huͤbſch
 verſchweigen, daß du bey mir geweſen biſt. Keiner
 muß es wiſſen, als mein Haus.
-Kamilla. Sie ſollen einmal ſehen, wie ich
+@Kamilla:
+Sie ſollen einmal ſehen, wie ich
 ſchweigen kann. Ich bin ſo nicht, als meine Herr⸗
 ſchaſt denkt. Aber machen ſie nur, daß ich recht
 bald mit meinen Jakob Hochzeit machen kann.
 Pe⸗
 steltzer_montenegro.pdf_000045
 47
-Pedrillo. Darauf ſoll's auch nicht ankommen.
+@Pedrillo:
+Darauf ſoll's auch nicht ankommen.
 Ich ſag's dir aber; plappere nicht!
-Kamilla. Ich will wohl Wort halten. Ich
+@Kamilla:
+Ich will wohl Wort halten. Ich
 komme ja auch erſt heut Abend zu Hauſe.
 . Pedrillo. Und wenn du's bis dahin bep dir be⸗
 hältſt, meinſt du, iſt's lange? — Es iſt gut, Mäd⸗
 chen. Geh nur. Ich habe Arbeit.
-Kamilla. Ihre Dienerin, gnädiger Herr.
+@Kamilla:
+Ihre Dienerin, gnädiger Herr.
 6
 
-#Vierter Auftrit.
-Pedrillo und Riklas.
+## Vierter Auftrit.
+$ Pedrillo und Riklas.
 (ab.)
 Riklas. Entweder die Hexe iſt ſchlau, oder hat
 aus Geldgierde oder Dummheit die Wahrheit ge⸗
@@ -1352,7 +1503,8 @@ Werden wir von ihm entdekt? Gut! ſo verſtaͤndigen
 wir ihn auf gut Spaniſch, daß er's nicht wiederſa⸗
 gen muß. Sie verſtehen mich..
 80 G
-Pedrillo. Und dann ſind wir weiter nichts, als
+@Pedrillo:
+Und dann ſind wir weiter nichts, als
 die Woͤlſe, die den Hirten freſſen, und die Heerde
 laufen laſſen. .. I.
 Riklas. Hoͤren ſie nur weiter. Wir warten
@@ -1370,7 +1522,8 @@ steltzer_montenegro.pdf_000047
 auſgerieben, wenn ſie uns in die Quere kommen.
 Ich dächte durch ſechs und wenn's auch noch mehrere
 ſind, haͤtten wir uns ſchon ehr durchgeſchlagen.
-Pedrillo. Die Worte klingen ganz ſuͤß, bey der
+@Pedrillo:
+Die Worte klingen ganz ſuͤß, bey der
 That, glaub' ich aber, wird's höͤchſtens zum Klapt
 pern kommen.
 Riklas. Ach, was dech! Es geht gewiß alles
@@ -1384,8 +1537,8 @@ rede! (geht) Armer Alter, und du armer Katelli!
 ihr denkt wohl an nichts weniger, als das ihr auf
 den Kauf gemacht ſeyd; daß ihr meiner Nahrung hel⸗
 fen ſollt!
-#Füͤnfter Auftrit.
-Pedrillo ollein.
+## Füͤnfter Auftrit.
+$ Pedrillo ollein.
 (ab.)
 (Zieht die Uhr heraus) Wie es ſpätet! ſchon halb
 zwey! — Roch nichts verlohren! Sie ſind noch
@@ -1397,37 +1550,41 @@ Iakob!
 8
 Drit⸗
 steltzer_montenegro.pdf_000048
-Dritter Aufzug.
-#Erſter Auftrit.
-Im Hintergrunde Pedrillo und Riklas in Man⸗
+# Dritter Aufzug.
+## Erſter Auftrit.
+$ Im Hintergrunde Pedrillo und Riklas in Man⸗
 teln verhuͤllt. In der Mitte des Theaters
 ein Tiſch.
-Pedrillo. Sehr heiß! — Und mein kochendes
+@Pedrillo:
+Sehr heiß! — Und mein kochendes
 Blut macht mich noch heiſſer. Kaum daß ich's er⸗
 warten kann, da uns alles ſo zu gluͤtken ſcheint. Ich
 ſtelle mir das Feſt ſo lebhaſt vor, daß es meine Be⸗
 gierde wuͤtend macht.
 Riklas. Richt ſo laut! Wir duͤrſen hier nicht
 viel — (verbirgt ſich mit Pedrillo)
-#Zweyter Auftrit.
-Aaton kömmt und ſetzt ein Paar Stühle um den Tiſch.
+## Zweyter Auftrit.
+$ Aaton kömmt und ſetzt ein Paar Stühle um den Tiſch.
 Geht wieder.
-#Dritter Auftrit.
-Pedrillo und Riklas.
-Niklas. Sehn ſie's? Wenn's dem nicht vor
+## Dritter Auftrit.
+$ Pedrillo und Riklas.
+@Niklas:
+Sehn ſie's? Wenn's dem nicht vor
 den Ohren braußt, ſo hat er uns gewiß gehoͤrt. (ver⸗
 bergen ſich)
 Vier⸗
 steltzer_montenegro.pdf_000049
 5
-#Vierter Auftrit.
-Ankon kömmt von der einen Seite mit Stählen. Ein
+## Vierter Auftrit.
+$ Ankon kömmt von der einen Seite mit Stählen. Ein
 anderer Bedienter koͤmmt von der andern Seite;
 mit Gewehr in der Hand, und trit an den Tiſch.
-Anton. Sind deine Leute noch nicht da? Wozu
+@Anton:
+Sind deine Leute noch nicht da? Wozu
 das Zaudern? Sie ſind um halb zwey beſtellt.
 Bedienter. Stetken im Gartenhauſe.
-Anton. Und gaffen da die vier Waͤnde an? Da
+@Anton:
+Und gaffen da die vier Waͤnde an? Da
 zu ſind ſie auch gedungen; nicht wahr? Den Garten
 ſollen ſie durchſpuͤhren! Und ich ſag's noch einmal,
 wenn ſie jemanden ſehen, ſo ſollen ſie Lerm machen.
@@ -1441,9 +1598,10 @@ Bedienter. (der bald drauf auf der andern Seite
 abgeht) Stellt er ſich nicht an, als wenn er Angſt
 ware, auf einen ſeurigen Wagen durch die Luſt ge⸗
 holt zu werden.
-#Fuͤnfter Auftrit.
-Pedrillo und Riklas.
-Pedrillo. Und wenn uns der Teufel noch oben
+## Fuͤnfter Auftrit.
+$ Pedrillo und Riklas.
+@Pedrillo:
+Und wenn uns der Teufel noch oben
 drein ſeine Garde ſchikte, ſo richten wir hier nichts
 aus.
 2 2
@@ -1452,7 +1610,8 @@ steltzer_montenegro.pdf_000050
 Riklas. Es laufen ihrer gar zu viel herum. Ich
 dächte, wir ſuchten andere Wege. — Nach Haus,
 Herr!
-Pedrillo. (nach einer Pauſe) Rein, nun will
+@Pedrillo:
+(nach einer Pauſe) Rein, nun will
 ich's bis aufs Hoͤchſte treiben. Willſt du mich denn
 zum Ball machen, womit das Schikſal ſein muchwil⸗
 liges Spiel treiben ſoll?
@@ -1464,14 +1623,18 @@ ich mein Wort breche. Ich habe gewiſſere Wege im
 Sinn. Möͤgte der Teufel denken, daß man hier ſo
 viel Geſindel ſinden wüͤrde. Ich glaube, ſie haben
 ihre halbe Baurſchaft aufgeboten.
-Pedrillo. Du Weiberſeele! Tauſende waͤren
+@Pedrillo:
+Du Weiberſeele! Tauſende waͤren
 dir zu ſchwach, wenn deine Fauſt nicht deiner Zunge
 die Huͤlfe verſagte.
-Niklas. Herr, nicht mehr, ſonſt ſpann' ich
+@Niklas:
+Herr, nicht mehr, ſonſt ſpann' ich
 vor dem andern Wagen. Genug, ich breche mein
 Wort nicht.
-Pedrillo. Richt beſſer wird's gehen, als jezt.
-Niklas. Waͤre doch ſchlim, wenn aus meinem
+@Pedrillo:
+Richt beſſer wird's gehen, als jezt.
+@Niklas:
+Waͤre doch ſchlim, wenn aus meinem
 Beſuch bey dem alten Montenegro nicht mehr Ho⸗
 nig zu ſaugen wäre.
 
@@ -1481,8 +1644,8 @@ Neerſe und Nleine llechen ſe g
 Sech⸗
 steltzer_montenegro.pdf_000051
 53
-#Sechſter Auftrit.
-Montenegro koͤmmt von der andern Seite faſ mit
+## Sechſter Auftrit.
+$ Montenegro koͤmmt von der andern Seite faſ mit
 denen Wäͤchtern zugleich und ſezt ſich
 auf einen Stuhl.
 Lieber, guter Tag, wie willkommen biſt du mir!
@@ -1490,14 +1653,15 @@ Wie mein Blik ſo ganz aufgeklärt, und mein wan⸗
 kender Trit ſo veſt wird! Mit Freuden geh' ich
 jezt ins Grab, denn Sorgen bleiben nicht hinter
 mir.
-#Siebenter Auftrit.
-Montenegro und Anton, (der aus dem Hinter⸗
+## Siebenter Auftrit.
+$ Montenegro und Anton, (der aus dem Hinter⸗
 grunde dazu koͤmmt.)
 Monten. Das freut mich, Anton, daß du
 im Dienſt deines Herrn ſo wachſam biſt. Eine gu⸗
 te, rechtſchafne Seele biſt du, und Gott wird's dir
 ſegnen.
-Anton. Das bey Seite. Ich habe hart an
+@Anton:
+Das bey Seite. Ich habe hart an
 unſerm Garten ein paar Vermummte geſehn. Sie
 eilten ſehr, aber ich kukte ihnen ſo lange nach, als
 ich konnte. Endlich kroch der eine ſo etwas aus ſei⸗
@@ -1505,7 +1669,8 @@ nem Mantel hervor und ſah ſich um. Ich haͤtte
 drauf geſchworen, daß es der Pfaff geweſen waͤre,
 der heute Morgen bey ihnen war.
 Monten. Und der andere, Anton?
-Anton. Den kkonnt' ich nicht ausforſchen. Kön⸗
+@Anton:
+Den kkonnt' ich nicht ausforſchen. Kön⸗
 nen ſie aus des Pfaffen Reden nichts argwohnen:
 2 3
 Mont
@@ -1520,7 +1685,8 @@ mein Flehen zu dir. Du biſt der Schirm des Grei⸗
 ſes und der jugendlichen Unſchuld. Bahne mir den
 Weg zu meinen Grabe eben, und brich die Dornen,
 die vor meinem Schritte keimen.
-Anton. (vor ſich) Weinen möͤgt' ich üͤber den
+@Anton:
+(vor ſich) Weinen möͤgt' ich üͤber den
 frommen Mann! (laut) Laſſen ſie's ſich nicht bange
 ſeyn. Ich habe ihren Leuten noch einmal alles recht
 vorgepredigt. Wir haben nichts zu fuͤrchten. Es
@@ -1531,8 +1697,8 @@ chen unter unſerm Fuſſe. — Da kommen meine Kin⸗
 der. Laß dir nichts gegen ſie merken. Es wuͤrde ſie
 nur trübſinnig machen.
 (Anton ab.)
-#Achter Auftrit.
-Montenegro, Katelli und Franziſta
+## Achter Auftrit.
+$ Montenegro, Katelli und Franziſta
 (in Reiſekleidern.)
 Monten. Der Himmel ſegne euch meine Kin⸗
 der! (ſapt ſie ben der Hand und ſeit ſch nicder nu.i
@@ -1542,13 +1708,15 @@ steltzer_montenegro.pdf_000053
 nen) Wenn der Prieſter nur eilte! Aber, (ſieht
 nach der Uhr) er kann noch nicht kommen. An euch
 fehlt's nun doch nicht?
-Franziſka. Nein, beſter Vater. Auch des
+@Franziſka:
+Nein, beſter Vater. Auch des
 Prieſters beduͤrſten wir nicht, denn unſere Herzen
 ſind ſchon ſo vereint, daß ſie keine Menſchenmacht,
 trennen kann.
 Monten. Aber warum ſeyd ihr ſchon ſo ganz
 in Reiſekleidern?
-Katelli. Wozu ſollten wir uns noch putzen,
+@Katelli:
+Wozu ſollten wir uns noch putzen,
 Vater ?
 Monten. Recht, mein Sohn! Den beſten
 Schmuk, die Tugend, habt ihr ſchon im Herzen.
@@ -1559,7 +1727,8 @@ re mir lieber geweſen, ihr waͤret mir nicht ſo vor
 die Augen gekommen. Es iſt mir ein Stich durch
 mein altes Herz. Ihr mich verlaſſen! Kinder,
 Kinder!
-Katelli. Ja, heute noch verlaſſen! Unſer al⸗
+@Katelli:
+Ja, heute noch verlaſſen! Unſer al⸗
 ler Wohl zwingt mich, daß ich ihnen die Wunde
 noch tiefer graben muß. Aber erfuͤllen ſie unſer
 Bitten und reiſen ſie mit uns. Ohne ſie wuͤrden
@@ -1568,54 +1737,71 @@ koͤnnen.
 D 4
 Fran⸗
 steltzer_montenegro.pdf_000054
-Franziſka. O ja! Sie reiſen auch mit uns.
+@Franziſka:
+O ja! Sie reiſen auch mit uns.
 Nicht wahr? Bleiben bey uns, ſo lange ſie leben.
 Wie wüͤrde ſich meines Katelli's Vater nicht freuen,
 wenn er ſie wiederſähe?
 Monten. Ich glaube nicht, daß mein ſchwa⸗
 cher Körper die lange Reiſe aushält.
-Katelli. Wir wollen ſie auf den Händen tra⸗
+@Katelli:
+Wir wollen ſie auf den Händen tra⸗
 gen, wenns ſie's fordern.
-Franziſka. Lieber Vater! — Geräuſch im
+@Franziſka:
+Lieber Vater! — Geräuſch im
 Hauſe!
-Katelli. Ein Prieſter kömmt in den Garten!
+@Katelli:
+Ein Prieſter kömmt in den Garten!
 — Mit bewaſneten Leuten!
-Franziſka. Sie werden doch hier keinen Ver⸗
+@Franziſka:
+Sie werden doch hier keinen Ver⸗
 brecher ſuchen?
-#Neunter Auftrit.
-Die vorigen, Prieſter, Wache und Anton.
-Prieſter. Iſt hier ein gewiſſer Katelli?
-Franziſka. Groſſer Gott im Himmel!
-Katelli. So heiß ich.
-Prieſter. Ich konim' im Ramen der heiligen
+## Neunter Auftrit.
+$ Die vorigen, Prieſter, Wache und Anton.
+@Prieſter:
+Iſt hier ein gewiſſer Katelli?
+@Franziſka:
+Groſſer Gott im Himmel!
+@Katelli:
+So heiß ich.
+@Prieſter:
+Ich konim' im Ramen der heiligen
 Inquiſition. Sie haben wider Religion geſprochen
 und deshalb muͤſſen ſie ſich verantworten. Folgen
 ſie mir in dis Mauren des heiligen Gerichts.
-Katelli. Herr Pater! beweiſen ſie, daß die
+@Katelli:
+Herr Pater! beweiſen ſie, daß die
 heilige Juguiſition ſie ſchitt.
 Prie⸗
 steltzer_montenegro.pdf_000055
 87
 Prieſier. Hier iſt mein Zertiſikat.
-Katelli. (lieſt) Sie ſind recht. (hitzig) Aber
+@Katelli:
+(lieſt) Sie ſind recht. (hitzig) Aber
 ein Schurke hat das dem heiligen Gericht benach⸗
 richtiget. Ich ſpreche nie wider Religion. Ich bin
 froh, daß ich unter ihrem Schuz lebe.
-Prieſter. Geben ſie ihren Degen den Dienern
+@Prieſter:
+Geben ſie ihren Degen den Dienern
 der heiligen Hermandat und ſolgen ſie. Vertheidi⸗
 gen ſie ſich vor dem Gericht ſelbſt. Mein Ohr muß
 jeder Vertheidigung taub ſeyn.
-Franziſka. Mein Katelli! Dn Engelunſchuld!
+@Franziſka:
+Mein Katelli! Dn Engelunſchuld!
 Wider Religion! Gort! (Sie fällt ſchwach über.)
-Prieſter. (indem Katelli nachdenkend ſteht) Zau⸗
+@Prieſter:
+(indem Katelli nachdenkend ſteht) Zau⸗
 dern ſie nicht. Auch Franziſka iſt darein verwikelt.
 Folgen ſie nicht willig und gleich, ſo begnüg' ich
 mich nicht mit ihnen allein.
-Katelli. (auffahrend) Meine Franziſta ſollte
+@Katelli:
+(auffahrend) Meine Franziſta ſollte
 von deiner Gnade abhaͤngen, Prieſter?
-Prieſter. Mäßigen ſie ſich. Nicht von der
+@Prieſter:
+Mäßigen ſie ſich. Nicht von der
 meinigen. Von der Gnade der heiligen Inquiſition.
-Katelli. Auch von der nicht. Sie iſt ein En⸗
+@Katelli:
+Auch von der nicht. Sie iſt ein En⸗
 gel und uͤber euch alle. (ſieht ſich nach Franziſka um,
 die matt auf dem Stuhl ſizt.) Franziſta, Franziſta!
 Ich Armſeliger! Richts als unglaubliche Schlage
@@ -1627,27 +1813,35 @@ D s
 Ka⸗
 steltzer_montenegro.pdf_000056
 58
-Katelli. Rein! (zum Prieſter) Mörder! du
+@Katelli:
+Rein! (zum Prieſter) Mörder! du
 haſt ſie ermordet. (will mit den Degen auf ihn zu.)
-Anton. (fällt ihm in den Arm) Was machen
+@Anton:
+(fällt ihm in den Arm) Was machen
 ſie, lieber Herr? Beſinnen ſie ſich doch.
 Monten. Lerne Maͤßigung von mir. Be⸗
 denke die Schaͤrſe des heitigen Gerichts, und die
 Ehrfurcht, die wir ihm ſchuldig ſind. Vergreiſe
 dich nicht an einer geweyhten Perſon.
-Katelli. Rein, das will ich nicht; thu' ich
+@Katelli:
+Rein, das will ich nicht; thu' ich
 nicht! Der heilig! (faßt ihn vor die Bruſt) Du hei⸗
 lig? Ein Moͤrder biſt du!
-Prieſter. Sie wollen nicht guͤtlich gehen. Wache!
-Katelli. Wer mich anruͤhrt, iſt nur noch zwey
+@Prieſter:
+Sie wollen nicht guͤtlich gehen. Wache!
+@Katelli:
+Wer mich anruͤhrt, iſt nur noch zwey
 Schritte vom Kirchhofe.
-Prieſter. Folgen ſie, oder ich nehme Franziſ⸗
+@Prieſter:
+Folgen ſie, oder ich nehme Franziſ⸗
 ka. (tritt näͤher an Franziſka.
-Katelli. Kein Wort mehr, Prieſter, oder du
+@Katelli:
+Kein Wort mehr, Prieſter, oder du
 wagſt dein Leben.
 Monten. Gehe mein Sohn; reine Unſchuld
 begleitet dich.
-Katelli. Ich gehen und Franziſta halb tod zu⸗
+@Katelli:
+Ich gehen und Franziſta halb tod zu⸗
 ruͤklaſſen? Sie vergebens ihren Katelli rufen laſ⸗
 ſen? — Und ich mit dem Auswurf des menſchli⸗
 chen Geſchlechts uͤber die Straſſe gehen? Rein, Lieb'
@@ -1659,7 +1853,8 @@ steltzer_montenegro.pdf_000057
 59
 deine Franziſka erwacht! Ich werde ihr Herz als⸗
 denn leichter beruhigen koͤnnen.
-Katelli. (wirſt ſich vor Franziſka nieder und legt
+@Katelli:
+(wirſt ſich vor Franziſka nieder und legt
 ſeine Häͤnde auf ihren Schooß) Meine Liebe, mir
 heiliger, als alles! deinetwillen folg ich, achte mei⸗
 ne Ehr' und alles nicht. Auch dies Leben geb' ich
@@ -1667,20 +1862,27 @@ dir gern, wenn du's forderſt. (aufſtehend zu Mon⸗
 tenegro) Sorgen ſie für ſie. Weyhen ſie ihr alle
 Sorgfalt, die ſie nur ausſinnen koͤnnen. Bald, bald
 werd' ich ſie wiederſehen — Anton!
-Anton. Hier bin ich, Herr! Ich bin von Ju⸗
+@Anton:
+Hier bin ich, Herr! Ich bin von Ju⸗
 gend auf bey ihnen geweſen, und gehe auch jezt nicht
 von ihnen. Von ihrer Seite weich' ich nicht.
-Katelli. Du bleibſt hier (bey Seite) und ſat⸗
+@Katelli:
+Du bleibſt hier (bey Seite) und ſat⸗
 telſt mir zwey Pferde. Hier am Garten ſollſt du
 halten. *
-Anton. Ich ginge ſo gern mit ihnen. —
-Katelli. Rein!
-Anton. (die Hände ringend) Nun widerſtrei⸗
+@Anton:
+Ich ginge ſo gern mit ihnen. —
+@Katelli:
+Rein!
+@Anton:
+(die Hände ringend) Nun widerſtrei⸗
 te mir einer, daß Pſaffen und Weiber der Keiin
 des meiſten Ungluͤks ſind! (geht unwillig ab.)
-Prieſter. Ohne ferneres Zaudern geben ſie
+@Prieſter:
+Ohne ferneres Zaudern geben ſie
 den Degen ab.
-Katelli. Gehen will ich mit euch, ihr Die⸗
+@Katelli:
+Gehen will ich mit euch, ihr Die⸗
 ner der Bosheit. O, ich kenne eure Tuͤkke! Pe⸗
 drillo! — witterſt du Unrath, Prieſtet? Ich fol⸗
 8
@@ -1689,15 +1891,18 @@ steltzer_montenegro.pdf_000058
 ge dir, gleich folg ich; aber meinen Degen behalt
 ich. Von keinem Prieſter laß' ich mich entwafnen.
 (Wache trit zu, ihm den Degen abzunehmen.)
-Prieſter. Laßt! Er iſt ſeines Verſtandes nicht
+@Prieſter:
+Laßt! Er iſt ſeines Verſtandes nicht
 mächtig. Bietet euer Leben nicht muthwillig aus.
 (zu Katelli) Ich will nachſichtig ſeyn. Aber ich
 beſchwoͤre ſie bey dei Zorn des heiligen Gerichts, daß
 ſie gelaſſen gehen!
 (Katelli, Prieſter und Wache ab.)
-#Zehnter Auftrit.
-Montenegro. Franziſka.
-Franziſka. (nach einer kleinen Pauſe mit gebroch⸗
+## Zehnter Auftrit.
+$ @Montenegro:
+Franziſka.
+@Franziſka:
+(nach einer kleinen Pauſe mit gebroch⸗
 ner Stimme) Katelli! — Wo biſt du? — mein
 Katelli!
 Monten. Bald wird dies alles mein graues
@@ -1707,7 +1912,8 @@ derkommen. (vor ſich) Aber — ach! er iſt in
 den Haͤnden eines ſcharfen Gerichts, und er hat
 noch nicht Baͤndigung der Zunge geiernt. In der
 Hitze traͤumt er ſich den Herrn der Welt.
-Franziſka. (hitzig) Mein Katelli! (fährt auf)
+@Franziſka:
+(hitzig) Mein Katelli! (fährt auf)
 Montenegro verſucht ſie zu halten) Nein! ich will ihn
 aufſuchen, ihn losmachen!
 Monten. (ſtegt auf) Hüͤlfe, Hülfe! Meine
@@ -1716,12 +1922,14 @@ deſe Lochter, falfe dich!
 —
 steltzer_montenegro.pdf_000059
 61
-#Eilfter Auftrit.
-Die vorigen, Prieſter und Wache, Franziita
+## Eilfter Auftrit.
+$ Die vorigen, Prieſter und Wache, Franziita
 entgegen kommend.
-Franziſka. (zum Prieſter) Ha, Räuber! von
+@Franziſka:
+(zum Prieſter) Ha, Räuber! von
 dir fordre ich ihn wieder! Wo iſt mein Katelli?
-Prieſter. Er hat einige von meinen Leuten
+@Prieſter:
+Er hat einige von meinen Leuten
 niedergeworſen und iſt entſprungen. Er hat ſein
 Leben verraſet. Zu meiner Sicherheit muß ich —
 Sie nehmen.
@@ -1730,8 +1938,8 @@ Mont. Nun wird Mäßigung auch mir zu
 Tochter!— Mein alles ſoll euer ſeyn. Oder nehmt
 mich alten Graukopf auch! (Prieſter und Wache mit
 Franziſka ab.)
-#Zwoͤlfter Auftrit.
-Montenegro allein.
+## Zwoͤlfter Auftrit.
+$ Montenegro allein.
 Umſonſt! O, daß meine Fuͤße zu ſchwach ſind,
 ihnen nachzueilen! — Katelli, Katelli! du biſt
 ein Moͤrder! Mein und meiner Tochter Mörder!
@@ -1747,12 +1955,13 @@ genug, nehmt zu eurer Saͤtignng auch mich! Ent⸗
 reißt meinen Haͤnden die Kruͤkke, ſchlagt meine graue
 Hirnſchaͤdet damit ein, und trinkt mein Gehirn, ihr
 Blurigel!
-#Dreyzehnter Auftrit.
-Montenegro und Katelli, der plötlich von hinten
+## Dreyzehnter Auftrit.
+$ Montenegro und Katelli, der plötlich von hinten
 auf ihn zuſpringt.
 Monten. Katellt! deine Tollkühnheit, deine
 Unbeſonnenheit hat keine Schranken.
-Katelli. Wo iſt Franziſka? Sie muß mit mit
+@Katelli:
+Wo iſt Franziſka? Sie muß mit mit
 fort eilen. Ich will mit ihr hinfliehen, wo uns
 kein Satansauge erforſchen kann.
 Monten. Wahnſinniger! du haſt deine und
@@ -1760,7 +1969,8 @@ ihre Sache verdorben. Fuͤr dich hat man ſie ge⸗
 nommen. Eingeſperrt in duͤſtern Mauren wird ſie
 da ſitzen und mich verfluchen, daß ich ſie gezeugt ha⸗
 be. (weint.)
-Katelli. (tobend) Ich will hin, will ſie be⸗
+@Katelli:
+(tobend) Ich will hin, will ſie be⸗
 freyn. Ich will meinen Kopf fuͤr den ihrigen in
 den Rachen der Menſchenfreſſer ſtekken.
 Monten. Sie werden ihn dir abbeiſſen und
@@ -1773,9 +1983,10 @@ te dich!
 Vier⸗
 steltzer_montenegro.pdf_000061
 3
-#Vierzehnter Auftrit.
-Montenegro und Hieronimus.
-Hieronimus. Mein Segen mit ihnen!
+## Vierzehnter Auftrit.
+$ Montenegro und Hieronimus.
+@Hieronimus:
+Mein Segen mit ihnen!
 Monten. Sie kommen zu ſpaͤt, Freund. Sie
 ſollten meiner Tochter den Brautkranz aufſetzen;
 jezt koͤnnen ſie's ihrem Sarge. Die heilige Inqui⸗
@@ -1786,13 +1997,15 @@ me verſtokte Blindheit des Volks! Mit ofnen Au⸗
 gen ſieht es den Tyrannen im Pfaffen, und doch
 haͤlt es ihre Bosheit fuͤr That der Heiligen! kreu⸗
 zigt ſich, wenn ſie voruͤbergehen!
-Hieronimus. Gott, was iſt ihnen?
+@Hieronimus:
+Gott, was iſt ihnen?
 Monten. Das zu erzehlen vermag ein Greiß
 nicht. Ich wüͤrde mein Geſicht verliehren, wenn
 ich mir die Bilder alle noch einmal vormahlte —
 Ich wuͤnſchte, auch ſie hätten das härne Kleid
 nicht an.
-Hieronimus. Suchen ſie Stille für ihren Geiſt,
+@Hieronimus:
+Suchen ſie Stille für ihren Geiſt,
 und Zuͤgel für ihre Worte. Sie wiſſen einmal, daß
 wir in einem Lande wohnen, wo die Stuͤze der Re⸗
 ligion Grauſamkeit iſt, wo man den Dornſtrauch
@@ -1811,18 +2024,21 @@ tigkeit des beherzten Mannes aufſuchen! Sie beduͤr⸗
 ſen der Ruhe. Kommen ſie!
 Monten. Und woher nehm ich die? Ich bin
 der Dürſtige in der Wuͤſte.
-Hieronimus. Heben ſie ihre Häͤnde empor.
+@Hieronimus:
+Heben ſie ihre Häͤnde empor.
 Den Fiommen wird nichts verſagt.
 Monten. Ich hab's gethan; aber ich bin
 zum Maͤrtyrer erkohren, ſonſt zoͤgerte die Hulfe ſo
 lange nicht.
-Hieronimus. Sie verzweiſeln? Standhaft
+@Hieronimus:
+Sie verzweiſeln? Standhaft
 muß ein Maͤrtyrer ſeyn. Oder — ſie ſind jezt
 etwas ruhiger — erzehlen ſie mir den Grund ihres
 Zorns. Ich will Troſt daraus aufſuchen und Ruhe
 in ihre Seele gieſſen.
 Monten. Sie wiſſen, ich habe eine Tochter.
-Hieronimus. Ja.
+@Hieronimus:
+Ja.
 Monten. Katelli, ein junger Vetter von mir,
 beſuchte mich. Er und Franziſka ſind mir eins. Sie
 liebten ſich ſogleich, da ſie ſich nur ſahen; denn ſie
@@ -1846,7 +2062,8 @@ entſprang und fuͤr ihn nahmen ſie meine Franziſta.
 Ach, ich hielt ſie fuͤr den Troſt meines Alters, und
 nun hab' ich ſie gezeugt, mein graues Haupt ein⸗
 zudruͤkken.
-Hieronimus. (Wie viel Boshafte macht der
+@Hieronimus:
+(Wie viel Boshafte macht der
 Hoff nicht? Und wie viele Lieblinge des blinden Fuͤr⸗
 ſten bringen ihre niedrigen Gedanken unter dem
 Schuz des Throns zur That! Ich bedaure ſie und
@@ -1866,7 +2083,8 @@ steltzer_montenegro.pdf_000064
 haben keinen Werth mehr! Sie ſind abgeſezte Muͤn⸗
 de! Heuchelnde Schmeichler ſind die Manner des
 Gluͤks!
-Hieronimus. Ihr Urtheil iſt zu allgemein!
+@Hieronimus:
+Ihr Urtheil iſt zu allgemein!
 Der aufgebrachte, zornige Mann ſpricht noch aus ih⸗
 nen. Ich will ihnen rathen, und als ein Freund
 beyſtehen. Folgen ſie mir jezt und ſuchen ſie ſich
@@ -1876,7 +2094,8 @@ Herz geäzt ſind.
 Monten. Schlaf? Der Todesſchlaf wird
 mein erſter wieder ſeyn. Mein Herz predigts
 mir.
-Hieronimus. Martern ſie ſich mit dieſem
+@Hieronimus:
+Martern ſie ſich mit dieſem
 heßlichen Wahn nicht. Sie werden ein Selbſtmoͤr⸗
 der. (Hilft ihn vom Stuhl auf und führt ihn ab)
 Iſt ihnen dieſer Rame ſo kleindeutend?
@@ -1890,9 +2109,9 @@ Bürger dieſer argen Welt.
 Vier⸗
 steltzer_montenegro.pdf_000065
 61
-Vierter Aufzug.
-#Erſter Auftrit.
-Ein Vorſaal in Montenegro's Schloß, den eine
+# Vierter Aufzug.
+## Erſter Auftrit.
+$ Ein Vorſaal in Montenegro's Schloß, den eine
 Lampe ganz ſchwach erleuchtet
 Katelli allein, kurt angezogen, in einen Mantel vet⸗
 huͤllt und einen bloſſen Degen in der Hand
@@ -1940,29 +2159,35 @@ pſen ſehen, und ſinnt jezt ſchon vor der Thuͤr des
 Schloſſes den rauhſten Weg zum Tode fuͤr mich
 cus.3: 6.
 —
-#Zweyter Auftrit.
-Katelli und Anton.
-Anton. Endlich find' ich ſie, nachdem ich weit
+## Zweyter Auftrit.
+$ Katelli und Anton.
+@Anton:
+Endlich find' ich ſie, nachdem ich weit
 und breit herumgelaufen bin. Um ihres alten Va⸗
 ters, um die lezten Worte des alten Montenegro's
 bitt ich ſie, retten ſie ſich.
 Ka⸗
 steltzer_montenegro.pdf_000067
 69
-Katelli. Wieder ein Schlag, derb, wie die
+@Katelli:
+Wieder ein Schlag, derb, wie die
 erſten! Er iſt tod? Tod, Franziſta's Vater, mein
 Vater?
-Anton. Roch nicht, aber bald wird's mit ihm
+@Anton:
+Roch nicht, aber bald wird's mit ihm
 aus ſeyn. Ein guter ehrlicher Pfaff iſt mit ihm
 nach Madrit gefahren. Noch im Wagen ſchlug er
 die Haͤnde zuſammen und lallte mit bebender Stim⸗
 me: Franziſta, Katelli, Rettung!
-Katelli. Bey jedem Troͤpſchen meines Bluts
+@Katelli:
+Bey jedem Troͤpſchen meines Bluts
 ſchwoͤr ich dir, daß ich dich retten will!
-Anton. Misbrauchen ſie die Zeit nicht, ich
+@Anton:
+Misbrauchen ſie die Zeit nicht, ich
 bitte ſie um alles, was ihnen lieb iſt. Pedrillo laͤuſt
 mit knirſchenden Zaͤhnen ums Schloß.
-Katelli. (Nach einer langen Pauſe) Anton ich
+@Katelli:
+(Nach einer langen Pauſe) Anton ich
 bin jezt auf einen beſondern Entſchluß gekommen.
 Kühn, aber gut, wenn er gelingt. Tiefſinnig
 irri' ich an den Mauren von Madrit. Nicht fern
@@ -1982,27 +2207,32 @@ steltzer_montenegro.pdf_000068
 70
 ſter ſoielen. Rur mußt du dahin ſehen, daß kei⸗
 ner davon koͤmmt.
-Anton. Und er ſollte nichts argwöͤhnen, wenn
+@Anton:
+Und er ſollte nichts argwöͤhnen, wenn
 der Bube nicht zuruͤk kommt?
-Katelli. Was zuräkkommen! Er ſoll ja mie
+@Katelli:
+Was zuräkkommen! Er ſoll ja mie
 dem Prieſter ins Gefangniß gehen. Wie kann er
 denn zuruͤkkommen? Sorge fuͤr ſichere Leute. Zeit
 haſt du genug. Sie werden erſt um zwoͤlf Uhr ins
 Inquiſitionshaus gehen.
-Anton. Ach! vergeſſen ſie doch das, und rete
+@Anton:
+Ach! vergeſſen ſie doch das, und rete
 ten ſie ſich! Pedrillo weiß, daß das Haus von al⸗
 len Leuten aus Roth, aus Aberglauben und aus
 blinder Religion verlaſſen iſt. Er wird hereinſtuͤr⸗
 men, Er wird ſie aufſuchen und finden, und denn
 — ach! retten ſie ſich.
-Katelli. Ats wenn ich da ſicherer wäͤre, wenn
+@Katelli:
+Ats wenn ich da ſicherer wäͤre, wenn
 ich vor ſeinen Augen zur Thuͤr herausginge. Ich
 wäre füͤr ihn eine ſchlaraffenlaͤndiſche Taube. Thu',
 was ich dir geſagt habe. — Es ſoll mir lieb ſeyn,
 wenn er hereinkoͤmmt, ſonſt muß ich zu ihm gehen.
 Ha! Ich will die Schlange mit Liſt fangen! Run
 geh! Du machſt mich nur verwirrt.
-Anton. Sie gehen gewiß wieder auf irrigen
+@Anton:
+Sie gehen gewiß wieder auf irrigen
 Wegen. Ihr verwirrter Blik ſagt's mir. Setzen
 ſie ſich in Sicherheit, und denn ſuchen ſie ſich ein
 paar Freunde. Ihr gutes Herz wird ſie leicht ſin⸗
@@ -2011,7 +2241,8 @@ steltzer_montenegro.pdf_000069
 71
 den. Seyn ſie offenherzig gegen ſie, und füͤhren
 ſie mit ihnen ihre Sache aus.
-Katelli. Ja, Freunde! Wo ſoll ich ſie ſuchen,
+@Katelli:
+Ja, Freunde! Wo ſoll ich ſie ſuchen,
 in einem Lande voll Falſchheit und Argliſt? Ich
 machte mich zum verungluͤkten Mann in den Wel⸗
 len des tobenden Meers, der ſich nach ein Bret um⸗
@@ -2025,8 +2256,10 @@ de. Rein, ich will meine Laſt allein tragen. Of⸗
 Jedermann aufſchließt, und, wenn ſie ausgepakt ſind,
 ſremde Hande mit ſeiner Waare wuchern ſieht, ohne
 Rußzen davon zu haben.
-Anton. Deuken ſie doch nicht ſo boͤſe.
-Katelli. Laß deine Philoſophien jezt weg und
+@Anton:
+Deuken ſie doch nicht ſo boͤſe.
+@Katelli:
+Laß deine Philoſophien jezt weg und
 geh! Fürchte nichts! Die gerechte Sache geht vor.
 uns her! Alle Schuld faͤllt auf ihn. Er vertän⸗
 delt ſein Leben. Wenn er mir meine Franziſka da⸗'
@@ -2034,7 +2267,8 @@ heim fuͤhren laͤßt, ſo ſoll das Erbarmen meine Blut⸗
 gierde unterdruͤkken. (horcht auf ein Geräuſch hinter'
 der Bühne) Geh, Anton, hinten hinaus und halt
 dich rüſtig!
-Anton. (geht) Der Himmel ſey dein Be⸗
+@Anton:
+(geht) Der Himmel ſey dein Be⸗
 gleiter! Und wenn du fällſt, ſo ſchitke mir deinen
 8 4
 Geiſt.
@@ -2045,54 +2279,67 @@ fuͤr ein gutes Sterben ſeyn, wenn man fuͤr ſeinen
 Herrn ſtirbt.
 —
 (ab.)
-#Dritter Auftrit.
-Katelli allein.
+## Dritter Auftrit.
+$ Katelli allein.
 Aber, Verſtellung, wo nehm' ich dich her? Du
 und deine Freundin, die Lüge, ihr habt noch nie
 in meine Seele gewohnet.
-#Vierter Auftrit.
-Katelli. (verhüͤllt ſich etwas in Mantel). Pedrillo
+## Vierter Auftrit.
+$ @Katelli:
+(verhüͤllt ſich etwas in Mantel). Pedrillo
 (kurz angezogen, den Degen unter den Arm haltend
 und den Huth ins Geſicht gedruͤkt.)
 
-Pedrillo. (Im Hintergrunde der Bühne) Licht?
+@Pedrillo:
+(Im Hintergrunde der Bühne) Licht?
 Ich glaub', ich find' ihn. Wenigſtens ſind' ich hier
 doch Schutz fuͤr Regen und Sturm. (Nach einer
 Pauſe zu Katelli) Biſt du ein Geiſt, oder wer biſt du?
-Katelli. Man nenne mich, wie man will.
+@Katelli:
+Man nenne mich, wie man will.
 Meinen Natnen ſag ich keinen.
 . Pedrillo. Haſt du Verrichtung hier?
-Katelli. Eines Schurken harr' ich, den ich
+@Katelli:
+Eines Schurken harr' ich, den ich
 aufſpteſſen will. Seinen Ramen kann ich nicht ſa⸗
 gen. Er lähmt mir die Zunge.
 Pe⸗
 steltzer_montenegro.pdf_000071
 33
 heißt? Und keine Minute darfſt du laͤnger zoͤgern?
-Katelli. (Nach einer langen Paufe.) Riklas
+@Katelli:
+(Nach einer langen Paufe.) Riklas
 ſchikt mich.
 
-Pedrillo. Deinen Ramen will ich wiſſen.
-Katelli. Den zu lſagen erlaubt mein Hand⸗
+@Pedrillo:
+Deinen Ramen will ich wiſſen.
+@Katelli:
+Den zu lſagen erlaubt mein Hand⸗
 werk nicht.
-Pedrillo. Kennt dich Riklas?
-Katelli. Ja. Er iſt eben auf der Gaſſe von
+@Pedrillo:
+Kennt dich Riklas?
+@Katelli:
+Ja. Er iſt eben auf der Gaſſe von
 einem Mailänder niedergeſtoſſen, den ich aufſuche.
 Er hat mir aufgetragen, zu Pedrillo zu ſagen, er
 ſchikke mich, ſeinem Moͤrder aufzupaſſen und fuͤr
 Pedrillo einen Prieſter zu beſtellen. Wozu? weiß
 ich nicht. Der Tod ſchnit ſeine Worte ab.
-Pedrillo. Der Teuſel! kennſt du mich denn
+@Pedrillo:
+Der Teuſel! kennſt du mich denn
 nicht? Ich bin Pedrillo. So einen wakkern Schaz
 haͤtt ich hier nicht geſucht. Gib mir die Hand.
-Katelli. Wenn ich mich ruͤhre, ſo wird mein
+@Katelli:
+Wenn ich mich ruͤhre, ſo wird mein
 Blut toll. Genug ich fuͤhre Niklas Sache.
-Pedrillo. So mußt du mir einen ſchlauen Prie⸗
+@Pedrillo:
+So mußt du mir einen ſchlauen Prie⸗
 ſter um zwoͤlf Uhr in's Inquiſitions, Gefaͤngniß einer
 gewiſſen Franziſta Montenegro beſtellen. Er ſoll
 ſie durch Drohungen und Verſprechungen auf meine
 Seite zu bringen ſuchen.
-Katelli. Franziſka alſo? Hm! Run bekomm“
+@Katelli:
+Franziſka alſo? Hm! Run bekomm“
 ich Licht in der Sache. Zum ſterben iſt ſie auch zu
 ſchön. Ich kenn einen Prieſter. Er gehr immer
 77
@@ -2107,24 +2354,30 @@ uͤber alles — ſo bring ich den Liebhaber der Fran⸗
 ziſta, wie heißt er doch — je nun! — den Mai⸗
 länder, auch mit.
 
-Pedrillo. Hör! wenn du das kannſt, alles,
+@Pedrillo:
+Hör! wenn du das kannſt, alles,
 was du willſt, ſollſt du haben.
 . Katelli. Genug, er muß gehen, wohin ich
 will. Ich koͤnnt ihm die Augen gleich zudrüͤkken,
 aber ich denke immer; ſpare den Stoß bis auf be⸗
 drängtern Zeiten.
 4
-Pedrillo. Ich glaube, dein Kopf denkt ſich ſo
+@Pedrillo:
+Ich glaube, dein Kopf denkt ſich ſo
 etwas von Kaiſerthuͤmern und Pabſtmuͤtzen. Du
 ſprichſt gar zu klug. — Sorge mir nur fuͤr den
 Prieſter und wenn du ihn obendrein in meine Haͤn⸗
 de ſchafſt, ſo haſt du dein Gluͤk gemacht.
-Katelli. Es bleibt bey allem, was abgeredet iſt.
+@Katelli:
+Es bleibt bey allem, was abgeredet iſt.
 (Es wird im Hintergrunde der Bühne hell.)
-Pedrillo. Was iſt da? Wer koͤmmt?
-Katelli. Ich glaub, es iſt Feuer. (Geht naͤher)
+@Pedrillo:
+Was iſt da? Wer koͤmmt?
+@Katelli:
+Ich glaub, es iſt Feuer. (Geht naͤher)
 Eine Leiche!
-Pedrillo. Laß! Ich din ja in der Meſſe gei
+@Pedrillo:
+Laß! Ich din ja in der Meſſe gei
 weſen. (Wird immer ſurchtſamer und geht auf und
 dieder) Wenn mie die Rechnung zu ſrüh durchſtrlte
 chen würde!
@@ -2132,26 +2385,30 @@ chen würde!
 Ka⸗
 steltzer_montenegro.pdf_000073
 7⁵
-Katelli. Sie ſiud, wie die ſiraffe Eiche im Wal⸗
+@Katelli:
+Sie ſiud, wie die ſiraffe Eiche im Wal⸗
 de. Bey heitern Wetter ſteht ſie da, und ſtol⸗
 ziert. Koͤmmt ein Sturm, ſo zittert ſie vom Haupt,
 bis zum Fuß. Ihr Zittern macht die Wurzel los
 und ſie fällt. Sorgen ſie alſo fuür die Wurzel, mein
 Herr.
-#Vierter Auftrit.
-Die Vorigen.
+## Vierter Auftrit.
+$ Die Vorigen.
 (Vier Vermummte tragen langſam Schrit vor Schrit
 einen Sarg in Tuͤchern. In der andern Hand Fakkeln.
 Der Sarg iſt ſchwarz und am Defkel brenut
 Pedrillo's Name.)
-Pedrillo. Mein Rame? Beym Teufel, wenn
+@Pedrillo:
+Mein Rame? Beym Teufel, wenn
 die Ahndung traͤfe; Es fehlt nichts, als daß ich
 mir ſelbſt aus Verzweiſlung den Degen durch den
 Leib zuͤge! (laͤuſt verwirrt herum)
-Katelli. Weſſen Leiche, Maͤnner? (Sarg nie⸗
+@Katelli:
+Weſſen Leiche, Maͤnner? (Sarg nie⸗
 der. Ein Vermummter trit vor und jeigt auf den Na⸗
 men!)
-Pedrillo. Verſlucht ihr Boten des Todes!
+@Pedrillo:
+Verſlucht ihr Boten des Todes!
 Aber — auf eurer Stirn thront die Lüge. Ihr
 ſeyd Betruͤger, von Katelli gedungen, mich mit
 Angſt und Schrekken zu bedraͤngen, daß ich ihm ſein
@@ -2169,21 +2426,28 @@ Wehe, wehe dir!
 :Pedrillo. (zu Katelli) Und du ſahſt nichts?
 Eine Hand ſuhr mir ubers Geſicht; zog mir den
 Arm nieder.
-Katelli. (bey Seite) Wen doch Gewiſſen ſticht!
+@Katelli:
+(bey Seite) Wen doch Gewiſſen ſticht!
 (Die Leiche aß mit dumpfen murmelnden Geſange.)
-#Fuͤnfter Auftrit.
-Katelli und Pedrillo.
-Katelli. Eine böſe Ahndung.
-Pedrillo. Daß du kein Wort mehr druͤber
+## Fuͤnfter Auftrit.
+$ Katelli und Pedrillo.
+@Katelli:
+Eine böſe Ahndung.
+@Pedrillo:
+Daß du kein Wort mehr druͤber
 verliehrſt. In mir ſpricht mehr als du mit Mil⸗
 lionen Worten ſagen kannſt. Oder willſt du mir
 auch abtruͤnnig werden, da ich mich faſt ſelbſt ſchon
 verlaſſen habe? du furchtſam?
-Katelli. Einer geht vor ihm und zwey folgen
+@Katelli:
+Einer geht vor ihm und zwey folgen
 ihm nach!
-Pedrillo. Du zählſt dich doch nicht unter ſie?
-Katelli. Das Raͤzel waͤr' ihnen ſonſt zu groß!
-Pedrillo. Traͤumer! — Wie dich das bis⸗
+@Pedrillo:
+Du zählſt dich doch nicht unter ſie?
+@Katelli:
+Das Raͤzel waͤr' ihnen ſonſt zu groß!
+@Pedrillo:
+Traͤumer! — Wie dich das bis⸗
 chen Dunkel durchwurmt? Wozu der Wahnſinn? —
 Ahndung! Ahndungen gehoͤren den Weibern mit
 wakkelnden Zähnen. — Dank dem Himmel, daß
@@ -2194,27 +2458,34 @@ ich wieder Vernunſt habe! Ich bin wieder der, der
 ich immer wat, und es ſoll nichts kommen, das mich
 von meinem Wege wegreiſſen kann. — Du haſt
 wohl alles wieder druͤber vergeſſen? ,
-Katelli. Der Prieſter und er — wie heißt
+@Katelli:
+Der Prieſter und er — wie heißt
 er doch?
-Pedrillo. Und Katelli.
-Katelli. Und Katelli köͤmmt, und ich auch.
+@Pedrillo:
+Und Katelli.
+@Katelli:
+Und Katelli köͤmmt, und ich auch.
 Sie brauchen mich doch?
-Pedrillo. Das halte, wie du willſt. Beſſer,
+@Pedrillo:
+Das halte, wie du willſt. Beſſer,
 du koͤmmſt. Aber ſage dem Pfaffen, daß er ſich
 von dem albern Grimme des Maͤdchens nicht taͤu⸗
 ſchen laßt. Sie iſt auſſer ſich. Ganz natuͤrlich;
 es iſt ihr da alles ſehr bunt vor den Augen.
-Katelli. Der Prieſter wird's gewiß ſo gut ma⸗
+@Katelli:
+Der Prieſter wird's gewiß ſo gut ma⸗
 chen, ats ich und ſie es ihm ſagen koͤnnen. Ich
 halte mein Wort gewiß. Aber ſie muͤſſen dafuͤr
 ſorgen, daß dem Prieſter der Eintrit nicht verwehrt
 wird. Sie muͤſſen uͤberhaupt die Arbeit mir zu er⸗
 leichtern ſichen.
-Pedrillo. An mir wird's nicht fehlen. Aber
+@Pedrillo:
+An mir wird's nicht fehlen. Aber
 ich weiß nicht, was mir hier ſo taͤuſchend vor den
 Augen ſchwebt? Komm mit mir. Es läͤuft mir ſo
 kalt über.
-Katelli. In einer halben Stunde bin ich da.
+@Katelli:
+In einer halben Stunde bin ich da.
 Jezt werd ich hier dleiben, und meinen Plan wei⸗
 ter
 steltzer_montenegro.pdf_000076
@@ -2225,19 +2496,23 @@ aufmuntern koͤnnte, als dieſer.
 * Pedrillo. Pruͤfe mir nur den Prieſter vorher,
 ob du ihm trauen darfſt. Sag' ihm nichts uͤberfiiſ⸗
 ſiges.
-Katelli. Er kann ſich ſelbſt nicht beſſer kennen,
+@Katelli:
+Er kann ſich ſelbſt nicht beſſer kennen,
 als ich ihn kenne. Alles was ich weiß, weiß er
 auch. Und ſolle's nicht recht mit ihm gehen wolt
 len, ſo ſtoſſ' ich ihn nieder.
-Pedrillo. Alles, wie du willſt. Nur halt
+@Pedrillo:
+Alles, wie du willſt. Nur halt
 mich hier nicht laͤnger auf, und ſprich wenn du noch
 zu ſprechen haſt.
-Katelli. Nichts mehr.
-Pedrillo. Lieber Jahre lang im Abgrund der
+@Katelli:
+Nichts mehr.
+@Pedrillo:
+Lieber Jahre lang im Abgrund der
 Erde, als hier noch eine Minute.
 (ab.)
-#Sechſter Auftrit.
-Katelli allein.
+## Sechſter Auftrit.
+$ Katelli allein.
 (Nach einer langen Pauſe.)
 Gottlob, daß ich den Kampf gekämpfet habe. Es
 war ein arger Kainpf. Aber, — (langſam) Zweye
@@ -2259,13 +2534,13 @@ Ich will meine Seele ruͤſten.
 b
 steltzer_montenegro.pdf_000078
 8⁰
-Fuͤnfter Aufzug.
+# Fuͤnfter Aufzug.
 Ein Geſängniß, welches von einer Lampe, die im
 Hintergrunde deſſelben haͤngt, ſchwach erleuchtet
 wird. Auf der Seite, der Thuͤt gegen⸗
 uͤber, ein Bette.
-#Erſter Auftrit.
-Franziſka allein (geht mit zerriſſenen Haaren wild
+## Erſter Auftrit.
+$ Franziſka allein (geht mit zerriſſenen Haaren wild
 herum.)
 (Nach einer langen Pauſe.) Ha! mein Katelli!
 Ich ſeh' ihn ſtreiten! Streit, braver Junge, ſtreit,
@@ -2301,13 +2576,14 @@ de ruhen! Taͤglich eine Stunde! und dann uͤber ihn
 allein! Es iſt Pedrillo! Jezt mogt' ich wüͤnſchen,
 ein Teufel zu ſeyn! Aber Mädchenarm iſt zur Qual
 ſeines Gebeins zu ſchwach! (ſezt ſich matt nieder.)
-#Zweyter Auftrit.
-Franziſta, Katelli in Prieſterkleidern und
+## Zweyter Auftrit.
+$ Franziſta, Katelli in Prieſterkleidern und
 ein Gefangenwaͤrter.
 Gefangenwaͤrter. Dort auf dem Bette. Aber
 nehmen ſie ſich in Acht! Sie raſet, oder iſt wenig⸗
 ſtens auf dem Weg zur Raſerey.
-Katelli. (Mit gezwungener Stimme) Deshalb
+@Katelli:
+(Mit gezwungener Stimme) Deshalb
 komm ich. Ich wil ſie wdieder zur Vernunft brine
 1
 gen.
@@ -2319,13 +2595,15 @@ allein ſeyn.
 
 Gefangenw. Wenn mir mein Leben lieb iſt,
 ſo muß ich hier bleiben.
-Katelli. Die heiligen Gerichte haben einen
+@Katelli:
+Die heiligen Gerichte haben einen
 Pritſfer niche ju fürchten.
 Kr, .07111
 (Geſangenwärter ab.)
-#Dritter Auftrit.
-Franziſta und Katelli.
-Franziſka. (Auffahrend und ſchaͤchtern ſich um⸗
+## Dritter Auftrit.
+$ Franziſta und Katelli.
+@Franziſka:
+(Auffahrend und ſchaͤchtern ſich um⸗
 ſehend. Nach einer langen Pauſe.) Wehe, wehe! Sie
 haben ihn verlohren! —. Iy. (Sanſtmüthig) Sei⸗
 ne Seele iſt nicht hier! Laßt mich! (Nach einer Pau⸗
@@ -2333,7 +2611,8 @@ ne Seele iſt nicht hier! Laßt mich! (Nach einer Pau⸗
 ſchwaches Maͤdchen! (zeigt ihm die Hand) Dolch und
 Schwert! Und wenn ich ſtreite, ſtreitet mein Ka⸗
 telli mit mir. Katelli! Katelli, zum Kampf:
-Katelli. (Steht wie in Betäubung.) Bin ich
+@Katelli:
+(Steht wie in Betäubung.) Bin ich
 denn gemacht, um zur Probe zu dienen, wieviel
 Laſten Misgeſchiks ein Menſchenruͤkken tragen kann?
 — Franziſka!
@@ -2345,12 +2624,16 @@ geangiſta. Ii grugchie. uenf bat io.
 Ka⸗
 steltzer_montenegro.pdf_000081
 e.
-Katelli. Ich bin dein Katelli.
-Franziſka. Weg! Katelli iſt kein Teufel.
-Katelli. Ich ſchwör's dir, daß ich Katelli bin.
+@Katelli:
+Ich bin dein Katelli.
+@Franziſka:
+Weg! Katelli iſt kein Teufel.
+@Katelli:
+Ich ſchwör's dir, daß ich Katelli bin.
 Ich komme, dich dieſer Zelle des Schrekkens zu ent⸗
 fuͤhren.i
-Franziſka. Mich entführen? Was entführſt
+@Franziſka:
+Mich entführen? Was entführſt
 du? Dies Bischen Haut und Knochen; mein Herz
 nicht! Aber — nein! mit dir allein, mein Ka⸗
 telli, geh' ich! (Sie legt ſich nieder.)
@@ -2379,17 +2662,21 @@ steltzer_montenegro.pdf_000082
 ſoll ich ihr die ſchrekliche Ahndung entdekken, da⸗
 mit ſie ſich mit mir rüſte? Ja, ſchreklich; aber
 doch gut!
-Franziſka. (Holt plötzlich ſtark Odem. Mat.)
+@Franziſka:
+(Holt plötzlich ſtark Odem. Mat.)
 Wie ich doch ſo ſchwach bin! — Kaum, daß ich noch
 dieſe ſchwache Luft aus meiner Bruſt herauspreſſen
 und wieder einſaugen kann. Was waͤr's mir auch
 beſſer, ob ich bin, oder nicht? Wenn ich nur erſt mei⸗
 nen Katelli auf den Stuſen des Himmels erwarten
 koͤnnre! Armer, du leideſt viel um mich!
-Katelli. Und du ſiehſt mich nicht, Franziſta?
-Franziſka. Sott! Ein Prieſter und die Spra⸗
+@Katelli:
+Und du ſiehſt mich nicht, Franziſta?
+@Franziſka:
+Sott! Ein Prieſter und die Spra⸗
 che Katelli's?
-Katelli. Ich bin da) meine Liebe. Ich ha⸗
+@Katelli:
+Ich bin da) meine Liebe. Ich ha⸗
 be den Furien die Krallen gebunden. Du ſollſt mit
 mir ihrer Wuth entriunen. Arme Unſchuld! Der
 Himmel verzeihe dem, der ein ſolches Maͤdchen
@@ -2407,17 +2694,21 @@ mal geſehen. — Aber, Katelli, was dreiſteſt du
 dich um nich? Du handelſt als Jüngling, nicht
 als Mann. Heißt es nicht willig ins Grab hin⸗
 einſpringen, wenn man uͤber dieſe Schwelle trit“
-Katelli. Unter dem Schuz dieſes Anzugs
+@Katelli:
+Unter dem Schuz dieſes Anzugs
 und der Verſtellung hab' ich's gewagt. Und noch
 mehr haͤtt' ich um dich gewagt! Er hat mir ſelbſt
 die Thuͤr geoͤſnet, ſo blind iſt er. Unſer Ruͤkweg
 wird eben ſo ſicher ſeyn. Ich habe doppelte Klei⸗
 der. Eins bring' ich dir.
-Franziſka. Du überdenkſt nicht, was du thuſt.
+@Franziſka:
+Du überdenkſt nicht, was du thuſt.
 Wir muͤſſen Argusaugen betruͤgen.
-Katelli. Und du gehſt zu behutſam. Ich ha⸗
+@Katelli:
+Und du gehſt zu behutſam. Ich ha⸗
 be ihnen eine veſte Binde vor die Augen gebunden.
-Franziſka. Das denkſt du, Beſter. Wenn
+@Franziſka:
+Das denkſt du, Beſter. Wenn
 dich aber nur eines mit halben ſchielenden Blikken
 ſieht, ſo erwarten dich Todesmartern, im langen
 Blutrath erdacht. Dies mußt du vergeſſen. Aber
@@ -2438,7 +2729,8 @@ ruhig du auch biſt, ſo haſt du doch gewiß auf dei⸗
 ne Sicherheit gedacht. Du haſt ein Stilet; gib
 miv's.
 4
-Katelli. Du überſchreiteſt Menſchenpflicht.
+@Katelli:
+Du überſchreiteſt Menſchenpflicht.
 Dein Leib iſt nicht dein Eigenthum. Dies Kleid
 iſt deiner Seele nur geborgt, in den Jahren deiner
 Pilgerſchaft auf dieſer Erde damit einher zu wan⸗
@@ -2450,7 +2742,8 @@ lungen deines und meines Lebens mit einem Schleyer
 da du mit die meinige abgeſchlagen haſt? Franziſka,
 ſolge mir!
 
-Franziſka. (Nach einer Pauſe) Du vermagſt
+@Franziſka:
+(Nach einer Pauſe) Du vermagſt
 mehr über mich, als ich ſelbſt. Ich will die lezte
 Rettung mit dir wagen. Aber went alle Ausſicht
 eeg pgeianen mede denn veiſrot de die die
@@ -2459,13 +2752,16 @@ nicht.
 Ka
 steltzer_montenegro.pdf_000085
 87
-Katelli. Nein, denn wollen wir Mund an
+@Katelli:
+Nein, denn wollen wir Mund an
 Mund ſterben. (horcht nach einem Geräuſch hinter
 der Bühne) Wenn ich recht wähne? — Ein blu⸗
 tiger Hochzeitstag.
-Franziſka. Run du meinen ſchwachen Kopf
+@Franziſka:
+Run du meinen ſchwachen Kopf
 gerüſtet haſt, ſängſt du wieder an zu zweifeln.
-Katelli. (Mit geſezter Stimme) Rein! Ich.
+@Katelli:
+(Mit geſezter Stimme) Rein! Ich.
 bin jezt zu allem! was Schitſal will, bereit. Wir
 ſehen auch nicht ein, was uns gut iſt, weil unſere,
 Augen zu blode ſind, die Wendungen des Schikſals
@@ -2478,9 +2774,11 @@ heiligſte Wahrſagung iſt für uns. Es wird uns wohl
 gehen. Ich habe dich ſezt zu alkem — Franziſko,
 nim dich in Acht! Es koͤmmt jemand! Ich habe
 recht gehoͤrt, 21 121 EumG ut.
-Franziſka. Katelli, was iſt dir?
+@Franziſka:
+Katelli, was iſt dir?
 —
-Katelli. Dein Zaudern hat alles verdorben.
+@Katelli:
+Dein Zaudern hat alles verdorben.
 Setze dich, dleis dep deiner Faſſing und nenne
 mich nicht.
  
@@ -2491,22 +2789,26 @@ mich nicht.
 Vier⸗
 steltzer_montenegro.pdf_000086
 88
-#Vierter Auftrit.
-Die Vorigen und Pedrillo.
+## Vierter Auftrit.
+$ Die Vorigen und Pedrillo.
 (Katelli zieht ſich in den dunkelſten Winkel des Sefang⸗
 niſſes bey Franziſkas Bette zurük.
-Franziſka. Rein! Rein! das duld ich nicht.
+@Franziſka:
+Rein! Rein! das duld ich nicht.
 Ich bin ein Mädchen. Sein Blik iſt Giſt.
-Pedrillo. Prieſter, du haſt deine Habſeligkei⸗
+@Pedrillo:
+Prieſter, du haſt deine Habſeligkei⸗
 ten ſchlecht ausgeräͤumt. (zu Franziſka) Richte dich
 auf Mädchen! Ich bin dein Retter. Engelleben
 ſollſt du bey mir haben. — — Naͤrrin, antwor⸗
 teſt du mir nicht? Bosheit, oder Verſtellung?
-Katelli. Es waͤre gut, wenn wir ihre Adern
+@Katelli:
+Es waͤre gut, wenn wir ihre Adern
 mit Eis fuͤllen koͤnnten. Sie raſte, da ich kam.
 Fachen ſie das Feuer nicht wieder an, das ich ſchon
 halb gedaͤmpſt habe. Ich dächte, ſie gingen.
-Pedrillo. Verſtellung iſt's! Studierte Raſe⸗
+@Pedrillo:
+Verſtellung iſt's! Studierte Raſe⸗
 rey! Verflucht ſey der Gedanke an ihr friſches Ge⸗
 ſicht, der ihr Leben von mir erbettelte. Als wenn
 ich nicht Manns genug waͤre, einen Bettelbuben
@@ -2519,12 +2821,15 @@ steltzer_montenegro.pdf_000087
 89
 nicht bis zu dem tieſſten hinabſtimmt. Sein Ge⸗
 brauſe wuͤrd' ihr Gehirn ſprengen.
-Franziſka. Dein Blik iſt Giſt! Ich ſag's dir
+@Franziſka:
+Dein Blik iſt Giſt! Ich ſag's dir
 noch einmal. Blikke mich an, und ermorde mich.
 (auf ihn zu.)
-Pedrillo. Wurm! (ſtoͤßt ſie zuruͤk) Deine Muͤt⸗
+@Pedrillo:
+Wurm! (ſtoͤßt ſie zuruͤk) Deine Muͤt⸗
 kenſtiche gehen kaum durch meine Haut.
-Franziſka. (Läuft wüthend herum) Iſt denn
+@Franziſka:
+(Läuft wüthend herum) Iſt denn
 alles fuͤr mich taub? Alle ihre Maͤchte, die ihr mehr
 ſeyd, als ich? Soll die Stunde ewig zugern, die
 mein Leben in Purpur kleiden wird? Oder bin ich
@@ -2538,26 +2843,33 @@ und kaum mein Menſchſeyn noch fuͤhlte? Hier ſteh
 ich, als das Ziel des Wetteifers aller Arten des Un⸗
 glüks. Als wenn meine Todesſtunde alles Gtuͤk,
 das ich hier auf Erden genießen ſoll, in ſich ſaßt!
-Katelli. Wir müſſen nie auf die Dornen die⸗
+@Katelli:
+Wir müſſen nie auf die Dornen die⸗
 ſes Lebens zuͤrnen, denn wir wiſſen nicht, wozu
 die Wunden, von ihnen geriſſen, uns nützen.
 8
 .
 Pe⸗
 steltzer_montenegro.pdf_000088
-Pedrillo. Immer ſpricht der Pfaff in des hei⸗
+@Pedrillo:
+Immer ſpricht der Pfaff in des hei⸗
 ligen Auguſtins Betſchweſterton.
-Franziſka. Katelli! Katelli! Warum verläßt
+@Franziſka:
+Katelli! Katelli! Warum verläßt
 du mich jezt. Hülfe! Eh er mich ermordet!
-Pedrillo. Er iſt hier geweſen? Katelli hiet?
-Katelli. Er iſt noch hier! Aber wo er ſtekt
+@Pedrillo:
+Er iſt hier geweſen? Katelli hiet?
+@Katelli:
+Er iſt noch hier! Aber wo er ſtekt
 weiß ich nicht.
-Pedrillo. Verdammt! wenn mein Wahn nicht
+@Pedrillo:
+Verdammt! wenn mein Wahn nicht
 eitel wäre! Schlau genug, wär's Verſtellung. Aehn⸗
 lichkeit in der Sprache! (laut) Sprich! wo iſt Ka⸗
 telli?
 
-Katelli. Ihre Augen auf;, und ſie werden
+@Katelli:
+Ihre Augen auf;, und ſie werden
 ihn finden!
 .Pedrillo. (geht auf die Thür zu) Aber, wenn
 ich ihn nicht finde, ſo koſtet's dir alles. Wehe dir,
@@ -2567,11 +2879,13 @@ biſt. , :1 rEneſipen⸗tte⸗
 
 1
 
-#Fünfter Auftrit.
-Franziſka und Katelli.
+## Fünfter Auftrit.
+$ Franziſka und Katelli.
 (ab.
-Franziſka. Mein Katelli! Mein Katelli!
-Katelli. Länger nicht! Mann, wo biſt du, der
+@Franziſka:
+Mein Katelli! Mein Katelli!
+@Katelli:
+Länger nicht! Mann, wo biſt du, der
 du die Flammen ſo lange dämpift, als ich? känger
 nicht
 steltzer_montenegro.pdf_000089
@@ -2596,28 +2910,34 @@ digen kann. (zu Framziſka) Kaum biſt du Blu⸗
 me geſproſſen, ſo zerfluͤkt ſchon ein muthwilliger Bu⸗
 be deine Blaͤtter. Sitzeſt da, und haſt des Erwar⸗
 tens nicht mehr, als der Gefangene des Kanibalen.
-Franziſka. (geht immer mit fliegenden Augen und
+@Franziſka:
+(geht immer mit fliegenden Augen und
 veſten Tritte auf und ab.)
-Katelli. Ftanziſta!
-Franziſka. Deine Augen trügen dich — Ich
+@Katelli:
+Ftanziſta!
+@Franziſka:
+Deine Augen trügen dich — Ich
 bin ein Geiſt, gekommen, Buſſe zu predigen.
 Ka⸗
 steltzer_montenegro.pdf_000090
 92
-Katelli. Und nun alles verlohren? Konnte der
+@Katelli:
+Und nun alles verlohren? Konnte der
 Suͤnder nicht Augenblikke noch zoͤgern. Wie ſie ſo
 ruhig, ſo gut war, eh' er kam! Und nun ſo ganz
 ohne Verſtand! O, koͤnnt ich doch weinen, eh' mein
 Herz zerreißt! — Welche Wohlthat ſind Thraͤnen!
 Meiner Ernte war ich ſchon ganz gewiß, und nun
 zerſchlaͤgt mir mit einmal das Wetter die Saat.
-Franziſka. Ja! Morgen iſt der Hochzeitstag!
+@Franziſka:
+Ja! Morgen iſt der Hochzeitstag!
 Aber du wirſt eine Eisſäule kuͤſſeni. (wieft ſich wie⸗
 der nieder.)
-#Sechſter Auftrit.
-Die Vorigen und Pedrillo (mit entblößten
+## Sechſter Auftrit.
+$ Die Vorigen und Pedrillo (mit entblößten
 Degen.)
-Pedrillo. Wie die ſchwache Hure da liegt, von
+@Pedrillo:
+Wie die ſchwache Hure da liegt, von
 dem Sturm ihres eigenen Weibergrimms niederge⸗
 worfen! Oder waͤlzet ſie ſich da aus Aerger, daß ſie
 mir die Kehle nicht zuſchnuͤren kann? (zu Katelli)
@@ -2625,7 +2945,8 @@ Niedertraͤchtiger, was haſt du gelogen? Du ſprichſt
 hier nicht mit Kreuztraͤgern im Beichtſtuhl. Wo
 iſt Katelli? Mein Ari will Blut; ſeins oder deins!
 Mit einem Wort, ohne Stammlen!
-Katelli. (Meit verbiſſener Wuth) Kommen ſie!
+@Katelli:
+(Meit verbiſſener Wuth) Kommen ſie!
 In Verttauen will ich's ſagen. Meine Verräͤhe⸗
 6e
 steltzer_montenegro.pdf_000091
@@ -2633,12 +2954,14 @@ steltzer_montenegro.pdf_000091
 rey moͤgte dem Maͤdchen wieder zum Feldgeſchrey
 dienen.
 Pedrillo trit zu ihm.
-Katelli. (ſaßt ihm mit der einen Hand den De⸗
+@Katelli:
+(ſaßt ihm mit der einen Hand den De⸗
 gen und mit der andern vor die Bruſt) Sieh! den
 ganzen Knoten zerſchneid' ich dir. Der Vermumm⸗
 te, im Schloſſe Montenegro's mit dir ſprechend, war
 der Prieſter, der jezt vor dir ſteht — und heißt
-Katelli. Und wenn die Tollheit dein Gehör ver⸗
+@Katelli:
+Und wenn die Tollheit dein Gehör ver⸗
 ſtopft hat, ſo füͤhl's! (Er holt geſchwind ein Stilet
 hervor und erſticht ihn. Pedrillo will mit dem Degen
 auf ihn zu, wankt aber. Katelli ſtoͤßt ihn noch einmal
