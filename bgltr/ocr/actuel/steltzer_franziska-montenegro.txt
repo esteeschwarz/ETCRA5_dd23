@@ -2,11 +2,11 @@ steltzer_montenegro.pdf_000000
 <https://www.deutsche-digitale-bibliothek.de/item/FLOXDC4HVX4RUQVIUVVHL4APLAZWBW3A>
 VD18 14569396-001
 steltzer_montenegro.pdf_000001
-@begin_transcript
-@author: Christian Julius Ludwig Steltzer
-@title: Franziska Montenegro.
-@subtitle: Ein Trauerſpiel in fünf Aufzuͤgen.
-@publish: Magdeburg und Leipzig, Johann Adam Kreus, 1781.
+!@begin_transcript
+@author Christian Julius Ludwig Steltzer
+@title Franziska Montenegro.
+@subtitle Ein Trauerſpiel in fünf Aufzuͤgen.
+!@publish Magdeburg und Leipzig, Johann Adam Kreus, 1781.
 steltzer_montenegro.pdf_000002
 steltzer_montenegro.pdf_000003
 Franziſka Montenegro.
@@ -253,7 +253,8 @@ Giſt ausſpeyen.
 @Katelli:
 (etwas hitzig) Gut, laß ihn uns nach⸗
 nn eilen! Sind unſere Klingen nicht auch gewezt?
-@Anton: Nun freylich! Ich habe zwar mit ſol⸗
+@Anton: 
+Nun freylich! Ich habe zwar mit ſol⸗
 chen Sachen nicht gern etwas zu thun, wenn's aber
 ſeyn ſoll, ey nun!
 @Katelli:
@@ -568,7 +569,8 @@ Welche Verwirrung ſie mir im Hauſe macht!
 steltzer_montenegro.pdf_000022
 ## Sechszehnter Auftrit.
 $ Montenegro und ein Bedienter.
-@Bedienter: Der Pater Ziſterzius verlangt ſie
+@Bedienter: 
+Der Pater Ziſterzius verlangt ſie
 zu ſprechen.
 @Montenegro:
 Ziſterzius? Ich kenn' ihn nicht!⸗
@@ -576,7 +578,8 @@ Ziſterzius? Ich kenn' ihn nicht!⸗
 ron uns!
 ## Siebzehnter Auftrit.
 $ Die vorigen und Ziſterzius.
-@Ziſterzius: Entſchuldigen ſie, daß ich ſie ſo⸗
+@Ziſterzius: 
+Entſchuldigen ſie, daß ich ſie ſo⸗
 kurz vor Tiſche beſchwere. Ich bitte mir einige ge⸗
 heime Augenblikke aus.
 @Montenegro:
@@ -584,10 +587,12 @@ Geheim genug hier, lieber Herr
 Pater. Meine Leute ſind alle ehrliches Sinns.
 Rur immer damit heraus, was ſie auf dem Her⸗
 zen haben.N Hf
-@Zisterzius: Wenn ſie ſich gütigſt nur einige
+@Zisterzius: 
+Wenn ſie ſich gütigſt nur einige
 Schritte entfernen wollten. Sachen von Wichtige
 keit.
-@Mont: Keinen Schrit weiter, Herr Pater!
+@Mont: 
+Keinen Schrit weiter, Herr Pater!
 Sie werden mir's nicht verargen; in dem Stükke
 bin ich eigen. Ich kenne ſie noch gar nicht; und
 mit fremden Leuten geh' ich nicht gern weit, ohne
@@ -606,7 +611,8 @@ raus, obsgleich nicht gut iſt. Ich haͤtte da einen
 huͤbſchen ſeinen Brey herumgieſſen ſollen; alsdenn
 verdaut ſich ſo etwas beſſer. Run, was iſt ihr Be⸗
 gehren, Herr Pater, und wer ſind ſie?
-@Zisterzius: Ich bin ein Kloſterbruder. Schon
+@Zisterzius: 
+Ich bin ein Kloſterbruder. Schon
 laͤngſt iſt der Ruhm von ihnen und ihrer Familie zu
 meiner einſamen Zelle gedrungen. Da ich nun ſtets
 von frommen Leuten viel gehalten habe, ſo war's
@@ -623,7 +629,8 @@ Wenn ſie den Ruhm aber in meine Froͤmmigkeit ſe⸗
 tzen, ſo mag's ſeyn, denn ſie hat mein ganzes Haus
 zum Führer, bis ins Grab erwählt.
 steltzer_montenegro.pdf_000024
-@Zisterzius: Ich komme, ſie wider eine groſſe
+@Zisterzius: 
+Ich komme, ſie wider eine groſſe
 Widerwaͤrtigkeit zu ſchuͤtzen. Das Schwert haͤngt an
 einem duͤnnen Faden uͤber ihrem Kopf; aber noch
 iſt es Zeit, ihn ſtärker zu weben. Pedrillo hat vor
@@ -632,7 +639,8 @@ kurzer Zeit —
 Ja, er hat um meine Tochter ange⸗
 halten, und zwar vergebens. Aber es waͤre mir
 lieber, ſie ſogten davon nichts.
-@Zisterzius: Ich weiß, daß ſie ihm verſagt iſt.
+@Zisterzius: 
+Ich weiß, daß ſie ihm verſagt iſt.
 Vielleicht des böſen Geruͤchts wegen, worin ihn ſei⸗
 ne zu genaue Gerechtigkeitsliebe geſezt hat.
 @Mont:
@@ -640,7 +648,8 @@ Das iſt recht, Herr Pater. Noch
 mehr aber deshalb, weil ihn meine Tochter nicht
 haben will. Hat ihnen Pedrillo davon noch nichts
 geſagt?
-@Zisterzius: Er hat's mir zwar nicht geſagt, denn
+@Zisterzius: 
+Er hat's mir zwar nicht geſagt, denn
 ich habe nicht die Ehre, ihn ſo genau zu kennen; ich
 verſichere ſie aber bey der Heiligkeit meines Standes,
 daß er der Mann nicht iſt, wozu ihm das Gerede
@@ -650,7 +659,8 @@ davon überzeugt. Allein die beſten Seelen dieſer
 Erde haben gemeiniglich des Leidens am meiſten.
 @Mont:
 Weiter nichts anzubringen?
-@Zisterzius: Nur noch zu ſagen, daß der Freund Per
+@Zisterzius: 
+Nur noch zu ſagen, daß der Freund Per
 drillo's, dieſer Liebling des Fuͤrſten, dieſe Stuͤtze des
 ganzen Landes, ſich ſehr dadurch beleidigt glaubt, daß
 steltzer_montenegro.pdf_000025
@@ -675,7 +685,8 @@ Prieſterkleider an. Sie ſchikken ſich zu ſeiner Mine
 nicht. Das ſag' ich ihm nachrichtlich, damit er bey
 andern ſeine Rolle nicht eben ſo ſchlecht ſpielt, wie
 bey mir.
-@Zisterzius: Sie beleidigen mich zu ſehr, aber ich
+@Zisterzius: 
+Sie beleidigen mich zu ſehr, aber ich
 verzeihe. Verzeihen iſt Geſez meines Ordens.
 @Mont:
 Verzeihen oder nicht, das thut mir gleich.
@@ -917,7 +928,8 @@ mir beide ſeyd, müßt ihr mich, ſo bald ihr könnt,
 steltzer_montenegro.pdf_000033
 verlaſſen. Du haſt dieſen Weg ſelbſt erwehlt, Ka⸗
 telli; und er iſt der gebahntſte.
-@Franziſka: Lieber Vater, aber ſie verlaſſen?
+@Franziſka: 
+Lieber Vater, aber ſie verlaſſen?
 Nein! ſie muͤſſen uns begleiten. Muͤſſen einige Zeit,
 und wenn es ſeyn kann, die Zeit ihres Lebens in Ka⸗
 telli's Vaterlande bey uns ſeyn.
@@ -972,7 +984,8 @@ Nun will ihnen ſchon das Herz aus Un⸗
 geduld platzen. Das Ende vom Liede iſt behaͤglicher.
 Um ihr wakkeres Herz waͤr's ſchade. Das muß der
 feinen Streiche noch mehrere mit mir aushekken.
-@Pedrillo: Schweig! Du vergißt, wer ich bin.
+@Pedrillo: 
+Schweig! Du vergißt, wer ich bin.
 Weißt du nicht, was ich uͤber dich vermag?
 @Niklas:
 Vermoͤgen hin, vermögen her! Da⸗
@@ -2735,8 +2748,8 @@ zum Gericht Franziſta! Reitung iſe hier todi.
 Ende des Stüts.
 —
 steltzer_montenegro.pdf_000093
-@end_transcript
-@begin_para
+!@end_transcript
+!@begin_para
 Nachricht.
 zurch meine Abweſenheit vom Drukort und —.
 X ich muß es geſtehen — vieleicht auch durch
@@ -2767,4 +2780,4 @@ Z. 9. l. meiner. S. 72. Z. 19. l. keinem. S. 75. 8.
 91.3. 32.1 veſtem. S. 92. 3. 12.1. entblößtem.
 —
 steltzer_montenegro.pdf_000094
-@end_para
+!@end_para
