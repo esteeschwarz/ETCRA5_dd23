@@ -25,7 +25,7 @@ c(names(x[1]),t.db[1])
 t.db.n<-mapply(c,texts,t.db)
 t.db.n[1]
 t.db.u<-unlist(t.db.n)
-writeLines(t.db.u,"actuel/steltzer(1781)_franziska-montenegro.txt")
+#writeLines(t.db.u,"actuel/steltzer(1781)_franziska-montenegro.txt")
 ###################################################################
 # process text
 # regex
@@ -33,7 +33,7 @@ rgdf<-data.frame(regex=NA,replace=NA)
 rgdf[1,1]<-"(.+er Auftrit.)"
 rgdf[1,2]<-'#\\1'
 t.db.m1<-gsub(rgdf[1,1],rgdf[1,2],t.db.u)
-writeLines(t.db.m1,"actuel/steltzer(1781)_franziska-montenegro.txt")
+#writeLines(t.db.m1,"actuel/steltzer(1781)_franziska-montenegro.txt")
 # edit castlist manually, read in again
 t.db.e<-readLines("actuel/steltzer(1781)_franziska-montenegro.txt")
 m<-grep("0004$|0005$",t.db.e)
@@ -64,7 +64,7 @@ t.db.m2<-gsub(rgdf[14,1],rgdf[14,2],t.db.m2)
 rgdf[15,1]<-"(.+fzug)"
 rgdf[15,2]<-"# \\1"
 t.db.m2<-gsub(rgdf[15,1],rgdf[15,2],t.db.m2)
-writeLines(t.db.m2,"actuel/steltzer(1781)_franziska-montenegro.txt")
+#writeLines(t.db.m2,"actuel/steltzer(1781)_franziska-montenegro.txt")
 m<-grep(rgdf[14,1],t.db.m2)
 t.db.m2[m]
 m1<-grep(rgdf[15,1],t.db.m2) #Aufzuge (acts)
@@ -108,12 +108,12 @@ m3
 # now try ezdrama 1st run
 ezd_markup_text<-"actuel/steltzer_franziska-montenegro.txt"
 library(reticulate)
-use_miniconda(miniconda_path())
-py_available()
+#use_miniconda(miniconda_path())
+#py_available()
 reticulate::conda_list()
 use_miniconda(reticulate::conda_list()[6,2])
-py_version()
-miniconda_path()
+#py_version()
+#miniconda_path()
 #######################################################
 ### run ezdrama >
 system(paste0("python parser.git.py ",ezd_markup_text))
