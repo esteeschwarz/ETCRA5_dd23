@@ -2,6 +2,7 @@
 #15462.steltzer,montenegro,ocr
 #dd25, brgl. trauerspiel
 ########################
+prelim_fun<-function(){
 library(tesseract)
 png<-paste("png",list.files("png"),sep = "/")
 tesseract_download("deu")
@@ -26,13 +27,19 @@ t.db.n<-mapply(c,texts,t.db)
 t.db.n[1]
 t.db.u<-unlist(t.db.n)
 #writeLines(t.db.u,"actuel/steltzer(1781)_franziska-montenegro.txt")
+}
 ###################################################################
 # process text
 # regex
 rgdf<-data.frame(regex=NA,replace=NA)
 rgdf[1,1]<-"(.+er Auftrit.)"
 rgdf[1,2]<-'#\\1'
-t.db.m1<-gsub(rgdf[1,1],rgdf[1,2],t.db.u)
+
+process_1<-function(rgdf){
+# rgdf<-data.frame(regex=NA,replace=NA)
+# rgdf[1,1]<-"(.+er Auftrit.)"
+# rgdf[1,2]<-'#\\1'
+# t.db.m1<-gsub(rgdf[1,1],rgdf[1,2],t.db.u)
 #writeLines(t.db.m1,"actuel/steltzer(1781)_franziska-montenegro.txt")
 # edit castlist manually, read in again
 t.db.e<-readLines("actuel/steltzer(1781)_franziska-montenegro.txt")
@@ -102,7 +109,9 @@ t.db.m2[stage.s]
 t.db.m2[111]
 t.db.m2[973]
 m3
+return(rgdf)
 #writeLines(t.db.m2,"actuel/steltzer(1781)_franziska-montenegro.txt")
+}
 ### stage 2, manually edited transcript. not save over!
 ###########
 # now try ezdrama 1st run
