@@ -42,3 +42,10 @@ DDB: <https://www.deutsche-digitale-bibliothek.de/searchresults?query=affiliate%
 ## breakoutroom
 - this would be the conventional method.
 - USP: now write a bot!
+
+## 2nd
+- gain audience for the project in forchheim to make people donate evidence
+  - write bibliothek (venue)
+    - make poster
+    - organise event
+  - write archive (registratur)
