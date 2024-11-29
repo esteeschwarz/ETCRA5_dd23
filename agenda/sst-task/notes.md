@@ -36,6 +36,9 @@ DDB: <https://www.deutsche-digitale-bibliothek.de/searchresults?query=affiliate%
 
 <https://www.deutsche-digitale-bibliothek.de/item/K67VPPYRT6TDBB5QAX3MMXHAKWI2ZZRJ>
 
+<https://de.wikipedia.org/wiki/Liste_der_Stolpersteine_in_Forchheim>
+
+
 ## breakoutroom
 - this would be the conventional method.
 - USP: now write a bot!
