@@ -39,5 +39,25 @@ sz.array<-c(
 
 )
 sz.array  
-  
-  
+
+###
+t<-read_html("cc-cpt.html")
+tb<-xml_find_all(t,"//table")  
+xml_text(tb[[5]])  
+cc.t.1<-html_table(tb[[1]])
+cc.ns<-colnames(cc.t.1)
+cc.t.2<-html_table(tb[[2]])
+colnames(cc.t.2)<-cc.ns
+cc.t.3<-html_table(tb[[3]])  
+colnames(cc.t.3)<-cc.ns
+cc.t.4<-html_table(tb[[4]])  
+colnames(cc.t.4)<-cc.ns
+cc.t.5<-html_table(tb[[5]])  
+colnames(cc.t.5)<-cc.ns
+cc.t.6<-rbind(cc.t.1,cc.t.2,cc.t.3,cc.t.4,cc.t.5)
+write.csv(cc.t.6,"cc.df.csv")
+cc.t.3<-rbind(cc.t.1,html_table(tb[[3]]))
+
+cc.t.4<-rbind(cc.t.1,html_table(tb[[4]]))
+cc.t.5<-rbind(cc.t.1,html_table(tb[[5]]))
+cc.t.1<-rbind(cc.t.1,html_table(tb[[2]]))
