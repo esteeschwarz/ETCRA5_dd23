@@ -38,3 +38,6 @@ steltzer, montenegro, mdz: ['Franziska Montenegro : Ein Trauerspiel in fünf Auf
 mönch, p.374: 125. Francisco Montenegro, Tr. in 5 A. Magdeb. 1781.
 [Christian Julius Ludwig Steltzer], Franziska Montenegro. Ein Trauerspiel in fünf Aufzügen. Magdeburg und Leipzig, bey Johann Adam Creutz, 1781. [12: P.O.
 germ. 1229] > 12:P.O. bayr. staatsb.
+
+# wikisource pages
+<https://www.mediawiki.org/wiki/Manual:Pywikibot/Scripts>
