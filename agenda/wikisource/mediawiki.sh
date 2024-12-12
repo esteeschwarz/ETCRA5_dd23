@@ -6,6 +6,7 @@ sudo nano /etc/apache2/sites-available/mediawiki.conf
 sudo a2ensite mediawiki.conf
 sudo a2enmod rewrite
 sudo systemctl restart apache2
+sudo mysql -u root -p
 CREATE DATABASE mediawiki;
 CREATE USER 'wikiuser'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON mediawiki.* TO 'wikiuser'@'localhost';
