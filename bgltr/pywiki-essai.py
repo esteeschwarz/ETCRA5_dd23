@@ -44,4 +44,5 @@ pwb.__loader__
 pwb.py data_ingestion -csvdir:"/Documents/GitHub/ETCRA5_dd23/bgltr/data" -page:"User:guhlglaser/pig_template/"
 
 -file:z
-python pwb.py imagetransfer "User:guhlglaser/pig_template" -file ~/Documents/GitHub/ETCRA5_dd23/bgltr/data/upload.md
+python pwb.py imagetransfer "User:guhlglaser/pig_template" -file Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/data/upload.md
+/Users/guhl/Documents/GitHub/school/api/rating-png/NPRG-index-cola.png
