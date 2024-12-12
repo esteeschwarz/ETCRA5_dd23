@@ -32,3 +32,16 @@ page.text = page.text.replace('St. Gallen', 'St.&nbsp;Gallen')
 text = page.text
 print(text)
 page.save('add nonbreaking space in St. Gallen')  # Saves the page
+
+
+site = pwb.Site('de', 'wikisource')  # The site we want to run our bot on
+page = pwb.Page(site, 'Polytimet')
+text = page.text
+print(text)
+
+pwb.__loader__
+### upload pig
+pwb.py data_ingestion -csvdir:"/Documents/GitHub/ETCRA5_dd23/bgltr/data" -page:"User:guhlglaser/pig_template/"
+
+-file:z
+python pwb.py imagetransfer "User:guhlglaser/pig_template" -file ~/Documents/GitHub/ETCRA5_dd23/bgltr/data/upload.md
