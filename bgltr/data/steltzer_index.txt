@@ -1,0 +1,13 @@
+{{:MediaWiki:Proofreadpage_index_template
+|BILD=[[File:steltzer_montenegro.pdf|page=2|thumb|Steltzer montenegro]]
+|AUTOR=Anonym ({{=}} [[Christian Julius Ludwig Steltzer|Christian Julius Ludwig Steltzer]])
+|TITEL=[[Franziska Montenegro]]
+|VERLAG=
+|JAHR=1781
+|ORT=
+|QUELLE={{https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10118086-3}} = {{co|Steltzer_montenegro.pdf}}
+|SEITEN=<pagelist />
+|ER=siehe [[Wikisource:Editionsrichtlinien]]
+|PROJEKTFORTSCHRITT=Steltzer montenegro
+|BEARBEITUNGSSTAND=
+}}

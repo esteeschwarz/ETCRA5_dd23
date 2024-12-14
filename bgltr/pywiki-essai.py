@@ -36,6 +36,7 @@ page.save('add nonbreaking space in St. Gallen')  # Saves the page
 
 site = pwb.Site('de', 'wikisource')  # The site we want to run our bot on
 page = pwb.Page(site, 'Polytimet')
+page = pwb.Page(site, 'Index:Bodmer_polytimet_1760.pdf')
 text = page.text
 print(text)
 
@@ -45,4 +46,24 @@ pwb.py data_ingestion -csvdir:"/Documents/GitHub/ETCRA5_dd23/bgltr/data" -page:"
 
 -file:z
 python pwb.py imagetransfer "User:guhlglaser/pig_template" -file Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/data/upload.md
+
+###
+python /mnt/nfs/labstore-secondary-tools-home/wmr-bot/core/pwb.py upload "pdf/000787-周易兼義九卷十三經註疏所收-卷首.pdf" -filename:"IOC.UTokyo-000787 周易兼義九卷十三經註疏所收 卷首.pdf" -ignorewarn -chunked -noverify -descfile:des/0 -always
+
+python3 pwb.py upload /home/username/Logo/Ready "logo images" -keep -noverify -ignorewarn -summary:"Bot: Uploading logo images"
+
+###
+python3 pwb.py upload [Global-arguments] [-keep] [-filename:targetFilename] [-ignorewarn] [-noverify] [-chunked:64m] [-summary:SummaryOfTheUpload] [URL-or-filename] [-descfile:description-file]
+
+/Users/guhl/boxHKW/21S/DH/local/EXC2020/bgltr/ocr/steltzer_montenegro.pdf
 /Users/guhl/Documents/GitHub/school/api/rating-png/NPRG-index-cola.png
+
+
+python pwb.py upload -filename:User:File:guhlglaser/pdf/steltzer.pdf -summary:"test pdf upload" /Users/guhl/boxHKW/21S/DH/local/EXC2020/bgltr/ocr/steltzer_montenegro.pdf
+-descfile:/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/data/steltzer-desc.txt
+
+
+("User:File:guhlglaser/pdf/steltzer.pdf" "test pdf upload" "/Users/guhl/boxHKW/21S/DH/local/EXC2020/bgltr/ocr/steltzer_montenegro.pdf" "/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/data/steltzer-desc.txt")
+
+python pwb.py upload -filename: User:File:guhlglaser/pdf/steltzer_montenegro -summary: "test pdf upload" /Users/guhl/boxHKW/21S/DH/local/EXC2020/bgltr/ocr/steltzer_montenegro.pdf
+-descfile: /Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/data/steltzer_desc.txt
