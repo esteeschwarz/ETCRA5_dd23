@@ -20,7 +20,6 @@ import pywikibot as pwb
 
 site = pwb.Site('de', 'wikisource')  # The site we want to run our bot on
 #site._userinfo
+site.login()
 site.username()
 print(site.username())
-site.login()
-site.login.

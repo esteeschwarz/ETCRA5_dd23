@@ -3,7 +3,7 @@ import pywikibot as pwb
 
 def upload_site_text(text_path):
     site = pwb.Site('de', 'wikisource')
-   # site.login()
+    site.login()
     print("logged in")
 
     # Read the description from the file
@@ -20,8 +20,10 @@ def upload_site_text(text_path):
     print(text)
     print("neue:")
     print(textNeu)
-    page.text = page.text.join(textNeu)
-    page.save
+#    page.text = page.text.replace('*',textNeu)
+    #page.text = 'blank'
+    page.text = textNeu
+    page.save('steltzer page')
     page = pwb.Page(site, 'Index:Steltzer_montenegro.pdf')
     text = page.text    
     print("changed:")
