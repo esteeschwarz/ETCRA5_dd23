@@ -18,16 +18,31 @@ update_wikisource_page <- function(page_title, content, username, password) {
   
   return(content(edit_response))
 }
-template
+#template
 page.edit<-function(page,template){
   t<-readLines(page)
   m<-grepl("<temptext/>",template)
-  template<-append(template,t,after = which(m))
-  template<-template[!m]
-  template<-paste(template,collapse = "<br>")
+  template.x<-append(template,t,after = which(m))
+  template.x
+  m2<-c(!m,rep(T,length(template.x)-length(m)))
+  m2
+  #!m:length(template.x)
+  template.x<-template.x[m2]
+  template.x<-paste(template.x,collapse = "<br>")
   p.nr<-strsplit(page,"\\.")[[1]][2]
-  template<-gsub("<temppagenr/>",p.nr,template)
+  template.x<-gsub("<temppagenr/>",p.nr,template.x)
   wiki.ns<-paste0("Seite:Steltzer_montenegro.pdf/",p.nr)
-  return(list(content=template,ns=wiki.ns))
+  return(list(content=template.x,ns=wiki.ns))
 }
-page.edit(fns[5],template)
+#page.edit(fns[5],template)
+#page<-url_escape(page)
+page.get.content<-function(page){
+  # #page<-url_escape(page)
+  # read_url<-paste0("https://de.wikisource.org/w/api.php?action=query&format=json&prop=revisions&titles=",page,"&formatversion=2&rvprop=content&rvslots=*")
+  # read_url<-paste0("https://de.wikisource.org/w/api.php?action=query&prop=extracts&titles=",page)
+  # "https://de.wikisource.org/w/api.php?action=query&prop=extracts&exchars=175&titles=Seite:Steltzer_montenegro.pdf/5"
+  page
+  raw<-paste0("https://de.wikisource.org/w/index.php?action=raw&title=",page)
+  x<-GET(raw)
+  r<-content(x,"text")
+}

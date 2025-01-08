@@ -24,9 +24,9 @@ get.page<-function(x,m,m2,i){
   f<-list.files(pagedir)
   fns<-paste(pagedir,f,sep = "/")
   template<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/data/wikitemplate_proof-steltzer.html")
-  template<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/data/wikitemplate_proof_basic-steltzer.html")
+  # template<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/data/wikitemplate_proof_basic-steltzer.html")
   template
-  k<-5
+  k<-11
   for(k in 1:length(fns)){
     page<-fns[k]
     page.x<-page.edit(page,template)
@@ -37,4 +37,11 @@ get.page<-function(x,m,m2,i){
     cat("processed page:",k,"\n")
     #x<-update_wikisource_page(page_title, content, username, password)
   }
+  page.edit(fns[11],template)
+  
+### check page
+  page_title<-"Seite:Steltzer_montenegro.pdf/11"
+  #page<-page_title
+  tx<-page.get.content(page_title)
+  tx
   
