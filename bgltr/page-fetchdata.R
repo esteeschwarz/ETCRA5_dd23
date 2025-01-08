@@ -1,7 +1,7 @@
 library(readr)
 
 # Read the CSV file
-#csv_data <- read_csv("~/Documents/GitHub/ETCRA5_dd23/bgltr/data/wikisource_pages-data.csv")
+#csv_data <- read_csv("~/Documents/GitHub/ETCRA5_dd23/bgltr/data/wikisource_pages-data.csv"
 csv_data <- read_csv("~/Documents/GitHub/ETCRA5_dd23/bgltr/data/pages-data.csv")
 
 # Example manipulation: Create a list of entries
@@ -22,11 +22,11 @@ entries.index <- apply(csv_data, 1, function(row) {
          "}}")
 })
 entries.index[6]
-entries.pages<-apply(csv_data,1,function(row){
+#entries.pages<-apply(csv_data,1,function(row){
     paste0("{{Textdaten\n",
-"|VORIGER=
-|NÄCHSTER=
-|AUTOR=", row["auth_entry"], "\n",
+"|VORIGER=",
+"|NÄCHSTER=",
+"|AUTOR=", row["auth_entry"], "\n",
 "|TITEL=", row["title"], "\n",
 "|SUBTITEL=",row["subtitle"],"\n",
 "|HERKUNFT",row["origin"],"\n",
@@ -50,7 +50,7 @@ entries.pages<-apply(csv_data,1,function(row){
 "|BEARBEITUNGSSTAND=",row["status"],"\n",
 "}}",
 
-"{{BlockSatzStart}}"
+"{{BlockSatzStart}}",
 rep(
 "{{SeitePR|1|Bodmer polytimet 1760.pdf/1}}
 {{SeitePR|2|Bodmer polytimet 1760.pdf/2}}
@@ -110,14 +110,11 @@ rep(
 {{SeitePR|56|Bodmer polytimet 1760.pdf/56}}
 {{SeitePR|57|Bodmer polytimet 1760.pdf/57}}
 {{SeitePR|58|Bodmer polytimet 1760.pdf/58}}
-
 {{BlockSatzEnd}}
-
 [[Kategorie:Deutsche Philologie]]
 [[Kategorie:1760er Jahre]]
 [[Kategorie:Deutschland]]
 [[Kategorie:Drama]]"
-
 })
 library(httr)
 
@@ -125,29 +122,97 @@ library(httr)
 update_wikisource_page <- function(page_title, content, username, password) {
   # Login to Wikisource
   login_url <- "https://en.wikisource.org/w/api.php?action=login&format=json"
+  login_url <- "https://de.wikisource.org/w/api.php?action=login&format=json"
   login_response <- POST(login_url, body = list(lgname = username, lgpassword = password))
   login_token <- content(login_response)$login$token
-  
+  #login_response$cookies$value
   # Get edit token
-  edit_token_url <- "https://en.wikisource.org/w/api.php?action=query&meta=tokens&format=json"
-  edit_token_response <- GET(edit_token_url, set_cookies(login_response$cookies))
+  edit_token_url <- "https://de.wikisource.org/w/api.php?action=query&meta=tokens&format=json"
+  edit_token_response <- GET(edit_token_url, set_cookies(login_response$cookies$value))
+  #r<-content(edit_token_response)
+  #r$query
   edit_token <- content(edit_token_response)$query$tokens$csrftoken
   
   # Edit the page
-  edit_url <- "https://en.wikisource.org/w/api.php?action=edit&format=json"
+  edit_url <- "https://de.wikisource.org/w/api.php?action=parse&format=json"
+  #edit_url <- "https://de.wikisource.org/w/api.php?action=edit&format=json"
   edit_response <- POST(edit_url, body = list(
     title = page_title,
+    #page = page_title,
     text = content,
     token = edit_token
-  ), set_cookies(login_response$cookies))
+  ), set_cookies(login_response$cookies$value))
   
   return(content(edit_response))
 }
+#library(jsonlite)
+#library(xml2)
+#?url_escape
+page_title<-"Seite:Steltzer_montenegro.pdf/5"
+page<-page_title
+#page<-url_escape(page)
+page.get.content<-function(page){
+# #page<-url_escape(page)
+# read_url<-paste0("https://de.wikisource.org/w/api.php?action=query&format=json&prop=revisions&titles=",page,"&formatversion=2&rvprop=content&rvslots=*")
+# read_url<-paste0("https://de.wikisource.org/w/api.php?action=query&prop=extracts&titles=",page)
+# "https://de.wikisource.org/w/api.php?action=query&prop=extracts&exchars=175&titles=Seite:Steltzer_montenegro.pdf/5"
+page
+raw<-paste0("https://de.wikisource.org/w/index.php?action=raw&title=",page)
+x<-GET(raw)
+r<-content(x,"text")
+}
+tx<-page.get.content(page)
+tx
+writeLines(tx,"wikitempread.txt")
 
 # Example usage
-username <- "your_username"
-page_title <- paste0("User:",username,"/sandbox"
-content <- paste(entries, collapse = "\n")
-password <- "your_password"
+#username <- "your_username"
+#page_title <- paste0("User:",username,"/sandbox"
+page.content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/data/steltzer-pe5.txt")
+#content <- paste(entries, collapse = "\n")
+content<-page.content
+content
+#password <- "your_password"
+page_title<-"Seite:Steltzer_montenegro.pdf/5"
+pagedir<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/pages"
+f<-list.files(pagedir)
+fns<-paste(pagedir,f,sep = "/")
+template<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/data/wikitemplate_proof-steltzer.html")
+# template<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/data/wikitemplate_proof_basic-steltzer.html")
+template
+#?insert
+page<-fns[5]
+page.edit<-function(page,template){
+  t<-readLines(page)
+  m<-grepl("<temptext/>",template)
+  template<-append(template,t,after = which(m))
+  template
+  template<-template[!m]
+  template
+  template<-paste(template,collapse = "<br>")
+  p.nr<-strsplit(page,"\\.")[[1]][2]
+  template<-gsub("<temppagenr/>",p.nr,template)
+ # cat(template)
+  wiki.ns<-paste0("Seite:Steltzer_montenegro.pdf/",p.nr)
+  return(list(content=template,ns=wiki.ns))
+}
+k<-5
+# fns[6]
+#p.nr<-strsplit(fns[5],"\\.")[[1]][2]
+#fns.o<-fns[order(fns,method = "auto")]
+#fns.o
+template
+for(k in 1:length(fns)){
+seite<-fns[k]
+page.x<-page.edit(seite,template)
+page.x$ns
+page.x$content
+x<-update_wikisource_page(page.x$ns, page.x$content, username, password)
+cat("processed page:",k,"\n")
+#x<-update_wikisource_page(page_title, content, username, password)
+}
+t<-content(x,"text")
 
-update_wikisource_page(page_title, content, username, password)
+
+
+
