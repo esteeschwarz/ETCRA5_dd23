@@ -39,6 +39,17 @@ page = pwb.Page(site, 'Polytimet')
 page = pwb.Page(site, 'Index:Bodmer_polytimet_1760.pdf')
 text = page.text
 print(text)
+### steltzer
+# https://de.wikisource.org/w/index.php?title=Seite:Steltzer_montenegro.pdf/5&action=edit&redlink=1
+site = pwb.Site('de', 'wikisource')  # The site we want to run our bot on
+page = pwb.Page(site, 'Polytimet')
+page = pwb.Page(site, 'Seite:Steltzer_montenegro.pdf/5')
+text = page.text
+page.text = page.text.replace('St. Gallen', 'St.&nbsp;Gallen')
+text = page.text
+print(text)
+page.save('add nonbreaking space in St. Gallen')  # Saves the page
+print(text)
 
 pwb.__loader__
 ### upload pig
