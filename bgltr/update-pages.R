@@ -35,6 +35,8 @@ get.page<-function(x,m,m2,i){
     update_wikisource_page(page.x$ns, page.x$content, username, password)
     #x
     cat("processed page:",k,"\n")
+    Sys.sleep(10) # wiki spits us out, maybe even higher though
+    
     #x<-update_wikisource_page(page_title, content, username, password)
   }
   page.edit(fns[11],template)
