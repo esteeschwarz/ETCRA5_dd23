@@ -36,16 +36,17 @@ get.page<-function(x,m,m2,i){
   fns.o
   fns<-fns.o
   fns[11]
-  k<-13
+  k<-15
   library(xml2)
-  for(k in 8:length(fns)){
+  logfile<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/data/post.log"
+  #file.create(logfile)
+  postlist<-list()
+  # next 20, break due rate limit
+  for(k in 20:length(fns)){
+    ifelse(40<=k|k<=15,wait=15,wait=k)
+    tx.ql<-NA
+    tx.user<-NA
     cat("process page:",k,"\n")
-    Sys.sleep(10) # wiki spits us out, maybe even higher though
-    page<-fns[k]
-    page
-    page.x<-page.edit(page,template,repl.df)
-    page.x$ns
-    page.x$content
     page.get<-paste0("Seite:Steltzer_montenegro.pdf/",k)
     #page<-page_title
     tx<-page.get.content(page.get)
@@ -56,14 +57,27 @@ get.page<-function(x,m,m2,i){
     head<-xml_find_all(tx.html,"//pagequality")
     tx.user<-xml_attr(head[1],"user")
     tx.ql<-xml_attr(head[1],"level")
+    page<-fns[k]
+    page
+    page.x<-page.edit(page,template,repl.df)
+    page.x$ns
+    page.x$content
+    
     message<-paste0("page: ",k," edited by another user, not uploading...\n")
-    if(tx.ql<=1&tx.user=="Guhlglaser"){
-      update_wikisource_page(page.x$ns, page.x$content, username, password)
+    if(tx.ql==1&tx.user=="Guhlglaser"){
+      Sys.sleep(wait) # wiki spits us out, maybe even higher though
+      x<-update_wikisource_page(page.x$ns, page.x$content, username, password)
      message<-paste0("edited page: ",k,"\n")
-       
+     #x
+     log<-c(k,as.character(unlist(x)))
+     log<-t(log)
+     cat(log)
+     write.table(log,logfile,append = T,col.names = F)
+     postlist[[k]]<-x
+     
     }
     cat(message)
-    
+
     #x<-update_wikisource_page(page_title, content, username, password)
   }
   tx<-page.get.content(page.get)
