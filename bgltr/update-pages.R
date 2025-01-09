@@ -36,17 +36,17 @@ get.page<-function(x,m,m2,i){
   fns.o
   fns<-fns.o
   fns[11]
-  k<-15
+  k<-14
   library(xml2)
   logfile<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/data/post.log"
   #file.create(logfile)
   postlist<-list()
   # next 20, break due rate limit
-  for(k in 20:length(fns)){
-    ifelse(40<=k|k<=15,wait=15,wait=k)
+  for(k in 16:length(fns)){
+    ifelse(40<=k|k<=15,wait<-15,wait<-k)
     tx.ql<-NA
     tx.user<-NA
-    cat("process page:",k,"\n")
+    cat("\nprocess page:",k,"\n")
     page.get<-paste0("Seite:Steltzer_montenegro.pdf/",k)
     #page<-page_title
     tx<-page.get.content(page.get)
@@ -67,7 +67,7 @@ get.page<-function(x,m,m2,i){
     if(tx.ql==1&tx.user=="Guhlglaser"){
       Sys.sleep(wait) # wiki spits us out, maybe even higher though
       x<-update_wikisource_page(page.x$ns, page.x$content, username, password)
-     message<-paste0("edited page: ",k,"\n")
+     message<-paste0("\nedited page: ",k,"\n")
      #x
      log<-c(k,as.character(unlist(x)))
      log<-t(log)
