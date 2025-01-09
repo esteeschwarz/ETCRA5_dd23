@@ -19,8 +19,11 @@ update_wikisource_page <- function(page_title, content, username, password) {
   return(content(edit_response))
 }
 #template
-page.edit<-function(page,template){
+page<-fns[6]
+page.edit<-function(page,template,repl.df){
   t<-readLines(page)
+  t[1]<-paste0("<!--",t[1],"-->")
+  t
   m<-grepl("<temptext/>",template)
   template.x<-append(template,t,after = which(m))
   template.x
@@ -28,13 +31,56 @@ page.edit<-function(page,template){
   m2
   #!m:length(template.x)
   template.x<-template.x[m2]
-  template.x<-paste(template.x,collapse = "<br>")
+  #template.x<-paste(template.x,collapse = "<br>")
   p.nr<-strsplit(page,"\\.")[[1]][2]
   template.x<-gsub("<temppagenr/>",p.nr,template.x)
+  # for (r in 1:length(repl.df)){
+  #   if(!is.na(repl.df$regx[r]))
+  #     template.x<-gsub(repl.df$regx[r],repl.df$repl[r],template.x)
+  # }
+  m3<-grepl("@",template.x)
+  sum(m3)
+  m3.p<-which(m3)+1
+  template.x[m3.p]<-paste0("'''",template.x[m3],"'''\t",template.x[m3.p])
+  template.x<-template.x[!m3]
+ # template.x<-gsub("([$^~@])","<!--\\1-->",template.x)
+  m4<-grepl("#",template.x)
+  "{{LineCenterSize|120|20|=== <!--#--> Erster Aufzug.<br><!--##--> ===}}"
+  sum(m4)
+#  m4.p<-which(m4)+1
+  template.x[m4]<-gsub("([#]{2})(.*)",
+                       "\n===\\2===\n<br>",
+                       template.x[m4]) 
+  template.x[m4]<-gsub("([#]{1})(.*)",
+                        "\n==\\2==\n<br>",
+                        template.x[m4])
+  for (r in 1:length(repl.df$regx)){
+    if(!is.na(repl.df$regx[r]))
+      template.x<-gsub(repl.df$regx[r],repl.df$repl[r],template.x)
+  }
+  
+  #   template.x[m4]<-gsub("([#]{2})(.*)",
+#                      "{{LineCenterSize|120|20|===\\1\\2===}}",
+#                      template.x[m4]) 
+# template.x[!m4]<-gsub("([#]{1})(.*)",
+#                      "{{LineCenterSize|120|20|==\\1\\2==}}",
+#                      template.x[!m4])
+
+#  template.x<-template.x[!m4]
+ # m4<-grepl("##",template.x)
+  "{{LineCenterSize|120|20|=== <!--#--> Erster Aufzug.<br><!--##--> ===}}"
+  #sum(m4)
+  #m4.p<-which(m4)+1
+  #template.x[m4.p]<-paste0("{{LineCenterSize|120|20|==",template.x[m4],"==}}")
+  #template.x<-template.x[!m4]
+  # template.x<-gsub("([#]{1,5})","<!--\\1-->",template.x)
+  template.x<-paste(template.x,collapse = "<br>")
+  template.x<-gsub("#","",template.x)
+  
   wiki.ns<-paste0("Seite:Steltzer_montenegro.pdf/",p.nr)
   return(list(content=template.x,ns=wiki.ns))
 }
-#page.edit(fns[5],template)
+page.edit(fns[6],template,repl.df)
 #page<-url_escape(page)
 page.get.content<-function(page){
   # #page<-url_escape(page)
