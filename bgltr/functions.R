@@ -22,7 +22,7 @@ update_wikisource_page <- function(page_title, content, username, password) {
 }
 #template
 #page<-fns[6]
-page.edit<-function(page,template,repl.df){
+page.edit<-function(page,template,repl.df,inuse=F){
   t<-readLines(page)
   t[1]<-paste0("<!--",t[1],"-->")
   t
@@ -51,11 +51,13 @@ page.edit<-function(page,template,repl.df){
   sum(m4)
 #  m4.p<-which(m4)+1
   template.x[m4]<-gsub("([#]{2})(.*)",
-                       "\n===\\2===\n<br>",
+                       "\n===\\2===\n<br><br>",
                        template.x[m4]) 
   template.x[m4]<-gsub("([#]{1})(.*)",
-                        "\n==\\2==\n<br>",
+                        "\n==\\2==\n<br><br>",
                         template.x[m4])
+  repl.df<-get.regex()
+  
   for (r in 1:length(repl.df$regx)){
     if(!is.na(repl.df$regx[r]))
       template.x<-gsub(repl.df$regx[r],repl.df$repl[r],template.x)
@@ -76,7 +78,11 @@ page.edit<-function(page,template,repl.df){
   #template.x[m4.p]<-paste0("{{LineCenterSize|120|20|==",template.x[m4],"==}}")
   #template.x<-template.x[!m4]
   # template.x<-gsub("([#]{1,5})","<!--\\1-->",template.x)
+  #template.x<-paste(template.x,collapse = "<br>")
+  if(inuse)
+    template.x<-c("{{Vorlage:inuse}}",template.x)
   template.x<-paste(template.x,collapse = "<br>")
+  
   template.x<-gsub("#","",template.x)
   
   wiki.ns<-paste0("Seite:Steltzer_montenegro.pdf/",p.nr)
@@ -94,3 +100,28 @@ page.get.content<-function(page){
   x<-GET(raw)
   r<-content(x,"text")
 }
+get.regex<-function(){
+  repl.df<-data.frame(regx=1:20,repl=NA,category=NA)
+  repl.df$regx<-NA
+#  repl.df$category<-NA
+  #repl.df[1,1]<-"uͤ"
+  #repl.df[1,2]<-"ü"
+  # repl.df[1,]<-c("[ſ]{2}","ss")
+  #  repl.df[6,]<-c("([ſ])([^l])","<!--\\1-->s\\2")
+  repl.df[3,]<-c("[@^#$]","","meta")
+  #  repl.df[2,]<-c("([ſ])","<!--\\1-->s")
+  # repl.df[2,]<-c("([ſ])","s")
+  # repl.df[2,]<-c("([\u017F])","s")
+  # #repl.df[7,]<-c("([ſ])([^l])","<!--\\1-->s\\2")
+  # # repl.df[6,]<-c("([ſ])([^l])","<!--\\1-->s\\2")
+  # repl.df[4,1]<-"aͤ"
+  # repl.df[4,2]<-"ä"
+  # repl.df[5,1]<-"üͤ"
+  # repl.df[5,2]<-"ü"
+  # repl.df[6,1]<-"üͤ"
+  # repl.df[6,2]<-"ü"
+  # repl.df$category<-"orth"
+  #repl.df$category[3]<-"meta"
+  return(repl.df)
+}
+#get.regex()

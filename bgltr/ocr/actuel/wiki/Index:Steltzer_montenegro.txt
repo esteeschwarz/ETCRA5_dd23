@@ -9,9 +9,11 @@
 |SEITEN=<pagelist from=2 to=94 2=1 />
 |ER=*siehe [[Wikisource:Editionsrichtlinien]]
 * überschriebene Buchstaben werden als normale Umlaute (ä, ö, ü) transkribiert
-* größer gedruckte Personennamen werden '''fett''' wiedergegeben
-* {{SperrSchrift|gesperrt}} gedruckter Text wird ''kursiv'' wiedergegeben.
 * langes ſ wird als rundes s wiedergegeben.
+* größer gedruckte Personennamen (speaker declarations) werden '''fett''' wiedergegeben
+* stage directions (Bühnenanweisungen), die nicht in (Klammern) stehen, werden ''kursiv'' wiedergegeben.
+* Zeilenumbrüche bleiben als einfache Zeilenumbrüche entsprechend der Vorlage erhalten.
+* {{SperrSchrift|gesperrt}} gedruckter Text wird {{SperrSchrift|gesperrt}} wiedergegeben.
 |PROJEKTFORTSCHRITT=Steltzer montenegro
 |BEARBEITUNGSSTAND=unkorrigiert
 }}

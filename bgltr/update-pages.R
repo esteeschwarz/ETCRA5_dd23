@@ -2,6 +2,10 @@
 # 15025.ETCRA5.bgltr.steltzer-montenegro
 # upload text to wikisource, edit transcription
 ###############################################
+cred<-read.csv("~/boxHKW/21S/DH/local/R/cred_gener.csv")
+m<-grep("wikisource",cred$q)
+username<-cred$bn[m]
+password<-cred$pwd[m]
 source("/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/functions.R")
 text_path = "/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/steltzer(1781)_franziska-montenegro.mod.txt"
 text_path = "/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/steltzer(1781)_franziska-montenegro.mod1a.txt"
@@ -50,7 +54,8 @@ write.pages.from.file()
   # next 20, break due rate limit
   # run edit >
 #  for(k in 16:length(fns)){
-    ifelse(40<=k|k<=15,wait<-15,wait<-k)
+    for(k in 9:9){
+  ifelse(40<=k|k<=15,wait<-15,wait<-k)
     tx.ql<-NA
     tx.user<-NA
     cat("\nprocess page:",k,"\n")
@@ -90,42 +95,20 @@ write.pages.from.file()
   tx<-page.get.content(page.get)
   tx
   
-    page.edit(fns[6],template,repl.df)
+    page.edit(fns[9],template,repl.df)
   utf8ToInt("ſ")
   utf8ToInt("ß")
   
-  get.regex<-function(){
-  repl.df<-data.frame(regx=1:20,repl=NA)
-  repl.df$regx<-NA
-  #repl.df[1,1]<-"uͤ"
-  #repl.df[1,2]<-"ü"
- # repl.df[1,]<-c("[ſ]{2}","ss")
-#  repl.df[6,]<-c("([ſ])([^l])","<!--\\1-->s\\2")
-  repl.df[3,]<-c("[@^#$]","")
-#  repl.df[2,]<-c("([ſ])","<!--\\1-->s")
-  repl.df[2,]<-c("([ſ])","s")
-  repl.df[2,]<-c("([\u017F])","s")
-  #repl.df[7,]<-c("([ſ])([^l])","<!--\\1-->s\\2")
-  # repl.df[6,]<-c("([ſ])([^l])","<!--\\1-->s\\2")
-   repl.df[4,1]<-"aͤ"
-   repl.df[4,2]<-"ä"
-   repl.df[5,1]<-"üͤ"
-   repl.df[5,2]<-"ü"
-   repl.df[6,1]<-"üͤ"
-   repl.df[6,2]<-"ü"
-   repl.df$category<-"orth"
-   repl.df$category[3]<-"meta"
-   return(repl.df)
-  }
-  sz<-c("wuͤßt","koͤmm"," nöͤthi")
   repl.df<-get.regex()
-  page.edit(fns[13],template,repl.df)
+  sz<-c("wuͤßt","koͤmm"," nöͤthi")
+  page.edit(fns[9],template,repl.df)
   #repl.df[4,]<-c("(^@)","<!--\\1-->")
  #is.na(repl.df$regx) 
 #  repl.df[6,]<-c("([@$^~])","<!--\\1-->")
   #repl.df[7,]<-c("([#]{1,5})","<!--\\1-->")
   ### check page
   page_title<-"Index:Steltzer_montenegro.pdf"
+  page_title<-"Seite:Steltzer_montenegro.pdf/9"
   #page<-page_title
   tx<-page.get.content(page_title)
   tx
