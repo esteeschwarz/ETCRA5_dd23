@@ -54,7 +54,9 @@ write.pages.from.file()
   # next 20, break due rate limit
   # run edit >
 #  for(k in 16:length(fns)){
-    for(k in 9:9){
+  do.post.wiki<-function(range,inuse){
+ # range<-9:9
+    for(k in range){
   ifelse(40<=k|k<=15,wait<-15,wait<-k)
     tx.ql<-NA
     tx.user<-NA
@@ -71,7 +73,7 @@ write.pages.from.file()
     tx.ql<-xml_attr(head[1],"level")
     page<-fns[k]
     page
-    page.x<-page.edit(page,template,repl.df)
+    page.x<-page.edit(page,template,repl.df,inuse)
     page.x$ns
     page.x$content
     
@@ -91,12 +93,18 @@ write.pages.from.file()
     cat(message)
 
     #x<-update_wikisource_page(page_title, content, username, password)
+    }
   }
   tx<-page.get.content(page.get)
   tx
-  
-    page.edit(fns[9],template,repl.df)
-  utf8ToInt("ſ")
+#########################################
+### TEST:
+    page.edit(fns[10],template,repl.df,inuse = T)
+  do.post.wiki(c(9:10),inuse=T)
+#########################################  
+  do.post.wiki(c(11:length(fns)),inuse=F)
+#########################################
+    utf8ToInt("ſ")
   utf8ToInt("ß")
   
   repl.df<-get.regex()

@@ -22,9 +22,11 @@ update_wikisource_page <- function(page_title, content, username, password) {
 }
 #template
 #page<-fns[6]
-page.edit<-function(page,template,repl.df,inuse=F){
+page.edit<-function(page,template,repl.df,inuse){
   t<-readLines(page)
   t[1]<-paste0("<!--",t[1],"-->")
+  if(inuse==T)
+    t<-c("{{Vorlage:inuse}}",t)
   t
   m<-grepl("<temptext/>",template)
   template.x<-append(template,t,after = which(m))
@@ -33,6 +35,7 @@ page.edit<-function(page,template,repl.df,inuse=F){
   m2
   #!m:length(template.x)
   template.x<-template.x[m2]
+  
   #template.x<-paste(template.x,collapse = "<br>")
   p.nr<-strsplit(page,"\\.")[[1]][2]
   template.x<-gsub("<temppagenr/>",p.nr,template.x)
@@ -40,22 +43,44 @@ page.edit<-function(page,template,repl.df,inuse=F){
   #   if(!is.na(repl.df$regx[r]))
   #     template.x<-gsub(repl.df$regx[r],repl.df$repl[r],template.x)
   # }
+  ### SPEAKER:
   m3<-grepl("@",template.x)
   sum(m3)
   m3.p<-which(m3)+1
-  template.x[m3.p]<-paste0("'''",template.x[m3],"'''\t",template.x[m3.p])
+  template.x[m3.p]<-paste0("\n'''",template.x[m3],"'''\t",template.x[m3.p])
+  template.x[m3.p]<-gsub(":",".",template.x[m3.p])
   template.x<-template.x[!m3]
+  ### STAGE directions
+  m3<-grepl("[$]",template.x)
+  sum(m3)
+  m3.p<-which(m3)+1
+  m3.p<-m3
+  template.x[m3.p]<-paste0("\n''",template.x[m3],"''\n")
+#  template.x[m3.p]<-gsub(":",".",template.x[m3.p])
+  
  # template.x<-gsub("([$^~@])","<!--\\1-->",template.x)
   m4<-grepl("#",template.x)
   "{{LineCenterSize|120|20|=== <!--#--> Erster Aufzug.<br><!--##--> ===}}"
+  # h2, aufzug: 170|30, h3, auftritt: 130|30
+  # {{LineCenterSize|130|30|Zweyter Auftrit.}}
+
   sum(m4)
 #  m4.p<-which(m4)+1
   template.x[m4]<-gsub("([#]{2})(.*)",
-                       "\n===\\2===\n<br><br>",
+                       "\n{{LineCenterSize|130|30|\\2}}\n",
                        template.x[m4]) 
   template.x[m4]<-gsub("([#]{1})(.*)",
-                        "\n==\\2==\n<br><br>",
-                        template.x[m4])
+                       "\n{{LineCenterSize|170|30|\\2}}\n",
+                       template.x[m4]) 
+  # template.x[m4]<-gsub("([#]{1})(.*)",
+  #                       "\n==\\2==\n<br><br>",
+  #                       template.x[m4])
+  # template.x[m4]<-gsub("([#]{2})(.*)",
+  #                      "\n===\\2===\n<br><br>",
+  #                      template.x[m4]) 
+  # template.x[m4]<-gsub("([#]{1})(.*)",
+  #                      "\n==\\2==\n<br><br>",
+  #                      template.x[m4])
   repl.df<-get.regex()
   
   for (r in 1:length(repl.df$regx)){
@@ -79,9 +104,7 @@ page.edit<-function(page,template,repl.df,inuse=F){
   #template.x<-template.x[!m4]
   # template.x<-gsub("([#]{1,5})","<!--\\1-->",template.x)
   #template.x<-paste(template.x,collapse = "<br>")
-  if(inuse)
-    template.x<-c("{{Vorlage:inuse}}",template.x)
-  template.x<-paste(template.x,collapse = "<br>")
+  template.x<-paste(template.x,collapse = "\n")
   
   template.x<-gsub("#","",template.x)
   
