@@ -1,15 +1,15 @@
 steltzer_montenegro.pdf_000004
-^Perſonen:
+^Personen:
 Montenegro - ein alter reicher Spanier.
-Franziſka - ſeine Tochter.
-Katelli - ein Italiener, Vetter des Montenegro und Franziſta's liebhaber.
-Pedrillo - Sekretär eines Miniſters.
+Franziska - seine Tochter.
+Katelli - ein Italiener, Vetter des Montenegro und Franzista's liebhaber.
+Pedrillo - Sekretär eines Ministers.
 Anton - Katelli's Bedienter.
 Kamilla - Franziska's Mädchen.
 Hieronimus - ein Mönch.
 Niklas - ein Bandit.
 Bedienten.
-Prieſter.
+Priester.
 Wache.
 
-$Vom Morgen an bis in die ſpäte Racht.
+$Vom Morgen an bis in die späte Racht.

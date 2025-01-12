@@ -4,23 +4,29 @@
 ###############################################
 source("/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/functions.R")
 text_path = "/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/steltzer(1781)_franziska-montenegro.mod.txt"
+text_path = "/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/steltzer(1781)_franziska-montenegro.mod1a.txt"
 pagedir<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/pagesmod"
 dir.create(pagedir)
 t<-readLines(text_path)
-m<-grep("steltzer_montenegro.pdf_0000",t) # 95
-m2<-c(m[2:length(m)],length(t))
+t2<-gsub("\u017F","s",t)
+m<-grep("steltzer_montenegro.pdf_0000",t2) # 95
+m2<-c(m[2:length(m)],length(t2))
 m2
+
 get.page<-function(x,m,m2,i){
   m2<-m2-1
   page<-x[m[i]:m2[i]]
   page.ns<-paste0(pagedir,"/steltzer-p.",i,".txt")
   writeLines(page,page.ns)
 }
+write.pages.from.file<-function(){
   t.pages<-lapply(seq_along(1:length(m)),function(i){
-    get.page(t,m,m2,i)
+    get.page(t2,m,m2,i)
     
   }
   )
+}
+write.pages.from.file()
   f<-list.files(pagedir)
   fns<-paste(pagedir,f,sep = "/")
   template<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/data/wikitemplate_proof-steltzer.html")
@@ -42,7 +48,8 @@ get.page<-function(x,m,m2,i){
   #file.create(logfile)
   postlist<-list()
   # next 20, break due rate limit
-  for(k in 16:length(fns)){
+  # run edit >
+#  for(k in 16:length(fns)){
     ifelse(40<=k|k<=15,wait<-15,wait<-k)
     tx.ql<-NA
     tx.user<-NA
@@ -84,17 +91,20 @@ get.page<-function(x,m,m2,i){
   tx
   
     page.edit(fns[6],template,repl.df)
+  utf8ToInt("ſ")
+  utf8ToInt("ß")
   
   get.regex<-function(){
   repl.df<-data.frame(regx=1:20,repl=NA)
   repl.df$regx<-NA
   #repl.df[1,1]<-"uͤ"
   #repl.df[1,2]<-"ü"
-  repl.df[1,]<-c("[ſ]{2}","ss")
+ # repl.df[1,]<-c("[ſ]{2}","ss")
 #  repl.df[6,]<-c("([ſ])([^l])","<!--\\1-->s\\2")
   repl.df[3,]<-c("[@^#$]","")
 #  repl.df[2,]<-c("([ſ])","<!--\\1-->s")
   repl.df[2,]<-c("([ſ])","s")
+  repl.df[2,]<-c("([\u017F])","s")
   #repl.df[7,]<-c("([ſ])([^l])","<!--\\1-->s\\2")
   # repl.df[6,]<-c("([ſ])([^l])","<!--\\1-->s\\2")
    repl.df[4,1]<-"aͤ"
@@ -103,8 +113,11 @@ get.page<-function(x,m,m2,i){
    repl.df[5,2]<-"ü"
    repl.df[6,1]<-"üͤ"
    repl.df[6,2]<-"ü"
+   repl.df$category<-"orth"
+   repl.df$category[3]<-"meta"
    return(repl.df)
   }
+  sz<-c("wuͤßt","koͤmm"," nöͤthi")
   repl.df<-get.regex()
   page.edit(fns[13],template,repl.df)
   #repl.df[4,]<-c("(^@)","<!--\\1-->")
@@ -112,8 +125,53 @@ get.page<-function(x,m,m2,i){
 #  repl.df[6,]<-c("([@$^~])","<!--\\1-->")
   #repl.df[7,]<-c("([#]{1,5})","<!--\\1-->")
   ### check page
-  page_title<-"Seite:Steltzer_montenegro.pdf/13"
+  page_title<-"Index:Steltzer_montenegro.pdf"
   #page<-page_title
   tx<-page.get.content(page_title)
   tx
+  writeLines(tx,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/wiki/Index:Steltzer_montenegro.txt")
+  
+  ## edit source ground and write to pages
+  # ß issue: replaces if search for repl.df[2,]<-c("([ſ])","s") also all ß
+  # ſ is: \u383, ß = \u223
+  # Sample UTF-8 character
+  char <- "ſ" #\\u017F
+  char <- "ß" #\\u00DF
+  
+  # Convert the character to its Unicode code point
+  code_point <- utf8ToInt(char)
+  code_point <- lapply(sz,utf8ToInt)
+  code_point
+  ?utf8ToInt
+  lapply(code_point[[1]],intToUtf8)
+  code_clean<-c("wüst","kömm","nöthi")
+  code_point.cl<-lapply(code_clean,utf8ToInt)
+  code_point.cl
+  # Format the code point as a \u escape sequence
+  uni_m<- sprintf("\\u%04X",code_point[[1]])
+  uni_cl <- sprintf("\\u%04X",code_point.cl[[1]])
+  uni_m
+  uni_cl
+    # ß = \u00DF
+  print(unicode_escape)
+  m<-grep("\u017F",t)
+  head(t[m])
+  m<-grep("\u00DF",t)
+  m<-grep("",t)
+  utf8ToInt("a")
+  library(stringi)
+  m<-stri_extract_all_regex(t,"\u383")
+  m
+  utf
+  gsub("\u017F","s",head(t[64]))
+
+  repl.df
+  repl.array<-repl.df[repl.df$category=="orth",]
+  repl.array<-repl.array[!is.na(repl.array$regx),]
+  t2<-t
+  t2<-gsub("\u017F","s",t2)
+  for(r in 1:length(repl.array)){
+    t2<-gsub(repl.array$regx[r],repl.array$repl[r],t2)
+  }
+  writeLines(t2,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/steltzer(1781)_franziska-montenegro.mod.2.txt")
   

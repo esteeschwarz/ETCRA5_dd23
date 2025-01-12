@@ -1,3 +1,5 @@
+library(httr)
+
 update_wikisource_page <- function(page_title, content, username, password) {
   login_url <- "https://en.wikisource.org/w/api.php?action=login&format=json"
   login_url <- "https://de.wikisource.org/w/api.php?action=login&format=json"
@@ -19,7 +21,7 @@ update_wikisource_page <- function(page_title, content, username, password) {
   return(content(edit_response))
 }
 #template
-page<-fns[6]
+#page<-fns[6]
 page.edit<-function(page,template,repl.df){
   t<-readLines(page)
   t[1]<-paste0("<!--",t[1],"-->")
@@ -80,7 +82,7 @@ page.edit<-function(page,template,repl.df){
   wiki.ns<-paste0("Seite:Steltzer_montenegro.pdf/",p.nr)
   return(list(content=template.x,ns=wiki.ns))
 }
-page.edit(fns[6],template,repl.df)
+#page.edit(fns[6],template,repl.df)
 #page<-url_escape(page)
 page.get.content<-function(page){
   # #page<-url_escape(page)
