@@ -95,7 +95,7 @@ write.pages.from.file()
     #x<-update_wikisource_page(page_title, content, username, password)
     }
   }
-  tx<-page.get.content(page.get)
+  tx<-page.get.content(page.get,"raw")
   tx
 #########################################
 ### TEST:
@@ -118,7 +118,7 @@ write.pages.from.file()
   page_title<-"Index:Steltzer_montenegro.pdf"
   page_title<-"Seite:Steltzer_montenegro.pdf/9"
   #page<-page_title
-  tx<-page.get.content(page_title)
+  tx<-page.get.content(page_title,"raw")
   tx
   writeLines(tx,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/wiki/Index:Steltzer_montenegro.txt")
   
@@ -166,3 +166,13 @@ write.pages.from.file()
   }
   writeLines(t2,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/steltzer(1781)_franziska-montenegro.mod.2.txt")
   
+  #}
+
+page.x<-list()
+page.ns<-"Index:Steltzer_montenegro"
+page.x$ns<-paste0(page.ns,".pdf")
+page.x$content<-readLines(paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/wiki/",page.ns,".txt"))
+page.x$content<-paste0(page.x$content,collapse = "\n")
+page.x
+page.x
+update.page(page.x)

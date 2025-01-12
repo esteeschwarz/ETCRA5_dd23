@@ -11,6 +11,7 @@ update_wikisource_page <- function(page_title, content, username, password) {
   edit_token <- content(edit_token_response)$query$tokens$csrftoken
 #  edit_url <- "https://de.wikisource.org/w/api.php?action=parse&format=json"
   edit_url <- "https://de.wikisource.org/w/api.php?action=edit&format=json"
+  chg.name_url<-"https://de.wikisource.org/w/api.php?action=options&format=json&optionname=nickname&optionvalue=guhlglaser"
   edit_response <- POST(edit_url, body = list(
     title = page_title,
     #page = page_title,
@@ -113,13 +114,13 @@ page.edit<-function(page,template,repl.df,inuse){
 }
 #page.edit(fns[6],template,repl.df)
 #page<-url_escape(page)
-page.get.content<-function(page){
+page.get.content<-function(page,format){
   # #page<-url_escape(page)
   # read_url<-paste0("https://de.wikisource.org/w/api.php?action=query&format=json&prop=revisions&titles=",page,"&formatversion=2&rvprop=content&rvslots=*")
   # read_url<-paste0("https://de.wikisource.org/w/api.php?action=query&prop=extracts&titles=",page)
   # "https://de.wikisource.org/w/api.php?action=query&prop=extracts&exchars=175&titles=Seite:Steltzer_montenegro.pdf/5"
   page
-  raw<-paste0("https://de.wikisource.org/w/index.php?action=raw&title=",page)
+  raw<-paste0("https://de.wikisource.org/w/index.php?action=raw&format=",format,"&title=",page)
   x<-GET(raw)
   r<-content(x,"text")
 }
@@ -132,6 +133,10 @@ get.regex<-function(){
   # repl.df[1,]<-c("[ſ]{2}","ss")
   #  repl.df[6,]<-c("([ſ])([^l])","<!--\\1-->s\\2")
   repl.df[3,]<-c("[@^#$]","","meta")
+  repl.df[4,]<-c("⸗","","orth")
+  repl.df[3,]<-c("Franzista","Franziska","ocr")
+  repl.df[3,]<-c("Geschäste","Geschäfte","ocr")
+  
   #  repl.df[2,]<-c("([ſ])","<!--\\1-->s")
   # repl.df[2,]<-c("([ſ])","s")
   # repl.df[2,]<-c("([\u017F])","s")
@@ -148,3 +153,45 @@ get.regex<-function(){
   return(repl.df)
 }
 #get.regex()
+update.page<-function(page.x){
+  x<-update_wikisource_page(page.x$ns, page.x$content, username, password)
+  print(x)
+}
+
+###############################
+# make.TEI
+page.f<-"Seite:Steltzer_montenegro.pdf/11"
+
+get.htm<-function(page.f){
+html<-page.get.content(page.f,"raw")
+html
+temphtm<-tempfile("xtemp.html")
+writeLines(html,"xtemp.html")
+#writeLines(html,temphtm)
+
+p.htm<-read_html(html,encoding = "UTF-8")
+p.htm<-unlist(strsplit(html,"\n"))
+noinc<-"<noinclude>.+</noinclude>"
+m<-grep(noinc,p.htm)
+p.htm[m]<-gsub(noinc,"",p.htm[m])
+return(p.htm)
+}
+#?read_xml.character
+#p.htm
+p.tx<-get.htm(page.f)
+#p.htm
+#p.tx<-xml_text(p.htm)
+p.tx
+rsp<-"'''(.+)'''(.+)"
+m1<-grep(rsp,p.tx)
+p.tx[m1]<-gsub(rsp,"\n@\\1\\2",p.tx[m1])
+p.tx
+rsp<-"''(.+)''(.+)"
+m2<-grep(rsp,p.tx)
+p.tx[m2]<-gsub(rsp,"\n$\\1\\2",p.tx[m2])
+p.tx
+p.tx<-p.tx[p.tx!=""]
+p.tx.c<-paste0(p.tx,collapse = " ")
+p.tx.c
+
+
