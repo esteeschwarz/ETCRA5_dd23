@@ -4,22 +4,35 @@
 library(httr)
 
 cred<-read.csv("~/boxHKW/21S/DH/local/R/cred_gener.csv")
+
+get_credit<-function(admin=F){
 m<-grep("dhiwswiki",cred$q)
-username<-cred$bn[m]
-password<-cred$pwd[m]
-mwiki<-cred$url[m]
+mu<-grep("dhi2wswiki-st",cred$q)
+ma<-grep("dhi2wswiki-admin",cred$q)
+
+ifelse(admin==F,username<-cred$bn[mu],username<-cred$bn[ma])
+ifelse(admin==T,password<-cred$pwd[ma],password<-cred$pwd[ma])
+#password<-cred$pwd[m]
+mwiki<-cred$url[ma]
 
 api_url<-mwiki
 mwiki
 
 api_url <- paste0(mwiki,"api.php")
+return(list(url=api_url,username=username,password=password))
+}
 #username <- "your-username"
 #password <- "your-password"
 
+wiki_login<-function(admin,api_url){
+
+credits<-get_credit(admin)
+#credits
+api_url<-credits$url
 login_response <- POST(api_url, body = list(
   action = "login",
-  lgname = username,
-  lgpassword = password,
+  lgname = credits$username,
+  lgpassword = credits$password,
   format = "json"
 ))
 
@@ -41,8 +54,11 @@ token_response <- GET(api_url, query = list(
 ))
 
 csrf_token <- content(token_response)$query$tokens$csrftoken
+}
 
 post.page<-function(page.x){
+api_url<-get_credit(F)$url
+    csrf_token<-wiki_login(admin = F)
   edit_response <- POST(api_url, body = list(
   action = "edit",
   title = page.x$ns,
@@ -59,26 +75,41 @@ edit_result <- content(edit_response)
 print(edit_result)
 return(edit_result)
 }
-post.file<-function(pdf_path,file_name){
-# upload_response<-POST(api_url,body=list(
-# action="upload",
-# token = csrf_token,
-# format = "multipart/form-data",
-# file=pdf_path,
-# description="no desc")
-# )
-# return(upload_response)
-# }
+#admin=T
+del.page<-function(admin,page_name){
+credits<-get_credit(admin)
+credits
+api_url<-credits$url
+csrf_token<-wiki_login(admin,api_url)
+    edit_response <- POST(api_url, body = list(
+    action = "delete",
+    title = page_name,
+#    pageid = page_id,
+ #   text = page.x$content,
+    #title = "Testpage",
+    
+    
+    #text = "[[new page]] to testing API, time: 25/01/14-10:43",
+    token = csrf_token,
+    format = "json"
+  ))
+  
+  edit_result <- content(edit_response)
+  print(edit_result)
+  return(edit_result)
+}
+post.file<-function(pdf_path,file_name,pdf_desc){
+  api_url<-get_credit(F)$url
+  csrf_token<-wiki_login(admin = F)
 file_path <- pdf_path
 print(file.exists(pdf_path))
-#file_name <- "file.pdf"
-
 upload_response <- POST(api_url, body = list(
   action = "upload",
   filename = file_name,
   token = csrf_token,
   format = "json",
-  file = upload_file(file_path)
+  file = upload_file(file_path),
+  text = pdf_desc
 ), encode = "multipart", multipart = TRUE, 
 add_headers('Content-Type' = "multipart/form-data")
 )
@@ -91,21 +122,28 @@ return(upload_result)
 # r<-content(x,"text")
 # r
 page.x<-list()
-page.ns<-"Seite:testpost"
-#page.x$ns<-paste0(page.ns,".pdf")
-page.x$ns<-paste0(page.ns,".001")
-page.x$content<-readLines(paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/",page.ns,".txt"))
+page.ns<-c("Index:","Steltzer_franziska_montenegro")
+page.x$ns<-paste0(paste0(page.ns,collapse = ""),".pdf",collapse = "")
+page.x$ns
+#page.x$ns<-paste0(page.ns,".001")
+page.x$content<-readLines(paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/wiki/dhiws/",page.ns[2],".txt"))
 page.x$content<-paste0(page.x$content,collapse = "\n")
 page.x
 page_title<-page.x$ns
 content<-page.x$content
-#x<-post.page(page.x)
-?file
+x<-post.page(page.x)
+x
+#?file
 pdf_path = "/Users/guhl/boxHKW/21S/DH/local/EXC2020/bgltr/ocr/steltzer_franziska_montenegro_ggl.pdf"
+pdf_desc<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/wiki/dhiws/steltzer_desc.txt")
+pdf_desc<-paste0(pdf_desc,collapse = "\n")
+pdf_desc
 pdf_path
-x<-post.file(pdf_path,"testfile.pdf")
+x2<-post.file(pdf_path,"Steltzer_franziska_montenegro.pdf",pdf_desc)
 #page.x
 #x<-update.page(mwiki,page.x)
 #url
 #x<-update_wikisource_page(mwiki,page.x$ns, page.x$content, username, password,test = F)
-x
+#library(xml2)
+#xml_text(x2)
+#delete<-del.page(admin=T,page_name = "Index:.pdf")
