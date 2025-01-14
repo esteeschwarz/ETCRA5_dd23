@@ -3,6 +3,8 @@ from pywikibot.specialbots import UploadRobot
 
 def upload_pdf_to_wikisource(pdf_path, description_path, filename, summary):
     site = pywikibot.Site('de', 'wikisource')
+    site = pywikibot.Site('de', 'dhiws')
+    
    # site.login()
     print("logged in")
 
@@ -28,9 +30,13 @@ def upload_pdf_to_wikisource(pdf_path, description_path, filename, summary):
     bot.upload_file(pdf_path)
 
 if __name__ == "__main__":
-    pdf_path = "/Users/guhl/boxHKW/21S/DH/local/EXC2020/bgltr/ocr/steltzer_montenegro.pdf"
-    description_path = "/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/data/steltzer_desc.txt"
-    filename = "File:/pdf/steltzer_montenegro.pdf"
+    pdf_path = "/Users/guhl/boxHKW/21S/DH/local/EXC2020/bgltr/ocr/steltzer_montenegro_ggl.pdf"
+    description_path = "/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/wiki/dhiws/steltzer_desc.txt"
+    filename = "steltzer_montenegro.pdf"
+   # filename = "Media:steltzer_montenegro.pdf"
+   # pdf_path = "/Users/guhl/boxHKW/21S/DH/local/EXC2020/bgltr/ocr/steltzer_montenegro.pdf"
+    #description_path = "/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/steltzer_desc.txt"
+   # filename = "File:/pdf/steltzer_montenegro.pdf"
     summary = "test bot pdf upload"
 
     upload_pdf_to_wikisource(pdf_path, description_path, filename, summary)

@@ -1,0 +1,15 @@
+== {{int:filedesc}} ==
+{{Information
+|Description=Franziska Montenegro: Ein Trauerspiel in fünf Aufzügen
+|Source=https://books.google.de/books?id=CrxTAAAAcAAJ&hl=de&pg=PA14#v=onepage&q&f=false
+|Date=1781
+|Author=Steltzer, Christian Julius Ludwig
+|Permission=
+|other_versions=
+}}
+== {{int:license-header}} ==
+{{PD-old-100-expired}}
+
+[[Category:De Wikisource book PDF]]
+[[Category:1781 books]]
+[[Category:Christian Julius Ludwig Steltzer]]

@@ -1,0 +1,3 @@
+sample wiki page to API testing.
+you can also create a [[2nd test page]] or review [[Special:Letzte Änderungen]].
+have fun...

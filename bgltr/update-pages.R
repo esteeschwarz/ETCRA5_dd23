@@ -78,9 +78,10 @@ write.pages.from.file()
     page.x$content
     
     message<-paste0("page: ",k," edited by another user, not uploading...\n")
+    ws<-"https://en.wikisource.org/w/"
     if(tx.ql==1&tx.user=="Guhlglaser"){
       Sys.sleep(wait) # wiki spits us out, maybe even higher though
-      x<-update_wikisource_page(page.x$ns, page.x$content, username, password)
+      x<-update_wikisource_page(ws,page.x$ns, page.x$content, username, password)
      message<-paste0("\nedited page: ",k,"\n")
      #x
      log<-c(k,as.character(unlist(x)))
@@ -117,10 +118,11 @@ write.pages.from.file()
   ### check page
   page_title<-"Index:Steltzer_montenegro.pdf"
   page_title<-"Seite:Steltzer_montenegro.pdf/9"
+  page_title<-"Philotas_(Gleim_1767)"
   #page<-page_title
   tx<-page.get.content(page_title,"raw")
   tx
-  writeLines(tx,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/wiki/Index:Steltzer_montenegro.txt")
+  writeLines(tx,"~/Documents/GitHub/ETCRA5_dd23/bgltr/data/Philotas_(Gleim_1767).txt")
   
   ## edit source ground and write to pages
   # ß issue: replaces if search for repl.df[2,]<-c("([ſ])","s") also all ß
@@ -175,4 +177,4 @@ page.x$content<-readLines(paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actue
 page.x$content<-paste0(page.x$content,collapse = "\n")
 page.x
 page.x
-update.page(page.x)
+update.page(url,page.x)

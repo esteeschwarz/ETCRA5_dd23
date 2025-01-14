@@ -1,0 +1,70 @@
+{{Textdaten
+|VORIGER=
+|NÄCHSTER=
+|AUTOR=[[Johann Wilhelm Ludwig Gleim]]
+|TITEL=Philotas
+|SUBTITEL=Ein Trauerspiel. Von dem Verfasser der preussischen Kriegeslieder vercificirt
+|HERKUNFT=off
+|HERAUSGEBER=
+|AUFLAGE=
+|VERLAG=
+|ENTSTEHUNGSJAHR=
+|ERSCHEINUNGSJAHR=1767 (Erstdruck 1760)
+|ERSCHEINUNGSORT=Amsterdam
+|ÜBERSETZER=
+|ORIGINALTITEL=
+|ORIGINALSUBTITEL=
+|ORIGINALHERKUNFT=
+|WIKIPEDIA=
+|BILD=Gleim - Philotas (1767).pdf{{!}}page=1
+|QUELLE={{GBS|ld2EfxF812YC|RA1-PA103}} = {{co|Gleim - Philotas (1767).pdf}}
+|KURZBESCHREIBUNG=Versifizierung von Lessing ''Philotas''.
+|SONSTIGES=
+|BENUTZERHILFE=
+|INDEXSEITE=Gleim - Philotas (1767).pdf
+|BEARBEITUNGSSTAND=fertig
+}}
+
+{{BlockSatzStart}}
+{{SeitePR|103|Gleim - Philotas (1767).pdf/1}}
+{{SeitePR|104|Gleim - Philotas (1767).pdf/2}}
+{{SeitePR|105|Gleim - Philotas (1767).pdf/3}}
+{{SeitePR|106|Gleim - Philotas (1767).pdf/4}}
+{{SeitePR|107|Gleim - Philotas (1767).pdf/5}}
+{{SeitePR|108|Gleim - Philotas (1767).pdf/6}}
+{{SeitePR|109|Gleim - Philotas (1767).pdf/7}}
+{{SeitePR|110|Gleim - Philotas (1767).pdf/8}}
+{{SeitePR|111|Gleim - Philotas (1767).pdf/9}}
+{{SeitePR|112|Gleim - Philotas (1767).pdf/10}}
+{{SeitePR|113|Gleim - Philotas (1767).pdf/11}}
+{{SeitePR|114|Gleim - Philotas (1767).pdf/12}}
+{{SeitePR|115|Gleim - Philotas (1767).pdf/13}}
+{{SeitePR|116|Gleim - Philotas (1767).pdf/14}}
+{{SeitePR|117|Gleim - Philotas (1767).pdf/15}}
+{{SeitePR|118|Gleim - Philotas (1767).pdf/16}}
+{{SeitePR|119|Gleim - Philotas (1767).pdf/17}}
+{{SeitePR|120|Gleim - Philotas (1767).pdf/18}}
+{{SeitePR|121|Gleim - Philotas (1767).pdf/19}}
+{{SeitePR|122|Gleim - Philotas (1767).pdf/20}}
+{{SeitePR|123|Gleim - Philotas (1767).pdf/21}}
+{{SeitePR|124|Gleim - Philotas (1767).pdf/22}}
+{{SeitePR|125|Gleim - Philotas (1767).pdf/23}}
+{{SeitePR|126|Gleim - Philotas (1767).pdf/24}}
+{{SeitePR|127|Gleim - Philotas (1767).pdf/25}}
+{{SeitePR|128|Gleim - Philotas (1767).pdf/26}}
+{{SeitePR|129|Gleim - Philotas (1767).pdf/27}}
+{{SeitePR|130|Gleim - Philotas (1767).pdf/28}}
+{{SeitePR|131|Gleim - Philotas (1767).pdf/29}}
+{{SeitePR|132|Gleim - Philotas (1767).pdf/30}}
+{{SeitePR|133|Gleim - Philotas (1767).pdf/31}}
+{{SeitePR|134|Gleim - Philotas (1767).pdf/32}}
+{{SeitePR|135|Gleim - Philotas (1767).pdf/33}}
+{{SeitePR|135|Gleim - Philotas (1767).pdf/34}}
+{{BlockSatzEnd}}
+
+{{SORTIERUNG:Philotas Gleim}}
+[[Kategorie:Deutsche Philologie]]
+[[Kategorie:1760er Jahre]]
+[[Kategorie:Deutschland]]
+[[Kategorie:Neuhochdeutsch]]
+[[Kategorie:Drama]]
