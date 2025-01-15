@@ -6,7 +6,7 @@ ligen Augustins Betschwesterton.
 Katelli! Katelli! Warum verläßt
 du mich jezt. Hülfe! Eh er mich ermordet!
 @Pedrillo:
-Er ist hier gewesen? Katelli hiet?
+Er ist hier gewesen? Katelli hier?
 @Katelli:
 Er ist noch hier! Aber wo er stekt
 weiß ich nicht.
@@ -16,7 +16,7 @@ eitel wäre! Schlau genug, wär's Verstellung. Aehn⸗
 lichkeit in der Sprache! (laut) Sprich! wo ist Ka⸗
 telli?
 @Katelli:
-Ihre Augen auf;, und sie werden
+Ihre Augen auf; und sie werden
 ihn finden!
 @Pedrillo:
 (geht auf die Thür zu) Aber, wenn
@@ -30,4 +30,4 @@ $ Franziska und Katelli.
 Mein Katelli! Mein Katelli!
 @Katelli:
 Länger nicht! Mann, wo bist du, der
-du die Flammen so lange dämpift, als ich? känger
+du die Flammen so lange dämpfst, als ich? länger

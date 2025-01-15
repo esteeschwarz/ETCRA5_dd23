@@ -1,7 +1,8 @@
 steltzer_montenegro.pdf_000022
 ## Sechszehnter Auftrit.
 $ Montenegro und ein Bedienter.
-@Bedienter: Der Pater Zisterzius verlangt sie
+@Bedienter: 
+Der Pater Zisterzius verlangt sie
 zu sprechen.
 @Montenegro:
 Zisterzius? Ich kenn' ihn nicht!⸗
@@ -9,18 +10,21 @@ Zisterzius? Ich kenn' ihn nicht!⸗
 ron uns!
 ## Siebzehnter Auftrit.
 $ Die vorigen und Zisterzius.
-@Zisterzius: Entschuldigen sie, daß ich sie so⸗
+@Zisterzius:
+Entschuldigen sie, daß ich sie so⸗
 kurz vor Tische beschwere. Ich bitte mir einige ge⸗
 heime Augenblikke aus.
 @Montenegro:
 Geheim genug hier, lieber Herr
 Pater. Meine Leute sind alle ehrliches Sinns.
-Rur immer damit heraus, was sie auf dem Her⸗
-zen haben.N Hf
-@Zisterzius: Wenn sie sich gütigst nur einige
+Nur immer damit heraus, was sie auf dem Her⸗
+zen haben.
+@Zisterzius:
+Wenn sie sich gütigst nur einige
 Schritte entfernen wollten. Sachen von Wichtige
 keit.
-@Mont: Keinen Schrit weiter, Herr Pater!
+@Mont: 
+Keinen Schrit weiter, Herr Pater!
 Sie werden mir's nicht verargen; in dem Stükke
 bin ich eigen. Ich kenne sie noch gar nicht; und
 mit fremden Leuten geh' ich nicht gern weit, ohne

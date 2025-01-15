@@ -1,0 +1,122 @@
+<includeonly>
+{| width="100%"
+|- valign="top"
+|
+{|
+|-
+|<div style="float:left;">
+{{#if:{{{Image|}}}|{{#iferror: {{#expr: 1 + {{{Image}}} }} | {{{Image}}} | [[Image:{{PAGENAMEE}}|page={{{Image}}}|frameless]]}}}}
+</div>
+{|
+|-
+| '''{{TCT|Proofreadpage index template|Title|uselang={{int:lang}}}}''' 
+| {{{Title}}}
+|- {{#if:{{{Author|}}}||style="display:none;"}}
+| '''{{TCT|Proofreadpage index template|Author|uselang={{int:lang}}}}'''
+| {{ #ifexist: Author:{{{Author|}}} | [[Author:{{{Author}}}|{{{Author}}}]] | {{{Author}}} }}
+|- {{#if:{{{Translator|}}}||style="display:none;"}}
+| '''{{TCT|Proofreadpage index template|Translator|uselang={{int:lang}}}}'''
+| {{{Translator}}}
+|- {{#if:{{{Editor|}}}||style="display:none;"}}
+| '''{{TCT|Proofreadpage index template|Editor|uselang={{int:lang}}}}'''
+| {{{Editor}}}
+|- {{#if:{{{Year|}}}||style="display:none;"}}
+| '''{{TCT|Proofreadpage index template|Year|uselang={{int:lang}}}}''' 
+| {{{Year}}}
+|- {{#if:{{{Publisher|}}}||style="display:none;"}}
+| '''{{TCT|Proofreadpage index template|Publisher|uselang={{int:lang}}}}'''
+| {{{Publisher}}}
+|- {{#if:{{{Address|}}}||style="display:none;"}}
+| '''{{TCT|Proofreadpage index template|Address|uselang={{int:lang}}}}'''
+| {{{Address}}}
+|-valign="top"
+| '''{{TCT|Proofreadpage index template|Source|uselang={{int:lang}}}}''' 
+| {{#switch:{{{Source|}}}|djvu=[[:File:{{PAGENAMEE}}|djvu]]|pdf=[[:File:{{PAGENAMEE}}|pdf]]|jpg=[[:File:{{PAGENAMEE}}|jpg]]|{{{Source}}} }} 
+|- {{#if:{{{Progress|}}}||style="display:none;"}}
+| '''{{TCT|Proofreadpage index template|Progress|uselang={{int:lang}}}}''' 
+|{{#switch:{{{Progress|}}}
+|T=[[Category:Index Validated]][[:Category:Index Validated|Done]]
+|V=[[Category:Index Proofread]][[:Category:Index Proofread|To be validated]]
+|C=[[Category:Index Not-Proofread]][[:Category:Index Not-Proofread|To be proofread]]
+|MS=[[category:Index - Ready for Match and Split]][[:category:Index - Ready for Match and Split|Ready for Match & Split]]
+|OCR=[[category:Index - Text Layer Requested]][[:category:Index - Text Layer Requested|Needs an OCR text layer]]
+|X=[[category:Index - Excerpt or Mixture]][[:category:Index - Excerpt or Mixture|Excerpt or Mixture]]
+|L=[[category:Index - File to fix]]<font style="color: #FF0000; ">[[:category:Index - File to fix|Source file must be fixed before proofreading]]</font>|default [[Category:Index - Unknown progress]]}}
+|- style="vertical-align:top;{{#if:{{{Volumes|}}}||display:none;}}"
+| '''{{TCT|Proofreadpage index template|Volumes|uselang={{int:lang}}}}''' 
+| {{{Volumes}}}
+|}
+|-valign="top"
+| '''{{TCT|Proofreadpage index template|Pages|uselang={{int:lang}}}}''' 
+<div style="text-align:justify;">
+{{{Pages}}}
+</div>
+|}
+| {{#if:{{{Remarks|}}}|width="30%"}} | 
+<div id="remarks">
+{{{Remarks|}}}
+</div>
+|}
+{{DEFAULTSORT:{{{Key|{{PAGENAME}}}}}}}
+[[category:Index]]</includeonly><noinclude>
+
+[[ar:قالب:فهرس]]
+[[as:মিডিয়াৱিকি:Proofreadpage index template]]
+[[be:MediaWiki:Proofreadpage index template]]
+[[bn:মিডিয়াউইকি:Proofreadpage index template]]
+[[br:MediaWiki:Proofreadpage index template]]
+[[MediaWiki:Proofreadpage index template]]
+[[cs:MediaWiki:Proofreadpage index template]]
+[[cy:MediaWici:Proofreadpage index template]]
+[[da:MediaWiki:Proofreadpage index template]]
+[[de:Vorlage:Index]]
+[[el:Πρότυπο:Βιβλίο]]
+[[en:MediaWiki:Proofreadpage index template]]
+[[eo:MediaWiki:Proofreadpage index template]]
+[[es:MediaWiki:Proofreadpage index template]]
+[[et:MediaWiki:Proofreadpage index template]]
+[[eu:MediaWiki:Proofreadpage index template]]
+[[fa:مدیاویکی:Proofreadpage index template]]
+[[fi:Järjestelmäviesti:Proofreadpage index template]]
+[[fr:MediaWiki:Proofreadpage index template]]
+[[gl:MediaWiki:Proofreadpage index template]]
+[[gu:મીડિયાવિકિ:Proofreadpage index template]]
+[[he:מדיה ויקי:Proofreadpage index template]]
+[[hi:मीडियाविकि:Proofreadpage index template]]
+[[hr:MediaWiki:Proofreadpage index template]]
+[[hu:Sablon:Index]]
+[[hy:MediaWiki:Proofreadpage index template]]
+[[id:MediaWiki:Proofreadpage index template]]
+[[is:Melding:Proofreadpage index template]]
+[[it:Template:Proofreadpage index template]]
+[[ja:MediaWiki:Proofreadpage index template]]
+[[kn:ಮೀಡಿಯವಿಕಿ:Proofreadpage index template]]
+[[ko:미디어위키:Proofreadpage index template]]
+[[la:Formula:Proofread index]]
+[[lt:Šablonas:Index]]
+[[mk:МедијаВики:Proofreadpage index template]]
+[[ml:മീഡിയവിക്കി:Proofreadpage index template]]
+[[mr:मिडियाविकी:Proofreadpage index template]]
+[[nap:MediaWiki:Proofreadpage index template]]
+[[nl:Template:Index]]
+[[no:MediaWiki:Proofreadpage index template]]
+[[or:ମିଡ଼ିଆଉଇକି:Proofreadpage index template]]
+[[pa:ਮੀਡੀਆਵਿਕੀ:Proofreadpage index template]]
+[[pl:Szablon:Index]]
+[[pms:MediaWiki:Proofreadpage index template]]
+[[pt:Predefinição:Proofread Index]]
+[[ro:MediaWiki:Proofreadpage index template]]
+[[ru:Шаблон:Index]]
+[[sa:फलकम्:Proofreadpage index template]]
+[[sk:MediaWiki:Proofreadpage index template]]
+[[sl:MediaWiki:Proofreadpage index template]]
+[[sr:Медијавики:Proofreadpage index template]]
+[[sv:MediaWiki:Proofreadpage index template]]
+[[ta:மீடியாவிக்கி:Proofreadpage index template]]
+[[uk:MediaWiki:Proofreadpage index template]]
+[[vec:Modèl:Proofreadpage index template]]
+[[vi:MediaWiki:Proofreadpage index template]]
+[[zh:MediaWiki:Proofreadpage index template]]
+
+[[Category:Key templates for export]]
+</noinclude>

@@ -15,7 +15,7 @@ Lieber Vater! — Geräusch im
 Hause!
 @Katelli:
 Ein Priester kömmt in den Garten!
-— Mit bewasneten Leuten!
+— Mit bewafneten Leuten!
 @Franziska:
 Sie werden doch hier keinen Ver⸗
 brecher suchen?
@@ -28,10 +28,10 @@ Grosser Gott im Himmel!
 @Katelli:
 So heiß ich.
 @Priester:
-Ich konim' im Ramen der heiligen
+Ich komm' im Namen der heiligen
 Inquisition. Sie haben wider Religion gesprochen
 und deshalb müssen sie sich verantworten. Folgen
 sie mir in dis Mauren des heiligen Gerichts.
 @Katelli:
 Herr Pater! beweisen sie, daß die
-heilige Juguisition sie schitt.
+heilige Inquisition sie schikt.

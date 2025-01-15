@@ -1,0 +1,12 @@
+{
+  "ID": { 
+    "type": "string",     "size": 1, 
+    "values":  {"a":"A", "b":"B","c":"C", "d":"D"}, 
+    "default": "", 
+    "header": false, 
+    "label": "ID", 
+    "help": "", 
+    "delimiter": [], 
+    "data": "" 
+  }
+}

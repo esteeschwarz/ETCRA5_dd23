@@ -8,7 +8,7 @@ username<-cred$bn[m]
 password<-cred$pwd[m]
 source("/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/functions.R")
 text_path = "/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/steltzer(1781)_franziska-montenegro.mod.txt"
-text_path = "/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/steltzer(1781)_franziska-montenegro.mod1a.txt"
+text_path = "/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/steltzer(1781)_franziska-montenegro.mod.2.txt"
 pagedir<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/pagesmod"
 dir.create(pagedir)
 t<-readLines(text_path)
@@ -46,15 +46,22 @@ write.pages.from.file()
   fns.o
   fns<-fns.o
   fns[11]
-  k<-14
+  k<-18
   library(xml2)
   logfile<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/data/post.log"
+  logfile<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/post.log"
   #file.create(logfile)
   postlist<-list()
   # next 20, break due rate limit
   # run edit >
 #  for(k in 16:length(fns)){
-  do.post.wiki<-function(range,inuse){
+  ####################################
+  k<-18
+  range<-18:18
+  inuse=T
+  returnformat<-"json"
+  test=F
+  do.post.wiki<-function(range,inuse,returnformat,test){
  # range<-9:9
     for(k in range){
   ifelse(40<=k|k<=15,wait<-15,wait<-k)
@@ -63,7 +70,7 @@ write.pages.from.file()
     cat("\nprocess page:",k,"\n")
     page.get<-paste0("Seite:Steltzer_montenegro.pdf/",k)
     #page<-page_title
-    tx<-page.get.content(page.get)
+    tx<-page.get.content(page.get,"raw")
     tx
     tx.temp<-tempfile("tx.html")
     writeLines(tx,tx.temp)
@@ -73,15 +80,15 @@ write.pages.from.file()
     tx.ql<-xml_attr(head[1],"level")
     page<-fns[k]
     page
-    page.x<-page.edit(page,template,repl.df,inuse)
+    page.x<-page.edit(page,template,repl.df,inuse,returnformat)
     page.x$ns
-    page.x$content
+    print(page.x)
     
     message<-paste0("page: ",k," edited by another user, not uploading...\n")
-    ws<-"https://en.wikisource.org/w/"
+    ws<-"https://de.wikisource.org/w/"
     if(tx.ql==1&tx.user=="Guhlglaser"){
       Sys.sleep(wait) # wiki spits us out, maybe even higher though
-      x<-update_wikisource_page(ws,page.x$ns, page.x$content, username, password)
+      x<-update_wikisource_page(ws,page.x$ns, page.x$content, username, password,test)
      message<-paste0("\nedited page: ",k,"\n")
      #x
      log<-c(k,as.character(unlist(x)))
@@ -100,15 +107,15 @@ write.pages.from.file()
   tx
 #########################################
 ### TEST:
-    page.edit(fns[10],template,repl.df,inuse = T)
-  do.post.wiki(c(9:10),inuse=T)
+  repl.df<-get.regex()
+  page.edit(fns[18],template,repl.df,inuse = T)
+  do.post.wiki(c(19:20),inuse=T,returnformat = "json",test = F)
 #########################################  
-  do.post.wiki(c(11:length(fns)),inuse=F)
+  do.post.wiki(c(21:length(fns)),inuse=F,returnformat = "json",test = F)
 #########################################
     utf8ToInt("ſ")
   utf8ToInt("ß")
   
-  repl.df<-get.regex()
   sz<-c("wuͤßt","koͤmm"," nöͤthi")
   page.edit(fns[9],template,repl.df)
   #repl.df[4,]<-c("(^@)","<!--\\1-->")
@@ -119,8 +126,9 @@ write.pages.from.file()
   page_title<-"Index:Steltzer_montenegro.pdf"
   page_title<-"Seite:Steltzer_montenegro.pdf/9"
   page_title<-"Philotas_(Gleim_1767)"
+  page_title<-"File:Stelzer_montenegro.pdf"
   #page<-page_title
-  tx<-page.get.content(page_title,"raw")
+  tx<-page.get.content(page_title,"json")
   tx
   writeLines(tx,"~/Documents/GitHub/ETCRA5_dd23/bgltr/data/Philotas_(Gleim_1767).txt")
   

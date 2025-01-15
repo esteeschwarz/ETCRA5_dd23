@@ -1,6 +1,6 @@
 library(httr)
 
-update_wikisource_page <- function(url,page_title, content, username, password,test=T) {
+update_wikisource_page <- function(url,page_title, content, username, password,test) {
   base_url<-"https://en.wikisource.org/w/"
   base_url<-url
   login_url <- paste0(base_url,"api.php?action=login&format=json")
@@ -38,10 +38,10 @@ update_wikisource_page <- function(url,page_title, content, username, password,t
   
   return(content(edit_response))
 }
-content(edit_response)
+#content(edit_response)
 #template
 #page<-fns[6]
-page.edit<-function(page,template,repl.df,inuse){
+page.edit<-function(page,template,repl.df,inuse,returnformat){
   t<-readLines(page)
   t[1]<-paste0("<!--",t[1],"-->")
   if(inuse==T)
@@ -102,10 +102,10 @@ page.edit<-function(page,template,repl.df,inuse){
   #                      template.x[m4])
   repl.df<-get.regex()
   
-  for (r in 1:length(repl.df$regx)){
-    if(!is.na(repl.df$regx[r]))
-      template.x<-gsub(repl.df$regx[r],repl.df$repl[r],template.x)
-  }
+  # for (r in 1:length(repl.df$regx)){
+  #   if(!is.na(repl.df$regx[r])&repl.df$category[r]!="post")
+  #     template.x<-gsub(repl.df$regx[r],repl.df$repl[r],template.x)
+  # }
   
   #   template.x[m4]<-gsub("([#]{2})(.*)",
 #                      "{{LineCenterSize|120|20|===\\1\\2===}}",
@@ -124,8 +124,17 @@ page.edit<-function(page,template,repl.df,inuse){
   # template.x<-gsub("([#]{1,5})","<!--\\1-->",template.x)
   #template.x<-paste(template.x,collapse = "<br>")
   template.x<-paste(template.x,collapse = "\n")
-  
-  template.x<-gsub("#","",template.x)
+#  postrepl<-repl.df[repl.df$category=="post",]
+ # postrepl<-postrepl[!is.na(postrepl$regx),]
+#   for (p in 1:length(postrepl$regx)){
+# #  template.x<-gsub("#","",template.x)
+#  # template.x<-gsub(repl.df,"",template.x)
+#     template.x<-gsub(postrepl[p,1],postrepl[p,2],template.x)
+#   }
+  for (r in 1:length(repl.df$regx)){
+    if(!is.na(repl.df$regx[r]))
+      template.x<-gsub(repl.df$regx[r],repl.df$repl[r],template.x)
+  }
   
   wiki.ns<-paste0("Seite:Steltzer_montenegro.pdf/",p.nr)
   return(list(content=template.x,ns=wiki.ns))
@@ -138,6 +147,7 @@ page.get.content<-function(page,format){
   # read_url<-paste0("https://de.wikisource.org/w/api.php?action=query&prop=extracts&titles=",page)
   # "https://de.wikisource.org/w/api.php?action=query&prop=extracts&exchars=175&titles=Seite:Steltzer_montenegro.pdf/5"
   page
+  format<-"json"
   raw<-paste0("https://de.wikisource.org/w/index.php?action=raw&format=",format,"&title=",page)
   x<-GET(raw)
   r<-content(x,"text")
@@ -150,10 +160,10 @@ get.regex<-function(){
   #repl.df[1,2]<-"ü"
   # repl.df[1,]<-c("[ſ]{2}","ss")
   #  repl.df[6,]<-c("([ſ])([^l])","<!--\\1-->s\\2")
-  repl.df[3,]<-c("[@^#$]","","meta")
-  repl.df[4,]<-c("⸗","","orth")
-  repl.df[3,]<-c("Franzista","Franziska","ocr")
-  repl.df[3,]<-c("Geschäste","Geschäfte","ocr")
+  repl.df[3,]<-c("[@^#$]","","post")
+  repl.df[4,]<-c("⸗\n","","post")
+  repl.df[5,]<-c("Franzista","Franziska","ocr")
+  repl.df[6,]<-c("Geschäste","Geschäfte","ocr")
   
   #  repl.df[2,]<-c("([ſ])","<!--\\1-->s")
   # repl.df[2,]<-c("([ſ])","s")

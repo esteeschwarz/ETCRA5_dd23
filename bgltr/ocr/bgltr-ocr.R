@@ -13,6 +13,8 @@ writeLines(t,"text/t14-tess-deu.txt")
 #kraken model:
 "~/boxHKW/21S/DH/local/OCR/models/german_print_best.mlmodel"
 system("kraken -f pdf -i steltzer_montenegro.pdf steltzer-text.txt segment -bl ocr -m ~/boxHKW/21S/DH/local/OCR/models/german_print_best.mlmodel") # output to files, ...txt obsolete
+# missing pages 13-14
+system("kraken -f pdf -i steltzer_montenegro_13-14.pdf steltzer-text-mis.txt segment -bl ocr -m ~/boxHKW/21S/DH/local/OCR/models/german_print_best.mlmodel")
 t.dir<-"steltzer-text"
 texts<-list.files(t.dir)
 texts.d<-paste(t.dir,texts,sep = "/")
