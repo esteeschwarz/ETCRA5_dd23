@@ -16,6 +16,8 @@ t2<-gsub("\u017F","s",t)
 m<-grep("steltzer_montenegro(.*?).pdf_0000",t2) # 95
 m2<-c(m[2:length(m)],length(t2))
 m2
+template<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/data/wikitemplate_proof-steltzer.html")
+# template<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/data/wikitemplate_proof_basic-steltzer.html")
 
 get.page<-function(x,m,m2,i){
   m2<-m2-1
@@ -30,22 +32,39 @@ write.pages.from.file<-function(){
   }
   )
 }
+f<-list.files(pagedir)
+fns<-paste(pagedir,f,sep = "/")
+library(abind)
+p.nr.l<-strsplit(fns,"\\.")
+p.nr.l<-data.frame(abind(p.nr.l,along=0))
+#p.nr.l<-p.nr.l[order(p.nr.l$X2),]
+fns.o<-fns[order(as.double(p.nr.l$X2))]
+fns.o
+fns<-fns.o
+fns[15]
+#######################
 write.pages.from.file()
-  f<-list.files(pagedir)
-  fns<-paste(pagedir,f,sep = "/")
-  template<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/data/wikitemplate_proof-steltzer.html")
-  # template<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/data/wikitemplate_proof_basic-steltzer.html")
-  template
-  k<-6
-  fns
-  library(abind)
-  p.nr.l<-strsplit(fns,"\\.")
-  p.nr.l<-data.frame(abind(p.nr.l,along=0))
-  #p.nr.l<-p.nr.l[order(p.nr.l$X2),]
-  fns.o<-fns[order(as.double(p.nr.l$X2))]
-  fns.o
-  fns<-fns.o
-  fns[11]
+#######################
+get.page.ns<-function(which.dir){
+  if(which.dir=="ocr"){
+    f<-list.files(pagedir)
+    fns<-paste(pagedir,f,sep = "/")
+#    template
+    k<-6
+    fns
+    library(abind)
+    p.nr.l<-strsplit(fns,"\\.")
+    p.nr.l<-data.frame(abind(p.nr.l,along=0))
+    #p.nr.l<-p.nr.l[order(p.nr.l$X2),]
+    fns.o<-fns[order(as.double(p.nr.l$X2))]
+    fns.o
+    fns<-fns.o
+    fns[11]
+    
+  }
+  return(fns)
+}
+fns<-get.page.ns("ocr")
   k<-18
   library(xml2)
   logfile<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/data/post.log"
@@ -56,12 +75,14 @@ write.pages.from.file()
   # run edit >
 #  for(k in 16:length(fns)){
   ####################################
-  k<-18
-  range<-18:18
+  k<-19
+  range<-19:19
   inuse=T
   returnformat<-"json"
-  test=F
-  do.post.wiki<-function(range,inuse,returnformat,test){
+  credit<-c(admin=F,ws=T)
+ #get_credit(credit)
+  # test=F
+  do.post.wiki<-function(range,inuse,credit){
  # range<-9:9
     for(k in range){
   ifelse(40<=k|k<=15,wait<-15,wait<-k)
@@ -80,16 +101,17 @@ write.pages.from.file()
     tx.ql<-xml_attr(head[1],"level")
     page<-fns[k]
     page
-    page.x<-page.edit(page,template,repl.df,inuse,returnformat)
+    page.x<-page.edit(page,template,inuse,k)
     page.x$ns
     print(page.x)
     
     message<-paste0("page: ",k," edited by another user, not uploading...\n")
-    ws<-"https://de.wikisource.org/w/"
+    #ws<-"https://de.wikisource.org/w/"
     if(tx.ql==1&tx.user=="Guhlglaser"){
       Sys.sleep(wait) # wiki spits us out, maybe even higher though
-      x<-update_wikisource_page(ws,page.x$ns, page.x$content, username, password,test)
-     message<-paste0("\nedited page: ",k,"\n")
+      # x<-update_wikisource_page(ws,page.x$ns, page.x$content, username, password,test)
+      x<-update_wikisource_page(page.x,inuse,credit)
+      message<-paste0("\nedited page: ",k,"\n")
      #x
      log<-c(k,as.character(unlist(x)))
      log<-t(log)
@@ -108,10 +130,11 @@ write.pages.from.file()
 #########################################
 ### TEST:
   repl.df<-get.regex()
-  page.edit(fns[18],template,repl.df,inuse = T)
-  do.post.wiki(c(19:20),inuse=T,returnformat = "json",test = F)
+  k<-20
+  page.edit(fns[k],template,inuse = F,i=k)
+  do.post.wiki(c(20:20),inuse=F,credit)
 #########################################  
-  do.post.wiki(c(21:length(fns)),inuse=F,returnformat = "json",test = F)
+  do.post.wiki(c(21:length(fns)),inuse=F,credit)
 #########################################
     utf8ToInt("ſ")
   utf8ToInt("ß")
@@ -132,6 +155,18 @@ write.pages.from.file()
   tx
   writeLines(tx,"~/Documents/GitHub/ETCRA5_dd23/bgltr/data/Philotas_(Gleim_1767).txt")
   writeLines(tx,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/wiki/Index_Steltzer_montenegro_act.txt")
+  
+### save ws corrected pages to upload after reassign google pdf
+### pages 2:17 corrected, 1 is not existing, 2 is frontispiz wt picture, file 3 = 2 on ws
+  range<-1:17
+  k<-18
+  for(k in range){
+    page_title<-paste0("Seite:Steltzer_montenegro.pdf/",k)
+    tx<-page.get.content(page_title,"json")
+    tx
+    writeLines(tx,"~/Documents/GitHub/ETCRA5_dd23/bgltr/data/Philotas_(Gleim_1767).txt")
+    writeLines(tx,paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/pagesave/Steltzer_montenegro.pdf_",k))
+  }
   
   ## edit source ground and write to pages
   # ß issue: replaces if search for repl.df[2,]<-c("([ſ])","s") also all ß

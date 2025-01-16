@@ -1,47 +1,51 @@
 library(httr)
 
-update_wikisource_page <- function(url,page_title, content, username, password,test) {
-  base_url<-"https://en.wikisource.org/w/"
-  base_url<-url
-  login_url <- paste0(base_url,"api.php?action=login&format=json")
-  login_url <- paste0(base_url,"api.php?action=login&format=json")
-  login_response <- POST(login_url, body = list(lgname = username, lgpassword = password))
-  login_token <- content(login_response)$login$token
-  # Get edit token
-  edit_token_url <- paste0(base_url,"api.php?action=query&meta=tokens&format=json")
-  edit_token_response <- GET(edit_token_url, set_cookies(login_response$cookies$value))
-  edit_token <- content(edit_token_response)$query$tokens$csrftoken
-#  edit_url <- "https://de.wikisource.org/w/api.php?action=parse&format=json"
-  edit_url <- paste0(base_url,"api.php?action=edit&assert=user&assertuser=guhlglaser&format=json")
-  edit_url <- paste0(base_url,"api.php?action=edit&format=json")
-  test_url<-paste0(base_url,"api.php?action=query&assert=user&assertuser=guhlglaser&format=json")
-  if(test==T){
-    test_response<-POST(test_url, body = list(
-      title = page_title,
-      #page = page_title,
-      text = content,
-      # token = edit_token
-      token = "+\\"
-    ), set_cookies(login_response$cookies$value))
-    return(test_response)
-  }
+#update_wikisource_page <- function(url,page_title, content, username, password,test) {
+  update_wikisource_page <- function(page.x,inuse,credit) {
+    # base_url<-"https://en.wikisource.org/w/"
+#   base_url<-url
+#   login_url <- paste0(base_url,"api.php?action=login&format=json")
+#   login_url <- paste0(base_url,"api.php?action=login&format=json")
+#   login_response <- POST(login_url, body = list(lgname = username, lgpassword = password))
+#   login_token <- content(login_response)$login$token
+#   # Get edit token
+#   edit_token_url <- paste0(base_url,"api.php?action=query&meta=tokens&format=json")
+#   edit_token_response <- GET(edit_token_url, set_cookies(login_response$cookies$value))
+#   edit_token <- content(edit_token_response)$query$tokens$csrftoken
+# #  edit_url <- "https://de.wikisource.org/w/api.php?action=parse&format=json"
+#   edit_url <- paste0(base_url,"api.php?action=edit&assert=user&assertuser=guhlglaser&format=json")
+#   edit_url <- paste0(base_url,"api.php?action=edit&format=json")
+#   test_url<-paste0(base_url,"api.php?action=query&assert=user&assertuser=guhlglaser&format=json")
+    #credits<-get_credit(credit)
     
+  # if(test==T){
+  #   test_response<-POST(test_url, body = list(
+  #     title = page_title,
+  #     #page = page_title,
+  #     text = content,
+  #     # token = edit_token
+  #     token = "+\\"
+  #   ), set_cookies(login_response$cookies$value))
+  #   return(test_response)
+  # }
+### RUN post:
+  x<-post.page(page.x,inuse,credit)
   # chg.name_url<-paste0(base_url,"api.php?action=options&format=json&optionname=nickname&optionvalue=",username)
   # name_response<-POST(chg.name_url,body = list(
   #   token = edit_token),set_cookies(login_response$cookies$value))
-  edit_response <- POST(edit_url, body = list(
-    title = page_title,
-    #page = page_title,
-    text = content,
-    token = edit_token
-  ), set_cookies(login_response$cookies$value))
-  
-  return(content(edit_response))
+  # edit_response <- POST(edit_url, body = list(
+  #   title = page_title,
+  #   #page = page_title,
+  #   text = content,
+  #   token = edit_token
+  # ), set_cookies(login_response$cookies$value))
+  # 
+  # return(content(edit_response))
 }
 #content(edit_response)
 #template
 #page<-fns[6]
-page.edit<-function(page,template,repl.df,inuse,returnformat){
+page.edit<-function(page,template,inuse,i){
   t<-readLines(page)
   t[1]<-paste0("<!--",t[1],"-->")
   if(inuse==T)
@@ -57,6 +61,7 @@ page.edit<-function(page,template,repl.df,inuse,returnformat){
   
   #template.x<-paste(template.x,collapse = "<br>")
   p.nr<-strsplit(page,"\\.")[[1]][2]
+  p.nr<-i
   template.x<-gsub("<temppagenr/>",p.nr,template.x)
   # for (r in 1:length(repl.df)){
   #   if(!is.na(repl.df$regx[r]))
