@@ -156,8 +156,8 @@ get.regex<-function(){
   repl.df<-data.frame(regx=1:20,repl=NA,category=NA)
   repl.df$regx<-NA
 #  repl.df$category<-NA
-  #repl.df[1,1]<-"uͤ"
-  #repl.df[1,2]<-"ü"
+  repl.df[1,1]<-"uͤ"
+  repl.df[1,2]<-"ü"
   # repl.df[1,]<-c("[ſ]{2}","ss")
   #  repl.df[6,]<-c("([ſ])([^l])","<!--\\1-->s\\2")
   repl.df[3,]<-c("[@^#$]","","post")
@@ -166,16 +166,18 @@ get.regex<-function(){
   repl.df[6,]<-c("Geschäste","Geschäfte","ocr")
   
   #  repl.df[2,]<-c("([ſ])","<!--\\1-->s")
-  # repl.df[2,]<-c("([ſ])","s")
+   repl.df[7,]<-c("([ſ])","s","ocr")
   # repl.df[2,]<-c("([\u017F])","s")
   # #repl.df[7,]<-c("([ſ])([^l])","<!--\\1-->s\\2")
   # # repl.df[6,]<-c("([ſ])([^l])","<!--\\1-->s\\2")
-  # repl.df[4,1]<-"aͤ"
-  # repl.df[4,2]<-"ä"
-  # repl.df[5,1]<-"üͤ"
-  # repl.df[5,2]<-"ü"
-  # repl.df[6,1]<-"üͤ"
-  # repl.df[6,2]<-"ü"
+   repl.df[8,1]<-"aͤ"
+   repl.df[8,2]<-"ä"
+   repl.df[9,1]<-"üͤ"
+   repl.df[9,2]<-"ü"
+   repl.df[10,1]<-"üͤ"
+   repl.df[10,2]<-"ü"
+   repl.df[11,1]<-"oͤ"
+   repl.df[11,2]<-"ö"
   # repl.df$category<-"orth"
   #repl.df$category[3]<-"meta"
   return(repl.df)

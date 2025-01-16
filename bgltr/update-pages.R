@@ -13,7 +13,7 @@ pagedir<-"/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/pagesmod"
 dir.create(pagedir)
 t<-readLines(text_path)
 t2<-gsub("\u017F","s",t)
-m<-grep("steltzer_montenegro.pdf_0000",t2) # 95
+m<-grep("steltzer_montenegro(.*?).pdf_0000",t2) # 95
 m2<-c(m[2:length(m)],length(t2))
 m2
 
@@ -124,13 +124,14 @@ write.pages.from.file()
   #repl.df[7,]<-c("([#]{1,5})","<!--\\1-->")
   ### check page
   page_title<-"Index:Steltzer_montenegro.pdf"
-  page_title<-"Seite:Steltzer_montenegro.pdf/9"
+  page_title<-"Seite:Steltzer_montenegro.pdf/18"
   page_title<-"Philotas_(Gleim_1767)"
   page_title<-"File:Stelzer_montenegro.pdf"
   #page<-page_title
   tx<-page.get.content(page_title,"json")
   tx
   writeLines(tx,"~/Documents/GitHub/ETCRA5_dd23/bgltr/data/Philotas_(Gleim_1767).txt")
+  writeLines(tx,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/wiki/Index_Steltzer_montenegro_act.txt")
   
   ## edit source ground and write to pages
   # ß issue: replaces if search for repl.df[2,]<-c("([ſ])","s") also all ß

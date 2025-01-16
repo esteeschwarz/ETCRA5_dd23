@@ -5,10 +5,11 @@
 |VERLAG=
 |JAHR=1781
 |ORT=
-|QUELLE={{GBS|CrxTAAAAcAAJ}}
-<!--https://books.google.de/books?id=CrxTAAAAcAAJ&hl=de&pg=PA14#v=onepage&q&f=false
-|QUELLE=[https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10118086-3 MDZ] = {{co|Steltzer_montenegro.pdf}}-->
-|SEITEN=<pagelist from=1 to=94 2=1 />
+<!--|QUELLE={{GBS|CrxTAAAAcAAJ}}-->
+<!--https://books.google.de/books?id=CrxTAAAAcAAJ&hl=de&pg=PA14#v=onepage&q&f=false-->
+<!--|QUELLE=[https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10118086-3 MDZ] = {{co|Steltzer_montenegro.pdf}}-->
+|QUELLE=[https://books.google.de/books?id=CrxTAAAAcAAJ&hl=de&pg=PA14#v=onepage&q&f=false GBS] = {{co|Steltzer_montenegro_ggl.pdf}}
+|SEITEN=<pagelist from=1 to=94 />
 |ER=
 <!--*siehe [[Wikisource:Editionsrichtlinien]]-->
 * überschriebene Buchstaben werden als normale Umlaute (ä, ö, ü) transkribiert
@@ -16,7 +17,6 @@
 * von einem Punkt (.) gefolgte, größer gedruckte Personennamen (speaker declarations) am Anfang der Zeile werden '''fett''' wiedergegeben
 * nicht umklammerte (...) stage directions (Bühnenanweisungen) werden ''kursiv'' wiedergegeben.
 * Zeilenumbrüche bleiben als einfache Zeilenumbrüche entsprechend der Vorlage erhalten.
-* {{SperrSchrift|gesperrt}} gedruckter Text wird {{SperrSchrift|gesperrt}} wiedergegeben.
 |PROJEKTFORTSCHRITT=Steltzer montenegro
 |BEARBEITUNGSSTAND=unkorrigiert
 }}
