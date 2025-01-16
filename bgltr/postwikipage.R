@@ -138,6 +138,7 @@ return(upload_result)
 # r<-content(x,"text")
 # r
 ### POST page ########
+out.func<-function(){
 page.x<-list()
 page.ns<-c("Index:","Steltzer_montenegro",".pdf",".txt")
 #page.ns<-c("MediaWiki:","Proofreadpage_index_template","",".txt")
@@ -154,8 +155,10 @@ page.x
 ####################
 x<-post.page(page.x,inuse = T,credit = c(admin=F,ws=T))
 x
+}
 ####################
 ### reupload pg 2-14/15-17(@17,18), corrected:
+get.cor.pages<-function(){
 f.save.dir<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/pagesave"
 f.saves<-list.files(f.save.dir)
 f.s.ns<-paste(f.save.dir,f.saves,sep="/")
@@ -195,9 +198,10 @@ tx.16<-page.edit(fns[16],template,repl.df,inuse = T)
 tx.16
 x<-post.page(tx.16,inuse = T,credit = c(admin=F,ws=T))
 x
-
+}
 #?file
 ### POST pdf #######
+tempfun<-function(){
 pdf_path = "/Users/guhl/boxHKW/21S/DH/local/EXC2020/bgltr/ocr/steltzer_franziska_montenegro_ggl.pdf"
 pdf_desc<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/wiki/dhiws/steltzer_desc.txt")
 pdf_desc<-paste0(pdf_desc,collapse = "\n")
@@ -213,3 +217,4 @@ pdf_path
 #library(xml2)
 #xml_text(x2)
 #delete<-del.page(admin=T,page_name = "Index:.pdf")
+}
