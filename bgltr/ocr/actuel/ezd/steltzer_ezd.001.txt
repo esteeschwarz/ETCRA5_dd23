@@ -1,5 +1,5 @@
 [II]
-Montenegro, ein alter reicher Spanier.Franziska, seine Tochter.Katelli, ein Italiener, Vetter des Montenegro und Franziska’s Liebhaber.Pedrillo, Sekretär eines Ministers.Anton, Katelli’s Bedienter.Kamilla, Franziska’s Mädchen.Hieronimus, ein Mönch.Niklas, ein Bandit.Bedienten.Priester.Wache.
+ Montenegro, ein alter reicher Spanier.Franziska, seine Tochter.Katelli, ein Italiener, Vetter des Montenegro und Franziska’s Liebhaber.Pedrillo, Sekretär eines Ministers.Anton, Katelli’s Bedienter.Kamilla, Franziska’s Mädchen.Hieronimus, ein Mönch.Niklas, ein Bandit. Bedienten. Priester. Wache. 
 [III]
 #Erster Aufzug.
 ##Erster Auftrit.
@@ -37,7 +37,8 @@ $ Katelli und Anton, (der fortgehen will)
 Bleib, Anton, und schließ mir den Gar ten zu! — Daß es aber mein Vetter nicht merkt. (Anton geht.) 
 ##Vierter Auftrit.
 $ Katelli allein. 
-@Katelli: Nicht eher will ich mich sehen lassen, als bis ich mich gefaßt habe; — und fassen will ich mich, muß ich mich! — Sonst so entschlossen, und jezt nichts, als Zweifel um mich her! — Ist mein Trit denn so schwach, daß ich mich von einem nächtlichen Traum sollte umstossen lassen? Ich weiß, sie liebt mich. Das sagt mir ihr warmer Handdruk, ihr feuriger Blik, womit sie mich überschauet, und das Röthen ihres Gesichts, wenn ich sie ansehe. Und Pedrillo? O vielleicht ist er so der gute Mann, als ich ihn für den arglistigen, boshaften halte! — Wie der Argwohn den Menschen trillen kann, wenn er einmal in ihm haushält! — Aber hier hell' ich mich nicht auf; Täglich hab' ich das Mädchen vor Augen. Fort, fort! Auf eine kurze Zeit winigstens muß du sie verlassen:
+@Katelli:
+Nicht eher will ich mich sehen lassen, als bis ich mich gefaßt habe; — und fassen will ich mich, muß ich mich! — Sonst so entschlossen, und jezt nichts, als Zweifel um mich her! — Ist mein Trit denn so schwach, daß ich mich von einem nächtlichen Traum sollte umstossen lassen? Ich weiß, sie liebt mich. Das sagt mir ihr warmer Handdruk, ihr feuriger Blik, womit sie mich überschauet, und das Röthen ihres Gesichts, wenn ich sie ansehe. Und Pedrillo? O vielleicht ist er so der gute Mann, als ich ihn für den arglistigen, boshaften halte! — Wie der Argwohn den Menschen trillen kann, wenn er einmal in ihm haushält! — Aber hier hell' ich mich nicht auf; Täglich hab' ich das Mädchen vor Augen. Fort, fort! Auf eine kurze Zeit winigstens muß du sie verlassen:
 <pb n="8"/>
 ##Fünfter Auftrit.
 $ Katelli und Anton. 
@@ -473,7 +474,8 @@ Ey, sehen sie ihr doch nur recht in die Augen. Franziska's Kammermädel! Sie lä
 Ich habe gar nichts böses gethan, gnadiger Herr. Ich habe dem auch nichts gethan, und doch schleppt er mich zu ihnen herauf. Ich habe nur ein Paar Worte mit Jakob gesprochen. 
 @Pedrillo:
 (zu Niklas) Ich glaube, sie haben meine eigenen Leute schon vergiftet! — (vör sich) Ich wdin euch aber zur Reue dringen! <pb n="42"/>
-@Kamilla: Ihr Jakob ist mein Bräutigam:
+@Kamilla:
+Ihr Jakob ist mein Bräutigam:
 und mit dem hab’ ich nur ein Paar Worte gesprochen – das ist ja gar nichts übles – und hab’ ihm erzehlt – ach, ich bitte sie um alles in der Welt, lassen sie mich doch nur gehen! ich hab’ in ihrem Hause ja weiter nichts gewollt! 
 @Pedrillo:
 Was hast du mit meinem Bedienten zu sprechen? Bräutigam! ja dahinter stekt etwas anders! 
@@ -496,10 +498,8 @@ Ja, du grosser Gott! die ist, wie gesagt, im weiten Felde. Da ist noch weder an 
 @Pedrillo:
 Kann denn die Verlobung nicht ohne dein Wissen vollzogen seyn? 
 @Kamilla:
-Wenn ich das nicht einmal hätte erfahren sollen! Doch, wer weiß auch? Es ist wohl heute Verlobung, wenn sie so in der Stille gehalten, werden kann. Da ist mit dei. Kleidern gekramt; da ist das Haus von der Herrschaft soviel durchlaufen! Aber sie haben ja alle Leute fortgeschickt! Wer sollte denn aufwarten? Anton und noch so ein Paar steife Graubärte sind zu Hause geblieben; und die werden's doch nicht ausmachen? Man erfährt auch gar nichts. Es ist jezt recht arg in unserm Hause. Und der alte Anton ist gegen mich der Allerschlimste. <pb n="44"/> Niklas.
-(zu Pedrillo) Rufen sie ihren Bedienten zum anziehen. Wir haben keine Zeit zu verliehren. 
+Wenn ich das nicht einmal hätte erfahren sollen! Doch, wer weiß auch? Es ist wohl heute Verlobung, wenn sie so in der Stille gehalten, werden kann. Da ist mit dei. Kleidern gekramt; da ist das Haus von der Herrschaft soviel durchlaufen! Aber sie haben ja alle Leute fortgeschickt! Wer sollte denn aufwarten? Anton und noch so ein Paar steife Graubärte sind zu Hause geblieben; und die werden's doch nicht ausmachen? Man erfährt auch gar nichts. Es ist jezt recht arg in unserm Hause. Und der alte Anton ist gegen mich der Allerschlimste. <pb n="44"/>
 @Niklas:
-Wenn ich das nicht einmal hätte erfahren sollen! Doch, wer weiß auch? Es ist wohl heute Verlobung, wenn sie so in der Stille gehalten, werden kann. Da ist mit dei. Kleidern gekramt; da ist das Haus von der Herrschaft soviel durchlaufen! Aber sie haben ja alle Leute fortgeschickt! Wer sollte denn aufwarten? Anton und noch so ein Paar steife Graubärte sind zu Hause geblieben; und die werden's doch nicht ausmachen? Man erfährt auch gar nichts. Es ist jezt recht arg in unserm Hause. Und der alte Anton ist gegen mich der Allerschlimste. <pb n="44"/> Niklas.
 (zu Pedrillo) Rufen sie ihren Bedienten zum anziehen. Wir haben keine Zeit zu verliehren. 
 @Pedrillo:
 Das ist aber auch nicht gut, daß dir der Alte nicht mehr traut. (fängt an sich anzuziehen.) 

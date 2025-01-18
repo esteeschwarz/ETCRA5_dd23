@@ -27,32 +27,11 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person sex="FEMALE" xml:id="kamilla">
-            <persName>Kamilla</persName>
+          <person sex="MALE" xml:id="pedrillo">
+            <persName>Pedrillo</persName>
           </person>
-          <person sex="MALE" xml:id="anton">
-            <persName>Anton</persName>
-          </person>
-          <person sex="MALE" xml:id="zisterzius">
-            <persName>Zisterzius</persName>
-          </person>
-          <person sex="MALE" xml:id="hieronimus">
-            <persName>Hieronimus</persName>
-          </person>
-          <person sex="MALE" xml:id="katelli:_nicht_eher_will_ich_mich_sehen_lassen,_als_bis_ich_mich_gefaßt_habe;_—_und_fassen_will_ich_mich,_muß_ich_mich!_—_sonst_so_entschlossen,_und_jezt_nichts,_als_zweifel_um_mich_her!_—_ist_mein_trit_denn_so_schwach,_daß_ich_mich_von_einem_nächtlichen_traum_sollte_umstossen_lassen?_ich_weiß,_sie_liebt_mich._das_sagt_mir_ihr_warmer_handdruk,_ihr_feuriger_blik,_womit_sie_mich_überschauet,_und_das_röthen_ihres_gesichts,_wenn_ich_sie_ansehe._und_pedrillo?_o_vielleicht_ist_er_so_der_gute_mann,_als_ich_ihn_für_den_arglistigen,_boshaften_halte!_—_wie_der_argwohn_den_menschen_trillen_kann,_wenn_er_einmal_in_ihm_haushält!_—_aber_hier_hell_ich_mich_nicht_auf;_täglich_hab_ich_das_mädchen_vor_augen._fort,_fort!_auf_eine_kurze_zeit_winigstens_muß_du_sie_verlassen">
-            <persName>Katelli: Nicht eher will ich mich sehen lassen, als bis ich mich gefaßt habe; — und fassen will ich mich, muß ich mich! — Sonst so entschlossen, und jezt nichts, als Zweifel um mich her! — Ist mein Trit denn so schwach, daß ich mich von einem nächtlichen Traum sollte umstossen lassen? Ich weiß, sie liebt mich. Das sagt mir ihr warmer Handdruk, ihr feuriger Blik, womit sie mich überschauet, und das Röthen ihres Gesichts, wenn ich sie ansehe. Und Pedrillo? O vielleicht ist er so der gute Mann, als ich ihn für den arglistigen, boshaften halte! — Wie der Argwohn den Menschen trillen kann, wenn er einmal in ihm haushält! — Aber hier hell' ich mich nicht auf; Täglich hab' ich das Mädchen vor Augen. Fort, fort! Auf eine kurze Zeit winigstens muß du sie verlassen</persName>
-          </person>
-          <person sex="MALE" xml:id="niklas">
-            <persName>Niklas</persName>
-          </person>
-          <person sex="MALE" xml:id="monten">
-            <persName>Monten</persName>
-          </person>
-          <person sex="MALE" xml:id="gefangenw">
-            <persName>Gefangenw</persName>
-          </person>
-          <person sex="MALE" xml:id="bedienter">
-            <persName>Bedienter</persName>
+          <person sex="MALE" xml:id="der_vermummte">
+            <persName>Der Vermummte</persName>
           </person>
           <person sex="MALE" xml:id="gefangenwärter">
             <persName>Gefangenwärter</persName>
@@ -60,29 +39,44 @@
           <person sex="MALE" xml:id="katelli">
             <persName>Katelli</persName>
           </person>
-          <person sex="MALE" xml:id="priester">
-            <persName>Priester</persName>
-          </person>
-          <person sex="MALE" xml:id="der_vermummte">
-            <persName>Der Vermummte</persName>
-          </person>
-          <person sex="MALE" xml:id="mont">
-            <persName>Mont</persName>
-          </person>
           <person sex="MALE" xml:id="montenegro">
             <persName>Montenegro</persName>
+          </person>
+          <person sex="MALE" xml:id="anton">
+            <persName>Anton</persName>
           </person>
           <person sex="FEMALE" xml:id="franziska">
             <persName>Franziska</persName>
           </person>
-          <person sex="MALE" xml:id="kamilla:_ihr_jakob_ist_mein_bräutigam">
-            <persName>Kamilla: Ihr Jakob ist mein Bräutigam</persName>
+          <person sex="MALE" xml:id="zisterzius">
+            <persName>Zisterzius</persName>
+          </person>
+          <person sex="MALE" xml:id="monten">
+            <persName>Monten</persName>
+          </person>
+          <person sex="MALE" xml:id="niklas">
+            <persName>Niklas</persName>
           </person>
           <person sex="FEMALE" xml:id="franzista">
             <persName>Franzista</persName>
           </person>
-          <person sex="MALE" xml:id="pedrillo">
-            <persName>Pedrillo</persName>
+          <person sex="MALE" xml:id="hieronimus">
+            <persName>Hieronimus</persName>
+          </person>
+          <person sex="MALE" xml:id="gefangenw">
+            <persName>Gefangenw</persName>
+          </person>
+          <person sex="FEMALE" xml:id="kamilla">
+            <persName>Kamilla</persName>
+          </person>
+          <person sex="MALE" xml:id="bedienter">
+            <persName>Bedienter</persName>
+          </person>
+          <person sex="MALE" xml:id="mont">
+            <persName>Mont</persName>
+          </person>
+          <person sex="MALE" xml:id="priester">
+            <persName>Priester</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -113,7 +107,7 @@
     <front>
     </front>
     <body>[II]
-      Montenegro, ein alter reicher Spanier.Franziska, seine Tochter.Katelli, ein Italiener, Vetter des Montenegro und Franziska’s Liebhaber.Pedrillo, Sekretär eines Ministers.Anton, Katelli’s Bedienter.Kamilla, Franziska’s Mädchen.Hieronimus, ein Mönch.Niklas, ein Bandit.Bedienten.Priester.Wache.
+      Montenegro, ein alter reicher Spanier.Franziska, seine Tochter.Katelli, ein Italiener, Vetter des Montenegro und Franziska’s Liebhaber.Pedrillo, Sekretär eines Ministers.Anton, Katelli’s Bedienter.Kamilla, Franziska’s Mädchen.Hieronimus, ein Mönch.Niklas, ein Bandit. Bedienten. Priester. Wache.
       [III]
       <div type="act">
         <head>Erster Aufzug.</head>
@@ -185,8 +179,9 @@
         <div type="scene">
           <head>Vierter Auftrit.</head>
           <stage>Katelli allein.</stage>
-          <sp who="#katelli:_nicht_eher_will_ich_mich_sehen_lassen,_als_bis_ich_mich_gefaßt_habe;_—_und_fassen_will_ich_mich,_muß_ich_mich!_—_sonst_so_entschlossen,_und_jezt_nichts,_als_zweifel_um_mich_her!_—_ist_mein_trit_denn_so_schwach,_daß_ich_mich_von_einem_nächtlichen_traum_sollte_umstossen_lassen?_ich_weiß,_sie_liebt_mich._das_sagt_mir_ihr_warmer_handdruk,_ihr_feuriger_blik,_womit_sie_mich_überschauet,_und_das_röthen_ihres_gesichts,_wenn_ich_sie_ansehe._und_pedrillo?_o_vielleicht_ist_er_so_der_gute_mann,_als_ich_ihn_für_den_arglistigen,_boshaften_halte!_—_wie_der_argwohn_den_menschen_trillen_kann,_wenn_er_einmal_in_ihm_haushält!_—_aber_hier_hell_ich_mich_nicht_auf;_täglich_hab_ich_das_mädchen_vor_augen._fort,_fort!_auf_eine_kurze_zeit_winigstens_muß_du_sie_verlassen">
-            <speaker>Katelli: Nicht eher will ich mich sehen lassen, als bis ich mich gefaßt habe; — und fassen will ich mich, muß ich mich! — Sonst so entschlossen, und jezt nichts, als Zweifel um mich her! — Ist mein Trit denn so schwach, daß ich mich von einem nächtlichen Traum sollte umstossen lassen? Ich weiß, sie liebt mich. Das sagt mir ihr warmer Handdruk, ihr feuriger Blik, womit sie mich überschauet, und das Röthen ihres Gesichts, wenn ich sie ansehe. Und Pedrillo? O vielleicht ist er so der gute Mann, als ich ihn für den arglistigen, boshaften halte! — Wie der Argwohn den Menschen trillen kann, wenn er einmal in ihm haushält! — Aber hier hell' ich mich nicht auf; Täglich hab' ich das Mädchen vor Augen. Fort, fort! Auf eine kurze Zeit winigstens muß du sie verlassen:</speaker>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+            <p>Nicht eher will ich mich sehen lassen, als bis ich mich gefaßt habe; — und fassen will ich mich, muß ich mich! — Sonst so entschlossen, und jezt nichts, als Zweifel um mich her! — Ist mein Trit denn so schwach, daß ich mich von einem nächtlichen Traum sollte umstossen lassen? Ich weiß, sie liebt mich. Das sagt mir ihr warmer Handdruk, ihr feuriger Blik, womit sie mich überschauet, und das Röthen ihres Gesichts, wenn ich sie ansehe. Und Pedrillo? O vielleicht ist er so der gute Mann, als ich ihn für den arglistigen, boshaften halte! — Wie der Argwohn den Menschen trillen kann, wenn er einmal in ihm haushält! — Aber hier hell' ich mich nicht auf; Täglich hab' ich das Mädchen vor Augen. Fort, fort! Auf eine kurze Zeit winigstens muß du sie verlassen:</p>
             <p>pb n="8"/&gt;</p>
           </sp>
         </div>
@@ -1048,8 +1043,9 @@
             <speaker>Pedrillo:</speaker>
             <p><stage>(zu Niklas)</stage> Ich glaube, sie haben meine eigenen Leute schon vergiftet! — <stage>(vör sich)</stage> Ich wdin euch aber zur Reue dringen! &lt;pb n="42"/&gt;</p>
           </sp>
-          <sp who="#kamilla:_ihr_jakob_ist_mein_bräutigam">
-            <speaker>Kamilla: Ihr Jakob ist mein Bräutigam:</speaker>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+            <p>Ihr Jakob ist mein Bräutigam:</p>
             <p>und mit dem hab’ ich nur ein Paar Worte gesprochen – das ist ja gar nichts übles – und hab’ ihm erzehlt – ach, ich bitte sie um alles in der Welt, lassen sie mich doch nur gehen! ich hab’ in ihrem Hause ja weiter nichts gewollt!</p>
           </sp>
           <sp who="#pedrillo">
@@ -1094,12 +1090,10 @@
           </sp>
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
-            <p>Wenn ich das nicht einmal hätte erfahren sollen! Doch, wer weiß auch? Es ist wohl heute Verlobung, wenn sie so in der Stille gehalten, werden kann. Da ist mit dei. Kleidern gekramt; da ist das Haus von der Herrschaft soviel durchlaufen! Aber sie haben ja alle Leute fortgeschickt! Wer sollte denn aufwarten? Anton und noch so ein Paar steife Graubärte sind zu Hause geblieben; und die werden's doch nicht ausmachen? Man erfährt auch gar nichts. Es ist jezt recht arg in unserm Hause. Und der alte Anton ist gegen mich der Allerschlimste. &lt;pb n="44"/&gt; Niklas.</p>
-            <p><stage>(zu Pedrillo)</stage> Rufen sie ihren Bedienten zum anziehen. Wir haben keine Zeit zu verliehren.</p>
+            <p>Wenn ich das nicht einmal hätte erfahren sollen! Doch, wer weiß auch? Es ist wohl heute Verlobung, wenn sie so in der Stille gehalten, werden kann. Da ist mit dei. Kleidern gekramt; da ist das Haus von der Herrschaft soviel durchlaufen! Aber sie haben ja alle Leute fortgeschickt! Wer sollte denn aufwarten? Anton und noch so ein Paar steife Graubärte sind zu Hause geblieben; und die werden's doch nicht ausmachen? Man erfährt auch gar nichts. Es ist jezt recht arg in unserm Hause. Und der alte Anton ist gegen mich der Allerschlimste. &lt;pb n="44"/&gt;</p>
           </sp>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
-            <p>Wenn ich das nicht einmal hätte erfahren sollen! Doch, wer weiß auch? Es ist wohl heute Verlobung, wenn sie so in der Stille gehalten, werden kann. Da ist mit dei. Kleidern gekramt; da ist das Haus von der Herrschaft soviel durchlaufen! Aber sie haben ja alle Leute fortgeschickt! Wer sollte denn aufwarten? Anton und noch so ein Paar steife Graubärte sind zu Hause geblieben; und die werden's doch nicht ausmachen? Man erfährt auch gar nichts. Es ist jezt recht arg in unserm Hause. Und der alte Anton ist gegen mich der Allerschlimste. &lt;pb n="44"/&gt; Niklas.</p>
             <p><stage>(zu Pedrillo)</stage> Rufen sie ihren Bedienten zum anziehen. Wir haben keine Zeit zu verliehren.</p>
           </sp>
           <sp who="#pedrillo">
