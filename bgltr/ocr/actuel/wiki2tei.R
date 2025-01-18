@@ -4,14 +4,14 @@
 #############################################
 source("/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/functions.R")
 ######
-t1<-page.get.content("Franziska_Montenegro","json")
-head(t1,200)
-epub<-tempfile("t1.epub")
-download.file("https://ws-export.wmcloud.org/?format=epub&lang=de&page=Franziska_Montenegro",epub)
+# t1<-page.get.content("Franziska_Montenegro","json")
+# head(t1,200)
+# epub<-tempfile("t1.epub")
+# download.file("https://ws-export.wmcloud.org/?format=epub&lang=de&page=Franziska_Montenegro",epub)
 ep<-GET("https://ws-export.wmcloud.org/?format=epub&lang=de&page=Franziska_Montenegro")
 t1<-content(ep,"text")
 htm<-read_html(t1)
-xml_text(htm)
+#xml_text(htm)
 # no.
 #############
 get.all.elements<-function(){
@@ -85,6 +85,21 @@ assign.sp<-function(x,i){
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
     return(sp.ezd)
   }
+  b<-xml_find_all(sub,"b")
+  if(length(b)>0){
+    print(length(b))
+    p.tx<-xml_text(sub)
+    b.tx<-xml_text(b)
+    print(p.tx)
+    print(b.tx)
+    p.tx<-gsub(b.tx,"",p.tx)
+    b.tx<-gsub("\\.",":",b.tx)
+    sp.ezd<-paste0("@",b.tx,p.tx)
+    sp.ezd<-gsub("\n"," ",sp.ezd)
+    sp.ezd<-gsub(":[ ]{1,2}\t",":\t",sp.ezd)
+    sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+    return(sp.ezd)
+  }
   b<-xml_find_all(sub,"i")
   if(length(b)>0){
     print(length(b))
@@ -100,21 +115,21 @@ assign.sp<-function(x,i){
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
     return(sp.ezd)
   }
-  b<-xml_find_all(sub,"b")
-  if(length(b)>0){
-  print(length(b))
-  p.tx<-xml_text(sub)
-  b.tx<-xml_text(b)
-  print(p.tx)
-  print(b.tx)
-  p.tx<-gsub(b.tx,"",p.tx)
-  b.tx<-gsub("\\.",":",b.tx)
-  sp.ezd<-paste0("@",b.tx,p.tx)
-  sp.ezd<-gsub("\n"," ",sp.ezd)
-  sp.ezd<-gsub(":[ ]{1,2}\t",":\t",sp.ezd)
-  sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
-  return(sp.ezd)
-  }
+  # b<-xml_find_all(sub,"b")
+  # if(length(b)>0){
+  # print(length(b))
+  # p.tx<-xml_text(sub)
+  # b.tx<-xml_text(b)
+  # print(p.tx)
+  # print(b.tx)
+  # p.tx<-gsub(b.tx,"",p.tx)
+  # b.tx<-gsub("\\.",":",b.tx)
+  # sp.ezd<-paste0("@",b.tx,p.tx)
+  # sp.ezd<-gsub("\n"," ",sp.ezd)
+  # sp.ezd<-gsub(":[ ]{1,2}\t",":\t",sp.ezd)
+  # sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+  # return(sp.ezd)
+  # }
 #  div<-xml_find_all(sub,"div")
  
 }
@@ -128,26 +143,83 @@ sp.lines<-lapply(seq_along(all.elements),function(i){
 })
 ezd.lines<-unlist(sp.lines)
 #ezd.lines[310:330]
-m<-is.null(ezd.lines[1:length(ezd.lines)])
-sp.lines[[322]]
-s1<-sp.lines[[322]]
-s1
+# m<-is.null(ezd.lines[1:length(ezd.lines)])
+# sp.lines[[322]]
+# s1<-sp.lines[[322]]
+# s1
 m<-ezd.lines=="$"|ezd.lines=="@ *"|ezd.lines==""|
   ezd.lines=="[ ]{1,10}"|ezd.lines=="[.]{1,2}"|ezd.lines=="\n"
 sum(m)
+ezd.lines<-gsub("\n"," ",ezd.lines)
 ezd.lines<-ezd.lines[!m]
-ezd.lines<-gsub("\n","",ezd.lines)
-ezd.lines[632]
+#ezd.lines[632]
 ### wks.
-m<-grepl("<pb",ezd.lines)
-sum(m)
-ezd.lines[m]
-utf8ToInt("
-          ")
-head(sp.lines,200)
-xml_text(x[[8]])
-sp.lines[[8]]
-head(xml_text(x),30)
-x[[9]]
-#m<-isunlist(sp.lines)
-writeLines(unlist(ezd.lines),"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001.txt")
+m1<-grepl("^<pb",ezd.lines)
+sum(m1)
+ezd.lines[m1]
+m2<-grep("^<pb",ezd.lines)
+m3<-m2-1
+ezd.lines[m3]<-paste0(ezd.lines[m3],ezd.lines[m2])
+ezd.lines<-ezd.lines[!m1]
+ezd.nl<-gsub("  "," ",ezd.lines)
+ezd.nl<-gsub("\t","\n",ezd.nl)
+#ezd.nl<-gsub("  "," ",ezd.nl)
+for (k in 1:3){
+ezd.nl<-gsub("(^@.*:)[ ]{1,2}","\\1\n",ezd.nl)
+}
+### normalise speaker ids
+m<-grep("^@.*[:.]",ezd.nl)
+strsplit()
+sp.u<-unique(strsplit(ezd.nl[m],"\n"))
+sp.u[1]
+
+sp.u.df<-abind(lapply(sp.u,function(x){x[1]}),along = 0)
+sp.un<-unique(sp.u.df)
+sp.un[,2]<-""
+#sp.cor<-fix(sp.un)
+# library(readr)
+# write.table(sp.cor,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/speaker-ids.csv",row.names = F)
+sp.cor<-read.csv("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/speaker-ids.csv",sep = " ")
+replace.sp.ids<-function(x){
+  if(!is.na(x[,2])){
+  m<-grep(x[,1],ezd.nl)
+  return(gsub(x[,1],x[,2],ezd.nl[m]))
+  }
+}
+ezd.nl.sp<-ezd.nl
+k<-1
+for (k in 1:length(sp.cor$speaker)){
+  if(sp.cor$corrected[k]!=""){
+    m<-grep(sp.cor$speaker[k],ezd.nl.sp)
+    ezd.nl.sp[m]<-gsub(sp.cor$speaker[k],sp.cor$corrected[k],ezd.nl.sp[m])
+  }
+}
+#wks.
+### personal:
+m<-grep("II",ezd.nl.sp)
+ezd.nl.sp[m[1]+1]
+p.head<-strsplit(ezd.nl.sp[m[1]+1],"\\.")
+p.head<-gsub("^ ","",unlist(p.head))
+p.head<-p.head[p.head!=""]
+p.head<-strsplit(p.head,",")
+p.head<-abind(lapply(p.head,function(x){x[1:4]}),along = 0)
+
+# writeLines(unlist(ezd.lines),"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001.txt")
+writeLines(ezd.nl.sp,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001.txt")
+local<-T
+path.local.home<-"~/Documents/GitHub/dybbuk-cor"
+ezd_markup_text<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001.txt"
+process.ezd<-function(){
+  #check.local()
+  # ifelse(local,path.local.home,path.git.home)
+#  ezd_markup_text<-check.src("txt")
+  system(paste0("python3 ",ifelse(local,path.local.home,path.git.home),"/convert/actuel/","parser.git.py ",ezd_markup_text))
+  print("finished python ezd")
+} #end ezd process .txt
+process.ezd()
+#system("python --version")
+### flaws.
+m<-grep("\\(",ezd.lines)
+#ezd.lines[m]
+m2<-grep("[$]",ezd.lines[m])
+ezd.lines[m[m2]]

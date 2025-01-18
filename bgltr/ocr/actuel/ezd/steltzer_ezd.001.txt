@@ -29,7 +29,7 @@ Zu seiner Zeit sag’ ich ihnen alles. Ich liebe sie; aber noch kindlicher will 
 $Die vorigen. Anton.
 @Anton:
 (zu Montenegro.) Leute aus der Stadt wollen sie sprechen. Sie stellen sich eilend. 
-@Mont:
+@Montenegro:
 Nicht wahr? Das kömmt dir, wie gerufen, Katelli? Aber davon kömmst du nicht. du sollst beichten, was dir im Kopfe stekt. <pb n="7"/>
 ##Dritter Auftrit.
 $ Katelli und Anton, (der fortgehen will) 
@@ -140,7 +140,7 @@ $Die vorigen und Anton.
 Trag dies wieder weg, Anton! Ich will allein seyn. (Anton ab.) Zehn <pb n="15"/>
 ##Zehnter Auftrit.
 $Katelli. Franziska. 
-@Franzista:
+@Franziska:
 Aber du siehst so finster, Katelli? Bin, ich, dir lästig? 
 @Katelli:
 Dieser Handdruk sey Antwort. 
@@ -231,19 +231,19 @@ $ Anton und Montenegro.
 Was denn hier so allein in der Irre? Wo ist dein Herr? Und meine Tochter, hast du die nicht gesehn? 
 @Anton:
 Die Minute waren sie hier. Wenn ich nicht irre, so wollten sie zu ihnen gehen. 
-@Mont:
+@Montenegro:
 So muß ich sie wohl im Hause suchen? (will gehen) 
 @Anton:
 Werther Herr, könnt' ich nicht ein paar Worte mit ihnen sprechen? Ich habe hier von Kamilla garstige Dinge gehört. Die hält's mit einem Bedienten des Pedrillo. 
-@Mont:
+@Montenegro:
 Da soll sie mir aus dem Hause, Anton. 
 @Anton:
 Dann machen sie's ja noch schlimmer. Ich hab' ihr schon etwas blankes aufs Maul gedrükt. Vors erste hätten wir nun wohl nichts mehr zu fürchten. Aber, noch mehr! Pedrillo soll gestern sehr auf sie geschimpft haben. Darauf hat ihm Ka <pb n="22"/> milla's Bräutigam einen verworfnen Menschen holen müssen. Mit dem hat er geheim von Priestern und Verkleiden gesprochen — Nehmen sie sich doch ums Himmelswillen in Acht. 
-@Mont:
+@Montenegro:
 Mehr wußte sie nicht, Anton? Hüte dich ja für das Schnattermaul. 
 @Anton:
 Sorgen sie für mich nicht. Ich glaube von ihr sowohl noch öfters etwas herauszubringen, aber von mir soll sie nichts erfahren. Kennt noch keiner den alten Alton! 
-@Mont:
+@Montenegro:
 (Hebt ein Stükchen Papier auf) Das ist Katelli's Hand. (liest. Nach einer Pause) Anton, laß mich allein, und siehst du sie, so sag ihnen, daß ich hier sey. (Anton ab.) 
 ##Funfzehnter Auftrit.
 $ Montenegro allein. <pb n="23"/>
@@ -261,29 +261,29 @@ Entschuldigen sie, daß ich sie so kurz vor Tische beschwere. Ich bitte mir eini
 Geheim genug hier, lieber Herr Pater. Meine Leute sind alle ehrliches Sinns. Nur immer damit heraus, was sie auf dem Herzen haben. 
 @Zisterzius:
 Wenn sie sich gütigst nur einige Schritte entfernen wollten. Sachen von Wichtigkeit. 
-@Mont:
+@Montenegro:
 Keinen Schrit weiter, Herr Pater! Sie werden mir's nicht verargen; in dem Stükke bin ich eigen. Ich kenne sie noch gar nicht; und mit fremden Leuten geh' ich nicht gern weit, ohne jemandes Beyseyn. <pb n="24"/> Zisterzius.
 Ich muß sagen, die Antwort hätt' ich, ein geweyheter Priester, von ihnen nicht erwartet. 
 @Zisterzius:
 Keinen Schrit weiter, Herr Pater! Sie werden mir's nicht verargen; in dem Stükke bin ich eigen. Ich kenne sie noch gar nicht; und mit fremden Leuten geh' ich nicht gern weit, ohne jemandes Beyseyn. <pb n="24"/> Zisterzius.
 Ich muß sagen, die Antwort hätt' ich, ein geweyheter Priester, von ihnen nicht erwartet. 
-@Mont:
+@Montenegro:
 Ich habe alle Hochachtung für sie und ihren Stand, aber — sie werden's selbst wissen — es gehen viele in der falschen Kutte eines Priesters herum, die den Buben im Herzen haben. Nehmen sie's mir nicht übel. Ich bin immer so geradhin raus, obsgleich nicht gut ist. Ich hätte da einen hübschen feinen Brey herumgiessen sollen; alsdenn verdaut sich so etwas besser. Nun, was ist ihr Begehren, Herr Pater, und wer sind sie? 
 @Zisterzius:
 Ich bin ein Klosterbruder. Schon längst ist der Ruhm von ihnen und ihrer Familie zu meiner einsamen Zelle gedrungen. Da ich nun stets von frommen Leuten viel gehalten habe, so war's schon langst mein Wunsch, sie persönlich zu kennen. Ueberdem bietet sich mir jezt eine Gelegenheit dar, wobey ich ihnen Dienstwilligkeit und Liebe für ihr Haus beweisen kann. 
-@Mont:
+@Montenegro:
 Von dem Ruhm meiner Familie ist wohl nicht viel zu sagen; denn sie ist eben nicht in die große Welt gekommen. Es ist immer meine Regel gewesen; Still und dabey redlich gelebt! Wenn sie den Ruhm aber in meine Frömmigkeit setzen, so mag's seyn, denn sie hat mein ganzes Haus zum Führer, bis ins Grab erwählt. <pb n="25"/>
 @Zisterzius:
 Ich komme, sie wider eine grosse Widerwärtigkeit zu schützen. Das Schwert hängt an einem dünnen Faden über ihrem Kopf; aber noch ist es Zeit, ihn stärker zu weben. Pedrillo hat vor kurzer Zeit — 
-@Mont:
+@Montenegro:
 Ja, er hat um meine Tochter angehalten, und zwar vergebens. Aber es wäre mir lieber, sie sagten davon nichts. 
 @Zisterzius:
 Ich weiß, daß sie ihm versagt ist. Vielleicht des bösen Gerüchts wegen, worin ihn seine zu genaue Gerechtigkeitsliebe gesezt hat. 
-@Mont:
+@Montenegro:
 Das ist recht, Herr Pater. Noch mehr aber deshalb, weil ihn meine Tochter nicht haben will. Hat ihnen Pedrillo davon noch nichts gesagt? 
 @Zisterzius:
 Er hat's mir zwar nicht gesagt, denn ich habe nicht die Ehre, ihn so genau zu kennen; ich versichere sie aber bey der Heiligkeit meines Standes, daß er der Mann nicht ist, wozu ihm das Gerede des Pöbels und fast ganz Spaniens macht. Die kurze Zeit meines Aufenthalts in Madrit, hat mich davon überzeugt. Allein die besten Seelen dieser Erde haben gemeiniglich des Leidens am meisten. 
-@Mont:
+@Montenegro:
 Weiter nichts anzubringen? 
 @Zisterzius:
 Nur noch zu sagen, daß der Freund Pedrillo's, dieser Liebling des Fürsten, diese Stütze des ganzen Landes, sich sehr dadurch beleidigt glaubt, daß <pb n="26"/> ihre Tochter seinem Freunde abgeschlagen ist. Er und Pedrillo sinnen auf Rache. Die Bereitung dazu ist gemacht. Wenn sie den Stoß nicht zeitig vorbeugen, so wird er bis zur Unwehrbarkeit derb werden. 
@@ -291,21 +291,21 @@ Nur noch zu sagen, daß der Freund Pedrillo's, dieser Liebling des Fürsten, die
 $ Die vorigen und Anton. 
 @Anton:
 (raunt dem Montenegro etwas in die Ohren) 
-@Mont:
+@Montenegro:
 Eben der? 
 @Anton:
 Das Mädel hat ihm gar genau unter die Augen gesehn. 
-@Mont:
+@Montenegro:
 (zu Zisierzius) Hör' er mein Freund! Wenn er künftig den Betrüger spielen will, so zieh' er nicht Priesterkleider an. Sie schikken sich zu seiner Mine nicht. Das sag' ich ihm nachrichtlich, damit er bey andern seine Rolle nicht eben so schlecht spielt, wie bey mir. 
 @Zisterzius:
 Sie beleidigen mich zu sehr, aber ich verzeihe. Verzeihen ist Gesez meines Ordens. 
-@Mont:
+@Montenegro:
 Verzeihen oder nicht, das thut mir gleich. Am besten thut er, wenn er den Weg wieder sucht, den er gekommen ist, damit ich den Schelm, der in ihm stekt, nicht ganz aufdekke. <pb n="27"/>
 ##Neunzehnter Auftrit.
 $ Die vorigen, Franziska und Katelli. 
 @Katelli:
 Warum so hitzig? Was ist ihnen? 
-@Monten:
+@Montenegro:
 Sieh, Katelli! wieder ein Priester des Satans inwendig, und ein Diener Gottes auswendig. 
 @Katelli:
 Wieviel Otterngezücht nähren die Klöster nicht! Wieviel Schurken hült das heilige Gewand. 
@@ -313,63 +313,63 @@ Wieviel Otterngezücht nähren die Klöster nicht! Wieviel Schurken hült das he
 (Im gehen vor sich) Jüngling, wär's hier nicht, so wollt' ich dich einmal von innen besehen, weil du so überweise sprichst. (ab. und nach einiger Zeit gehen die Bedienten, die kein Geschäft für sich sehen, auch ab.) 
 ##Zwanzigster Auftrit.
 $ Montenegro, Franziska und Katelli. 
-@Mont:
+@Montenegro:
 Das hieß die Natterzunge ausstrekken, ohne zu stechen! Kinder, er ist kein Priester, ein Betrüger ist er. Dein Anton, Katelli, hat mir das Leben gerettet. Er kannte den Kerl und seine ganze hämische Seele. 
 @Katelli:
 Und was sucht er bey ihnen? 
-@Mont:
+@Montenegro:
 Wie ich dir gesagt habe, dein Anton hat mir's Leben gerettet. Er hatte von seinen Kom <pb n="28"/> men Witterung. O, es ist ein Wesen und ein Eylohy in der Welt, daß man die Zähne drüber zusammenstoßen mögte. Mensch was bist du? 
 @Franziska:
 Aber, lieber Vater er muß doch Vorwand gehabt haben? 
-@Mont:
+@Montenegro:
 Nichts, als eitle Worte, Kind. Ich kann dir das jezt nicht sagen. Wir, Katelli; wollen nachher weiter drüber sprechen. 
 @Franziska:
 Ach! lieber Vater, wenn ich recht muthmaßen sollte! 
-@Mont:
+@Montenegro:
 Denkst unrecht. Geldschneiderey, weiter nichte, Franziska! Wenn du mich liebst, so vergiß es! — Aber, Kinder, wo seyd ihr denn so lange gewesen? Kann man euch denn niemals sprechen, wenn man will. 
 @Franziska:
 Vorhin waren wir hier im Garten und jezt haben wir sie gesucht. 
-@Mont:
+@Montenegro:
 Und warum, Mädchen? 
 @Franziska:
 Ich habe etwas begangen, das ich ohne ihren Willen nicht hätte thun sollen. Sie werden's mir verzeihen; es ist nichts böses. Ich habe — meine Hand vergeben. 
 @Katelli:
 Und mir sie gegeben. O, sie lächeln, Vater. Ich kann sie mit allem Recht nun so nennen. Nicht? 
-@Mont:
+@Montenegro:
 Seyd ihr schon so einig? Ich habe schon längst eure Neigungen gemerkt; schon längst eingese <pb n="29"/> hen, was dir im Sinne lag, Katelli. Aber ich bin unzufrieden mit dir, daß du mirs nicht hast entdekken wollen. Es betrift mein alles, und du trägst es so hartnäkkig bey dir, ob ich dich gleich bitte, mir's zu vertrauen. Katelli! Wie ist die Schüchternheit dir mit einmal so eigen geworden? — Da hab ich ein Zettelchen gefunden. Wozu soll das? schämt sich deine Zunge gutes zu reden? 
 @Katelli:
 Bester Vater, ich wußte nicht — 
-@Mont:
+@Montenegro:
 Ich weiß schon, was du sagen willst. Ich würde meine Tochter dir nie gerade zu abgeschlagen haben. Ich liebe dich, wie sie — Aber ich kann's nicht vergessen! so ein Zettelchen! Und dann wirfst dus dahin! Bedenk, wenn's ein Unrechter gefunden hätte! 
 @Franziska:
 Vergeben sie's, guter Vater, seiner Verwirrung. 
-@Mont:
+@Montenegro:
 Und, Katelli; das Geschwätz vom Fußfallen ist Beleidigung für mich. Bin ich so hartsinnig, daß mich erst Fußfälle bestechen mussen? 
 @Franziska:
 Ach! ihre Vorwürfe sind mir zu hart, wenn sie unsere Liebe nicht billigen. 
-@Mont:
+@Montenegro:
 Ihr sollt beide meine Kinder seyn. Mein Vermögen, Katelli, wäre zu klein gewesen, deine Liebe gegen mich zu belohnen. Ich habe dir im Herzen schon lange meine Franziska gegeben. Aber <pb n="30"/> — so eilig geht das nicht; dein Vater weiß noch von diesem Allen nichts. 
 @Katelli:
 Mein Vater, der mich so sehr liebt, sollte mir das größte Glük entreissen? Nein, das wird er nicht, kann er nicht. Diese Freudennachricht würde sein graues Haupt wieder aufrichten; und an seine Jahre noch Hunderte ketten. 
 @Franziska:
 Er ist uns gewiß nicht zuwider, und ich will ihn dafür lieben, wie ich sie und meinen Katelli liebe. 
-@Mont:
+@Montenegro:
 Kinder, ich will den Berg für überstiegen halten, ob er's gleich noch nicht ist. Aber ihr werdet hier bey mir nicht ruhig leben können. Ihr beide kennt Petrillo's Denkungsart. Er ist in Zorn gebracht, und wird sich, wie er kann, rächen. Ihr würdet zulezt ohne Gut Spanien verlassen müssen, um nur euer Leben zu retten und ich — würde für Kummer sterben. 
 @Katelli:
 Geben sie mir meine Franziska und ihren Seegen. Des Guts und der Schlange lach' ich dann. In einen fernen Winkel will ich mit Franziska hinfliehen; will mit emsiger Arbeit das Brod verdienen, das uns erhalten soll, und unsere Liebe und häuslicher Friede werden mir meinen Schweiß mit Lust überstreuen. 
-@Mont:
+@Montenegro:
 In der Strohhütte des Saroiarden, in den wüsten Thälern der Eisglätscher würd er euch <pb n="31"/> aufspüren, um seine Rache zu sättigen. Bedenk! Franziska schlägt die Hand des Sekretärs des Größten nach dem König, gegen die Hand eines gemeinen Italieners, aus; Belügt ihn vorher, daß sie nie heirathen will. Wenn du das alles überdenkst, so wird's deinen Augen dunkel werden. 
 @Katelli:
 Und lassen sie ihn toben. Mein Arm ist stark genug, ihn zurük zu stossen. Ich will ihm Wassers genug entgegen gießen, sein Feuer zu löschen. 
-@Mont:
+@Montenegro:
 Wird der Muthige zulezt nicht unterliegen müssen, wenn ihn Tükke und Satanslist zugleich bekämpfen? 
 @Katelli:
 Und wer wird's ihm sogleich sagen, daß Franziska mein ist? Geheim wollen wir den Segen eines fremden Priesters empfangen; und dann nehme ich meine Franziska in den Arm, und reise im Schutz der düstern Nacht und unter meinen und meines Antons wachsamen Auge mit ihr nach Mailand. 
-@Mont:
+@Montenegro:
 Und Mailand ist das Ende der Welt, mein Sohn, so, daß er euch nicht folgen könne? Der Arm des Königsfreundes reicht weit. Ringe deine Hände und schüttle den Kopf! 
 @Katelli:
 Tausend gezukte Schwerdter wachen in Mailand über die Bosheit. Es wird dort zu viel Licht um ihn seyn, als daß er Rache könnte strömen lassen. Vor dem Richterstuhl Gottes klag' ich mich selbst an, wenn er uns schaden sol. <pb n="32"/>
-@Mont:
+@Montenegro:
 Viel gesagt, mein Sohn! Aber Versprechen fällt nie so schwer, als Erfüllung. 
 @Katelli:
 Alles will ich geben! Auch das Blut das durch meine Adern rollt, will ich für die Erfüllung dieses Versprechens geben. Lieber will ich den Dekkel meines Sarges aufstoßen lassen, als dem Sturm nicht zu wehren, der diese Blumen zerknikken will. 
@@ -377,18 +377,18 @@ Alles will ich geben! Auch das Blut das durch meine Adern rollt, will ich für d
 Katelli! Bist du schon wieder ausser aller Fassung? Warum irrst du schon in Leichenhäusern herum? Denk, wir sind die Rose, die kaum ihr grünes Joch abgeschüttelt hat, und mit froher dankbarer Mine nun ihren Schöpfer dafür anlachen soll! Deine Worte beleidigen ihn. Wir wollen ruhig unsere Tage verleben, und sie nicht mit Denken an Mord und Blut beflekken. Nein! laß uns lieber, wenn du dich in Meiland nicht sicher glaubst, in einen düstern Hayn unter einem Strohdach wohnen. Es wird uns Pallasts genug seyn, wenn wir drunter beysammen sind. 
 @Katelli:
 Du hast recht, göttliches Mädchen! Deine Worte sind Engelworte. Ich glaube, Gott hat dich zum Engel geschaffen, und dein Vater hat dich nur von ihm zum Menschenlehrer erbettelt. — Aber, bester Vater, warum lassen sie noch länger auf ihr Ja unsern flehenden Blik schmachten? <pb n="33"/>
-@Mont:
+@Montenegro:
 (der nachdenkend steht. Nach einer Pause) Sie ist dein, mein Sohn. Kommt in meinen väterlichen Arm, Kinder! Ich will euch kühn in den Sturm der Welt hinschikken. 
 @Katelli:
 Nehmen sie diesen kindlichen Kuß des Danks. 
 @Franziska:
 Vater, bester Vater! 
-@Mont:
+@Montenegro:
 Kinder, auf beiden Seiten sind euch Gruben gegraben. Ich vereinige euch, und ihr müßt bey jedem Tritte zusehen, ob ihr auf vesten Boden tretet; ich trenne euch, und eure unzertrennbaren Gedanken würden euch tiefsinnig machen, euch abzehren, und endlich in's Grab stürzen. Ich nehme den ersten, noch immer den sichersten, Weg, und geb' euch in die Hand der Engel Gottes. Im stillen, so bald, als es seyn kann, sollt ihr euren Freudentag feyern. Würd' es kund, so würde man Legionen Teufel aufbieten, euch zu trennen. Noch heute sollt ihr euch hier im Garten vereinen, hier, wo uns kein Ohr belauschen kann. Die Thüren wollen wir verschliessen, unsere Leute, denen wir nicht trauen können, in Geschäfte nach Madrit schikken, und an der Feldseite sichere Wache stellen. Ich werde einen verdachtlosen Priester holen lassen, der öfters schon bey wichtigen Sachen mein Vertrauter gewesen ist. Und dann, Kinder, so gern ich euch um mich sehe, so lieb ihr mir beide seyd, müßt ihr mich, so bald ihr könnt, <pb n="34"/> verlassen. Du hast diesen Weg selbst erwehlt, Katelli; und er ist der gebahntste. 
 @Franziska:
 Lieber Vater, aber sie verlassen?
 Nein! sie müssen uns begleiten. Müssen einige Zeit, und wenn es seyn kann, die Zeit ihres Lebens in Katelli's Vaterlande bey uns seyn. 
-@Mont:
+@Montenegro:
 Weiter haben wir keine Zeit zu versprechen. Kommt, Kinder! <pb n="35"/>
 #Zweyter Aufzug.
 ##Erster Auftrit.
@@ -604,32 +604,32 @@ $ Montenegro kömmt von der andern Seite fast mit denen Wächtern zugleich und s
 Lieber, guter Tag, wie willkommen bist du mir! Wie mein Blik so ganz aufgeklärt, und mein wankender Trit so vest wird! Mit Freuden geh' ich jezt ins Grab, denn Sorgen bleiben nicht hinter mir. 
 ##Siebenter Auftrit.
 $ Montenegro und Anton, (der aus dem Hintergrunde dazu kömmt.) 
-@Monten:
+@Montenegro:
 Das freut mich, Anton, daß du im Dienst deines Herrn so wachsam bist. Eine gute, rechtschafne Seele bist du, und Gott wird's dir segnen. 
 @Anton:
 Das bey Seite. Ich habe hart an unserm Garten ein paar Vermummte gesehn. Sie eilten sehr, aber ich kukte ihnen so lange nach, als ich konnte. Endlich kroch der eine so etwas aus seinem Mantel hervor und sah sich um. Ich hätte drauf geschworen, daß es der Pfaff gewesen wäre, der heute Morgen bey ihnen war. 
-@Monten:
+@Montenegro:
 Und der andere, Anton? 
 @Anton:
 Den kkonnt' ich nicht ausforschen. Können sie aus des Pfaffen Reden nichts argwohnen:
 <pb n="53"/>
-@Monten:
+@Montenegro:
 Mehr, als zu viel! — Wie sich die Gewitterwolken schon wieder über mein Haupt samten! Kaum freut ich mich meines Daseyns, freute mich dieses Tages so sehr, und nun hör' ich schon wieder die Ungeheuer im nahen Hinterhalt brüllen. — Heiligster Vater, aus bebenden Herzen steigt mein Flehen zu dir. Du bist der Schirm des Greises und der jugendlichen Unschuld. Bahne mir den Weg zu meinen Grabe eben, und brich die Dornen, die vor meinem Schritte keimen. 
 @Anton:
 (vor sich) Weinen mögt' ich über den frommen Mann! (laut) Lassen sie's sich nicht bange seyn. Ich habe ihren Leuten noch einmal alles recht vorgepredigt. Wir haben nichts zu fürchten. Es komme wer da will, wir haben nichts zu fürchten! 
-@Monten::
+@Montenegro::
 Was vermögen wir, wenn wir sollen geprüft werden? Nicht mehr als das Sandkörnchen unter unserm Fusse. — Da kommen meine Kinder. Laß dir nichts gegen sie merken. Es würde sie nur trübsinnig machen. (Anton ab.) 
 ##Achter Auftrit.
 $ Montenegro, Katelli und Franziska (in Reisekleidern.) 
-@Monten:
+@Montenegro:
 Der Himmel segne euch meine Kinder! (sapt sie ben der Hand und seit sch nicder nu.i <pb n="54"/> Wenn der Priester nur eilte! Aber, (sieht nach der Uhr) er kann noch nicht kommen. An euch fehlt's nun doch nicht? 
 @Franziska:
 Nein, bester Vater. Auch des Priesters bedürften wir nicht, denn unsere Herzen sind schon so vereint, daß sie keine Menschenmacht, trennen kann. 
-@Monten:
+@Montenegro:
 Aber warum seyd ihr schon so ganz in Reisekleidern? 
 @Katelli:
 Wozu sollten wir uns noch putzen, Vater ? 
-@Monten::
+@Montenegro::
 Recht, mein Sohn! Den besten Schmuk, die Tugend, habt ihr schon im Herzen. Sie ist der größte Diamant im Zepter des Königs, und macht den Küttel des Landmanns zum Purpur. Aber das hab' ich nicht damit sagen wollen. Es wäre mir lieber gewesen, ihr wäret mir nicht so vor die Augen gekommen. Es ist mir ein Stich durch mein altes Herz. Ihr mich verlassen! Kinder, Kinder! 
 @Katelli:
 Ja, heute noch verlassen! Unser aller Wohl zwingt mich, daß ich ihnen die Wunde noch tiefer graben muß. Aber erfüllen sie unser Bitten und reisen sie mit uns. Ohne sie würden wir nicht das ganze Maaß unseres Glüks empfinden können. <pb n="55"/> Franziska.
@@ -637,7 +637,7 @@ O ja! Sie reisen auch mit uns. Nicht wahr? Bleiben bey uns, so lange sie leben. 
 @Franziska:
 Ja, heute noch verlassen! Unser aller Wohl zwingt mich, daß ich ihnen die Wunde noch tiefer graben muß. Aber erfüllen sie unser Bitten und reisen sie mit uns. Ohne sie würden wir nicht das ganze Maaß unseres Glüks empfinden können. <pb n="55"/> Franziska.
 O ja! Sie reisen auch mit uns. Nicht wahr? Bleiben bey uns, so lange sie leben. Wie würde sich meines s Vater nicht freuen, wenn er sie wiedersähe? 
-@Monten::
+@Montenegro::
 Ich glaube nicht, daß mein schwacher Körper die lange Reise aushält. 
 @Katelli:
 Wir wollen sie auf den Händen tragen, wenns sie's fordern. 
@@ -675,13 +675,13 @@ Mein Katelli! Dn Engelunschuld! Wider Religion! Gott! (Sie fällt schwach über.
 Mäßigen sie sich. Nicht von der meinigen. Von der Gnade der heiligen Inquisition. 
 @Katelli:
 Auch von der nicht. Sie ist ein Engel und über euch alle. (sieht sich nach Franziska um, die matt auf dem Stuhl sizt.) Franziska, Franziska! Ich Armseliger! Nichts als unglaubliche Schlage von allen Seiten. Anton! Hülfe! 
-@Monten::
+@Montenegro::
 (weinend und Franziska immer im Arm habend) Es ist nur eine ganz schwache Ohnmacht, mein Sohn. <pb n="57"/>
 @Katelli:
 Nein! (zum Priester) Mörder! du hast sie ermordet. (will mit den Degen auf ihn zu.) 
 @Anton:
 (fällt ihm in den Arm) Was machen sie, lieber Herr? Besinnen sie sich doch. 
-@Monten::
+@Montenegro::
 Lerne Mäßigung von mir. Bedenke die Schärfe des heiligen Gerichts, und die Ehrfurcht, die wir ihm schuldig sind. Vergreife dich nicht an einer geweyhten Person. 
 @Katelli:
 Nein, das will ich nicht; thu' ich nicht! Der heilig! (faßt ihn vor die Brust) Du heilig? Ein Mörder bist du! 
@@ -693,11 +693,11 @@ Wer mich anrührt, ist nur noch zwey Schritte vom Kirchhofe.
 Folgen sie, oder ich nehme Franziska. (tritt näher an Franziska. 
 @Katelli:
 Kein Wort mehr, Priester, oder du wagst dein Leben. 
-@Monten::
+@Montenegro::
 Gehe mein Sohn; reine Unschuld begleitet dich. 
 @Katelli:
 Ich gehen und Franziska halb tod zurüklassen? Sie vergebens ihren rufen lassen? — Und ich mit dem Auswurf des menschlichen Geschlechts über die Strasse gehen? Nein, Lieb' und Ehre binden meinen Fuß. 
-@Monten::
+@Montenegro::
 Folge, mein Sohn. Zu deinem und unser aller Besten rath' ich's dir. Seh, eb <pb n="58"/> deine Franziska erwacht! Ich werde ihr Herz alsdenn leichter beruhigen können. 
 @Katelli:
 (wirst sich vor Franziska nieder und legt seine Hände auf ihren Schooß) Meine Liebe, mir heiliger, als alles! deinetwillen folg ich, achte meine Ehr' und alles nicht. Auch dies Leben geb' ich dir gern, wenn du's forderst. (aufstehend zu Montenegro) Sorgen sie für sie. Weyhen sie ihr alle Sorgfalt, die sie nur aussinnen können. Bald, bald werd' ich sie wiedersehen — Anton! 
@@ -721,11 +721,11 @@ Laßt! Er ist seines Verstandes nicht mächtig. Bietet euer Leben nicht muthwill
 $ Montenegro. Franziska. 
 @Franziska:
 (nach einer kleinen Pause mit gebrochner Stimme) Katelli! — Wo bist du? — mein Katelli! 
-@Monten::
+@Montenegro::
 Bald wird dies alles mein graues Haupt niederdrükken. (zu Franziska) Beruhige dich meine Tochter! Dein Katelli wird bald wiederkommen. (vor sich) Aber — ach! er ist in den Händen eines scharfen Gerichts, und er hat noch nicht Bändigung der Zunge gelernt. In der Hitze träumt er sich den Herrn der Welt. 
 @Franziska:
 (hitzig) Mein Katelli! (fährt auf) (Montenegro versucht sie zu halten) Nein! ich will ihn aufsuchen, ihn losmachen! 
-@Monten::
+@Montenegro::
 (steht auf) Hülfe, Hülfe! Meine dese Lochter, fasse dich! <pb n="60"/>
 ##Eilfter Auftrit.
 $ Die vorigen, Priester und Wache, Franziska entgegen kommend. 
@@ -733,7 +733,7 @@ $ Die vorigen, Priester und Wache, Franziska entgegen kommend.
 (zum Priester) Ha, Räuber! von dir fordre ich ihn wieder! Wo ist mein Katelli? 
 @Priester:
 Er hat einige von meinen Leuten niedergeworfen und ist entsprungen. Er hat sein Leben verraset. Zu meiner Sicherheit muß ich — Sie nehmen. 
-@Mont:
+@Montenegro:
 Nun wird Mäßigung auch mir zu schwer! Laßt mir mein größtes Gut, meine einzige Tochter!— Mein alles soll euer seyn. Oder nehmt mich alten Graukopf auch! (Priester und Wache mit Franziska ab.) 
 ##Zwölfter Auftrit.
 $ Montenegro allein. 
@@ -741,59 +741,59 @@ $ Montenegro allein.
 Umsonst! O, daß meine Füße zu schwach sind, ihnen nachzueilen! — Katelli, Katelli! du bist ein Mörder! Mein und meiner Tochter Mörder! Unbesonnener Jüngling, warum folgst du deines Vaters Lehren nicht und schmiedest dir selbst das Eisen, das deinen Kopf abschlagen wird? Und der Unmensch von Priester! Loderte denn kein Fünkchen Midleide in ihm? O, habt ihr noch nicht an ihr <pb n="61"/> genug, nehmt zu eurer Sätigung auch mich! Entreißt meinen Händen die Krükke, schlagt meine graue Hirnschädet damit ein, und trinkt mein Gehirn, ihr Blurigel! 
 ##Dreyzehnter Auftrit.
 $ Montenegro und Katelli, der plötlich von hinten auf ihn zuspringt. 
-@Monten::
+@Montenegro::
 Katelli! deine Tollkühnheit, deine Unbesonnenheit hat keine Schranken. 
 @Katelli:
 Wo ist Franziska? Sie muß mit mir fort eilen. Ich will mit ihr hinfliehen, wo uns kein Satansauge erforschen kann. 
-@Monten::
+@Montenegro::
 Wahnsinniger! du hast deine und ihre Sache verdorben. Für dich hat man sie genommen. Eingesperrt in düstern Mauren wird sie da sitzen und mich verfluchen, daß ich sie gezeugt habe. (weint.) 
 @Katelli:
 (tobend) Ich will hin, will sie befreyn. Ich will meinen Kopf für den ihrigen in den Rachen der Menschenfresser stekken. 
-@Monten::
+@Montenegro::
 Sie werden ihn dir abbeissen und gierig nach den andern schnappen. Hat der Unsinn dich ganz gefesselt? Eil' und verbirg dich! Sorge für dein eigenes Leben! Sie soll meine Sorge seyn. (Der Pater Hieronimus kömmt) Sieh, Katelli! Rette dich! (Katelli eiligst ab.) <pb n="62"/>
 ##Vierzehnter Auftrit.
 $ Montenegro und Hieronimus. 
 @Hieronimus:
 Mein Segen mit ihnen! 
-@Monten::
+@Montenegro::
 Sie kommen zu spät, Freund. Sie sollten meiner Tochter den Brautkranz aufsetzen; jezt können sie's ihrem Sarge. Die heilige Inquisition hat's schon bestellt. So lange hab' ich meine Zunge, aus Ehrfurcht für Religion gebändigt; aber jezt ist meine Macht zu schwach. O, über die dumme verstokte Blindheit des Volks! Mit ofnen Augen sieht es den Tyrannen im Pfaffen, und doch hält es ihre Bosheit für That der Heiligen! kreuzigt sich, wenn sie vorübergehen! 
 @Hieronimus:
 Gott, was ist ihnen? 
-@Monten::
+@Montenegro::
 Das zu erzehlen vermag ein Greiß nicht. Ich würde mein Gesicht verliehren, wenn ich mir die Bilder alle noch einmal vormahlte — Ich wünschte, auch sie hätten das härne Kleid nicht an. 
 @Hieronimus:
 Suchen sie Stille für ihren Geist, und Zügel für ihre Worte. Sie wissen einmal, daß wir in einem Lande wohnen, wo die Stüze der Religion Grausamkeit ist, wo man den Dornstrauch küssen muß, und nicht einmal nach der schönen blühenden Rose hinschielen darf. <pb n="63"/> Monten..
 Das weiß ich. Ich hab's erfunden und vor Gott will ich's beichten. Ich bin nicht mehr fern von ihm. Schrek und Kummer hausn schon, als Bothschafter des Todes, in meinem Gedd.r. 
-@Monten::
+@Montenegro::
 Suchen sie Stille für ihren Geist, und Zügel für ihre Worte. Sie wissen einmal, daß wir in einem Lande wohnen, wo die Stüze der Religion Grausamkeit ist, wo man den Dornstrauch küssen muß, und nicht einmal nach der schönen blühenden Rose hinschielen darf. <pb n="63"/> Monten..
 Das weiß ich. Ich hab's erfunden und vor Gott will ich's beichten. Ich bin nicht mehr fern von ihm. Schrek und Kummer hausn schon, als Bothschafter des Todes, in meinem Gedd.r. 
 @Hieronimus:
 Bey allen Heiligen beschwör ich sie, frommer Mann, daß sie jezt alle Standhaftigkeit des beherzten Mannes aufsuchen! Sie bedürsen der Ruhe. Kommen sie! 
-@Monten::
+@Montenegro::
 Und woher nehm ich die? Ich bin der Dürstige in der Wüste. 
 @Hieronimus:
 Heben sie ihre Hände empor. Den Frommen wird nichts versagt. 
-@Monten::
+@Montenegro::
 Ich hab's gethan; aber ich bin zum Märtyrer erkohren, sonst zögerte die Hulfe so lange nicht. 
 @Hieronimus:
 Sie verzweifeln? Standhaft muß ein Märtyrer seyn. Oder — sie sind jezt etwas ruhiger — erzehlen sie mir den Grund ihres Zorns. Ich will Trost daraus aufsuchen und Ruhe in ihre Seele giessen. 
-@Monten::
+@Montenegro::
 Sie wissen, ich habe eine Tochter. 
 @Hieronimus:
 Ja. 
-@Monten::
+@Montenegro::
 Katelli, ein junger Vetter von mir, besuchte mich. Er und Franziska sind mir eins. Sie liebten sich sogleich, da sie sich nur sahen; denn sie glaubten, zwey Engel müßten für einander geschaffen seyn. Eh' sie sich erklärten, hielt Pedrillo, der <pb n="64"/> Verworfenste vor Gott — sie kennen ihn — um Franziska an. Ich schlug sie ihm ab. Meine Tochter willigte drein, weil sie eine bessere Liebe fühlte. Sie erklärte sich laut für Katelli. Ich erfullte ihre und Katelli's Bitte, ob ich gleich Pedrillo's Rache fürchtete. Sie, heiliger Freund, sollten sie heute vereinigen. Allein mein Wahn ist Wahrheit geworden. Pedrillo, hat die Inquisition wider mein Haus aufgehezt, denn anders läßt es sich nicht denken. Ihre Diener kamen, meinen Katelli in den Vorhof des Todes zu schleppen. Er entsprang und für ihn nahmen sie meine Franziska. Ach, ich hielt sie für den Trost meines Alters, und nun hab' ich sie gezeugt, mein graues Haupt einzudrükken. 
 @Hieronimus:
 Wie viel Boshafte macht der Hoff nicht? Und wie viele Lieblinge des blinden Fürsten bringen ihre niedrigen Gedanken unter dem Schuz des Throns zur That! Ich bedaure sie und ihre Tochter. Aber der Himmel wird sie nicht verlassen; sie wird die ihrige bleiben und wieder in ihre Arme kehren. Der Unschuldige ist immer des Siegs gewiß. Ich werde mit unsern Bischof sprechen. Er gilt viel und wird gewiß ihre Tochter den Händen des heiligen Gerichts entreissen. 
-@Monten::
+@Montenegro::
 Ihr Bischof ist ein frommer, redlicher Mann. Aber Frömmigkeit und Redlichkeit <pb n="65"/> haben keinen Werth mehr! Sie sind abgesezte Münde! Heuchelnde Schmeichler sind die Manner des Glüks! 
 @Hieronimus:
 Ihr Urtheil ist zu allgemein! Der aufgebrachte, zornige Mann spricht noch aus ihnen. Ich will ihnen rathen, und als ein Freund beystehen. Folgen sie mir jezt und suchen sie sich erst Ruhe auf. Der Schlaf wird die Schrekkenbilder ausloschen, die mit so tiefen Zügen in ihr Herz geäzt sind. 
-@Monten::
+@Montenegro::
 Schlaf? Der Todesschlaf wird mein erster wieder seyn. Mein Herz predigts mir. 
 @Hieronimus:
 Martern sie sich mit diesem heßlichen Wahn nicht. Sie werden ein Selbstmörder. (Hilft ihn vom Stuhl auf und führt ihn ab) Ist ihnen dieser Name so kleindeutend? 
-@Monten::
+@Montenegro::
 Ich fürchte jede Sünde, ich fürchte auch diese. — — Sie sollen bey mir bleiben, bis ich ins Grab sinke. Hören sie das ängstliche Schlagen meiner Brust? Es wird bald, bald mit mir aus seyn. Höchstens wenige Tage noch bin ich Bürger dieser argen Welt. (hende ab.) <pb n="66"/>
 #Vierter Aufzug.
 ##Erster Auftrit.
@@ -956,7 +956,7 @@ $ Franziska, Katelli in Priesterkleidern und ein Gefangenwärter.
 Dort auf dem Bette. Aber nehmen sie sich in Acht! Sie raset, oder ist wenigstens auf dem Weg zur Raserey. 
 @Katelli:
 (Mit gezwungener Stimme) Deshalb komm ich. Ich wil sie wieder zur Vernunft brin <pb n="81"/> gen. — Ihr könnt nur gehen. Ich will mit ihr allein seyn. 
-@Gefangenw::
+@Gefangenwärter:
 Wenn mir mein Leben lieb ist, so muß ich hier bleiben. 
 @Katelli:
 Die heiligen Gerichte haben einen Priester nicht zu fürchten. (Gefangenwärter ab.) 
