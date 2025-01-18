@@ -1,6 +1,15 @@
-[II]
- Montenegro, ein alter reicher Spanier.Franziska, seine Tochter.Katelli, ein Italiener, Vetter des Montenegro und Franziska’s Liebhaber.Pedrillo, Sekretär eines Ministers.Anton, Katelli’s Bedienter.Kamilla, Franziska’s Mädchen.Hieronimus, ein Mönch.Niklas, ein Bandit. Bedienten. Priester. Wache. 
-[III]
+^
+Montenegro<roleDesc>ein alter reicher Spanier</roleDesc>
+Franziska<roleDesc>seine Tochter</roleDesc>
+Katelli<roleDesc>ein Italiener, Vetter des Montenegro und Franziska’s Liebhaber</roleDesc>
+Pedrillo<roleDesc>Sekretär eines Ministers</roleDesc>
+Anton<roleDesc>Katelli’s Bedienter</roleDesc>
+Kamilla<roleDesc>Franziska’s Mädchen</roleDesc>
+Hieronimus<roleDesc>ein Mönch</roleDesc>
+Niklas<roleDesc>ein Bandit</roleDesc>
+Bedienten<roleDesc></roleDesc>
+Priester<roleDesc></roleDesc>
+Wache<roleDesc></roleDesc>
 #Erster Aufzug.
 ##Erster Auftrit.
 $Montenegro’s Garten bey dessen Landgut vor Madrit. Buschwerk, Rasenbänke und im Hintergrunde das freye Feld. 
@@ -1068,3 +1077,59 @@ Wie die schwache Hure da liegt, von dem Sturm ihres eigenen Weibergrimms niederg
 @Katelli:
 Und wenn die Tollheit dein Gehör verstopft hat, so fühl's! (Er holt geschwind ein Stilet hervor und ersticht ihn. Pedrillo will mit dem Degen auf ihn zu, wankt aber. stößt ihn noch einmal und er fällt.) Ich will die Hölle nicht auf mich erboßen, daß ich dich hier schon zu Martern gewöhne! — Das ist das Ziel, wonach du so freventlich gestrebt hast, du Stöhrer häuslicher Ruhe, du Stöhrer heiliger Liebe! Da liegst du nun, beflekt mit Vatermord, Kindermord und allen Lastern, die menschliches Gehirn nur aushekken kann! — Ich folge dir; aber mit geflochtner Geissel folg' ich dir:
 Bald, bald! — Du bebst den Weg hinab, umringt vom Rauchgewölk racheschreyendes Bluts; begleitet vom Gebet des Vaters um Strafe für das Blut seines Kindes; begleitet vom Gewimmer der Frommen und Bedrängten im Unglük, und diesem <pb n="93"/> allen schleppt die Strafe ihr graues Haupt auf langsamen Krükken nach. Dies sind deine Gefährten. gehe den Weg froh, meine Franziska im Arm! Edle That und Unschuld gehen vor uns einher, und der Seraph lacht unsers Kommens. — (den Dolch in erhobner Hand. Zu Franziska) Und nun zum Gericht Franziska! Rettung ist hier tod! 
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA

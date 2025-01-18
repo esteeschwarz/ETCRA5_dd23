@@ -1,4 +1,5 @@
-<TEI xml:id="insertID" xml:lang="ger" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="insertID" xml:lang="ger">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -30,41 +31,41 @@
           <person sex="MALE" xml:id="priester">
             <persName>Priester</persName>
           </person>
-          <person sex="FEMALE" xml:id="kamilla">
-            <persName>Kamilla</persName>
-          </person>
-          <person sex="MALE" xml:id="hieronimus">
-            <persName>Hieronimus</persName>
-          </person>
-          <person sex="MALE" xml:id="katelli">
-            <persName>Katelli</persName>
-          </person>
-          <person sex="FEMALE" xml:id="franziska">
-            <persName>Franziska</persName>
+          <person sex="MALE" xml:id="montenegro">
+            <persName>Montenegro</persName>
           </person>
           <person sex="MALE" xml:id="zisterzius">
             <persName>Zisterzius</persName>
           </person>
-          <person sex="MALE" xml:id="montenegro">
-            <persName>Montenegro</persName>
-          </person>
           <person sex="MALE" xml:id="niklas">
             <persName>Niklas</persName>
-          </person>
-          <person sex="MALE" xml:id="gefangenwärter">
-            <persName>Gefangenwärter</persName>
-          </person>
-          <person sex="MALE" xml:id="bedienter">
-            <persName>Bedienter</persName>
           </person>
           <person sex="MALE" xml:id="anton">
             <persName>Anton</persName>
           </person>
-          <person sex="MALE" xml:id="der_vermummte">
-            <persName>Der Vermummte</persName>
+          <person sex="MALE" xml:id="hieronimus">
+            <persName>Hieronimus</persName>
           </person>
           <person sex="MALE" xml:id="pedrillo">
             <persName>Pedrillo</persName>
+          </person>
+          <person sex="MALE" xml:id="der_vermummte">
+            <persName>Der Vermummte</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli">
+            <persName>Katelli</persName>
+          </person>
+          <person sex="FEMALE" xml:id="kamilla">
+            <persName>Kamilla</persName>
+          </person>
+          <person sex="MALE" xml:id="bedienter">
+            <persName>Bedienter</persName>
+          </person>
+          <person sex="FEMALE" xml:id="franziska">
+            <persName>Franziska</persName>
+          </person>
+          <person sex="MALE" xml:id="gefangenwärter">
+            <persName>Gefangenwärter</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -93,10 +94,21 @@
   </standOff>
   <text>
     <front>
+      <castList>
+        <castItem>Montenegro<roleDesc>ein alter reicher Spanier</roleDesc></castItem>
+        <castItem>Franziska<roleDesc>seine Tochter</roleDesc></castItem>
+        <castItem>Katelli<roleDesc>ein Italiener, Vetter des Montenegro und Franziska’s Liebhaber</roleDesc></castItem>
+        <castItem>Pedrillo<roleDesc>Sekretär eines Ministers</roleDesc></castItem>
+        <castItem>Anton<roleDesc>Katelli’s Bedienter</roleDesc></castItem>
+        <castItem>Kamilla<roleDesc>Franziska’s Mädchen</roleDesc></castItem>
+        <castItem>Hieronimus<roleDesc>ein Mönch</roleDesc></castItem>
+        <castItem>Niklas<roleDesc>ein Bandit</roleDesc></castItem>
+        <castItem>Bedienten</castItem>
+        <castItem>Priester</castItem>
+        <castItem>Wache</castItem>
+      </castList>
     </front>
-    <body>[II]
-      Montenegro, ein alter reicher Spanier.Franziska, seine Tochter.Katelli, ein Italiener, Vetter des Montenegro und Franziska’s Liebhaber.Pedrillo, Sekretär eines Ministers.Anton, Katelli’s Bedienter.Kamilla, Franziska’s Mädchen.Hieronimus, ein Mönch.Niklas, ein Bandit. Bedienten. Priester. Wache.
-      [III]
+    <body>
       <div type="act">
         <head>Erster Aufzug.</head>
         <div type="scene">
@@ -667,7 +679,9 @@
           <stage>Die vorigen und Anton.</stage>
           <sp who="#anton">
             <speaker>Anton:</speaker>
-            <p><stage>(raunt dem Montenegro etwas in die Ohren)</stage></p>
+            <p>
+              <stage>(raunt dem Montenegro etwas in die Ohren)</stage>
+            </p>
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
@@ -2163,7 +2177,9 @@
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
-            <p><stage>(geht immer mit fliegenden Augen und vesten Tritte auf und ab.)</stage></p>
+            <p>
+              <stage>(geht immer mit fliegenden Augen und vesten Tritte auf und ab.)</stage>
+            </p>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -2201,6 +2217,62 @@
             <speaker>Katelli:</speaker>
             <p>Und wenn die Tollheit dein Gehör verstopft hat, so fühl's! <stage>(Er holt geschwind ein Stilet hervor und ersticht ihn. Pedrillo will mit dem Degen auf ihn zu, wankt aber. stößt ihn noch einmal und er fällt.)</stage> Ich will die Hölle nicht auf mich erboßen, daß ich dich hier schon zu Martern gewöhne! — Das ist das Ziel, wonach du so freventlich gestrebt hast, du Stöhrer häuslicher Ruhe, du Stöhrer heiliger Liebe! Da liegst du nun, beflekt mit Vatermord, Kindermord und allen Lastern, die menschliches Gehirn nur aushekken kann! — Ich folge dir; aber mit geflochtner Geissel folg' ich dir:</p>
             <p>Bald, bald! — Du bebst den Weg hinab, umringt vom Rauchgewölk racheschreyendes Bluts; begleitet vom Gebet des Vaters um Strafe für das Blut seines Kindes; begleitet vom Gewimmer der Frommen und Bedrängten im Unglük, und diesem &lt;pb n="93"/&gt; allen schleppt die Strafe ihr graues Haupt auf langsamen Krükken nach. Dies sind deine Gefährten. gehe den Weg froh, meine Franziska im Arm! Edle That und Unschuld gehen vor uns einher, und der Seraph lacht unsers Kommens. — <stage>(den Dolch in erhobner Hand. Zu Franziska)</stage> Und nun zum Gericht Franziska! Rettung ist hier tod!</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
+            <p>NA</p>
           </sp>
         </div>
       </div>

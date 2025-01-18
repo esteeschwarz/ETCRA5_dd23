@@ -203,12 +203,29 @@ p.head<-gsub("^ ","",unlist(p.head))
 p.head<-p.head[p.head!=""]
 p.head<-strsplit(p.head,",")
 p.head<-abind(lapply(p.head,function(x){x[1:4]}),along = 0)
+p.person<-p.head[,1]
+?apply
+x<-p.head[1,]
+paste0(x,collapse = ",")
+p.head[is.na(p.head)]<-""
+p.desc<-apply(p.head[,2:length(p.head[1,])],c(1),FUN =function(x)paste0(x,collapse = ","))
+p.desc<-gsub("([,]{1,3}$)","",p.desc)
+p.desc<-gsub("^ ","",p.desc)
+p.desc
+#p.desc<-p.desc[p.desc!=""]
+p.desc.m<-paste0(p.head[,1],"<roleDesc>",p.desc,"</roleDesc>")
+p.desc.m
+ezd.nl.sp[m[1]]<-"^"
+m.out<-c(m[1],(m[2]+1):length(ezd.nl.sp.head))
+ezd.nl.sp.head<-ezd.nl.sp[m.out]
+ezd.nl.sp.head<-append(ezd.nl.sp.head,p.desc.m,m[1])
 
 # writeLines(unlist(ezd.lines),"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001.txt")
-writeLines(ezd.nl.sp,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001.txt")
+ezd_markup.ns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001"
+ezd_markup_text<-paste0(ezd_markup.ns,".txt")
+writeLines(ezd.nl.sp.head,ezd_markup_text)
 local<-T
 path.local.home<-"~/Documents/GitHub/dybbuk-cor"
-ezd_markup_text<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001.txt"
 process.ezd<-function(){
   #check.local()
   # ifelse(local,path.local.home,path.git.home)
@@ -217,9 +234,32 @@ process.ezd<-function(){
   print("finished python ezd")
 } #end ezd process .txt
 process.ezd()
-#system("python --version")
-### flaws.
-m<-grep("\\(",ezd.lines)
-#ezd.lines[m]
-m2<-grep("[$]",ezd.lines[m])
-ezd.lines[m[m2]]
+xml.ns<-paste0(ezd_markup.ns,".xml")
+xml<-read_xml(xml.ns)
+library(purrr)
+xml<-xml%>%xml_ns_strip()
+castlist<-xml_find_all(xml,"//castList")
+castlist.r<-gsub("&lt;","<",castlist)
+castlist.r<-gsub("&gt;","/>",castlist.r)
+castlist.r<-gsub("<castList>|</castList>","",castlist.r)
+casthtm<-read_html(castlist.r)
+casthtm<-xml_find_all(casthtm,"//body")
+castnode<-xml_new_root("castList")
+k<-1
+for(k in 1:length(p.desc)){
+  xml_add_child(castnode,"castItem",p.head[k,1])
+  if(p.desc[k]!=""){
+    xml_add_child(xml_find_all(castnode,"//castItem")[[k]],"roleDesc",p.desc[k])
+  }
+}
+castnode
+#xml_add_child(castnode)
+#?xml_new_root
+#?xml_replace
+#xml_add_child(xml_find_all(xml,"//front"),"castList")
+xml_replace(xml_find_all(xml,"//castList"),castnode)#,xml_find_all(xml,"//castList"))
+#xml_find_all(xml,"//castList")[[2]]<-casthtm
+write_xml(xml,xml.ns)
+#URLencode("<")
+
+
