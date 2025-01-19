@@ -6,14 +6,14 @@
 <title type="sub" xml:lang="eng"></title>
         <author>
           <persName>
-            <forename></forename>
-            <surname></surname>
+            <forename>Christian Julius Ludwig</forename>
+            <surname>Steltzer</surname>
           </persName>
           <persName xml:lang="eng">
             <forename></forename>
             <surname></surname>
           </persName>
-          <idno type="wikidata">TODO</idno>
+          <idno type="wikidata">Q21212871</idno>
         </author>
       </titleStmt>
       <publicationStmt>
@@ -28,8 +28,8 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Polona</name>
-          <idno type="URL">TODO</idno>
+          <name>Münchner Digitalisierungszentrum</name>
+          <idno type="URL">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10118086-3</idno>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
@@ -38,7 +38,7 @@
             <title></title>
        <!-- not allowed     <pubPlace>tochange</pubPlace>-->
             <publisher></publisher>
-            <date>1781</date><biblScope unit="page" from="TODO" to="TODO"></biblScope>
+            <date>1781</date><biblScope unit="page" from="2" to="95"></biblScope>
           </bibl>
         </bibl>
       </sourceDesc>
