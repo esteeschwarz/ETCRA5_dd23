@@ -36,7 +36,7 @@
           <bibl type="originalSource">
             <author>Christian Julius Ludwig Steltzer</author>
             <title>Franziska Montenegro</title>
-       <!-- not allowed     <pubPlace>Magdeburg und Leipzig</pubPlace>-->
+            <pubPlace>Magdeburg und Leipzig</pubPlace>
             <publisher>Johann Adam Creutz</publisher>
             <date>1781</date><biblScope unit="page" from="2" to="95"></biblScope>
           </bibl>

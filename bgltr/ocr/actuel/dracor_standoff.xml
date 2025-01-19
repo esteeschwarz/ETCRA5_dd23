@@ -6,6 +6,6 @@
     </listEvent>
     <listRelation>
         <relation name="wikidata" active="https://dracor.org/entity/TODO"
-            passive="https://www.wikidata.org/entity/TODO"/>
+            passive="https://www.wikidata.org/entity/Q131166948"/>
     </listRelation>
 </standOff>

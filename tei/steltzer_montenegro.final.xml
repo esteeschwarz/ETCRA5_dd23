@@ -41,7 +41,7 @@
           <bibl type="originalSource">
             <author>Christian Julius Ludwig Steltzer</author>
             <title>Franziska Montenegro</title>
-            <!-- not allowed     <pubPlace>Magdeburg und Leipzig</pubPlace>-->
+            <pubPlace>Magdeburg und Leipzig</pubPlace>
             <publisher>Johann Adam Creutz</publisher>
             <date>1781</date>
             <biblScope unit="page" from="2" to="95"/>
@@ -107,7 +107,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/TODO" passive="https://www.wikidata.org/entity/TODO"/>
+      <relation name="wikidata" active="https://dracor.org/entity/TODO" passive="https://www.wikidata.org/entity/Q131166948"/>
     </listRelation>
   </standOff>
   <text>
