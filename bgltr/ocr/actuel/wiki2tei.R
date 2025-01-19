@@ -311,17 +311,14 @@ standoff<-read_xml("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/dracor_stand
 xml_replace(xml_find_all(xml,"//standOff"),standoff)#,xml_find_all(xml,"//castList"))
 xml_replace(xml_find_all(xml,"//fileDesc"),filedesc)#,xml_find_all(xml,"//castList"))
 #xml_find_all(xml,"//castList")[[2]]<-casthtm
+xml_set_attr(xml,"xmlns",xmlns)
+xml_set_attr(xml,"xml:id",xmlid)
+xml_set_attr(xml,"xml:lang",xmllang)
 write.final.xml<-function(xml,xml.final){
-  xml_set_attr(xml,"xmlns",xmlns)
-  xml_set_attr(xml,"xml:id",xmlid)
-  xml_set_attr(xml,"xml:lang",xmllang)
-  # xml_set
-  
-  
   write_xml(xml,xml.final)
 }
 
-xml.final<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/tei/","steltzer_montenegro.final.xml")
+xml.final<-paste0("~/Documents/GitHub/ETCRA5_dd23/tei/","steltzer_montenegro.final.xml")
 write.final.xml(xml,xml.final)
 #URLencode("<")
 
