@@ -1,4 +1,5 @@
-<TEI xml:id="insertID" xml:lang="ger" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="insertID" xml:lang="ger">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -94,21 +95,17 @@
   <text>
     <front>
       <castList>
-        <head>
-        </head>
-        <castItem>Montenegro&lt;roleDesc&gt;ein alter reicher Spanier&lt;/roleDesc&gt;</castItem>
-        <castItem>Franziska&lt;roleDesc&gt;seine Tochter&lt;/roleDesc&gt;</castItem>
-        <castItem>Katelli&lt;roleDesc&gt;ein Italiener, Vetter des Montenegro und Franziska’s Liebhaber&lt;/roleDesc&gt;</castItem>
-        <castItem>Pedrillo&lt;roleDesc&gt;Sekretär eines Ministers&lt;/roleDesc&gt;</castItem>
-        <castItem>Anton&lt;roleDesc&gt;Katelli’s Bedienter&lt;/roleDesc&gt;</castItem>
-        <castItem>Kamilla&lt;roleDesc&gt;Franziska’s Mädchen&lt;/roleDesc&gt;</castItem>
-        <castItem>Hieronimus&lt;roleDesc&gt;ein Mönch&lt;/roleDesc&gt;</castItem>
-        <castItem>Niklas&lt;roleDesc&gt;ein Bandit&lt;/roleDesc&gt;</castItem>
-        <castItem>Bedienten&lt;roleDesc&gt;&lt;/roleDesc&gt;</castItem>
-        <castItem>Priester&lt;roleDesc&gt;&lt;/roleDesc&gt;</castItem>
-        <castItem>Wache&lt;roleDesc&gt;&lt;/roleDesc&gt;</castItem>
-        <castItem>
-        </castItem>
+        <castItem>Montenegro<roleDesc>ein alter reicher Spanier</roleDesc></castItem>
+        <castItem>Franziska<roleDesc>seine Tochter</roleDesc></castItem>
+        <castItem>Katelli<roleDesc>ein Italiener, Vetter des Montenegro und Franziska’s Liebhaber</roleDesc></castItem>
+        <castItem>Pedrillo<roleDesc>Sekretär eines Ministers</roleDesc></castItem>
+        <castItem>Anton<roleDesc>Katelli’s Bedienter</roleDesc></castItem>
+        <castItem>Kamilla<roleDesc>Franziska’s Mädchen</roleDesc></castItem>
+        <castItem>Hieronimus<roleDesc>ein Mönch</roleDesc></castItem>
+        <castItem>Niklas<roleDesc>ein Bandit</roleDesc></castItem>
+        <castItem>Bedienten</castItem>
+        <castItem>Priester</castItem>
+        <castItem>Wache</castItem>
       </castList>
     </front>
     <body>
@@ -681,7 +678,9 @@
           <stage>Die vorigen und Anton.</stage>
           <sp who="#anton">
             <speaker>Anton:</speaker>
-            <p><stage>(raunt dem Montenegro etwas in die Ohren)</stage></p>
+            <p>
+              <stage>(raunt dem Montenegro etwas in die Ohren)</stage>
+            </p>
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
@@ -2177,7 +2176,9 @@
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
-            <p><stage>(geht immer mit fliegenden Augen und vesten Tritte auf und ab.)</stage></p>
+            <p>
+              <stage>(geht immer mit fliegenden Augen und vesten Tritte auf und ab.)</stage>
+            </p>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
