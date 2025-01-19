@@ -25,9 +25,9 @@ Es wird wieder besser mit mir werden. Ausgebliebne Nachrichten von meinem Vater,
 @Montenegro:
 Hättest du mir gestern nur einenso freundlichen Blik gegeben, als mir die Sonne durch mein Kammerfenster schenkte, nichts sagt’ ich. Deine Gesundheit zu bemurren, ziemt dir auch nicht. Sie ist so fest, so dauerhaft, daß sie mich in meinen alten Tagen aufgeheitert hat; und Dein Vater? – Er würde weinen, wenn er wüßte, daß er dir nur eine Stunde verbitterte. Hat uns überdem sein lezter Brief nicht gesagt, daß er täglich jünger würde? Sey’s aber auch, daß er kränkelt, ist’s deshalb schon aus? Und wenn’s wäre? Sind wir mehr, als ein Licht, das erlöscht, wenn es niedergebrannt ist? Kurz, Vetter, es stekt etwas anders dahinter, und das jezt rein herausgesagt! Vielleicht kann ich helfen. – Du schweigst? Bin ich schuld? 
 @Katelli:
-Ich weiß nicht, was ich antworten soll. Es ist mir nicht so, als mirs sonst war! Das ist alles, was ich sagen kann. 
+Ich weiß nicht, was ich antworten soll. Es ist mir nicht so, als mirs sonst war! Das ist alles, was ich sagen kann. <pb n="6"/>
 @Montenegro:
-<pb n="6"/> Du sollst nicht wissen, was du thätst? Das menschliche Herz ist ja so ein wunderliches Ding nicht, daß es so ganz blind und dumm in den Tag hinein handeln sollte. 
+Du sollst nicht wissen, was du thätst? Das menschliche Herz ist ja so ein wunderliches Ding nicht, daß es so ganz blind und dumm in den Tag hinein handeln sollte. 
 @Katelli:
 Sie haben den Menschen noch nicht recht studirt, Lieber. Es fehlt seinen Handlungen oft an Triebfedern, wenigstens sind sie oft sehr lahm. 
 @Montenegro:
@@ -47,8 +47,7 @@ Bleib, Anton, und schließ mir den Gar ten zu! — Daß es aber mein Vetter nich
 ##Vierter Auftrit.
 $ Katelli allein. 
 @Katelli:
-Nicht eher will ich mich sehen lassen, als bis ich mich gefaßt habe; — und fassen will ich mich, muß ich mich! — Sonst so entschlossen, und jezt nichts, als Zweifel um mich her! — Ist mein Trit denn so schwach, daß ich mich von einem nächtlichen Traum sollte umstossen lassen? Ich weiß, sie liebt mich. Das sagt mir ihr warmer Handdruk, ihr feuriger Blik, womit sie mich überschauet, und das Röthen ihres Gesichts, wenn ich sie ansehe. Und Pedrillo? O vielleicht ist er so der gute Mann, als ich ihn für den arglistigen, boshaften halte! — Wie der Argwohn den Menschen trillen kann, wenn er einmal in ihm haushält! — Aber hier hell' ich mich nicht auf; Täglich hab' ich das Mädchen vor Augen. Fort, fort! Auf eine kurze Zeit winigstens muß du sie verlassen:
-<pb n="8"/>
+Nicht eher will ich mich sehen lassen, als bis ich mich gefaßt habe; — und fassen will ich mich, muß ich mich! — Sonst so entschlossen, und jezt nichts, als Zweifel um mich her! — Ist mein Trit denn so schwach, daß ich mich von einem nächtlichen Traum sollte umstossen lassen? Ich weiß, sie liebt mich. Das sagt mir ihr warmer Handdruk, ihr feuriger Blik, womit sie mich überschauet, und das Röthen ihres Gesichts, wenn ich sie ansehe. Und Pedrillo? O vielleicht ist er so der gute Mann, als ich ihn für den arglistigen, boshaften halte! — Wie der Argwohn den Menschen trillen kann, wenn er einmal in ihm haushält! — Aber hier hell' ich mich nicht auf; Täglich hab' ich das Mädchen vor Augen. Fort, fort! Auf eine kurze Zeit wenigstens muß du sie verlassen! <pb n="8"/>
 ##Fünfter Auftrit.
 $ Katelli und Anton. 
 @Anton:
@@ -175,9 +174,9 @@ Nein! das wird er nicht, wenn wir ihn bitten.
 @Katelli:
 Aber mein Geist denkt sich da immer so etwas, das mich in Bewegung setzt. 
 @Franziska:
-Du bist ein Mann, Katelli. Schäme dich, daß du nicht als Mann handelst. Lange genug hast du das Böse der Liebe geschmekt, du must nun auch ihr tausendfaches Gutes fühlen. 
+Du bist ein Mann, Katelli. Schäme dich, daß du nicht als Mann handelst. Lange genug hast du das Böse der Liebe geschmekt, du must nun auch ihr tausendfaches Gutes fühlen. <pb n="17"/>
 @Katelli:
-<pb n="17"/> Wohl, meine Franziska! Aber wenn die Dauer fehlen sollte. 
+Wohl, meine Franziska! Aber wenn die Dauer fehlen sollte. 
 @Franziska:
 (steht auf) Komm, wir wollen zu unserm Vater laufen. (gehen Hand in Hand ab.) 
 ##Eilfter Auftrit.
@@ -376,15 +375,15 @@ Und wer wird's ihm sogleich sagen, daß Franziska mein ist? Geheim wollen wir de
 @Montenegro:
 Und Mailand ist das Ende der Welt, mein Sohn, so, daß er euch nicht folgen könne? Der Arm des Königsfreundes reicht weit. Ringe deine Hände und schüttle den Kopf! 
 @Katelli:
-Tausend gezukte Schwerdter wachen in Mailand über die Bosheit. Es wird dort zu viel Licht um ihn seyn, als daß er Rache könnte strömen lassen. Vor dem Richterstuhl Gottes klag' ich mich selbst an, wenn er uns schaden sol. <pb n="32"/>
+Tausend gezukte Schwerdter wachen in Mailand über die Bosheit. Es wird dort zu viel Licht um ihn seyn, als daß er Rache könnte strömen lassen. Vor dem Richterstuhl Gottes klag' ich mich selbst an, wenn er uns schaden sol. <pb n="32"/> Mont. Viel gesagt, mein Sohn! Aber Versprechen fällt nie so schwer, als Erfüllung. 
 @Montenegro:
-Viel gesagt, mein Sohn! Aber Versprechen fällt nie so schwer, als Erfüllung. 
+Tausend gezukte Schwerdter wachen in Mailand über die Bosheit. Es wird dort zu viel Licht um ihn seyn, als daß er Rache könnte strömen lassen. Vor dem Richterstuhl Gottes klag' ich mich selbst an, wenn er uns schaden sol. <pb n="32"/> Mont. Viel gesagt, mein Sohn! Aber Versprechen fällt nie so schwer, als Erfüllung. 
 @Katelli:
 Alles will ich geben! Auch das Blut das durch meine Adern rollt, will ich für die Erfüllung dieses Versprechens geben. Lieber will ich den Dekkel meines Sarges aufstoßen lassen, als dem Sturm nicht zu wehren, der diese Blumen zerknikken will. 
 @Franziska:
 Katelli! Bist du schon wieder ausser aller Fassung? Warum irrst du schon in Leichenhäusern herum? Denk, wir sind die Rose, die kaum ihr grünes Joch abgeschüttelt hat, und mit froher dankbarer Mine nun ihren Schöpfer dafür anlachen soll! Deine Worte beleidigen ihn. Wir wollen ruhig unsere Tage verleben, und sie nicht mit Denken an Mord und Blut beflekken. Nein! laß uns lieber, wenn du dich in Meiland nicht sicher glaubst, in einen düstern Hayn unter einem Strohdach wohnen. Es wird uns Pallasts genug seyn, wenn wir drunter beysammen sind. 
 @Katelli:
-Du hast recht, göttliches Mädchen! Deine Worte sind Engelworte. Ich glaube, Gott hat dich zum Engel geschaffen, und dein Vater hat dich nur von ihm zum Menschenlehrer erbettelt. — Aber, bester Vater, warum lassen sie noch länger auf ihr Ja unsern flehenden Blik schmachten? <pb n="33"/>
+Du hast recht, göttliches Mädchen! Deine Worte sind Engelworte. Ich glaube, Gott hat dich zum Engel geschaffen, und dein Vater hat dich nur von ihm zum Menschenlehrer erbettelt. – Aber, bester Vater, warum lassen sie noch länger auf ihr Ja unsern flehenden Blik schmachten? <pb n="33"/>
 @Montenegro:
 (der nachdenkend steht. Nach einer Pause) Sie ist dein, mein Sohn. Kommt in meinen väterlichen Arm, Kinder! Ich will euch kühn in den Sturm der Welt hinschikken. 
 @Katelli:
@@ -684,15 +683,15 @@ Mäßigen sie sich. Nicht von der meinigen. Von der Gnade der heiligen Inquisiti
 @Katelli:
 Auch von der nicht. Sie ist ein Engel und über euch alle. (sieht sich nach Franziska um, die matt auf dem Stuhl sizt.) Franziska, Franziska! Ich Armseliger! Nichts als unglaubliche Schlage von allen Seiten. Anton! Hülfe! 
 @Montenegro::
-(weinend und Franziska immer im Arm habend) Es ist nur eine ganz schwache Ohnmacht, mein Sohn. <pb n="57"/>
+(weinend und Franziska immer im Arm habend) Es ist nur eine ganz schwache Ohnmacht, mein Sohn. <pb n="57"/> Katelli. Nein! (zum Priester) Mörder! du hast sie ermordet. (will mit den Degen auf ihn zu.) 
 @Katelli:
-Nein! (zum Priester) Mörder! du hast sie ermordet. (will mit den Degen auf ihn zu.) 
+(weinend und Franziska immer im Arm habend) Es ist nur eine ganz schwache Ohnmacht, mein Sohn. <pb n="57"/> Katelli. Nein! (zum Priester) Mörder! du hast sie ermordet. (will mit den Degen auf ihn zu.) 
 @Anton:
 (fällt ihm in den Arm) Was machen sie, lieber Herr? Besinnen sie sich doch. 
-@Montenegro::
+@Montenegro:
 Lerne Mäßigung von mir. Bedenke die Schärfe des heiligen Gerichts, und die Ehrfurcht, die wir ihm schuldig sind. Vergreife dich nicht an einer geweyhten Person. 
 @Katelli:
-Nein, das will ich nicht; thu' ich nicht! Der heilig! (faßt ihn vor die Brust) Du heilig? Ein Mörder bist du! 
+Nein, das will ich nicht; thu’ ich nicht! Der heilig! (faßt ihn vor die Brust) Du heilig? Ein Mörder bist du! 
 @Priester:
 Sie wollen nicht gütlich gehen. Wache! 
 @Katelli:
@@ -701,12 +700,12 @@ Wer mich anrührt, ist nur noch zwey Schritte vom Kirchhofe.
 Folgen sie, oder ich nehme Franziska. (tritt näher an Franziska. 
 @Katelli:
 Kein Wort mehr, Priester, oder du wagst dein Leben. 
-@Montenegro::
+@Montenegro:
 Gehe mein Sohn; reine Unschuld begleitet dich. 
 @Katelli:
-Ich gehen und Franziska halb tod zurüklassen? Sie vergebens ihren rufen lassen? — Und ich mit dem Auswurf des menschlichen Geschlechts über die Strasse gehen? Nein, Lieb' und Ehre binden meinen Fuß. 
-@Montenegro::
-Folge, mein Sohn. Zu deinem und unser aller Besten rath' ich's dir. Seh, eb <pb n="58"/> deine Franziska erwacht! Ich werde ihr Herz alsdenn leichter beruhigen können. 
+Ich gehen und Franziska halb tod zurüklassen? Sie vergebens ihren rufen lassen? – Und ich mit dem Auswurf des menschlichen Geschlechts über die Strasse gehen? Nein, Lieb’ und Ehre binden meinen Fuß. 
+@Montenegro:
+Folge, mein Sohn. Zu deinem und unser aller Besten rath’ ich’s dir. Geh, eh <pb n="58"/> deine Franziska erwacht! Ich werde ihr Herz alsdenn leichter beruhigen können. 
 @Katelli:
 (wirst sich vor Franziska nieder und legt seine Hände auf ihren Schooß) Meine Liebe, mir heiliger, als alles! deinetwillen folg ich, achte meine Ehr' und alles nicht. Auch dies Leben geb' ich dir gern, wenn du's forderst. (aufstehend zu Montenegro) Sorgen sie für sie. Weyhen sie ihr alle Sorgfalt, die sie nur aussinnen können. Bald, bald werd' ich sie wiedersehen — Anton! 
 @Anton:
@@ -1076,131 +1075,3 @@ Wie die schwache Hure da liegt, von dem Sturm ihres eigenen Weibergrimms niederg
 @Katelli:
 Und wenn die Tollheit dein Gehör verstopft hat, so fühl's! (Er holt geschwind ein Stilet hervor und ersticht ihn. Pedrillo will mit dem Degen auf ihn zu, wankt aber. stößt ihn noch einmal und er fällt.) Ich will die Hölle nicht auf mich erboßen, daß ich dich hier schon zu Martern gewöhne! — Das ist das Ziel, wonach du so freventlich gestrebt hast, du Stöhrer häuslicher Ruhe, du Stöhrer heiliger Liebe! Da liegst du nun, beflekt mit Vatermord, Kindermord und allen Lastern, die menschliches Gehirn nur aushekken kann! — Ich folge dir; aber mit geflochtner Geissel folg' ich dir:
 Bald, bald! — Du bebst den Weg hinab, umringt vom Rauchgewölk racheschreyendes Bluts; begleitet vom Gebet des Vaters um Strafe für das Blut seines Kindes; begleitet vom Gewimmer der Frommen und Bedrängten im Unglük, und diesem <pb n="93"/> allen schleppt die Strafe ihr graues Haupt auf langsamen Krükken nach. Dies sind deine Gefährten. gehe den Weg froh, meine Franziska im Arm! Edle That und Unschuld gehen vor uns einher, und der Seraph lacht unsers Kommens. — (den Dolch in erhobner Hand. Zu Franziska) Und nun zum Gericht Franziska! Rettung ist hier tod! 
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-NA

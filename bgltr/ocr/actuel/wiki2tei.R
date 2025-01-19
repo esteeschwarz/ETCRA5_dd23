@@ -3,14 +3,16 @@
 # TEI refactoring of wikisource transcription
 #############################################
 source("/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/functions.R")
+library(xml2)
+library(abind)
 ######
 # t1<-page.get.content("Franziska_Montenegro","json")
 # head(t1,200)
 # epub<-tempfile("t1.epub")
 # download.file("https://ws-export.wmcloud.org/?format=epub&lang=de&page=Franziska_Montenegro",epub)
-ep<-GET("https://ws-export.wmcloud.org/?format=epub&lang=de&page=Franziska_Montenegro")
-t1<-content(ep,"text")
-htm<-read_html(t1)
+#ep<-GET("https://ws-export.wmcloud.org/?format=epub&lang=de&page=Franziska_Montenegro")
+#t1<-content(ep,"text")
+#htm<-read_html(t1)
 #xml_text(htm)
 # no.
 #############
@@ -51,7 +53,7 @@ assign.sp<-function(x,i){
   sub<-x
   sub
 #  p<-xml_find_all(sub,"p")
-  xml_name(xi)
+ # xml_name(xi)
   m1<-grepl("170%",xml_attr(sub,"style"))
   if(m1){
     h2.tx<-paste0("#",xml_text(sub))
@@ -141,6 +143,7 @@ assign.sp<-function(x,i){
 sp.lines<-lapply(seq_along(all.elements),function(i){
   assign.sp(all.elements[[i]],i)
 })
+### RUN
 ezd.lines<-unlist(sp.lines)
 #ezd.lines[310:330]
 # m<-is.null(ezd.lines[1:length(ezd.lines)])
@@ -152,30 +155,43 @@ m<-ezd.lines=="$"|ezd.lines=="@ *"|ezd.lines==""|
 sum(m)
 ezd.lines<-gsub("\n"," ",ezd.lines)
 ezd.lines<-ezd.lines[!m]
-#ezd.lines[632]
+ezd.lines<-gsub("\t","\n",ezd.lines)
+for (k in 1:3){
+  ezd.lines<-gsub("(^@.+[:])[ \t]{1,2}","\\1\n",ezd.lines)
+}
+ezd.lines[1:120]
 ### wks.
 m1<-grepl("^<pb",ezd.lines)
+
 sum(m1)
 ezd.lines[m1]
 m2<-grep("^<pb",ezd.lines)
 m3<-m2-1
 ezd.lines[m3]<-paste0(ezd.lines[m3],ezd.lines[m2])
 ezd.lines<-ezd.lines[!m1]
+ezd.lines[1:100]
 ezd.nl<-gsub("  "," ",ezd.lines)
-ezd.nl<-gsub("\t","\n",ezd.nl)
-#ezd.nl<-gsub("  "," ",ezd.nl)
-for (k in 1:3){
-ezd.nl<-gsub("(^@.*:)[ ]{1,2}","\\1\n",ezd.nl)
-}
+# ezd.nl<-gsub("\t","\n",ezd.nl)
+ezd.nl<-gsub("[^:]\n<pb","<pb",ezd.nl)
+ezd.nl[1:100]
+ezd.nl<-gsub("(:\n<pb.+/>.?)\n","\\1",ezd.nl)
+#ezd.nl<-gsub("\n"," ",ezd.nl)
+m<-grep("##F",ezd.nl)
+ezd.nl[27]
+# for (k in 1:3){
+# ezd.nl<-gsub("(^@.*[.:])[ \t]{1,2}","\\1\n",ezd.nl)
+# }
+ezd.nl<-gsub("\t","",ezd.nl)
+head(ezd.nl,100)
 ### normalise speaker ids
 m<-grep("^@.*[:.]",ezd.nl)
-strsplit()
+#strsplit()
 sp.u<-unique(strsplit(ezd.nl[m],"\n"))
 sp.u[1]
 
 sp.u.df<-abind(lapply(sp.u,function(x){x[1]}),along = 0)
 sp.un<-unique(sp.u.df)
-sp.un[,2]<-""
+#sp.un[,2]<-""
 #sp.cor<-fix(sp.un)
 # library(readr)
 # write.table(sp.cor,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/speaker-ids.csv",row.names = F)
@@ -216,11 +232,12 @@ p.desc
 p.desc.m<-paste0(p.head[,1],"<roleDesc>",p.desc,"</roleDesc>")
 p.desc.m
 ezd.nl.sp[m[1]]<-"^"
-m.out<-c(m[1],(m[2]+1):length(ezd.nl.sp.head))
+m.out<-c(m[1],(m[2]+1):length(ezd.nl.sp))
 ezd.nl.sp.head<-ezd.nl.sp[m.out]
 ezd.nl.sp.head<-append(ezd.nl.sp.head,p.desc.m,m[1])
-
+ezd.nl.sp.head
 # writeLines(unlist(ezd.lines),"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001.txt")
+#process_folder<-
 ezd_markup.ns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001"
 ezd_markup_text<-paste0(ezd_markup.ns,".txt")
 writeLines(ezd.nl.sp.head,ezd_markup_text)
@@ -235,15 +252,39 @@ process.ezd<-function(){
 } #end ezd process .txt
 process.ezd()
 xml.ns<-paste0(ezd_markup.ns,".xml")
-xml<-read_xml(xml.ns)
+# xml<-read_xml(xml.ns)
+xml.tx<-readLines(xml.ns)
+m<-grep("&lt|&gt;",xml.tx)
+xml.tx[m]<-gsub("&lt;","<",xml.tx[m])
+xml.tx[m]<-gsub("&gt;",">",xml.tx[m])
+xmltemp<-tempfile("xmltemp.xml")
+dracor_head<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/dracor_header.xml")
+dracor_head
+#xml.tx[1]<-dracor_head[1]
+xml.tx<-append(xml.tx,dracor_head[1:4],0)
+head(xml.tx)
+m<-grepl("<TEI xml:id",xml.tx)
+xml.tx<-xml.tx[!m]
+head(xml.tx)
+writeLines(xml.tx,xmltemp)
 library(purrr)
-xml<-xml%>%xml_ns_strip()
-castlist<-xml_find_all(xml,"//castList")
-castlist.r<-gsub("&lt;","<",castlist)
-castlist.r<-gsub("&gt;","/>",castlist.r)
-castlist.r<-gsub("<castList>|</castList>","",castlist.r)
-casthtm<-read_html(castlist.r)
-casthtm<-xml_find_all(casthtm,"//body")
+xml<-read_xml(xmltemp)
+# tei<-read_xml(paste0(dracor_head,collapse = ""))
+# xmlns<-xml_attr(tei,"xmlns")
+# tei%>%xml_ns_strip()
+# xmlid<-xml_attr(xml_find_all(tei,"//TEI"),"id")
+# xmllang<-xml_attr(tei,"lang")
+#tei<-xml_find_all(xml,"TEI")
+xmlns<-xml_attr(xml,"xmlns")
+xmlid<-xml_attr(xml,"id")
+xmllang<-xml_attr(xml,"lang")
+xml%>%xml_ns_strip()
+# castlist<-xml_find_all(xml,"//castList")
+# castlist.r<-gsub("&lt;","<",castlist)
+# castlist.r<-gsub("&gt;","/>",castlist.r)
+# castlist.r<-gsub("<castList>|</castList>","",castlist.r)
+# casthtm<-read_html(castlist.r)
+# casthtm<-xml_find_all(casthtm,"//body")
 castnode<-xml_new_root("castList")
 k<-1
 for(k in 1:length(p.desc)){
@@ -253,13 +294,35 @@ for(k in 1:length(p.desc)){
   }
 }
 castnode
+# all.p<-xml_find_all(xml,"//p")
+# head(xml_text(all.p),100)
+# m<-grep("&lt|&gt;",xml_text(all.p)) # doesnt find!
+# m<-grep("<|>",xml_text(all.p))
+# xml_text(all.p)[m[1]]
+
+# castlist.r<-gsub("&gt;","/>",castlist.r)
 #xml_add_child(castnode)
 #?xml_new_root
 #?xml_replace
 #xml_add_child(xml_find_all(xml,"//front"),"castList")
 xml_replace(xml_find_all(xml,"//castList"),castnode)#,xml_find_all(xml,"//castList"))
+filedesc<-read_xml("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/dracor_filedesc.xml")
+standoff<-read_xml("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/dracor_standoff.xml")
+xml_replace(xml_find_all(xml,"//standOff"),standoff)#,xml_find_all(xml,"//castList"))
+xml_replace(xml_find_all(xml,"//fileDesc"),filedesc)#,xml_find_all(xml,"//castList"))
 #xml_find_all(xml,"//castList")[[2]]<-casthtm
-write_xml(xml,xml.ns)
+write.final.xml<-function(xml,xml.final){
+  xml_set_attr(xml,"xmlns",xmlns)
+  xml_set_attr(xml,"xml:id",xmlid)
+  xml_set_attr(xml,"xml:lang",xmllang)
+  # xml_set
+  
+  
+  write_xml(xml,xml.final)
+}
+
+xml.final<-paste0(ezd_markup.ns,".final.xml")
+write.final.xml(xml,xml.final)
 #URLencode("<")
 
 
