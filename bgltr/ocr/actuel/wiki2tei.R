@@ -220,7 +220,7 @@ p.head<-p.head[p.head!=""]
 p.head<-strsplit(p.head,",")
 p.head<-abind(lapply(p.head,function(x){x[1:4]}),along = 0)
 p.person<-p.head[,1]
-?apply
+#?apply
 x<-p.head[1,]
 paste0(x,collapse = ",")
 p.head[is.na(p.head)]<-""
@@ -321,7 +321,7 @@ write.final.xml<-function(xml,xml.final){
   write_xml(xml,xml.final)
 }
 
-xml.final<-paste0(ezd_markup.ns,".final.xml")
+xml.final<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/tei/","steltzer_montenegro.final.xml")
 write.final.xml(xml,xml.final)
 #URLencode("<")
 
