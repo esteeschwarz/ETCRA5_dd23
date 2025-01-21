@@ -4,7 +4,7 @@
 library(httr)
 
 cred<-read.csv("~/boxHKW/21S/DH/local/R/cred_gener.csv")
-credit
+#credit
 #################################
 get_credit<-function(credit){
 m<-grep("dhiwswiki",cred$q)
@@ -185,7 +185,7 @@ x<-post.page(tx,inuse = T,credit = c(admin=F,ws=T))
 x
 
   }
-fns
+#fns
 push.page<-lapply(seq_along(1:length(fns)),function(i){
   page.edit(fns[i],template,inuse = T,"json",i)
 })
