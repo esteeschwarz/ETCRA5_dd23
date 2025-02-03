@@ -1,18 +1,15 @@
-^
-Montenegro<roleDesc>ein alter reicher Spanier</roleDesc>
-Franziska<roleDesc>seine Tochter</roleDesc>
-Katelli<roleDesc>ein Italiener, Vetter des Montenegro und Franziska’s Liebhaber</roleDesc>
-Pedrillo<roleDesc>Sekretär eines Ministers</roleDesc>
-Anton<roleDesc>Katelli’s Bedienter</roleDesc>
-Kamilla<roleDesc>Franziska’s Mädchen</roleDesc>
-Hieronimus<roleDesc>ein Mönch</roleDesc>
-Niklas<roleDesc>ein Bandit</roleDesc>
-Bedienten<roleDesc></roleDesc>
-Priester<roleDesc></roleDesc>
-Wache<roleDesc></roleDesc>
+[I]
+#Franziska Montenegro.
+##Ein Trauerspiel
+##fünf Aufzügen.
+##Magdeburg und Leipzig,
+##bey Johann Adam Creutz, 1781.
+[III]
+ Montenegro, ein alter reicher Spanier.Franziska, seine Tochter.Katelli, ein Italiener, Vetter des Montenegro und Franziska’s Liebhaber.Pedrillo, Sekretär eines Ministers.Anton, Katelli’s Bedienter.Kamilla, Franziska’s Mädchen.Hieronimus, ein Mönch.Niklas, ein Bandit. Bedienten. Priester. Wache.  
+[IV]
 #Erster Aufzug.
 ##Erster Auftrit.
-$Montenegro’s Garten bey dessen Landgut vor Madrit. Buschwerk, Rasenbänke und im Hintergrunde das freye Feld. 
+$Montenegro’s Garten bey dessen Landgut vor Madrit. Buschwerk, Rasenbänke und im Hintergrunde das freye Feld.
 $Katelli und Montenegro, (beide auf einer Rasenbank sitzend.)
 @Montenegro:
 Ja, wie ich sage; bist nicht mehr der wakkere muntre Mann. Machtest sonst Alten und Jungen Freude. 
@@ -23,11 +20,11 @@ Bist nicht allein heut so mürrisch; alle Tage, alle Tage! Soltst die Stirn nich
 @Katelli:
 Es wird wieder besser mit mir werden. Ausgebliebne Nachrichten von meinem Vater, den ich in zehn Jahren nicht gesehen habe; meine Gesundheitsumstände, die nicht die besten sind; dunkles, trübseliges Wetter, alles das stürmt auf mich ein. 
 @Montenegro:
-Hättest du mir gestern nur einenso freundlichen Blik gegeben, als mir die Sonne durch mein Kammerfenster schenkte, nichts sagt’ ich. Deine Gesundheit zu bemurren, ziemt dir auch nicht. Sie ist so fest, so dauerhaft, daß sie mich in meinen alten Tagen aufgeheitert hat; und Dein Vater? – Er würde weinen, wenn er wüßte, daß er dir nur eine Stunde verbitterte. Hat uns überdem sein lezter Brief nicht gesagt, daß er täglich jünger würde? Sey’s aber auch, daß er kränkelt, ist’s deshalb schon aus? Und wenn’s wäre? Sind wir mehr, als ein Licht, das erlöscht, wenn es niedergebrannt ist? Kurz, Vetter, es stekt etwas anders dahinter, und das jezt rein herausgesagt! Vielleicht kann ich helfen. – Du schweigst? Bin ich schuld? 
+Hättest du mir gestern nur einen so freundlichen Blik gegeben, als mir die Sonne durch mein Kammerfenster schenkte, nichts sagt’ ich. Deine Gesundheit zu bemurren, ziemt dir auch nicht. Sie ist so fest, so dauerhaft, daß sie mich in meinen alten Tagen aufgeheitert hat; und Dein Vater? – Er würde weinen, wenn er wüßte, daß er dir nur eine Stunde verbitterte. Hat uns überdem sein lezter Brief nicht gesagt, daß er täglich jünger würde? Sey’s aber auch, daß er kränkelt, ist’s deshalb schon aus? Und wenn’s wäre? Sind wir mehr, als ein Licht, das erlöscht, wenn es niedergebrannt ist? Kurz, Vetter, es stekt etwas anders dahinter, und das jezt rein herausgesagt! Vielleicht kann ich helfen. – Du schweigst? Bin ich schuld? 
 @Katelli:
-Ich weiß nicht, was ich antworten soll. Es ist mir nicht so, als mirs sonst war! Das ist alles, was ich sagen kann. <pb n="6"/>
+Ich weiß nicht, was ich antworten soll. Es ist mir nicht so, als mirs sonst war! Das ist alles, was ich sagen kann. 
 @Montenegro:
-Du sollst nicht wissen, was du thätst? Das menschliche Herz ist ja so ein wunderliches Ding nicht, daß es so ganz blind und dumm in den Tag hinein handeln sollte. 
+<pb n="6"/>  Du sollst nicht wissen, was du thätst? Das menschliche Herz ist ja so ein wunderliches Ding nicht, daß es so ganz blind und dumm in den Tag hinein handeln sollte. 
 @Katelli:
 Sie haben den Menschen noch nicht recht studirt, Lieber. Es fehlt seinen Handlungen oft an Triebfedern, wenigstens sind sie oft sehr lahm. 
 @Montenegro:
@@ -38,28 +35,26 @@ Zu seiner Zeit sag’ ich ihnen alles. Ich liebe sie; aber noch kindlicher will 
 $Die vorigen. Anton.
 @Anton:
 (zu Montenegro.) Leute aus der Stadt wollen sie sprechen. Sie stellen sich eilend. 
-@Montenegro:
+@Mont:
 Nicht wahr? Das kömmt dir, wie gerufen, Katelli? Aber davon kömmst du nicht. du sollst beichten, was dir im Kopfe stekt. <pb n="7"/>
 ##Dritter Auftrit.
-$ Katelli und Anton, (der fortgehen will) 
+$Katelli und Anton, (der fortgehen will) 
 @Katelli:
-Bleib, Anton, und schließ mir den Gar ten zu! — Daß es aber mein Vetter nicht merkt. (Anton geht.) 
+Bleib, Anton, und schließ mir den Garten zu! – Daß es aber mein Vetter nicht merkt. (Anton geht.) 
 ##Vierter Auftrit.
-$ Katelli allein. 
-@Katelli:
-Nicht eher will ich mich sehen lassen, als bis ich mich gefaßt habe; — und fassen will ich mich, muß ich mich! — Sonst so entschlossen, und jezt nichts, als Zweifel um mich her! — Ist mein Trit denn so schwach, daß ich mich von einem nächtlichen Traum sollte umstossen lassen? Ich weiß, sie liebt mich. Das sagt mir ihr warmer Handdruk, ihr feuriger Blik, womit sie mich überschauet, und das Röthen ihres Gesichts, wenn ich sie ansehe. Und Pedrillo? O vielleicht ist er so der gute Mann, als ich ihn für den arglistigen, boshaften halte! — Wie der Argwohn den Menschen trillen kann, wenn er einmal in ihm haushält! — Aber hier hell' ich mich nicht auf; Täglich hab' ich das Mädchen vor Augen. Fort, fort! Auf eine kurze Zeit wenigstens muß du sie verlassen! <pb n="8"/>
+@Katelli allein. <pb n="8"/>
 ##Fünfter Auftrit.
-$ Katelli und Anton. 
+$Katelli und Anton. 
 @Anton:
 Alles vest verschlossen, lieber Herr, daß auch kein Mäuschen hinein kann. 
 @Katelli:
 Pak meine Sachen ein, Anton. Wir müssen fort. Ich habe nöthige Geschäfte zu Hause. 
 @Anton:
-Fort? Hmh und wir sind kaum viers zehn Tage hier, und die Leute sehen uns so gern? — Was denn zulezt die nöthigen Geschäfte anbetrift, so 
+Fort? Hm! und wir sind kaum vierzehn Tage hier, und die Leute sehen uns so gern? – Was denn zulezt die nöthigen Geschäfte anbetrift, so – 
 @Katelli:
 Schweig! Ich habe gesagt; Pak ein! und das muß dir genug seyn. 
 @Anton:
-Und das muß dir genug seyn! Und darum haben sie den Garten zuschliessen lassen? Das hätten sie mir auch bei offenen Thüren und mitten auf dem Markte sagen können. Aber ich hab's schon lang gemerkt, und ich sag's ihnen dreist in's Ge⸗ sicht; andre Sächelchen stekken dahinter. Ja, ja, haben sie's endlich doch vergessen, was der Vater sagte, als sie in den Wagen stiegen? "Karl, Karl, nimm dich für die Mädchen in Acht! Es ist ein arges Ding, sie wieder aus dem Kopf zu bringen, wenn sie sich einmal eingeschlichen haben!" 
+Und das muß dir genug seyn! Und darum haben sie den Garten zuschliessen lassen? Das hätten sie mir auch bei offenen Thüren und mitten auf dem Markte sagen können. Aber ich hab’s schon lang gemerkt, und ich sag’s ihnen dreist in’s Gesicht; andre Sächelchen stekken dahinter. Ja, ja, haben sie’s endlich doch vergessen, was der Vater sagte, als sie in den Wagen stiegen? „Karl, Karl, nimm dich für die Mädchen in Acht! Es ist ein arges Ding, sie wieder aus dem Kopf zu bringen, wenn sie sich einmal eingeschlichen haben!“ 
 @Katelli:
 Du plapperst da aufs Geradewohl hin, als wenn du Brief und Siegel drüber hättest! 
 @Anton:
@@ -67,65 +62,65 @@ Brief und Siegels genug. Bei Tage suchen sie das Mädchen in allen Winkeln auf, 
 @Katelli:
 Du verstehst das Horchen sehr gut, Anton! 
 @Anton:
-Horchen ! Da ist was zu horchen, wenn wir kaum zwanzig Schritte von einander schlafen. Das Bischen Glasthüre ist ja auch nicht von Eisen gemacht, daß ihr Seufzen nicht durchdringen sollte. Horchen! Ich hab' in meinen Leben noch keinen behorcht. 
+Horchen! Da ist was zu horchen, wenn wir kaum zwanzig Schritte von einander schlafen. Das Bischen Glasthüre ist ja auch nicht von Eisen gemacht, daß ihr Seufzen nicht durchdringen sollte. Horchen! Ich hab’ in meinen Leben noch keinen behorcht. 
 @Katelli:
-(nach einer kleinen Pause) Du weißt schon zu viel, darum muß ich dir noch mehr sagen. du bist ein ehrlicher Kerl; hast mir von meiner Jugend an treu gedient und nie meine jugendlichen Fehler benuzt. Du kennst die ganze Geschichte meiner Familie; und du hast dein Wissen nie gemisbraucht. Auch jezt will ich dir nichts verhelen — Ich liebe Franziska, das hast du aus meinem Thun und Handlungen recht geschlossen, und ich finde nichts Tadelnswürdiges darinn. Nicht Anton? — Du schweigst? 
+(nach einer kleinen Pause) Du weißt schon zu viel, darum muß ich dir noch mehr sagen. du bist ein ehrlicher Kerl; hast mir von meiner Jugend an treu gedient und nie meine jugendlichen Fehler benuzt. Du kennst die ganze Geschichte meiner Familie; und du hast dein Wissen nie gemisbraucht. Auch jezt will ich dir nichts verhelen – Ich liebe Franziska, das hast du aus meinem Thun und Handlungen recht geschlossen, und ich finde nichts Tadelnswürdiges darinn. Nicht Anton? – Du schweigst? 
 @Anton:
-Nicht, als wenn ich an Franziska etwas auszusetzen hätte! Bewahre der grosse Gott! aber — 
+Nicht, als wenn ich an Franziska etwas auszusetzen hätte! Bewahre der grosse Gott! aber – 
 @Katelli:
 Und was mit dem Aber? 
 @Anton:
-Aber hat ihnen denn der alte Herr nichts von dem Pedrillo erzehlt? Er hat vor un⸗ <pb n="10"/> serer Ankunft um sie angehalten, und — nach Wind geschnappt. Er wird — 
+Aber hat ihnen denn der alte Herr nichts von dem Pedrillo erzehlt? Er hat vor unserer <pb n="10"/> Ankunft um sie angehalten, und – nach Wind geschnappt. Er wird – 
 @Katelli:
 Ich weiß alles. Er wird sie nicht lassen, willst du sagen. 
 @Anton:
-Und dem alten Mann, wenn er sie ihm nicht gibt, tausend Possen spielen, und ihnen, wenn sie Franziska erhalten, noch einmal so viel, und — 
+Und dem alten Mann, wenn er sie ihm nicht gibt, tausend Possen spielen, und ihnen, wenn sie Franziska erhalten, noch einmal so viel, und – 
 @Katelli:
 Ließ ich dich sprechen, ich glaube du paktest noch zehnmal dein Und aus. 
 @Anton:
 Ja, ja, und vielleicht so viel Possen spielen, daß noch die Todtengräber Verdienst davon haben. 
 @Katelli:
-Wahr ists, Pedrillo soll ein arger Kopf seyn; allein hab ich ihn beleidigt? Warum sollt er meinem Glükke Fallen stellen? Warum — kann ich den Gedanken doch kaum in Worte fassen — warum auf Blut und Mord sinnen? Bin ich schuld, daß man ihm das beste Mädchen Spaniens versagt? Und Franzista — 
+Wahr ists, Pedrillo soll ein arger Kopf seyn; allein hab ich ihn beleidigt? Warum sollt’ er meinem Glükke Fallen stellen? Warum – kann ich den Gedanken doch kaum in Worte fassen – warum auf Blut und Mord sinnen? Bin ich schuld, daß man ihm das beste Mädchen Spaniens versagt? Und Franziska – 
 @Anton:
-Ich dächte eben so — aber ich habe hier weit und breit herum auch nicht einen gefunden, der gut von ihm spräche. Freylich, ich bin noch eben nicht weiter, als auf die Kegelbahn gekommen, aber man fände doch wohl einen Kopf, einen, sag' ich nur, der anders dächte. Noch neulich, als er sich zu jemanden in unserer Nachbarschaft tra⸗ <pb n="11"/> gen ließ, sagten die Träger zu mir:
+Ich dächte eben so – aber ich habe hier weit und breit herum auch nicht einen gefunden, der gut von ihm spräche. Freylich, ich bin noch eben nicht weiter, als auf die Kegelbahn gekommen, aber man fände doch wohl einen Kopf, einen, sag’ ich nur, der anders dächte. Noch neulich, als er sich zu jemanden in unserer Nachbarschaft tragen <pb n="11"/> ließ, sagten die Träger zu mir:
 Weh, weh! wir haben einen tükschen Kopf getragen! Ob denn die bösen Leute alle schwerer sind als die guten? 
 @Katelli:
-Auf das Gewäsch solcher Leute, hab' ich schon oft gesagt, sollst du nicht bauen. Hätten sie auch recht, so kann er doch nicht ohne Grund auf Tükke sinnen. So überspannt findet man keine Bosheit. Und laß ihn! Was wird er können? Heut ist mein Bund mit Franziska geschlossen, und morgen fort mit ihr nach Mailand! 
+Auf das Gewäsch solcher Leute, hab’ ich schon oft gesagt, sollst du nicht bauen. Hätten sie auch recht, so kann er doch nicht ohne Grund auf Tükke sinnen. So überspannt findet man keine Bosheit. Und laß ihn! Was wird er können? Heut ist mein Bund mit Franziska geschlossen, und morgen fort mit ihr nach Mailand! 
 @Anton:
 Wenn sie nur erst da wären. Eine Schlange kann in vier und zwanzig Stunden viel Gift ausspeyen. 
 @Katelli:
 (etwas hitzig) Gut, laß ihn uns nacheilen! Sind unsere Klingen nicht auch gewezt? 
 @Anton:
-Nun freylich! Ich habe zwar mit solchen Sachen nicht gern etwas zu thun, wenn's aber seyn soll, ey nun! 
+Nun freylich! Ich habe zwar mit solchen Sachen nicht gern etwas zu thun, wenn’s aber seyn soll, ey nun! 
 @Katelli:
 Aber, Anton, ich bin jezt viel zu verwirrt, viel zu hitzig, einen ernsten Plan auszuführen. Pak ein! Wir müssen fort. Ich will meinen Geist auf der Reise wieder sammlen. Wir wollen nach Teutschland. 
 @Anton:
-Da wär' ich zwar gar gern, weil's so gute Leute darin geben soll, — 
+Da wär’ ich zwar gar gern, weil’s so gute Leute darin geben soll, – 
 @Katelli:
-Das gehört hier nicht her. Geh und pak ein ! <pb n="12"/>
+Das gehört hier nicht her. Geh und pak ein! 
 @Anton:
-Gleich, lieber Herr, bis auf ein Wörtchen. Wenn wir nun fort reisen, so weint sich das Mädchen vors erste die Augen roth. Und ein Glük, wenn's noch dabey bleibt, denn unter uns gesagt, ich weiß vom Kammermädel, daß sie ihnen eben nicht böse ist. Und sie denken natürlicher Weise doch eben so viel an das Mädchen, als wenn sie hier bleiben. Sie werden sie immer das Thränchen weinen sehen, daß sie bey ihrem Abschiede weinte. Und nun kommt's beste noch. Haben sie denn schon Pedrillo vergessen? Hat er dann nicht noch mehr Gelegenheit und Zeit, seine hämischen Streiche mit Franziska zu spielen? Glauben sie, ihn und sie wieder zu finden? Durch tausend Ränke würd' er in irgend einen schwarzen Spitzbubenwinkel sich mit ihr hinstehlen, und das gute Mädchen würde aus Gram sterben. 
+<pb n="12"/>  Gleich, lieber Herr, bis auf ein Wörtchen. Wenn wir nun fort reisen, so weint sich das Mädchen vors erste die Augen roth. Und ein Glük, wenn’s noch dabey bleibt, denn unter uns gesagt, ich weiß vom Kammermädel, daß sie ihnen eben nicht böse ist. Und sie denken natürlicher Weise doch eben so viel an das Mädchen, als wenn sie hier bleiben. Sie werden sie immer das Thränchen weinen sehen, daß sie bey ihrem Abschiede weinte. Und nun kommt’s beste noch. Haben sie denn schon Pedrillo vergessen? Hat er dann nicht noch mehr Gelegenheit und Zeit, seine hämischen Streiche mit Franziska zu spielen? Glauben sie, ihn und sie wieder zu finden? Durch tausend Ränke würd’ er in irgend einen schwarzen Spitzbubenwinkel sich mit ihr hinstehlen, und das gute Mädchen würde aus Gram sterben. 
 @Katelli:
-(nach einer Pause) Du red'st wahr, Anton! Ich habe verwirrt gedacht. 
+(nach einer Pause) Du red’st wahr, Anton! Ich habe verwirrt gedacht. 
 @Anton:
-Was wollen wir aber nun machen? Fassen sie sich so gut als sie können, und sprechen sie mit ihrem alten Vetter. Entdekken sie sich ihm und das ohne Zaudern. 
+Was wollen wir aber nun machen? – Fassen sie sich so gut als sie können, und sprechen sie mit ihrem alten Vetter. Entdekken sie sich ihm und das ohne Zaudern. 
 @Katelli:
 Das kann ich nicht, Alter. Dazu bin ich noch zu warm. Aber schreiben will ich ihm. Meinst du? 
 @Anton:
-Mit den Zettelchen ist es nur so eine häßliche Sache. Es ist, als wenn man sich nicht ger <pb n="13"/> getraute, jemanden dreist in die Augen zu sehen. Indessen — immer besser etwas, als gar nichts. 
+Mit den Zettelchen ist es nur so eine häßliche Sache. Es ist, als wenn man sich nicht <pb n="13"/> getraute, jemanden dreist in die Augen zu sehen. Indessen – immer besser etwas, als gar nichts. 
 @Katelli:
-Aber woher Feder, Tinte? Das Hinund Wiederlaufen macht Aufsehen, der gute Alte hat schon Verdacht geschöpft. 
+Aber woher Feder, Tinte? Das Hin- und Wiederlaufen macht Aufsehen, der gute Alte hat schon Verdacht geschöpft. 
 @Anton:
 Alles aus dem Gartenhause. (ab.) 
 ##Sechster Auftrit.
-$Katelli allein, dem Anton nachrufend 
+$Katelli allein, (dem Anton nachrufend) 
 @Katelli:
-Bleib! Ich kann dort schreiben, oder — gehe nur — Welche arge, böse Krankheit ist die Liebe ! Als ein König herrscht sie in unserm Gehirn und keine Macht ist groß genug, ihr Schranken u setzen. 
+Bleib! Ich kann dort schreiben, oder – gehe nur – Welche arge, böse Krankheit ist die Liebe! Als ein König herrscht sie in unserm Gehirn und keine Macht ist groß genug, ihr Schranken zu setzen. 
 ##Siebenter Auftrit.
-$Katelli. Anton (bringt einen kleinen Tisch, Feder, Papier und Tinte.) 
-$Katelli (setzt sich auf einer Rasebank nieder und schreibt.) 
+$Katelli. Anton (bringt einen kleinen Tisch, Feder, Papier und Tinte.)' 
+@Katelli (setzt sich auf einer Rasebank nieder und schreibt.) 
 @Anton:
-Schönes verwirrtes Zeug wird's werden! Sein Kopf ist so voll, daß er nicht wissen wird, was er zuerst herausnehmen soll. Was ein schwaches Mädchen nicht kann! Die ganze weite Welt macht so ein Ding zum Gefängniß, und mit dem ernste <pb n="14"/> ernsthaftesten Mann handirt’s und spielt’s, wie mit einer Drathpuppe. 
+Schönes verwirrtes Zeug wird’s werden! Sein Kopf ist so voll, daß er nicht wissen wird, was er zuerst herausnehmen soll. Was ein schwaches Mädchen nicht kann! Die ganze weite Welt macht so ein Ding zum Gefängniß, und mit dem <pb n="14"/> ernsthaftesten Mann handirt’s und spielt’s, wie mit einer Drathpuppe. 
 @Katelli:
 Wie mir die wenigen Worte so sauer werden! (zerreißt das Papier und wirft’s fort) Anton hol mir and’res Papier. 
 @Anton:
@@ -145,20 +140,20 @@ Du hast mich nicht haben wollen. aber eh dein Anton zuschloß, war ich schon im 
 ##Neunter Auftrit.
 $Die vorigen und Anton. 
 @Katelli:
-Trag dies wieder weg, Anton! Ich will allein seyn. (Anton ab.) Zehn <pb n="15"/>
+Trag dies wieder weg, Anton! Ich will allein seyn. (Anton ab.) <pb n="15"/>
 ##Zehnter Auftrit.
 $Katelli. Franziska. 
-@Franziska:
-Aber du siehst so finster, Katelli? Bin, ich, dir lästig? 
+@Franzista:
+Aber du siehst so finster, Katelli? Bin ich dir lästig? 
 @Katelli:
 Dieser Handdruk sey Antwort. 
 @Franziska:
 (sezt sich) Sez dich neben mir. Aber sag, warum bist du so zurükhaltend, so geheim? Ich fühle eben das, Bester, allein ich bin ein armes Mädchen, das unter dem Zepter des Anstandes dient. Aber glaube mir, ich bin doch unzufrieden, daß ich dir nicht schon lange mein ganzes Herz entdekt habe. 
 @Katelli:
-Verzeih mir — Ich liebte dich, wenigstens schäzt ich dich gleich den ersten Tag, als ich in das Haus deines guten Vaters trat; allein die Ungewißheit, ob du gleiches Gefühl mit mir hättest, die Ungewißheit, ob dein Vater unsere Liebe billigen würde? 
+Verzeih mir – Ich liebte dich, wenigstens schäzt’ ich dich gleich den ersten Tag, als ich in das Haus deines guten Vaters trat; allein die Ungewißheit, ob du gleiches Gefühl mit mir hättest, die Ungewißheit, ob dein Vater unsere Liebe billigen würde? 
 @Franziska:
 Allen diesen Zweifeln will ich dich entlassen. Dein Vater sagte von dir in Briefen, daß du so ein munterer, redlicher Junge wärst. Ich las es und ward dir sogleich merklich gut, ohne dich gesehn zu haben. Du kamst selbst. Ich kannte dich nicht, aber mein Sinn sagte mir gleich:
-das ist der gute Katelli. Ich sah dich und liebte. Mein Vater weiß das alles. Er hat's sich oft merken <pb n="16"/> lassen, aber es nie getadelt. Du würdest an der Güte seines Herzens zweifeln, wenn du glaubtest, daß er unserer Liebe zuwider seyn sollte. 
+das ist der gute Katelli. Ich sah dich und liebte. Mein Vater weiß das alles. Er hat’s sich oft merken <pb n="16"/> lassen, aber es nie getadelt. Du würdest an der Güte seines Herzens zweifeln, wenn du glaubtest, daß er unserer Liebe zuwider seyn sollte. 
 @Katelli:
 Er wird’s nicht thun! Gut! Aber bedenk – Hör, Franziska! ich hab’ einen argen Traum gehabt, der mich ganz verwirrt macht. Ich ging am Ufer. 
 @Franziska:
@@ -174,15 +169,15 @@ Nein! das wird er nicht, wenn wir ihn bitten.
 @Katelli:
 Aber mein Geist denkt sich da immer so etwas, das mich in Bewegung setzt. 
 @Franziska:
-Du bist ein Mann, Katelli. Schäme dich, daß du nicht als Mann handelst. Lange genug hast du das Böse der Liebe geschmekt, du must nun auch ihr tausendfaches Gutes fühlen. <pb n="17"/>
+Du bist ein Mann, Katelli. Schäme dich, daß du nicht als Mann handelst. Lange genug hast du das Böse der Liebe geschmekt, du must nun auch ihr tausendfaches Gutes fühlen. 
 @Katelli:
-Wohl, meine Franziska! Aber wenn die Dauer fehlen sollte. 
+<pb n="17"/>  Wohl, meine Franziska! Aber wenn die Dauer fehlen sollte. 
 @Franziska:
 (steht auf) Komm, wir wollen zu unserm Vater laufen. (gehen Hand in Hand ab.) 
 ##Eilfter Auftrit.
-$ Anton allein. (kömmt von der Gartenhausseite) 
+$Anton allein. (kömmt von der Gartenhausseite) 
 ##Zwölfter Auftrit.
-$ Anton und Kamilla. 
+$Anton und Kamilla. 
 @Kamilla:
 Guten Morgen, Alter! 
 @Anton:
@@ -190,76 +185,77 @@ Guten Morgen, Mädel! Warum läuft sie denn hier im Garten so herum, und bleibt 
 @Kamilla:
 Und warum bleibt er denn nicht hübsch bey seinem Katelli? Was hat er hier zu suchen? 
 @Anton:
-Ich hier zu suchen? Mein Herr zieht sich allein an, aber sie dächt' ich, hätte nicht viel Zeit zu veralbern, wenn sie das ihrige des Morgens thun wollte. <pb n="18"/>
+Ich hier zu suchen? Mein Herr zieht sich allein an, aber sie dächt’ ich, hätte nicht viel Zeit zu veralbern, wenn sie das ihrige des Morgens thun wollte. 
 @Kamilla:
-Uebers Geplappere! — Hör' er einmal, Anton, ich weiß recht viel Neues. Da können garstige Streiche vorfallen. 
+<pb n="18"/>  Uebers Geplappere! – Hör’ er einmal, Anton, ich weiß recht viel Neues. Da können garstige Streiche vorfallen. 
 @Anton:
 Wo denn? Was denn? 
 @Kamilla:
 Ey nun! das versteht sich schon. Wovon im ganzen Hause vom Morgen bis in den Abend gesprochen wird; daß der Pedrillo meine Franziska nicht vergessen will. 
 @Anton:
-Nichts wieder, als Aufgewärmtes! Das dacht' ich gleich. Hör sie! Neues, oder ich mache links um! 
+Nichts wieder, als Aufgewärmtes! Das dacht’ ich gleich. Hör sie! Neues, oder ich mache links um! 
 @Kamilla:
-Geh er doch, wenn er nicht hören will. Muß ich's ihm denn aufdringen? 
+Geh er doch, wenn er nicht hören will. Muß ich’s ihm denn aufdringen? 
 @Anton:
 Nun, nun, Jungfer! Erzehl sie nur. Ich will sie nicht stöhren. 
 @Kamilla:
-Ich bin gestern Abend, eh wir aufs Gut herfuhren, bey meinem Bräutigam gewesen. Der hat mir erzehlt — 
+Ich bin gestern Abend, eh wir aufs Gut herfuhren, bey meinem Bräutigam gewesen. Der hat mir erzehlt – 
 @Anton:
-Sag sie mir erstlich, wer ihr Bräutigam ist? Ich dachte noch einmal mit ihr durchzugehen, aber — 
+Sag sie mir erstlich, wer ihr Bräutigam ist? Ich dachte noch einmal mit ihr durchzugehen, aber – 
 @Kamilla:
-Er ist so alt, und ist doch so ein Narr. — Pedrillo's Jakob ist mein Bräutigam. 
+Er ist so alt, und ist doch so ein Narr. – Pedrillo’s Jakob ist mein Bräutigam. 
 @Anton:
-So, Jungfer? Da sind ja der Herr und der Diener über ein Haus gekommen. Sie trägt ihrem Jakob denn auch wohl schöne Neuigkeiten zu? <pb n="19"/>
+So, Jungfer? Da sind ja der Herr und der Diener über ein Haus gekommen. Sie trägt ihrem Jakob denn auch wohl schöne Neuigkeiten zu? 
 @Kamilla:
-Ich hab's ihm immer gesagt, daß er zu mistrauisch wäre. Denk er doch — solche gute Leute wie unsere Herrschaft! Franziska macht mir alle Tage Geschenke, und der garstige Pedrillo gibt seinen Leuten nichts. Jakob hat noch keinen Pfennig von ihm gesehen. 
+<pb n="19"/>  Ich hab’s ihm immer gesagt, daß er zu mistrauisch wäre. Denk er doch – solche gute Leute wie unsere Herrschaft! Franziska macht mir alle Tage Geschenke, und der garstige Pedrillo gibt seinen Leuten nichts. Jakob hat noch keinen Pfennig von ihm gesehen. 
 @Anton:
-(vor sich) Was doch das liebe Geld nicht kann! (laut) Verzeih sie mir! Man spricht ja wohl so etwas hin. — Mein Herr ist ihr auch recht gut, und was das Beste ist — Seh sie nur! (er nimmt ein Goldstük aus der Tasche) weil sie so fein artig gewesen wäre, und wenn sies ferner seyn wollte, so sollt' ichs ihr — 
+(vor sich) Was doch das liebe Geld nicht kann! (laut) Verzeih sie mir! Man spricht ja wohl so etwas hin. – Mein Herr ist ihr auch recht gut, und was das Beste ist – Seh sie nur! (er nimmt ein Goldstük aus der Tasche) weil sie so fein artig gewesen wäre, und wenn sie’s ferner seyn wollte, so sollt’ ichs ihr – 
 @Kamilla:
 Ey! Geb er her, Anton! Sein Herr ist doch auch ein gar scharmanter Herr! Ey! Hm! er soll auch einmal sehen, was ich ihn nun so alles erzehlen werde, was ich von meinem Jakob höre. 
 @Anton:
 Und ihrem Jakob nichts wieder sagen? 
 @Kamilla:
-Ach, nein doch! Das leidet Jakob nicht einmal. Geb' er nur her! 
+Ach, nein doch! Das leidet Jakob nicht einmal. Geb’ er nur her! 
 @Anton:
-(gibt's ihr) Da hat sie's. Aber, aber! Es folgt mehr, wenn sie's darnach macht. 
+(gibt’s ihr) Da hat sie’s. Aber, aber! Es folgt mehr, wenn sie’s darnach macht. 
 @Kamilla:
 Ich will mich auch recht bey seinem Herrn bedanken. Bedanke mich auch bey ihm, Anton. 
 @Anton:
-Das hat sie bey mir so wenig, als bey meinem Herrn nöthig. Er will's nicht. Er ist kein Liebhaber von solchen Umständen, und ich gar nicht. <pb n="20"/>
+Das hat sie bey mir so wenig, als bey meinem Herrn nöthig. Er will’s nicht. Er ist kein Liebhaber von solchen Umständen, und ich gar nicht. 
 @Kamilla:
-Nun hör' er! Laß er mich weiter erzehlen! Wir sind ganz davon abgekommen. Gestern morgen sagte Jakob, wäre sein Herr zu Hofe gewesen. Als er wiedergekommen wäre, hätt er ganz erschreklich auf unser Haus und vorzüglich auf den alten Montenegro geschimpft. Jakob hätt' ihm darauf einen Kerl holen müssen, den kein Mensch den Namen nach kennt. Er läuft imhmer aus einem Gasthofe in den andern. Pedrillo hat ihn meinem Jakob nur beschrieben, und so hat er ihn aufsuchen müssen. Nachher ist er mit diesem Kerl in sein Kabinet gegangen, und da haben sie immer von Priestern und Verkleiden gesprochen. Kaum hatte mirs Jakob erzehlt, so kam gerad eben derselbe Kerl, wovon er gesprochen hatte. O, er hätte einmal das tüksche hämische Gesicht und — Halt! da kommt unser alter Herr. Ich muß gehen, sonst murrt er mir wieder die Ohren vom Klatschen voll. (läuft eiligst fort.) 
+<pb n="20"/>  Nun hör’ er! Laß er mich weiter erzehlen! Wir sind ganz davon abgekommen. Gestern morgen sagte Jakob, wäre sein Herr zu Hofe gewesen. Als er wiedergekommen wäre, hätt’ er ganz erschreklich auf unser Haus und vorzüglich auf den alten Montenegro geschimpft. Jakob hätt’ ihm darauf einen Kerl holen müssen, den kein Mensch den Namen nach kennt. Er läuft immer aus einem Gasthofe in den andern. Pedrillo hat ihn meinem Jakob nur beschrieben, und so hat er ihn aufsuchen müssen. Nachher ist er mit diesem Kerl in sein Kabinet gegangen, und da haben sie immer von Priestern und Verkleiden gesprochen. Kaum hatte mirs Jakob erzehlt, so kam gerad eben derselbe Kerl, wovon er gesprochen hatte. O, er hätte einmal das tüksche hämische Gesicht und – Halt! da kommt unser alter Herr. Ich muß gehen, sonst murrt er mir wieder die Ohren vom Klatschen voll. (läuft eiligst fort.) 
 ##Dreyzehnter Auftrit.
-@Anton:
-(allein) Es war gut, daß mir mein Herr eben meinen Lohn gegeben hatte. Ich habe sie auf der rechten Seite gefaßt. Da hätte ein schönes Stükchen draus werden konnen. Das Beste ist, daß sie von Ka <pb n="21"/> telli's Absichten noch nichts zu wissen scheint. Das Weiberzeug! Es ist bey ihnen ein ewiges Geschrey nach Geld; und das macht allein der leidige Puz. Ich werde sie mit Gelde sehr warm halten müssen, wenn sie nicht die Stange auf beiden Schultern tragen soll. 
+@Anton allein 
+@Anton Es war gut, daß mir mein Herr eben meinen Lohn gegeben hatte. Ich habe sie auf der rechten Seite gefaßt. Da hätte ein schönes Stükchen draus werden können. Das Beste ist, daß sie von Katelli’s <pb n="21"/> Absichten noch nichts zu wissen scheint. Das Weiberzeug! Es ist bey ihnen ein ewiges Geschrey nach Geld; und das macht allein der leidige Puz. Ich werde sie mit Gelde sehr warm halten müssen, wenn sie nicht die Stange auf beiden Schultern tragen soll. 
 ##Vierzehnter Auftrit.
-$ Anton und Montenegro. 
+$Anton und Montenegro. 
 @Montenegro:
 Was denn hier so allein in der Irre? Wo ist dein Herr? Und meine Tochter, hast du die nicht gesehn? 
 @Anton:
 Die Minute waren sie hier. Wenn ich nicht irre, so wollten sie zu ihnen gehen. 
-@Montenegro:
+@Mont:
 So muß ich sie wohl im Hause suchen? (will gehen) 
 @Anton:
-Werther Herr, könnt' ich nicht ein paar Worte mit ihnen sprechen? Ich habe hier von Kamilla garstige Dinge gehört. Die hält's mit einem Bedienten des Pedrillo. 
-@Montenegro:
+Werther Herr, könnt’ ich nicht ein paar Worte mit ihnen sprechen? Ich habe hier von Kamilla garstige Dinge gehört. Die hält’s mit einem Bedienten des Pedrillo. 
+@Mont:
 Da soll sie mir aus dem Hause, Anton. 
 @Anton:
-Dann machen sie's ja noch schlimmer. Ich hab' ihr schon etwas blankes aufs Maul gedrükt. Vors erste hätten wir nun wohl nichts mehr zu fürchten. Aber, noch mehr! Pedrillo soll gestern sehr auf sie geschimpft haben. Darauf hat ihm Ka <pb n="22"/> milla's Bräutigam einen verworfnen Menschen holen müssen. Mit dem hat er geheim von Priestern und Verkleiden gesprochen — Nehmen sie sich doch ums Himmelswillen in Acht. 
-@Montenegro:
+Dann machen sie’s ja noch schlimmer. Ich hab’ ihr schon etwas blankes aufs Maul gedrükt. Vors erste hätten wir nun wohl nichts mehr zu fürchten. Aber, noch mehr! Pedrillo soll gestern sehr auf sie geschimpft haben. Darauf hat ihm Kamilla’s <pb n="22"/> Bräutigam einen verworfnen Menschen holen müssen. Mit dem hat er geheim von Priestern und Verkleiden gesprochen – Nehmen sie sich doch ums Himmelswillen in Acht. 
+@Mont:
 Mehr wußte sie nicht, Anton? Hüte dich ja für das Schnattermaul. 
 @Anton:
 Sorgen sie für mich nicht. Ich glaube von ihr sowohl noch öfters etwas herauszubringen, aber von mir soll sie nichts erfahren. Kennt noch keiner den alten Alton! 
-@Montenegro:
-(Hebt ein Stükchen Papier auf) Das ist Katelli's Hand. (liest. Nach einer Pause) Anton, laß mich allein, und siehst du sie, so sag ihnen, daß ich hier sey. (Anton ab.) 
+@Mont:
+(Hebt ein Stükchen Papier auf) Das ist Katelli’s Hand. (liest. Nach einer Pause) Anton, laß mich allein, und siehst du sie, so sag’ ihnen, daß ich hier sey. (Anton ab.) 
 ##Funfzehnter Auftrit.
-$ Montenegro allein. <pb n="23"/>
+@Montenegro allein. 
+$(Liest) Hier die Antwort, bester Vater, die ich Ihnen vor einer halben Stunde schuldig blieb: Ich liebe Franziska. Nach ernster reifer Ueberlegung lieb’ ich Sie. Die Ungewißheit, ob Sie mich Ihrer Hand würdigen mögten, machte mich seit einiger Zeit tiefdenkend; aber länger duld’ ich nicht. Ich falle Ihnen zu Füssen. – Das Billet hat an mich gesollt, und weil’s ihm nicht recht gewesen ist, hat er’s zerrissen. Erklärung aber genug! Das Blizmädchen! Welche Verwirrung sie mir im Hause macht! <pb n="23"/>
 ##Sechszehnter Auftrit.
-$ Montenegro und ein Bedienter. 
+$Montenegro und ein Bedienter. 
 @Bedienter:
 Der Pater Zisterzius verlangt sie zu sprechen. 
 @Montenegro:
-Zisterzius? Ich kenn' ihn nicht!— Kannst ihn herführen; bleib aber nicht weit von uns! 
+Zisterzius? Ich kenn’ ihn nicht! – Kannst ihn herführen; bleib aber nicht weit von uns! 
 ##Siebzehnter Auftrit.
 $ Die vorigen und Zisterzius. 
 @Zisterzius:
@@ -268,219 +264,216 @@ Entschuldigen sie, daß ich sie so kurz vor Tische beschwere. Ich bitte mir eini
 Geheim genug hier, lieber Herr Pater. Meine Leute sind alle ehrliches Sinns. Nur immer damit heraus, was sie auf dem Herzen haben. 
 @Zisterzius:
 Wenn sie sich gütigst nur einige Schritte entfernen wollten. Sachen von Wichtigkeit. 
-@Montenegro:
-Keinen Schrit weiter, Herr Pater! Sie werden mir's nicht verargen; in dem Stükke bin ich eigen. Ich kenne sie noch gar nicht; und mit fremden Leuten geh' ich nicht gern weit, ohne jemandes Beyseyn. <pb n="24"/> Zisterzius.
-Ich muß sagen, die Antwort hätt' ich, ein geweyheter Priester, von ihnen nicht erwartet. 
+@Mont:
+Keinen Schrit weiter, Herr Pater! Sie werden mir’s nicht verargen; in dem Stükke bin ich eigen. Ich kenne sie noch gar nicht; und mit fremden Leuten geh’ ich nicht gern weit, ohne jemandes Beyseyn. 
 @Zisterzius:
-Keinen Schrit weiter, Herr Pater! Sie werden mir's nicht verargen; in dem Stükke bin ich eigen. Ich kenne sie noch gar nicht; und mit fremden Leuten geh' ich nicht gern weit, ohne jemandes Beyseyn. <pb n="24"/> Zisterzius.
-Ich muß sagen, die Antwort hätt' ich, ein geweyheter Priester, von ihnen nicht erwartet. 
-@Montenegro:
-Ich habe alle Hochachtung für sie und ihren Stand, aber — sie werden's selbst wissen — es gehen viele in der falschen Kutte eines Priesters herum, die den Buben im Herzen haben. Nehmen sie's mir nicht übel. Ich bin immer so geradhin raus, obsgleich nicht gut ist. Ich hätte da einen hübschen feinen Brey herumgiessen sollen; alsdenn verdaut sich so etwas besser. Nun, was ist ihr Begehren, Herr Pater, und wer sind sie? 
+<pb n="24"/>  Ich muß sagen, die Antwort hätt’ ich, ein geweyheter Priester, von ihnen nicht erwartet. 
+@Mont:
+Ich habe alle Hochachtung für sie und ihren Stand, aber – sie werden’s selbst wissen – es gehen viele in der falschen Kutte eines Priesters herum, die den Buben im Herzen haben. Nehmen sie’s mir nicht übel. Ich bin immer so geradhin raus, obsgleich nicht gut ist. Ich hätte da einen hübschen feinen Brey herumgiessen sollen; alsdenn verdaut sich so etwas besser. Nun, was ist ihr Begehren, Herr Pater, und wer sind sie? 
 @Zisterzius:
-Ich bin ein Klosterbruder. Schon längst ist der Ruhm von ihnen und ihrer Familie zu meiner einsamen Zelle gedrungen. Da ich nun stets von frommen Leuten viel gehalten habe, so war's schon langst mein Wunsch, sie persönlich zu kennen. Ueberdem bietet sich mir jezt eine Gelegenheit dar, wobey ich ihnen Dienstwilligkeit und Liebe für ihr Haus beweisen kann. 
-@Montenegro:
-Von dem Ruhm meiner Familie ist wohl nicht viel zu sagen; denn sie ist eben nicht in die große Welt gekommen. Es ist immer meine Regel gewesen; Still und dabey redlich gelebt! Wenn sie den Ruhm aber in meine Frömmigkeit setzen, so mag's seyn, denn sie hat mein ganzes Haus zum Führer, bis ins Grab erwählt. <pb n="25"/>
+Ich bin ein Klosterbruder. Schon längst ist der Ruhm von ihnen und ihrer Familie zu meiner einsamen Zelle gedrungen. Da ich nun stets von frommen Leuten viel gehalten habe, so war’s schon längst mein Wunsch, sie persönlich zu kennen. Ueberdem bietet sich mir jezt eine Gelegenheit dar, wobey ich ihnen Dienstwilligkeit und Liebe für ihr Haus beweisen kann. 
+@Mont:
+Von dem Ruhm meiner Familie ist wohl nicht viel zu sagen; denn sie ist eben nicht in die große Welt gekommen. Es ist immer meine Regel gewesen; Still und dabey redlich gelebt! Wenn sie den Ruhm aber in meine Frömmigkeit setzen, so mag’s seyn, denn sie hat mein ganzes Haus zum Führer, bis ins Grab erwählt. 
 @Zisterzius:
-Ich komme, sie wider eine grosse Widerwärtigkeit zu schützen. Das Schwert hängt an einem dünnen Faden über ihrem Kopf; aber noch ist es Zeit, ihn stärker zu weben. Pedrillo hat vor kurzer Zeit — 
-@Montenegro:
+<pb n="25"/>  Ich komme, sie wider eine grosse Widerwärtigkeit zu schützen. Das Schwert hängt an einem dünnen Faden über ihrem Kopf; aber noch ist es Zeit, ihn stärker zu weben. Pedrillo hat vor kurzer Zeit – 
+@Mont:
 Ja, er hat um meine Tochter angehalten, und zwar vergebens. Aber es wäre mir lieber, sie sagten davon nichts. 
 @Zisterzius:
 Ich weiß, daß sie ihm versagt ist. Vielleicht des bösen Gerüchts wegen, worin ihn seine zu genaue Gerechtigkeitsliebe gesezt hat. 
-@Montenegro:
+@Mont:
 Das ist recht, Herr Pater. Noch mehr aber deshalb, weil ihn meine Tochter nicht haben will. Hat ihnen Pedrillo davon noch nichts gesagt? 
 @Zisterzius:
-Er hat's mir zwar nicht gesagt, denn ich habe nicht die Ehre, ihn so genau zu kennen; ich versichere sie aber bey der Heiligkeit meines Standes, daß er der Mann nicht ist, wozu ihm das Gerede des Pöbels und fast ganz Spaniens macht. Die kurze Zeit meines Aufenthalts in Madrit, hat mich davon überzeugt. Allein die besten Seelen dieser Erde haben gemeiniglich des Leidens am meisten. 
-@Montenegro:
+Er hat’s mir zwar nicht gesagt, denn ich habe nicht die Ehre, ihn so genau zu kennen; ich versichere sie aber bey der Heiligkeit meines Standes, daß er der Mann nicht ist, wozu ihm das Gerede des Pöbels und fast ganz Spaniens macht. Die kurze Zeit meines Aufenthalts in Madrit, hat mich davon überzeugt. Allein die besten Seelen dieser Erde haben gemeiniglich des Leidens am meisten. 
+@Mont:
 Weiter nichts anzubringen? 
 @Zisterzius:
-Nur noch zu sagen, daß der Freund Pedrillo's, dieser Liebling des Fürsten, diese Stütze des ganzen Landes, sich sehr dadurch beleidigt glaubt, daß <pb n="26"/> ihre Tochter seinem Freunde abgeschlagen ist. Er und Pedrillo sinnen auf Rache. Die Bereitung dazu ist gemacht. Wenn sie den Stoß nicht zeitig vorbeugen, so wird er bis zur Unwehrbarkeit derb werden. 
+Nur noch zu sagen, daß der Freund  Pedrillo’s, dieser Liebling des Fürsten, diese Stütze des ganzen Landes, sich sehr dadurch beleidigt glaubt, daß <pb n="26"/> ihre Tochter seinem Freunde abgeschlagen ist. Er und Pedrillo sinnen auf Rache. Die Bereitung dazu ist gemacht. Wenn sie den Stoß nicht zeitig vorbeugen, so wird er bis zur Unwehrbarkeit derb werden. 
 ##Achtzehnter Auftrit.
-$ Die vorigen und Anton. 
+$Die vorigen und Anton. 
 @Anton:
-(raunt dem Montenegro etwas in die Ohren) 
-@Montenegro:
+(raunt dem Montenegro etwas in die Ohren.) 
+@Mont:
 Eben der? 
 @Anton:
 Das Mädel hat ihm gar genau unter die Augen gesehn. 
-@Montenegro:
-(zu Zisierzius) Hör' er mein Freund! Wenn er künftig den Betrüger spielen will, so zieh' er nicht Priesterkleider an. Sie schikken sich zu seiner Mine nicht. Das sag' ich ihm nachrichtlich, damit er bey andern seine Rolle nicht eben so schlecht spielt, wie bey mir. 
+@Mont:
+(zu Zisterzius) Hör’ er mein Freund! Wenn er künftig den Betrüger spielen will, so zieh’ er nicht Priesterkleider an. Sie schikken sich zu seiner Mine nicht. Das sag’ ich ihm nachrichtlich, damit er bey andern seine Rolle nicht eben so schlecht spielt, wie bey mir. 
 @Zisterzius:
 Sie beleidigen mich zu sehr, aber ich verzeihe. Verzeihen ist Gesez meines Ordens. 
-@Montenegro:
+@Mont:
 Verzeihen oder nicht, das thut mir gleich. Am besten thut er, wenn er den Weg wieder sucht, den er gekommen ist, damit ich den Schelm, der in ihm stekt, nicht ganz aufdekke. <pb n="27"/>
 ##Neunzehnter Auftrit.
-$ Die vorigen, Franziska und Katelli. 
+$'Die vorigen, Franziska und Katelli. 
 @Katelli:
 Warum so hitzig? Was ist ihnen? 
-@Montenegro:
+@Monten:
 Sieh, Katelli! wieder ein Priester des Satans inwendig, und ein Diener Gottes auswendig. 
+@Zisterzius:
+(Wendet sich eiligst und geht.) 
 @Katelli:
 Wieviel Otterngezücht nähren die Klöster nicht! Wieviel Schurken hült das heilige Gewand. 
 @Zisterzius:
-(Im gehen vor sich) Jüngling, wär's hier nicht, so wollt' ich dich einmal von innen besehen, weil du so überweise sprichst. (ab. und nach einiger Zeit gehen die Bedienten, die kein Geschäft für sich sehen, auch ab.) 
+(Im gehen vor sich) Jüngling, wär’s hier nicht, so wollt’ ich dich einmal von innen besehen, weil du so überweise sprichst. (ab. und nach einiger Zeit gehen die Bedienten, die kein Geschäft für sich sehen, auch ab.) 
 ##Zwanzigster Auftrit.
-$ Montenegro, Franziska und Katelli. 
-@Montenegro:
+$Montenegro, Franziska und Katelli. 
+@Mont:
 Das hieß die Natterzunge ausstrekken, ohne zu stechen! Kinder, er ist kein Priester, ein Betrüger ist er. Dein Anton, Katelli, hat mir das Leben gerettet. Er kannte den Kerl und seine ganze hämische Seele. 
 @Katelli:
 Und was sucht er bey ihnen? 
-@Montenegro:
-Wie ich dir gesagt habe, dein Anton hat mir's Leben gerettet. Er hatte von seinen Kom <pb n="28"/> men Witterung. O, es ist ein Wesen und ein Eylohy in der Welt, daß man die Zähne drüber zusammenstoßen mögte. Mensch was bist du? 
+@Mont:
+Wie ich dir gesagt habe, dein Anton hat mir’s Leben gerettet. Er hatte von seinen Kommen <pb n="28"/> Witterung. O, es ist ein Wesen und ein Eylohy in der Welt, daß man die Zähne drüber zusammenstoßen mögte. Mensch was bist du? 
 @Franziska:
 Aber, lieber Vater er muß doch Vorwand gehabt haben? 
-@Montenegro:
+@Mont:
 Nichts, als eitle Worte, Kind. Ich kann dir das jezt nicht sagen. Wir, Katelli; wollen nachher weiter drüber sprechen. 
 @Franziska:
 Ach! lieber Vater, wenn ich recht muthmaßen sollte! 
-@Montenegro:
-Denkst unrecht. Geldschneiderey, weiter nichte, Franziska! Wenn du mich liebst, so vergiß es! — Aber, Kinder, wo seyd ihr denn so lange gewesen? Kann man euch denn niemals sprechen, wenn man will. 
+@Mont:
+Denkst unrecht. Geldschneiderey, weiter nichts, Franziska! Wenn du mich liebst, so vergiß es! – Aber, Kinder, wo seyd ihr denn so lange gewesen? Kann man euch denn niemals sprechen, wenn man will. 
 @Franziska:
 Vorhin waren wir hier im Garten und jezt haben wir sie gesucht. 
-@Montenegro:
+@Mont:
 Und warum, Mädchen? 
 @Franziska:
-Ich habe etwas begangen, das ich ohne ihren Willen nicht hätte thun sollen. Sie werden's mir verzeihen; es ist nichts böses. Ich habe — meine Hand vergeben. 
+Ich habe etwas begangen, das ich ohne ihren Willen nicht hätte thun sollen. Sie werden’s mir verzeihen; es ist nichts böses. Ich habe – meine Hand vergeben. 
 @Katelli:
 Und mir sie gegeben. O, sie lächeln, Vater. Ich kann sie mit allem Recht nun so nennen. Nicht? 
-@Montenegro:
-Seyd ihr schon so einig? Ich habe schon längst eure Neigungen gemerkt; schon längst eingese <pb n="29"/> hen, was dir im Sinne lag, Katelli. Aber ich bin unzufrieden mit dir, daß du mirs nicht hast entdekken wollen. Es betrift mein alles, und du trägst es so hartnäkkig bey dir, ob ich dich gleich bitte, mir's zu vertrauen. Katelli! Wie ist die Schüchternheit dir mit einmal so eigen geworden? — Da hab ich ein Zettelchen gefunden. Wozu soll das? schämt sich deine Zunge gutes zu reden? 
+@Mont:
+Seyd ihr schon so einig? Ich habe schon längst eure Neigungen gemerkt; schon längst eingesehen, <pb n="29"/> was dir im Sinne lag, Katelli. Aber ich bin unzufrieden mit dir, daß du mirs nicht hast entdekken wollen. Es betrift mein alles, und du trägst es so hartnäkkig bey dir, ob ich dich gleich bitte, mir’s zu vertrauen. Katelli! Wie ist die Schüchternheit dir mit einmal so eigen geworden? – Da hab ich ein Zettelchen gefunden. Wozu soll das? schämt sich deine Zunge gutes zu reden? 
 @Katelli:
-Bester Vater, ich wußte nicht — 
-@Montenegro:
-Ich weiß schon, was du sagen willst. Ich würde meine Tochter dir nie gerade zu abgeschlagen haben. Ich liebe dich, wie sie — Aber ich kann's nicht vergessen! so ein Zettelchen! Und dann wirfst dus dahin! Bedenk, wenn's ein Unrechter gefunden hätte! 
+Bester Vater, ich wußte nicht – 
+@Mont:
+Ich weiß schon, was du sagen willst. Ich würde meine Tochter dir nie gerade zu abgeschlagen haben. Ich liebe dich, wie sie – Aber ich kann’s nicht vergessen! so ein Zettelchen! Und dann wirfst dus dahin! Bedenk, wenn’s ein Unrechter gefunden hätte! 
 @Franziska:
-Vergeben sie's, guter Vater, seiner Verwirrung. 
-@Montenegro:
-Und, Katelli; das Geschwätz vom Fußfallen ist Beleidigung für mich. Bin ich so hartsinnig, daß mich erst Fußfälle bestechen mussen? 
+Vergeben sie’s, guter Vater, seiner Verwirrung. 
+@Mont:
+Und, Katelli; das Geschwätz vom Fußfallen ist Beleidigung für mich. Bin ich so hartsinnig, daß mich erst Fußfälle bestechen müssen? 
 @Franziska:
 Ach! ihre Vorwürfe sind mir zu hart, wenn sie unsere Liebe nicht billigen. 
-@Montenegro:
-Ihr sollt beide meine Kinder seyn. Mein Vermögen, Katelli, wäre zu klein gewesen, deine Liebe gegen mich zu belohnen. Ich habe dir im Herzen schon lange meine Franziska gegeben. Aber <pb n="30"/> — so eilig geht das nicht; dein Vater weiß noch von diesem Allen nichts. 
+@Mont:
+Ihr sollt beide meine Kinder seyn. Mein Vermögen, Katelli, wäre zu klein gewesen, deine Liebe gegen mich zu belohnen. Ich habe dir im Herzen schon lange meine Franziska gegeben. Aber <pb n="30"/> – so eilig geht das nicht; dein Vater weiß noch von diesem Allen nichts. 
 @Katelli:
 Mein Vater, der mich so sehr liebt, sollte mir das größte Glük entreissen? Nein, das wird er nicht, kann er nicht. Diese Freudennachricht würde sein graues Haupt wieder aufrichten; und an seine Jahre noch Hunderte ketten. 
 @Franziska:
 Er ist uns gewiß nicht zuwider, und ich will ihn dafür lieben, wie ich sie und meinen Katelli liebe. 
-@Montenegro:
-Kinder, ich will den Berg für überstiegen halten, ob er's gleich noch nicht ist. Aber ihr werdet hier bey mir nicht ruhig leben können. Ihr beide kennt Petrillo's Denkungsart. Er ist in Zorn gebracht, und wird sich, wie er kann, rächen. Ihr würdet zulezt ohne Gut Spanien verlassen müssen, um nur euer Leben zu retten und ich — würde für Kummer sterben. 
+@Mont:
+Kinder, ich will den Berg für überstiegen halten, ob er’s gleich noch nicht ist. Aber ihr werdet hier bey mir nicht ruhig leben können. Ihr beide kennt Petrillo’s Denkungsart. Er ist in Zorn gebracht, und wird sich, wie er kann, rächen. Ihr würdet zulezt ohne Gut Spanien verlassen müssen, um nur euer Leben zu retten und ich – würde für Kummer sterben. 
 @Katelli:
-Geben sie mir meine Franziska und ihren Seegen. Des Guts und der Schlange lach' ich dann. In einen fernen Winkel will ich mit Franziska hinfliehen; will mit emsiger Arbeit das Brod verdienen, das uns erhalten soll, und unsere Liebe und häuslicher Friede werden mir meinen Schweiß mit Lust überstreuen. 
-@Montenegro:
-In der Strohhütte des Saroiarden, in den wüsten Thälern der Eisglätscher würd er euch <pb n="31"/> aufspüren, um seine Rache zu sättigen. Bedenk! Franziska schlägt die Hand des Sekretärs des Größten nach dem König, gegen die Hand eines gemeinen Italieners, aus; Belügt ihn vorher, daß sie nie heirathen will. Wenn du das alles überdenkst, so wird's deinen Augen dunkel werden. 
+Geben sie mir meine Franziska und ihren Seegen. Des Guts und der Schlange lach’ ich dann. In einen fernen Winkel will ich mit Franziska hinfliehen; will mit emsiger Arbeit das Brod verdienen, das uns erhalten soll, und unsere Liebe und häuslicher Friede werden mir meinen Schweiß mit Lust überstreuen. 
+@Mont:
+In der Strohhütte des Savoiarden, in den wüsten Thälern der Eisglätscher würd’ er euch <pb n="31"/> aufspüren, um seine Rache zu sättigen. Bedenk! Franziska schlägt die Hand des Sekretärs des Größten nach dem König, gegen die Hand eines gemeinen Italieners, aus; Belügt ihn vorher, daß sie nie heirathen will. Wenn du das alles überdenkst, so wird’s deinen Augen dunkel werden. 
 @Katelli:
 Und lassen sie ihn toben. Mein Arm ist stark genug, ihn zurük zu stossen. Ich will ihm Wassers genug entgegen gießen, sein Feuer zu löschen. 
-@Montenegro:
+@Mont:
 Wird der Muthige zulezt nicht unterliegen müssen, wenn ihn Tükke und Satanslist zugleich bekämpfen? 
 @Katelli:
-Und wer wird's ihm sogleich sagen, daß Franziska mein ist? Geheim wollen wir den Segen eines fremden Priesters empfangen; und dann nehme ich meine Franziska in den Arm, und reise im Schutz der düstern Nacht und unter meinen und meines Antons wachsamen Auge mit ihr nach Mailand. 
-@Montenegro:
+Und wer wird’s ihm sogleich sagen, daß Franziska mein ist? Geheim wollen wir den Segen eines fremden Priesters empfangen; und dann nehme ich meine Franziska in den Arm, und reise im Schutz der düstern Nacht und unter meinen und meines Antons wachsamen Auge mit ihr nach Mailand. 
+@Mont:
 Und Mailand ist das Ende der Welt, mein Sohn, so, daß er euch nicht folgen könne? Der Arm des Königsfreundes reicht weit. Ringe deine Hände und schüttle den Kopf! 
 @Katelli:
-Tausend gezukte Schwerdter wachen in Mailand über die Bosheit. Es wird dort zu viel Licht um ihn seyn, als daß er Rache könnte strömen lassen. Vor dem Richterstuhl Gottes klag' ich mich selbst an, wenn er uns schaden sol. <pb n="32"/> Mont. Viel gesagt, mein Sohn! Aber Versprechen fällt nie so schwer, als Erfüllung. 
-@Montenegro:
-Tausend gezukte Schwerdter wachen in Mailand über die Bosheit. Es wird dort zu viel Licht um ihn seyn, als daß er Rache könnte strömen lassen. Vor dem Richterstuhl Gottes klag' ich mich selbst an, wenn er uns schaden sol. <pb n="32"/> Mont. Viel gesagt, mein Sohn! Aber Versprechen fällt nie so schwer, als Erfüllung. 
+Tausend gezukte Schwerdter wachen in Mailand über die Bosheit. Es wird dort zu viel Licht um ihn seyn, als daß er Rache könnte strömen lassen. Vor dem Richterstuhl Gottes klag’ ich mich selbst an, wenn er uns schaden soll. 
+@Mont:
+<pb n="32"/>  Viel gesagt, mein Sohn! Aber Versprechen fällt nie so schwer, als Erfüllung. 
 @Katelli:
 Alles will ich geben! Auch das Blut das durch meine Adern rollt, will ich für die Erfüllung dieses Versprechens geben. Lieber will ich den Dekkel meines Sarges aufstoßen lassen, als dem Sturm nicht zu wehren, der diese Blumen zerknikken will. 
 @Franziska:
 Katelli! Bist du schon wieder ausser aller Fassung? Warum irrst du schon in Leichenhäusern herum? Denk, wir sind die Rose, die kaum ihr grünes Joch abgeschüttelt hat, und mit froher dankbarer Mine nun ihren Schöpfer dafür anlachen soll! Deine Worte beleidigen ihn. Wir wollen ruhig unsere Tage verleben, und sie nicht mit Denken an Mord und Blut beflekken. Nein! laß uns lieber, wenn du dich in Meiland nicht sicher glaubst, in einen düstern Hayn unter einem Strohdach wohnen. Es wird uns Pallasts genug seyn, wenn wir drunter beysammen sind. 
 @Katelli:
-Du hast recht, göttliches Mädchen! Deine Worte sind Engelworte. Ich glaube, Gott hat dich zum Engel geschaffen, und dein Vater hat dich nur von ihm zum Menschenlehrer erbettelt. – Aber, bester Vater, warum lassen sie noch länger auf ihr Ja unsern flehenden Blik schmachten? <pb n="33"/>
-@Montenegro:
-(der nachdenkend steht. Nach einer Pause) Sie ist dein, mein Sohn. Kommt in meinen väterlichen Arm, Kinder! Ich will euch kühn in den Sturm der Welt hinschikken. 
+Du hast recht, göttliches Mädchen! Deine Worte sind Engelworte. Ich glaube, Gott hat dich zum Engel geschaffen, und dein Vater hat dich nur von ihm zum Menschenlehrer erbettelt. – Aber, bester Vater, warum lassen sie noch länger auf ihr Ja unsern flehenden Blik schmachten? 
+@Mont:
+<pb n="33"/>  (der nachdenkend steht. Nach einer Pause) Sie ist dein, mein Sohn. Kommt in meinen väterlichen Arm, Kinder! Ich will euch kühn in den Sturm der Welt hinschikken. 
 @Katelli:
 Nehmen sie diesen kindlichen Kuß des Danks. 
 @Franziska:
 Vater, bester Vater! 
-@Montenegro:
-Kinder, auf beiden Seiten sind euch Gruben gegraben. Ich vereinige euch, und ihr müßt bey jedem Tritte zusehen, ob ihr auf vesten Boden tretet; ich trenne euch, und eure unzertrennbaren Gedanken würden euch tiefsinnig machen, euch abzehren, und endlich in's Grab stürzen. Ich nehme den ersten, noch immer den sichersten, Weg, und geb' euch in die Hand der Engel Gottes. Im stillen, so bald, als es seyn kann, sollt ihr euren Freudentag feyern. Würd' es kund, so würde man Legionen Teufel aufbieten, euch zu trennen. Noch heute sollt ihr euch hier im Garten vereinen, hier, wo uns kein Ohr belauschen kann. Die Thüren wollen wir verschliessen, unsere Leute, denen wir nicht trauen können, in Geschäfte nach Madrit schikken, und an der Feldseite sichere Wache stellen. Ich werde einen verdachtlosen Priester holen lassen, der öfters schon bey wichtigen Sachen mein Vertrauter gewesen ist. Und dann, Kinder, so gern ich euch um mich sehe, so lieb ihr mir beide seyd, müßt ihr mich, so bald ihr könnt, <pb n="34"/> verlassen. Du hast diesen Weg selbst erwehlt, Katelli; und er ist der gebahntste. 
+@Mont:
+Kinder, auf beiden Seiten sind euch Gruben gegraben. Ich vereinige euch, und ihr müßt bey jedem Tritte zusehen, ob ihr auf vesten Boden tretet; ich trenne euch, und eure unzertrennbaren Gedanken würden euch tiefsinnig machen, euch abzehren, und endlich in’s Grab stürzen. Ich nehme den ersten, noch immer den sichersten, Weg, und geb’ euch in die Hand der Engel Gottes. Im stillen, so bald, als es seyn kann, sollt ihr euren Freudentag feyern. Würd’ es kund, so würde man Legionen Teufel aufbieten, euch zu trennen. Noch heute sollt ihr euch hier im Garten vereinen, hier, wo uns kein Ohr belauschen kann. Die Thüren wollen wir verschliessen, unsere Leute, denen wir nicht trauen können, in Geschäfte nach Madrit schikken, und an der Feldseite sichere Wache stellen. Ich werde einen verdachtlosen Priester holen lassen, der öfters schon bey wichtigen Sachen mein Vertrauter gewesen ist. Und dann, Kinder, so gern ich euch um mich sehe, so lieb ihr mir beide seyd, müßt ihr mich, so bald ihr könnt, <pb n="34"/> verlassen. Du hast diesen Weg selbst erwehlt, Katelli; und er ist der gebahntste. 
 @Franziska:
-Lieber Vater, aber sie verlassen?
-Nein! sie müssen uns begleiten. Müssen einige Zeit, und wenn es seyn kann, die Zeit ihres Lebens in Katelli's Vaterlande bey uns seyn. 
-@Montenegro:
+Lieber Vater, aber sie verlassen? Nein! sie müssen uns begleiten. Müssen einige Zeit, und wenn es seyn kann, die Zeit ihres Lebens in Katelli’s Vaterlande bey uns seyn. 
+@Mont:
 Weiter haben wir keine Zeit zu versprechen. Kommt, Kinder! <pb n="35"/>
 #Zweyter Aufzug.
 ##Erster Auftrit.
-$ Ein Wohnzimmer des Pedrillo. 
+$Ein Wohnzimmer des Pedrillo. 
+$Pedrillo sitzt und schreibt. Niklas kömmt bald in Priesterkleidern dazu. 
 @Niklas:
 So emsig? 
 @Pedrillo:
 Ein Dutzend Todesurtel. 
 @Niklas:
-Immerhin, wenn's nur meinem Kopf nicht gilt. 
+Immerhin, wenn’s nur meinem Kopf nicht gilt. 
 @Pedrillo:
-(seht auf) Nun? alles gut? 
+(steht auf) Nun? alles gut? 
 @Niklas:
-Mehr, als gut. Wenn so ein Kopf drüber kömmt! (auf sich zeigend):
-
+Mehr, als gut. Wenn so ein Kopf drüber kömmt! (auf sich zeigend) 
 @Pedrillo:
-Ist sie mein? Hast du den Alten bange gemacht ? 
+Ist sie mein? Hast du den Alten bange gemacht? 
 @Niklas:
-So weit noch nicht! zu diesem Sprunge sind meine Beine zu kurz. Der alte Kerl ist ein barscher Kopf. Fuhr mir da entgegen, als wenn er einen Zinsbauern vor sich hätte, und pakte mir so viel Schelme auf, daß meine Achseln sie kaum schleppen konnten. Endlich kam da ein junges Gesicht, Katelli, oder — weiß der Teufel, wie er heißt, mit ihrem Augapfel dazu, und theilte so garstige Bissen aus, daß sie kein anderer, als ich, der solche Speisen gewohne ist, würde verdauet haben. Ie hate ihin <pb n="36"/> einen Hirks dafür gegeben, aber ich mußt's bey ihm so gut sparen, wie bey dem Alten. Es stand da so allerhand von Bedienten in der Nah' und in der Fer⸗, ne herum und die Burschen können wakker zuschlagen. 
+So weit noch nicht! zu diesem Sprunge sind meine Beine zu kurz. Der alte Kerl ist ein barscher Kopf. Fuhr mir da entgegen, als wenn er einen Zinsbauern vor sich hätte, und pakte mir so viel Schelme auf, daß meine Achseln sie kaum schleppen konnten. Endlich kam da ein junges Gesicht, Katelli, oder – weiß der Teufel, wie er heißt, mit ihrem Augapfel dazu, und theilte so garstige Bissen aus, daß sie kein anderer, als ich, der solche Speisen gewohnt ist, würde verdauet haben. Ich hätt’ ihm <pb n="36"/> einen Hirks dafür gegeben, aber ich mußt’s bey ihm so gut sparen, wie bey dem Alten. Es stand da so allerhand von Bedienten in der Näh’ und in der Ferne herum; und die Burschen können wakker zuschlagen. 
 @Pedrillo:
-Also alles umsonst? Niklas! du bist der alte nicht mehr. Sonst floß Blut um dich her, wo du hintratst, und jezt, glaub' ich, suchst du nach Riechbüchsen, wenn du nur Nasen bluten siehst. 
+Also alles umsonst? Niklas! du bist der alte nicht mehr. Sonst floß Blut um dich her, wo du hintratst, und jezt, glaub’ ich, suchst du nach Riechbüchsen, wenn du nur Nasen bluten siehst. 
 @Niklas:
-Nun will ihnen schon das Herz aus Ungeduld platzen. Das Ende vom Liede ist behäglicher. Um ihr wakkeres Herz wär's schade. Das muß der feinen Streiche noch mehrere mit mir aushekken. 
+Nun will ihnen schon das Herz aus Ungeduld platzen. Das Ende vom Liede ist behäglicher. Um ihr wakkeres Herz wär’s schade. Das muß der feinen Streiche noch mehrere mit mir aushekken. 
 @Pedrillo:
 Schweig! Du vergißt, wer ich bin. Weißt du nicht, was ich über dich vermag? 
 @Niklas:
-Vermögen hin, vermögen her! Davon nichts! Die haben mich schon zu zuvielen Freundschaftsstükken gebraucht. Merken sie, was ich sagen will., 
+Vermögen hin, vermögen her! Davon nichts! Die haben mich schon zu zuvielen Freundschaftsstükken gebraucht. Merken sie, was ich sagen will. 
 @Pedrillo:
-(vor sich) Daß ich des Kerls so oft bedürftig bin! (laut) Du bist überdreist. Bist die Mükke, der die Nase des Königs und des Bettlers gleich ist; die, wenn der Schlag sie nicht trift, mit zehnfach spizernem Stachel wiederkömmt. (Nach einer (Pause) Sprich weiter, und sey nicht so vorwihig. 
+(vor sich) Daß ich des Kerls so oft bedürftig bin! (laut) Du bist überdreist. Bist die Mükke, der die Nase des Königs und des Bettlers gleich ist; die, wenn der Schlag sie nicht trift, mit zehnfach spizernem Stachel wiederkömmt. (Nach einer Pause) Sprich weiter, und sey nicht so vorwitzig. 
 @Niklas:
-Gar wohl gegeben! — Kurz zu' sagen, der junge Herr that sehr vertraut mit dem Ma <pb n="37"/> del. Denkend, daß da wohl so etwas brauchbares vorfallen könnte, eilt ich fort, und als der Bediente, der mein Wachter zu seyn schien, die Augen etwas weggewant hatte, macht' ich rechts um, und verbarg mich hinter einer Säule im Garten. 
+Gar wohl gegeben! – Kurz zu sagen,  der junge Herr that sehr vertraut mit dem Mädel. <pb n="37"/> Denkend, daß da wohl so etwas brauchbares vorfallen könnte, eilt’ ich fort, und als der Bediente, der mein Wächter zu seyn schien, die Augen etwas weggewant hatte, macht’ ich rechts um, und verbarg mich hinter einer Säule im Garten. 
 @Pedrillo:
-Ueber die unerhörte Dreistigkeit! Hatten sie dich entdekt; mit dem Leben hättest du's buß sen müssen. 
+Ueber die unerhörte Dreistigkeit! Hätten sie dich entdekt; mit dem Leben hättest du’s büssen müssen. 
 @Niklas:
-So wär ich doch wenigstens unter ehrlichen Händen gestorben, woran ich nie gedacht habe. Doch zur Sache! Ich muß noch weiter auf Brod gehen. — Das Madel ist für sie verlohren. Sie ist gekapert. 
+So wär’ ich doch wenigstens unter ehrlichen Händen gestorben, woran ich nie gedacht habe. Doch zur Sache! Ich muß noch weiter auf Brod gehen. – Das Mädel ist für sie verlohren. Sie ist gekapert. 
 @Pedrillo:
 (spricht Franziska nach) Ich werde nie heirathen, mein Herr! So? Wart! Der Lüge gedenk ich. Und du sprangst nicht gleich vor? Ranntest nicht wenigstens einen von ihnen nieder? 
 @Niklas:
-Still jezt! Mit der Hochzeit werden sie sehr eilen. Aus allen Umständen konm' ichs merken. Wenn aber? das kann ich nicht sagen. Der Alte mürmelte so in den Bart, daß ihn der Teufel verstehen mogte. Und um meinen gesunden Kopf zu behalten, mußt' ich mich denn auch mit der Zeit pakken. So viel weiß ich; im Garten soll sie gehalten werden. 
+Still jezt! Mit der Hochzeit werden sie sehr eilen. Aus allen Umständen konnt’ ichs merken. Wenn aber? das kann ich nicht sagen. Der Alte murmelte so in den Bart, daß ihn der Teufel verstehen mogte. Und um meinen gesunden Kopf zu behalten, mußt’ ich mich denn auch mit der Zeit pakken. So viel weiß ich; im Garten soll sie gehalten werden. 
 @Pedrillo:
-Wie's mir in der Brust arbeitet! <pb n="38"/>
+Wie’s mir in der Brust arbeitet! 
 @Niklas:
-Hier kömmt's auf Rath an, und nicht auf Pochen in der Brust! Mein guter Rath dabey wäre nun, daß wir auf die Hochzeit wachsam wären. Fänden uns dann zur rechten Zeit hinten im Garten ein, und suchten da zu zeigen, was wir gelernt haben. Sie müßten sich verkleiden, um — oder, bleiben sie zu Hause. Von meinen Kollegen werden genug müßig herumlausen. Die Zeiten sind jezt schlecht. 
+<pb n="38"/>  Hier kömmt’s auf Rath an, und nicht auf Pochen in der Brust! Mein guter Rath dabey wäre nun, daß wir auf die Hochzeit wachsam wären. Fänden uns dann zur rechten Zeit hinten im Garten ein, und suchten da zu zeigen, was wir gelernt haben. Sie müßten sich verkleiden, um – oder, bleiben sie zu Hause. Von meinen Kollegen werden genug müßig herumlaufen. Die Zeiten sind jezt schlecht. 
 @Pedrillo:
-Nein, ich würde nicht satt werden, wenn ich das Gezücht nicht selbst sterben sähe. Nicht einmal sehen, selbst niederstoßen muß ich. — Aber gewiß, braver Niklas! deine Ränke sind maaßlos. 
+Nein, ich würde nicht satt werden, wenn ich das Gezücht nicht selbst sterben sähe. Nicht einmal sehen, selbst niederstoßen muß ich. – Aber gewiß, braver Niklas! deine Ränke sind maaßlos. 
 @Niklas:
-Es ist auch von Jugend auf meine Predigt gewesen; was du lernen willst, das lerne recht. 
+Es ist auch von Jugend auf meine Predigt gewesen;  was du lernen willst, das lerne recht. 
 @Pedrillo:
-(geht höhnisch lächelnd auf und nieder) Ha, ich höre die Erde schon beben, auf die sie vor mir hinstürzen werden! Ich höre dich schon wimmern, du seines Ding, wenn das Blut deines Katelli deine Schuhe besprizen, höre dich schon wimmern, wenn dein Alter neben dir den lezten Hauch ausachzen wird! Wie soll mich der Belsam noch in der lezten Stunde meines Lebens stärken! Doppeltes Leben soll mir der Balsam schenken, der aus deinen Augen quillen wird! <pb n="39"/> Niklas.
-Und dem Mädel wollen sie das Leben schenken? Ich daächte, da wir bey der Arbeit wären? Je mehr Arbeit, je mehr Verdienst für mich! Doch das Ding stirbt ja wohl vom Zusehen! 
+(geht höhnisch lächelnd auf und nieder) Ha, ich höre die Erde schon beben, auf die sie vor mir hinstürzen werden! Ich höre dich schon wimmern, du feines Ding, wenn das Blut deines Katelli  deine Schuhe besprizen, höre dich schon wimmern, wenn dein Alter neben dir den lezten Hauch ausächzen wird! Wie soll mich der Balsam noch in der lezten Stunde meines Lebens stärken! Doppeltes Leben soll mir der Balsam schenken, der aus deinen Augen quillen wird! 
 @Niklas:
-(geht höhnisch lächelnd auf und nieder) Ha, ich höre die Erde schon beben, auf die sie vor mir hinstürzen werden! Ich höre dich schon wimmern, du seines Ding, wenn das Blut deines Katelli deine Schuhe besprizen, höre dich schon wimmern, wenn dein Alter neben dir den lezten Hauch ausachzen wird! Wie soll mich der Belsam noch in der lezten Stunde meines Lebens stärken! Doppeltes Leben soll mir der Balsam schenken, der aus deinen Augen quillen wird! <pb n="39"/> Niklas.
-Und dem Mädel wollen sie das Leben schenken? Ich daächte, da wir bey der Arbeit wären? Je mehr Arbeit, je mehr Verdienst für mich! Doch das Ding stirbt ja wohl vom Zusehen! 
+<pb n="39"/>  Und dem Mädel wollen sie das Leben schenken? Ich dächte, da wir bey der Arbeit wären? Je mehr Arbeit, je mehr Verdienst für mich! Doch das Ding stirbt ja wohl vom Zusehen! 
 @Pedrillo:
-Nein, wir wollen sie mitnehmen. Ich will sie einsperren, und täglich Kummer und Gram wieder in ihr aufschüren. Aus einer Ohnmacht soll sie in die andere fallen. Aus der Ohnmacht will ich sie zur Verzweiflung, aus der Verzweislung zum Wahnsinn und aus dein Wahnsinn zur Raserey bringen. 
+Nein, wir wollen sie mitnehmen. Ich will sie einsperren, und täglich Kummer und Gram wieder in ihr aufschüren. Aus einer Ohnmacht soll sie in die andere fallen. Aus der Ohnmacht will ich sie zur Verzweiflung, aus der Verzweiflung zum Wahnsinn und aus dem Wahnsinn zur Raserey bringen. 
 @Niklas:
-Damit halten sie's, wie sie wollen. Daß die Komedie nur recht angefangen wird! 
+Damit halten sie’s, wie sie wollen. Daß die Komedie nur recht angefangen wird! 
 @Pedrillo:
-Deine Sache! Ich stekke hier in Geschäften. Ich folge gauz dir. 
+Deine Sache! Ich stekke hier in Geschäften. Ich folge ganz dir. 
 @Niklas:
-Viel läßt sich nun nech nicht davon sagen, denn unsere Kundschaft ist zu schwach. Ihre Kleider schaff' ich hin, denn hier können sie sie nicht anziehen, oder der ganze Kram wird verrathen. Sie werden Opione genug im Sold haben. 
+Viel läßt sich nun noch nicht davon sagen, denn unsere Kundschaft ist zu schwach. Ihre Kleider schaff’ ich hin, denn hier können sie sie nicht anziehen, oder der ganze Kram wird verrathen. Sie werden Spione genug im Sold haben. 
 @Pedrillo:
-Daß du mir ja nichts versäumest. Ziehe vor allem nur sichere Nachricht ein, eh wir weit ter davon sprechen. Wenn alles so glükt, Niklas; ich zahle dir deinen Lohn doppelt. Welch ein Götteranblik wird es seyn, wenn das Mädchen da vor mir auf den Knien jammere! <pb n="40"/>
+Daß du mir ja nichts versäumest. Ziehe vor allem nur sichere Nachricht ein, eh wir weiter davon sprechen. Wenn alles so glükt, Niklas; ich zahle dir deinen Lohn doppelt. Welch ein Götteranblik wird es seyn, wenn das Mädchen da vor mir auf den Knien jammert! 
 @Niklas:
-Ha, ha! Ich denk aber immer, wenn sie das kleine närrische Ding wieder sehen, wird sich's Qualen schon geben. Ich müßte sie nicht kennen. Weiberthräne ist Lockspeise. Es wär' auch sonst alles vergebene Arbeit, denn um sie ist das ganze Spektakel angefangen. Das Bischen Rache ist so vieler Umstände nicht werth. 
+<pb n="40"/>  Ha, ha! Ich denk’ aber immer, wenn sie das kleine närrische Ding wieder sehen, wird sich’s Quälen schon geben. Ich müßte sie nicht kennen. Weiberthräne ist Lockspeise. Es wär’ auch sonst alles vergebene Arbeit, denn um sie ist das ganze Spektakel angefangen. Das Bischen Rache ist so vieler Umstände nicht werth. 
 @Pedrillo:
-Nicht? Ich bin der Mann, für den die größten Chrenstellen Spaniens offen sind. Meine Ehr' und alles ist mir auf ewig verkoren, wenn ich mich nicht räche! Ihr Blut soll mir lieber, als das Blut der übrigen alle seyn. Ich will bey dem ersten Gerichte lieber darben, um nur das lezte mit allem Hunger niederschlukken zu können. 
+Nicht? Ich bin der Mann, für den die größten Ehrenstellen Spaniens offen sind. Meine Ehr’ und alles ist mir auf ewig verloren, wenn ich mich nicht räche! Ihr Blut soll mir lieber, als das Blut der übrigen alle seyn. Ich will bey dem ersten Gerichte lieber darben, um nur das lezte mit allem Hunger niederschlukken zu können. 
 @Niklas:
 Ja, es scheint, als wenn wir uns bey der Nachrede eben so lange, als bey der Vorrede aufhalten wollten. Ich muß weiter. So bald ich irgend näher Nachricht habe; bin ich wieder da. (ab) 
 ##Zweyter Auftrit.
-$ Pedrillo allein. (auf und niedergehend) 
+$Pedrillo allein. (auf und niedergehend) 
 ##Dritter Auftrit.
-$ Pedrillo, Niklas und Kamilla. 
+$Pedrillo, Niklas und Kamilla. 
 @Niklas:
-Da hab' ich einen hubschen Vogel gefangen. Ich glaube, das Mädchen ist ein Spion. 
+Da hab’ ich einen hübschen Vogel gefangen. Ich glaube, das Mädchen ist ein Spion. 
 @Kamilla:
-(weint) Ach, gnadiger Herr! Ich komme nur her = ach! ich habe gar nichts böses im Sinne gehabt. 
+(weint) Ach, gnädiger Herr! Ich komme nur her – ach! ich habe gar nichts böses im Sinne gehabt. 
 @Pedrillo:
 Wer bist du Mädchen? 
 @Niklas:
-Ey, sehen sie ihr doch nur recht in die Augen. Franziska's Kammermädel! Sie läuft da unten bey ihrem Bedienten herum, und streichelt ihm tapfer den Bart. 
+Ey, sehen sie ihr doch nur recht in die Augen. Franziska’s Kammermädel! Sie läuft da unten bey ihrem Bedienten herum, und streichelt ihm tapfer den Bart. 
 @Kamilla:
-Ich habe gar nichts böses gethan, gnadiger Herr. Ich habe dem auch nichts gethan, und doch schleppt er mich zu ihnen herauf. Ich habe nur ein Paar Worte mit Jakob gesprochen. 
+Ich habe gar nichts böses gethan, gnädiger Herr. Ich habe dem auch nichts gethan, und doch schleppt er mich zu ihnen herauf. Ich habe nur ein Paar Worte mit Jakob gesprochen. 
 @Pedrillo:
-(zu Niklas) Ich glaube, sie haben meine eigenen Leute schon vergiftet! — (vör sich) Ich wdin euch aber zur Reue dringen! <pb n="42"/>
+(zu Niklas) Ich glaube, sie haben meine eigenen Leute schon vergiftet! – (vor sich) Ich will euch aber zur Reue dringen! <pb n="42"/>
 @Kamilla:
 Ihr Jakob ist mein Bräutigam:
 und mit dem hab’ ich nur ein Paar Worte gesprochen – das ist ja gar nichts übles – und hab’ ihm erzehlt – ach, ich bitte sie um alles in der Welt, lassen sie mich doch nur gehen! ich hab’ in ihrem Hause ja weiter nichts gewollt! 
@@ -497,35 +490,35 @@ Dann ist’s auch wohl kein Wunder, daß Franziska sich in ihn verliebt hat. Sag
 @Niklas:
 (zu Pedrillo) Der Fang ist noch besser, als ich dachte! 
 @Kamilla:
-Wissen sie, daß er Franziska bekömmt? Sie hat mir wohl gesagt, daß sie vielleicht bald heirathe; <pb n="43"/> aber wen? damit ist sie nicht herausgekommen. Ich kann's aber noch nicht glauben, was sie da sagen; man erführe ja wohl etwas davon. — Ich habe sie immer für so böse auf unser Haus gehalten; aber sie sehen ja doch so freundlich aus! 
+Wissen sie, daß er Franziska bekömmt? Sie hat mir wohl gesagt, daß sie vielleicht bald heirathe; <pb n="43"/> aber wen? damit ist sie nicht herausgekommen. Ich kann’s aber noch nicht glauben, was sie da sagen; man erführe ja wohl etwas davon. – Ich habe sie immer für so böse auf unser Haus gehalten; aber sie sehen ja doch so freundlich aus! 
 @Pedrillo:
-Bey solchem netten Mädchen muß, man ja auch nicht barsch aussehen. (streichelt ihr das Gesicht) Weißt du denn nichts neues Mädchen? Nichts von Franziska's Hochzeit? 
+Bey solchem netten Mädchen muß man ja auch nicht barsch aussehen. (streichelt ihr das Gesicht) Weißt du denn nichts neues Mädchen? Nichts von Franziska’s Hochzeit? 
 @Kamilla:
-Ja, du grosser Gott! die ist, wie gesagt, im weiten Felde. Da ist noch weder an Putz noch an sonst etwas gedacht. Erst Verlobung und denn Hochzeit, wenn's anders mit dem jungen Herrn schon richtig ist. 
+Ja, du grosser Gott! die ist, wie gesagt, im weiten Felde. Da ist noch weder an Putz noch an sonst etwas gedacht. Erst Verlobung und denn Hochzeit, wenn’s anders mit dem jungen Herrn schon richtig ist. 
 @Pedrillo:
 Kann denn die Verlobung nicht ohne dein Wissen vollzogen seyn? 
 @Kamilla:
-Wenn ich das nicht einmal hätte erfahren sollen! Doch, wer weiß auch? Es ist wohl heute Verlobung, wenn sie so in der Stille gehalten, werden kann. Da ist mit dei. Kleidern gekramt; da ist das Haus von der Herrschaft soviel durchlaufen! Aber sie haben ja alle Leute fortgeschickt! Wer sollte denn aufwarten? Anton und noch so ein Paar steife Graubärte sind zu Hause geblieben; und die werden's doch nicht ausmachen? Man erfährt auch gar nichts. Es ist jezt recht arg in unserm Hause. Und der alte Anton ist gegen mich der Allerschlimste. <pb n="44"/>
+Wenn ich das nicht einmal hätte erfahren sollen! Doch, wer weiß auch? Es ist wohl heute Verlobung, wenn sie so in der Stille gehalten, werden kann. Da ist mit dem Kleidern gekramt; da ist das Haus von der Herrschaft soviel durchlaufen! Aber sie haben ja alle Leute fortgeschickt! Wer sollte denn aufwarten? Anton und noch so ein Paar steife Graubärte sind zu Hause geblieben; und die werden’s doch nicht ausmachen? Man erfährt auch gar nichts. Es ist jezt recht arg in unserm Hause. Und der alte Anton ist gegen mich der Allerschlimste. 
 @Niklas:
-(zu Pedrillo) Rufen sie ihren Bedienten zum anziehen. Wir haben keine Zeit zu verliehren. 
+<pb n="44"/>  (zu Pedrillo) Rufen sie ihren Bedienten zum anziehen. Wir haben keine Zeit zu verliehren. 
 @Pedrillo:
 Das ist aber auch nicht gut, daß dir der Alte nicht mehr traut. (fängt an sich anzuziehen.) 
 @Kamilla:
-Im Grunde ist's mir auch einerley. Weiter sagen dürst' ich's doch nicht, denn er hat mir gesagt, daß ich noch vielmehr von seinem Herrn haben sollte, wenn ich zu allem hübsch stillschwiege, und's nicht unter die Leute brächte. 
+Im Grunde ist’s mir auch einerley. Weiter sagen dürft’ ich’s doch nicht, denn er hat mir gesagt, daß ich noch vielmehr von seinem Herrn haben sollte, wenn ich zu allem hübsch stillschwiege, und’s nicht unter die Leute brächte. 
 @Pedrillo:
-Also willst du doch so gern schweigen lernen? Das pflegen sonst die Weiber nie zu wollen. Für den guten Vorsatz, Mädchen, will ich dir auch etwas schenken. Ich seh', es ist bey dir gut angewandt. (gibt ihr Geld) 
+Also willst du doch so gern schweigen lernen? Das pflegen sonst die Weiber nie zu wollen. Für den guten Vorsatz, Mädchen, will ich dir auch etwas schenken. Ich seh’, es ist bey dir gut angewandt. (gibt ihr Geld) 
 @Niklas:
 (lacht) Vortreflich angewandt. 
 @Kamilla:
-Das hab ich ja nicht verdient. Wenn es aber aufs Anwenden ankömmt — daran soll's nicht fehlen. (sieht die ganze Seene durch das Geld an) 
+Das hab’ ich ja nicht verdient. Wenn es aber aufs Anwenden ankömmt – daran soll’s nicht fehlen. (sieht die ganze Scene durch das Geld an) 
 @Pedrillo:
-Aber du mußt doch schon einmal zu viel geplaudert haben, daß dir keiner traut? Oder transt du mir nicht? 
+Aber du mußt doch schon einmal zu viel geplaudert haben, daß dir keiner traut? Oder traust du mir nicht? 
 @Kamilla:
-Ja, sie denken denn, ich werd's, weil Jakob mein Bräutigam ist — Ach sie wissen ja wohl, was ich sagen will. 
+Ja, sie denken denn, ich werd’s, weil Jakob mein Bräutigam ist – Ach sie wissen ja wohl, was ich sagen will. 
 @Pedrillo:
 Nur heraus! 
 @Kamilla:
-Sie denken denn, ich sag's hier im Hause wieder; und weil sie böse werden würden, <pb n="45"/> wenn sie hörten, daß Franziska einen andern heirathe, so — Ach! sie fürchten sich sehr für sie. Drum will Franziska auch nicht in Spanien bleiben. Der junge Herr hat ihr überdem so viel schönes von Mailand erzehlt. 
+Sie denken denn, ich sag’s hier im Hause wieder; und weil sie böse werden würden, <pb n="45"/> wenn sie hörten, daß Franziska einen andern heirathe, so – Ach! sie fürchten sich sehr für sie. Drum will Franziska auch nicht in Spanien bleiben. Der junge Herr hat ihr überdem so viel schönes von Mailand erzehlt. 
 @Pedrillo:
 Also sprechen sie wohl recht viel von mir? 
 @Kamilla:
@@ -535,160 +528,159 @@ Ja wohl. Aber wenn ich dazukomme, pumps! sind sie stille. Nur, daß ich zuweilen
 @Kamilla:
 Ja wohl! Der muß recht reich seyn, weil er so viele Geschenke im Hause austheilt. (Sieht das Geld in der Hand an) Aber, daß sie mir so viel Geld geben für nichts und wieder nichts. Sie müssen doch noch ein besserer Herr seyn, als Katelli. 
 @Pedrillo:
-Das verdienst du schon, weil du so ein dreistes Mädchen bist. Aber, hör! Umsonst sollst du's auch nicht haben. Du muß nun auch hübsch verschweigen, daß du bey mir gewesen bist. Keiner muß es wissen, als mein Haus. 
+Das verdienst du schon, weil du so ein dreistes Mädchen bist. Aber, hör! Umsonst sollst du’s auch nicht haben. Du muß nun auch hübsch verschweigen, daß du bey mir gewesen bist. Keiner muß es wissen, als mein Haus. 
 @Kamilla:
-Sie sollen einmal sehen, wie ich schweigen kann. Ich bin so nicht, als meine Herrschaft denkt. Aber machen sie nur, daß ich recht bald mit meinen Jakob Hochzeit machen kann. <pb n="46"/> Pedrillo.
-Darauf soll's auch nicht ankommen. Ich sag's dir aber; plappere nicht! 
+Sie sollen einmal sehen, wie ich schweigen kann. Ich bin so nicht, als meine Herrschaft denkt. Aber machen sie nur, daß ich recht bald mit meinen Jakob Hochzeit machen kann. 
 @Pedrillo:
-Sie sollen einmal sehen, wie ich schweigen kann. Ich bin so nicht, als meine Herrschaft denkt. Aber machen sie nur, daß ich recht bald mit meinen Jakob Hochzeit machen kann. <pb n="46"/> Pedrillo.
-Darauf soll's auch nicht ankommen. Ich sag's dir aber; plappere nicht! 
+<pb n="46"/>  Darauf soll’s auch nicht ankommen. Ich sag's dir aber; plappere nicht! 
 @Kamilla:
 Ich will wohl Wort halten. Ich komme ja auch erst heut Abend zu Hause. 
 @Pedrillo:
-Und wenn du's bis dahin bey dir behältst, meinst du, ist's lange? — Es ist gut, Mädchen. Geh nur. Ich habe Arbeit. 
+Und wenn du’s bis dahin bey dir behältst, meinst du, ist’s lange? – Es ist gut, Mädchen. Geh nur. Ich habe Arbeit. 
 @Kamilla:
-Ihre Dienerin, gnädiger Herr. 
+Ihre Dienerin, gnädiger Herr. (ab.) 
 ##Vierter Auftrit.
-$ Pedrillo und Niklas. 
+$Pedrillo und Niklas. 
 @Niklas:
-Entweder die Hexe ist schlau, oder hat aus Geldgierde oder Dummheit die Wahrheit gesagt. Aber auf beiden Seiten sind wir betrogen; die Zeit ist gewiß schon verplaudert. — Doch machen sie nur, daß wir fertig werden. Hofnung ist noch da — Aller Vermuthung nach, ist heute Nachmittag Hochzeit. Denn Morgens war die Verlobung; dazu war ich, als Zeuge, gebeten. 
+Entweder die Hexe ist schlau, oder hat aus Geldgierde oder Dummheit die Wahrheit gesagt. Aber auf beiden Seiten sind wir betrogen; die Zeit ist gewiß schon verplaudert. – Doch machen sie nur, daß wir fertig werden. Hofnung ist noch da – Aller Vermuthung nach, ist heute Nachmittag Hochzeit. Denn Morgens war die Verlobung; dazu war ich, als Zeuge, gebeten. 
 @Pedrillo:
-Die Bedienten haben sie gewiß fortgeschikt um fürs Gerede sicher zu seyn. — Aber hor, Niklas! Ich habe das Ding vorhin überdacht. Dein Plan ist nicht sicher. Wie kommen wir unentdekt in Montenegro's Garten? Sey's auch! Wo wollen wir uns verbergen? Wird nicht Volks genug den Garten durchkreuzen? Ja, machten wir auch ein Meisterstäk, könnte das ohne Zetergeschrey abgehen? <pb n="47"/> Alles, was da ist, würde auf uns einstürzen, würde uns vest halten. Wir finden Wache; wir finden Zeugen bey der Hochzeit. 
+Die Bedienten haben sie gewiß fortgeschikt um fürs Gerede sicher zu seyn. – Aber hör, Niklas! Ich habe das Ding vorhin überdacht. Dein Plan ist nicht sicher. Wie kommen wir unentdekt in Montenegro’s Garten? Sey’s auch! Wo wollen wir uns verbergen? Wird nicht Volks genug den Garten durchkreuzen? Ja, machten wir auch ein Meisterstük, könnte das ohne Zetergeschrey abgehen? <pb n="47"/> Alles, was da ist, würde auf uns einstürzen, würde uns vest halten. Wir finden Wache; wir finden Zeugen bey der Hochzeit. 
 @Niklas:
-An Wache wird's freylich nicht fehlen, das weiß ich; und darum müssen wir eilen. Wenn wir zeitig kommen, wird uns doch keiner vermuthen, weil sie nicht glauben können, daß wir Kundschaft haben. Zeugen haben sie nicht, das weiß ich, und die Paar steife Kerl, die, wie das Madel, sagt, noch im Hause sind, werden's auch nicht ausmachen. Ich gehe jezt hinaus, und erwarte sie draussen. Um zwey Uhr gehen wir hinten in Montenegro's Garten. So oft sich ein alter Kauz sehen läßt, verbergen wir uns. Werden wir von ihm entdekt? Gut! so verständigen wir ihn auf gut Spanisch, daß er's nicht wiedersagen muß. Sie verstehen mich.. 
+An Wache wird’s freylich nicht fehlen, das weiß ich; und darum müssen wir eilen. Wenn wir zeitig kommen, wird uns doch keiner vermuthen, weil sie nicht glauben können, daß wir Kundschaft haben. Zeugen haben sie nicht, das weiß ich, und die Paar steife Kerl, die, wie das Mädel sagt, noch im Hause sind, werden’s auch nicht ausmachen. Ich gehe jezt hinaus, und erwarte sie draussen. Um zwey Uhr gehen wir hinten in Montenegro’s Garten. So oft sich ein alter Kauz sehen läßt, verbergen wir uns. Werden wir von ihm entdekt? Gut! so verständigen wir ihn auf gut Spanisch, daß er’s nicht wiedersagen muß. Sie verstehen mich. 
 @Pedrillo:
 Und dann sind wir weiter nichts, als die Wölfe, die den Hirten fressen, und die Heerde laufen lassen. 
 @Niklas:
-Hören sie nur weiter. Wir warten alsdenn, bis sie auf ein Häuschen beysamen sind; bis der Pfaff sie einsegnen will, damit sie die Trauung und die Leichenpredigt für ein Geld haben. Husch! springen wir hervor. Das Unerwartete wird sie wehrlos machen. Der Pfaff wird froh seyn, wenn er mit dem Leben davon kömmt, und die alten Bedienten, diese dürten klapperichten Gerippe sind leicht <pb n="48"/> ausgerieben, wenn sie uns in die Quere kommen. Ich dächte durch sechs und wenn's auch noch mehrere sind, hätten wir uns schon ehr durchgeschlagen. 
+Hören sie nur weiter. Wir warten alsdenn, bis sie auf ein Häuschen beysammen sind; bis der Pfaff sie einsegnen will, damit sie die Trauung und die Leichenpredigt für ein Geld haben. Husch! springen wir hervor. Das Unerwartete wird sie wehrlos machen. Der Pfaff wird froh seyn, wenn er mit dem Leben davon kömmt, und die alten Bedienten, diese dürren klapperichten Gerippe sind leicht <pb n="48"/> aufgerieben, wenn sie uns in die Quere kommen. Ich dächte durch sechs und wenn’s auch noch mehrere sind, hätten wir uns schon ehr durchgeschlagen. 
 @Pedrillo:
-Die Worte klingen ganz süß, bey der That, glaub' ich aber, wird's höchstens zum Klappern kommen. 
+Die Worte klingen ganz süß, bey der That, glaub’ ich aber, wird’s höchstens zum Klappern  kommen. 
 @Niklas:
-Ach, was dech! Es geht gewiß alles gut; bis — bis auf das Mädchen. Wenn uns dies nur nichts zu schaffen macht! Halten sie nur ihren Wagen in der Ferne bereit, daß wir sie fortbringen können. Und nun nur geschwind. Je rascher zur That, desto leichter die Vollführung! Aber, gelte, gelte! wir kommen schon zu spat. Alles bey der Abrede! (geht) Armer Alter, und du armer Katelli! ihr denkt wohl an nichts weniger, als das ihr auf den Kauf gemacht seyd; daß ihr meiner Nahrung helfen sollt! 
+Ach, was doch! Es geht gewiß alles gut; bis – bis auf das Mädchen. Wenn uns dies nur nichts zu schaffen macht! Halten sie nur ihren Wagen in der Ferne bereit, daß wir sie fortbringen können. Und nun nur geschwind. Je rascher zur That, desto leichter die Vollführung! Aber, gelte, gelte! wir kommen schon zu spät. Alles bey der Abrede! (geht) Armer Alter, und du armer Katelli! ihr denkt wohl an nichts weniger, als das ihr auf den Kauf gemacht seyd; daß ihr meiner Nahrung helfen sollt! (ab.) 
 ##Fünfter Auftrit.
-$ Pedrillo ollein. <pb n="49"/>
+@Pedrillo allein. 
+$(Zieht die Uhr heraus) Wie es spätet! schon halb zwey! – Noch nichts verlohren! Sie sind noch am Tische – Aber über den bunten Plan! Der alte Montenegro ist noch stämmig genug, einem Stosse zu wehren; und Katelli? Ihm wird’s gewiß nicht an welschem Muthe fehlen. (Klingt – zur Thür hinaus) Jakob! <pb n="49"/>
 #Dritter Aufzug.
 ##Erster Auftrit.
 $Im Hintergrunde Pedrillo und Niklas in Manteln verhüllt. In der Mitte des Theaters ein Tisch.
 @Pedrillo:
-Sehr heiß! — Und mein kochendes Blut macht mich noch heisser. Kaum daß ich's erwarten kann, da uns alles so zu glükken scheint. Ich stelle mir das Fest so lebhaft vor, daß es meine Begierde wütend macht. 
+Sehr heiß! – Und mein kochendes Blut macht mich noch heisser. Kaum daß ich’s erwarten kann, da uns alles so zu glükken scheint. Ich stelle mir das Fest so lebhaft vor, daß es meine Begierde wütend macht. 
 @Niklas:
-Nicht so laut! Wir dürfen hier nicht viel — (verbirgt sich mit Pedrillo) 
+Nicht so laut! Wir dürfen hier nicht viel – (verbirgt sich mit Pedrillo) 
 ##Zweyter Auftrit.
 $Anton kömmt und setzt ein Paar Stühle um den Tisch. Geht wieder.
 ##Dritter Auftrit.
 $Pedrillo und Niklas.
 @Niklas:
-Sehn sie's? Wenn's dem nicht vor den Ohren braußt, so hat er uns gewiß gehört. (verbergen sich) <pb n="50"/>
+Sehn sie’s? Wenn’s dem nicht vor den Ohren braußt, so hat er uns gewiß gehört. (verbergen sich) <pb n="50"/>
 ##Vierter Auftrit.
-$ Anton kömmt von der einen Seite mit Stühlen. Ein anderer Bedienter kömmt von der andern Seite mit Gewehr in der Hand, und trit an den Tisch. 
+$Anton kömmt von der einen Seite mit Stühlen. Ein anderer Bedienter kömmt von der andern Seite; mit Gewehr in der Hand, und trit an den Tisch. 
 @Anton:
-Sind deine Leute noch nicht da? Wozu das Zaudern? Sie sind um halb zwey bestellt. Bedienter. Stekken im Gartenhause. 
-@Anton:
-Und gaffen da die vier Wände an? Da zu sind sie auch gedungen; nicht wahr? Den Garten sollen sie durchspühren! Und ich sag's noch einmal, wenn sie jemanden sehen, so sollen sie Lerm machen. Wer ein gutes Gewissen hat, wird schon von vorne zur rechten Thür hereinkommen. — Es sind aber, mit Permiß, rechte nachläßige Kerl. Ruf sie mir den Augenblik her! Oder fürchten sie, der Teufel werde sie holen, daß sie sich so verkriechen? Gott verzeih mir's! (Geht ab auf der Seite, wo er hergekommen) 
+Sind deine Leute noch nicht da? Wozu das Zaudern? Sie sind um halb zwey bestellt. 
 @Bedienter:
-(der bald drauf auf der andern Seite abgeht) Stellt er sich nicht an, als wenn er Angst ware, auf einen seurigen Wagen durch die Lust geholt zu werden. 
+Stekken im Gartenhause. 
+@Anton:
+Und gaffen da die vier Wände an? Da zu sind sie auch gedungen; nicht wahr? Den Garten sollen sie durchspühren! Und ich sag’s noch einmal, wenn sie jemanden sehen, so sollen sie Lerm machen. Wer ein gutes Gewissen hat, wird schon von vorne zur rechten Thür hereinkommen. – Es sind aber, mit Permiß, rechte nachläßige Kerl. Ruf sie mir den Augenblik her! Oder fürchten sie, der Teufel werde sie holen, daß sie sich so verkriechen? Gott verzeih mir’s! (Geht ab auf der Seite, wo er hergekommen) 
+@Bedienter:
+(der bald drauf auf der andern Seite abgeht) Stellt er sich nicht an, als wenn er Angst wäre, auf einen feurigen Wagen durch die Luft geholt zu werden. 
 ##Fünfter Auftrit.
-$ Pedrillo und Niklas. 
+$Pedrillo und Niklas. 
 @Pedrillo:
-Und wenn uns der Teufel noch oben drein seine Garde schikte, so richten wir hier nichts aus. <pb n="51"/>
+Und wenn uns der Teufel noch oben drein seine Garde schikte, so richten wir hier nichts aus. 
 @Niklas:
-Es laufen ihrer gar zu viel herum. Ich dächte, wir suchten andere Wege. — Nach Haus, Herr! 
+<pb n="51"/>  Es laufen ihrer gar zu viel herum. Ich dächte, wir suchten andere Wege. – Nach Haus, Herr! 
 @Pedrillo:
-(nach einer Pause) Nein, nun will ich's bis aufs Höchste treiben. Willst du mich denn zum Ball machen, womit das Schiksal sein muchwilliges Spiel treiben soll? (Hinter der Bühne ein Geräusch.) 
+(nach einer Pause) Nein, nun will ich’s bis aufs Höchste treiben. Willst du mich denn zum Ball machen, womit das Schiksal sein muthwilliges Spiel treiben soll? 
+$(Hinter der Bühne ein Geräusch.) 
 @Niklas:
 Hören sie? Die Buben tummeln sich schon aus ihrem Hinterhalt heraus. Länger weilen ist für uns Gift. Ich verliere meinen Kopf, wenn ich mein Wort breche. Ich habe gewissere Wege im Sinn. Mögte der Teufel denken, daß man hier so viel Gesindel finden würde. Ich glaube, sie haben ihre halbe Baurschaft aufgeboten. 
 @Pedrillo:
 Du Weiberseele! Tausende wären dir zu schwach, wenn deine Faust nicht deiner Zunge die Hülfe versagte. 
 @Niklas:
-Herr, nicht mehr, sonst spann' ich vor dem andern Wagen. Genug, ich breche mein Wort nicht. 
+Herr, nicht mehr, sonst spann’ ich vor dem andern Wagen. Genug, ich breche mein Wort nicht. 
 @Pedrillo:
-Nicht besser wird's gehen, als jezt. 
+Nicht besser wird’s gehen, als jezt. 
 @Niklas:
-Wäre doch schlim, wenn aus meinem Besuch bey dem alten Montenegro nicht mehr Honig zu saugen wäre. (Nach einer kleinen Pause kommen einige Wächter hervor und gehen über's Theater. Neerse und Nleine llechen se g <pb n="52"/>
+Wäre doch schlim, wenn aus meinem Besuch bey dem alten Montenegro nicht mehr Honig zu saugen wäre. 
+$(Nach einer kleinen Pause kommen einige Wächter hervor und gehen über’s Theater. Pedrillo und Niklas schleichen sich weg.) <pb n="52"/>
 ##Sechster Auftrit.
-$ Montenegro kömmt von der andern Seite fast mit denen Wächtern zugleich und sezt sich auf einen Stuhl. 
-@Montenegro:
-Lieber, guter Tag, wie willkommen bist du mir! Wie mein Blik so ganz aufgeklärt, und mein wankender Trit so vest wird! Mit Freuden geh' ich jezt ins Grab, denn Sorgen bleiben nicht hinter mir. 
+@Montenegro kömmt von der andern Seite fast mit denen Wächtern zugleich und sezt sich auf einen Stuhl. 
 ##Siebenter Auftrit.
-$ Montenegro und Anton, (der aus dem Hintergrunde dazu kömmt.) 
-@Montenegro:
-Das freut mich, Anton, daß du im Dienst deines Herrn so wachsam bist. Eine gute, rechtschafne Seele bist du, und Gott wird's dir segnen. 
+$Montenegro und Anton, (der aus dem Hintergrunde dazu kömmt.) 
+@Monten:
+Das freut mich, Anton, daß du im Dienst deines Herrn so wachsam bist. Eine gute, rechtschafne Seele bist du, und Gott wird’s dir segnen. 
 @Anton:
 Das bey Seite. Ich habe hart an unserm Garten ein paar Vermummte gesehn. Sie eilten sehr, aber ich kukte ihnen so lange nach, als ich konnte. Endlich kroch der eine so etwas aus seinem Mantel hervor und sah sich um. Ich hätte drauf geschworen, daß es der Pfaff gewesen wäre, der heute Morgen bey ihnen war. 
-@Montenegro:
+@Monten:
 Und der andere, Anton? 
 @Anton:
-Den kkonnt' ich nicht ausforschen. Können sie aus des Pfaffen Reden nichts argwohnen:
-<pb n="53"/>
-@Montenegro:
-Mehr, als zu viel! — Wie sich die Gewitterwolken schon wieder über mein Haupt samten! Kaum freut ich mich meines Daseyns, freute mich dieses Tages so sehr, und nun hör' ich schon wieder die Ungeheuer im nahen Hinterhalt brüllen. — Heiligster Vater, aus bebenden Herzen steigt mein Flehen zu dir. Du bist der Schirm des Greises und der jugendlichen Unschuld. Bahne mir den Weg zu meinen Grabe eben, und brich die Dornen, die vor meinem Schritte keimen. 
+Den konnt’ ich nicht ausforschen. Können sie aus des Pfaffen Reden nichts argwöhnen? 
+@Monten:
+<pb n="53"/>  Mehr, als zu viel! – Wie sich die Gewitterwolken schon wieder über mein Haupt samlen! Kaum freut’ ich mich meines Daseyns, freute mich dieses Tages so sehr, und nun hör’ ich schon wieder die Ungeheuer im nahen Hinterhalt brüllen. – Heiligster Vater, aus bebenden Herzen steigt mein Flehen zu dir. Du bist der Schirm des Greises und der jugendlichen Unschuld. Bahne mir den Weg zu meinen Grabe eben, und brich die Dornen, die vor meinem Schritte keimen. 
 @Anton:
-(vor sich) Weinen mögt' ich über den frommen Mann! (laut) Lassen sie's sich nicht bange seyn. Ich habe ihren Leuten noch einmal alles recht vorgepredigt. Wir haben nichts zu fürchten. Es komme wer da will, wir haben nichts zu fürchten! 
-@Montenegro::
-Was vermögen wir, wenn wir sollen geprüft werden? Nicht mehr als das Sandkörnchen unter unserm Fusse. — Da kommen meine Kinder. Laß dir nichts gegen sie merken. Es würde sie nur trübsinnig machen. (Anton ab.) 
+(vor sich) Weinen mögt’ ich über den frommen Mann! (laut) Lassen sie’s sich nicht bange seyn. Ich habe ihren Leuten noch einmal alles recht vorgepredigt. Wir haben nichts zu fürchten. Es komme wer da will, wir haben nichts zu fürchten! 
+@Monten:
+Was vermögen wir, wenn wir sollen geprüft werden? Nicht mehr als das Sandkörnchen unter unserm Fusse. – Da kommen meine Kinder. Laß dir nichts gegen sie merken. Es würde sie nur trübsinnig machen. 
+$(Anton ab.) 
 ##Achter Auftrit.
-$ Montenegro, Katelli und Franziska (in Reisekleidern.) 
-@Montenegro:
-Der Himmel segne euch meine Kinder! (sapt sie ben der Hand und seit sch nicder nu.i <pb n="54"/> Wenn der Priester nur eilte! Aber, (sieht nach der Uhr) er kann noch nicht kommen. An euch fehlt's nun doch nicht? 
+$Montenegro, Katelli und Franziska (in Reisekleidern.) 
+@Monten:
+Der Himmel segne euch meine Kinder! (faßt sie bey der Hand und sezt sich nieder mit ihnen) <pb n="54"/> Wenn der Priester nur eilte! Aber, (sieht nach der Uhr) er kann noch nicht kommen. An euch fehlt’s nun doch nicht? 
 @Franziska:
-Nein, bester Vater. Auch des Priesters bedürften wir nicht, denn unsere Herzen sind schon so vereint, daß sie keine Menschenmacht, trennen kann. 
-@Montenegro:
+Nein, bester Vater. Auch des Priesters bedürften wir nicht, denn unsere Herzen sind schon so vereint, daß sie keine Menschenmacht trennen kann. 
+@Monten:
 Aber warum seyd ihr schon so ganz in Reisekleidern? 
 @Katelli:
-Wozu sollten wir uns noch putzen, Vater ? 
-@Montenegro::
-Recht, mein Sohn! Den besten Schmuk, die Tugend, habt ihr schon im Herzen. Sie ist der größte Diamant im Zepter des Königs, und macht den Küttel des Landmanns zum Purpur. Aber das hab' ich nicht damit sagen wollen. Es wäre mir lieber gewesen, ihr wäret mir nicht so vor die Augen gekommen. Es ist mir ein Stich durch mein altes Herz. Ihr mich verlassen! Kinder, Kinder! 
+Wozu sollten wir uns noch putzen, Vater? 
+@Monten:
+Recht, mein Sohn! Den besten Schmuk, die Tugend, habt ihr schon im Herzen. Sie ist der größte Diamant im Zepter des Königs, und macht den Küttel des Landmanns zum Purpur. Aber das hab’ ich nicht damit sagen wollen. Es wäre mir lieber gewesen, ihr wäret mir nicht so vor die Augen gekommen. Es ist mir ein Stich durch mein altes Herz. Ihr mich verlassen! Kinder, Kinder! 
 @Katelli:
-Ja, heute noch verlassen! Unser aller Wohl zwingt mich, daß ich ihnen die Wunde noch tiefer graben muß. Aber erfüllen sie unser Bitten und reisen sie mit uns. Ohne sie würden wir nicht das ganze Maaß unseres Glüks empfinden können. <pb n="55"/> Franziska.
-O ja! Sie reisen auch mit uns. Nicht wahr? Bleiben bey uns, so lange sie leben. Wie würde sich meines s Vater nicht freuen, wenn er sie wiedersähe? 
+Ja, heute noch verlassen! Unser aller Wohl zwingt mich, daß ich ihnen die Wunde noch tiefer graben muß. Aber erfüllen sie unser Bitten und reisen sie mit uns. Ohne sie würden wir nicht das ganze Maaß unseres Glüks empfinden können. 
 @Franziska:
-Ja, heute noch verlassen! Unser aller Wohl zwingt mich, daß ich ihnen die Wunde noch tiefer graben muß. Aber erfüllen sie unser Bitten und reisen sie mit uns. Ohne sie würden wir nicht das ganze Maaß unseres Glüks empfinden können. <pb n="55"/> Franziska.
-O ja! Sie reisen auch mit uns. Nicht wahr? Bleiben bey uns, so lange sie leben. Wie würde sich meines s Vater nicht freuen, wenn er sie wiedersähe? 
-@Montenegro::
+<pb n="55"/>  O ja! Sie reisen auch mit uns. Nicht wahr? Bleiben bey uns, so lange sie leben. Wie würde sich meines Katelli’s Vater nicht freuen, wenn er sie wiedersähe? 
+@Monten:
 Ich glaube nicht, daß mein schwacher Körper die lange Reise aushält. 
 @Katelli:
-Wir wollen sie auf den Händen tragen, wenns sie's fordern. 
+Wir wollen sie auf den Händen tragen, wenns sie’s fordern. 
 @Franziska:
-Lieber Vater! — Geräusch im Hause! 
+Lieber Vater! – Geräusch im Hause! 
 @Katelli:
-Ein Priester kömmt in den Garten! — Mit bewafneten Leuten! 
+Ein Priester kömmt in den Garten! – Mit bewafneten Leuten! 
 @Franziska:
 Sie werden doch hier keinen Verbrecher suchen? 
 ##Neunter Auftrit.
-$ Die vorigen, Priester, Wache und Anton. 
+$Die vorigen, Priester, Wache und Anton. 
 @Priester:
 Ist hier ein gewisser Katelli? 
 @Franziska:
 Grosser Gott im Himmel! 
 @Katelli:
-So heiß ich. 
+So heiß’ ich. 
 @Priester:
-Ich komm' im Namen der heiligen Inquisition. Sie haben wider Religion gesprochen und deshalb müssen sie sich verantworten. Folgen sie mir in dis Mauren des heiligen Gerichts. 
+Ich komm’ im Namen der heiligen Inquisition. Sie haben wider Religion gesprochen und deshalb müssen sie sich verantworten. Folgen sie mir in die Mauren des heiligen Gerichts. 
 @Katelli:
-Herr Pater! beweisen sie, daß die heilige Inquisition sie schikt. <pb n="56"/>
+Herr Pater! beweisen sie, daß die heilige Inquisition sie schikt. 
 @Priester:
-Hier ist mein Zertifikat. 
+<pb n="56"/>  Hier ist mein Zertifikat. 
 @Katelli:
 (liest) Sie sind recht. (hitzig) Aber ein Schurke hat das dem heiligen Gericht benachrichtiget. Ich spreche nie wider Religion. Ich bin froh, daß ich unter ihrem Schuz lebe. 
 @Priester:
 Geben sie ihren Degen den Dienern der heiligen Hermandat und folgen sie. Vertheidigen sie sich vor dem Gericht selbst. Mein Ohr muß jeder Vertheidigung taub seyn. 
 @Franziska:
-Mein Katelli! Dn Engelunschuld! Wider Religion! Gott! (Sie fällt schwach über.) 
+Mein Katelli! Du Engelunschuld! Wider Religion! Gott! (Sie fällt schwach über.) 
 @Priester:
-(indem Katelli nachdenkend steht) Zaudern sie nicht. Auch Franziska ist darein verwikelt. Folgen sie nicht willig und gleich, so begnüg' ich mich nicht mit ihnen allein. 
+(indem Katelli nachdenkend steht) Zaudern sie nicht. Auch Franziska ist darein verwikelt. Folgen sie nicht willig und gleich, so begnüg’ ich mich nicht mit ihnen allein. 
 @Katelli:
 (auffahrend) Meine Franziska sollte von deiner Gnade abhängen, Priester? 
 @Priester:
 Mäßigen sie sich. Nicht von der meinigen. Von der Gnade der heiligen Inquisition. 
 @Katelli:
-Auch von der nicht. Sie ist ein Engel und über euch alle. (sieht sich nach Franziska um, die matt auf dem Stuhl sizt.) Franziska, Franziska! Ich Armseliger! Nichts als unglaubliche Schlage von allen Seiten. Anton! Hülfe! 
-@Montenegro::
-(weinend und Franziska immer im Arm habend) Es ist nur eine ganz schwache Ohnmacht, mein Sohn. <pb n="57"/> Katelli. Nein! (zum Priester) Mörder! du hast sie ermordet. (will mit den Degen auf ihn zu.) 
+Auch von der nicht. Sie ist ein Engel und über euch alle. (sieht sich nach Franziska um, die matt auf dem Stuhl sizt.) Franziska, Franziska! Ich Armseliger! Nichts als unglaubliche Schläge von allen Seiten. Anton! Hülfe! 
+@Monten:
+(weinend und Franziska immer im Arm habend) Es ist nur eine ganz schwache Ohnmacht, mein Sohn. 
 @Katelli:
-(weinend und Franziska immer im Arm habend) Es ist nur eine ganz schwache Ohnmacht, mein Sohn. <pb n="57"/> Katelli. Nein! (zum Priester) Mörder! du hast sie ermordet. (will mit den Degen auf ihn zu.) 
+<pb n="57"/>  Nein! (zum Priester) Mörder! du hast sie ermordet. (will mit den Degen auf ihn zu.) 
 @Anton:
 (fällt ihm in den Arm) Was machen sie, lieber Herr? Besinnen sie sich doch. 
-@Montenegro:
+@Monten:
 Lerne Mäßigung von mir. Bedenke die Schärfe des heiligen Gerichts, und die Ehrfurcht, die wir ihm schuldig sind. Vergreife dich nicht an einer geweyhten Person. 
 @Katelli:
 Nein, das will ich nicht; thu’ ich nicht! Der heilig! (faßt ihn vor die Brust) Du heilig? Ein Mörder bist du! 
@@ -700,20 +692,20 @@ Wer mich anrührt, ist nur noch zwey Schritte vom Kirchhofe.
 Folgen sie, oder ich nehme Franziska. (tritt näher an Franziska. 
 @Katelli:
 Kein Wort mehr, Priester, oder du wagst dein Leben. 
-@Montenegro:
+@Monten:
 Gehe mein Sohn; reine Unschuld begleitet dich. 
 @Katelli:
 Ich gehen und Franziska halb tod zurüklassen? Sie vergebens ihren rufen lassen? – Und ich mit dem Auswurf des menschlichen Geschlechts über die Strasse gehen? Nein, Lieb’ und Ehre binden meinen Fuß. 
-@Montenegro:
+@Monten:
 Folge, mein Sohn. Zu deinem und unser aller Besten rath’ ich’s dir. Geh, eh <pb n="58"/> deine Franziska erwacht! Ich werde ihr Herz alsdenn leichter beruhigen können. 
 @Katelli:
-(wirst sich vor Franziska nieder und legt seine Hände auf ihren Schooß) Meine Liebe, mir heiliger, als alles! deinetwillen folg ich, achte meine Ehr' und alles nicht. Auch dies Leben geb' ich dir gern, wenn du's forderst. (aufstehend zu Montenegro) Sorgen sie für sie. Weyhen sie ihr alle Sorgfalt, die sie nur aussinnen können. Bald, bald werd' ich sie wiedersehen — Anton! 
+(wirft sich vor Franziska nieder und legt seine Hände auf ihren Schooß) Meine Liebe, mir heiliger, als alles! deinetwillen folg ich, achte meine Ehr’ und alles nicht. Auch dies Leben geb’ ich dir gern, wenn du’s forderst. (aufstehend zu Montenegro) Sorgen sie für sie. Weyhen sie ihr alle Sorgfalt, die sie nur aussinnen können. Bald, bald werd’ ich sie wiedersehen – Anton! 
 @Anton:
-Hier bin ich, Herr! Ich bin von Jugend auf bey ihnen gewesen, und gehe auch jezt nicht von ihnen. Von ihrer Seite weich' ich nicht. 
+Hier bin ich, Herr! Ich bin von Jugend auf bey ihnen gewesen, und gehe auch jezt nicht von ihnen. Von ihrer Seite weich’ ich nicht. 
 @Katelli:
 Du bleibst hier (bey Seite) und sattelst mir zwey Pferde. Hier am Garten sollst du halten. 
 @Anton:
-Ich ginge so gern mit ihnen. — 
+Ich ginge so gern mit ihnen. – 
 @Katelli:
 Nein! 
 @Anton:
@@ -721,143 +713,140 @@ Nein!
 @Priester:
 Ohne ferneres Zaudern geben sie den Degen ab. 
 @Katelli:
-Gehen will ich mit euch, ihr Diener der Bosheit. O, ich kenne eure Tükke! Pedrillo! — witterst du Unrath, Priester? Ich fol <pb n="59"/> ge dir, gleich folg ich; aber meinen Degen behalt ich. Von keinem Priester laß' ich mich entwafnen. (Wache trit zu, ihm den Degen abzunehmen.) 
+Gehen will ich mit euch, ihr Diener der Bosheit. O, ich kenne eure Tükke! Pedrillo! – witterst du Unrath, Priester? Ich folge <pb n="59"/> dir, gleich folg’ ich; aber meinen Degen behalt’ ich. Von keinem Priester laß’ ich mich entwafnen. 
+$(Wache trit zu, ihm den Degen abzunehmen.) 
 @Priester:
-Laßt! Er ist seines Verstandes nicht mächtig. Bietet euer Leben nicht muthwillig aus. (zu Katelli) Ich will nachsichtig seyn. Aber ich beschwöre sie bey dem Zorn des heiligen Gerichts, daß sie gelassen gehen! (Katelli, und Wache ab.) 
+Laßt! Er ist seines Verstandes nicht mächtig. Bietet euer Leben nicht muthwillig aus. (zu Katelli) Ich will nachsichtig seyn. Aber ich beschwöre sie bey dem Zorn des heiligen Gerichts, daß sie gelassen gehen! 
+$(Katelli, Priester und Wache ab.) 
 ##Zehnter Auftrit.
-$ Montenegro. Franziska. 
+$Montenegro. Franziska. 
 @Franziska:
-(nach einer kleinen Pause mit gebrochner Stimme) Katelli! — Wo bist du? — mein Katelli! 
-@Montenegro::
-Bald wird dies alles mein graues Haupt niederdrükken. (zu Franziska) Beruhige dich meine Tochter! Dein Katelli wird bald wiederkommen. (vor sich) Aber — ach! er ist in den Händen eines scharfen Gerichts, und er hat noch nicht Bändigung der Zunge gelernt. In der Hitze träumt er sich den Herrn der Welt. 
+(nach einer kleinen Pause mit gebrochner Stimme) Katelli! – Wo bist du? – mein Katelli! 
+@Monten:
+Bald wird dies alles mein graues Haupt niederdrükken. (zu Franziska) Beruhige dich meine Tochter! Dein Katelli wird bald wiederkommen. (vor sich) Aber – ach! er ist in den Händen eines scharfen Gerichts, und er hat noch nicht Bändigung der Zunge gelernt. In der Hitze träumt er sich den Herrn der Welt. 
 @Franziska:
-(hitzig) Mein Katelli! (fährt auf) (Montenegro versucht sie zu halten) Nein! ich will ihn aufsuchen, ihn losmachen! 
-@Montenegro::
-(steht auf) Hülfe, Hülfe! Meine dese Lochter, fasse dich! <pb n="60"/>
+(hitzig) Mein Katelli! (fährt auf) Montenegro versucht sie zu halten) Nein! ich will ihn aufsuchen, ihn losmachen! 
+@Monten:
+(steht auf) Hülfe, Hülfe! Meine beste Tochter, fasse dich! <pb n="60"/>
 ##Eilfter Auftrit.
-$ Die vorigen, Priester und Wache, Franziska entgegen kommend. 
+$Die vorigen, Priester und Wache, Franziska entgegen kommend. 
 @Franziska:
 (zum Priester) Ha, Räuber! von dir fordre ich ihn wieder! Wo ist mein Katelli? 
 @Priester:
-Er hat einige von meinen Leuten niedergeworfen und ist entsprungen. Er hat sein Leben verraset. Zu meiner Sicherheit muß ich — Sie nehmen. 
-@Montenegro:
-Nun wird Mäßigung auch mir zu schwer! Laßt mir mein größtes Gut, meine einzige Tochter!— Mein alles soll euer seyn. Oder nehmt mich alten Graukopf auch! (Priester und Wache mit Franziska ab.) 
+Er hat einige von meinen Leuten niedergeworfen und ist entsprungen. Er hat sein Leben verraset. Zu meiner Sicherheit muß ich – Sie nehmen. 
+@Mont:
+Nun wird Mäßigung auch mir zu schwer! Laßt mir mein größtes Gut, meine einzige Tochter! – Mein alles soll euer seyn. Oder nehmt mich alten Graukopf auch! (Priester und Wache mit Franziska ab.) 
 ##Zwölfter Auftrit.
-$ Montenegro allein. 
-@Montenegro:
-Umsonst! O, daß meine Füße zu schwach sind, ihnen nachzueilen! — Katelli, Katelli! du bist ein Mörder! Mein und meiner Tochter Mörder! Unbesonnener Jüngling, warum folgst du deines Vaters Lehren nicht und schmiedest dir selbst das Eisen, das deinen Kopf abschlagen wird? Und der Unmensch von Priester! Loderte denn kein Fünkchen Midleide in ihm? O, habt ihr noch nicht an ihr <pb n="61"/> genug, nehmt zu eurer Sätigung auch mich! Entreißt meinen Händen die Krükke, schlagt meine graue Hirnschädet damit ein, und trinkt mein Gehirn, ihr Blurigel! 
+@Montenegro allein. 
 ##Dreyzehnter Auftrit.
-$ Montenegro und Katelli, der plötlich von hinten auf ihn zuspringt. 
-@Montenegro::
+$Montenegro und Katelli, der plötzlich von hinten auf ihn zuspringt. 
+@Monten:
 Katelli! deine Tollkühnheit, deine Unbesonnenheit hat keine Schranken. 
 @Katelli:
 Wo ist Franziska? Sie muß mit mir fort eilen. Ich will mit ihr hinfliehen, wo uns kein Satansauge erforschen kann. 
-@Montenegro::
+@Monten:
 Wahnsinniger! du hast deine und ihre Sache verdorben. Für dich hat man sie genommen. Eingesperrt in düstern Mauren wird sie da sitzen und mich verfluchen, daß ich sie gezeugt habe. (weint.) 
 @Katelli:
 (tobend) Ich will hin, will sie befreyn. Ich will meinen Kopf für den ihrigen in den Rachen der Menschenfresser stekken. 
-@Montenegro::
-Sie werden ihn dir abbeissen und gierig nach den andern schnappen. Hat der Unsinn dich ganz gefesselt? Eil' und verbirg dich! Sorge für dein eigenes Leben! Sie soll meine Sorge seyn. (Der Pater Hieronimus kömmt) Sieh, Katelli! Rette dich! (Katelli eiligst ab.) <pb n="62"/>
+@Monten:
+Sie werden ihn dir abbeissen und gierig nach den andern schnappen. Hat der Unsinn dich ganz gefesselt? Eil’ und verbirg dich! Sorge für dein eigenes Leben! Sie soll meine Sorge seyn. (Der Pater Hieronimus kömmt) Sieh, Katelli! Rette dich! (Katelli eiligst ab.) <pb n="62"/>
 ##Vierzehnter Auftrit.
-$ Montenegro und Hieronimus. 
+$Montenegro und Hieronimus. 
 @Hieronimus:
 Mein Segen mit ihnen! 
-@Montenegro::
-Sie kommen zu spät, Freund. Sie sollten meiner Tochter den Brautkranz aufsetzen; jezt können sie's ihrem Sarge. Die heilige Inquisition hat's schon bestellt. So lange hab' ich meine Zunge, aus Ehrfurcht für Religion gebändigt; aber jezt ist meine Macht zu schwach. O, über die dumme verstokte Blindheit des Volks! Mit ofnen Augen sieht es den Tyrannen im Pfaffen, und doch hält es ihre Bosheit für That der Heiligen! kreuzigt sich, wenn sie vorübergehen! 
+@Monten:
+Sie kommen zu spät, Freund. Sie sollten meiner Tochter den Brautkranz aufsetzen; jezt können sie’s ihrem Sarge. Die heilige Inquisition hat’s schon bestellt. So lange hab’ ich meine Zunge, aus Ehrfurcht für Religion gebändigt; aber jezt ist meine Macht zu schwach. O, über die dumme verstokte Blindheit des Volks! Mit ofnen Augen sieht es den Tyrannen im Pfaffen, und doch hält es ihre Bosheit für That der Heiligen! kreuzigt sich, wenn sie vorübergehen! 
 @Hieronimus:
 Gott, was ist ihnen? 
-@Montenegro::
-Das zu erzehlen vermag ein Greiß nicht. Ich würde mein Gesicht verliehren, wenn ich mir die Bilder alle noch einmal vormahlte — Ich wünschte, auch sie hätten das härne Kleid nicht an. 
+@Monten:
+Das zu erzehlen vermag ein Greiß nicht. Ich würde mein Gesicht verliehren, wenn ich mir die Bilder alle noch einmal vormahlte – Ich wünschte, auch sie hätten das härne Kleid nicht an. 
 @Hieronimus:
-Suchen sie Stille für ihren Geist, und Zügel für ihre Worte. Sie wissen einmal, daß wir in einem Lande wohnen, wo die Stüze der Religion Grausamkeit ist, wo man den Dornstrauch küssen muß, und nicht einmal nach der schönen blühenden Rose hinschielen darf. <pb n="63"/> Monten..
-Das weiß ich. Ich hab's erfunden und vor Gott will ich's beichten. Ich bin nicht mehr fern von ihm. Schrek und Kummer hausn schon, als Bothschafter des Todes, in meinem Gedd.r. 
-@Montenegro::
-Suchen sie Stille für ihren Geist, und Zügel für ihre Worte. Sie wissen einmal, daß wir in einem Lande wohnen, wo die Stüze der Religion Grausamkeit ist, wo man den Dornstrauch küssen muß, und nicht einmal nach der schönen blühenden Rose hinschielen darf. <pb n="63"/> Monten..
-Das weiß ich. Ich hab's erfunden und vor Gott will ich's beichten. Ich bin nicht mehr fern von ihm. Schrek und Kummer hausn schon, als Bothschafter des Todes, in meinem Gedd.r. 
+Suchen sie Stille für ihren Geist, und Zügel für ihre Worte. Sie wissen einmal, daß wir in einem Lande wohnen, wo die Stüze der Religion Grausamkeit ist, wo man den Dornstrauch küssen muß, und nicht einmal nach der schönen blühenden Rose hinschielen darf. 
+@Monten:
+<pb n="63"/>  Das weiß ich. Ich hab’s empfunden und vor Gott will ich’s beichten. Ich bin nicht mehr fern von ihm. Schrek und Kummer hausen schon, als Bothschafter des Todes, in meinem Geäder. 
 @Hieronimus:
-Bey allen Heiligen beschwör ich sie, frommer Mann, daß sie jezt alle Standhaftigkeit des beherzten Mannes aufsuchen! Sie bedürsen der Ruhe. Kommen sie! 
-@Montenegro::
-Und woher nehm ich die? Ich bin der Dürstige in der Wüste. 
+Bey allen Heiligen beschwör’ ich sie, frommer Mann, daß sie jezt alle Standhaftigkeit des beherzten Mannes aufsuchen! Sie bedürfen der Ruhe. Kommen sie! 
+@Monten:
+Und woher nehm’ ich die? Ich bin der Dürstige in der Wüste. 
 @Hieronimus:
 Heben sie ihre Hände empor. Den Frommen wird nichts versagt. 
-@Montenegro::
-Ich hab's gethan; aber ich bin zum Märtyrer erkohren, sonst zögerte die Hulfe so lange nicht. 
+@Monten:
+Ich hab’s gethan; aber ich bin zum Märtyrer erkohren, sonst zögerte die Hülfe so lange nicht. 
 @Hieronimus:
-Sie verzweifeln? Standhaft muß ein Märtyrer seyn. Oder — sie sind jezt etwas ruhiger — erzehlen sie mir den Grund ihres Zorns. Ich will Trost daraus aufsuchen und Ruhe in ihre Seele giessen. 
-@Montenegro::
+Sie verzweifeln? Standhaft muß ein Märtyrer seyn. Oder – sie sind jezt etwas ruhiger – erzehlen sie mir den Grund ihres Zorns. Ich will Trost daraus aufsuchen und Ruhe in ihre Seele giessen. 
+@Monten:
 Sie wissen, ich habe eine Tochter. 
 @Hieronimus:
 Ja. 
-@Montenegro::
-Katelli, ein junger Vetter von mir, besuchte mich. Er und Franziska sind mir eins. Sie liebten sich sogleich, da sie sich nur sahen; denn sie glaubten, zwey Engel müßten für einander geschaffen seyn. Eh' sie sich erklärten, hielt Pedrillo, der <pb n="64"/> Verworfenste vor Gott — sie kennen ihn — um Franziska an. Ich schlug sie ihm ab. Meine Tochter willigte drein, weil sie eine bessere Liebe fühlte. Sie erklärte sich laut für Katelli. Ich erfullte ihre und Katelli's Bitte, ob ich gleich Pedrillo's Rache fürchtete. Sie, heiliger Freund, sollten sie heute vereinigen. Allein mein Wahn ist Wahrheit geworden. Pedrillo, hat die Inquisition wider mein Haus aufgehezt, denn anders läßt es sich nicht denken. Ihre Diener kamen, meinen Katelli in den Vorhof des Todes zu schleppen. Er entsprang und für ihn nahmen sie meine Franziska. Ach, ich hielt sie für den Trost meines Alters, und nun hab' ich sie gezeugt, mein graues Haupt einzudrükken. 
+@Monten:
+Katelli, ein junger Vetter von mir, besuchte mich. Er und Franziska sind mir eins. Sie liebten sich sogleich, da sie sich nur sahen; denn sie glaubten, zwey Engel müßten für einander geschaffen seyn. Eh’ sie sich erklärten, hielt Pedrillo, der <pb n="64"/> Verworfenste vor Gott – sie kennen ihn – um Franziska an. Ich schlug sie ihm ab. Meine Tochter willigte drein, weil sie eine bessere Liebe fühlte. Sie erklärte sich laut für Katelli. Ich erfüllte ihre und Katelli’s Bitte, ob ich gleich Pedrillo’s Rache fürchtete. Sie, heiliger Freund, sollten sie heute vereinigen. Allein mein Wahn ist Wahrheit geworden. Pedrillo, hat die Inquisition wider mein Haus aufgehezt, denn anders läßt es sich nicht denken. Ihre Diener kamen, meinen Katelli in den Vorhof des Todes zu schleppen. Er entsprang und für ihn nahmen sie meine Franziska. Ach, ich hielt sie für den Trost meines Alters, und nun hab’ ich sie gezeugt, mein graues Haupt einzudrükken. 
 @Hieronimus:
 Wie viel Boshafte macht der Hoff nicht? Und wie viele Lieblinge des blinden Fürsten bringen ihre niedrigen Gedanken unter dem Schuz des Throns zur That! Ich bedaure sie und ihre Tochter. Aber der Himmel wird sie nicht verlassen; sie wird die ihrige bleiben und wieder in ihre Arme kehren. Der Unschuldige ist immer des Siegs gewiß. Ich werde mit unsern Bischof sprechen. Er gilt viel und wird gewiß ihre Tochter den Händen des heiligen Gerichts entreissen. 
-@Montenegro::
-Ihr Bischof ist ein frommer, redlicher Mann. Aber Frömmigkeit und Redlichkeit <pb n="65"/> haben keinen Werth mehr! Sie sind abgesezte Münde! Heuchelnde Schmeichler sind die Manner des Glüks! 
+@Monten:
+Ihr Bischof ist ein frommer, redlicher Mann. Aber Frömmigkeit und Redlichkeit <pb n="65"/> haben keinen Werth mehr! Sie sind abgesezte Münze! Heuchelnde Schmeichler sind die Männer des Glüks! 
 @Hieronimus:
-Ihr Urtheil ist zu allgemein! Der aufgebrachte, zornige Mann spricht noch aus ihnen. Ich will ihnen rathen, und als ein Freund beystehen. Folgen sie mir jezt und suchen sie sich erst Ruhe auf. Der Schlaf wird die Schrekkenbilder ausloschen, die mit so tiefen Zügen in ihr Herz geäzt sind. 
-@Montenegro::
-Schlaf? Der Todesschlaf wird mein erster wieder seyn. Mein Herz predigts mir. 
+Ihr Urtheil ist zu allgemein! Der aufgebrachte, zornige Mann spricht noch aus ihnen. Ich will ihnen rathen, und als ein Freund beystehen. Folgen sie mir jezt und suchen sie sich erst Ruhe auf. Der Schlaf wird die Schrekkenbilder auslöschen, die mit so tiefen Zügen in ihr Herz geäzt sind. 
+@Monten:
+Schlaf? Der Todesschlaf wird mein erster wieder seyn. Mein Herz predigt’s mir. 
 @Hieronimus:
 Martern sie sich mit diesem heßlichen Wahn nicht. Sie werden ein Selbstmörder. (Hilft ihn vom Stuhl auf und führt ihn ab) Ist ihnen dieser Name so kleindeutend? 
-@Montenegro::
-Ich fürchte jede Sünde, ich fürchte auch diese. — — Sie sollen bey mir bleiben, bis ich ins Grab sinke. Hören sie das ängstliche Schlagen meiner Brust? Es wird bald, bald mit mir aus seyn. Höchstens wenige Tage noch bin ich Bürger dieser argen Welt. (hende ab.) <pb n="66"/>
+@Monten:
+Ich fürchte jede Sünde, ich fürchte auch diese. – – Sie sollen bey mir bleiben, bis ich ins Grab sinke. Hören sie das ängstliche Schlagen meiner Brust? Es wird bald, bald mit mir aus seyn. Höchstens wenige Tage noch bin ich Bürger dieser argen Welt. 
+$(beyde ab.) <pb n="66"/>
 #Vierter Aufzug.
 ##Erster Auftrit.
-$ Ein Vorsaal in Montenegro's Schloß, den eine Lampe ganz schwach erleuchtet 
-$ Katelli allein, kurt angezogen, in einen Mantel verhüllt und einen blossen Degen in der Hand haltend. 
-@Katelli:
-(Nach dem Gartenfenster zu) Bald wird der Mond ausgehen, und ich noch ohne dem Mädchen? Muß sie noch leiden lassen, ohne dem Strom meiner Rache freyen Lauf geben zu können? Und Pedrillo? — Gedulde dich, liebe Seele! Er soll büssen! Heute noch! — Wie alles so still ist; alles sich zur Ruhe rüstet! Vom Fürsten an, bis zu dem Wurm, der an seinen Thron nagt; nur ich nicht! Holder Schlaf, du warst ost der Tröster meines schwärmenden Geistes; aber jezt ist deine Hülfe zu schwach. Er hat seine Schranken gesprengt; ist das schäumende wilde Roß, das jedem zu muthig ist. — Wie unter Ungeheur, die auf mich einkrallen, steh ich hier! Erbarmer genug um mich her, aber kein Retter! — Was ist doch der Mensch für ein schwaches, furchtsames Ding! Schuchtern und unentschlossen steh' ich da, und weiß nicht welchen Weg ich wandeln soll. Auf der einen Seite kettet heisse Liebe und tolle <pb n="67"/> Wuth, zu allem bereit, was menschliche Natur noch übersteiget, meinen Fuß; und auf der andern Seite rust mir der Hang, der allen Menschen angebohren ist, der Hang zum Leben zu:
-Entstiehe, Klimme über Felsen hinweg! — Was soll ich nun thun? Hier harren und mit dem Schiksal hadern, ist mir Trost auf keiner Seite. Soll ich meine Franziska verlassen? Oder geduldig zusehen, wennn man sie in die Wolssgrube hineinwirst? Nein! Ich will für sie hineinspringen, und mit den tobenden Bestien kämpfen. Oder ich will ihr selbst den Dolch ins Herz rennen, wenn ich sie nicht retten kann, und dann von ihrer welkenden Wange, von ihren erblaßten Lippen den Tod auch für mich abküssen! — Aber warum weil' ich deshalb hier, wo die Hippe des Todes schon um meinen Kopf herumschwirtt? Er hat mich hereinschlüpfen sehen, und sinnt jezt schon vor der Thür des Schlosses den rauhsten Weg zum Tode für mich 
+$Ein Vorsaal in Montenegro’s Schloß, den eine Lampe ganz schwach erleuchtet 
+$Katelli allein, kurz angezogen, in einen Mantel verhüllt und einen blossen Degen in der Hand haltend. 
+$(Nach dem Gartenfenster zu) Bald wird der Mond aufgehen, und ich noch ohne dem Mädchen? Muß sie noch leiden lassen, ohne dem Strom meiner Rache freyen Lauf geben zu können? Und Pedrillo? – Gedulde dich, liebe Seele! Er soll büssen! Heute noch! – Wie alles so still ist; alles sich zur Ruhe rüstet! Vom Fürsten an, bis zu dem Wurm, der an seinen Thron nagt; nur ich nicht! Holder Schlaf, du warst oft der Tröster meines schwärmenden Geistes; aber jezt ist deine Hülfe zu schwach. Er hat seine Schranken gesprengt; ist das schäumende wilde Roß, das jedem zu muthig ist. – Wie unter Ungeheur, die auf mich einkrallen, steh’ ich hier! Erbarmer genug um mich her, aber kein Retter! – Was ist doch der Mensch für ein schwaches, furchtsames Ding! Schüchtern und unentschlossen steh’ ich da, und weiß nicht welchen Weg ich wandeln soll. Auf der einen Seite kettet heisse Liebe und tolle <pb n="67"/> Wuth, zu allem bereit, was menschliche Natur noch übersteiget, meinen Fuß; und auf der andern Seite ruft mir der Hang, der allen Menschen angebohren ist, der Hang zum Leben zu: Entfliehe, Katelli! Klimme über Felsen hinweg! – Was soll ich nun thun? Hier harren und mit dem Schiksal hadern, ist mir Trost auf keiner Seite. Soll ich meine Franziska verlassen? Oder geduldig zusehen, wenn man sie in die Wolfsgrube hineinwirft? Nein! Ich will für sie hineinspringen, und mit den tobenden Bestien kämpfen. Oder ich will ihr selbst den Dolch ins Herz rennen, wenn ich sie nicht retten kann, und dann von ihrer welkenden Wange, von ihren erblaßten Lippen den Tod auch für mich abküssen! – Aber warum weil’ ich deshalb hier, wo die Hippe des Todes schon um meinen Kopf herumschwirrt? Er hat mich hereinschlüpfen sehen, und sinnt jezt schon vor der Thür des Schlosses den rauhsten Weg zum Tode für mich aus. 
 ##Zweyter Auftrit.
-$ Katelli und Anton. 
+$Katelli und Anton. 
 @Anton:
-Endlich find' ich sie, nachdem ich weit und breit herumgelaufen bin. Um ihres alten Vaters, um die lezten Worte des alten Montenegro's bitt ich sie, retten sie sich. <pb n="68"/> Katelli.
-Wieder ein Schlag, derb, wie die ersten! Er ist tod? Tod, Franziska's Vater, mein Vater? 
+Endlich find’ ich sie, nachdem ich weit und breit herumgelaufen bin. Um ihres alten Vaters, um die lezten Worte des alten Montenegro’s bitt’ ich sie, retten sie sich. 
 @Katelli:
-Endlich find' ich sie, nachdem ich weit und breit herumgelaufen bin. Um ihres alten Vaters, um die lezten Worte des alten Montenegro's bitt ich sie, retten sie sich. <pb n="68"/> Katelli.
-Wieder ein Schlag, derb, wie die ersten! Er ist tod? Tod, Franziska's Vater, mein Vater? 
+<pb n="68"/>  Wieder ein Schlag, derb, wie die ersten! Er ist tod? Tod, Franziska’s Vater, mein Vater? 
 @Anton:
-Noch nicht, aber bald wird's mit ihm aus seyn. Ein guter ehrlicher Pfaff ist mit ihm nach Madrit gefahren. Noch im Wagen schlug er die Hände zusammen und lallte mit bebender Stimme:
+Noch nicht, aber bald wird’s mit ihm aus seyn. Ein guter ehrlicher Pfaff ist mit ihm nach Madrit gefahren. Noch im Wagen schlug er die Hände zusammen und lallte mit bebender Stimme:
 Franziska, Katelli, Rettung! 
 @Katelli:
-Bey jedem Tröpfchen meines Bluts schwör ich dir, daß ich dich retten will! 
+Bey jedem Tröpfchen meines Bluts schwör’ ich dir, daß ich dich retten will! 
 @Anton:
 Misbrauchen sie die Zeit nicht, ich bitte sie um alles, was ihnen lieb ist. Pedrillo läuft mit knirschenden Zähnen ums Schloß. 
 @Katelli:
-(Nach einer langen Pause) Anton ich bin jezt auf einen besondern Entschluß gekommen. Kühn, aber gut, wenn er gelingt. Tiefsinnig irrt' ich an den Mauren von Madrit. Nicht fern von mir hört ich ein Gelispel. Ich schlich hin und vernahm, daß Pedrillo Blutrath über mich hielt. Ich ward aufmerksamer. Er trug seinem Niklas, so heißt der Bube, den er bey sich hat — auf, einen Priester zu holen, mit ihm ins Gefängniß zu meiner Franziska zu gehen, und sie auf seine Seite zu ziehen. Nun höre! du sollst dich verkleiden. Sollst mit einigen Leuten dem Gesindel aufpassen, und sie beide aufhehen lassen. Alsdenn will ich den Priester <pb n="69"/> spielen. Nur mußt du dahin sehen, daß keiner davon kömmt. 
+(Nach einer langen Pause) Anton ich bin jezt auf einen besondern Entschluß gekommen. Kühn, aber gut, wenn er gelingt. Tiefsinnig irrt’ ich an den Mauren von Madrit. Nicht fern von mir hört ich ein Gelispel. Ich schlich hin und vernahm, daß Pedrillo Blutrath über mich hielt. Ich ward aufmerksamer. Er trug seinem Niklas, so heißt der Bube, den er bey sich hat – auf, einen Priester zu holen, mit ihm ins Gefängniß zu meiner  Franziska zu gehen, und sie auf seine Seite zu ziehen. Nun höre! du sollst dich verkleiden. Sollst mit einigen Leuten dem Gesindel aufpassen, und sie beide aufheben lassen. Alsdenn will ich den Priester <pb n="69"/> spielen. Nur mußt du dahin sehen, daß keiner davon kömmt. 
 @Anton:
 Und er sollte nichts argwöhnen, wenn der Bube nicht zurük kommt? 
 @Katelli:
-Was zurükkommen! Er soll ja mit dem Priester ins Gefangniß gehen. Wie kann er denn zurükkommen? Sorge für sichere Leute. Zeit hast du genug. Sie werden erst um zwölf Uhr ins Inquisitionshaus gehen. 
+Was zurükkommen! Er soll ja mit dem Priester ins Gefängniß gehen. Wie kann er denn zurükkommen? Sorge für sichere Leute. Zeit hast du genug. Sie werden erst um zwölf Uhr ins Inquisitionshaus gehen. 
 @Anton:
-Ach! vergessen sie doch das, und retten sie sich! Pedrillo weiß, daß das Haus von allen Leuten aus Roth, aus Aberglauben und aus blinder Religion verlassen ist. Er wird hereinstürmen, Er wird sie aufsuchen und finden, und denn — ach! retten sie sich. 
+Ach! vergessen sie doch das, und retten  sie sich! Pedrillo weiß, daß das Haus von allen Leuten aus Noth, aus Aberglauben und aus blinder Religion verlassen ist. Er wird hereinstürmen. Er wird sie aufsuchen und finden, und denn – ach! retten sie sich. 
 @Katelli:
-Als wenn ich da sicherer wäre, wenn ich vor seinen Augen zur Thür herausginge. Ich wäre für ihn eine schlaraffenländische Taube. Thu', was ich dir gesagt habe. — Es soll mir lieb seyn, wenn er hereinkömmt, sonst muß ich zu ihm gehen. Ha! Ich will die Schlange mit List fangen! Nun geh! Du machst mich nur verwirrt. 
+Als wenn ich da sicherer wäre, wenn ich vor seinen Augen zur Thür herausginge. Ich wäre für ihn eine schlaraffenländische Taube. Thu’, was ich dir gesagt habe. – Es soll mir lieb seyn, wenn er hereinkömmt, sonst muß ich zu ihm gehen. Ha! Ich will die Schlange mit List fangen! Nun geh! Du machst mich nur verwirrt. 
 @Anton:
-Sie gehen gewiß wieder auf irrigen Wegen. Ihr verwirrter Blik sagt's mir. Setzen sie sich in Sicherheit, und denn suchen sie sich ein paar Freunde. Ihr gutes Herz wird sie leicht finden. <pb n="70"/> Seyn sie offenherzig gegen sie, und führen sie mit ihnen ihre Sache aus. 
+Sie gehen gewiß wieder auf irrigen Wegen. Ihr verwirrter Blik sagt’s mir. Setzen sie sich in Sicherheit, und denn suchen sie sich ein paar Freunde. Ihr gutes Herz wird sie leicht finden. <pb n="70"/> Seyn sie offenherzig gegen sie, und führen sie mit ihnen ihre Sache aus. 
 @Katelli:
-Ja, Freunde! Wo soll ich sie suchen, in einem Lande voll Falschheit und Arglist? Ich machte mich zum verunglükten Mann in den Wellen des tobenden Meers, der sich nach ein Bret umsieht, um sich des Schwimmen zu erleichtern. Entweder er sucht umsonst, oder er findet's und klimmet hinauf. Aber es ist zu leicht ihn zu tragen. Es schlägt um und wirft ihn noch tausend Schritte dem Tode näher. Solche Bretter sind spanische Freunde. Nein, ich will meine Last allein tragen. Ofsenherzigkeit ist ein Jek, der Kisten und Kasten für Jedermann aufschließt, und, wenn sie ausgepakt sind, fremde Hande mit seiner Waare wuchern sieht, ohne Nutzen davon zu haben. 
+Ja, Freunde! Wo soll ich sie suchen, in einem Lande voll Falschheit und Arglist? Ich machte mich zum verunglükten Mann in den Wellen des tobenden Meers, der sich nach ein Bret umsieht, um sich des Schwimmen zu erleichtern. Entweder er sucht umsonst, oder er findet’s und klimmet hinauf. Aber es ist zu leicht ihn zu tragen. Es schlägt um und wirft ihn noch tausend Schritte dem Tode näher. Solche Bretter sind spanische Freunde. Nein, ich will meine Last allein tragen. Offenherzigkeit ist ein Jek, der Kisten und Kasten für Jedermann aufschließt, und, wenn sie ausgepakt sind, fremde Hände mit seiner Waare wuchern sieht, ohne Nutzen davon zu haben. 
 @Anton:
 Denken sie doch nicht so böse. 
 @Katelli:
-Laß deine Philosophien jezt weg und geh! Fürchte nichts! Die gerechte Sache geht vor. uns her! Alle Schuld fällt auf ihn. Er vertändelt sein Leben. Wenn er mir meine Franziska da⸗' heim führen läßt, so soll das Erbarmen meine Blutgierde unterdrükken. (horcht auf ein Geräusch hinter' der Bühne) Geh, Anton, hinten hinaus und halt dich rüstig! 
+Laß deine Philosophien jezt weg und geh! Fürchte nichts! Die gerechte Sache geht vor uns her! Alle Schuld fällt auf ihn. Er vertändelt sein Leben. Wenn er mir meine Franziska daheim führen läßt, so soll das Erbarmen meine Blutgierde unterdrükken. (horcht auf ein Geräusch hinter der Bühne) Geh’, Anton, hinten hinaus und halt dich rüstig! 
 @Anton:
 (geht) Der Himmel sey dein Begleiter! Und wenn du fällst, so schikke mir deinen <pb n="71"/> Geist. Ich folge dir gewiß. Was muß es nicht für ein gutes Sterben seyn, wenn man für seinen Herrn stirbt. (ab.) 
 ##Dritter Auftrit.
-$ Katelli (allein) 
+@Katelli allein. 
 ##Vierter Auftrit.
-$ Katelli. (verhüllt sich etwas in Mantel), Pedrillo (kurz angezogen, den Degen unter den Arm haltend und den Huth ins Gesicht gedrükt.) 
+$Katelli. (verhüllt sich etwas in Mantel), Pedrillo (kurz angezogen, den Degen unter den Arm haltend und den Huth ins Gesicht gedrükt.) 
 @Pedrillo:
-(Im Hintergrunde der Bühne) Licht? Ich glaub', ich find' ihn. Wenigstens find' ich hier doch Schutz für Regen und Sturm. (Nach einer Pause zu Katelli) Bist du ein Geist, oder wer bist du? 
+(Im Hintergrunde der Bühne) Licht? Ich glaub’, ich find’ ihn. Wenigstens find’ ich hier doch Schutz für Regen und Sturm. (Nach einer Pause zu Katelli) Bist du ein Geist, oder wer bist du? 
 @Katelli:
-Man nenne mich, wie man will. Meinen Nahmen sag ich keinen. 
+Man nenne mich, wie man will. Meinen Nahmen sag’ ich keinen. 
 @Pedrillo:
 Hast du Verrichtung hier? 
 @Katelli:
-Eines Schurken harr' ich, den ich aufsptessen will. Seinen Namen kann ich nicht sagen. Er lähmt mir die Zunge. <pb n="72"/> heißt? Und keine Minute darfst du länger zögern? 
+Eines Schurken harr’ ich, den ich aufspiessen will. Seinen Namen kann ich nicht sagen. Er lähmt mir die Zunge. 
+@Pedrillo:
+<pb n="72"/>  Deine Worte sind Räzel. Wie du heißt? Und keine Minute darfst du länger zögern? 
 @Katelli:
-(Nach einer langen Paufe.) Niklas schikt mich. 
+(Nach einer langen Pause.) Niklas schikt mich. 
 @Pedrillo:
 Deinen Namen will ich wissen. 
 @Katelli:
@@ -867,48 +856,48 @@ Kennt dich Niklas?
 @Katelli:
 Ja. Er ist eben auf der Gasse von einem Mailänder niedergestossen, den ich aufsuche. Er hat mir aufgetragen, zu Pedrillo zu sagen, er schikke mich, seinem Mörder aufzupassen und für Pedrillo einen Priester zu bestellen. Wozu? weiß ich nicht. Der Tod schnit seine Worte ab. 
 @Pedrillo:
-Der Teufel! kennst du mich denn nicht? Ich bin So einen wakkern Schaz hätt ich hier nicht gesucht. Gib mir die Hand. 
+Der Teufel! kennst du mich denn nicht? Ich bin  So einen wakkern Schaz hätt ich hier nicht gesucht. Gib mir die Hand. 
 @Katelli:
 Wenn ich mich rühre, so wird mein Blut toll. Genug ich führe Niklas Sache. 
 @Pedrillo:
-So mußt du mir einen schlauen Priester um zwölf Uhr in's Inquisitions, Gefängniß einer gewissen Franziska Montenegro bestellen. Er soll sie durch Drohungen und Versprechungen auf meine Seite zu bringen suchen. 
+So mußt du mir einen schlauen Priester um zwölf Uhr in’s Inquisitions-Gefängniß einer gewissen Franziska Montenegro bestellen. Er soll sie durch Drohungen und Versprechungen auf meine Seite zu bringen suchen. 
 @Katelli:
-Franziska also? Hm! Nun bekomm ich Licht in der Sache. Zum sterben ist sie auch zu schön. Ich kenn einen Priester. Er geht immer <pb n="73"/> mit mir. Ich trau' ihm Kopfs genug zu, das Ding recht gut zu machen. Und wenn sie mir ein gutes Wort geben — glauben sie's, meine kist geht über alles — so bring ich den Liebhaber der Franziska, wie heißt er doch — je nun! — den Mailänder, auch mit. 
+Franziska also? Hm! Nun bekomm’ ich Licht in der Sache. Zum sterben ist sie auch zu schön. Ich kenn’ einen Priester. Er geht immer <pb n="73"/> mit mir. Ich trau’ ihm Kopfs genug zu, das Ding recht gut zu machen. Und wenn sie mir ein gutes Wort geben – glauben sie’s, meine List geht über alles – so bring’ ich den Liebhaber der Franziska, wie heißt er doch – je nun! – den Mailänder, auch mit. 
 @Pedrillo:
 Hör! wenn du das kannst, alles, was du willst, sollst du haben. 
 @Katelli:
-Genug, er muß gehen, wohin ich will. Ich könnt ihm die Augen gleich zudrükken, aber ich denke immer; spare den Stoß bis auf bedrängtern Zeiten. 
+Genug, er muß gehen, wohin ich will. Ich könnt’ ihm die Augen gleich zudrükken, aber ich denke immer; spare den Stoß bis auf bedrängtern Zeiten. 
 @Pedrillo:
-Ich glaube, dein Kopf denkt sich so etwas von Kaiserthümern und Pabstmützen. Du sprichst gar zu klug. — Sorge mir nur für den Priester und wenn du ihn obendrein in meine Hände schafst, so hast du dein Glük gemacht. 
+Ich glaube, dein Kopf denkt sich so etwas von Kaiserthümern und Pabstmützen. Du sprichst gar zu klug. – Sorge mir nur für den Priester und wenn du ihn obendrein in meine Hände schafst, so hast du dein Glük gemacht. 
 @Katelli:
-Es bleibt bey allem, was abgeredet ist. (Es wird im Hintergrunde der Bühne hell.) 
+Es bleibt bey allem, was abgeredet ist. 
+$(Es wird im Hintergrunde der Bühne hell.) 
 @Pedrillo:
 Was ist da? Wer kömmt? 
 @Katelli:
-Ich glaub, es ist Feuer. (Geht näher) Eine Leiche! 
+Ich glaub’, es ist Feuer. (Geht näher) Eine Leiche! 
 @Pedrillo:
-Laß! Ich bin ja in der Messe gewesen. (Wird immer furchtsamer und geht auf und nieder) Wenn mie die Rechnung zu srüh durchstrlte chen würde! <pb n="74"/>
+Laß! Ich bin ja in der Messe gewesen.  (Wird immer furchtsamer und geht auf und nieder) Wenn mir die Rechnung zu früh durchstrichen würde! 
 @Katelli:
-Sie sind, wie die straffe Eiche im Walde. Bey heitern Wetter steht sie da, und stolziert. Kömmt ein Sturm, so zittert sie vom Haupt, bis zum Fuß. Ihr Zittern macht die Wurzel los und sie fällt. Sorgen sie also fuür die Wurzel, mein Herr. 
+<pb n="74"/>  Sie sind, wie die straffe Eiche im Walde. Bey heitern Wetter steht sie da, und stolziert. Kömmt ein Sturm, so zittert sie vom Haupt, bis zum Fuß. Ihr Zittern macht die Wurzel los und sie fällt. Sorgen sie also für die Wurzel, mein Herr. 
 ##Vierter Auftrit.
-$ Die Vorigen. 
-$(Vier Vermummte tragen langsam Schrit vor Schrit einen Sarg in Tüchern. In der andern Hand Fakkeln. Der Sarg ist schwarz und am Dekkel brennt Pedrillo's Name.) 
+$Die Vorigen. 
+$(Vier Vermummte tragen langsam Schrit vor Schrit einen Sarg in Tüchern. In der andern Hand Fakkeln. Der Sarg ist schwarz und am Dekkel brennt Pedrillo’s Name.) 
 @Pedrillo:
 Mein Name? Beym Teufel, wenn die Ahndung träfe; Es fehlt nichts, als daß ich mir selbst aus Verzweiflung den Degen durch den Leib züge! (läuft verwirrt herum) 
 @Katelli:
 Wessen Leiche, Männer? (Sarg nieder. Ein Vermummter trit vor und zeigt auf den Namen!) 
 @Pedrillo:
-Verflucht ihr Boten des Todes! Aber — auf eurer Stirn thront die Lüge. Ihr seyd Betrüger, von Katelli gedungen, mich mit Angst und Schrekken zu bedrängen, daß ich ihm sein elendes Leben schenken soll. Eure Kühnheit schmachtet nach Lohn. (Wil mit den Degen sosfen, fährt aber erschrokken zutüt.) <pb n="75"/> Der Vermummte.
-(Mit tiefer murmelnder Stimme.) Wir sind Botschafter der Wahrheit! Ein Kläger geht vor dir und zwey Urthelsprecher folgen. Wehe, wehe dir! 
+Verflucht ihr Boten des Todes! Aber – auf eurer Stirn thront die Lüge. Ihr seyd Betrüger, von Katelli gedungen, mich mit Angst und Schrekken zu bedrängen, daß ich ihm sein elendes Leben schenken soll. Eure Kühnheit schmachtet nach Lohn. (Will mit den Degen stossen, fährt aber erschrokken zurük.) 
 @Der Vermummte:
-Verflucht ihr Boten des Todes! Aber — auf eurer Stirn thront die Lüge. Ihr seyd Betrüger, von Katelli gedungen, mich mit Angst und Schrekken zu bedrängen, daß ich ihm sein elendes Leben schenken soll. Eure Kühnheit schmachtet nach Lohn. (Wil mit den Degen sosfen, fährt aber erschrokken zutüt.) <pb n="75"/> Der Vermummte.
-(Mit tiefer murmelnder Stimme.) Wir sind Botschafter der Wahrheit! Ein Kläger geht vor dir und zwey Urthelsprecher folgen. Wehe, wehe dir! 
+<pb n="75"/>  (Mit tiefer murmelnder Stimme.) Wir sind Botschafter der Wahrheit! Ein Kläger geht vor dir und zwey Urthelsprecher folgen. Wehe, wehe dir! 
 @Pedrillo:
-(zu Katelli) Und du sahst nichts? Eine Hand fuhr mir ubers Gesicht; zog mir den Arm nieder. 
+(zu Katelli) Und du sahst nichts? Eine Hand fuhr mir übers Gesicht; zog mir den Arm nieder. 
 @Katelli:
-(bey Seite) Wen doch Gewissen sticht! (Die Leiche ab mit dumpfen murmelnden Gesange.) 
+(bey Seite) Wen doch Gewissen sticht! 
+$(Die Leiche ab mit dumpfen murmelnden Gesange.) 
 ##Fünfter Auftrit.
-$ Katelli und Pedrillo. 
+$Katelli und Pedrillo. 
 @Katelli:
 Eine böse Ahndung. 
 @Pedrillo:
@@ -918,27 +907,27 @@ Einer geht vor ihm und zwey folgen ihm nach!
 @Pedrillo:
 Du zählst dich doch nicht unter sie? 
 @Katelli:
-Das Räzel wär' ihnen sonst zu groß! 
+Das Räzel wär’ ihnen sonst zu groß! 
 @Pedrillo:
-Träumer! — Wie dich das bischen Dunkel durchwurmt? Wozu der Wahnsinn? — Ahndung! Ahndungen gehören den Weibern mit wakkelnden Zähnen. — Dank dem Himmel, daß <pb n="76"/> ich wieder Vernunft habe! Ich bin wieder der, der ich immer war, und es soll nichts kommen, das mich von meinem Wege wegreissen kann. — Du hast wohl alles wieder drüber vergessen? 
+Träumer! – Wie dich das bischen Dunkel durchwurmt? Wozu der Wahnsinn? – Ahndung! Ahndungen gehören den Weibern mit wakkelnden Zähnen. – Dank dem Himmel, daß <pb n="76"/> ich wieder Vernunft habe! Ich bin wieder der, der ich immer war, und es soll nichts kommen, das mich von meinem Wege wegreissen kann. – Du hast wohl alles wieder drüber vergessen? 
 @Katelli:
-Der Priester und er — wie heißt er doch? 
+Der Priester und er – wie heißt er doch? 
 @Pedrillo:
 Und Katelli. 
 @Katelli:
 Und kömmt, und ich auch. Sie brauchen mich doch? 
 @Pedrillo:
-Das halte, wie du willst. Besser, du kömmst. Aber sage dem Pfaffen, daß er sich von dem albern Grimme des Mädchens nicht täuschen laßt. Sie ist ausser sich. Ganz natürlich; es ist ihr da alles sehr bunt vor den Augen. 
+Das halte, wie du willst. Besser, du kömmst. Aber sage dem Pfaffen, daß er sich von dem albern Grimme des Mädchens nicht täuschen läßt. Sie ist ausser sich. Ganz natürlich; es ist ihr da alles sehr bunt vor den Augen. 
 @Katelli:
-Der Priester wird's gewiß so gut machen, als ich und sie es ihm sagen können. Ich halte mein Wort gewiß. Aber sie müssen dafür sorgen, daß dem Priester der Eintrit nicht verwehrt wird. Sie müssen überhaupt die Arbeit mir zu erleichtern sichen. 
+Der Priester wird’s gewiß so gut machen, als ich und sie es ihm sagen können. Ich halte mein Wort gewiß. Aber sie müssen dafür sorgen, daß dem Priester der Eintrit nicht verwehrt wird. Sie müssen überhaupt die Arbeit mir zu erleichtern suchen. 
 @Pedrillo:
-An mir wird's nicht fehlen. Aber ich weiß nicht, was mir hier so täuschend vor den Augen schwebt? Komm mit mir. Es läuft mir so kalt über. 
+An mir wird’s nicht fehlen. Aber ich weiß nicht, was mir hier so täuschend vor den Augen schwebt? Komm mit mir. Es läuft mir so kalt über. 
 @Katelli:
-In einer halben Stunde bin ich da. Jezt werd ich hier bleiben, und meinen Plan wei <pb n="77"/> ter studiren. Es ist kein Ort, der mich mehr dazu aufmuntern könnte, als dieser. 
+In einer halben Stunde bin ich da. Jezt werd’ ich hier bleiben, und meinen Plan weiter <pb n="77"/> studiren. Es ist kein Ort, der mich mehr dazu aufmuntern könnte, als dieser. 
 @Pedrillo:
-Prüfe mir nur den Priester vorher, ob du ihm trauen darfst. Sag' ihm nichts überflissiges. 
+Prüfe mir nur den Priester vorher, ob du ihm trauen darfst. Sag’ ihm nichts überflüssiges. 
 @Katelli:
-Er kann sich selbst nicht besser kennen, als ich ihn kenne. Alles was ich weiß, weiß er auch. Und solle's nicht recht mit ihm gehen wolt len, so stoss' ich ihn nieder. 
+Er kann sich selbst nicht besser kennen, als ich ihn kenne. Alles was ich weiß, weiß er auch. Und sollt’s nicht recht mit ihm gehen wollen, so stoss’ ich ihn nieder. 
 @Pedrillo:
 Alles, wie du willst. Nur halt mich hier nicht länger auf, und sprich wenn du noch zu sprechen hast. 
 @Katelli:
@@ -946,53 +935,53 @@ Nichts mehr.
 @Pedrillo:
 Lieber Jahre lang im Abgrund der Erde, als hier noch eine Minute. (ab.) 
 ##Sechster Auftrit.
-$ Katelli allein. 
+@Katelli allein. 
 $(Nach einer langen Pause.) 
-@Katelli:
-Gottlob, daß ich den Kampf gekämpfet habe. Es war ein arger Kampf. Aber, — (langsam) Zweye folgen ihm! — Gott, bald tod! denn lange frist ich ihm sein Leben nicht! Ich ihm folgen? Auch deshalb schon' ich dich nicht, wenn du mir nicht meiFranziska gibst. — Noch gehen die Propheten des <pb n="78"/> Himmels vor mir her! Mein Auge sieht sie noch immer. — Ich soll sein Richter seyn? das Amt nehm' ich willig, nehm' ich mit Freuden. Um alle Schätze der Welt schlüg' ich's nicht aus. Aber sterben! Wie das Vorherwissen so schreklich ist! Doch, Mensch, was ist dein Streben wider Schiksal? Wir können nichts thun, als uns die Wege die es uns zeigt, leicht machen, und das will ich thun. Ich will meine Seele rüsten. <pb n="79"/>
+$Gottlob, daß ich den Kampf gekämpfet habe. Es war ein arger Kampf. Aber, – (langsam) Zweye folgen ihm! – Gott, bald tod! denn lange frist’ ich ihm sein Leben nicht! Ich ihm folgen? Auch deshalb schon’ ich dich nicht, wenn du mir nicht meine Franziska gibst. – Noch gehen die Propheten des <pb n="78"/> Himmels vor mir her! Mein Auge sieht sie noch immer. — Ich soll sein Richter seyn? das Amt nehm’ ich willig, nehm’ ich mit Freuden. Um alle Schätze der Welt schlüg’ ich’s nicht aus. Aber sterben! Wie das Vorherwissen so schreklich ist! Doch, Mensch, was ist dein Streben wider Schiksal? Wir können nichts thun, als uns die Wege die es uns zeigt, leicht machen, und das will ich thun. Ich will meine Seele rüsten. <pb n="79"/>
 #Fünfter Aufzug.
-$ Ein Gesängniß, welches von einer Lampe, die im Hintergrunde desselben hängt, schwach erleuchtet wird. Auf der Seite, der Thür gegenüber, ein Bette. 
+$ Ein Gefängniß, welches von einer Lampe, die im Hintergrunde desselben hängt, schwach erleuchtet wird. Auf der Seite, der Thür gegenüber, ein Bette. 
 ##Erster Auftrit.
 $ Franziska allein (geht mit zerrissenen Haaren wild herum.) 
 @Franziska:
-(Nach einer langen Pause.) Ha! mein Katelli! Ich seh' ihn streiten! Streit, braver Junge, streit, wie der Mann unter Tausenden! — Bet zu Gott:
-Er übermannt dich! Fasse Muth! Engel schüzen dich! Sie brechen dir schon den Lorbeer! — — Wirf ihn nieder und reiß ihm sein Bubenherz heraus! Katelli! Katelli! dein Arm sinkt! Sieg, Sieg dir, Katelli! Sieh, wie er mit den Händen den Erdboden zerreißt! mit den Zähnen Steine zerknirscht! — Eh er sich ermannt, Katelli! — Horch! jezt stößt er seinen lezten Fluch aus! — Wehe dir, Katelli, daß du ihn nicht länger geveinigt hast! Schon tod! tod? daß er nicht noch einmal sterben kann! (Sie fällt entkräftet aufs Bette, und richtet sich nach einiger Zeit wieder auf.) Sey mir willkommen, mein Bester! Du hast rit <pb n="80"/> tersam gestritten. Eil in meine Arm; sollst dich erholen! — Wie du so keichst! (als wenn sie ihn küßt) Wie dieser Kuß so süß ist, dieser heisse Kuß der Liebe! — Heute noch ist unsre Hochzeit. Weist du's Lieber? Und kein Priester soll uns dazwischen kommen. (Nach einer langen Pause.) Aber sieh! Ein neuer Kampf! Legionen Teufel! Sie reissen sich um seine Seele! Sieh! Schulknaben, sich um eine wurmstichige Haselnuß raufend! — Sie ziehen mit ihm fort! — Teufel hört! ruft euch! Laßt die andern Verbrecher alle, eine Stunde ruhen! Täglich eine Stunde! und dann über ihn allein! Es ist Pedrillo! Jezt mogt' ich wünschen, ein Teufel zu seyn! Aber Mädchenarm ist zur Qual seines Gebeins zu schwach! (sezt sich matt nieder.) 
+(Nach einer langen Pause.) Ha! mein Katelli! Ich seh' ihn streiten! Streit, braver Junge, streit, wie der Mann unter Tausenden! — Bet zu Gott! Er übermannt dich! Fasse Muth! Engel schüzen dich! Sie brechen dir schon den Lorbeer! — — Wirf ihn nieder und reiß ihm sein Bubenherz heraus! Katelli! Katelli! dein Arm sinkt! Sieg, Sieg dir, Katelli! Sieh, wie er mit den Händen den Erdboden zerreißt! mit den Zähnen Steine zerknirscht! — Eh er sich ermannt, Katelli! — Horch! jezt stößt er seinen lezten Fluch aus! — Wehe dir, Katelli, daß du ihn nicht länger gepeinigt hast! Schon tod! tod? daß er nicht noch einmal sterben kann! (Sie fällt entkräftet aufs Bette, und richtet sich nach einiger Zeit wieder auf.) Sey mir willkommen, mein Bester! Du hast rit <pb n="80"/> tersam gestritten. Eil in meine Arm; sollst dich erholen! — Wie du so keichst! (als wenn sie ihn küßt) Wie dieser Kuß so süß ist, dieser heisse Kuß der Liebe! — Heute noch ist unsre Hochzeit. Weist du's Lieber? Und kein Priester soll uns dazwischen kommen. (Nach einer langen Pause.) Aber sieh! Ein neuer Kampf! Legionen Teufel! Sie reissen sich um seine Seele! Sieh! Schulknaben, sich um eine wurmstichige Haselnuß raufend! — Sie ziehen mit ihm fort! — Teufel hört! ruft euch! Laßt die andern Verbrecher alle, eine Stunde ruhen! Täglich eine Stunde! und dann über ihn allein! Es ist Pedrillo! Jezt mögt' ich wünschen, ein Teufel zu seyn! Aber Mädchenarm ist zur Qual seines Gebeins zu schwach! (sezt sich matt nieder.) 
 ##Zweyter Auftrit.
 $ Franziska, Katelli in Priesterkleidern und ein Gefangenwärter. 
 @Gefangenwärter:
 Dort auf dem Bette. Aber nehmen sie sich in Acht! Sie raset, oder ist wenigstens auf dem Weg zur Raserey. 
 @Katelli:
-(Mit gezwungener Stimme) Deshalb komm ich. Ich wil sie wieder zur Vernunft brin <pb n="81"/> gen. — Ihr könnt nur gehen. Ich will mit ihr allein seyn. 
-@Gefangenwärter:
+(Mit gezwungener Stimme) Deshalb komm ich. Ich will sie wieder zur Vernunft brin <pb n="81"/> gen. — Ihr könnt nur gehen. Ich will mit ihr allein seyn. 
+@Gefangenw::
 Wenn mir mein Leben lieb ist, so muß ich hier bleiben. 
 @Katelli:
 Die heiligen Gerichte haben einen Priester nicht zu fürchten. (Gefangenwärter ab.) 
 ##Dritter Auftrit.
 $ Franziska und Katelli. 
 @Franziska:
-(Auffahrend und schüchtern sich umsehend. Nach einer langen Pause.) Wehe, wehe! Sie haben ihn verlohren! — (Sanftmüthig) Seine Seele ist nicht hier! Laßt mich! (Nach einer Pause. Stark) Weich Satan, weich! Sieh, ich bin kein schwaches Mädchen! (zeigt ihm die Hand) Dolch und Schwert! Und wenn ich streite, streitet mein Katelli mit mir. Katelli! Katelli, zum Kampf 
+(Auffahrend und schüchtern sich umsehend. Nach einer langen Pause.) Wehe, wehe! Sie haben ihn verlohren! — (Sanftmüthig) Seine Seele ist nicht hier! Laßt mich! (Nach einer Pause. Stark) Weich Satan, weich! Sieh, ich bin kein schwaches Mädchen! (zeigt ihm die Hand) Dolch und Schwert! Und wenn ich streite, streitet mein Katelli mit mir. Katelli! Katelli, zum Kampf! 
 @Katelli:
-(Steht wie in Betäubung.) Bin ich denn gemacht, um zur Probe zu dienen, wieviel Lasten Misgeschiks ein Menschenrükken tragen kann? — Franziska! <pb n="82"/>
+(Steht wie in Betäubung.) Bin ich denn gemacht, um zur Probe zu dienen, wieviel Lasten Misgeschiks ein Menschenrükken tragen kann? — Franziska! - Franziska. Ja! Franziska. heiß' ich. <pb n="82"/>  Ich bin dein  
+@Franziska:
+(Steht wie in Betäubung.) Bin ich denn gemacht, um zur Probe zu dienen, wieviel Lasten Misgeschiks ein Menschenrükken tragen kann? — Franziska! - Franziska. Ja! Franziska. heiß' ich. <pb n="82"/>  Ich bin dein  
 @Katelli:
-Ich bin dein 
+(Steht wie in Betäubung.) Bin ich denn gemacht, um zur Probe zu dienen, wieviel Lasten Misgeschiks ein Menschenrükken tragen kann? — Franziska! - Franziska. Ja! Franziska. heiß' ich. <pb n="82"/>  Ich bin dein  
 @Franziska:
 Weg! Katelli ist kein Teufel. 
 @Katelli:
-Ich schwör's dir, daß ich bin. Ich komme, dich dieser Zelle des Schrekkens zu entführen. 
+Ich schwör’s dir, daß ich bin. Ich komme, dich dieser Zelle des Schrekkens zu entführen. 
 @Franziska:
-Mich entführen? Was entführst du? Dies Bischen Haut und Knochen; mein Herz nicht! Aber — nein! mit dir allein, mein Katelli, geh' ich! (Sie legt sich nieder.) 
+Mich entführen? Was entführst du? Dies Bischen Haut und Knochen; mein Herz nicht! Aber – nein! mit dir allein, mein Katelli, geh’ ich! (Sie legt sich nieder.) 
 @Katelli:
-Wie mich Schmerz und Liebe von allen Seiten zusammenstoßen! Daß ich noch so viel Manns bin, meinen Geist zu ketten! Sonst war ich's nicht! Aber seine Fessein sind leichtes Spinnengewebe. Noch einen Stoß, und er wird sich losreissen. Ich werde herausstürmen und mit aller Rachgierde ihn aufsuchen! Aber der über uns alle wacht, wird dann dem brausenden Meer Ruhe winken. (trit näher an Franziska) Vielleicht überrascht sie der Schlaf! — Kein Odemzug? — Wenn ich, kommend, auf ihre Wange den Brautkuß zu drükken, ihr die Augen zudrükken müßte. Aber, wie ich mit gierigen Händen nach dem Bösen schnappe! als wenn ich allwissend voraussehen könnte, daß Ungluk ewig mein Loos seyn soll! — Nein! Sie wird ihre Kräste wieder sammlen; wird wieder das <pb n="83"/> sanstmüthige gefällige Mädchen seyn. Aber — soll ich ihr die schrekliche Ahndung entdekken, damit sie sich mit mir rüste? Ja, schreklich; aber doch gut! 
+Wie mich Schmerz und Liebe von allen Seiten zusammenstoßen! Daß ich noch so viel Manns bin, meinen Geist zu ketten! Sonst war ich’s nicht! Aber seine Fesseln sind leichtes Spinnengewebe. Noch einen Stoß, und er wird sich losreissen. Ich werde herausstürmen und mit aller Rachgierde ihn aufsuchen! Aber der über uns alle wacht, wird dann dem brausenden Meer Ruhe winken. (trit näher an Franziska) Vielleicht überrascht sie der Schlaf! – Kein Odemzug? – Wenn ich, kommend, auf ihre Wange den Brautkuß zu drükken, ihr die Augen zudrükken müßte. Aber, wie ich mit gierigen Händen nach dem Bösen schnappe! als wenn ich allwissend voraussehen könnte, daß Unglük ewig mein Loos seyn soll! – Nein! Sie wird ihre Kräfte wieder sammlen; wird wieder das <pb n="83"/> sanstmüthige gefällige Mädchen seyn. Aber — soll ich ihr die schrekliche Ahndung entdekken, damit sie sich mit mir rüste? Ja, schreklich; aber doch gut! 
 @Franziska:
-(Holt plötzlich stark Odem. Matt) Wie ich doch so schwach bin! — Kaum, daß ich noch diese schwache Luft aus meiner Brust herauspressen und wieder einsaugen kann. Was wär's mir auch besser, ob ich bin, oder nicht? Wenn ich nur erst meinen Katelli auf den Stufen des Himmels erwarten könnte! Armer, du leidest viel um mich! 
+(Holt plötzlich stark Odem. Mat.) Wie ich doch so schwach bin! — Kaum, daß ich noch diese schwache Luft aus meiner Brust herauspressen und wieder einsaugen kann. Was wär's mir auch besser, ob ich bin, oder nicht? Wenn ich nur erst meinen Katelli auf den Stufen des Himmels erwarten könnte! Armer, du leidest viel um mich! 
 @Katelli:
 Und du siehst mich nicht, Franziska? 
 @Franziska:
 Gott! Ein Priester und die Sprache Katelli's? 
 @Katelli:
-Ich bin da meine Liebe. Ich habe den Furien die Krallen gebunden. Du sollst mit mir ihrer Wuth entrinnen. Arme Unschuld! Der Himmel verzeihe dem, der ein solches Mädchen martern kann. Ich kanns nicht, denn ich, bin Mensch. 
+Ich bin da meine Liebe. Ich habe den Furien die Krallen gebunden. Du sollst mit mir ihrer Wuth entrinnen. Arme Unschuld! Der Himmel verzeihe dem, der ein solches Mädchen martern kann. Ich kanns nicht, denn ich bin Mensch. 
 @Franziska:
-Bester, wir wollen uns keinen weitern Gefahren unterziehen. Laß mich hier und geh. Genug, daß für ein Lamm die Schlachtbank bereitet ist. Ich sterbe jezt gern, denn du hast mie <pb n="84"/> Wonne drüber gegossen. Ich habe dich noch einmal gesehen. — Aber, Katelli, was dreistest du dich um nich? Du handelst als Jüngling, nicht als Mann. Heißt es nicht willig ins Grab hineinspringen, wenn man über diese Schwelle trit 
+Bester, wir wollen uns keinen weitern Gefahren unterziehen. Laß mich hier und geh. Genug, daß für ein Lamm die Schlachtbank bereitet ist. Ich sterbe jezt gern, denn du hast mir <pb n="84"/> Wonne drüber gegossen. Ich habe dich noch einmal gesehen. — Aber, Katelli, was dreistest du dich um nich? Du handelst als Jüngling, nicht als Mann. Heißt es nicht willig ins Grab hineinspringen, wenn man über diese Schwelle trit? 
 @Katelli:
 Unter dem Schuz dieses Anzugs und der Verstellung hab' ich's gewagt. Und noch mehr hätt' ich um dich gewagt! Er hat mir selbst die Thür geöfnet, so blind ist er. Unser Rükweg wird eben so sicher seyn. Ich habe doppelte Kleider. Eins bring' ich dir. 
 @Franziska:
@@ -1000,26 +989,26 @@ Du überdenkst nicht, was du thust. Wir müssen Argusaugen betrügen.
 @Katelli:
 Und du gehst zu behutsam. Ich habe ihnen eine veste Binde vor die Augen gebunden. 
 @Franziska:
-Das denkst du, Bester. Wenn dich aber nur eines mit halben schielenden Blikken sieht, so erwarten dich Todesmartern, im langen Blutrath erdacht. Dies mußt du vergessen. Aber ich hab' eine Bitte, die schlag mir nicht ab. Ich sitze hier, wie du weißt, bewahrt mit Unschuld; allein hier ist sie ein schwacher Schild. Ich muß sterben, in kurzer Zeit sterben. Ich sehe, du hast deigen Geist in Ruhe geszt. Kein Fünkchen Seime <pb n="85"/> mes spür ich in dir. Kaum sah ich dich, so merke ich's, und nahm dich zum Lehrer. Des nicht eingedenk, was mich martert, bin ich jezt mehr, als Mädchen, und fühle mich stark genug, mir den Dolch mit aller Kalte in's Herz zu stoßen. So ruhig du auch bist, so hast du doch gewiß auf deine Sicherheit gedacht. Du hast ein Stilet; gib mir's. 
+Das denkst du, Bester. Wenn dich aber nur eines mit halben schielenden Blikken sieht, so erwarten dich Todesmartern, im langen Blutrath erdacht. Dies mußt du vergessen. Aber ich hab' eine Bitte, die schlag mir nicht ab. Ich sitze hier, wie du weißt, bewahrt mit Unschuld; allein hier ist sie ein schwacher Schild. Ich muß sterben, in kurzer Zeit sterben. Ich sehe, du hast deinen Geist in Ruhe gesezt. Kein Fünkchen Grim- <pb n="85"/> mes spür' ich in dir. Kaum sah ich dich, so merkt ich's, und nahm dich zum Lehrer. Des nicht eingedenk, was mich martert, bin ich jezt mehr, als Mädchen, und fühle mich stark genug, mir den Dolch mit aller Kälte in's Herz zu stoßen. So ruhig du auch bist, so hast du doch gewiß auf deine Sicherheit gedacht. Du hast ein Stilet; gib mir's. 
 @Katelli:
-Du überschreitest Menschenpflicht. Dein Leib ist nicht dein Eigenthum. Dies Kleid ist deiner Seele nur geborgt, in den Jahren deiner Pilgerschaft auf dieser Erde damit einher zu wandein. Da es nun nicht dir gehört, darfst du's wohl zerreissen? Würd's dir nicht sauer werden, es zu bezahlen? –– Das werd' ich nicht thun, gute Franziska. Diese That würde die guten Handlungen deines und meines Lebens mit einem Schleyer überziehn, Und sollt' ich dir eine Bitte erfüllen, da du mit die meinige abgeschlagen hast? Franziska, folge mir! 
+Du überschreitest Menschenpflicht. Dein Leib ist nicht dein Eigenthum. Dies Kleid ist deiner Seele nur geborgt, in den Jahren deiner Pilgerschaft auf dieser Erde damit einher zu wandein. Da es nun nicht dir gehört, darfst du's wohl zerreissen? Würd's dir nicht sauer werden,  es zu bezahlen? –– Das werd' ich nicht thun, gute  Franziska. Diese That würde die guten Handlungen deines und meines Lebens mit einem Schleyer überziehn. Und sollt' ich dir eine Bitte erfüllen, da du mit die meinige abgeschlagen hast? Franziska, folge mir! 
 @Franziska:
-(Nach einer Pause) Du vermagst mehr über mich, als ich selbst. Ich will die lezte Rettung mit dir wagen. Aber wenn alle Aussicht uns abgeschnitten wird, denn versagen mir die Bitte nicht. <pb n="86"/>
+(Nach einer Pause) Du vermagst mehr über mich, als ich selbst. Ich will die lezte Rettung mit dir wagen. Aber wenn alle Aussicht uns abgeschnitten wird, denn versage mir die Bitte nicht. <pb n="86"/>
 @Katelli:
 Nein, denn wollen wir Mund an Mund sterben. (horcht nach einem Geräusch hinter der Bühne) Wenn ich recht wähne? — Ein blutiger Hochzeitstag. 
 @Franziska:
 Nun du meinen schwachen Kopf gerüstet hast, fängst du wieder an zu zweifeln. 
 @Katelli:
-(Mit gesezter Stimme) Nein! Ich bin jezt zu allem! was Schiksal will, bereit. Wir sehen auch nicht ein, was uns gut ist, weil unsere, Augen zu blode sind, die Wendungen des Schiksals zu durchschauen. Ich glaub', einem jeden ist sein Schiksal das beste. Wir müssen gutes und böses schmekken. Das Gute, dem Uebel folgend, ist uns desto behäglicher, wenn wir vorher gelernt haben, was Misgeschik sagen will. Franziska! — Die heiligste Wahrsagung ist für uns. Es wird uns wohl gehen. Ich habe dich jezt zu allem — Franzisko, nim dich in Acht! Es kömmt jemand! Ich habe recht gehört 
+(Mit gesezter Stimme) Nein! Ich bin jezt zu allem! was Schiksal will, bereit. Wir sehen auch nicht ein, was uns gut ist, weil unsere, Augen zu blöde sind, die Wendungen des Schiksals zu durchschauen. Ich glaub', einem jeden ist sein Schiksal das beste. Wir müssen gutes und böses schmekken. Das Gute, dem Uebel folgend, ist uns desto behäglicher, wenn wir vorher gelernt haben, was Misgeschik sagen will. Franziska! — Die heiligste Wahrsagung ist für uns. Es wird uns wohl gehen. Ich habe dich jezt zu allem — Franzisko, nim dich in Acht! Es kömmt jemand! Ich habe recht gehört. 
 @Franziska:
 Katelli, was ist dir? 
 @Katelli:
 Dein Zaudern hat alles verdorben. Setze dich, bleib bey deiner Fassing und nenne mich nicht. <pb n="87"/>
 ##Vierter Auftrit.
 $ Die Vorigen und Pedrillo. 
-$(Katelli zieht sich in den dunkelsten Winkel des Gefängnisses bey Franziskas Bette zurük. 
+$(Katelli zieht sich in den dunkelsten Winkel des Gefängnisses bey Franziskas Bette zurük.) 
 @Franziska:
-Nein! Nein! das duld ich nicht. Ich bin ein Mädchen. Sein Blik ist Gift. 
+Nein! Nein! das duld' ich nicht. Ich bin ein Mädchen. Sein Blik ist Gift. 
 @Pedrillo:
 Priester, du hast deine Habseligkeiten schlecht ausgeräumt. (zu Franziska) Richte dich auf Mädchen! Ich bin dein Retter. Engelleben sollst du bey mir haben. — — Närrin, antwortest du mir nicht? Bosheit, oder Verstellung? 
 @Katelli:
@@ -1031,7 +1020,7 @@ Dein Blik ist Gift! Ich sag's dir noch einmal. Blikke mich an, und ermorde mich.
 @Pedrillo:
 Wurm! (stößt sie zurük) Deine Mükkenstiche gehen kaum durch meine Haut. 
 @Franziska:
-(Läuft wüthend herum) Ist denn alles für mich taub? Alle ihre Mächte, die ihr mehr seyd, als ich? Soll die Stunde ewig zugern, die mein Leben in Purpur kleiden wird? Oder bin ich so ein ganz verworfenes Geschöpf? — War mein Gebet Heucheley? Gebet vor den Augen der Menschen? O, warum zerborst mir denn nicht das Knie, wenn ich mit heiligem Eifer in der Kirche hinstürzte? Warum ward ich nicht zur Säule, wenn ich auf den eiskalten Steinen stundenlang da lag, und kaum mein Menschseyn noch fühlte? Hier steh ich, als das Ziel des Wetteifers aller Arten des Unglüks. Als wenn meine Todesstunde alles Glük, das ich hier auf Erden genießen soll, in sich faßt! 
+(Läuft wüthend herum) Ist denn alles für mich taub? Alle ihre Mächte, die ihr mehr seyd, als ich? Soll die Stunde ewig zögern, die mein Leben in Purpur kleiden wird? Oder bin ich so ein ganz verworfenes Geschöpf? — War mein Gebet Heucheley? Gebet vor den Augen der Menschen? O, warum zerborst mir denn nicht das Knie, wenn ich mit heiligem Eifer in der Kirche hinstürzte? Warum ward ich nicht zur Säule, wenn ich auf den eiskalten Steinen stundenlang da lag, und kaum mein Menschseyn noch fühlte? Hier steh ich, als das Ziel des Wetteifers aller Arten des Unglüks. Als wenn meine Todesstunde alles Glük, das ich hier auf Erden genießen soll, in sich faßt! 
 @Katelli:
 Wir müssen nie auf die Dornen dieses Lebens zürnen, denn wir wissen nicht, wozu die Wunden, von ihnen gerissen, uns nützen. <pb n="89"/>
 @Pedrillo:
@@ -1047,13 +1036,13 @@ Verdammt! wenn mein Wahn nicht eitel wäre! Schlau genug, wär's Verstellung. Ae
 @Katelli:
 Ihre Augen auf; und sie werden ihn finden! 
 @Pedrillo:
-(geht auf die Thür zu) Aber, wenn ich ihn nicht finde, so kostet's dir alles. Wehe dir, wenn der Schalk in dir stekt! Du weiß, wo du bist. 
+(geht auf die Thür zu) Aber, wenn ich ihn nicht finde, so kostet's dir alles. Wehe dir, wenn der Schalk in dir stekt! Du weiß, wo du bist. (ab.) 
 ##Fünfter Auftrit.
 $ Franziska und Katelli. 
 @Franziska:
 Mein Katelli! Mein Katelli! 
 @Katelli:
-Länger nicht! Mann, wo bist du, der du die Flammen so lange dämpfst, als ich? länger <pb n="90"/> nicht! Auch der Riese muß unterliegen, wenn der Kampf ewig währt, Ha! hätt' ich ihm doch jezt, da ich noch herrliches Sinnes bin, ihn mit tausend Wonne zu zerren. (Nach einer langen Pause) Franziska halb sinnlos? Und durch wen? — Alle dein Zorn auf mich, du Rächer beleidigter Tugend! Auf mich, nicht Beleidiger, Mörder! Ich Franziska's Mörder, dieses guten jungfräulichen Mädchens! Wie das mit unbeschreiblichen Bissen in mir frißt! — Aber warum such' ich hier den Weg zur Verzweiflung auf? Warum zaudre ich? Warum reiß ich sie nicht mit fort? Jeden nieder, der unsern Schritten wehren will! (schlägt sich vor die Stirn) Armer, Elender! Erst durchreise die Welt und sammle für das Mädchen Verstand ein! Studier erst jahrelang die Sprache, die wahnsinnigen Ohren predigen kann. (zu Framziska) Kaum bist du Blume gesprossen, so zerflükt schon ein muthwilliger Bube deine Blätter. Sitzest da, und hast des Erwartens nicht mehr, als der Gefangene des Kanibalen. 
+Länger nicht! Mann, wo bist du, der du die Flammen so lange dämpfst, als ich? Länger <pb n="90"/> nicht! Auch der Riese muß unterliegen, wenn der Kampf ewig währt, Ha! hätt' ich ihm doch jezt, da ich noch herrliches Sinnes bin, ihn mit tausend Wonne zu zerren. (Nach einer langen Pause) Franziska halb sinnlos? Und durch wen? — Alle dein Zorn auf mich, du Rächer beleidigter Tugend! Auf mich, nicht Beleidiger, Mörder! Ich Franziska's Mörder, dieses guten jungfräulichen Mädchens! Wie das mit unbeschreiblichen Bissen in mir frißt! — Aber warum such' ich hier den Weg zur Verzweiflung auf? Warum zaudre ich? Warum reiß ich sie nicht mit fort? Jeden nieder, der unsern Schritten wehren will! (schlägt sich vor die Stirn) Armer, Elender! Erst durchreise die Welt und sammle für das Mädchen Verstand ein! Studier erst jahrelang die Sprache, die wahnsinnigen Ohren predigen kann. (zu Framziska) Kaum bist du Blume gesprossen, so zerflükt schon ein muthwilliger Bube deine Blätter. Sitzest da, und hast des Erwartens nicht mehr, als der Gefangene des Kanibalen. 
 @Franziska:
 (geht immer mit fliegenden Augen und vesten Tritte auf und ab.) 
 @Katelli:
@@ -1067,11 +1056,9 @@ Ja! Morgen ist der Hochzeitstag! Aber du wirst eine Eissäule küssen. (wirft si
 ##Sechster Auftrit.
 $ Die Vorigen und Pedrillo (mit entblößten Degen.) 
 @Pedrillo:
-Wie die schwache Hure da liegt, von dem Sturm ihres eigenen Weibergrimms niedergeworfen! Oder wälzet sie sich da aus Aerger, daß sie mir die Kehle nicht zuschnüren kann? (zu Katelli) Niederträchtiger, was hast du gelogen? Du sprichst hier nicht mit Kreuzträgern im Beichtstuhl. Wo ist Katelli? Mein Ari will Blut; seins oder deins! Mit einem Wort, ohne Stammlen! 
+Wie die schwache Hure da liegt, von dem Sturm ihres eigenen Weibergrimms niedergeworfen! Oder wälzet sie sich da aus Aerger, daß sie mir die Kehle nicht zuschnüren kann? (zu Katelli) Niederträchtiger, was hast du gelogen? Du sprichst hier nicht mit Kreuzträgern im Beichtstuhl. Wo ist Katelli? Mein Arm will Blut; seins oder deins! Mit einem Wort, ohne Stammlen! 
 @Katelli:
-(Mit verbissener Wuth) Kommen sie! In Vertrauen will ich's sagen. Meine Verrähe <pb n="92"/> rey mögte dem Mädchen wieder zum Feldgeschrey dienen. Pedrillo trit zu ihm. 
+(Mit verbissener Wuth) Kommen sie! In Vertrauen will ich's sagen. Meine Verräth <pb n="92"/> rey mögte dem Mädchen wieder zum Feldgeschrey dienen. Pedrillo trit zu ihm. 
 @Katelli:
-(faßt ihm mit der einen Hand den Degen und mit der andern vor die Brust) Sieh! den ganzen Knoten zerschneid' ich dir. Der Vermummte, im Schlosse Montenegro's mit dir sprechend, war der Priester, der jezt vor dir steht — und heißt 
-@Katelli:
-Und wenn die Tollheit dein Gehör verstopft hat, so fühl's! (Er holt geschwind ein Stilet hervor und ersticht ihn. Pedrillo will mit dem Degen auf ihn zu, wankt aber. stößt ihn noch einmal und er fällt.) Ich will die Hölle nicht auf mich erboßen, daß ich dich hier schon zu Martern gewöhne! — Das ist das Ziel, wonach du so freventlich gestrebt hast, du Stöhrer häuslicher Ruhe, du Stöhrer heiliger Liebe! Da liegst du nun, beflekt mit Vatermord, Kindermord und allen Lastern, die menschliches Gehirn nur aushekken kann! — Ich folge dir; aber mit geflochtner Geissel folg' ich dir:
-Bald, bald! — Du bebst den Weg hinab, umringt vom Rauchgewölk racheschreyendes Bluts; begleitet vom Gebet des Vaters um Strafe für das Blut seines Kindes; begleitet vom Gewimmer der Frommen und Bedrängten im Unglük, und diesem <pb n="93"/> allen schleppt die Strafe ihr graues Haupt auf langsamen Krükken nach. Dies sind deine Gefährten. gehe den Weg froh, meine Franziska im Arm! Edle That und Unschuld gehen vor uns einher, und der Seraph lacht unsers Kommens. — (den Dolch in erhobner Hand. Zu Franziska) Und nun zum Gericht Franziska! Rettung ist hier tod! 
+(faßt ihm mit der einen Hand den Degen und mit der andern vor die Brust) Sieh! den ganzen Knoten zerschneid' ich dir. Der Vermummte, im Schlosse Montenegro's mit dir sprechend, war der Priester, der jezt vor dir steht — und heißt  Und wenn die Tollheit dein Gehör verstopft hat, so fühl's! (Er holt geschwind ein Stilet hervor und ersticht ihn. Pedrillo will mit dem Degen auf ihn zu, wankt aber. stößt ihn noch einmal und er fällt.) Ich will die Hölle nicht auf mich erboßen, daß ich dich hier schon zu Martern gewöhne! — Das ist das Ziel, wonach du so freventlich gestrebt hast, du Stöhrer häuslicher Ruhe, du Stöhrer heiliger Liebe! Da liegst du nun, beflekt mit Vatermord, Kindermord und allen Lastern, die menschliches Gehirn nur aushekken kann! — Ich folge dir; aber mit geflochtner Geissel folg' ich dir:
+Bald, bald! — Du bebst den Weg hinab, umringt vom Rauchgewölk racheschreyendes Bluts; begleitet vom Gebet des Vaters um Strafe für das Blut seines Kindes; begleitet vom Gewimmer der Frommen und Bedrängten im Unglük, und diesem <pb n="93"/> allen schleppt die Strafe ihr graues Haupt auf langsamen Krükken nach. Dies sind deine Gefährten. – Ich gehe den Weg froh, meine Franziska im Arm! Edle That und Unschuld gehen vor uns einher, und der Seraph lacht unsers Kommens. – (den Dolch in erhabner Hand. Zu Franziska) Und nun zum Gericht Franziska! Rettung ist hier tod! 

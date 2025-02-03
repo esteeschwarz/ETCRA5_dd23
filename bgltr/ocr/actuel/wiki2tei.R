@@ -160,6 +160,7 @@ for (k in 1:length(sp.cor$speaker)){
 m<-grep("II",ezd.nl.sp)
 # split personal list
 p.head<-strsplit(ezd.nl.sp[m[1]+1],"\\.")
+p.head
 p.head<-gsub("^ ","",unlist(p.head))
 p.head<-p.head[p.head!=""]
 p.head<-strsplit(p.head,",")
@@ -169,18 +170,20 @@ p.head[is.na(p.head)]<-""
 p.desc<-apply(p.head[,2:length(p.head[1,])],c(1),FUN =function(x)paste0(x,collapse = ","))
 p.desc<-gsub("([,]{1,3}$)","",p.desc)
 p.desc<-gsub("^ ","",p.desc)
+p.desc
 # this is redundant, castlist is done in the .xml, but we need p.desc for that
-p.desc.m<-paste0(p.head[,1],"<roleDesc>",p.desc,"</roleDesc>")
-ezd.nl.sp[m[1]]<-"^"
-m.out<-c(m[1],(m[2]+1):length(ezd.nl.sp))
-ezd.nl.sp.head<-ezd.nl.sp[m.out]
-ezd.nl.sp.head<-append(ezd.nl.sp.head,p.desc.m,m[1])
-# writeLines(unlist(ezd.lines),"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001.txt")
+#p.desc.m<-paste0(p.head[,1],"<roleDesc>",p.desc,"</roleDesc>")
+#ezd.nl.sp[m[1]]<-"^"
+#m.out<-c(m[1],(m[2]+1):length(ezd.nl.sp))
+#ezd.nl.sp.head<-ezd.nl.sp[m.out]
+#ezd.nl.sp.head<-append(ezd.nl.sp.head,p.desc.m,m[1])
+writeLines(unlist(ezd.lines),"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001.txt")
 ezd_markup.ns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001"
 ezd_markup_text<-paste0(ezd_markup.ns,".txt")
 ##########################################
 # write ezdrama marked up text
-writeLines(ezd.nl.sp.head,ezd_markup_text)
+# 15063.out
+#writeLines(ezd.nl.sp.head,ezd_markup_text)
 ##########################################
 local<-T
 path.local.home<-"~/Documents/GitHub/dybbuk-cor"
@@ -207,6 +210,7 @@ m<-grepl("<TEI xml:id",xml.tx)
 xml.tx<-xml.tx[!m]
 head(xml.tx)
 writeLines(xml.tx,xmltemp)
+writeLines(xml.tx,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/tei/steltzer.temp.xml")
 xml<-read_xml(xmltemp)
 xmlns<-xml_attr(xml,"xmlns")
 xmlid<-xml_attr(xml,"id")
