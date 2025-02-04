@@ -6,6 +6,8 @@ source("/Users/guhl/Documents/GitHub/ETCRA5_dd23/bgltr/functions.R")
 library(xml2)
 library(abind)
 library(purrr)
+library(readr)
+library(stringi)
 ######
 # t1<-page.get.content("Franziska_Montenegro","json")
 # head(t1,200)
@@ -40,8 +42,15 @@ return(all.elements)
 }
 # wks.
 all.elements<-get.all.elements()
+log.ns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/log.csv"
+log.x<-function(what){
+  write.table(what,log.ns,append = T,col.names = F,quote = F)
+}
+file.create(log.ns)
 assign.sp<-function(x,i){
+  log.tx<-matrix("",ncol = 10)
   sub<-x
+  dif.tx<-0
   # check passed element and return ezd adapted element
     # # get all #level 1 (aufzug) headers
   m1<-grepl("170%",xml_attr(sub,"style"))
@@ -61,7 +70,108 @@ assign.sp<-function(x,i){
     pb<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',xml_text(sub))
     return(pb)
  }
-# all kursive stage directions
+  # get speaker and p wo/ declaration
+  # pattern <p><b><i> : p,speaker,stage
+  # get p
+  if(xml_name(sub)=="p"){
+    # chk if speaker
+    p.ur.tx<-xml_text(sub)
+    #p.tx<-xml_text(sub)
+    p.tx<-gsub("\n"," ",p.ur.tx)
+    mkl<-stri_extract_all_regex(p.tx,"\\(",simplify = T)
+    mkr<-stri_extract_all_regex(p.tx,"\\)",simplify = T)
+    mkl<-mkl[!is.na(mkl)]
+    mkr<-mkr[!is.na(mkr)]
+    write.table(c("mkrl",mkl,mkr),log.ns,append = T,col.names = F,quote = F)
+    if(length(mkl)!=length(mkr))
+      p.tx<-gsub("[)(]","",p.tx)
+    t.sub<-unlist(strsplit(p.tx," "))
+    t.first<-t.sub[1]
+    logx<-c(i,t.first,"<p>",t.sub)
+    log.p<-matrix(logx,ncol = length(logx),nrow = 1)
+    write.table(log.p,log.ns,append = T,col.names = F,quote = F)
+    b<-xml_find_all(sub,"b")
+    i<-xml_find_all(sub,"i")
+    # if simple <p>
+    if(length(b)==0&length(i)==0){
+#      p.tx<-xml_text(sub)
+      sp.ezd<-gsub("\n"," ",p.tx)
+      sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+      return(sp.ezd) 
+    }
+  
+      
+      if(length(b)>0){
+        
+        pb.tx<-xml_text(b)
+        l.tx<-length(p.tx)
+        
+        if (t.first==pb.tx){
+          p.tx<-gsub(t.first,"",p.tx)
+          dif.tx<-length(p.tx)-l.tx
+        logx<-c(i,"<sp>",pb.tx,"<p>",p.tx)
+        print(logx)
+        
+        log.b<-matrix(logx,ncol = length(logx),nrow = 1)
+        write.table(log.b,log.ns,append = T,col.names = F,quote = F)
+        }
+      i<-xml_find_all(sub,"i")
+      pi.tx<-xml_text(i)
+      gsub.bi<-c(pi.tx,pb.tx)
+      write.table(c("gsub.bi",gsub.bi),log.ns,append = T,col.names = F,quote = F)
+      
+      p.test<-p.tx
+      for (g in 1:length(gsub.bi)){
+        gbi<-gsub("([)(])","\\\\\\1",gsub.bi[g])
+        write.table(c("gsub.bi.re",gbi),log.ns,append = T,col.names = F,quote = F)
+        
+        p.test<-gsub(gbi,"",p.test)
+      }
+      p.eval<-unlist(strsplit(p.test," "))
+      dif.bi<-l.tx-length(p.eval)
+      write.table(dif.bi,log.ns,append = T,col.names = F,quote = F)
+      if(length(i)>0&dif.bi==0){
+        pi.tx<-paste0("(",pi.tx,")")
+        sp.ezd<-paste0("@",pb.tx,":\t#(",pi.tx,")")
+      sp.ezd<-gsub("\n"," ",sp.ezd)
+      sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+      
+      return(sp.ezd)
+      }
+      if(length(i)>0&dif.tx!=0){
+        logx<-c(i,"<i>",pi.tx)
+        print(logx)
+        
+        log.i<-matrix(logx,ncol = length(logx),nrow = 1)
+        write.table(log.i,log.ns,append = T,col.names = F,quote = F)
+       # sp.tx
+        sp.ezd<-paste0("@",pb.tx,":\t#(",pi.tx,")",p.tx)
+        sp.ezd<-gsub("\n"," ",sp.ezd)
+        sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+        return(sp.ezd)
+      }
+    }
+  }
+      
+  #     
+  #     p.tx<-xml_text(sub)
+  #     b.tx<-xml_text(b)
+  #     p.tx<-gsub(b.tx[1],"",p.tx)
+  #     b.tx<-gsub("\\.",":",b.tx)
+  #     sp.ezd<-paste0("@",b.tx,p.tx)
+  #     sp.ezd<-gsub("\n"," ",sp.ezd)
+  #     sp.ezd<-gsub(":[ ]{1,2}\t",":\t",sp.ezd)
+  #     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+  #     return(sp.ezd)
+  #   }
+  #   
+  #   p.tx<-xml_text(sub)
+  #   sp.ezd<-paste0("$",p.tx)
+  #   sp.ezd<-gsub("\n"," ",sp.ezd)
+  #   sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+  #   return(sp.ezd)
+  # }
+  # all kursive stage directions
     if(xml_name(sub)=="i"){
     p.tx<-xml_text(sub)
     sp.ezd<-paste0("$",p.tx)
@@ -93,14 +203,35 @@ assign.sp<-function(x,i){
     return(sp.ezd)
   }
       # returns checked and adapted element
+      
+      
 }
 ###
+### test assign
+m1<-grep("Dreyzehn",all.elements)
+m1
+# critical: 160
+all.elements[161]
+i<-160 # critical, not wks.
+i<-164 # reference, wks.
+i<-161
+i<-46
+#assign.sp(all.elements[[i]],i)
+
 sp.lines<-lapply(seq_along(all.elements),function(i){
   assign.sp(all.elements[[i]],i)
 })
 ### RUN
 # clean up text
 ezd.lines<-unlist(sp.lines)
+# get speaker wo/ declaration
+m<-grep("Anton",ezd.lines)
+ezd.lines[m]
+# critical: L54
+ezd.lines[20:100]
+### the 
+
+
 # removes redundant lines
 m<-ezd.lines=="$"|ezd.lines=="@ *"|ezd.lines==""|
   ezd.lines=="[ ]{1,10}"|ezd.lines=="[.]{1,2}"|ezd.lines=="\n"
@@ -156,8 +287,13 @@ for (k in 1:length(sp.cor$speaker)){
   }
 }
 #wks.
+save.lines<-function(ezd.lines){
+  ezd_markup.ns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001"
+  ezd_markup_text<-paste0(ezd_markup.ns,".txt")
+  writeLines(unlist(ezd.lines),ezd_markup_text)
+  }
 ### personal:
-m<-grep("II",ezd.nl.sp)
+m<-grep("III",ezd.nl.sp)
 # split personal list
 p.head<-strsplit(ezd.nl.sp[m[1]+1],"\\.")
 p.head
@@ -167,7 +303,17 @@ p.head<-strsplit(p.head,",")
 p.head<-abind(lapply(p.head,function(x){x[1:4]}),along = 0)
 p.person<-p.head[,1]
 p.head[is.na(p.head)]<-""
-p.desc<-apply(p.head[,2:length(p.head[1,])],c(1),FUN =function(x)paste0(x,collapse = ","))
+### save ezd before fail
+save.lines(ezd.lines)
+#####################
+write.table("--- pdesc --- ",log.ns,append = T,col.names = F,quote = F)
+log.x(p.head)
+p.desc.re<-function(x){
+log.x(x)
+  paste0(x,collapse = ",")
+  
+}
+p.desc<-apply(p.head[,2:length(p.head[1,])],c(1),FUN =p.desc.re)
 p.desc<-gsub("([,]{1,3}$)","",p.desc)
 p.desc<-gsub("^ ","",p.desc)
 p.desc
@@ -177,9 +323,7 @@ p.desc
 #m.out<-c(m[1],(m[2]+1):length(ezd.nl.sp))
 #ezd.nl.sp.head<-ezd.nl.sp[m.out]
 #ezd.nl.sp.head<-append(ezd.nl.sp.head,p.desc.m,m[1])
-writeLines(unlist(ezd.lines),"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001.txt")
-ezd_markup.ns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001"
-ezd_markup_text<-paste0(ezd_markup.ns,".txt")
+save.lines(ezd.lines)
 ##########################################
 # write ezdrama marked up text
 # 15063.out
