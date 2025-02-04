@@ -47,7 +47,11 @@ log.x<-function(what){
   write.table(what,log.ns,append = T,col.names = F,quote = F)
 }
 file.create(log.ns)
-assign.sp<-function(x,i){
+#########################
+#r<-49
+x<-all.elements[[49]]
+x
+assign.sp<-function(x,r){
   log.tx<-matrix("",ncol = 10)
   sub<-x
   dif.tx<-0
@@ -76,18 +80,24 @@ assign.sp<-function(x,i){
   if(xml_name(sub)=="p"){
     # chk if speaker
     p.ur.tx<-xml_text(sub)
-    #p.tx<-xml_text(sub)
-    p.tx<-gsub("\n"," ",p.ur.tx)
+    p.tx<-p.ur.tx
+    l.tx<-length(unlist(strsplit(p.tx," ")))
+    b<-xml_find_all(sub,"b")
+    i<-xml_find_all(sub,"i")
+    l.tb<-length(unlist(strsplit(xml_text(b)," ")))
+    l.ti<-length(unlist(strsplit(xml_text(i)," ")))
     mkl<-stri_extract_all_regex(p.tx,"\\(",simplify = T)
     mkr<-stri_extract_all_regex(p.tx,"\\)",simplify = T)
     mkl<-mkl[!is.na(mkl)]
     mkr<-mkr[!is.na(mkr)]
-    write.table(c("mkrl",mkl,mkr),log.ns,append = T,col.names = F,quote = F)
-    if(length(mkl)!=length(mkr))
-      p.tx<-gsub("[)(]","",p.tx)
+    write.table(c("mkrl,letx",mkl,mkr,mkl==mkr,l.tx,l.ti,l.tb),log.ns,append = T,col.names = F,quote = F)
+    if(length(mkl)!=length(mkr)){
+      p.tx<-gsub("[(](.+)","(\\1)",p.tx)
+    }
+    p.tx<-gsub("\n"," ",p.tx)
     t.sub<-unlist(strsplit(p.tx," "))
     t.first<-t.sub[1]
-    logx<-c(i,t.first,"<p>",t.sub)
+    logx<-c(r,t.first,"<p>",t.sub)
     log.p<-matrix(logx,ncol = length(logx),nrow = 1)
     write.table(log.p,log.ns,append = T,col.names = F,quote = F)
     b<-xml_find_all(sub,"b")
@@ -97,6 +107,7 @@ assign.sp<-function(x,i){
 #      p.tx<-xml_text(sub)
       sp.ezd<-gsub("\n"," ",p.tx)
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+      print("R1")
       return(sp.ezd) 
     }
   
@@ -104,26 +115,41 @@ assign.sp<-function(x,i){
       if(length(b)>0){
         
         pb.tx<-xml_text(b)
-        l.tx<-length(p.tx)
-        
+        l.tx<-length(unlist(strsplit(p.tx," ")))
+        log.x(c(t.first,pb.tx))
         if (t.first==pb.tx){
+          log.x("tfirst==bold")
           p.tx<-gsub(t.first,"",p.tx)
           dif.tx<-length(p.tx)-l.tx
-        logx<-c(i,"<sp>",pb.tx,"<p>",p.tx)
+        logx<-c(r,"<sp>",pb.tx,"<p>",p.tx)
         print(logx)
-        
+        ma<-grep("allein",p.tx)
+        if(length(ma)>0){
+         lp<-0 
+        }
         log.b<-matrix(logx,ncol = length(logx),nrow = 1)
         write.table(log.b,log.ns,append = T,col.names = F,quote = F)
         }
       i<-xml_find_all(sub,"i")
       pi.tx<-xml_text(i)
+      print(pi.tx)
+      l.bi<-length(unlist(strsplit(pb.tx," ")))+length(unlist(strsplit(pi.tx," ")))
+      print(c(l.tx,l.bi))
+      if(l.tx==l.bi){
+        pi.tx<-paste0(pi.tx,collapse = " ")
+       ezd<-paste0("@#R2",pb.tx,":\n","$",pi.tx,"\n")
+       l.tx<-100
+       l.bi<-200
+       print("R2")
+       return(ezd)
+      }
       gsub.bi<-c(pi.tx,pb.tx)
       write.table(c("gsub.bi",gsub.bi),log.ns,append = T,col.names = F,quote = F)
       
       p.test<-p.tx
       for (g in 1:length(gsub.bi)){
         gbi<-gsub("([)(])","\\\\\\1",gsub.bi[g])
-        write.table(c("gsub.bi.re",gbi),log.ns,append = T,col.names = F,quote = F)
+        write.table(c("#R3gsub.bi.re",gbi),log.ns,append = T,col.names = F,quote = F)
         
         p.test<-gsub(gbi,"",p.test)
       }
@@ -131,11 +157,12 @@ assign.sp<-function(x,i){
       dif.bi<-l.tx-length(p.eval)
       write.table(dif.bi,log.ns,append = T,col.names = F,quote = F)
       if(length(i)>0&dif.bi==0){
-        pi.tx<-paste0("(",pi.tx,")")
-        sp.ezd<-paste0("@",pb.tx,":\t#(",pi.tx,")")
-      sp.ezd<-gsub("\n"," ",sp.ezd)
+#        pi.tx<-paste0("(",pi.tx,")")
+ #       sp.ezd<-paste0("@",pb.tx,":\t#(",pi.tx,")")
+        sp.ezd<-paste0("@#R3",pb.tx,":\t#R3",pi.tx)
+       # sp.ezd<-gsub("\n"," ",sp.ezd)
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
-      
+      print("R3")
       return(sp.ezd)
       }
       if(length(i)>0&dif.tx!=0){
@@ -145,9 +172,11 @@ assign.sp<-function(x,i){
         log.i<-matrix(logx,ncol = length(logx),nrow = 1)
         write.table(log.i,log.ns,append = T,col.names = F,quote = F)
        # sp.tx
-        sp.ezd<-paste0("@",pb.tx,":\t#(",pi.tx,")",p.tx)
-        sp.ezd<-gsub("\n"," ",sp.ezd)
+#        sp.ezd<-paste0("@#R4",pb.tx,":\n(",pi.tx,")",p.tx)
+        sp.ezd<-paste0("@#R4",pb.tx,":",p.tx)
+        #sp.ezd<-gsub("\n"," ",sp.ezd)
         sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+        print("R4")
         return(sp.ezd)
       }
     }
@@ -172,11 +201,13 @@ assign.sp<-function(x,i){
   #   return(sp.ezd)
   # }
   # all kursive stage directions
+  # r
     if(xml_name(sub)=="i"){
     p.tx<-xml_text(sub)
-    sp.ezd<-paste0("$",p.tx)
+    sp.ezd<-paste0("$#R5",p.tx)
     sp.ezd<-gsub("\n"," ",sp.ezd)
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+    print("R5")
     return(sp.ezd)
   }
 # all bold speaker
@@ -186,20 +217,46 @@ assign.sp<-function(x,i){
     b.tx<-xml_text(b)
     p.tx<-gsub(b.tx[1],"",p.tx)
     b.tx<-gsub("\\.",":",b.tx)
-    sp.ezd<-paste0("@",b.tx,p.tx)
+    sp.ezd<-paste0("@#R6",b.tx,p.tx)
     sp.ezd<-gsub("\n"," ",sp.ezd)
     sp.ezd<-gsub(":[ ]{1,2}\t",":\t",sp.ezd)
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+    print("R6")
     return(sp.ezd)
   }
 # rest of stage directions after kursive speaker names
-      b<-xml_find_all(sub,"i")
-  if(length(b)>0){
+    i<-xml_find_all(sub,"i")
+    b<-xml_find_all(i,"b")
     p.tx<-xml_text(sub)
+  i 
+  b
+    print(c(b,i))
+  if(length(i)>0){
+    #p.tx<-xml_text(sub)
+    i.tx<-xml_text(i)
     b.tx<-xml_text(b)
-    sp.ezd<-paste0("$",p.tx)
+    if(length(b.tx)>0){
+    l.tb<-length(unlist(strsplit(b.tx," ")))
+    l.ti<-length(unlist(strsplit(i.tx," ")))
+    l.tx<-length(unlist(strsplit(p.tx," ")))
+    cat(i.tx,b.tx,"\n")
+    i.gs<-gsub(b.tx,"",p.tx)
+      l.ti<-unlist(strsplit(i.gs," "))
+      l.tix<-l.ti[l.ti!=""]
+      l.tl<-length(l.tix)
+      if(print(l.tb+l.tl==l.tx)){
+        l.tix<-paste0(l.tix,collapse = " ")
+        sp.ezd<-paste0("@#R8",b.tx,":\n$",l.tix,"\n")
+#      sp.ezd<-gsub("\n"," ",sp.ezd)
+      sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+      print("R8")
+      return(sp.ezd)
+      }
+    }
+    sp.ezd<-paste0("$#R7",p.tx)
     sp.ezd<-gsub("\n"," ",sp.ezd)
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+    print("R7")
     return(sp.ezd)
   }
       # returns checked and adapted element
@@ -211,12 +268,13 @@ assign.sp<-function(x,i){
 m1<-grep("Dreyzehn",all.elements)
 m1
 # critical: 160
-all.elements[161]
+all.elements[40:50]
 i<-160 # critical, not wks.
 i<-164 # reference, wks.
 i<-161
-i<-46
-#assign.sp(all.elements[[i]],i)
+i<-49
+i<-40
+assign.sp(all.elements[[i]],i)
 
 sp.lines<-lapply(seq_along(all.elements),function(i){
   assign.sp(all.elements[[i]],i)
