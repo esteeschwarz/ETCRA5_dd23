@@ -470,6 +470,8 @@ write.final.xml<-function(xml,xml.final){
   write_xml(xml,xml.final)
 }
 xml.final<-paste0("~/Documents/GitHub/ETCRA5_dd23/tei/","steltzer_montenegro.final.xml")
+xml.final.dracor<-paste0("~/Documents/GitHub/fork/gerdracor/tei/","steltzer_franziska-montenegro.xml")
 write.final.xml(xml,xml.final)
+write.final.xml(xml,xml.final.dracor)
 
 

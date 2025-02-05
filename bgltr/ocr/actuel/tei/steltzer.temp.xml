@@ -32,29 +32,11 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person sex="MALE" xml:id="katelli">
-            <persName>Katelli</persName>
-          </person>
-          <person sex="MALE" xml:id="priester">
-            <persName>Priester</persName>
-          </person>
-          <person sex="MALE" xml:id="hieronimus">
-            <persName>Hieronimus</persName>
-          </person>
-          <person sex="MALE" xml:id="zisterzius">
-            <persName>Zisterzius</persName>
-          </person>
-          <person sex="MALE" xml:id="montenegro">
-            <persName>Montenegro</persName>
-          </person>
           <person sex="MALE" xml:id="anton">
             <persName>Anton</persName>
           </person>
-          <person sex="FEMALE" xml:id="franziska">
-            <persName>Franziska</persName>
-          </person>
-          <person sex="MALE" xml:id="der_vermummte">
-            <persName>Der Vermummte</persName>
+          <person sex="MALE" xml:id="bedienter">
+            <persName>Bedienter</persName>
           </person>
           <person sex="MALE" xml:id="gefangenwärter">
             <persName>Gefangenwärter</persName>
@@ -62,14 +44,32 @@
           <person sex="FEMALE" xml:id="kamilla">
             <persName>Kamilla</persName>
           </person>
+          <person sex="MALE" xml:id="pedrillo">
+            <persName>Pedrillo</persName>
+          </person>
+          <person sex="MALE" xml:id="priester">
+            <persName>Priester</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli">
+            <persName>Katelli</persName>
+          </person>
+          <person sex="FEMALE" xml:id="franziska">
+            <persName>Franziska</persName>
+          </person>
+          <person sex="MALE" xml:id="zisterzius">
+            <persName>Zisterzius</persName>
+          </person>
           <person sex="MALE" xml:id="niklas">
             <persName>Niklas</persName>
           </person>
-          <person sex="MALE" xml:id="bedienter">
-            <persName>Bedienter</persName>
+          <person sex="MALE" xml:id="hieronimus">
+            <persName>Hieronimus</persName>
           </person>
-          <person sex="MALE" xml:id="pedrillo">
-            <persName>Pedrillo</persName>
+          <person sex="MALE" xml:id="montenegro">
+            <persName>Montenegro</persName>
+          </person>
+          <person sex="MALE" xml:id="der_vermummte">
+            <persName>Der Vermummte</persName>
           </person>
         </listPerson>
       </particDesc>
