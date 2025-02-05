@@ -43,8 +43,8 @@
             <title>Franziska Montenegro</title>
             <!-- not allowed     <pubPlace>Magdeburg und Leipzig</pubPlace>-->
             <publisher>Johann Adam Creutz</publisher>
-            <date>1781</date>
-            <biblScope unit="page" from="2" to="95"/>
+            <!--<date>1781</date>
+            <biblScope unit="page" from="2" to="95"/>-->
           </bibl>
         </bibl>
       </sourceDesc>
