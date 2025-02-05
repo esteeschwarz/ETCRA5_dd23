@@ -105,7 +105,7 @@ assign.sp<-function(x,r){
     # if simple <p>
     if(length(b)==0&length(i)==0){
 #      p.tx<-xml_text(sub)
-      #sp.ezd<-gsub("\n"," ",p.tx)
+      sp.ezd<-gsub("\n"," ",p.tx)
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
       print("R1")
       return(sp.ezd) 
@@ -137,7 +137,7 @@ assign.sp<-function(x,r){
       print(c(l.tx,l.bi))
       if(l.tx==l.bi){
         pi.tx<-paste0(pi.tx,collapse = " ")
-       ezd<-paste0("@RR2",pb.tx,":\t","$",pi.tx,"\n")
+       ezd<-paste0("@RR2",pb.tx,":\t","(",pi.tx,")\n")
        l.tx<-100
        l.bi<-200
        print("R2")
@@ -246,7 +246,7 @@ assign.sp<-function(x,r){
       l.tl<-length(l.tix)
       if(print(l.tb+l.tl==l.tx)){
         l.tix<-paste0(l.tix,collapse = " ")
-        sp.ezd<-paste0("@RR8",b.tx,":\n$",l.tix,"\n")
+        sp.ezd<-paste0("@RR8",b.tx,":\n(",l.tix,")")
 #      sp.ezd<-gsub("\n"," ",sp.ezd)
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
       print("R8")
@@ -287,7 +287,7 @@ ezd.lines<-unlist(sp.lines)
 m<-grep("Anton",ezd.lines)
 ezd.lines[m]
 # critical: L54
-ezd.lines[20:100]
+ezd.lines[1:50]
 ### the 
 
 
@@ -301,7 +301,7 @@ ezd.lines<-gsub("\t","\n",ezd.lines)
 for (k in 1:3){
   ezd.lines<-gsub("(^@.+[:])[ \t]{1,2}","\\1\n",ezd.lines)
 }
-ezd.lines[1:120]
+ezd.lines[1:40]
 ### wks.
 # paste single line pagebreaks to preceding line
 m1<-grepl("^ ?<pb",ezd.lines)
@@ -338,6 +338,8 @@ replace.sp.ids<-function(x){
   return(gsub(x[,1],x[,2],ezd.nl[m]))
   }
 }
+head(ezd.nl,10)
+
 ezd.nl.sp<-ezd.nl
 for (k in 1:length(sp.cor$speaker)){
   if(sp.cor$corrected[k]!=""){
@@ -350,6 +352,7 @@ save.lines<-function(ezd.lines){
   ezd_markup.ns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001"
   ezd_markup_text<-paste0(ezd_markup.ns,".txt")
   writeLines(unlist(ezd.lines),ezd_markup_text)
+  return(list(ezd_markup.ns,ezd_markup_text))
   }
 ### personal:
 head(ezd.nl.sp,10)
@@ -372,12 +375,14 @@ front<-paste0(ezd.nl.sp[m2],collapse = " ")
 front<-unlist(strsplit(front,"\\."))
 front.desc<-c("@title ","@subtitle ","")
 front<-paste0(front.desc,front)
-front
+front<-front[1:2]
 #m
-ezd.nl.out<-ezd.nl.l[c(ezd.nl.l[m2[4]+1]:ezd.nl.l[length(ezd.nl.l)])]
+ezd.nl.out<-ezd.nl.l[c(ezd.nl.l[m[4]+1]:ezd.nl.l[length(ezd.nl.l)])]
 ezd.nl.sp.f<-c(front,ezd.nl.sp[ezd.nl.out])
 ### save ezd before fail
-save.lines(ezd.nl.sp.f)
+ezd_markup<-save.lines(ezd.nl.sp.f)
+ezd_markup_text<-ezd_markup[[2]]
+ezd_markup.ns<-ezd_markup[[1]]
 #####################
 write.table("--- pdesc --- ",log.ns,append = T,col.names = F,quote = F)
 log.x(p.head)
