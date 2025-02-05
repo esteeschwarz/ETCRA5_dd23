@@ -159,7 +159,7 @@ assign.sp<-function(x,r){
       if(length(i)>0&dif.bi==0){
 #        pi.tx<-paste0("(",pi.tx,")")
  #       sp.ezd<-paste0("@",pb.tx,":\t#(",pi.tx,")")
-        sp.ezd<-paste0("@#R3",pb.tx,":\t#R3",pi.tx)
+        sp.ezd<-paste0("@#R3-",r,"-",pb.tx,":\t#R3",p.tx)
        # sp.ezd<-gsub("\n"," ",sp.ezd)
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
       print("R3")
@@ -274,6 +274,7 @@ i<-164 # reference, wks.
 i<-161
 i<-49
 i<-40
+i<-87
 assign.sp(all.elements[[i]],i)
 
 sp.lines<-lapply(seq_along(all.elements),function(i){

@@ -30,144 +30,165 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person sex="MALE" xml:id="r4hieronimus">
-            <persName>#R4Hieronimus</persName>
-          </person>
-          <person sex="MALE" xml:id="r2anton">
-            <persName>#R2Anton</persName>
-          </person>
-          <person sex="MALE" xml:id="r6gefangenwärter">
-            <persName>#R6Gefangenwärter</persName>
-          </person>
-          <person sex="MALE" xml:id="r8katelli">
-            <persName>#R8Katelli</persName>
-          </person>
-          <person sex="MALE" xml:id="r3niklas">
-            <persName>#R3Niklas</persName>
+          <person sex="MALE" xml:id="r3-426-katelli">
+            <persName>#R3-426-Katelli</persName>
           </person>
           <person sex="MALE" xml:id="r6zisterzius">
             <persName>#R6Zisterzius</persName>
           </person>
-          <person sex="MALE" xml:id="r6niklas">
-            <persName>#R6Niklas</persName>
+          <person sex="MALE" xml:id="r6der_vermummte">
+            <persName>#R6Der Vermummte</persName>
           </person>
-          <person sex="MALE" xml:id="r6anton">
-            <persName>#R6Anton</persName>
+          <person sex="MALE" xml:id="r3-349-niklas">
+            <persName>#R3-349-Niklas</persName>
           </person>
-          <person sex="MALE" xml:id="r2montenegro">
-            <persName>#R2Montenegro</persName>
-          </person>
-          <person sex="MALE" xml:id="r2pedrillo">
-            <persName>#R2Pedrillo</persName>
-          </person>
-          <person sex="MALE" xml:id="r8pedrillo">
-            <persName>#R8Pedrillo</persName>
-          </person>
-          <person sex="MALE" xml:id="r6priester">
-            <persName>#R6Priester</persName>
-          </person>
-          <person sex="MALE" xml:id="r8anton">
-            <persName>#R8Anton</persName>
-          </person>
-          <person sex="MALE" xml:id="r6hieronimus">
-            <persName>#R6Hieronimus</persName>
-          </person>
-          <person sex="MALE" xml:id="r4niklas">
-            <persName>#R4Niklas</persName>
-          </person>
-          <person sex="FEMALE" xml:id="r2franziska">
-            <persName>#R2Franziska</persName>
-          </person>
-          <person sex="MALE" xml:id="r6montenegro">
-            <persName>#R6Montenegro</persName>
-          </person>
-          <person sex="MALE" xml:id="r3pedrillo">
-            <persName>#R3Pedrillo</persName>
-          </person>
-          <person sex="MALE" xml:id="r3anton">
-            <persName>#R3Anton</persName>
-          </person>
-          <person sex="MALE" xml:id="r4bedienter">
-            <persName>#R4Bedienter</persName>
-          </person>
-          <person sex="MALE" xml:id="r4pedrillo">
-            <persName>#R4Pedrillo</persName>
-          </person>
-          <person sex="MALE" xml:id="r3katelli">
-            <persName>#R3Katelli</persName>
-          </person>
-          <person sex="MALE" xml:id="r6bedienter">
-            <persName>#R6Bedienter</persName>
-          </person>
-          <person sex="FEMALE" xml:id="r6kamilla">
-            <persName>#R6Kamilla</persName>
-          </person>
-          <person sex="MALE" xml:id="r2zisterzius">
-            <persName>#R2Zisterzius</persName>
-          </person>
-          <person sex="MALE" xml:id="r2katelli">
-            <persName>#R2Katelli</persName>
-          </person>
-          <person sex="MALE" xml:id="r3monten">
-            <persName>#R3Monten</persName>
-          </person>
-          <person sex="MALE" xml:id="r6monten">
-            <persName>#R6Monten</persName>
-          </person>
-          <person sex="FEMALE" xml:id="r4kamilla">
-            <persName>#R4Kamilla</persName>
-          </person>
-          <person sex="MALE" xml:id="r6pedrillo">
-            <persName>#R6Pedrillo</persName>
-          </person>
-          <person sex="FEMALE" xml:id="r6franziska">
-            <persName>#R6Franziska</persName>
-          </person>
-          <person sex="MALE" xml:id="r4monten">
-            <persName>#R4Monten</persName>
-          </person>
-          <person sex="MALE" xml:id="r6mont">
-            <persName>#R6Mont</persName>
+          <person sex="MALE" xml:id="r4hieronimus">
+            <persName>#R4Hieronimus</persName>
           </person>
           <person sex="MALE" xml:id="r4zisterzius">
             <persName>#R4Zisterzius</persName>
           </person>
-          <person sex="MALE" xml:id="r4mont">
-            <persName>#R4Mont</persName>
+          <person sex="FEMALE" xml:id="r2franziska">
+            <persName>#R2Franziska</persName>
           </person>
-          <person sex="MALE" xml:id="r6gefangenw">
-            <persName>#R6Gefangenw</persName>
+          <person sex="MALE" xml:id="r4niklas">
+            <persName>#R4Niklas</persName>
           </person>
-          <person sex="MALE" xml:id="r6der_vermummte">
-            <persName>#R6Der Vermummte</persName>
+          <person sex="FEMALE" xml:id="r4kamilla">
+            <persName>#R4Kamilla</persName>
           </person>
-          <person sex="FEMALE" xml:id="r3kamilla">
-            <persName>#R3Kamilla</persName>
+          <person sex="MALE" xml:id="r4monten">
+            <persName>#R4Monten</persName>
+          </person>
+          <person sex="MALE" xml:id="r6monten">
+            <persName>#R6Monten</persName>
           </person>
           <person sex="MALE" xml:id="r4priester">
             <persName>#R4Priester</persName>
           </person>
+          <person sex="MALE" xml:id="r3-472-monten">
+            <persName>#R3-472-Monten</persName>
+          </person>
+          <person sex="MALE" xml:id="r6hieronimus">
+            <persName>#R6Hieronimus</persName>
+          </person>
+          <person sex="MALE" xml:id="r8anton">
+            <persName>#R8Anton</persName>
+          </person>
+          <person sex="MALE" xml:id="r4pedrillo">
+            <persName>#R4Pedrillo</persName>
+          </person>
+          <person sex="MALE" xml:id="r6mont">
+            <persName>#R6Mont</persName>
+          </person>
+          <person sex="MALE" xml:id="r3-293-niklas">
+            <persName>#R3-293-Niklas</persName>
+          </person>
+          <person sex="MALE" xml:id="r3-523-anton">
+            <persName>#R3-523-Anton</persName>
+          </person>
+          <person sex="MALE" xml:id="r4bedienter">
+            <persName>#R4Bedienter</persName>
+          </person>
+          <person sex="MALE" xml:id="r3-473-katelli">
+            <persName>#R3-473-Katelli</persName>
+          </person>
+          <person sex="FEMALE" xml:id="r6franziska">
+            <persName>#R6Franziska</persName>
+          </person>
+          <person sex="MALE" xml:id="r8pedrillo">
+            <persName>#R8Pedrillo</persName>
+          </person>
+          <person sex="MALE" xml:id="r6anton">
+            <persName>#R6Anton</persName>
+          </person>
           <person sex="MALE" xml:id="r6katelli">
             <persName>#R6Katelli</persName>
           </person>
-          <person sex="MALE" xml:id="r4anton">
-            <persName>#R4Anton</persName>
+          <person sex="MALE" xml:id="r2katelli">
+            <persName>#R2Katelli</persName>
           </person>
-          <person sex="MALE" xml:id="r8montenegro">
-            <persName>#R8Montenegro</persName>
+          <person sex="MALE" xml:id="r8katelli">
+            <persName>#R8Katelli</persName>
+          </person>
+          <person sex="MALE" xml:id="r6gefangenw">
+            <persName>#R6Gefangenw</persName>
+          </person>
+          <person sex="MALE" xml:id="r3-581-pedrillo">
+            <persName>#R3-581-Pedrillo</persName>
           </person>
           <person sex="FEMALE" xml:id="r4franziska">
             <persName>#R4Franziska</persName>
           </person>
+          <person sex="MALE" xml:id="r2zisterzius">
+            <persName>#R2Zisterzius</persName>
+          </person>
+          <person sex="MALE" xml:id="r2anton">
+            <persName>#R2Anton</persName>
+          </person>
+          <person sex="MALE" xml:id="r3-87-anton">
+            <persName>#R3-87-Anton</persName>
+          </person>
+          <person sex="MALE" xml:id="r6priester">
+            <persName>#R6Priester</persName>
+          </person>
+          <person sex="MALE" xml:id="r4anton">
+            <persName>#R4Anton</persName>
+          </person>
+          <person sex="FEMALE" xml:id="r6kamilla">
+            <persName>#R6Kamilla</persName>
+          </person>
+          <person sex="MALE" xml:id="r3-643-pedrillo">
+            <persName>#R3-643-Pedrillo</persName>
+          </person>
+          <person sex="MALE" xml:id="r3-422-katelli">
+            <persName>#R3-422-Katelli</persName>
+          </person>
+          <person sex="MALE" xml:id="r6montenegro">
+            <persName>#R6Montenegro</persName>
+          </person>
+          <person sex="MALE" xml:id="r6bedienter">
+            <persName>#R6Bedienter</persName>
+          </person>
           <person sex="MALE" xml:id="r4katelli">
             <persName>#R4Katelli</persName>
+          </person>
+          <person sex="MALE" xml:id="r2pedrillo">
+            <persName>#R2Pedrillo</persName>
+          </person>
+          <person sex="MALE" xml:id="r4mont">
+            <persName>#R4Mont</persName>
+          </person>
+          <person sex="MALE" xml:id="r3-325-niklas">
+            <persName>#R3-325-Niklas</persName>
+          </person>
+          <person sex="FEMALE" xml:id="r3-340-kamilla">
+            <persName>#R3-340-Kamilla</persName>
+          </person>
+          <person sex="MALE" xml:id="r8montenegro">
+            <persName>#R8Montenegro</persName>
+          </person>
+          <person sex="MALE" xml:id="r6niklas">
+            <persName>#R6Niklas</persName>
+          </person>
+          <person sex="MALE" xml:id="r6pedrillo">
+            <persName>#R6Pedrillo</persName>
+          </person>
+          <person sex="MALE" xml:id="r2montenegro">
+            <persName>#R2Montenegro</persName>
+          </person>
+          <person sex="FEMALE" xml:id="r3-300-kamilla">
+            <persName>#R3-300-Kamilla</persName>
+          </person>
+          <person sex="MALE" xml:id="r6gefangenwärter">
+            <persName>#R6Gefangenwärter</persName>
           </person>
         </listPerson>
       </particDesc>
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change when="2025-02-04">DESCRIBE CHANGE</change>
+        <change when="2025-02-05">DESCRIBE CHANGE</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -419,13 +440,13 @@
             <speaker>#R6Katelli:</speaker>
             <p>Aber woher Feder, Tinte? Das Hin- und Wiederlaufen macht Aufsehen, der gute Alte hat schon Verdacht geschöpft.</p>
           </sp>
-          <sp who="##r3anton">
-            <speaker>#R3Anton.:</speaker>
+          <sp who="##r3-87-anton">
+            <speaker>#R3-87-Anton.:</speaker>
           </sp>
         </div>
       </div>
       <div type="act">
-        <head>R3(ab.)</head>
+        <head>R3 Alles aus dem Gartenhause. (ab.)</head>
         <div type="scene">
           <head>Sechster Auftrit.</head>
           <sp who="##r8katelli">
@@ -1122,13 +1143,13 @@
             <speaker>#R6Pedrillo:</speaker>
             <p>Nicht? Ich bin der Mann, für den die größten Ehrenstellen Spaniens offen sind. Meine Ehr’ und alles ist mir auf ewig verloren, wenn ich mich nicht räche! Ihr Blut soll mir lieber, als das Blut der übrigen alle seyn. Ich will bey dem ersten Gerichte lieber darben, um nur das lezte mit allem Hunger niederschlukken zu können.</p>
           </sp>
-          <sp who="##r3niklas">
-            <speaker>#R3Niklas.:</speaker>
+          <sp who="##r3-293-niklas">
+            <speaker>#R3-293-Niklas.:</speaker>
           </sp>
         </div>
       </div>
       <div type="act">
-        <head>R3(ab)</head>
+        <head>R3 Ja, es scheint, als wenn wir uns bey der Nachrede eben so lange, als bey der Vorrede aufhalten wollten. Ich muß weiter. So bald ich irgend näher Nachricht habe; bin ich wieder da. (ab)</head>
         <div type="scene">
           <head>Zweyter Auftrit.</head>
           <stage>#R7Pedrillo allein. (auf und niedergehend)
@@ -1141,13 +1162,13 @@
             <speaker>#R6Niklas:</speaker>
             <p>Da hab’ ich einen hübschen Vogel gefangen. Ich glaube, das Mädchen ist ein Spion.</p>
           </sp>
-          <sp who="##r3kamilla">
-            <speaker>#R3Kamilla.:</speaker>
+          <sp who="##r3-300-kamilla">
+            <speaker>#R3-300-Kamilla.:</speaker>
           </sp>
         </div>
       </div>
       <div type="act">
-        <head>R3(weint)</head>
+        <head>R3 (weint) Ach, gnädiger Herr! Ich komme nur her – ach! ich habe gar nichts böses im Sinne gehabt.</head>
         <sp who="##r6pedrillo">
           <speaker>#R6Pedrillo:</speaker>
           <p>Wer bist du Mädchen?</p>
@@ -1230,12 +1251,12 @@
           <speaker>#R4Pedrillo.:</speaker>
           <p>Also willst du doch so gern schweigen lernen? Das pflegen sonst die Weiber nie zu wollen. Für den guten Vorsatz, Mädchen, will ich dir auch etwas schenken. Ich seh’, es ist bey dir gut angewandt. <stage>(gibt ihr Geld)</stage></p>
         </sp>
-        <sp who="##r3niklas">
-          <speaker>#R3Niklas.:</speaker>
+        <sp who="##r3-325-niklas">
+          <speaker>#R3-325-Niklas.:</speaker>
         </sp>
       </div>
       <div type="act">
-        <head>R3(lacht)</head>
+        <head>R3 (lacht) Vortreflich angewandt.</head>
         <sp who="##r4kamilla">
           <speaker>#R4Kamilla.:</speaker>
           <p>Das hab’ ich ja nicht verdient. Wenn es aber aufs Anwenden ankömmt – daran soll’s nicht fehlen. <stage>(sieht die ganze Scene durch das Geld an)</stage></p>
@@ -1292,12 +1313,12 @@
           <speaker>#R6Pedrillo:</speaker>
           <p>Und wenn du’s bis dahin bey dir behältst, meinst du, ist’s lange? – Es ist gut, Mädchen. Geh nur. Ich habe Arbeit.</p>
         </sp>
-        <sp who="##r3kamilla">
-          <speaker>#R3Kamilla.:</speaker>
+        <sp who="##r3-340-kamilla">
+          <speaker>#R3-340-Kamilla.:</speaker>
         </sp>
       </div>
       <div type="act">
-        <head>R3(ab.)</head>
+        <head>R3 Ihre Dienerin, gnädiger Herr. (ab.)</head>
         <div type="scene">
           <head>Vierter Auftrit.</head>
           <stage>#R7Pedrillo und Niklas.</stage>
@@ -1325,19 +1346,13 @@
             <speaker>#R6Pedrillo:</speaker>
             <p>Die Worte klingen ganz süß, bey der That, glaub’ ich aber, wird’s höchstens zum Klappern  kommen.</p>
           </sp>
-          <sp who="##r3niklas">
-            <speaker>#R3Niklas.:</speaker>
+          <sp who="##r3-349-niklas">
+            <speaker>#R3-349-Niklas.:</speaker>
           </sp>
         </div>
       </div>
       <div type="act">
-        <head>R3(geht)</head>
-        <sp who="##r3niklas">
-          <speaker>#R3Niklas.:</speaker>
-        </sp>
-      </div>
-      <div type="act">
-        <head>R3(ab.)</head>
+        <head>R3 Ach, was doch! Es geht gewiß alles gut; bis – bis auf das Mädchen. Wenn uns dies nur nichts zu schaffen macht! Halten sie nur ihren Wagen in der Ferne bereit, daß wir sie fortbringen können. Und nun nur geschwind. Je rascher zur That, desto leichter die Vollführung! Aber, gelte, gelte! wir kommen schon zu spät. Alles bey der Abrede! (geht) Armer Alter, und du armer Katelli! ihr denkt wohl an nichts weniger, als das ihr auf den Kauf gemacht seyd; daß ihr meiner Nahrung helfen sollt! (ab.)</head>
         <div type="scene">
           <head>Fünfter Auftrit.</head>
           <sp who="##r2pedrillo">
@@ -1554,19 +1569,13 @@
             <speaker>#R6Priester:</speaker>
             <p>pb n="56"/>  Hier ist mein Zertifikat.</p>
           </sp>
-          <sp who="##r3katelli">
-            <speaker>#R3Katelli.:</speaker>
+          <sp who="##r3-422-katelli">
+            <speaker>#R3-422-Katelli.:</speaker>
           </sp>
         </div>
       </div>
       <div type="act">
-        <head>R3(liest)</head>
-        <sp who="##r3katelli">
-          <speaker>#R3Katelli.:</speaker>
-        </sp>
-      </div>
-      <div type="act">
-        <head>R3(hitzig)</head>
+        <head>R3 (liest) Sie sind recht. (hitzig) Aber ein Schurke hat das dem heiligen Gericht benachrichtiget. Ich spreche nie wider Religion. Ich bin froh, daß ich unter ihrem Schuz lebe.</head>
         <sp who="##r6priester">
           <speaker>#R6Priester:</speaker>
           <p>Geben sie ihren Degen den Dienern der heiligen Hermandat und folgen sie. Vertheidigen sie sich vor dem Gericht selbst. Mein Ohr muß jeder Vertheidigung taub seyn.</p>
@@ -1579,12 +1588,12 @@
           <speaker>#R4Priester.:</speaker>
           <p><stage>(indem Katelli nachdenkend steht)</stage> Zaudern sie nicht. Auch Franziska ist darein verwikelt. Folgen sie nicht willig und gleich, so begnüg’ ich mich nicht mit ihnen allein.</p>
         </sp>
-        <sp who="##r3katelli">
-          <speaker>#R3Katelli.:</speaker>
+        <sp who="##r3-426-katelli">
+          <speaker>#R3-426-Katelli.:</speaker>
         </sp>
       </div>
       <div type="act">
-        <head>R3(auffahrend)</head>
+        <head>R3 (auffahrend) Meine Franziska sollte von deiner Gnade abhängen, Priester?</head>
         <sp who="##r6priester">
           <speaker>#R6Priester:</speaker>
           <p>Mäßigen sie sich. Nicht von der meinigen. Von der Gnade der heiligen Inquisition.</p>
@@ -1735,19 +1744,19 @@
             <speaker>#R6Katelli:</speaker>
             <p>Wo ist Franziska? Sie muß mit mir fort eilen. Ich will mit ihr hinfliehen, wo uns kein Satansauge erforschen kann.</p>
           </sp>
-          <sp who="##r3monten">
-            <speaker>#R3Monten.:</speaker>
+          <sp who="##r3-472-monten">
+            <speaker>#R3-472-Monten.:</speaker>
           </sp>
         </div>
       </div>
       <div type="act">
-        <head>R3(weint.)</head>
-        <sp who="##r3katelli">
-          <speaker>#R3Katelli.:</speaker>
+        <head>R3 Wahnsinniger! du hast deine und ihre Sache verdorben. Für dich hat man sie genommen. Eingesperrt in düstern Mauren wird sie da sitzen und mich verfluchen, daß ich sie gezeugt habe. (weint.)</head>
+        <sp who="##r3-473-katelli">
+          <speaker>#R3-473-Katelli.:</speaker>
         </sp>
       </div>
       <div type="act">
-        <head>R3(tobend)</head>
+        <head>R3 (tobend) Ich will hin, will sie befreyn. Ich will meinen Kopf für den ihrigen in den Rachen der Menschenfresser stekken.</head>
         <sp who="##r4monten">
           <speaker>#R4Monten.:</speaker>
           <p>Sie werden ihn dir abbeissen und gierig nach den andern schnappen. Hat der Unsinn dich ganz gefesselt? Eil’ und verbirg dich! Sorge für dein eigenes Leben! Sie soll meine Sorge seyn. <stage>(Der Pater Hieronimus kömmt)</stage> Sieh, Katelli! Rette dich! <stage>(Katelli eiligst ab.)</stage></p>
@@ -1908,19 +1917,13 @@
             <speaker>#R4Katelli.:</speaker>
             <p>Laß deine Philosophien jezt weg und geh! Fürchte nichts! Die gerechte Sache geht vor uns her! Alle Schuld fällt auf ihn. Er vertändelt sein Leben. Wenn er mir meine Franziska daheim führen läßt, so soll das Erbarmen meine Blutgierde unterdrükken. <stage>(horcht auf ein Geräusch hinter der Bühne)</stage> Geh’, Anton, hinten hinaus und halt dich rüstig!</p>
           </sp>
-          <sp who="##r3anton">
-            <speaker>#R3Anton.:</speaker>
+          <sp who="##r3-523-anton">
+            <speaker>#R3-523-Anton.:</speaker>
           </sp>
         </div>
       </div>
       <div type="act">
-        <head>R3(geht)</head>
-        <sp who="##r3anton">
-          <speaker>#R3Anton.:</speaker>
-        </sp>
-      </div>
-      <div type="act">
-        <head>R3(ab.)</head>
+        <head>R3 (geht) Der Himmel sey dein Begleiter! Und wenn du fällst, so schikke mir deinen <pb n="71"/> Geist. Ich folge dir gewiß. Was muß es nicht für ein gutes Sterben seyn, wenn man für seinen Herrn stirbt. (ab.)</head>
         <div type="scene">
           <head>Dritter Auftrit.</head>
           <sp who="##r2katelli">
@@ -2123,13 +2126,13 @@
             <speaker>#R6Katelli:</speaker>
             <p>Nichts mehr.</p>
           </sp>
-          <sp who="##r3pedrillo">
-            <speaker>#R3Pedrillo.:</speaker>
+          <sp who="##r3-581-pedrillo">
+            <speaker>#R3-581-Pedrillo.:</speaker>
           </sp>
         </div>
       </div>
       <div type="act">
-        <head>R3(ab.)</head>
+        <head>R3 Lieber Jahre lang im Abgrund der Erde, als hier noch eine Minute. (ab.)</head>
         <div type="scene">
           <head>Sechster Auftrit.</head>
           <sp who="##r2katelli">
@@ -2324,13 +2327,13 @@
             <speaker>#R6Katelli:</speaker>
             <p>Er ist noch hier! Aber wo er stekt weiß ich nicht.</p>
           </sp>
-          <sp who="##r3pedrillo">
-            <speaker>#R3Pedrillo.:</speaker>
+          <sp who="##r3-643-pedrillo">
+            <speaker>#R3-643-Pedrillo.:</speaker>
           </sp>
         </div>
       </div>
       <div type="act">
-        <head>R3(laut)</head>
+        <head>R3 Verdammt! wenn mein Wahn nicht eitel wäre! Schlau genug, wär’s Verstellung. Aehnlichkeit in der Sprache! (laut) Sprich! wo ist Katelli?</head>
         <sp who="##r6katelli">
           <speaker>#R6Katelli:</speaker>
           <p>Ihre Augen auf; und sie werden ihn finden!</p>

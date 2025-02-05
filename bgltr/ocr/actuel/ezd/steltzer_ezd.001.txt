@@ -116,8 +116,8 @@ Das kann ich nicht, Alter. Dazu bin ich noch zu warm. Aber schreiben will ich ih
 Mit den Zettelchen ist es nur so eine häßliche Sache. Es ist, als wenn man sich nicht <pb n="13"/> getraute, jemanden dreist in die Augen zu sehen. Indessen – immer besser etwas, als gar nichts. 
 @#R6Katelli:
 Aber woher Feder, Tinte? Das Hin- und Wiederlaufen macht Aufsehen, der gute Alte hat schon Verdacht geschöpft. 
-@#R3Anton.:
-#R3(ab.)
+@#R3-87-Anton.:
+#R3 Alles aus dem Gartenhause. (ab.) 
 ##Sechster Auftrit.
 @#R8Katelli:
 $allein, (dem Anton nachrufend)  
@@ -469,8 +469,8 @@ Daß du mir ja nichts versäumest. Ziehe vor allem nur sichere Nachricht ein, eh
 <pb n="40"/>  Ha, ha! Ich denk’ aber immer, wenn sie das kleine närrische Ding wieder sehen, wird sich’s Quälen schon geben. Ich müßte sie nicht kennen. Weiberthräne ist Lockspeise. Es wär’ auch sonst alles vergebene Arbeit, denn um sie ist das ganze Spektakel angefangen. Das Bischen Rache ist so vieler Umstände nicht werth. 
 @#R6Pedrillo:
 Nicht? Ich bin der Mann, für den die größten Ehrenstellen Spaniens offen sind. Meine Ehr’ und alles ist mir auf ewig verloren, wenn ich mich nicht räche! Ihr Blut soll mir lieber, als das Blut der übrigen alle seyn. Ich will bey dem ersten Gerichte lieber darben, um nur das lezte mit allem Hunger niederschlukken zu können. 
-@#R3Niklas.:
-#R3(ab)
+@#R3-293-Niklas.:
+#R3 Ja, es scheint, als wenn wir uns bey der Nachrede eben so lange, als bey der Vorrede aufhalten wollten. Ich muß weiter. So bald ich irgend näher Nachricht habe; bin ich wieder da. (ab) 
 ##Zweyter Auftrit.
 $#R7Pedrillo allein. (auf und niedergehend) 
 Bald wird das Meer überschift seyn! Nur eine kleine Sandbank verhindert die Landung noch! (Sezt sich nachdenkend hin) Ich seh’ aber warlich noch nicht ein, wie wir uns unentdekt ihnen nähern wollen! Es ist <pb n="41"/> wahr, der Garten ist zum Verbergen buschicht genug; aber sollten sie nicht auf Sicherheit gedacht haben, da sie wissen, daß der Garten nach der Feldseite offen ist; da sie von dort aus ein jeder, nach Gefallen, beschleichen kann? Und werden sie sich an ihrer eigenen Gesellschaft begnügen? Niklas, Niklas, dein Plan ist zu hitzig gemacht. 
@@ -478,8 +478,8 @@ Bald wird das Meer überschift seyn! Nur eine kleine Sandbank verhindert die Lan
 $#R7Pedrillo, Niklas und Kamilla. 
 @#R6Niklas:
 Da hab’ ich einen hübschen Vogel gefangen. Ich glaube, das Mädchen ist ein Spion. 
-@#R3Kamilla.:
-#R3(weint)
+@#R3-300-Kamilla.:
+#R3 (weint) Ach, gnädiger Herr! Ich komme nur her – ach! ich habe gar nichts böses im Sinne gehabt. 
 @#R6Pedrillo:
 Wer bist du Mädchen? 
 @#R6Niklas:
@@ -522,8 +522,8 @@ Das ist aber auch nicht gut, daß dir der Alte nicht mehr traut. (fängt an sich
 Im Grunde ist’s mir auch einerley. Weiter sagen dürft’ ich’s doch nicht, denn er hat mir gesagt, daß ich noch vielmehr von seinem Herrn haben sollte, wenn ich zu allem hübsch stillschwiege, und’s nicht unter die Leute brächte. 
 @#R4Pedrillo.:
 Also willst du doch so gern schweigen lernen? Das pflegen sonst die Weiber nie zu wollen. Für den guten Vorsatz, Mädchen, will ich dir auch etwas schenken. Ich seh’, es ist bey dir gut angewandt. (gibt ihr Geld) 
-@#R3Niklas.:
-#R3(lacht)
+@#R3-325-Niklas.:
+#R3 (lacht) Vortreflich angewandt. 
 @#R4Kamilla.:
 Das hab’ ich ja nicht verdient. Wenn es aber aufs Anwenden ankömmt – daran soll’s nicht fehlen. (sieht die ganze Scene durch das Geld an) 
 @#R6Pedrillo:
@@ -552,8 +552,8 @@ Sie sollen einmal sehen, wie ich schweigen kann. Ich bin so nicht, als meine Her
 Ich will wohl Wort halten. Ich komme ja auch erst heut Abend zu Hause. 
 @#R6Pedrillo:
 Und wenn du’s bis dahin bey dir behältst, meinst du, ist’s lange? – Es ist gut, Mädchen. Geh nur. Ich habe Arbeit. 
-@#R3Kamilla.:
-#R3(ab.)
+@#R3-340-Kamilla.:
+#R3 Ihre Dienerin, gnädiger Herr. (ab.) 
 ##Vierter Auftrit.
 $#R7Pedrillo und Niklas. 
 @#R6Niklas:
@@ -568,10 +568,8 @@ Und dann sind wir weiter nichts, als die Wölfe, die den Hirten fressen, und die
 Hören sie nur weiter. Wir warten alsdenn, bis sie auf ein Häuschen beysammen sind; bis der Pfaff sie einsegnen will, damit sie die Trauung und die Leichenpredigt für ein Geld haben. Husch! springen wir hervor. Das Unerwartete wird sie wehrlos machen. Der Pfaff wird froh seyn, wenn er mit dem Leben davon kömmt, und die alten Bedienten, diese dürren klapperichten Gerippe sind leicht <pb n="48"/> aufgerieben, wenn sie uns in die Quere kommen. Ich dächte durch sechs und wenn’s auch noch mehrere sind, hätten wir uns schon ehr durchgeschlagen. 
 @#R6Pedrillo:
 Die Worte klingen ganz süß, bey der That, glaub’ ich aber, wird’s höchstens zum Klappern  kommen. 
-@#R3Niklas.:
-#R3(geht)
-@#R3Niklas.:
-#R3(ab.)
+@#R3-349-Niklas.:
+#R3 Ach, was doch! Es geht gewiß alles gut; bis – bis auf das Mädchen. Wenn uns dies nur nichts zu schaffen macht! Halten sie nur ihren Wagen in der Ferne bereit, daß wir sie fortbringen können. Und nun nur geschwind. Je rascher zur That, desto leichter die Vollführung! Aber, gelte, gelte! wir kommen schon zu spät. Alles bey der Abrede! (geht) Armer Alter, und du armer Katelli! ihr denkt wohl an nichts weniger, als das ihr auf den Kauf gemacht seyd; daß ihr meiner Nahrung helfen sollt! (ab.) 
 ##Fünfter Auftrit.
 @#R2Pedrillo:
 $allein. 
@@ -683,18 +681,16 @@ Ich komm’ im Namen der heiligen Inquisition. Sie haben wider Religion gesproch
 Herr Pater! beweisen sie, daß die heilige Inquisition sie schikt. 
 @#R6Priester:
 <pb n="56"/>  Hier ist mein Zertifikat. 
-@#R3Katelli.:
-#R3(liest)
-@#R3Katelli.:
-#R3(hitzig)
+@#R3-422-Katelli.:
+#R3 (liest) Sie sind recht. (hitzig) Aber ein Schurke hat das dem heiligen Gericht benachrichtiget. Ich spreche nie wider Religion. Ich bin froh, daß ich unter ihrem Schuz lebe. 
 @#R6Priester:
 Geben sie ihren Degen den Dienern der heiligen Hermandat und folgen sie. Vertheidigen sie sich vor dem Gericht selbst. Mein Ohr muß jeder Vertheidigung taub seyn. 
 @#R4Franziska.:
 Mein Katelli! Du Engelunschuld! Wider Religion! Gott! (Sie fällt schwach über.) 
 @#R4Priester.:
 (indem Katelli nachdenkend steht) Zaudern sie nicht. Auch Franziska ist darein verwikelt. Folgen sie nicht willig und gleich, so begnüg’ ich mich nicht mit ihnen allein. 
-@#R3Katelli.:
-#R3(auffahrend)
+@#R3-426-Katelli.:
+#R3 (auffahrend) Meine Franziska sollte von deiner Gnade abhängen, Priester? 
 @#R6Priester:
 Mäßigen sie sich. Nicht von der meinigen. Von der Gnade der heiligen Inquisition. 
 @#R4Katelli.:
@@ -772,10 +768,10 @@ $#R7Montenegro und Katelli, der plötzlich von hinten auf ihn zuspringt.
 Katelli! deine Tollkühnheit, deine Unbesonnenheit hat keine Schranken. 
 @#R6Katelli:
 Wo ist Franziska? Sie muß mit mir fort eilen. Ich will mit ihr hinfliehen, wo uns kein Satansauge erforschen kann. 
-@#R3Monten.:
-#R3(weint.)
-@#R3Katelli.:
-#R3(tobend)
+@#R3-472-Monten.:
+#R3 Wahnsinniger! du hast deine und ihre Sache verdorben. Für dich hat man sie genommen. Eingesperrt in düstern Mauren wird sie da sitzen und mich verfluchen, daß ich sie gezeugt habe. (weint.) 
+@#R3-473-Katelli.:
+#R3 (tobend) Ich will hin, will sie befreyn. Ich will meinen Kopf für den ihrigen in den Rachen der Menschenfresser stekken. 
 @#R4Monten.:
 Sie werden ihn dir abbeissen und gierig nach den andern schnappen. Hat der Unsinn dich ganz gefesselt? Eil’ und verbirg dich! Sorge für dein eigenes Leben! Sie soll meine Sorge seyn. (Der Pater Hieronimus kömmt) Sieh, Katelli! Rette dich! (Katelli eiligst ab.) 
  <pb n="62"/>
@@ -859,10 +855,8 @@ Ja, Freunde! Wo soll ich sie suchen, in einem Lande voll Falschheit und Arglist?
 Denken sie doch nicht so böse. 
 @#R4Katelli.:
 Laß deine Philosophien jezt weg und geh! Fürchte nichts! Die gerechte Sache geht vor uns her! Alle Schuld fällt auf ihn. Er vertändelt sein Leben. Wenn er mir meine Franziska daheim führen läßt, so soll das Erbarmen meine Blutgierde unterdrükken. (horcht auf ein Geräusch hinter der Bühne) Geh’, Anton, hinten hinaus und halt dich rüstig! 
-@#R3Anton.:
-#R3(geht)
-@#R3Anton.:
-#R3(ab.)
+@#R3-523-Anton.:
+#R3 (geht) Der Himmel sey dein Begleiter! Und wenn du fällst, so schikke mir deinen <pb n="71"/> Geist. Ich folge dir gewiß. Was muß es nicht für ein gutes Sterben seyn, wenn man für seinen Herrn stirbt. (ab.) 
 ##Dritter Auftrit.
 @#R2Katelli:
 $allein. 
@@ -966,8 +960,8 @@ Er kann sich selbst nicht besser kennen, als ich ihn kenne. Alles was ich weiß,
 Alles, wie du willst. Nur halt mich hier nicht länger auf, und sprich wenn du noch zu sprechen hast. 
 @#R6Katelli:
 Nichts mehr. 
-@#R3Pedrillo.:
-#R3(ab.)
+@#R3-581-Pedrillo.:
+#R3 Lieber Jahre lang im Abgrund der Erde, als hier noch eine Minute. (ab.) 
 ##Sechster Auftrit.
 @#R2Katelli:
 $allein. 
@@ -1067,8 +1061,8 @@ Katelli! Katelli! Warum verläßt du mich jezt. Hülfe! Eh er mich ermordet!
 Er ist hier gewesen? Katelli hier? 
 @#R6Katelli:
 Er ist noch hier! Aber wo er stekt weiß ich nicht. 
-@#R3Pedrillo.:
-#R3(laut)
+@#R3-643-Pedrillo.:
+#R3 Verdammt! wenn mein Wahn nicht eitel wäre! Schlau genug, wär’s Verstellung. Aehnlichkeit in der Sprache! (laut) Sprich! wo ist Katelli? 
 @#R6Katelli:
 Ihre Augen auf; und sie werden ihn finden! 
 @#R4Pedrillo.:
