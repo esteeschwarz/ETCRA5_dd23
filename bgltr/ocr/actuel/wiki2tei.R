@@ -172,8 +172,13 @@ assign.sp<-function(x,r){
         log.i<-matrix(logx,ncol = length(logx),nrow = 1)
         write.table(log.i,log.ns,append = T,col.names = F,quote = F)
        # sp.tx
+<<<<<<< HEAD
 #        sp.ezd<-paste0("@#R4",pb.tx,":\n(",pi.tx,")",p.tx)
         sp.ezd<-paste0("@",pb.tx,":\t",p.tx)
+=======
+  #      sp.ezd<-paste0("@#R4",pb.tx,":\n(",pi.tx,")",p.tx)
+      sp.ezd<-paste0("@",pb.tx,":\t",p.tx)
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
         #sp.ezd<-gsub("\n"," ",sp.ezd)
         sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
         print("R4")
@@ -315,7 +320,7 @@ ezd.nl<-gsub("  "," ",ezd.lines)
 ezd.nl<-gsub("[^:]\n<pb","<pb",ezd.nl)
 ezd.nl[1:100]
 ezd.nl<-gsub("(:\n<pb.+/>.?)\n","\\1",ezd.nl)
-ezd.nl<-gsub("\t","",ezd.nl)
+# ezd.nl<-gsub("\t","",ezd.nl)
 head(ezd.nl,100)
 ### normalise speaker ids
 m<-grep("^@.*[:.]",ezd.nl)
@@ -347,6 +352,8 @@ for (k in 1:length(sp.cor$speaker)){
     ezd.nl.sp[m]<-gsub(sp.cor$speaker[k],sp.cor$corrected[k],ezd.nl.sp[m])
   }
 }
+ezd.nl.sp<-gsub("\t","\n",ezd.nl.sp)
+
 #wks.
 save.lines<-function(ezd.lines){
   ezd_markup.ns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001"

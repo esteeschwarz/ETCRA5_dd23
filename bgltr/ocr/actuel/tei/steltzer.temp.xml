@@ -32,6 +32,7 @@
     <profileDesc>
       <particDesc>
         <listPerson>
+<<<<<<< HEAD
           <person sex="MALE" xml:id="pedrillo">
             <persName>Pedrillo</persName>
           </person>
@@ -70,6 +71,292 @@
           </person>
           <person sex="MALE" xml:id="anton">
             <persName>Anton</persName>
+=======
+          <person sex="MALE" xml:id="der_vermummte:_wehe,_wehe_dir">
+            <persName>Der Vermummte: Wehe, wehe dir</persName>
+          </person>
+          <person sex="MALE" xml:id="anton:_kennt_noch_keiner_den_alten_alton">
+            <persName>Anton: Kennt noch keiner den alten Alton</persName>
+          </person>
+          <person sex="MALE" xml:id="hieronimus:_kommen_sie">
+            <persName>Hieronimus: Kommen sie</persName>
+          </person>
+          <person sex="MALE" xml:id="anton:_können_sie_aus_des_pfaffen_reden_nichts_argwöhnen?">
+            <persName>Anton: Können sie aus des Pfaffen Reden nichts argwöhnen?</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro:_nun,_was_ist_ihr_begehren,_herr_pater,_und_wer_sind_sie?">
+            <persName>Montenegro: Nun, was ist ihr Begehren, Herr Pater, und wer sind sie?</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:)_bin_ich_denn_gemacht,_um_zur_probe_zu_dienen,_wieviel_lasten_misgeschiks_ein_menschenrükken_tragen_kann?_–_franziska!_–">
+            <persName>Katelli:) Bin ich denn gemacht, um zur Probe zu dienen, wieviel Lasten Misgeschiks ein Menschenrükken tragen kann? – Franziska! –</persName>
+          </person>
+          <person sex="MALE" xml:id="anton:_–_mein_herr_ist_ihr_auch_recht_gut,_und_was_das_beste_ist_–_seh_sie_nur">
+            <persName>Anton: – Mein Herr ist ihr auch recht gut, und was das Beste ist – Seh sie nur</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro:_ich_liebe_dich,_wie_sie_–_aber_ich_kanns_nicht_vergessen!_so_ein_zettelchen!_und_dann_wirfst_dus_dahin!_bedenk,_wenns_ein_unrechter_gefunden_hätte">
+            <persName>Montenegro: Ich liebe dich, wie sie – Aber ich kann’s nicht vergessen! so ein Zettelchen! Und dann wirfst dus dahin! Bedenk, wenn’s ein Unrechter gefunden hätte</persName>
+          </person>
+          <person sex="MALE" xml:id="niklas:_daß_die_komedie_nur_recht_angefangen_wird">
+            <persName>Niklas: Daß die Komedie nur recht angefangen wird</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo">
+            <persName>Pedrillo</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:)">
+            <persName>Katelli:)</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo:_weißt_du_nicht,_was_ich_über_dich_vermag?">
+            <persName>Pedrillo: Weißt du nicht, was ich über dich vermag?</persName>
+          </person>
+          <person sex="MALE" xml:id="franziska:_hülfe!_eh_er_mich_ermordet">
+            <persName>Franziska: Hülfe! Eh er mich ermordet</persName>
+          </person>
+          <person sex="MALE" xml:id="hieronimus">
+            <persName>Hieronimus</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro:_wozu_soll_das?_schämt_sich_deine_zunge_gutes_zu_reden?">
+            <persName>Montenegro: Wozu soll das? schämt sich deine Zunge gutes zu reden?</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo:_–_–_närrin,_antwortest_du_mir_nicht?_bosheit,_oder_verstellung?">
+            <persName>Pedrillo: – – Närrin, antwortest du mir nicht? Bosheit, oder Verstellung?</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli">
+            <persName>Katelli</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro:_mensch_was_bist_du?">
+            <persName>Montenegro: Mensch was bist du?</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:_nicht?">
+            <persName>Katelli: Nicht?</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro:_an_euch_fehlts_nun_doch_nicht?">
+            <persName>Montenegro: An euch fehlt’s nun doch nicht?</persName>
+          </person>
+          <person sex="MALE" xml:id="anton:_hör_sie!_neues,_oder_ich_mache_links_um">
+            <persName>Anton: Hör sie! Neues, oder ich mache links um</persName>
+          </person>
+          <person sex="MALE" xml:id="anton:_ja,_ja,_haben_sies_endlich_doch_vergessen,_was_der_vater_sagte,_als_sie_in_den_wagen_stiegen?_„karl,_karl,_nimm_dich_für_die_mädchen_in_acht!_es_ist_ein_arges_ding,_sie_wieder_aus_dem_kopf_zu_bringen,_wenn_sie_sich_einmal_eingeschlichen_haben!“">
+            <persName>Anton: Ja, ja, haben sie’s endlich doch vergessen, was der Vater sagte, als sie in den Wagen stiegen? „Karl, Karl, nimm dich für die Mädchen in Acht! Es ist ein arges Ding, sie wieder aus dem Kopf zu bringen, wenn sie sich einmal eingeschlichen haben!“</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:_zu_franziska)_und_nun_zum_gericht_franziska!_rettung_ist_hier_tod">
+            <persName>Katelli: Zu Franziska) Und nun zum Gericht Franziska! Rettung ist hier tod</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro:_bin_ich_so_hartsinnig,_daß_mich_erst_fußfälle_bestechen_müssen?">
+            <persName>Montenegro: Bin ich so hartsinnig, daß mich erst Fußfälle bestechen müssen?</persName>
+          </person>
+          <person sex="MALE" xml:id="anton">
+            <persName>Anton</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:_nicht_anton?_–_du_schweigst?">
+            <persName>Katelli: Nicht Anton? – Du schweigst?</persName>
+          </person>
+          <person sex="MALE" xml:id="niklas:_–_nach_haus,_herr">
+            <persName>Niklas: – Nach Haus, Herr</persName>
+          </person>
+          <person sex="MALE" xml:id="kamilla:)">
+            <persName>Kamilla:)</persName>
+          </person>
+          <person sex="MALE" xml:id="priester:_wache">
+            <persName>Priester: Wache</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo:_wie_du_heißt?_und_keine_minute_darfst_du_länger_zögern?">
+            <persName>Pedrillo: Wie du heißt? Und keine Minute darfst du länger zögern?</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:_–_aber,_bester_vater,_warum_lassen_sie_noch_länger_auf_ihr_ja_unsern_flehenden_blik_schmachten?">
+            <persName>Katelli: – Aber, bester Vater, warum lassen sie noch länger auf ihr Ja unsern flehenden Blik schmachten?</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo:_ich_sags_dir_aber;_plappere_nicht">
+            <persName>Pedrillo: Ich sag’s dir aber; plappere nicht</persName>
+          </person>
+          <person sex="MALE" xml:id="niklas:_wenn_so_ein_kopf_drüber_kömmt">
+            <persName>Niklas: Wenn so ein Kopf drüber kömmt</persName>
+          </person>
+          <person sex="MALE" xml:id="kamilla:_–_ich_habe_sie_immer_für_so_böse_auf_unser_haus_gehalten;_aber_sie_sehen_ja_doch_so_freundlich_aus">
+            <persName>Kamilla: – Ich habe sie immer für so böse auf unser Haus gehalten; aber sie sehen ja doch so freundlich aus</persName>
+          </person>
+          <person sex="MALE" xml:id="franziska:_als_wenn_meine_todesstunde_alles_glük,_das_ich_hier_auf_erden_genießen_soll,_in_sich_faßt">
+            <persName>Franziska: Als wenn meine Todesstunde alles Glük, das ich hier auf Erden genießen soll, in sich faßt</persName>
+          </person>
+          <person sex="MALE" xml:id="gefangenwärter">
+            <persName>Gefangenwärter</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:_und_sollt_ich_dir_eine_bitte_erfüllen,_da_du_mit_die_meinige_abgeschlagen_hast?_franziska,_folge_mir">
+            <persName>Katelli: Und sollt’ ich dir eine Bitte erfüllen, da du mit die meinige abgeschlagen hast? Franziska, folge mir</persName>
+          </person>
+          <person sex="MALE" xml:id="anton:_er_wird_–">
+            <persName>Anton: Er wird –</persName>
+          </person>
+          <person sex="MALE" xml:id="franziska:_heißt_es_nicht_willig_ins_grab_hineinspringen,_wenn_man_über_diese_schwelle_trit?">
+            <persName>Franziska: Heißt es nicht willig ins Grab hineinspringen, wenn man über diese Schwelle trit?</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro">
+            <persName>Montenegro</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro:)">
+            <persName>Montenegro:)</persName>
+          </person>
+          <person sex="MALE" xml:id="priester">
+            <persName>Priester</persName>
+          </person>
+          <person sex="MALE" xml:id="franziska:_wie_würde_sich_meines_katellis_vater_nicht_freuen,_wenn_er_sie_wiedersähe?">
+            <persName>Franziska: Wie würde sich meines Katelli’s Vater nicht freuen, wenn er sie wiedersähe?</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo:_–_du_hast_wohl_alles_wieder_drüber_vergessen?">
+            <persName>Pedrillo: – Du hast wohl alles wieder drüber vergessen?</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo:_aehnlichkeit_in_der_sprache">
+            <persName>Pedrillo: Aehnlichkeit in der Sprache</persName>
+          </person>
+          <person sex="MALE" xml:id="anton:_–">
+            <persName>Anton: –</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro:_–_du_schweigst?_bin_ich_schuld?">
+            <persName>Montenegro: – Du schweigst? Bin ich schuld?</persName>
+          </person>
+          <person sex="MALE" xml:id="kamilla:_muß_ichs_ihm_denn_aufdringen?">
+            <persName>Kamilla: Muß ich’s ihm denn aufdringen?</persName>
+          </person>
+          <person sex="MALE" xml:id="franziska:_wer_will_träumen_glauben?">
+            <persName>Franziska: Wer will Träumen glauben?</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:_)">
+            <persName>Katelli: )</persName>
+          </person>
+          <person sex="MALE" xml:id="kamilla:_der_hat_mir_erzehlt_–">
+            <persName>Kamilla: Der hat mir erzehlt –</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo:_oder_willst_du_mir_auch_abtrünnig_werden,_da_ich_mich_fast_selbst_schon_verlassen_habe?_du_furchtsam?">
+            <persName>Pedrillo: Oder willst du mir auch abtrünnig werden, da ich mich fast selbst schon verlassen habe? du furchtsam?</persName>
+          </person>
+          <person sex="MALE" xml:id="franziska:_katelli!_katelli,_zum_kampf">
+            <persName>Franziska: Katelli! Katelli, zum Kampf</persName>
+          </person>
+          <person sex="MALE" xml:id="anton:)">
+            <persName>Anton:)</persName>
+          </person>
+          <person sex="MALE" xml:id="franziska:_was_wärs_mir_auch_besser,_ob_ich_bin,_oder_nicht?_wenn_ich_nur_erst_meinen_katelli_auf_den_stufen_des_himmels_erwarten_könnte!_armer,_du_leidest_viel_um_mich">
+            <persName>Franziska: Was wär’s mir auch besser, ob ich bin, oder nicht? Wenn ich nur erst meinen Katelli auf den Stufen des Himmels erwarten könnte! Armer, du leidest viel um mich</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo:)">
+            <persName>Pedrillo:)</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro:_o,_über_die_dumme_verstokte_blindheit_des_volks!_mit_ofnen_augen_sieht_es_den_tyrannen_im_pfaffen,_und_doch_hält_es_ihre_bosheit_für_that_der_heiligen!_kreuzigt_sich,_wenn_sie_vorübergehen">
+            <persName>Montenegro: O, über die dumme verstokte Blindheit des Volks! Mit ofnen Augen sieht es den Tyrannen im Pfaffen, und doch hält es ihre Bosheit für That der Heiligen! kreuzigt sich, wenn sie vorübergehen</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:_bald,_bald_werd_ich_sie_wiedersehen_–_anton">
+            <persName>Katelli: Bald, bald werd’ ich sie wiedersehen – Anton</persName>
+          </person>
+          <person sex="FEMALE" xml:id="kamilla">
+            <persName>Kamilla</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo:_willst_du_mich_denn_zum_ball_machen,_womit_das_schiksal_sein_muthwilliges_spiel_treiben_soll?">
+            <persName>Pedrillo: Willst du mich denn zum Ball machen, womit das Schiksal sein muthwilliges Spiel treiben soll?</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro:_ringe_deine_hände_und_schüttle_den_kopf">
+            <persName>Montenegro: Ringe deine Hände und schüttle den Kopf</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro:_hat_ihnen_pedrillo_davon_noch_nichts_gesagt?">
+            <persName>Montenegro: Hat ihnen Pedrillo davon noch nichts gesagt?</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:_meinst_du?">
+            <persName>Katelli: Meinst du?</persName>
+          </person>
+          <person sex="MALE" xml:id="niklas">
+            <persName>Niklas</persName>
+          </person>
+          <person sex="MALE" xml:id="zisterzius:))">
+            <persName>Zisterzius:))</persName>
+          </person>
+          <person sex="MALE" xml:id='montenegro:_aber_frömmigkeit_und_redlichkeit_<pb_n="65"/>_haben_keinen_werth_mehr!_sie_sind_abgesezte_münze!_heuchelnde_schmeichler_sind_die_männer_des_glüks'>
+            <persName>Montenegro: Aber Frömmigkeit und Redlichkeit <pb n="65"/> haben keinen Werth mehr! Sie sind abgesezte Münze! Heuchelnde Schmeichler sind die Männer des Glüks</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:_sie_brauchen_mich_doch?">
+            <persName>Katelli: Sie brauchen mich doch?</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro:_)">
+            <persName>Montenegro: )</persName>
+          </person>
+          <person sex="MALE" xml:id='montenegro:_kommt,_kinder!_<pb_n="35"/>'>
+            <persName>Montenegro: Kommt, Kinder! <pb n="35"/></persName>
+          </person>
+          <person sex="MALE" xml:id="niklas:)">
+            <persName>Niklas:)</persName>
+          </person>
+          <person sex="MALE" xml:id="anton:_es_komme_wer_da_will,_wir_haben_nichts_zu_fürchten">
+            <persName>Anton: Es komme wer da will, wir haben nichts zu fürchten</persName>
+          </person>
+          <person sex="MALE" xml:id="zisterzius">
+            <persName>Zisterzius</persName>
+          </person>
+          <person sex="MALE" xml:id="anton:_ruf_sie_mir_den_augenblik_her!_oder_fürchten_sie,_der_teufel_werde_sie_holen,_daß_sie_sich_so_verkriechen?_gott_verzeih_mirs">
+            <persName>Anton: Ruf sie mir den Augenblik her! Oder fürchten sie, der Teufel werde sie holen, daß sie sich so verkriechen? Gott verzeih mir’s</persName>
+          </person>
+          <person sex="MALE" xml:id="mont">
+            <persName>Mont</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo:_wo_ist_katelli?_mein_arm_will_blut;_seins_oder_deins!_mit_einem_wort,_ohne_stammlen">
+            <persName>Pedrillo: Wo ist Katelli? Mein Arm will Blut; seins oder deins! Mit einem Wort, ohne Stammlen</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo:_)">
+            <persName>Pedrillo: )</persName>
+          </person>
+          <person sex="FEMALE" xml:id="franziska">
+            <persName>Franziska</persName>
+          </person>
+          <person sex="MALE" xml:id="anton:))">
+            <persName>Anton:))</persName>
+          </person>
+          <person sex="MALE" xml:id="priester:_aber_ich_beschwöre_sie_bey_dem_zorn_des_heiligen_gerichts,_daß_sie_gelassen_gehen">
+            <persName>Priester: Aber ich beschwöre sie bey dem Zorn des heiligen Gerichts, daß sie gelassen gehen</persName>
+          </person>
+          <person sex="MALE" xml:id="priester:_)">
+            <persName>Priester: )</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:_und_laß_ihn!_was_wird_er_können?_heut_ist_mein_bund_mit_franziska_geschlossen,_und_morgen_fort_mit_ihr_nach_mailand">
+            <persName>Katelli: Und laß ihn! Was wird er können? Heut ist mein Bund mit Franziska geschlossen, und morgen fort mit ihr nach Mailand</persName>
+          </person>
+          <person sex="MALE" xml:id="franziska:)">
+            <persName>Franziska:)</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo:_welch_ein_götteranblik_wird_es_seyn,_wenn_das_mädchen_da_vor_mir_auf_den_knien_jammert">
+            <persName>Pedrillo: Welch ein Götteranblik wird es seyn, wenn das Mädchen da vor mir auf den Knien jammert</persName>
+          </person>
+          <person sex="MALE" xml:id="kamilla:_geb_er_nur_her">
+            <persName>Kamilla: Geb’ er nur her</persName>
+          </person>
+          <person sex="MALE" xml:id="bedienter">
+            <persName>Bedienter</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:_aber_–_soll_ich_ihr_die_schrekliche_ahndung_entdekken,_damit_sie_sich_mit_mir_rüste?_ja,_schreklich;_aber_doch_gut">
+            <persName>Katelli: Aber – soll ich ihr die schrekliche Ahndung entdekken, damit sie sich mit mir rüste? Ja, schreklich; aber doch gut</persName>
+          </person>
+          <person sex="MALE" xml:id="zisterzius:)">
+            <persName>Zisterzius:)</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:_anton!_hülfe">
+            <persName>Katelli: Anton! Hülfe</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:_ein_vermummter_trit_vor_und_zeigt_auf_den_namen!)">
+            <persName>Katelli: Ein Vermummter trit vor und zeigt auf den Namen!)</persName>
+          </person>
+          <person sex="MALE" xml:id="franziska:))">
+            <persName>Franziska:))</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo:_und_du_sprangst_nicht_gleich_vor?_ranntest_nicht_wenigstens_einen_von_ihnen_nieder?">
+            <persName>Pedrillo: Und du sprangst nicht gleich vor? Ranntest nicht wenigstens einen von ihnen nieder?</persName>
+          </person>
+          <person sex="MALE" xml:id="anton:_sie_trägt_ihrem_jakob_denn_auch_wohl_schöne_neuigkeiten_zu?">
+            <persName>Anton: Sie trägt ihrem Jakob denn auch wohl schöne Neuigkeiten zu?</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli:_geh_und_pak_ein">
+            <persName>Katelli: Geh und pak ein</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro:_ihr_mich_verlassen!_kinder,_kinder">
+            <persName>Montenegro: Ihr mich verlassen! Kinder, Kinder</persName>
+          </person>
+          <person sex="MALE" xml:id="zisterzius:_pedrillo_hat_vor_kurzer_zeit_–">
+            <persName>Zisterzius: Pedrillo hat vor kurzer Zeit –</persName>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </person>
         </listPerson>
       </particDesc>
@@ -118,6 +405,7 @@
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Es wird wieder besser mit mir werden. Ausgebliebne Nachrichten von meinem Vater, den ich in zehn Jahren nicht gesehen habe; meine Gesundheitsumstände, die nicht die besten sind; dunkles, trübseliges Wetter, alles das stürmt auf mich ein.</p>
           </sp>
           <sp who="#montenegro">
@@ -126,20 +414,34 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Ich weiß nicht, was ich antworten soll. Es ist mir nicht so, als mirs sonst war! Das ist alles, was ich sagen kann.</p>
+=======
+          </sp>
+          <sp who="#montenegro:_–_du_schweigst?_bin_ich_schuld?">
+            <speaker>Montenegro: – Du schweigst? Bin ich schuld?</speaker>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Sie haben den Menschen noch nicht recht studirt, Lieber. Es fehlt seinen Handlungen oft an Triebfedern, wenigstens sind sie oft sehr lahm.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Zu seiner Zeit sag’ ich ihnen alles. Ich liebe sie; aber noch kindlicher will ich sie lieben, wenn sie nicht fortfahren, die Bürde, die mich drükt, mir abzumartern.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
@@ -156,16 +458,26 @@
         <div type="scene">
           <head>Dritter Auftrit.</head>
           <stage>Katelli und Anton, (der fortgehen will)</stage>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
             <p>Bleib, Anton, und schließ mir den Garten zu! – Daß es aber mein Vetter nicht merkt. <stage>(Anton geht.)</stage></p>
+=======
+          <sp who="#katelli:)">
+            <speaker>Katelli:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
           <head>Vierter Auftrit.</head>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p><stage>(allein. )</stage></p>
+=======
+          <sp who="#katelli:_)">
+            <speaker>Katelli: )</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p>Nicht eher will ich mich sehen lassen, als bis ich mich gefaßt habe; – und fassen will ich mich, muß ich mich! – Sonst so entschlossen, und jezt nichts, als Zweifel um mich her! – Ist mein Trit denn so schwach, daß ich mich von einem nächtlichen Traum sollte umstossen lassen? Ich weiß, sie liebt mich. Das sagt mir ihr warmer Handdruk, ihr feuriger Blik, womit sie mich überschauet, und das Röthen ihres Gesichts, wenn ich sie ansehe. Und Pedrillo? O vielleicht ist er so der gute Mann, als ich ihn für den arglistigen, boshaften halte! – Wie der Argwohn den Menschen trillen kann, wenn er einmal in ihm haushält! – Aber hier hell’ ich mich nicht auf; Täglich hab’ ich das Mädchen vor Augen. Fort, Katelli, fort! Auf eine kurze Zeit wenigstens muß du sie verlassen!</p>
             <p><pb n="8"/></p>
           </sp>
@@ -178,6 +490,7 @@
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Pak meine Sachen ein, Anton. Wir müssen fort. Ich habe nöthige Geschäfte zu Hause.</p>
           </sp>
           <sp who="#anton">
@@ -190,6 +503,18 @@
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
+=======
+          </sp>
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+            <p>Fort? Hm! und wir sind kaum vierzehn Tage hier, und die Leute sehen uns so gern? – Was denn zulezt die nöthigen Geschäfte anbetrift, so –</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#anton:_ja,_ja,_haben_sies_endlich_doch_vergessen,_was_der_vater_sagte,_als_sie_in_den_wagen_stiegen?_„karl,_karl,_nimm_dich_für_die_mädchen_in_acht!_es_ist_ein_arges_ding,_sie_wieder_aus_dem_kopf_zu_bringen,_wenn_sie_sich_einmal_eingeschlichen_haben!“">
+            <speaker>Anton: Ja, ja, haben sie’s endlich doch vergessen, was der Vater sagte, als sie in den Wagen stiegen? „Karl, Karl, nimm dich für die Mädchen in Acht! Es ist ein arges Ding, sie wieder aus dem Kopf zu bringen, wenn sie sich einmal eingeschlichen haben!“</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -205,17 +530,27 @@
           <sp who="#anton">
             <speaker>Anton:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
             <p><stage>(nach einer kleinen Pause)</stage> Du weißt schon zu viel, darum muß ich dir noch mehr sagen. du bist ein ehrlicher Kerl; hast mir von meiner Jugend an treu gedient und nie meine jugendlichen Fehler benuzt. Du kennst die ganze Geschichte meiner Familie; und du hast dein Wissen nie gemisbraucht. Auch jezt will ich dir nichts verhelen – Ich liebe Franziska, das hast du aus meinem Thun und Handlungen recht geschlossen, und ich finde nichts Tadelnswürdiges darinn. Nicht Anton? – Du schweigst?</p>
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
+=======
+          <sp who="#katelli:_nicht_anton?_–_du_schweigst?">
+            <speaker>Katelli: Nicht Anton? – Du schweigst?</speaker>
+          </sp>
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+            <p>Nicht, als wenn ich an Franziska etwas auszusetzen hätte! Bewahre der grosse Gott! aber –</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Und was mit dem Aber?</p>
           </sp>
+<<<<<<< HEAD
           <sp who="#anton">
             <speaker>Anton:</speaker>
           </sp>
@@ -229,6 +564,20 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Ließ ich dich sprechen, ich glaube du paktest noch zehnmal dein Und aus.</p>
+=======
+          <sp who="#anton:_er_wird_–">
+            <speaker>Anton: Er wird –</speaker>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+            <p>Und dem alten Mann, wenn er sie ihm nicht gibt, tausend Possen spielen, und ihnen, wenn sie Franziska erhalten, noch einmal so viel, und –</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
@@ -239,20 +588,32 @@
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
+<<<<<<< HEAD
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Auf das Gewäsch solcher Leute, hab’ ich schon oft gesagt, sollst du nicht bauen. Hätten sie auch recht, so kann er doch nicht ohne Grund auf Tükke sinnen. So überspannt findet man keine Bosheit. Und laß ihn! Was wird er können? Heut ist mein Bund mit Franziska geschlossen, und morgen fort mit ihr nach Mailand!</p>
+=======
+            <p>Weh, weh! wir haben einen tükschen Kopf getragen! Ob denn die bösen Leute alle schwerer sind als die guten?</p>
+          </sp>
+          <sp who="#katelli:_und_laß_ihn!_was_wird_er_können?_heut_ist_mein_bund_mit_franziska_geschlossen,_und_morgen_fort_mit_ihr_nach_mailand">
+            <speaker>Katelli: Und laß ihn! Was wird er können? Heut ist mein Bund mit Franziska geschlossen, und morgen fort mit ihr nach Mailand!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
           </sp>
           <sp who="#katelli">
+<<<<<<< HEAD
             <speaker>Katelli.:</speaker>
+=======
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p><stage>(etwas hitzig)</stage> Gut, laß ihn uns nacheilen! Sind unsere Klingen nicht auch gewezt?</p>
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
+<<<<<<< HEAD
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -264,30 +625,58 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Das gehört hier nicht her. Geh und pak ein!</p>
+=======
+            <p>Nun freylich! Ich habe zwar mit solchen Sachen nicht gern etwas zu thun, wenn’s aber seyn soll, ey nun!</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+            <p>Da wär’ ich zwar gar gern, weil’s so gute Leute darin geben soll, –</p>
+          </sp>
+          <sp who="#katelli:_geh_und_pak_ein">
+            <speaker>Katelli: Geh und pak ein!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
           </sp>
           <sp who="#katelli">
+<<<<<<< HEAD
             <speaker>Katelli.:</speaker>
             <p><stage>(nach einer Pause)</stage> Du red’st wahr, Anton! Ich habe verwirrt gedacht.</p>
+=======
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Das kann ich nicht, Alter. Dazu bin ich noch zu warm. Aber schreiben will ich ihm. Meinst du?</p>
+=======
+          <sp who="#katelli:_meinst_du?">
+            <speaker>Katelli: Meinst du?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Aber woher Feder, Tinte? Das Hin- und Wiederlaufen macht Aufsehen, der gute Alte hat schon Verdacht geschöpft.</p>
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
+=======
+          </sp>
+          <sp who="#anton:)">
+            <speaker>Anton:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
@@ -306,11 +695,18 @@
             <speaker>Anton:</speaker>
           </sp>
           <sp who="#katelli">
+<<<<<<< HEAD
             <speaker>Katelli.:</speaker>
             <p>Wie mir die wenigen Worte so sauer werden! <stage>(zerreißt das Papier und wirft’s fort)</stage> Anton hol mir and’res Papier.</p>
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
+=======
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#anton:)">
+            <speaker>Anton:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
@@ -318,13 +714,24 @@
           <stage>Katelli und Franziska. (kömmt aus dem Gebüsch hinter Katelli hervor)</stage>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+<<<<<<< HEAD
           </sp>
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
+=======
+            <p>Ich habe dich belauscht, Katelli!</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p><stage>(vor sich)</stage> Gott das fehlt mir jezt!</p>
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Sieh, Katelli! Das Mädchen, warum du dein Herz so sehr gezerrt hast, das Mädchen hat dich belauscht! <stage>(Sie fällt ihm um den Hals)</stage></p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -337,9 +744,14 @@
         <div type="scene">
           <head>Neunter Auftrit.</head>
           <stage>Die vorigen und Anton.</stage>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
             <p>Trag dies wieder weg, Anton! Ich will allein seyn. <stage>(Anton ab.)</stage></p>
+=======
+          <sp who="#katelli:)">
+            <speaker>Katelli:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p><pb n="15"/></p>
           </sp>
         </div>
@@ -348,10 +760,17 @@
           <stage>Katelli. Franziska.</stage>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+<<<<<<< HEAD
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Dieser Handdruk sey Antwort.</p>
+=======
+            <p>Aber du siehst so finster, Katelli? Bin ich dir lästig?</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
@@ -365,6 +784,7 @@
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Er wird’s nicht thun! Gut! Aber bedenk – Hör, Franziska! ich hab’ einen argen Traum gehabt, der mich ganz verwirrt macht. Ich ging am Ufer.</p>
           </sp>
           <sp who="#franziska">
@@ -373,36 +793,60 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Ich erzehle nicht, Franziska, aber – Gott! wenn er wahr würde! der Gegenstand des Traums war ich und Pedrillo.</p>
+=======
+          </sp>
+          <sp who="#franziska:_wer_will_träumen_glauben?">
+            <speaker>Franziska: Wer will Träumen glauben?</speaker>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Dies macht mich heute so sehr tiefdenkend. Dein Vater wird dich um Pedrillo mir versagen.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Aber mein Geist denkt sich da immer so etwas, das mich in Bewegung setzt.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>pb n="17"/> Wohl, meine Franziska! Aber wenn die Dauer fehlen sollte.</p>
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+=======
+          </sp>
+          <sp who="#franziska:)">
+            <speaker>Franziska:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
           <head>Eilfter Auftrit.</head>
           <sp who="#anton">
             <speaker>Anton:</speaker>
+<<<<<<< HEAD
+=======
+            <stage>(kömmt von der Gartenhausseite)</stage>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p>Die lieben Kinder! wie sie sich so gut sind! das Herz mögte mir springen, wenn ich sie sehe. Aber, aber –</p>
           </sp>
         </div>
@@ -411,6 +855,111 @@
           <stage>Anton und Kamilla.</stage>
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
+<<<<<<< HEAD
+          </sp>
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+=======
+            <p>Guten Morgen, Alter!</p>
+          </sp>
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+            <p>Guten Morgen, Mädel! Warum läuft sie denn hier im Garten so herum, und bleibt nicht bey ihrer Franziska?</p>
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+            <p>Und warum bleibt er denn nicht hübsch bey seinem Katelli? Was hat er hier zu suchen?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+          </sp>
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Wo denn? Was denn?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+          </sp>
+<<<<<<< HEAD
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+=======
+          <sp who="#anton:_hör_sie!_neues,_oder_ich_mache_links_um">
+            <speaker>Anton: Hör sie! Neues, oder ich mache links um!</speaker>
+          </sp>
+          <sp who="#kamilla:_muß_ichs_ihm_denn_aufdringen?">
+            <speaker>Kamilla: Muß ich’s ihm denn aufdringen?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+          </sp>
+<<<<<<< HEAD
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+          </sp>
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+=======
+          <sp who="#kamilla:_der_hat_mir_erzehlt_–">
+            <speaker>Kamilla: Der hat mir erzehlt –</speaker>
+          </sp>
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+            <p>Sag sie mir erstlich, wer ihr Bräutigam ist? Ich dachte noch einmal mit ihr durchzugehen, aber –</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+          </sp>
+<<<<<<< HEAD
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+=======
+          <sp who="#anton:_sie_trägt_ihrem_jakob_denn_auch_wohl_schöne_neuigkeiten_zu?">
+            <speaker>Anton: Sie trägt ihrem Jakob denn auch wohl schöne Neuigkeiten zu?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+          </sp>
+<<<<<<< HEAD
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+=======
+          <sp who="#anton:_–_mein_herr_ist_ihr_auch_recht_gut,_und_was_das_beste_ist_–_seh_sie_nur">
+            <speaker>Anton: – Mein Herr ist ihr auch recht gut, und was das Beste ist – Seh sie nur!</speaker>
+            <stage>(er nimmt ein Goldstük aus der Tasche)</stage>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+          </sp>
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+<<<<<<< HEAD
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+=======
+            <p>Und ihrem Jakob nichts wieder sagen?</p>
+          </sp>
+          <sp who="#kamilla:_geb_er_nur_her">
+            <speaker>Kamilla: Geb’ er nur her!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
@@ -421,68 +970,23 @@
           <sp who="#anton">
             <speaker>Anton:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#anton">
-            <speaker>Anton:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#anton">
-            <speaker>Anton:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#anton">
-            <speaker>Anton:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#anton">
-            <speaker>Anton:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#anton">
-            <speaker>Anton:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#anton">
-            <speaker>Anton:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#anton">
-            <speaker>Anton:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#anton">
-            <speaker>Anton:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#anton">
-            <speaker>Anton:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
+=======
+          <sp who="#kamilla:)">
+            <speaker>Kamilla:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
           <head>Dreyzehnter Auftrit.</head>
           <sp who="#anton">
             <speaker>Anton:</speaker>
+<<<<<<< HEAD
+=======
+            <p><stage>(allein)</stage></p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p>Es war gut, daß mir mein Herr eben meinen Lohn gegeben hatte. Ich habe sie auf der rechten Seite gefaßt. Da hätte ein schönes Stükchen draus werden können. Das Beste ist, daß sie von Katelli’s <pb n="21"/> Absichten noch nichts zu wissen scheint. Das Weiberzeug! Es ist bey ihnen ein ewiges Geschrey nach Geld; und das macht allein der leidige Puz. Ich werde sie mit Gelde sehr warm halten müssen, wenn sie nicht die Stange auf beiden Schultern tragen soll.</p>
           </sp>
         </div>
@@ -491,6 +995,20 @@
           <stage>Anton und Montenegro.</stage>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Was denn hier so allein in der Irre? Wo ist dein Herr? Und meine Tochter, hast du die nicht gesehn?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+          </sp>
+          <sp who="#montenegro">
+            <speaker>Montenegro:</speaker>
+<<<<<<< HEAD
+=======
+            <p>So muß ich sie wohl im Hause suchen? <stage>(will gehen)</stage></p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
@@ -504,23 +1022,30 @@
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#anton">
             <speaker>Anton:</speaker>
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who="#anton:_kennt_noch_keiner_den_alten_alton">
+            <speaker>Anton: Kennt noch keiner den alten Alton!</speaker>
           </sp>
-          <sp who="#anton">
-            <speaker>Anton:</speaker>
-          </sp>
-          <sp who="#montenegro">
-            <speaker>Montenegro:</speaker>
+          <sp who="#montenegro:)">
+            <speaker>Montenegro:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
           <head>Funfzehnter Auftrit.</head>
+<<<<<<< HEAD
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who="#montenegro:)">
+            <speaker>Montenegro:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <stage>(Liest) Hier die Antwort, bester Vater, die ich Ihnen vor einer halben Stunde schuldig blieb: Ich liebe Franziska. Nach ernster reifer Ueberlegung lieb’ ich Sie. Die Ungewißheit, ob Sie mich Ihrer Hand würdigen mögten, machte mich seit einiger Zeit tiefdenkend; aber länger duld’ ich nicht. Ich falle Ihnen zu Füssen. – Das Billet hat an mich gesollt, und weil’s ihm nicht recht gewesen ist, hat er’s zerrissen. Erklärung aber genug! Das Blizmädchen! Welche Verwirrung sie mir im Hause macht!
             <pb n="23"/></stage>
@@ -533,6 +1058,10 @@
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Zisterzius? Ich kenn’ ihn nicht! – Kannst ihn herführen; bleib aber nicht weit von uns!</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
@@ -553,8 +1082,13 @@
           <sp who="#zisterzius">
             <speaker>Zisterzius:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who="#montenegro:_nun,_was_ist_ihr_begehren,_herr_pater,_und_wer_sind_sie?">
+            <speaker>Montenegro: Nun, was ist ihr Begehren, Herr Pater, und wer sind sie?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#zisterzius">
             <speaker>Zisterzius:</speaker>
@@ -562,8 +1096,13 @@
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#zisterzius">
             <speaker>Zisterzius:</speaker>
+=======
+          <sp who="#zisterzius:_pedrillo_hat_vor_kurzer_zeit_–">
+            <speaker>Zisterzius: Pedrillo hat vor kurzer Zeit –</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
@@ -571,14 +1110,25 @@
           <sp who="#zisterzius">
             <speaker>Zisterzius:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who="#montenegro:_hat_ihnen_pedrillo_davon_noch_nichts_gesagt?">
+            <speaker>Montenegro: Hat ihnen Pedrillo davon noch nichts gesagt?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#zisterzius">
             <speaker>Zisterzius:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who="#mont">
+            <speaker>Mont:</speaker>
+            <p>Weiter nichts anzubringen?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#zisterzius">
             <speaker>Zisterzius:</speaker>
@@ -587,11 +1137,20 @@
         <div type="scene">
           <head>Achtzehnter Auftrit.</head>
           <stage>Die vorigen und Anton.</stage>
+<<<<<<< HEAD
           <sp who="#anton">
             <speaker>Anton:</speaker>
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who="#anton:))">
+            <speaker>Anton:))</speaker>
+          </sp>
+          <sp who="#mont">
+            <speaker>Mont:</speaker>
+            <p>Eben der?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
@@ -617,6 +1176,7 @@
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#zisterzius">
             <speaker>Zisterzius:</speaker>
           </sp>
@@ -626,6 +1186,16 @@
           </sp>
           <sp who="#zisterzius">
             <speaker>Zisterzius:</speaker>
+=======
+          <sp who="#zisterzius:))">
+            <speaker>Zisterzius:))</speaker>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#zisterzius:)">
+            <speaker>Zisterzius:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
@@ -638,49 +1208,86 @@
             <speaker>Katelli:</speaker>
             <p>Und was sucht er bey ihnen?</p>
           </sp>
+<<<<<<< HEAD
+          <sp who="#montenegro">
+            <speaker>Montenegro:</speaker>
+          </sp>
+          <sp who="#franziska">
+            <speaker>Franziska:</speaker>
+=======
+          <sp who="#montenegro:_mensch_was_bist_du?">
+            <speaker>Montenegro: Mensch was bist du?</speaker>
+          </sp>
+          <sp who="#franziska">
+            <speaker>Franziska:</speaker>
+            <p>Aber, lieber Vater er muß doch Vorwand gehabt haben?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#montenegro">
+            <speaker>Montenegro:</speaker>
+          </sp>
+          <sp who="#franziska">
+            <speaker>Franziska:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Ach! lieber Vater, wenn ich recht muthmaßen sollte!</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who="#mont">
+            <speaker>Mont:</speaker>
+            <p>Und warum, Mädchen?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
-          <sp who="#montenegro">
-            <speaker>Montenegro:</speaker>
-          </sp>
-          <sp who="#franziska">
-            <speaker>Franziska:</speaker>
-          </sp>
-          <sp who="#montenegro">
-            <speaker>Montenegro:</speaker>
-          </sp>
-          <sp who="#franziska">
-            <speaker>Franziska:</speaker>
-          </sp>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Und mir sie gegeben. O, sie lächeln, Vater. Ich kann sie mit allem Recht nun so nennen. Nicht?</p>
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who="#katelli:_nicht?">
+            <speaker>Katelli: Nicht?</speaker>
+          </sp>
+          <sp who="#montenegro:_wozu_soll_das?_schämt_sich_deine_zunge_gutes_zu_reden?">
+            <speaker>Montenegro: Wozu soll das? schämt sich deine Zunge gutes zu reden?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Bester Vater, ich wußte nicht –</p>
           </sp>
+<<<<<<< HEAD
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who="#montenegro:_ich_liebe_dich,_wie_sie_–_aber_ich_kanns_nicht_vergessen!_so_ein_zettelchen!_und_dann_wirfst_dus_dahin!_bedenk,_wenns_ein_unrechter_gefunden_hätte">
+            <speaker>Montenegro: Ich liebe dich, wie sie – Aber ich kann’s nicht vergessen! so ein Zettelchen! Und dann wirfst dus dahin! Bedenk, wenn’s ein Unrechter gefunden hätte!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who="#montenegro:_bin_ich_so_hartsinnig,_daß_mich_erst_fußfälle_bestechen_müssen?">
+            <speaker>Montenegro: Bin ich so hartsinnig, daß mich erst Fußfälle bestechen müssen?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
@@ -690,7 +1297,10 @@
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Mein Vater, der mich so sehr liebt, sollte mir das größte Glük entreissen? Nein, das wird er nicht, kann er nicht. Diese Freudennachricht würde sein graues Haupt wieder aufrichten; und an seine Jahre noch Hunderte ketten.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
@@ -700,13 +1310,17 @@
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Geben sie mir meine Franziska und ihren Seegen. Des Guts und der Schlange lach’ ich dann. In einen fernen Winkel will ich mit Franziska hinfliehen; will mit emsiger Arbeit das Brod verdienen, das uns erhalten soll, und unsere Liebe und häuslicher Friede werden mir meinen Schweiß mit Lust überstreuen.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Und lassen sie ihn toben. Mein Arm ist stark genug, ihn zurük zu stossen. Ich will ihm Wassers genug entgegen gießen, sein Feuer zu löschen.</p>
           </sp>
           <sp who="#montenegro">
@@ -722,30 +1336,60 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Tausend gezukte Schwerdter wachen in Mailand über die Bosheit. Es wird dort zu viel Licht um ihn seyn, als daß er Rache könnte strömen lassen. Vor dem Richterstuhl Gottes klag’ ich mich selbst an, wenn er uns schaden soll.</p>
+=======
+          </sp>
+          <sp who="#mont">
+            <speaker>Mont:</speaker>
+            <p>Wird der Muthige zulezt nicht unterliegen müssen, wenn ihn Tükke und Satanslist zugleich bekämpfen?</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#montenegro:_ringe_deine_hände_und_schüttle_den_kopf">
+            <speaker>Montenegro: Ringe deine Hände und schüttle den Kopf!</speaker>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Alles will ich geben! Auch das Blut das durch meine Adern rollt, will ich für die Erfüllung dieses Versprechens geben. Lieber will ich den Dekkel meines Sarges aufstoßen lassen, als dem Sturm nicht zu wehren, der diese Blumen zerknikken will.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Du hast recht, göttliches Mädchen! Deine Worte sind Engelworte. Ich glaube, Gott hat dich zum Engel geschaffen, und dein Vater hat dich nur von ihm zum Menschenlehrer erbettelt. – Aber, bester Vater, warum lassen sie noch länger auf ihr Ja unsern flehenden Blik schmachten?</p>
+=======
+          <sp who="#katelli:_–_aber,_bester_vater,_warum_lassen_sie_noch_länger_auf_ihr_ja_unsern_flehenden_blik_schmachten?">
+            <speaker>Katelli: – Aber, bester Vater, warum lassen sie noch länger auf ihr Ja unsern flehenden Blik schmachten?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Nehmen sie diesen kindlichen Kuß des Danks.</p>
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+=======
+          </sp>
+          <sp who="#franziska">
+            <speaker>Franziska:</speaker>
+            <p>Vater, bester Vater!</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
@@ -753,8 +1397,13 @@
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who='#montenegro:_kommt,_kinder!_<pb_n="35"/>'>
+            <speaker>Montenegro: Kommt, Kinder! <pb n="35"/></speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
       </div>
@@ -766,9 +1415,54 @@
           <stage>Pedrillo sitzt und schreibt. Niklas kömmt bald in Priesterkleidern dazu.</stage>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
+<<<<<<< HEAD
+=======
+            <p>So emsig?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+          </sp>
+          <sp who="#niklas">
+            <speaker>Niklas:</speaker>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+<<<<<<< HEAD
+          </sp>
+          <sp who="#niklas">
+            <speaker>Niklas:</speaker>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+=======
+            <p><stage>(steht auf)</stage> Nun? alles gut?</p>
+          </sp>
+          <sp who="#niklas:_wenn_so_ein_kopf_drüber_kömmt">
+            <speaker>Niklas: Wenn so ein Kopf drüber kömmt!</speaker>
+            <stage>(auf sich zeigend)</stage>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+            <p>Ist sie mein? Hast du den Alten bange gemacht?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#niklas">
+            <speaker>Niklas:</speaker>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+          </sp>
+          <sp who="#niklas">
+            <speaker>Niklas:</speaker>
+          </sp>
+<<<<<<< HEAD
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+=======
+          <sp who="#pedrillo:_weißt_du_nicht,_was_ich_über_dich_vermag?">
+            <speaker>Pedrillo: Weißt du nicht, was ich über dich vermag?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
@@ -785,8 +1479,23 @@
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+=======
+          <sp who="#pedrillo:_und_du_sprangst_nicht_gleich_vor?_ranntest_nicht_wenigstens_einen_von_ihnen_nieder?">
+            <speaker>Pedrillo: Und du sprangst nicht gleich vor? Ranntest nicht wenigstens einen von ihnen nieder?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#niklas">
+            <speaker>Niklas:</speaker>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Wie’s mir in der Brust arbeitet!</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
@@ -799,6 +1508,42 @@
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+<<<<<<< HEAD
+          </sp>
+          <sp who="#niklas">
+            <speaker>Niklas:</speaker>
+=======
+            <p><stage>(geht höhnisch lächelnd auf und nieder)</stage> Ha, ich höre die Erde schon beben, auf die sie vor mir hinstürzen werden! Ich höre dich schon wimmern, du feines Ding, wenn das Blut deines Katelli deine Schuhe besprizen, höre dich schon wimmern, wenn dein Alter neben dir den lezten Hauch ausächzen wird! Wie soll mich der Balsam noch in der lezten Stunde meines Lebens stärken! Doppeltes Leben soll mir der Balsam schenken, der aus deinen Augen quillen wird!</p>
+          </sp>
+          <sp who="#niklas">
+            <speaker>Niklas:</speaker>
+            <p>pb n="39"/> Und dem Mädel wollen sie das Leben schenken? Ich dächte, da wir bey der Arbeit wären? Je mehr Arbeit, je mehr Verdienst für mich! Doch das Ding stirbt ja wohl vom Zusehen!</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+          </sp>
+<<<<<<< HEAD
+          <sp who="#niklas">
+            <speaker>Niklas:</speaker>
+=======
+          <sp who="#niklas:_daß_die_komedie_nur_recht_angefangen_wird">
+            <speaker>Niklas: Daß die Komedie nur recht angefangen wird!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+          </sp>
+          <sp who="#niklas">
+            <speaker>Niklas:</speaker>
+          </sp>
+<<<<<<< HEAD
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+=======
+          <sp who="#pedrillo:_welch_ein_götteranblik_wird_es_seyn,_wenn_das_mädchen_da_vor_mir_auf_den_knien_jammert">
+            <speaker>Pedrillo: Welch ein Götteranblik wird es seyn, wenn das Mädchen da vor mir auf den Knien jammert!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
@@ -808,54 +1553,10 @@
           </sp>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#niklas">
-            <speaker>Niklas:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#niklas">
-            <speaker>Niklas:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#niklas">
-            <speaker>Niklas:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#niklas">
-            <speaker>Niklas:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#niklas">
-            <speaker>Niklas:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#niklas">
-            <speaker>Niklas:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#niklas">
-            <speaker>Niklas:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#niklas">
-            <speaker>Niklas:</speaker>
+<<<<<<< HEAD
+=======
+            <stage>(ab)</stage>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
@@ -874,6 +1575,10 @@
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Wer bist du Mädchen?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
@@ -883,13 +1588,25 @@
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+<<<<<<< HEAD
+=======
+            <p><stage>(zu Niklas)</stage> Ich glaube, sie haben meine eigenen Leute schon vergiftet! – <stage>(vor sich)</stage> Ich will euch aber zur Reue dringen!</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p><pb n="42"/></p>
           </sp>
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
+<<<<<<< HEAD
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+=======
+            <p>und mit dem hab’ ich nur ein Paar Worte gesprochen – das ist ja gar nichts übles – und hab’ ihm erzehlt – ach, ich bitte sie um alles in der Welt, lassen sie mich doch nur gehen! ich hab’ in ihrem Hause ja weiter nichts gewollt!</p>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+            <p>Was hast du mit meinem Bedienten zu sprechen? Bräutigam! ja dahinter stekt etwas anders!</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
@@ -899,36 +1616,7 @@
           </sp>
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#niklas">
-            <speaker>Niklas:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#niklas">
-            <speaker>Niklas:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
+<<<<<<< HEAD
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
@@ -941,6 +1629,105 @@
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+=======
+            <p>Ja wohl, ein rechter Herzensmann! Ein Mann zum Verlieben!</p>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+            <stage>(dreht sich um und lacht)</stage>
+          </sp>
+          <sp who="#niklas">
+            <speaker>Niklas:</speaker>
+            <p><stage>(zu Pedrillo)</stage> Der Fang ist noch besser, als ich dachte!</p>
+          </sp>
+          <sp who="#kamilla:_–_ich_habe_sie_immer_für_so_böse_auf_unser_haus_gehalten;_aber_sie_sehen_ja_doch_so_freundlich_aus">
+            <speaker>Kamilla: – Ich habe sie immer für so böse auf unser Haus gehalten; aber sie sehen ja doch so freundlich aus!</speaker>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+            <stage>(streichelt ihr das Gesicht)</stage>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Kann denn die Verlobung nicht ohne dein Wissen vollzogen seyn?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+          </sp>
+          <sp who="#niklas">
+            <speaker>Niklas:</speaker>
+          </sp>
+<<<<<<< HEAD
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+=======
+          <sp who="#pedrillo:)">
+            <speaker>Pedrillo:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+<<<<<<< HEAD
+=======
+            <stage>(gibt ihr Geld)</stage>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#niklas">
+            <speaker>Niklas:</speaker>
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+<<<<<<< HEAD
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+=======
+            <stage>(sieht die ganze Scene durch das Geld an)</stage>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+            <p>Aber du mußt doch schon einmal zu viel geplaudert haben, daß dir keiner traut? Oder traust du mir nicht?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Nur heraus!</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Also sprechen sie wohl recht viel von mir?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#kamilla">
+            <speaker>Kamilla:</speaker>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+<<<<<<< HEAD
+=======
+            <stage>(laut)</stage>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
@@ -951,8 +1738,13 @@
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+=======
+          <sp who="#pedrillo:_ich_sags_dir_aber;_plappere_nicht">
+            <speaker>Pedrillo: Ich sag’s dir aber; plappere nicht!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
@@ -960,26 +1752,13 @@
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
-          </sp>
-          <sp who="#pedrillo">
-            <speaker>Pedrillo:</speaker>
-          </sp>
-          <sp who="#kamilla">
-            <speaker>Kamilla:</speaker>
+=======
+          <sp who="#kamilla:)">
+            <speaker>Kamilla:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
@@ -1003,14 +1782,24 @@
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
+=======
+          <sp who="#niklas:)">
+            <speaker>Niklas:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
           <head>Fünfter Auftrit.</head>
+<<<<<<< HEAD
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+=======
+          <sp who="#pedrillo:)">
+            <speaker>Pedrillo:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <stage>(Zieht die Uhr heraus) Wie es spätet! schon halb zwey! – Noch nichts verlohren! Sie sind noch am Tische – Aber über den bunten Plan! Der alte Montenegro ist noch stämmig genug, einem Stosse zu wehren; und Katelli? Ihm wird’s gewiß nicht an welschem Muthe fehlen. (Klingt – zur Thür hinaus) Jakob!
             <pb n="49"/></stage>
@@ -1026,6 +1815,10 @@
           </sp>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Nicht so laut! Wir dürfen hier nicht viel – <stage>(verbirgt sich mit Pedrillo)</stage></p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
@@ -1037,6 +1830,10 @@
           <stage>Pedrillo und Niklas.</stage>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
+<<<<<<< HEAD
+=======
+            <stage>(verbergen sich)</stage>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p><pb n="50"/></p>
           </sp>
         </div>
@@ -1049,8 +1846,14 @@
           <sp who="#bedienter">
             <speaker>Bedienter:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#anton">
             <speaker>Anton:</speaker>
+=======
+          <sp who="#anton:_ruf_sie_mir_den_augenblik_her!_oder_fürchten_sie,_der_teufel_werde_sie_holen,_daß_sie_sich_so_verkriechen?_gott_verzeih_mirs">
+            <speaker>Anton: Ruf sie mir den Augenblik her! Oder fürchten sie, der Teufel werde sie holen, daß sie sich so verkriechen? Gott verzeih mir’s!</speaker>
+            <stage>(Geht ab auf der Seite, wo er hergekommen)</stage>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#bedienter">
             <speaker>Bedienter:</speaker>
@@ -1062,11 +1865,19 @@
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+=======
+          <sp who="#niklas:_–_nach_haus,_herr">
+            <speaker>Niklas: – Nach Haus, Herr!</speaker>
+          </sp>
+          <sp who="#pedrillo:_willst_du_mich_denn_zum_ball_machen,_womit_das_schiksal_sein_muthwilliges_spiel_treiben_soll?">
+            <speaker>Pedrillo: Willst du mich denn zum Ball machen, womit das Schiksal sein muthwilliges Spiel treiben soll?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <stage>(Hinter der Bühne ein Geräusch.)</stage>
           <sp who="#niklas">
@@ -1089,8 +1900,13 @@
         </div>
         <div type="scene">
           <head>Sechster Auftrit.</head>
+<<<<<<< HEAD
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who="#montenegro:_)">
+            <speaker>Montenegro: )</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p>Lieber, guter Tag, wie willkommen bist du mir! Wie mein Blik so ganz aufgeklärt, und mein wankender Trit so vest wird! Mit Freuden geh’ ich jezt ins Grab, denn Sorgen bleiben nicht hinter mir.</p>
           </sp>
         </div>
@@ -1105,15 +1921,27 @@
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+<<<<<<< HEAD
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
+=======
+            <p>Und der andere, Anton?</p>
+          </sp>
+          <sp who="#anton:_können_sie_aus_des_pfaffen_reden_nichts_argwöhnen?">
+            <speaker>Anton: Können sie aus des Pfaffen Reden nichts argwöhnen?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#anton">
             <speaker>Anton:</speaker>
+=======
+          <sp who="#anton:_es_komme_wer_da_will,_wir_haben_nichts_zu_fürchten">
+            <speaker>Anton: Es komme wer da will, wir haben nichts zu fürchten!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
@@ -1123,19 +1951,29 @@
         <div type="scene">
           <head>Achter Auftrit.</head>
           <stage>Montenegro, Katelli und Franziska (in Reisekleidern.)</stage>
+<<<<<<< HEAD
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who="#montenegro:_an_euch_fehlts_nun_doch_nicht?">
+            <speaker>Montenegro: An euch fehlt’s nun doch nicht?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Aber warum seyd ihr schon so ganz in Reisekleidern?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Wozu sollten wir uns noch putzen, Vater?</p>
           </sp>
+<<<<<<< HEAD
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
@@ -1145,16 +1983,33 @@
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+=======
+          <sp who="#montenegro:_ihr_mich_verlassen!_kinder,_kinder">
+            <speaker>Montenegro: Ihr mich verlassen! Kinder, Kinder!</speaker>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#franziska:_wie_würde_sich_meines_katellis_vater_nicht_freuen,_wenn_er_sie_wiedersähe?">
+            <speaker>Franziska: Wie würde sich meines Katelli’s Vater nicht freuen, wenn er sie wiedersähe?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Wir wollen sie auf den Händen tragen, wenns sie’s fordern.</p>
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+=======
+          </sp>
+          <sp who="#franziska">
+            <speaker>Franziska:</speaker>
+            <p>Lieber Vater! – Geräusch im Hause!</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -1162,6 +2017,10 @@
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Sie werden doch hier keinen Verbrecher suchen?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
@@ -1169,6 +2028,7 @@
           <stage>Die vorigen, Priester, Wache und Anton.</stage>
           <sp who="#priester">
             <speaker>Priester:</speaker>
+<<<<<<< HEAD
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
@@ -1176,47 +2036,83 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>So heiß’ ich.</p>
+=======
+            <p>Ist hier ein gewisser Katelli?</p>
+          </sp>
+          <sp who="#franziska">
+            <speaker>Franziska:</speaker>
+            <p>Grosser Gott im Himmel!</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#priester">
             <speaker>Priester:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Herr Pater! beweisen sie, daß die heilige Inquisition sie schikt.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#priester">
             <speaker>Priester:</speaker>
           </sp>
           <sp who="#katelli">
+<<<<<<< HEAD
             <speaker>Katelli.:</speaker>
             <p><stage>(liest)</stage> Sie sind recht. <stage>(hitzig)</stage> Aber ein Schurke hat das dem heiligen Gericht benachrichtiget. Ich spreche nie wider Religion. Ich bin froh, daß ich unter ihrem Schuz lebe.</p>
+=======
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#priester">
             <speaker>Priester:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+=======
+          <sp who="#franziska:)">
+            <speaker>Franziska:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#priester">
             <speaker>Priester:</speaker>
           </sp>
           <sp who="#katelli">
+<<<<<<< HEAD
             <speaker>Katelli.:</speaker>
+=======
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p><stage>(auffahrend)</stage> Meine Franziska sollte von deiner Gnade abhängen, Priester?</p>
           </sp>
           <sp who="#priester">
             <speaker>Priester:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
             <p>Auch von der nicht. Sie ist ein Engel und über euch alle. <stage>(sieht sich nach Franziska um, die matt auf dem Stuhl sizt.)</stage> Franziska, Franziska! Ich Armseliger! Nichts als unglaubliche Schläge von allen Seiten. Anton! Hülfe!</p>
+=======
+          <sp who="#katelli:_anton!_hülfe">
+            <speaker>Katelli: Anton! Hülfe!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>pb n="57"/> Nein! <stage>(zum Priester)</stage> Mörder! du hast sie ermordet. <stage>(will mit den Degen auf ihn zu.)</stage></p>
+=======
+          <sp who="#katelli:)">
+            <speaker>Katelli:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
@@ -1225,6 +2121,7 @@
             <speaker>Montenegro:</speaker>
           </sp>
           <sp who="#katelli">
+<<<<<<< HEAD
             <speaker>Katelli.:</speaker>
             <p>Nein, das will ich nicht; thu’ ich nicht! Der heilig! <stage>(faßt ihn vor die Brust)</stage> Du heilig? Ein Mörder bist du!</p>
           </sp>
@@ -1241,48 +2138,91 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Kein Wort mehr, Priester, oder du wagst dein Leben.</p>
+=======
+            <speaker>Katelli:</speaker>
+            <p>Nein, das will ich nicht; thu’ ich nicht! Der heilig! <stage>(faßt ihn vor die Brust)</stage> Du heilig? Ein Mörder bist du!</p>
+          </sp>
+          <sp who="#priester:_wache">
+            <speaker>Priester: Wache!</speaker>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#priester:_)">
+            <speaker>Priester: )</speaker>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Ich gehen und Franziska halb tod zurüklassen? Sie vergebens ihren rufen lassen? – Und ich mit dem Auswurf des menschlichen Geschlechts über die Strasse gehen? Nein, Lieb’ und Ehre binden meinen Fuß.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
             <p><stage>(wirft sich vor Franziska nieder und legt seine Hände auf ihren Schooß)</stage> Meine Liebe, mir heiliger, als alles! deinetwillen folg ich, achte meine Ehr’ und alles nicht. Auch dies Leben geb’ ich dir gern, wenn du’s forderst. <stage>(aufstehend zu Montenegro)</stage> Sorgen sie für sie. Weyhen sie ihr alle Sorgfalt, die sie nur aussinnen können. Bald, bald werd’ ich sie wiedersehen – Anton!</p>
+=======
+          <sp who="#katelli:_bald,_bald_werd_ich_sie_wiedersehen_–_anton">
+            <speaker>Katelli: Bald, bald werd’ ich sie wiedersehen – Anton!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
           </sp>
           <sp who="#katelli">
+<<<<<<< HEAD
             <speaker>Katelli.:</speaker>
             <p>Du bleibst hier <stage>(bey Seite)</stage> und sattelst mir zwey Pferde. Hier am Garten sollst du halten.</p>
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
+=======
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#anton:_–">
+            <speaker>Anton: –</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Nein!</p>
           </sp>
+<<<<<<< HEAD
           <sp who="#anton">
             <speaker>Anton:</speaker>
+=======
+          <sp who="#anton:)">
+            <speaker>Anton:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#priester">
             <speaker>Priester:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Gehen will ich mit euch, ihr Diener der Bosheit. O, ich kenne eure Tükke! Pedrillo! – witterst du Unrath, Priester? Ich folge <pb n="59"/> dir, gleich folg’ ich; aber meinen Degen behalt’ ich. Von keinem Priester laß’ ich mich entwafnen.</p>
           </sp>
           <stage>(Wache trit zu, ihm den Degen abzunehmen.)</stage>
           <sp who="#priester">
             <speaker>Priester:</speaker>
+=======
+          </sp>
+          <stage>(Wache trit zu, ihm den Degen abzunehmen.)</stage>
+          <sp who="#priester:_aber_ich_beschwöre_sie_bey_dem_zorn_des_heiligen_gerichts,_daß_sie_gelassen_gehen">
+            <speaker>Priester: Aber ich beschwöre sie bey dem Zorn des heiligen Gerichts, daß sie gelassen gehen!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <stage>(Katelli, Priester und Wache ab.)</stage>
         </div>
@@ -1291,15 +2231,27 @@
           <stage>Montenegro. Franziska.</stage>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+<<<<<<< HEAD
+=======
+            <p><stage>(nach einer kleinen Pause mit gebrochner Stimme)</stage> Katelli! – Wo bist du? – mein Katelli!</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+<<<<<<< HEAD
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+            <p><stage>(hitzig)</stage> Mein Katelli! <stage>(fährt auf)</stage> Montenegro versucht sie zu halten</p>
+          </sp>
+          <sp who="#montenegro">
+            <speaker>Montenegro:</speaker>
+            <p><stage>(steht auf)</stage> Hülfe, Hülfe! Meine beste Tochter, fasse dich!</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p><pb n="60"/></p>
           </sp>
         </div>
@@ -1308,18 +2260,32 @@
           <stage>Die vorigen, Priester und Wache, Franziska entgegen kommend.</stage>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+<<<<<<< HEAD
+=======
+            <p><stage>(zum Priester)</stage> Ha, Räuber! von dir fordre ich ihn wieder! Wo ist mein Katelli?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#priester">
             <speaker>Priester:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who="#montenegro:)">
+            <speaker>Montenegro:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
           <head>Zwölfter Auftrit.</head>
+<<<<<<< HEAD
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who="#montenegro:)">
+            <speaker>Montenegro:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p>Umsonst! O, daß meine Füße zu schwach sind, ihnen nachzueilen! – Katelli, Katelli! du bist ein Mörder! Mein und meiner Tochter Mörder! Unbesonnener Jüngling, warum folgst du deines Vaters Lehren nicht und schmiedest dir selbst das Eisen, das deinen Kopf abschlagen wird? Und der Unmensch von Priester! Loderte denn kein Fünkchen Midleids in ihm? O, habt ihr noch nicht an ihr <pb n="61"/> genug, nehmt zu eurer Sätigung auch mich! Entreißt meinen Händen die Krükke, schlagt meine graue Hirnschädel damit ein, und trinkt mein Gehirn, ihr Blutigel!</p>
           </sp>
         </div>
@@ -1331,6 +2297,7 @@
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Wo ist Franziska? Sie muß mit mir fort eilen. Ich will mit ihr hinfliehen, wo uns kein Satansauge erforschen kann.</p>
           </sp>
           <sp who="#montenegro">
@@ -1342,6 +2309,17 @@
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          </sp>
+          <sp who="#montenegro:)">
+            <speaker>Montenegro:)</speaker>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#montenegro:)">
+            <speaker>Montenegro:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p><pb n="62"/></p>
           </sp>
         </div>
@@ -1350,6 +2328,40 @@
           <stage>Montenegro und Hieronimus.</stage>
           <sp who="#hieronimus">
             <speaker>Hieronimus:</speaker>
+<<<<<<< HEAD
+          </sp>
+          <sp who="#montenegro">
+            <speaker>Montenegro:</speaker>
+          </sp>
+          <sp who="#hieronimus">
+            <speaker>Hieronimus:</speaker>
+=======
+            <p>Mein Segen mit ihnen!</p>
+          </sp>
+          <sp who="#montenegro:_o,_über_die_dumme_verstokte_blindheit_des_volks!_mit_ofnen_augen_sieht_es_den_tyrannen_im_pfaffen,_und_doch_hält_es_ihre_bosheit_für_that_der_heiligen!_kreuzigt_sich,_wenn_sie_vorübergehen">
+            <speaker>Montenegro: O, über die dumme verstokte Blindheit des Volks! Mit ofnen Augen sieht es den Tyrannen im Pfaffen, und doch hält es ihre Bosheit für That der Heiligen! kreuzigt sich, wenn sie vorübergehen!</speaker>
+          </sp>
+          <sp who="#hieronimus">
+            <speaker>Hieronimus:</speaker>
+            <p>Gott, was ist ihnen?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
+          </sp>
+          <sp who="#montenegro">
+            <speaker>Montenegro:</speaker>
+          </sp>
+          <sp who="#hieronimus">
+            <speaker>Hieronimus:</speaker>
+          </sp>
+          <sp who="#montenegro">
+            <speaker>Montenegro:</speaker>
+          </sp>
+<<<<<<< HEAD
+          <sp who="#hieronimus">
+            <speaker>Hieronimus:</speaker>
+=======
+          <sp who="#hieronimus:_kommen_sie">
+            <speaker>Hieronimus: Kommen sie!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
@@ -1375,8 +2387,13 @@
           <sp who="#hieronimus">
             <speaker>Hieronimus:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
+=======
+          <sp who='#montenegro:_aber_frömmigkeit_und_redlichkeit_<pb_n="65"/>_haben_keinen_werth_mehr!_sie_sind_abgesezte_münze!_heuchelnde_schmeichler_sind_die_männer_des_glüks'>
+            <speaker>Montenegro: Aber Frömmigkeit und Redlichkeit <pb n="65"/> haben keinen Werth mehr! Sie sind abgesezte Münze! Heuchelnde Schmeichler sind die Männer des Glüks!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#hieronimus">
             <speaker>Hieronimus:</speaker>
@@ -1386,24 +2403,10 @@
           </sp>
           <sp who="#hieronimus">
             <speaker>Hieronimus:</speaker>
-          </sp>
-          <sp who="#montenegro">
-            <speaker>Montenegro:</speaker>
-          </sp>
-          <sp who="#hieronimus">
-            <speaker>Hieronimus:</speaker>
-          </sp>
-          <sp who="#montenegro">
-            <speaker>Montenegro:</speaker>
-          </sp>
-          <sp who="#hieronimus">
-            <speaker>Hieronimus:</speaker>
-          </sp>
-          <sp who="#montenegro">
-            <speaker>Montenegro:</speaker>
-          </sp>
-          <sp who="#hieronimus">
-            <speaker>Hieronimus:</speaker>
+<<<<<<< HEAD
+=======
+            <stage>(Hilft ihn vom Stuhl auf und führt ihn ab)</stage>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
@@ -1432,6 +2435,10 @@
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Franziska, Katelli, Rettung!</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -1441,6 +2448,7 @@
             <speaker>Anton:</speaker>
           </sp>
           <sp who="#katelli">
+<<<<<<< HEAD
             <speaker>Katelli.:</speaker>
             <p><stage>(Nach einer langen Pause)</stage> Anton ich bin jezt auf einen besondern Entschluß gekommen. Kühn, aber gut, wenn er gelingt. Tiefsinnig irrt’ ich an den Mauren von Madrit. Nicht fern von mir hört ich ein Gelispel. Ich schlich hin und vernahm, daß Pedrillo Blutrath über mich hielt. Ich ward aufmerksamer. Er trug seinem Niklas, so heißt der Bube, den er bey sich hat – auf, einen Priester zu holen, mit ihm ins Gefängniß zu meiner Franziska zu gehen, und sie auf seine Seite zu ziehen. Nun höre! du sollst dich verkleiden. Sollst mit einigen Leuten dem Gesindel aufpassen, und sie beide aufheben lassen. Alsdenn will ich den Priester <pb n="69"/> spielen. Nur mußt du dahin sehen, daß keiner davon kömmt.</p>
           </sp>
@@ -1450,37 +2458,66 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Was zurükkommen! Er soll ja mit dem Priester ins Gefängniß gehen. Wie kann er denn zurükkommen? Sorge für sichere Leute. Zeit hast du genug. Sie werden erst um zwölf Uhr ins Inquisitionshaus gehen.</p>
+=======
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#anton">
+            <speaker>Anton:</speaker>
+            <p>Und er sollte nichts argwöhnen, wenn der Bube nicht zurük kommt?</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Als wenn ich da sicherer wäre, wenn ich vor seinen Augen zur Thür herausginge. Ich wäre für ihn eine schlaraffenländische Taube. Thu’, was ich dir gesagt habe. – Es soll mir lieb seyn, wenn er hereinkömmt, sonst muß ich zu ihm gehen. Ha! Ich will die Schlange mit List fangen! Nun geh! Du machst mich nur verwirrt.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Ja, Freunde! Wo soll ich sie suchen, in einem Lande voll Falschheit und Arglist? Ich machte mich zum verunglükten Mann in den Wellen des tobenden Meers, der sich nach ein Bret umsieht, um sich des Schwimmen zu erleichtern. Entweder er sucht umsonst, oder er findet’s und klimmet hinauf. Aber es ist zu leicht ihn zu tragen. Es schlägt um und wirft ihn noch tausend Schritte dem Tode näher. Solche Bretter sind spanische Freunde. Nein, ich will meine Last allein tragen. Offenherzigkeit ist ein Jek, der Kisten und Kasten für Jedermann aufschließt, und, wenn sie ausgepakt sind, fremde Hände mit seiner Waare wuchern sieht, ohne Nutzen davon zu haben.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
           </sp>
           <sp who="#katelli">
+<<<<<<< HEAD
             <speaker>Katelli.:</speaker>
             <p>Laß deine Philosophien jezt weg und geh! Fürchte nichts! Die gerechte Sache geht vor uns her! Alle Schuld fällt auf ihn. Er vertändelt sein Leben. Wenn er mir meine Franziska daheim führen läßt, so soll das Erbarmen meine Blutgierde unterdrükken. <stage>(horcht auf ein Geräusch hinter der Bühne)</stage> Geh’, Anton, hinten hinaus und halt dich rüstig!</p>
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
+=======
+            <speaker>Katelli:</speaker>
+            <stage>(horcht auf ein Geräusch hinter der Bühne)</stage>
+          </sp>
+          <sp who="#anton:)">
+            <speaker>Anton:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
           <head>Dritter Auftrit.</head>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p><stage>(allein.)</stage></p>
+=======
+          <sp who="#katelli:)">
+            <speaker>Katelli:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p>Aber, Verstellung, wo nehm’ ich dich her? Du und deine Freundin, die Lüge, ihr habt noch nie in meine Seele gewohnet.</p>
           </sp>
         </div>
@@ -1489,6 +2526,7 @@
           <stage>Katelli. (verhüllt sich etwas in Mantel), Pedrillo (kurz angezogen, den Degen unter den Arm haltend und den Huth ins Gesicht gedrükt.)</stage>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+<<<<<<< HEAD
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -1507,12 +2545,32 @@
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
             <p><stage>(Nach einer langen Pause.)</stage> Niklas schikt mich.</p>
+=======
+            <stage>(Nach einer Pause zu Katelli)</stage>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+            <p>Hast du Verrichtung hier?</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#pedrillo:_wie_du_heißt?_und_keine_minute_darfst_du_länger_zögern?">
+            <speaker>Pedrillo: Wie du heißt? Und keine Minute darfst du länger zögern?</speaker>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Den zu sagen erlaubt mein Handwerk nicht.</p>
           </sp>
           <sp who="#pedrillo">
@@ -1521,38 +2579,60 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Ja. Er ist eben auf der Gasse von einem Mailänder niedergestossen, den ich aufsuche. Er hat mir aufgetragen, zu Pedrillo zu sagen, er schikke mich, seinem Mörder aufzupassen und für Pedrillo einen Priester zu bestellen. Wozu? weiß ich nicht. Der Tod schnit seine Worte ab.</p>
+=======
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+            <p>Kennt dich Niklas?</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Wenn ich mich rühre, so wird mein Blut toll. Genug ich führe Niklas Sache.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Franziska also? Hm! Nun bekomm’ ich Licht in der Sache. Zum sterben ist sie auch zu schön. Ich kenn’ einen Priester. Er geht immer <pb n="73"/> mit mir. Ich trau’ ihm Kopfs genug zu, das Ding recht gut zu machen. Und wenn sie mir ein gutes Wort geben – glauben sie’s, meine List geht über alles – so bring’ ich den Liebhaber der Franziska, wie heißt er doch – je nun! – den Mailänder, auch mit.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Genug, er muß gehen, wohin ich will. Ich könnt’ ihm die Augen gleich zudrükken, aber ich denke immer; spare den Stoß bis auf bedrängtern Zeiten.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Es bleibt bey allem, was abgeredet ist.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <stage>(Es wird im Hintergrunde der Bühne hell.)</stage>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+<<<<<<< HEAD
           </sp>
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
@@ -1564,6 +2644,20 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>pb n="74"/> Sie sind, wie die straffe Eiche im Walde. Bey heitern Wetter steht sie da, und stolziert. Kömmt ein Sturm, so zittert sie vom Haupt, bis zum Fuß. Ihr Zittern macht die Wurzel los und sie fällt. Sorgen sie also für die Wurzel, mein Herr.</p>
+=======
+            <p>Was ist da? Wer kömmt?</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+            <stage>(Geht näher)</stage>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+            <stage>(Wird immer furchtsamer und geht auf und nieder)</stage>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
@@ -1572,6 +2666,7 @@
           <stage>(Vier Vermummte tragen langsam Schrit vor Schrit einen Sarg in Tüchern. In der andern Hand Fakkeln. Der Sarg ist schwarz und am Dekkel brennt Pedrillo’s Name.)</stage>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+<<<<<<< HEAD
           </sp>
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
@@ -1582,12 +2677,28 @@
           </sp>
           <sp who="#der_vermummte">
             <speaker>Der Vermummte:</speaker>
+=======
+            <p>Mein Name? Beym Teufel, wenn die Ahndung träfe; Es fehlt nichts, als daß ich mir selbst aus Verzweiflung den Degen durch den Leib züge! <stage>(läuft verwirrt herum)</stage></p>
+          </sp>
+          <sp who="#katelli:_ein_vermummter_trit_vor_und_zeigt_auf_den_namen!)">
+            <speaker>Katelli: Ein Vermummter trit vor und zeigt auf den Namen!)</speaker>
+          </sp>
+          <sp who="#pedrillo:)">
+            <speaker>Pedrillo:)</speaker>
+          </sp>
+          <sp who="#der_vermummte:_wehe,_wehe_dir">
+            <speaker>Der Vermummte: Wehe, wehe dir!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
           <sp who="#katelli">
+<<<<<<< HEAD
             <speaker>Katelli.:</speaker>
+=======
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p><stage>(bey Seite)</stage> Wen doch Gewissen sticht!</p>
           </sp>
           <stage>(Die Leiche ab mit dumpfen murmelnden Gesange.)</stage>
@@ -1597,10 +2708,16 @@
           <stage>Katelli und Pedrillo.</stage>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Eine böse Ahndung.</p>
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+=======
+          </sp>
+          <sp who="#pedrillo:_oder_willst_du_mir_auch_abtrünnig_werden,_da_ich_mich_fast_selbst_schon_verlassen_habe?_du_furchtsam?">
+            <speaker>Pedrillo: Oder willst du mir auch abtrünnig werden, da ich mich fast selbst schon verlassen habe? du furchtsam?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -1608,13 +2725,22 @@
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+<<<<<<< HEAD
+=======
+            <p>Du zählst dich doch nicht unter sie?</p>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Das Räzel wär’ ihnen sonst zu groß!</p>
           </sp>
+<<<<<<< HEAD
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+=======
+          <sp who="#pedrillo:_–_du_hast_wohl_alles_wieder_drüber_vergessen?">
+            <speaker>Pedrillo: – Du hast wohl alles wieder drüber vergessen?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -1623,47 +2749,72 @@
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Und kömmt, und ich auch. Sie brauchen mich doch?</p>
+=======
+          <sp who="#katelli:_sie_brauchen_mich_doch?">
+            <speaker>Katelli: Sie brauchen mich doch?</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Der Priester wird’s gewiß so gut machen, als ich und sie es ihm sagen können. Ich halte mein Wort gewiß. Aber sie müssen dafür sorgen, daß dem Priester der Eintrit nicht verwehrt wird. Sie müssen überhaupt die Arbeit mir zu erleichtern suchen.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>In einer halben Stunde bin ich da. Jezt werd’ ich hier bleiben, und meinen Plan weiter <pb n="77"/> studiren. Es ist kein Ort, der mich mehr dazu aufmuntern könnte, als dieser.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Er kann sich selbst nicht besser kennen, als ich ihn kenne. Alles was ich weiß, weiß er auch. Und sollt’s nicht recht mit ihm gehen wollen, so stoss’ ich ihn nieder.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Nichts mehr.</p>
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+=======
+          </sp>
+          <sp who="#pedrillo:)">
+            <speaker>Pedrillo:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
           <head>Sechster Auftrit.</head>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p><stage>(allein.)</stage></p>
+=======
+          <sp who="#katelli:)">
+            <speaker>Katelli:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <stage>(Nach einer langen Pause.)</stage>
           <stage>Gottlob, daß ich den Kampf gekämpfet habe. Es war ein arger Kampf. Aber, – (langsam) Zweye folgen ihm! – Gott, bald tod! denn lange frist’ ich ihm sein Leben nicht! Ich ihm folgen? Auch deshalb schon’ ich dich nicht, wenn du mir nicht meine Franziska gibst. – Noch gehen die Propheten des <pb n="78"/> Himmels vor mir her! Mein Auge sieht sie noch immer. – Ich soll sein Richter seyn? das Amt nehm’ ich willig, nehm’ ich mit Freuden. Um alle Schätze der Welt schlüg’ ich’s nicht aus. Aber sterben! Wie das Vorherwissen so schreklich ist! Doch, Mensch, was ist dein Streben wider Schiksal? Wir können nichts thun, als uns die Wege die es uns zeigt, leicht machen, und das will ich thun. Ich will meine Seele rüsten. <pb n="79"/></stage>
@@ -1674,8 +2825,13 @@
         <stage>Ein Gefängniß, welches von einer Lampe, die im Hintergrunde desselben hängt, schwach erleuchtet wird. Auf der Seite, der Thür gegenüber, ein Bette.</stage>
         <div type="scene">
           <head>Erster Auftrit.</head>
+<<<<<<< HEAD
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+=======
+          <sp who="#franziska:))">
+            <speaker>Franziska:))</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <stage>(Nach einer langen Pause.) Ha! mein Katelli! Ich seh’ ihn streiten! Streit, braver Junge, streit, wie der Mann unter Tausenden! – Bet zu Gott! Er übermannt dich! Fasse Muth! Engel schüzen dich! Sie brechen dir schon den Lorbeer! – – Wirf ihn nieder und reiß ihm sein Bubenherz heraus! Katelli! Katelli! dein Arm sinkt! Sieg, Sieg dir, Katelli! Sieh, wie er mit den Händen den Erdboden zerreißt! mit den Zähnen Steine zerknirscht! – Eh er sich ermannt, Katelli! – Horch! jezt stößt er seinen lezten Fluch aus! – Wehe dir, Katelli, daß du ihn nicht länger gepeinigt hast! Schon tod! tod? daß er nicht noch einmal sterben kann! (Sie fällt entkräftet aufs Bette, und richtet sich nach einiger Zeit wieder auf.) Sey mir willkommen, mein Bester! Du hast rittersam <pb n="80"/> gestritten. Eil in meine Arm; sollst dich erholen! – Wie du so keichst! (als wenn sie ihn küßt) Wie dieser Kuß so süß ist, dieser heisse Kuß der Liebe! – Heute noch ist unsre Hochzeit. Weist du’s Lieber? Und kein Priester soll uns dazwischen kommen. (Nach einer langen Pause.) Aber sieh! Ein neuer Kampf! Legionen Teufel! Sie reissen sich um seine Seele! Sieh! Schulknaben, sich um eine wurmstichige Haselnuß raufend! – Sie ziehen mit ihm fort! – Teufel hört! Franziska ruft euch! Laßt die andern Verbrecher alle, eine Stunde ruhen! Täglich eine Stunde! und dann über ihn allein! Es ist Pedrillo! Jezt mögt’ ich wünschen, ein Teufel zu seyn! Aber Mädchenarm ist zur Qual seines Gebeins zu schwach! (sezt sich matt nieder.)</stage>
         </div>
@@ -1686,26 +2842,43 @@
             <speaker>Gefangenwärter:</speaker>
           </sp>
           <sp who="#katelli">
+<<<<<<< HEAD
             <speaker>Katelli.:</speaker>
             <p><stage>(Mit gezwungener Stimme)</stage> Deshalb komm’ ich. Ich will sie wieder zur Vernunft bringen. <pb n="81"/> – Ihr könnt nur gehen. Ich will mit ihr allein seyn.</p>
+=======
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#gefangenwärter">
             <speaker>Gefangenwärter:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
             <p>Die heiligen Gerichte haben einen Priester nicht zu fürchten. <stage>(Gefangenwärter ab.)</stage></p>
+=======
+          <sp who="#katelli:)">
+            <speaker>Katelli:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
           <head>Dritter Auftrit.</head>
           <stage>Franziska und Katelli.</stage>
+<<<<<<< HEAD
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
             <p><stage>(Steht wie in Betäubung.)</stage> Bin ich denn gemacht, um zur Probe zu dienen, wieviel Lasten Misgeschiks ein Menschenrükken tragen kann? – Franziska! –</p>
+=======
+          <sp who="#franziska:_katelli!_katelli,_zum_kampf">
+            <speaker>Franziska: Katelli! Katelli, zum Kampf!</speaker>
+          </sp>
+          <sp who="#katelli:)_bin_ich_denn_gemacht,_um_zur_probe_zu_dienen,_wieviel_lasten_misgeschiks_ein_menschenrükken_tragen_kann?_–_franziska!_–">
+            <speaker>Katelli:) Bin ich denn gemacht, um zur Probe zu dienen, wieviel Lasten Misgeschiks ein Menschenrükken tragen kann? – Franziska! –</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
@@ -1719,6 +2892,7 @@
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Ich schwör’s dir, daß ich bin. Ich komme, dich dieser Zelle des Schrekkens zu entführen.</p>
           </sp>
           <sp who="#franziska">
@@ -1730,6 +2904,17 @@
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+=======
+          </sp>
+          <sp who="#franziska:)">
+            <speaker>Franziska:)</speaker>
+          </sp>
+          <sp who="#katelli:_aber_–_soll_ich_ihr_die_schrekliche_ahndung_entdekken,_damit_sie_sich_mit_mir_rüste?_ja,_schreklich;_aber_doch_gut">
+            <speaker>Katelli: Aber – soll ich ihr die schrekliche Ahndung entdekken, damit sie sich mit mir rüste? Ja, schreklich; aber doch gut!</speaker>
+          </sp>
+          <sp who="#franziska:_was_wärs_mir_auch_besser,_ob_ich_bin,_oder_nicht?_wenn_ich_nur_erst_meinen_katelli_auf_den_stufen_des_himmels_erwarten_könnte!_armer,_du_leidest_viel_um_mich">
+            <speaker>Franziska: Was wär’s mir auch besser, ob ich bin, oder nicht? Wenn ich nur erst meinen Katelli auf den Stufen des Himmels erwarten könnte! Armer, du leidest viel um mich!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -1737,6 +2922,7 @@
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+<<<<<<< HEAD
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -1748,32 +2934,56 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Unter dem Schuz dieses Anzugs und der Verstellung hab’ ich’s gewagt. Und noch mehr hätt’ ich um dich gewagt! Er hat mir selbst die Thür geöfnet, so blind ist er. Unser Rükweg wird eben so sicher seyn. Ich habe doppelte Kleider. Eins bring’ ich dir.</p>
+=======
+            <p>Gott! Ein Priester und die Sprache Katelli’s?</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#franziska:_heißt_es_nicht_willig_ins_grab_hineinspringen,_wenn_man_über_diese_schwelle_trit?">
+            <speaker>Franziska: Heißt es nicht willig ins Grab hineinspringen, wenn man über diese Schwelle trit?</speaker>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>Und du gehst zu behutsam. Ich habe ihnen eine veste Binde vor die Augen gebunden.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Du überschreitest Menschenpflicht. Dein Leib ist nicht dein Eigenthum. Dies Kleid ist deiner Seele nur geborgt, in den Jahren deiner Pilgerschaft auf dieser Erde damit einher zu wandeln. Da es nun nicht dir gehört, darfst du’s wohl zerreissen? Würd’s dir nicht sauer werden, es zu bezahlen? – Das werd’ ich nicht thun, gute Franziska. Diese That würde die guten Handlungen deines und meines Lebens mit einem Schleyer überziehn. Und sollt’ ich dir eine Bitte erfüllen, da du mit die meinige abgeschlagen hast? Franziska, folge mir!</p>
+=======
+          <sp who="#katelli:_und_sollt_ich_dir_eine_bitte_erfüllen,_da_du_mit_die_meinige_abgeschlagen_hast?_franziska,_folge_mir">
+            <speaker>Katelli: Und sollt’ ich dir eine Bitte erfüllen, da du mit die meinige abgeschlagen hast? Franziska, folge mir!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>pb n="86"/> Nein, denn wollen wir Mund an Mund sterben. <stage>(horcht nach einem Geräusch hinter der Bühne)</stage> Wenn ich recht wähne? – Ein blutiger Hochzeitstag.</p>
+=======
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
           <sp who="#katelli">
+<<<<<<< HEAD
             <speaker>Katelli.:</speaker>
             <p><stage>(Mit gesezter Stimme)</stage> Nein! Ich bin jezt zu allem! was Schiksal will, bereit. Wir sehen auch nicht ein, was uns gut ist, weil unsere Augen zu blöde sind, die Wendungen des Schiksals zu durchschauen. Ich glaub’, einem jeden ist sein Schiksal das beste. Wir müssen gutes und böses schmekken. Das Gute, dem Uebel folgend, ist uns desto behäglicher, wenn wir vorher gelernt haben, was Misgeschik sagen will. Franziska! – Die heiligste Wahrsagung ist für uns. Es wird uns wohl gehen. Ich habe dich jezt zu allem – Franziska, nim dich in Acht! Es kömmt jemand! Ich habe recht gehört.</p>
           </sp>
@@ -1783,6 +2993,16 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Dein Zaudern hat alles verdorben. Setze dich, bleib bey deiner Fassung und nenne mich nicht.</p>
+=======
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#franziska">
+            <speaker>Franziska:</speaker>
+            <p>Katelli, was ist dir?</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
             <p><pb n="87"/></p>
           </sp>
         </div>
@@ -1793,32 +3013,54 @@
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Es wäre gut, wenn wir ihre Adern mit Eis füllen könnten. Sie raste, da ich kam. Fachen sie das Feuer nicht wieder an, das ich schon halb gedämpft habe. Ich dächte, sie gingen.</p>
+=======
+          <sp who="#pedrillo:_–_–_närrin,_antwortest_du_mir_nicht?_bosheit,_oder_verstellung?">
+            <speaker>Pedrillo: – – Närrin, antwortest du mir nicht? Bosheit, oder Verstellung?</speaker>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+=======
+          <sp who="#franziska:)">
+            <speaker>Franziska:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Wir müssen nie auf die Dornen dieses Lebens zürnen, denn wir wissen nicht, wozu die Wunden, von ihnen gerissen, uns nützen.</p>
+=======
+          <sp who="#franziska:_als_wenn_meine_todesstunde_alles_glük,_das_ich_hier_auf_erden_genießen_soll,_in_sich_faßt">
+            <speaker>Franziska: Als wenn meine Todesstunde alles Glük, das ich hier auf Erden genießen soll, in sich faßt!</speaker>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
+<<<<<<< HEAD
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
           </sp>
@@ -1831,13 +3073,33 @@
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+=======
+          <sp who="#franziska:_hülfe!_eh_er_mich_ermordet">
+            <speaker>Franziska: Hülfe! Eh er mich ermordet!</speaker>
+          </sp>
+          <sp who="#pedrillo">
+            <speaker>Pedrillo:</speaker>
+            <p>Er ist hier gewesen? Katelli hier?</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#pedrillo:_aehnlichkeit_in_der_sprache">
+            <speaker>Pedrillo: Aehnlichkeit in der Sprache!</speaker>
+            <stage>(laut)</stage>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Ihre Augen auf; und sie werden ihn finden!</p>
           </sp>
+<<<<<<< HEAD
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
+=======
+          <sp who="#pedrillo:)">
+            <speaker>Pedrillo:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
@@ -1845,6 +3107,7 @@
           <stage>Franziska und Katelli.</stage>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+<<<<<<< HEAD
           </sp>
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
@@ -1852,6 +3115,15 @@
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+=======
+            <p>Mein Katelli! Mein Katelli!</p>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#franziska:))">
+            <speaker>Franziska:))</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
@@ -1862,15 +3134,22 @@
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
+<<<<<<< HEAD
             <p>pb n="91"/> Und nun alles verlohren? Konnte der Sünder nicht Augenblikke noch zögern. Wie sie so ruhig, so gut war, eh’ er kam! Und nun so ganz ohne Verstand! O, könnt’ ich doch weinen, eh’ mein Herz zerreißt! – Welche Wohlthat sind Thränen! Meiner Ernte war ich schon ganz gewiß, und nun zerschlägt mir mit einmal das Wetter die Saat.</p>
           </sp>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
+=======
+          </sp>
+          <sp who="#franziska:)">
+            <speaker>Franziska:)</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
         <div type="scene">
           <head>Sechster Auftrit.</head>
           <stage>Die Vorigen und Pedrillo (mit entblößten Degen.)</stage>
+<<<<<<< HEAD
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
           </sp>
@@ -1884,6 +3163,19 @@
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
             <p><stage>(faßt ihm mit der einen Hand den Degen und mit der andern vor die Brust)</stage> Sieh! den ganzen Knoten zerschneid’ ich dir. Der Vermummte, im Schlosse Montenegro’s mit dir sprechend, war der Priester, der jezt vor dir steht – und heißt Und wenn die Tollheit dein Gehör verstopft hat, so fühl’s! <stage>(Er holt geschwind ein Stilet hervor und ersticht ihn. Pedrillo will mit dem Degen auf ihn zu, wankt aber. stößt ihn noch einmal und er fällt.)</stage> Ich will die Hölle nicht auf mich erboßen, daß ich dich hier schon zu Martern gewöhne! – Das ist das Ziel, wonach du so freventlich gestrebt hast, du Stöhrer häuslicher Ruhe, du Stöhrer heiliger Liebe! Da liegst du nun, beflekt mit Vatermord, Kindermord und allen Lastern, die menschliches Gehirn nur aushekken kann! – Ich folge dir; aber mit geflochtner Geissel folg’ ich dir! Bald, bald! – Du bebst den Weg hinab, umringt vom Rauchgewölk racheschreyendes Bluts; begleitet vom Gebet des Vaters um Strafe für das Blut seines Kindes; begleitet vom Gewimmer der Frommen und Bedrängten im Unglük, und diesem <pb n="93"/> allen schleppt die Strafe ihr graues Haupt auf langsamen Krükken nach. Dies sind deine Gefährten. – Ich gehe den Weg froh, meine Franziska im Arm! Edle That und Unschuld gehen vor uns einher, und der Seraph lacht unsers Kommens. – <stage>(den Dolch in erhabner Hand. Zu Franziska)</stage> Und nun zum Gericht Franziska! Rettung ist hier tod!</p>
+=======
+          <sp who="#pedrillo:_wo_ist_katelli?_mein_arm_will_blut;_seins_oder_deins!_mit_einem_wort,_ohne_stammlen">
+            <speaker>Pedrillo: Wo ist Katelli? Mein Arm will Blut; seins oder deins! Mit einem Wort, ohne Stammlen!</speaker>
+          </sp>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+          </sp>
+          <sp who="#pedrillo:_)">
+            <speaker>Pedrillo: )</speaker>
+          </sp>
+          <sp who="#katelli:_zu_franziska)_und_nun_zum_gericht_franziska!_rettung_ist_hier_tod">
+            <speaker>Katelli: Zu Franziska) Und nun zum Gericht Franziska! Rettung ist hier tod!</speaker>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
           </sp>
         </div>
       </div>

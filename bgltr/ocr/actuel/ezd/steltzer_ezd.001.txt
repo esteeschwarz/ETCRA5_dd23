@@ -4,6 +4,7 @@
 ##Erster Auftrit.
 $Montenegro’s Garten bey dessen Landgut vor Madrit. Buschwerk, Rasenbänke und im Hintergrunde das freye Feld.
 $Katelli und Montenegro, (beide auf einer Rasenbank sitzend.)
+<<<<<<< HEAD
 @Montenegro:
 @Katelli:
 Ich wär’ ihnen also auch jezt nicht mehr so lieb, guter Vetter? Ein Bischen übles Humors könnte Vaterliebe verkleinern? 
@@ -31,10 +32,34 @@ $Katelli und Anton, (der fortgehen will)
 ##Vierter Auftrit.
 @Katelli:
 (allein. )
+=======
+@Montenegro: 
+@Katelli:
+Ich wär’ ihnen also auch jezt nicht mehr so lieb, guter Vetter? Ein Bischen übles Humors könnte Vaterliebe verkleinern? 
+@Montenegro: 
+@Katelli: 
+@Montenegro: – Du schweigst? Bin ich schuld? 
+@Katelli: 
+@Montenegro: 
+@Katelli: 
+@Montenegro: 
+@Katelli: 
+##Zweyter Auftrit.
+$Die vorigen. Anton.
+@Anton: 
+@Montenegro: 
+ <pb n="7"/>
+##Dritter Auftrit.
+$Katelli und Anton, (der fortgehen will) 
+@Katelli:) 
+##Vierter Auftrit.
+@Katelli: )
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
 Nicht eher will ich mich sehen lassen, als bis ich mich gefaßt habe; – und fassen will ich mich, muß ich mich! – Sonst so entschlossen, und jezt nichts, als Zweifel um mich her! – Ist mein Trit denn so schwach, daß ich mich von einem nächtlichen Traum sollte umstossen lassen? Ich weiß, sie liebt mich. Das sagt mir ihr warmer Handdruk, ihr feuriger Blik, womit sie mich überschauet, und das Röthen ihres Gesichts, wenn ich sie ansehe. Und Pedrillo? O vielleicht ist er so der gute Mann, als ich ihn für den arglistigen, boshaften halte! – Wie der Argwohn den Menschen trillen kann, wenn er einmal in ihm haushält! – Aber hier hell’ ich mich nicht auf; Täglich hab’ ich das Mädchen vor Augen. Fort, Katelli, fort! Auf eine kurze Zeit wenigstens muß du sie verlassen! 
  <pb n="8"/>
 ##Fünfter Auftrit.
 $Katelli und Anton. 
+<<<<<<< HEAD
 @Anton:
 @Katelli:
 Pak meine Sachen ein, Anton. Wir müssen fort. Ich habe nöthige Geschäfte zu Hause. 
@@ -85,6 +110,52 @@ Das kann ich nicht, Alter. Dazu bin ich noch zu warm. Aber schreiben will ich ih
 @Katelli:
 Aber woher Feder, Tinte? Das Hin- und Wiederlaufen macht Aufsehen, der gute Alte hat schon Verdacht geschöpft. 
 @Anton:
+=======
+@Anton: 
+@Katelli: 
+@Anton:
+Fort? Hm! und wir sind kaum vierzehn Tage hier, und die Leute sehen uns so gern? – Was denn zulezt die nöthigen Geschäfte anbetrift, so – 
+@Katelli: 
+@Anton: Ja, ja, haben sie’s endlich doch vergessen, was der Vater sagte, als sie in den Wagen stiegen? „Karl, Karl, nimm dich für die Mädchen in Acht! Es ist ein arges Ding, sie wieder aus dem Kopf zu bringen, wenn sie sich einmal eingeschlichen haben!“ 
+@Katelli:
+Du plapperst da aufs Geradewohl hin, als wenn du Brief und Siegel drüber hättest! 
+@Anton: 
+@Katelli:
+Du verstehst das Horchen sehr gut, Anton! 
+@Anton: 
+@Katelli: Nicht Anton? – Du schweigst? 
+@Anton:
+Nicht, als wenn ich an Franziska etwas auszusetzen hätte! Bewahre der grosse Gott! aber – 
+@Katelli:
+Und was mit dem Aber? 
+@Anton: Er wird – 
+@Katelli: 
+@Anton:
+Und dem alten Mann, wenn er sie ihm nicht gibt, tausend Possen spielen, und ihnen, wenn sie Franziska erhalten, noch einmal so viel, und – 
+@Katelli: 
+@Anton: 
+@Katelli:
+Wahr ists, Pedrillo soll ein arger Kopf seyn; allein hab’ ich ihn beleidigt? Warum sollt’ er meinem Glükke Fallen stellen? Warum – kann ich den Gedanken doch kaum in Worte fassen – warum auf Blut und Mord sinnen? Bin ich schuld, daß man ihm das beste Mädchen Spaniens versagt? Und Franziska – 
+@Anton:
+Weh, weh! wir haben einen tükschen Kopf getragen! Ob denn die bösen Leute alle schwerer sind als die guten? 
+@Katelli: Und laß ihn! Was wird er können? Heut ist mein Bund mit Franziska geschlossen, und morgen fort mit ihr nach Mailand! 
+@Anton: 
+@Katelli:
+ (etwas hitzig) Gut, laß ihn uns nacheilen! Sind unsere Klingen nicht auch gewezt? 
+@Anton:
+Nun freylich! Ich habe zwar mit solchen Sachen nicht gern etwas zu thun, wenn’s aber seyn soll, ey nun! 
+@Katelli: 
+@Anton:
+Da wär’ ich zwar gar gern, weil’s so gute Leute darin geben soll, – 
+@Katelli: Geh und pak ein! 
+@Anton: 
+@Katelli: 
+@Anton: 
+@Katelli: Meinst du? 
+@Anton: 
+@Katelli: 
+@Anton:) 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
 ##Sechster Auftrit.
 @Katelli:
 (allein, (dem Anton nachrufend) )
@@ -92,6 +163,7 @@ Bleib! Ich kann dort schreiben, oder – gehe nur – Welche arge, böse Krankhe
 ##Siebenter Auftrit.
 $Katelli. Anton (bringt einen kleinen Tisch, Feder, Papier und Tinte.) 
 $ Katelli (setzt sich auf einer Rasebank nieder und schreibt.) 
+<<<<<<< HEAD
 @Anton:
 @Katelli.:
  Wie mir die wenigen Worte so sauer werden! (zerreißt das Papier und wirft’s fort) Anton hol mir and’res Papier. 
@@ -109,10 +181,30 @@ Franziska! –
 $Die vorigen und Anton. 
 @Katelli.:
  Trag dies wieder weg, Anton! Ich will allein seyn. (Anton ab.) 
+=======
+@Anton: 
+@Katelli: 
+@Anton:) 
+##Achter Auftrit.
+$Katelli und Franziska. (kömmt aus dem Gebüsch hinter Katelli hervor) 
+@Franziska:
+Ich habe dich belauscht, Katelli! 
+@Katelli:
+ (vor sich) Gott das fehlt mir jezt! 
+@Franziska:
+ Sieh, Katelli! Das Mädchen, warum du dein Herz so sehr gezerrt hast, das Mädchen hat dich belauscht! (Sie fällt ihm um den Hals) 
+@Katelli:
+Franziska! – 
+@Franziska: 
+##Neunter Auftrit.
+$Die vorigen und Anton. 
+@Katelli:) 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
  <pb n="15"/>
 ##Zehnter Auftrit.
 $Katelli. Franziska. 
 @Franziska:
+<<<<<<< HEAD
 @Katelli:
 Dieser Handdruk sey Antwort. 
 @Franziska:
@@ -136,10 +228,31 @@ Aber mein Geist denkt sich da immer so etwas, das mich in Bewegung setzt.
 @Franziska:
 ##Eilfter Auftrit.
 @Anton:
+=======
+Aber du siehst so finster, Katelli? Bin ich dir lästig? 
+@Katelli: 
+@Franziska: 
+@Katelli:
+Verzeih mir – Ich liebte dich, wenigstens schäzt’ ich dich gleich den ersten Tag, als ich in das Haus deines guten Vaters trat; allein die Ungewißheit, ob du gleiches Gefühl mit mir hättest, die Ungewißheit, ob dein Vater unsere Liebe billigen würde? 
+@Franziska: 
+@Katelli: 
+@Franziska: Wer will Träumen glauben? 
+@Katelli: 
+@Franziska: 
+@Katelli: 
+@Franziska: 
+@Katelli: 
+@Franziska: 
+@Katelli: 
+@Franziska:) 
+##Eilfter Auftrit.
+@Anton: (kömmt von der Gartenhausseite) )
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
 Die lieben Kinder! wie sie sich so gut sind! das Herz mögte mir springen, wenn ich sie sehe. Aber, aber – 
 ##Zwölfter Auftrit.
 $Anton und Kamilla. 
 @Kamilla:
+<<<<<<< HEAD
 @Anton:
 @Kamilla:
 @Anton:
@@ -164,10 +277,44 @@ $Anton und Kamilla.
 @Kamilla:
 ##Dreyzehnter Auftrit.
 @Anton:
+=======
+Guten Morgen, Alter! 
+@Anton:
+Guten Morgen, Mädel! Warum läuft sie denn hier im Garten so herum, und bleibt nicht bey ihrer Franziska? 
+@Kamilla:
+Und warum bleibt er denn nicht hübsch bey seinem Katelli? Was hat er hier zu suchen? 
+@Anton: 
+@Kamilla: 
+@Anton:
+Wo denn? Was denn? 
+@Kamilla: 
+@Anton: Hör sie! Neues, oder ich mache links um! 
+@Kamilla: Muß ich’s ihm denn aufdringen? 
+@Anton: 
+@Kamilla: Der hat mir erzehlt – 
+@Anton:
+Sag sie mir erstlich, wer ihr Bräutigam ist? Ich dachte noch einmal mit ihr durchzugehen, aber – 
+@Kamilla: 
+@Anton: Sie trägt ihrem Jakob denn auch wohl schöne Neuigkeiten zu? 
+@Kamilla: 
+@Anton: – Mein Herr ist ihr auch recht gut, und was das Beste ist – Seh sie nur! (er nimmt ein Goldstük aus der Tasche) weil sie so fein artig gewesen wäre, und wenn sie’s ferner seyn wollte, so sollt’ ichs ihr – 
+@Kamilla: 
+@Anton:
+Und ihrem Jakob nichts wieder sagen? 
+@Kamilla: Geb’ er nur her! 
+@Anton: 
+@Kamilla: 
+@Anton: 
+@Kamilla:) 
+##Dreyzehnter Auftrit.
+@Anton:
+(allein) 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
 Es war gut, daß mir mein Herr eben meinen Lohn gegeben hatte. Ich habe sie auf der rechten Seite gefaßt. Da hätte ein schönes Stükchen draus werden können. Das Beste ist, daß sie von Katelli’s <pb n="21"/> Absichten noch nichts zu wissen scheint. Das Weiberzeug! Es ist bey ihnen ein ewiges Geschrey nach Geld; und das macht allein der leidige Puz. Ich werde sie mit Gelde sehr warm halten müssen, wenn sie nicht die Stange auf beiden Schultern tragen soll. 
 ##Vierzehnter Auftrit.
 $Anton und Montenegro. 
 @Montenegro:
+<<<<<<< HEAD
 @Anton:
 @Montenegro:
 @Anton:
@@ -178,10 +325,25 @@ $Anton und Montenegro.
 @Montenegro:
 ##Funfzehnter Auftrit.
 @Montenegro:
+=======
+Was denn hier so allein in der Irre? Wo ist dein Herr? Und meine Tochter, hast du die nicht gesehn? 
+@Anton: 
+@Montenegro:
+ So muß ich sie wohl im Hause suchen? (will gehen) 
+@Anton: 
+@Montenegro: 
+@Anton: 
+@Montenegro: 
+@Anton: Kennt noch keiner den alten Alton! 
+@Montenegro:) 
+##Funfzehnter Auftrit.
+@Montenegro:) 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
 $(Liest) Hier die Antwort, bester Vater, die ich Ihnen vor einer halben Stunde schuldig blieb: Ich liebe Franziska. Nach ernster reifer Ueberlegung lieb’ ich Sie. Die Ungewißheit, ob Sie mich Ihrer Hand würdigen mögten, machte mich seit einiger Zeit tiefdenkend; aber länger duld’ ich nicht. Ich falle Ihnen zu Füssen. – Das Billet hat an mich gesollt, und weil’s ihm nicht recht gewesen ist, hat er’s zerrissen. Erklärung aber genug! Das Blizmädchen! Welche Verwirrung sie mir im Hause macht! 
  <pb n="23"/>
 ##Sechszehnter Auftrit.
 $Montenegro und ein Bedienter. 
+<<<<<<< HEAD
 @Bedienter:
 @Montenegro:
 ##Siebzehnter Auftrit.
@@ -209,11 +371,44 @@ $Die vorigen und Anton.
 @Montenegro:
 @Zisterzius:
 @Montenegro:
+=======
+@Bedienter: 
+@Montenegro:
+Zisterzius? Ich kenn’ ihn nicht! – Kannst ihn herführen; bleib aber nicht weit von uns! 
+##Siebzehnter Auftrit.
+$ Die vorigen und Zisterzius. 
+@Zisterzius: 
+@Montenegro: 
+@Zisterzius: 
+@Montenegro: 
+@Zisterzius: 
+@Montenegro: Nun, was ist ihr Begehren, Herr Pater, und wer sind sie? 
+@Zisterzius: 
+@Montenegro: 
+@Zisterzius: Pedrillo hat vor kurzer Zeit – 
+@Montenegro: 
+@Zisterzius: 
+@Montenegro: Hat ihnen Pedrillo davon noch nichts gesagt? 
+@Zisterzius: 
+@Mont:
+Weiter nichts anzubringen? 
+@Zisterzius: 
+##Achtzehnter Auftrit.
+$Die vorigen und Anton. 
+@Anton:)) 
+@Mont:
+Eben der? 
+@Anton: 
+@Montenegro: 
+@Zisterzius: 
+@Montenegro: 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
  <pb n="27"/>
 ##Neunzehnter Auftrit.
 $Die vorigen, Franziska und Katelli. 
 @Katelli:
 Warum so hitzig? Was ist ihnen? 
+<<<<<<< HEAD
 @Montenegro:
 @Zisterzius:
 @Katelli:
@@ -270,11 +465,65 @@ Nehmen sie diesen kindlichen Kuß des Danks.
 @Montenegro:
 @Franziska:
 @Montenegro:
+=======
+@Montenegro: 
+@Zisterzius:)) 
+@Katelli: 
+@Zisterzius:) 
+##Zwanzigster Auftrit.
+$Montenegro, Franziska und Katelli. 
+@Montenegro: 
+@Katelli:
+Und was sucht er bey ihnen? 
+@Montenegro: Mensch was bist du? 
+@Franziska:
+Aber, lieber Vater er muß doch Vorwand gehabt haben? 
+@Montenegro: 
+@Franziska:
+Ach! lieber Vater, wenn ich recht muthmaßen sollte! 
+@Montenegro: 
+@Franziska: 
+@Mont:
+Und warum, Mädchen? 
+@Franziska: 
+@Katelli: Nicht? 
+@Montenegro: Wozu soll das? schämt sich deine Zunge gutes zu reden? 
+@Katelli:
+Bester Vater, ich wußte nicht – 
+@Montenegro: Ich liebe dich, wie sie – Aber ich kann’s nicht vergessen! so ein Zettelchen! Und dann wirfst dus dahin! Bedenk, wenn’s ein Unrechter gefunden hätte! 
+@Franziska: 
+@Montenegro: Bin ich so hartsinnig, daß mich erst Fußfälle bestechen müssen? 
+@Franziska: 
+@Montenegro: 
+@Katelli: 
+@Franziska: 
+@Montenegro: 
+@Katelli: 
+@Montenegro: 
+@Katelli: 
+@Mont:
+Wird der Muthige zulezt nicht unterliegen müssen, wenn ihn Tükke und Satanslist zugleich bekämpfen? 
+@Katelli: 
+@Montenegro: Ringe deine Hände und schüttle den Kopf! 
+@Katelli: 
+@Montenegro: 
+@Katelli: 
+@Franziska: 
+@Katelli: – Aber, bester Vater, warum lassen sie noch länger auf ihr Ja unsern flehenden Blik schmachten? 
+@Montenegro: 
+@Katelli: 
+@Franziska:
+Vater, bester Vater! 
+@Montenegro: 
+@Franziska: 
+@Montenegro: Kommt, Kinder! <pb n="35"/>
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
 #Zweyter Aufzug.
 ##Erster Auftrit.
 $Ein Wohnzimmer des Pedrillo. 
 $Pedrillo sitzt und schreibt. Niklas kömmt bald in Priesterkleidern dazu. 
 @Niklas:
+<<<<<<< HEAD
 @Pedrillo:
 @Niklas:
 @Pedrillo:
@@ -305,11 +554,50 @@ $Pedrillo sitzt und schreibt. Niklas kömmt bald in Priesterkleidern dazu.
 @Niklas:
 @Pedrillo:
 @Niklas:
+=======
+So emsig? 
+@Pedrillo: 
+@Niklas: 
+@Pedrillo:
+ (steht auf) Nun? alles gut? 
+@Niklas: Wenn so ein Kopf drüber kömmt! (auf sich zeigend) 
+@Pedrillo:
+Ist sie mein? Hast du den Alten bange gemacht? 
+@Niklas: 
+@Pedrillo: 
+@Niklas: 
+@Pedrillo: Weißt du nicht, was ich über dich vermag? 
+@Niklas: 
+@Pedrillo: 
+@Niklas: 
+@Pedrillo: 
+@Niklas: 
+@Pedrillo: Und du sprangst nicht gleich vor? Ranntest nicht wenigstens einen von ihnen nieder? 
+@Niklas: 
+@Pedrillo:
+Wie’s mir in der Brust arbeitet! 
+@Niklas: 
+@Pedrillo: 
+@Niklas: 
+@Pedrillo:
+ (geht höhnisch lächelnd auf und nieder) Ha, ich höre die Erde schon beben, auf die sie vor mir hinstürzen werden! Ich höre dich schon wimmern, du feines Ding, wenn das Blut deines Katelli deine Schuhe besprizen, höre dich schon wimmern, wenn dein Alter neben dir den lezten Hauch ausächzen wird! Wie soll mich der Balsam noch in der lezten Stunde meines Lebens stärken! Doppeltes Leben soll mir der Balsam schenken, der aus deinen Augen quillen wird! 
+@Niklas:
+<pb n="39"/> Und dem Mädel wollen sie das Leben schenken? Ich dächte, da wir bey der Arbeit wären? Je mehr Arbeit, je mehr Verdienst für mich! Doch das Ding stirbt ja wohl vom Zusehen! 
+@Pedrillo: 
+@Niklas: Daß die Komedie nur recht angefangen wird! 
+@Pedrillo: 
+@Niklas: 
+@Pedrillo: Welch ein Götteranblik wird es seyn, wenn das Mädchen da vor mir auf den Knien jammert! 
+@Niklas: 
+@Pedrillo: 
+@Niklas: (ab) 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
 ##Zweyter Auftrit.
 $Pedrillo allein. (auf und niedergehend) 
 Bald wird das Meer überschift seyn! Nur eine kleine Sandbank verhindert die Landung noch! (Sezt sich nachdenkend hin) Ich seh’ aber warlich noch nicht ein, wie wir uns unentdekt ihnen nähern wollen! Es ist <pb n="41"/> wahr, der Garten ist zum Verbergen buschicht genug; aber sollten sie nicht auf Sicherheit gedacht haben, da sie wissen, daß der Garten nach der Feldseite offen ist; da sie von dort aus ein jeder, nach Gefallen, beschleichen kann? Und werden sie sich an ihrer eigenen Gesellschaft begnügen? Niklas, Niklas, dein Plan ist zu hitzig gemacht. 
 ##Dritter Auftrit.
 $Pedrillo, Niklas und Kamilla. 
+<<<<<<< HEAD
 @Niklas:
 @Kamilla:
 @Pedrillo:
@@ -360,17 +648,86 @@ $Pedrillo und Niklas.
 @Niklas:
 ##Fünfter Auftrit.
 @Pedrillo:
+=======
+@Niklas: 
+@Kamilla: 
+@Pedrillo:
+Wer bist du Mädchen? 
+@Niklas: 
+@Kamilla: 
+@Pedrillo:
+ (zu Niklas) Ich glaube, sie haben meine eigenen Leute schon vergiftet! – (vor sich) Ich will euch aber zur Reue dringen! 
+ <pb n="42"/>
+@Kamilla:
+und mit dem hab’ ich nur ein Paar Worte gesprochen – das ist ja gar nichts übles – und hab’ ihm erzehlt – ach, ich bitte sie um alles in der Welt, lassen sie mich doch nur gehen! ich hab’ in ihrem Hause ja weiter nichts gewollt! 
+@Pedrillo:
+Was hast du mit meinem Bedienten zu sprechen? Bräutigam! ja dahinter stekt etwas anders! 
+@Kamilla: 
+@Pedrillo: 
+@Kamilla:
+Ja wohl, ein rechter Herzensmann! Ein Mann zum Verlieben! 
+@Pedrillo: (dreht sich um und lacht) 
+@Niklas:
+ (zu Pedrillo) Der Fang ist noch besser, als ich dachte! 
+@Kamilla: – Ich habe sie immer für so böse auf unser Haus gehalten; aber sie sehen ja doch so freundlich aus! 
+@Pedrillo: (streichelt ihr das Gesicht) Weißt du denn nichts neues Mädchen? Nichts von Franziska’s Hochzeit? 
+@Kamilla: 
+@Pedrillo:
+Kann denn die Verlobung nicht ohne dein Wissen vollzogen seyn? 
+@Kamilla: 
+@Niklas: 
+@Pedrillo:) 
+@Kamilla: 
+@Pedrillo: (gibt ihr Geld) 
+@Niklas: 
+@Kamilla: (sieht die ganze Scene durch das Geld an) 
+@Pedrillo:
+Aber du mußt doch schon einmal zu viel geplaudert haben, daß dir keiner traut? Oder traust du mir nicht? 
+@Kamilla: 
+@Pedrillo:
+Nur heraus! 
+@Kamilla: 
+@Pedrillo:
+Also sprechen sie wohl recht viel von mir? 
+@Kamilla: 
+@Pedrillo: (laut) Ist Katelli denn reich? 
+@Kamilla: 
+@Pedrillo: 
+@Kamilla: 
+@Pedrillo: Ich sag’s dir aber; plappere nicht! 
+@Kamilla: 
+@Pedrillo: 
+@Kamilla:) 
+##Vierter Auftrit.
+$Pedrillo und Niklas. 
+@Niklas: 
+@Pedrillo: 
+@Niklas: 
+@Pedrillo: 
+@Niklas: 
+@Pedrillo: 
+@Niklas:) 
+##Fünfter Auftrit.
+@Pedrillo:) 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
 $(Zieht die Uhr heraus) Wie es spätet! schon halb zwey! – Noch nichts verlohren! Sie sind noch am Tische – Aber über den bunten Plan! Der alte Montenegro ist noch stämmig genug, einem Stosse zu wehren; und Katelli? Ihm wird’s gewiß nicht an welschem Muthe fehlen. (Klingt – zur Thür hinaus) Jakob! 
  <pb n="49"/>
 #Dritter Aufzug.
 ##Erster Auftrit.
 $Im Hintergrunde Pedrillo und Niklas in Manteln verhüllt. In der Mitte des Theaters ein Tisch.
+<<<<<<< HEAD
 @Pedrillo:
 @Niklas:
+=======
+@Pedrillo: 
+@Niklas:
+ Nicht so laut! Wir dürfen hier nicht viel – (verbirgt sich mit Pedrillo) 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
 ##Zweyter Auftrit.
 $Anton kömmt und setzt ein Paar Stühle um den Tisch. Geht wieder.
 ##Dritter Auftrit.
 $Pedrillo und Niklas.
+<<<<<<< HEAD
 @Niklas:
  <pb n="50"/>
 ##Vierter Auftrit.
@@ -474,17 +831,125 @@ Nein!
 Gehen will ich mit euch, ihr Diener der Bosheit. O, ich kenne eure Tükke! Pedrillo! – witterst du Unrath, Priester? Ich folge <pb n="59"/> dir, gleich folg’ ich; aber meinen Degen behalt’ ich. Von keinem Priester laß’ ich mich entwafnen. 
 $(Wache trit zu, ihm den Degen abzunehmen.) 
 @Priester:
+=======
+@Niklas: (verbergen sich) 
+ <pb n="50"/>
+##Vierter Auftrit.
+$Anton kömmt von der einen Seite mit Stühlen. Ein anderer Bedienter kömmt von der andern Seite; mit Gewehr in der Hand, und trit an den Tisch. 
+@Anton: 
+@Bedienter: 
+@Anton: Ruf sie mir den Augenblik her! Oder fürchten sie, der Teufel werde sie holen, daß sie sich so verkriechen? Gott verzeih mir’s! (Geht ab auf der Seite, wo er hergekommen) 
+@Bedienter: 
+##Fünfter Auftrit.
+$Pedrillo und Niklas. 
+@Pedrillo: 
+@Niklas: – Nach Haus, Herr! 
+@Pedrillo: Willst du mich denn zum Ball machen, womit das Schiksal sein muthwilliges Spiel treiben soll? 
+$(Hinter der Bühne ein Geräusch.) 
+@Niklas: 
+@Pedrillo: 
+@Niklas: 
+@Pedrillo: 
+@Niklas: 
+$(Nach einer kleinen Pause kommen einige Wächter hervor und gehen über’s Theater. Pedrillo und Niklas schleichen sich weg.) 
+ <pb n="52"/>
+##Sechster Auftrit.
+@Montenegro: )
+Lieber, guter Tag, wie willkommen bist du mir! Wie mein Blik so ganz aufgeklärt, und mein wankender Trit so vest wird! Mit Freuden geh’ ich jezt ins Grab, denn Sorgen bleiben nicht hinter mir. 
+##Siebenter Auftrit.
+$Montenegro und Anton, (der aus dem Hintergrunde dazu kömmt.) 
+@Montenegro: 
+@Anton: 
+@Montenegro:
+Und der andere, Anton? 
+@Anton: Können sie aus des Pfaffen Reden nichts argwöhnen? 
+@Montenegro: 
+@Anton: Es komme wer da will, wir haben nichts zu fürchten! 
+@Montenegro: 
+$(Anton ab.) 
+##Achter Auftrit.
+$Montenegro, Katelli und Franziska (in Reisekleidern.) 
+@Montenegro: An euch fehlt’s nun doch nicht? 
+@Franziska: 
+@Montenegro:
+Aber warum seyd ihr schon so ganz in Reisekleidern? 
+@Katelli:
+Wozu sollten wir uns noch putzen, Vater? 
+@Montenegro: Ihr mich verlassen! Kinder, Kinder! 
+@Katelli: 
+@Franziska: Wie würde sich meines Katelli’s Vater nicht freuen, wenn er sie wiedersähe? 
+@Montenegro: 
+@Katelli: 
+@Franziska:
+Lieber Vater! – Geräusch im Hause! 
+@Katelli:
+Ein Priester kömmt in den Garten! – Mit bewafneten Leuten! 
+@Franziska:
+Sie werden doch hier keinen Verbrecher suchen? 
+##Neunter Auftrit.
+$Die vorigen, Priester, Wache und Anton. 
+@Priester:
+Ist hier ein gewisser Katelli? 
+@Franziska:
+Grosser Gott im Himmel! 
+@Katelli: 
+@Priester: 
+@Katelli: 
+@Priester: 
+@Katelli: 
+@Priester: 
+@Franziska:) 
+@Priester: 
+@Katelli:
+ (auffahrend) Meine Franziska sollte von deiner Gnade abhängen, Priester? 
+@Priester: 
+@Katelli: Anton! Hülfe! 
+@Montenegro: 
+@Katelli:) 
+@Anton: 
+@Montenegro: 
+@Katelli:
+ Nein, das will ich nicht; thu’ ich nicht! Der heilig! (faßt ihn vor die Brust) Du heilig? Ein Mörder bist du! 
+@Priester: Wache! 
+@Katelli: 
+@Priester: )
+@Katelli: 
+@Montenegro: 
+@Katelli: 
+@Montenegro: 
+@Katelli: Bald, bald werd’ ich sie wiedersehen – Anton! 
+@Anton: 
+@Katelli: 
+@Anton: – 
+@Katelli:
+Nein! 
+@Anton:) 
+@Priester: 
+@Katelli: 
+$(Wache trit zu, ihm den Degen abzunehmen.) 
+@Priester: Aber ich beschwöre sie bey dem Zorn des heiligen Gerichts, daß sie gelassen gehen! 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
 $(Katelli, Priester und Wache ab.) 
 ##Zehnter Auftrit.
 $Montenegro. Franziska. 
 @Franziska:
+<<<<<<< HEAD
 @Montenegro:
 @Franziska:
 @Montenegro:
+=======
+ (nach einer kleinen Pause mit gebrochner Stimme) Katelli! – Wo bist du? – mein Katelli! 
+@Montenegro: 
+@Franziska:
+ (hitzig) Mein Katelli! (fährt auf) Montenegro versucht sie zu halten) Nein! ich will ihn aufsuchen, ihn losmachen! )
+@Montenegro:
+ (steht auf) Hülfe, Hülfe! Meine beste Tochter, fasse dich! 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
  <pb n="60"/>
 ##Eilfter Auftrit.
 $Die vorigen, Priester und Wache, Franziska entgegen kommend. 
 @Franziska:
+<<<<<<< HEAD
 @Priester:
 @Montenegro:
 ##Zwölfter Auftrit.
@@ -499,10 +964,26 @@ Wo ist Franziska? Sie muß mit mir fort eilen. Ich will mit ihr hinfliehen, wo u
 @Katelli.:
  (tobend) Ich will hin, will sie befreyn. Ich will meinen Kopf für den ihrigen in den Rachen der Menschenfresser stekken. 
 @Montenegro:
+=======
+ (zum Priester) Ha, Räuber! von dir fordre ich ihn wieder! Wo ist mein Katelli? 
+@Priester: 
+@Montenegro:) 
+##Zwölfter Auftrit.
+@Montenegro:) 
+Umsonst! O, daß meine Füße zu schwach sind, ihnen nachzueilen! – Katelli, Katelli! du bist ein Mörder! Mein und meiner Tochter Mörder! Unbesonnener Jüngling, warum folgst du deines Vaters Lehren nicht und schmiedest dir selbst das Eisen, das deinen Kopf abschlagen wird? Und der Unmensch von Priester! Loderte denn kein Fünkchen Midleids in ihm? O, habt ihr noch nicht an ihr <pb n="61"/> genug, nehmt zu eurer Sätigung auch mich! Entreißt meinen Händen die Krükke, schlagt meine graue Hirnschädel damit ein, und trinkt mein Gehirn, ihr Blutigel! 
+##Dreyzehnter Auftrit.
+$Montenegro und Katelli, der plötzlich von hinten auf ihn zuspringt. 
+@Montenegro: 
+@Katelli: 
+@Montenegro:) 
+@Katelli: 
+@Montenegro:) 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
  <pb n="62"/>
 ##Vierzehnter Auftrit.
 $Montenegro und Hieronimus. 
 @Hieronimus:
+<<<<<<< HEAD
 @Montenegro:
 @Hieronimus:
 @Montenegro:
@@ -522,6 +1003,29 @@ $Montenegro und Hieronimus.
 @Montenegro:
 @Hieronimus:
 @Montenegro:
+=======
+Mein Segen mit ihnen! 
+@Montenegro: O, über die dumme verstokte Blindheit des Volks! Mit ofnen Augen sieht es den Tyrannen im Pfaffen, und doch hält es ihre Bosheit für That der Heiligen! kreuzigt sich, wenn sie vorübergehen! 
+@Hieronimus:
+Gott, was ist ihnen? 
+@Montenegro: 
+@Hieronimus: 
+@Montenegro: 
+@Hieronimus: Kommen sie! 
+@Montenegro: 
+@Hieronimus: 
+@Montenegro: 
+@Hieronimus: 
+@Montenegro: 
+@Hieronimus: 
+@Montenegro: 
+@Hieronimus: 
+@Montenegro: Aber Frömmigkeit und Redlichkeit <pb n="65"/> haben keinen Werth mehr! Sie sind abgesezte Münze! Heuchelnde Schmeichler sind die Männer des Glüks! 
+@Hieronimus: 
+@Montenegro: 
+@Hieronimus: (Hilft ihn vom Stuhl auf und führt ihn ab) Ist ihnen dieser Name so kleindeutend? 
+@Montenegro: 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
 $(beyde ab.) 
  <pb n="66"/>
 #Vierter Aufzug.
@@ -531,6 +1035,7 @@ $Katelli allein, kurz angezogen, in einen Mantel verhüllt und einen blossen Deg
 $(Nach dem Gartenfenster zu) Bald wird der Mond aufgehen, und ich noch ohne dem Mädchen? Muß sie noch leiden lassen, ohne dem Strom meiner Rache freyen Lauf geben zu können? Und Pedrillo? – Gedulde dich, liebe Seele! Er soll büssen! Heute noch! – Wie alles so still ist; alles sich zur Ruhe rüstet! Vom Fürsten an, bis zu dem Wurm, der an seinen Thron nagt; nur ich nicht! Holder Schlaf, du warst oft der Tröster meines schwärmenden Geistes; aber jezt ist deine Hülfe zu schwach. Er hat seine Schranken gesprengt; ist das schäumende wilde Roß, das jedem zu muthig ist. – Wie unter Ungeheur, die auf mich einkrallen, steh’ ich hier! Erbarmer genug um mich her, aber kein Retter! – Was ist doch der Mensch für ein schwaches, furchtsames Ding! Schüchtern und unentschlossen steh’ ich da, und weiß nicht welchen Weg ich wandeln soll. Auf der einen Seite kettet heisse Liebe und tolle <pb n="67"/> Wuth, zu allem bereit, was menschliche Natur noch übersteiget, meinen Fuß; und auf der andern Seite ruft mir der Hang, der allen Menschen angebohren ist, der Hang zum Leben zu: Entfliehe, Katelli! Klimme über Felsen hinweg! – Was soll ich nun thun? Hier harren und mit dem Schiksal hadern, ist mir Trost auf keiner Seite. Soll ich meine Franziska verlassen? Oder geduldig zusehen, wenn man sie in die Wolfsgrube hineinwirft? Nein! Ich will für sie hineinspringen, und mit den tobenden Bestien kämpfen. Oder ich will ihr selbst den Dolch ins Herz rennen, wenn ich sie nicht retten kann, und dann von ihrer welkenden Wange, von ihren erblaßten Lippen den Tod auch für mich abküssen! – Aber warum weil’ ich deshalb hier, wo die Hippe des Todes schon um meinen Kopf herumschwirrt? Er hat mich hereinschlüpfen sehen, und sinnt jezt schon vor der Thür des Schlosses den rauhsten Weg zum Tode für mich aus. 
 ##Zweyter Auftrit.
 $Katelli und Anton. 
+<<<<<<< HEAD
 @Anton:
 @Katelli:
 <pb n="68"/> Wieder ein Schlag, derb, wie die ersten! Er ist tod? Tod, Franziska’s Vater, mein Vater? 
@@ -593,20 +1098,82 @@ $(Es wird im Hintergrunde der Bühne hell.)
 @Pedrillo:
 @Katelli:
 <pb n="74"/> Sie sind, wie die straffe Eiche im Walde. Bey heitern Wetter steht sie da, und stolziert. Kömmt ein Sturm, so zittert sie vom Haupt, bis zum Fuß. Ihr Zittern macht die Wurzel los und sie fällt. Sorgen sie also für die Wurzel, mein Herr. 
+=======
+@Anton: 
+@Katelli:
+<pb n="68"/> Wieder ein Schlag, derb, wie die ersten! Er ist tod? Tod, Franziska’s Vater, mein Vater? 
+@Anton:
+Franziska, Katelli, Rettung! 
+@Katelli:
+Bey jedem Tröpfchen meines Bluts schwör’ ich dir, daß ich dich retten will! 
+@Anton: 
+@Katelli: 
+@Anton:
+Und er sollte nichts argwöhnen, wenn der Bube nicht zurük kommt? 
+@Katelli: 
+@Anton: 
+@Katelli: 
+@Anton: 
+@Katelli: 
+@Anton: 
+@Katelli: (horcht auf ein Geräusch hinter der Bühne) Geh’, Anton, hinten hinaus und halt dich rüstig! 
+@Anton:) 
+##Dritter Auftrit.
+@Katelli:) 
+Aber, Verstellung, wo nehm’ ich dich her? Du und deine Freundin, die Lüge, ihr habt noch nie in meine Seele gewohnet. 
+##Vierter Auftrit.
+$Katelli. (verhüllt sich etwas in Mantel), Pedrillo (kurz angezogen, den Degen unter den Arm haltend und den Huth ins Gesicht gedrükt.) 
+@Pedrillo: (Nach einer Pause zu Katelli) Bist du ein Geist, oder wer bist du? 
+@Katelli: 
+@Pedrillo:
+Hast du Verrichtung hier? 
+@Katelli: 
+@Pedrillo: Wie du heißt? Und keine Minute darfst du länger zögern? 
+@Katelli: 
+@Pedrillo: 
+@Katelli: 
+@Pedrillo:
+Kennt dich Niklas? 
+@Katelli: 
+@Pedrillo: 
+@Katelli: 
+@Pedrillo: 
+@Katelli: 
+@Pedrillo: 
+@Katelli: 
+@Pedrillo: 
+@Katelli: 
+$(Es wird im Hintergrunde der Bühne hell.) 
+@Pedrillo:
+Was ist da? Wer kömmt? 
+@Katelli: (Geht näher) Eine Leiche! 
+@Pedrillo: (Wird immer furchtsamer und geht auf und nieder) Wenn mir die Rechnung zu früh durchstrichen würde! 
+@Katelli: 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
 ##Vierter Auftrit.
 $Die Vorigen. 
 $(Vier Vermummte tragen langsam Schrit vor Schrit einen Sarg in Tüchern. In der andern Hand Fakkeln. Der Sarg ist schwarz und am Dekkel brennt Pedrillo’s Name.) 
 @Pedrillo:
+<<<<<<< HEAD
 @Katelli.:
  Wessen Leiche, Männer? (Sarg nieder. Ein Vermummter trit vor und zeigt auf den Namen!) 
 @Pedrillo:
 @Der Vermummte:
 @Pedrillo:
 @Katelli.:
+=======
+ Mein Name? Beym Teufel, wenn die Ahndung träfe; Es fehlt nichts, als daß ich mir selbst aus Verzweiflung den Degen durch den Leib züge! (läuft verwirrt herum) 
+@Katelli: Ein Vermummter trit vor und zeigt auf den Namen!) 
+@Pedrillo:) 
+@Der Vermummte: Wehe, wehe dir! 
+@Pedrillo: 
+@Katelli:
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
  (bey Seite) Wen doch Gewissen sticht! 
 $(Die Leiche ab mit dumpfen murmelnden Gesange.) 
 ##Fünfter Auftrit.
 $Katelli und Pedrillo. 
+<<<<<<< HEAD
 @Katelli:
 Eine böse Ahndung. 
 @Pedrillo:
@@ -637,11 +1204,38 @@ Nichts mehr.
 ##Sechster Auftrit.
 @Katelli:
 (allein.) 
+=======
+@Katelli: 
+@Pedrillo: Oder willst du mir auch abtrünnig werden, da ich mich fast selbst schon verlassen habe? du furchtsam? 
+@Katelli:
+Einer geht vor ihm und zwey folgen ihm nach! 
+@Pedrillo:
+Du zählst dich doch nicht unter sie? 
+@Katelli:
+Das Räzel wär’ ihnen sonst zu groß! 
+@Pedrillo: – Du hast wohl alles wieder drüber vergessen? 
+@Katelli:
+Der Priester und er – wie heißt er doch? 
+@Pedrillo: 
+@Katelli: Sie brauchen mich doch? 
+@Pedrillo: 
+@Katelli: 
+@Pedrillo: 
+@Katelli: 
+@Pedrillo: 
+@Katelli: 
+@Pedrillo: 
+@Katelli: 
+@Pedrillo:) 
+##Sechster Auftrit.
+@Katelli:) 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
 $(Nach einer langen Pause.) 
 $Gottlob, daß ich den Kampf gekämpfet habe. Es war ein arger Kampf. Aber, – (langsam) Zweye folgen ihm! – Gott, bald tod! denn lange frist’ ich ihm sein Leben nicht! Ich ihm folgen? Auch deshalb schon’ ich dich nicht, wenn du mir nicht meine Franziska gibst. – Noch gehen die Propheten des <pb n="78"/> Himmels vor mir her! Mein Auge sieht sie noch immer. – Ich soll sein Richter seyn? das Amt nehm’ ich willig, nehm’ ich mit Freuden. Um alle Schätze der Welt schlüg’ ich’s nicht aus. Aber sterben! Wie das Vorherwissen so schreklich ist! Doch, Mensch, was ist dein Streben wider Schiksal? Wir können nichts thun, als uns die Wege die es uns zeigt, leicht machen, und das will ich thun. Ich will meine Seele rüsten. <pb n="79"/>
 #Fünfter Aufzug.
 $Ein Gefängniß, welches von einer Lampe, die im Hintergrunde desselben hängt, schwach erleuchtet wird. Auf der Seite, der Thür gegenüber, ein Bette. 
 ##Erster Auftrit.
+<<<<<<< HEAD
 @Franziska:
 $(Nach einer langen Pause.) Ha! mein Katelli! Ich seh’ ihn streiten! Streit, braver Junge, streit, wie der Mann unter Tausenden! – Bet zu Gott! Er übermannt dich! Fasse Muth! Engel schüzen dich! Sie brechen dir schon den Lorbeer! – – Wirf ihn nieder und reiß ihm sein Bubenherz heraus! Katelli! Katelli! dein Arm sinkt! Sieg, Sieg dir, Katelli! Sieh, wie er mit den Händen den Erdboden zerreißt! mit den Zähnen Steine zerknirscht! – Eh er sich ermannt, Katelli! – Horch! jezt stößt er seinen lezten Fluch aus! – Wehe dir, Katelli, daß du ihn nicht länger gepeinigt hast! Schon tod! tod? daß er nicht noch einmal sterben kann! (Sie fällt entkräftet aufs Bette, und richtet sich nach einiger Zeit wieder auf.) Sey mir willkommen, mein Bester! Du hast rittersam <pb n="80"/> gestritten. Eil in meine Arm; sollst dich erholen! – Wie du so keichst! (als wenn sie ihn küßt) Wie dieser Kuß so süß ist, dieser heisse Kuß der Liebe! – Heute noch ist unsre Hochzeit. Weist du’s Lieber? Und kein Priester soll uns dazwischen kommen. (Nach einer langen Pause.) Aber sieh! Ein neuer Kampf! Legionen Teufel! Sie reissen sich um seine Seele! Sieh! Schulknaben, sich um eine wurmstichige Haselnuß raufend! – Sie ziehen mit ihm fort! – Teufel hört! Franziska ruft euch! Laßt die andern Verbrecher alle, eine Stunde ruhen! Täglich eine Stunde! und dann über ihn allein! Es ist Pedrillo! Jezt mögt’ ich wünschen, ein Teufel zu seyn! Aber Mädchenarm ist zur Qual seines Gebeins zu schwach! (sezt sich matt nieder.) 
 ##Zweyter Auftrit.
@@ -690,10 +1284,51 @@ Du überschreitest Menschenpflicht. Dein Leib ist nicht dein Eigenthum. Dies Kle
 @Franziska:
 @Katelli:
 Dein Zaudern hat alles verdorben. Setze dich, bleib bey deiner Fassung und nenne mich nicht. 
+=======
+@Franziska:)) 
+$(Nach einer langen Pause.) Ha! mein Katelli! Ich seh’ ihn streiten! Streit, braver Junge, streit, wie der Mann unter Tausenden! – Bet zu Gott! Er übermannt dich! Fasse Muth! Engel schüzen dich! Sie brechen dir schon den Lorbeer! – – Wirf ihn nieder und reiß ihm sein Bubenherz heraus! Katelli! Katelli! dein Arm sinkt! Sieg, Sieg dir, Katelli! Sieh, wie er mit den Händen den Erdboden zerreißt! mit den Zähnen Steine zerknirscht! – Eh er sich ermannt, Katelli! – Horch! jezt stößt er seinen lezten Fluch aus! – Wehe dir, Katelli, daß du ihn nicht länger gepeinigt hast! Schon tod! tod? daß er nicht noch einmal sterben kann! (Sie fällt entkräftet aufs Bette, und richtet sich nach einiger Zeit wieder auf.) Sey mir willkommen, mein Bester! Du hast rittersam <pb n="80"/> gestritten. Eil in meine Arm; sollst dich erholen! – Wie du so keichst! (als wenn sie ihn küßt) Wie dieser Kuß so süß ist, dieser heisse Kuß der Liebe! – Heute noch ist unsre Hochzeit. Weist du’s Lieber? Und kein Priester soll uns dazwischen kommen. (Nach einer langen Pause.) Aber sieh! Ein neuer Kampf! Legionen Teufel! Sie reissen sich um seine Seele! Sieh! Schulknaben, sich um eine wurmstichige Haselnuß raufend! – Sie ziehen mit ihm fort! – Teufel hört! Franziska ruft euch! Laßt die andern Verbrecher alle, eine Stunde ruhen! Täglich eine Stunde! und dann über ihn allein! Es ist Pedrillo! Jezt mögt’ ich wünschen, ein Teufel zu seyn! Aber Mädchenarm ist zur Qual seines Gebeins zu schwach! (sezt sich matt nieder.) 
+##Zweyter Auftrit.
+$Franziska, Katelli in Priesterkleidern und ein Gefangenwärter. 
+@Gefangenwärter: 
+@Katelli: 
+@Gefangenwärter: 
+@Katelli:) 
+##Dritter Auftrit.
+$Franziska und Katelli. 
+@Franziska: Katelli! Katelli, zum Kampf! 
+@Katelli:) Bin ich denn gemacht, um zur Probe zu dienen, wieviel Lasten Misgeschiks ein Menschenrükken tragen kann? – Franziska! – 
+@Franziska: 
+@Katelli:
+<pb n="82"/> Ich bin dein 
+@Franziska: 
+@Katelli: 
+@Franziska:) 
+@Katelli: Aber – soll ich ihr die schrekliche Ahndung entdekken, damit sie sich mit mir rüste? Ja, schreklich; aber doch gut! 
+@Franziska: Was wär’s mir auch besser, ob ich bin, oder nicht? Wenn ich nur erst meinen Katelli auf den Stufen des Himmels erwarten könnte! Armer, du leidest viel um mich! 
+@Katelli:
+Und du siehst mich nicht, Franziska? 
+@Franziska:
+Gott! Ein Priester und die Sprache Katelli’s? 
+@Katelli: 
+@Franziska: Heißt es nicht willig ins Grab hineinspringen, wenn man über diese Schwelle trit? 
+@Katelli: 
+@Franziska: 
+@Katelli: 
+@Franziska: 
+@Katelli: Und sollt’ ich dir eine Bitte erfüllen, da du mit die meinige abgeschlagen hast? Franziska, folge mir! 
+@Franziska: 
+@Katelli: 
+@Franziska: 
+@Katelli: 
+@Franziska:
+Katelli, was ist dir? 
+@Katelli: 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
  <pb n="87"/>
 ##Vierter Auftrit.
 $Die Vorigen und Pedrillo. 
 $(Katelli zieht sich in den dunkelsten Winkel des Gefängnisses bey Franziska’s Bette zurük. 
+<<<<<<< HEAD
 @Franziska:
 @Pedrillo:
 @Katelli:
@@ -733,3 +1368,39 @@ $Die Vorigen und Pedrillo (mit entblößten Degen.)
 @Pedrillo:
 @Katelli.:
  (faßt ihm mit der einen Hand den Degen und mit der andern vor die Brust) Sieh! den ganzen Knoten zerschneid’ ich dir. Der Vermummte, im Schlosse Montenegro’s mit dir sprechend, war der Priester, der jezt vor dir steht – und heißt Und wenn die Tollheit dein Gehör verstopft hat, so fühl’s! (Er holt geschwind ein Stilet hervor und ersticht ihn. Pedrillo will mit dem Degen auf ihn zu, wankt aber. stößt ihn noch einmal und er fällt.) Ich will die Hölle nicht auf mich erboßen, daß ich dich hier schon zu Martern gewöhne! – Das ist das Ziel, wonach du so freventlich gestrebt hast, du Stöhrer häuslicher Ruhe, du Stöhrer heiliger Liebe! Da liegst du nun, beflekt mit Vatermord, Kindermord und allen Lastern, die menschliches Gehirn nur aushekken kann! – Ich folge dir; aber mit geflochtner Geissel folg’ ich dir! Bald, bald! – Du bebst den Weg hinab, umringt vom Rauchgewölk racheschreyendes Bluts; begleitet vom Gebet des Vaters um Strafe für das Blut seines Kindes; begleitet vom Gewimmer der Frommen und Bedrängten im Unglük, und diesem <pb n="93"/> allen schleppt die Strafe ihr graues Haupt auf langsamen Krükken nach. Dies sind deine Gefährten. – Ich gehe den Weg froh, meine Franziska im Arm! Edle That und Unschuld gehen vor uns einher, und der Seraph lacht unsers Kommens. – (den Dolch in erhabner Hand. Zu Franziska) Und nun zum Gericht Franziska! Rettung ist hier tod! 
+=======
+@Franziska: 
+@Pedrillo: – – Närrin, antwortest du mir nicht? Bosheit, oder Verstellung? 
+@Katelli: 
+@Pedrillo: 
+@Franziska:) 
+@Pedrillo: 
+@Franziska: Als wenn meine Todesstunde alles Glük, das ich hier auf Erden genießen soll, in sich faßt! 
+@Katelli: 
+@Pedrillo: 
+@Franziska: Hülfe! Eh er mich ermordet! 
+@Pedrillo:
+Er ist hier gewesen? Katelli hier? 
+@Katelli: 
+@Pedrillo: Aehnlichkeit in der Sprache! (laut) Sprich! wo ist Katelli? 
+@Katelli:
+Ihre Augen auf; und sie werden ihn finden! 
+@Pedrillo:) 
+##Fünfter Auftrit.
+$Franziska und Katelli. 
+@Franziska:
+Mein Katelli! Mein Katelli! 
+@Katelli: 
+@Franziska:)) 
+@Katelli:
+Franziska! 
+@Franziska: 
+@Katelli: 
+@Franziska:) 
+##Sechster Auftrit.
+$Die Vorigen und Pedrillo (mit entblößten Degen.) 
+@Pedrillo: Wo ist Katelli? Mein Arm will Blut; seins oder deins! Mit einem Wort, ohne Stammlen! 
+@Katelli: 
+@Pedrillo: )
+@Katelli: Zu Franziska) Und nun zum Gericht Franziska! Rettung ist hier tod! 
+>>>>>>> 6bb0bca (wks, wt speaker normalisation)
