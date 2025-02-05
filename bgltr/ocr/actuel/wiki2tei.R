@@ -105,7 +105,7 @@ assign.sp<-function(x,r){
     # if simple <p>
     if(length(b)==0&length(i)==0){
 #      p.tx<-xml_text(sub)
-      sp.ezd<-gsub("\n"," ",p.tx)
+      #sp.ezd<-gsub("\n"," ",p.tx)
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
       print("R1")
       return(sp.ezd) 
@@ -137,7 +137,7 @@ assign.sp<-function(x,r){
       print(c(l.tx,l.bi))
       if(l.tx==l.bi){
         pi.tx<-paste0(pi.tx,collapse = " ")
-       ezd<-paste0("@#R2",pb.tx,":\n","$",pi.tx,"\n")
+       ezd<-paste0("@RR2",pb.tx,":\t","$",pi.tx,"\n")
        l.tx<-100
        l.bi<-200
        print("R2")
@@ -159,7 +159,7 @@ assign.sp<-function(x,r){
       if(length(i)>0&dif.bi==0){
 #        pi.tx<-paste0("(",pi.tx,")")
  #       sp.ezd<-paste0("@",pb.tx,":\t#(",pi.tx,")")
-        sp.ezd<-paste0("@#R3-",r,"-",pb.tx,":\t#R3",p.tx)
+        sp.ezd<-paste0("@RR3-",r,"-",pb.tx,":\tR3",p.tx)
        # sp.ezd<-gsub("\n"," ",sp.ezd)
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
       print("R3")
@@ -173,7 +173,7 @@ assign.sp<-function(x,r){
         write.table(log.i,log.ns,append = T,col.names = F,quote = F)
        # sp.tx
 #        sp.ezd<-paste0("@#R4",pb.tx,":\n(",pi.tx,")",p.tx)
-        sp.ezd<-paste0("@#R4",pb.tx,":",p.tx)
+        sp.ezd<-paste0("@RR4",pb.tx,":\t",p.tx)
         #sp.ezd<-gsub("\n"," ",sp.ezd)
         sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
         print("R4")
@@ -204,7 +204,7 @@ assign.sp<-function(x,r){
   # r
     if(xml_name(sub)=="i"){
     p.tx<-xml_text(sub)
-    sp.ezd<-paste0("$#R5",p.tx)
+    sp.ezd<-paste0("$RR5",p.tx)
     sp.ezd<-gsub("\n"," ",sp.ezd)
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
     print("R5")
@@ -217,7 +217,7 @@ assign.sp<-function(x,r){
     b.tx<-xml_text(b)
     p.tx<-gsub(b.tx[1],"",p.tx)
     b.tx<-gsub("\\.",":",b.tx)
-    sp.ezd<-paste0("@#R6",b.tx,p.tx)
+    sp.ezd<-paste0("@RR6",b.tx,p.tx)
     sp.ezd<-gsub("\n"," ",sp.ezd)
     sp.ezd<-gsub(":[ ]{1,2}\t",":\t",sp.ezd)
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
@@ -246,14 +246,14 @@ assign.sp<-function(x,r){
       l.tl<-length(l.tix)
       if(print(l.tb+l.tl==l.tx)){
         l.tix<-paste0(l.tix,collapse = " ")
-        sp.ezd<-paste0("@#R8",b.tx,":\n$",l.tix,"\n")
+        sp.ezd<-paste0("@RR8",b.tx,":\n$",l.tix,"\n")
 #      sp.ezd<-gsub("\n"," ",sp.ezd)
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
       print("R8")
       return(sp.ezd)
       }
     }
-    sp.ezd<-paste0("$#R7",p.tx)
+    sp.ezd<-paste0("$RR7",p.tx)
     sp.ezd<-gsub("\n"," ",sp.ezd)
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
     print("R7")
@@ -304,9 +304,9 @@ for (k in 1:3){
 ezd.lines[1:120]
 ### wks.
 # paste single line pagebreaks to preceding line
-m1<-grepl("^<pb",ezd.lines)
+m1<-grepl("^ ?<pb",ezd.lines)
 sum(m1)
-m2<-grep("^<pb",ezd.lines)
+m2<-grep("^ ?<pb",ezd.lines)
 m3<-m2-1
 ezd.lines[m3]<-paste0(ezd.lines[m3],ezd.lines[m2])
 ezd.lines<-ezd.lines[!m1]
@@ -352,9 +352,10 @@ save.lines<-function(ezd.lines){
   writeLines(unlist(ezd.lines),ezd_markup_text)
   }
 ### personal:
-m<-grep("III",ezd.nl.sp)
+head(ezd.nl.sp,10)
+m<-grep("\\[I\\]|\\[II\\]|\\[III\\]|\\[IV\\]",ezd.nl.sp)
 # split personal list
-p.head<-strsplit(ezd.nl.sp[m[1]+1],"\\.")
+p.head<-strsplit(ezd.nl.sp[m[3]+1],"\\.")
 p.head
 p.head<-gsub("^ ","",unlist(p.head))
 p.head<-p.head[p.head!=""]
@@ -362,8 +363,21 @@ p.head<-strsplit(p.head,",")
 p.head<-abind(lapply(p.head,function(x){x[1:4]}),along = 0)
 p.person<-p.head[,1]
 p.head[is.na(p.head)]<-""
+p.head
+ezd.nl.l<-1:length(ezd.nl.sp)
+# front replace
+m2<-grep("#",ezd.nl.sp[m[1]:m[3]])
+ezd.nl.sp[m2]<-gsub("#","",ezd.nl.sp[m2])
+front<-paste0(ezd.nl.sp[m2],collapse = " ")
+front<-unlist(strsplit(front,"\\."))
+front.desc<-c("@title ","@subtitle ","")
+front<-paste0(front.desc,front)
+front
+#m
+ezd.nl.out<-ezd.nl.l[c(ezd.nl.l[m2[4]+1]:ezd.nl.l[length(ezd.nl.l)])]
+ezd.nl.sp.f<-c(front,ezd.nl.sp[ezd.nl.out])
 ### save ezd before fail
-save.lines(ezd.lines)
+save.lines(ezd.nl.sp.f)
 #####################
 write.table("--- pdesc --- ",log.ns,append = T,col.names = F,quote = F)
 log.x(p.head)
@@ -372,6 +386,7 @@ log.x(x)
   paste0(x,collapse = ",")
   
 }
+p.head
 p.desc<-apply(p.head[,2:length(p.head[1,])],c(1),FUN =p.desc.re)
 p.desc<-gsub("([,]{1,3}$)","",p.desc)
 p.desc<-gsub("^ ","",p.desc)
@@ -382,7 +397,7 @@ p.desc
 #m.out<-c(m[1],(m[2]+1):length(ezd.nl.sp))
 #ezd.nl.sp.head<-ezd.nl.sp[m.out]
 #ezd.nl.sp.head<-append(ezd.nl.sp.head,p.desc.m,m[1])
-save.lines(ezd.lines)
+#save.lines(ezd.lines)
 ##########################################
 # write ezdrama marked up text
 # 15063.out
@@ -442,6 +457,7 @@ xml_set_attr(xml,"xml:id",xmlid)
 xml_set_attr(xml,"xml:lang",xmllang)
 #########################################
 write.final.xml<-function(xml,xml.final){
+  write_xml(xml,xml.final)
   write_xml(xml,xml.final)
 }
 xml.final<-paste0("~/Documents/GitHub/ETCRA5_dd23/tei/","steltzer_montenegro.final.xml")
