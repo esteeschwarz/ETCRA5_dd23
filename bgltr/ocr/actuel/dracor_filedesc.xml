@@ -31,15 +31,24 @@
           <name>Münchner Digitalisierungszentrum</name>
           <idno type="URL">https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10118086-3</idno>
           <availability status="free">
-            <p>In the public domain.</p>
+          <p>In the public domain.</p>
           </availability>
-          <bibl type="originalSource">
+        </bibl>
+        <bibl type="digitalSource">
+          <name>Wikisource</name>
+          <idno type="URL">https://de.wikisource.org/wiki/Franziska_Montenegro</idno>
+          <availability status="free">
+          <p>In the public domain.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
             <author>Christian Julius Ludwig Steltzer</author>
             <title>Franziska Montenegro</title>
             <pubPlace>Magdeburg und Leipzig</pubPlace>
             <publisher>Johann Adam Creutz</publisher>
-            <date>1781</date><biblScope unit="page" from="2" to="95"></biblScope>
-          </bibl>
+            <date>1781</date>
+            <biblScope unit="page" from="1" to="95"></biblScope>
         </bibl>
+        
       </sourceDesc>
     </fileDesc>
