@@ -172,13 +172,10 @@ assign.sp<-function(x,r){
         log.i<-matrix(logx,ncol = length(logx),nrow = 1)
         write.table(log.i,log.ns,append = T,col.names = F,quote = F)
        # sp.tx
-<<<<<<< HEAD
 #        sp.ezd<-paste0("@#R4",pb.tx,":\n(",pi.tx,")",p.tx)
         sp.ezd<-paste0("@",pb.tx,":\t",p.tx)
-=======
   #      sp.ezd<-paste0("@#R4",pb.tx,":\n(",pi.tx,")",p.tx)
       sp.ezd<-paste0("@",pb.tx,":\t",p.tx)
->>>>>>> 6bb0bca (wks, wt speaker normalisation)
         #sp.ezd<-gsub("\n"," ",sp.ezd)
         sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
         print("R4")
