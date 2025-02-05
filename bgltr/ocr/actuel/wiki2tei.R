@@ -137,7 +137,7 @@ assign.sp<-function(x,r){
       print(c(l.tx,l.bi))
       if(l.tx==l.bi){
         pi.tx<-paste0(pi.tx,collapse = " ")
-       ezd<-paste0("@RR2",pb.tx,":\t","(",pi.tx,")\n")
+       ezd<-paste0("@",pb.tx,":\t","(",pi.tx,")\n")
        l.tx<-100
        l.bi<-200
        print("R2")
@@ -159,7 +159,7 @@ assign.sp<-function(x,r){
       if(length(i)>0&dif.bi==0){
 #        pi.tx<-paste0("(",pi.tx,")")
  #       sp.ezd<-paste0("@",pb.tx,":\t#(",pi.tx,")")
-        sp.ezd<-paste0("@RR3-",r,"-",pb.tx,":\tR3",p.tx)
+        sp.ezd<-paste0("@",pb.tx,":\t",p.tx)
        # sp.ezd<-gsub("\n"," ",sp.ezd)
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
       print("R3")
@@ -173,7 +173,7 @@ assign.sp<-function(x,r){
         write.table(log.i,log.ns,append = T,col.names = F,quote = F)
        # sp.tx
 #        sp.ezd<-paste0("@#R4",pb.tx,":\n(",pi.tx,")",p.tx)
-        sp.ezd<-paste0("@RR4",pb.tx,":\t",p.tx)
+        sp.ezd<-paste0("@",pb.tx,":\t",p.tx)
         #sp.ezd<-gsub("\n"," ",sp.ezd)
         sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
         print("R4")
@@ -204,7 +204,7 @@ assign.sp<-function(x,r){
   # r
     if(xml_name(sub)=="i"){
     p.tx<-xml_text(sub)
-    sp.ezd<-paste0("$RR5",p.tx)
+    sp.ezd<-paste0("$",p.tx)
     sp.ezd<-gsub("\n"," ",sp.ezd)
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
     print("R5")
@@ -217,7 +217,7 @@ assign.sp<-function(x,r){
     b.tx<-xml_text(b)
     p.tx<-gsub(b.tx[1],"",p.tx)
     b.tx<-gsub("\\.",":",b.tx)
-    sp.ezd<-paste0("@RR6",b.tx,p.tx)
+    sp.ezd<-paste0("@",b.tx,p.tx)
     sp.ezd<-gsub("\n"," ",sp.ezd)
     sp.ezd<-gsub(":[ ]{1,2}\t",":\t",sp.ezd)
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
@@ -246,14 +246,14 @@ assign.sp<-function(x,r){
       l.tl<-length(l.tix)
       if(print(l.tb+l.tl==l.tx)){
         l.tix<-paste0(l.tix,collapse = " ")
-        sp.ezd<-paste0("@RR8",b.tx,":\n(",l.tix,")")
+        sp.ezd<-paste0("@",b.tx,":\n(",l.tix,")")
 #      sp.ezd<-gsub("\n"," ",sp.ezd)
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
       print("R8")
       return(sp.ezd)
       }
     }
-    sp.ezd<-paste0("$RR7",p.tx)
+    sp.ezd<-paste0("$",p.tx)
     sp.ezd<-gsub("\n"," ",sp.ezd)
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
     print("R7")

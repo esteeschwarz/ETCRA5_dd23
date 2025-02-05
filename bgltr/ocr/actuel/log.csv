@@ -211,7 +211,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 1
-1 list(node = <pointer: 0x7fc9ec9b8780>, doc = <pointer: 0x7fc9ec947870>) <i> (zu Montenegro.)
+1 list(node = <pointer: 0x7fc9eccf8a70>, doc = <pointer: 0x7fc9c5206620>) <i> (zu Montenegro.)
 1 mkrl,letx
 2 20
 3 0
@@ -259,7 +259,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9ec9ba600>, doc = <pointer: 0x7fc9ec947870>) <i> (Anton geht.)
+1 list(node = <pointer: 0x7fc9ecce59a0>, doc = <pointer: 0x7fc9c5206620>) <i> (Anton geht.)
 1 mkrl,letx
 2 0
 3 0
@@ -431,7 +431,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 3
-1 list(node = <pointer: 0x7fc9ec9beec0>, doc = <pointer: 0x7fc9ec947870>) <i> (nach einer kleinen Pause)
+1 list(node = <pointer: 0x7fc9eccef450>, doc = <pointer: 0x7fc9c5206620>) <i> (nach einer kleinen Pause)
 1 mkrl,letx
 2 14
 3 0
@@ -606,7 +606,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9ec9ca670>, doc = <pointer: 0x7fc9ec947870>) <i> (etwas hitzig)
+1 list(node = <pointer: 0x7fc9a33fe8d0>, doc = <pointer: 0x7fc9c5206620>) <i> (etwas hitzig)
 1 mkrl,letx
 2 18
 3 0
@@ -695,7 +695,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 2
-1 list(node = <pointer: 0x7fc9ec9cc790>, doc = <pointer: 0x7fc9ec947870>) <i> (nach einer Pause)
+1 list(node = <pointer: 0x7fc9a33b2950>, doc = <pointer: 0x7fc9c5206620>) <i> (nach einer Pause)
 1 mkrl,letx
 2 28
 3 0
@@ -835,7 +835,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 5
-1 list(node = <pointer: 0x7fc9ec9d06c0>, doc = <pointer: 0x7fc9ec947870>) <i> (zerreißt das Papier und wirft’s fort)
+1 list(node = <pointer: 0x7fc9a330e4c0>, doc = <pointer: 0x7fc9c5206620>) <i> (zerreißt das Papier und wirft’s fort)
 1 mkrl,letx
 2 (
 3 )
@@ -856,7 +856,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 1
-1 list(node = <pointer: 0x7fc9ec9d0b00>, doc = <pointer: 0x7fc9ec947870>) <i> (geht ab.)
+1 list(node = <pointer: 0x7fc9a330e900>, doc = <pointer: 0x7fc9c5206620>) <i> (geht ab.)
 1 mkrl,letx
 2 0
 3 0
@@ -904,7 +904,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9ec9d18f0>, doc = <pointer: 0x7fc9ec947870>) <i> (vor sich)
+1 list(node = <pointer: 0x7fc9a33ca4c0>, doc = <pointer: 0x7fc9c5206620>) <i> (vor sich)
 1 mkrl,letx
 2 (
 3 )
@@ -925,7 +925,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 5
-1 list(node = <pointer: 0x7fc9ec9d1d50>, doc = <pointer: 0x7fc9ec947870>) <i> (Sie fällt ihm um den Hals)
+1 list(node = <pointer: 0x7fc9a33ba380>, doc = <pointer: 0x7fc9c5206620>) <i> (Sie fällt ihm um den Hals)
 1 mkrl,letx
 2 3
 3 0
@@ -984,7 +984,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9ec9c88a0>, doc = <pointer: 0x7fc9ec947870>) <i> (Anton ab.)
+1 list(node = <pointer: 0x7fc9a330b710>, doc = <pointer: 0x7fc9c5206620>) <i> (Anton ab.)
 1 mkrl,letx
 2 1
 3 0
@@ -1043,7 +1043,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 1
-1 list(node = <pointer: 0x7fc9ec9c5230>, doc = <pointer: 0x7fc9ec947870>) <i> (sezt sich)
+1 list(node = <pointer: 0x7fc9a33f23f0>, doc = <pointer: 0x7fc9c5206620>) <i> (sezt sich)
 1 mkrl,letx
 2 38
 3 0
@@ -1227,7 +1227,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 5
-1 list(node = <pointer: 0x7fc9ec9c3720>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9ec9c38f0>, doc = <pointer: 0x7fc9ec947870>) <i> (steht auf) (gehen Hand in Hand ab.)
+1 list(node = <pointer: 0x7fc9a3339c10>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9a3339de0>, doc = <pointer: 0x7fc9c5206620>) <i> (steht auf) (gehen Hand in Hand ab.)
 1 mkrl,letx
 2 0
 3 0
@@ -1494,7 +1494,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 7
-1 list(node = <pointer: 0x7fc9ec9dda40>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9ec9ddc10>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9ec9dde40>, doc = <pointer: 0x7fc9ec947870>) <i> (vor sich) (laut) (er nimmt ein Goldstük aus der Tasche)
+1 list(node = <pointer: 0x7fc9a33b1c10>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9a33b1de0>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9a33b2010>, doc = <pointer: 0x7fc9c5206620>) <i> (vor sich) (laut) (er nimmt ein Goldstük aus der Tasche)
 1 mkrl,letx
 2 33
 3 0
@@ -1557,7 +1557,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 1
-1 list(node = <pointer: 0x7fc9ec9dea80>, doc = <pointer: 0x7fc9ec947870>) <i> (gibt’s ihr)
+1 list(node = <pointer: 0x7fc9a33fb310>, doc = <pointer: 0x7fc9c5206620>) <i> (gibt’s ihr)
 1 mkrl,letx
 2 15
 3 0
@@ -1671,7 +1671,7 @@
 1 #R3gsub.bi.re
 2 Mont.
 1 1
-1 list(node = <pointer: 0x7fc9ec9d9a10>, doc = <pointer: 0x7fc9ec947870>) <i> (will gehen)
+1 list(node = <pointer: 0x7fc9a33be770>, doc = <pointer: 0x7fc9c5206620>) <i> (will gehen)
 1 mkrl,letx
 2 24
 3 0
@@ -1774,7 +1774,7 @@
 1 #R3gsub.bi.re
 2 Mont.
 1 8
-1 list(node = <pointer: 0x7fc9ec941170>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9ec941340>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9ec941550>, doc = <pointer: 0x7fc9ec947870>) <i> (Hebt ein Stükchen Papier auf) (liest. Nach einer Pause) (Anton ab.)
+1 list(node = <pointer: 0x7fc9a33c0480>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9a33c0650>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9a33ca830>, doc = <pointer: 0x7fc9c5206620>) <i> (Hebt ein Stükchen Papier auf) (liest. Nach einer Pause) (Anton ab.)
 1 mkrl,letx
 2 2
 3 1
@@ -2221,7 +2221,7 @@
 1 #R3gsub.bi.re
 2 Zisterzius.
 1 18
-1 list(node = <pointer: 0x7fc9e269b0e0>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9e26f6c20>, doc = <pointer: 0x7fc9ec947870>) <i> (Im gehen vor sich) (ab. und nach einiger Zeit gehen die Bedienten, die kein Geschäft für sich sehen, auch ab.)
+1 list(node = <pointer: 0x7fc995dfad80>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc995dfafb0>, doc = <pointer: 0x7fc9c5206620>) <i> (Im gehen vor sich) (ab. und nach einiger Zeit gehen die Bedienten, die kein Geschäft für sich sehen, auch ab.)
 1 mkrl,letx
 2 4
 3 4
@@ -2838,7 +2838,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 1
-1 list(node = <pointer: 0x7fc9e26810d0>, doc = <pointer: 0x7fc9ec947870>) <i> (steht auf)
+1 list(node = <pointer: 0x7fc995dafd10>, doc = <pointer: 0x7fc9c5206620>) <i> (steht auf)
 1 mkrl,letx
 2 (
 3 )
@@ -2859,7 +2859,7 @@
 1 #R3gsub.bi.re
 2 Niklas.
 1 2
-1 list(node = <pointer: 0x7fc9e263c740>, doc = <pointer: 0x7fc9ec947870>) <i> (auf sich zeigend)
+1 list(node = <pointer: 0x7fc995db0140>, doc = <pointer: 0x7fc9c5206620>) <i> (auf sich zeigend)
 1 mkrl,letx
 2 9
 3 0
@@ -2976,7 +2976,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 3
-1 list(node = <pointer: 0x7fc9e263e4b0>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9e263e630>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9e263e870>, doc = <pointer: 0x7fc9ec947870>) <i> (vor sich) (laut) (Nach einer Pause)
+1 list(node = <pointer: 0x7fc995d9a590>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc995d9a760>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc995d9a9c0>, doc = <pointer: 0x7fc9c5206620>) <i> (vor sich) (laut) (Nach einer Pause)
 1 mkrl,letx
 2 52
 3 0
@@ -3039,7 +3039,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 2
-1 list(node = <pointer: 0x7fc9e263fd70>, doc = <pointer: 0x7fc9ec947870>) <i> (spricht Franziska nach)
+1 list(node = <pointer: 0x7fc995d9c1c0>, doc = <pointer: 0x7fc9c5206620>) <i> (spricht Franziska nach)
 1 mkrl,letx
 2 55
 3 0
@@ -3128,7 +3128,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 5
-1 list(node = <pointer: 0x7fc9e26fccc0>, doc = <pointer: 0x7fc9ec947870>) <i> (geht höhnisch lächelnd auf und nieder)
+1 list(node = <pointer: 0x7fc995d9e280>, doc = <pointer: 0x7fc9c5206620>) <i> (geht höhnisch lächelnd auf und nieder)
 1 mkrl,letx
 2 31
 3 0
@@ -3380,7 +3380,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 2
-1 list(node = <pointer: 0x7fc9e2638e80>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9e2639000>, doc = <pointer: 0x7fc9ec947870>) <i> (zu Niklas) (vor sich)
+1 list(node = <pointer: 0x7fc995da4810>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc995da4a00>, doc = <pointer: 0x7fc9c5206620>) <i> (zu Niklas) (vor sich)
 1 mkrl,letx
 2 1
 3 0
@@ -3476,7 +3476,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 4
-1 list(node = <pointer: 0x7fc9e262fc30>, doc = <pointer: 0x7fc9ec947870>) <i> (dreht sich um und lacht)
+1 list(node = <pointer: 0x7fc9eccf49c0>, doc = <pointer: 0x7fc9c5206620>) <i> (dreht sich um und lacht)
 1 mkrl,letx
 2 (
 3 )
@@ -3497,7 +3497,7 @@
 1 #R3gsub.bi.re
 2 Niklas.
 1 1
-1 list(node = <pointer: 0x7fc9e262ffb0>, doc = <pointer: 0x7fc9ec947870>) <i> (zu Pedrillo)
+1 list(node = <pointer: 0x7fc9eccf8490>, doc = <pointer: 0x7fc9c5206620>) <i> (zu Pedrillo)
 1 mkrl,letx
 2 55
 3 0
@@ -3532,7 +3532,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 3
-1 list(node = <pointer: 0x7fc9e2634350>, doc = <pointer: 0x7fc9ec947870>) <i> (streichelt ihr das Gesicht)
+1 list(node = <pointer: 0x7fc9ecc4e0f0>, doc = <pointer: 0x7fc9c5206620>) <i> (streichelt ihr das Gesicht)
 1 mkrl,letx
 2 33
 3 0
@@ -3613,7 +3613,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 3
-1 list(node = <pointer: 0x7fc9e26ed400>, doc = <pointer: 0x7fc9ec947870>) <i> (fängt an sich anzuziehen.)
+1 list(node = <pointer: 0x7fc9ecc50050>, doc = <pointer: 0x7fc9c5206620>) <i> (fängt an sich anzuziehen.)
 1 mkrl,letx
 2 35
 3 0
@@ -3648,7 +3648,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 2
-1 list(node = <pointer: 0x7fc9e264b640>, doc = <pointer: 0x7fc9ec947870>) <i> (gibt ihr Geld)
+1 list(node = <pointer: 0x7fc9ecc50840>, doc = <pointer: 0x7fc9c5206620>) <i> (gibt ihr Geld)
 1 mkrl,letx
 2 (
 3 )
@@ -3689,7 +3689,7 @@
 1 #R3gsub.bi.re
 2 Kamilla.
 1 7
-1 list(node = <pointer: 0x7fc9e261eb50>, doc = <pointer: 0x7fc9ec947870>) <i> (sieht die ganze Scene durch das Geld an)
+1 list(node = <pointer: 0x7fc9ecc51090>, doc = <pointer: 0x7fc9c5206620>) <i> (sieht die ganze Scene durch das Geld an)
 1 mkrl,letx
 2 18
 3 0
@@ -3800,7 +3800,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 1
-1 list(node = <pointer: 0x7fc9e267c520>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9e262de40>, doc = <pointer: 0x7fc9ec947870>) <i> (vor sich) (laut)
+1 list(node = <pointer: 0x7fc9ecc52f70>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc53170>, doc = <pointer: 0x7fc9c5206620>) <i> (vor sich) (laut)
 1 mkrl,letx
 2 (
 3 )
@@ -3821,7 +3821,7 @@
 1 #R3gsub.bi.re
 2 Kamilla.
 1 6
-1 list(node = <pointer: 0x7fc9e262e220>, doc = <pointer: 0x7fc9ec947870>) <i> (Sieht das Geld in der Hand an)
+1 list(node = <pointer: 0x7fc9ecc535c0>, doc = <pointer: 0x7fc9c5206620>) <i> (Sieht das Geld in der Hand an)
 1 mkrl,letx
 2 35
 3 0
@@ -4084,7 +4084,7 @@
 1 #R3gsub.bi.re
 2 Niklas.
 1 3
-1 list(node = <pointer: 0x7fc9c1f53140>, doc = <pointer: 0x7fc9ec947870>) <i> (verbirgt sich mit Pedrillo)
+1 list(node = <pointer: 0x7fc9ecc5b910>, doc = <pointer: 0x7fc9c5206620>) <i> (verbirgt sich mit Pedrillo)
 1 mkrl,letx
 2 (
 3 )
@@ -4105,7 +4105,7 @@
 1 #R3gsub.bi.re
 2 Niklas.
 1 1
-1 list(node = <pointer: 0x7fc9c1f47d20>, doc = <pointer: 0x7fc9ec947870>) <i> (verbergen sich)
+1 list(node = <pointer: 0x7fc9ecc5cac0>, doc = <pointer: 0x7fc9c5206620>) <i> (verbergen sich)
 1 mkrl,letx
 2 1
 3 0
@@ -4164,7 +4164,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 7
-1 list(node = <pointer: 0x7fc9c1fbe600>, doc = <pointer: 0x7fc9ec947870>) <i> (Geht ab auf der Seite, wo er hergekommen)
+1 list(node = <pointer: 0x7fc9ecc5e930>, doc = <pointer: 0x7fc9c5206620>) <i> (Geht ab auf der Seite, wo er hergekommen)
 1 mkrl,letx
 2 (
 3 )
@@ -4185,7 +4185,7 @@
 1 #R3gsub.bi.re
 2 Bedienter.
 1 7
-1 list(node = <pointer: 0x7fc9c1f6ddb0>, doc = <pointer: 0x7fc9ec947870>) <i> (der bald drauf auf der andern Seite abgeht)
+1 list(node = <pointer: 0x7fc9ecc5ed40>, doc = <pointer: 0x7fc9c5206620>) <i> (der bald drauf auf der andern Seite abgeht)
 1 mkrl,letx
 2 3
 3 3
@@ -4237,7 +4237,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 2
-1 list(node = <pointer: 0x7fc9c1f9afb0>, doc = <pointer: 0x7fc9ec947870>) <i> (nach einer Pause)
+1 list(node = <pointer: 0x7fc9ecc60980>, doc = <pointer: 0x7fc9c5206620>) <i> (nach einer Pause)
 1 mkrl,letx
 2 (
 3 )
@@ -4441,7 +4441,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 1
-1 list(node = <pointer: 0x7fc9c1fac7a0>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1fac970>, doc = <pointer: 0x7fc9ec947870>) <i> (vor sich) (laut)
+1 list(node = <pointer: 0x7fc9ecc659c0>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc65b90>, doc = <pointer: 0x7fc9c5206620>) <i> (vor sich) (laut)
 1 mkrl,letx
 2 30
 3 0
@@ -4498,7 +4498,7 @@
 1 #R3gsub.bi.re
 2 Monten.
 1 13
-1 list(node = <pointer: 0x7fc9c1fd4f50>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1f65930>, doc = <pointer: 0x7fc9ec947870>) <i> (faßt sie bey der Hand und sezt sich nieder mit ihnen) (sieht nach der Uhr)
+1 list(node = <pointer: 0x7fc9ecc66b70>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc674a0>, doc = <pointer: 0x7fc9c5206620>) <i> (faßt sie bey der Hand und sezt sich nieder mit ihnen) (sieht nach der Uhr)
 1 mkrl,letx
 2 20
 3 0
@@ -4798,7 +4798,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 3
-1 list(node = <pointer: 0x7fc9c1f217f0>, doc = <pointer: 0x7fc9ec947870>) <i> (Sie fällt schwach über.)
+1 list(node = <pointer: 0x7fc9ecc6d220>, doc = <pointer: 0x7fc9c5206620>) <i> (Sie fällt schwach über.)
 1 mkrl,letx
 2 (
 3 )
@@ -4819,7 +4819,7 @@
 1 #R3gsub.bi.re
 2 Priester.
 1 3
-1 list(node = <pointer: 0x7fc9c1f87c10>, doc = <pointer: 0x7fc9ec947870>) <i> (indem Katelli nachdenkend steht)
+1 list(node = <pointer: 0x7fc9ecc6d620>, doc = <pointer: 0x7fc9c5206620>) <i> (indem Katelli nachdenkend steht)
 1 mkrl,letx
 2 (
 3 )
@@ -4874,7 +4874,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 10
-1 list(node = <pointer: 0x7fc9c1f803e0>, doc = <pointer: 0x7fc9ec947870>) <i> (sieht sich nach Franziska um, die matt auf dem Stuhl sizt.)
+1 list(node = <pointer: 0x7fc9ecc6e190>, doc = <pointer: 0x7fc9c5206620>) <i> (sieht sich nach Franziska um, die matt auf dem Stuhl sizt.)
 1 mkrl,letx
 2 (
 3 )
@@ -4895,7 +4895,7 @@
 1 #R3gsub.bi.re
 2 Monten.
 1 6
-1 list(node = <pointer: 0x7fc9c1f2fdc0>, doc = <pointer: 0x7fc9ec947870>) <i> (weinend und Franziska immer im Arm habend)
+1 list(node = <pointer: 0x7fc9ecc6e610>, doc = <pointer: 0x7fc9c5206620>) <i> (weinend und Franziska immer im Arm habend)
 1 mkrl,letx
 2 (
 3 (
@@ -4940,7 +4940,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 4
-1 list(node = <pointer: 0x7fc9c1f31120>, doc = <pointer: 0x7fc9ec947870>) <i> (fällt ihm in den Arm)
+1 list(node = <pointer: 0x7fc9ecc6fd10>, doc = <pointer: 0x7fc9c5206620>) <i> (fällt ihm in den Arm)
 1 mkrl,letx
 2 23
 3 0
@@ -4975,7 +4975,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 4
-1 list(node = <pointer: 0x7fc9c1f754e0>, doc = <pointer: 0x7fc9ec947870>) <i> (faßt ihn vor die Brust)
+1 list(node = <pointer: 0x7fc9ecc70450>, doc = <pointer: 0x7fc9c5206620>) <i> (faßt ihn vor die Brust)
 1 mkrl,letx
 2 7
 3 0
@@ -5022,7 +5022,7 @@
 1 #R3gsub.bi.re
 2 Priester.
 1 3
-1 list(node = <pointer: 0x7fc9c1f75df0>, doc = <pointer: 0x7fc9ec947870>) <i> (tritt näher an Franziska.
+1 list(node = <pointer: 0x7fc9ecc70d60>, doc = <pointer: 0x7fc9c5206620>) <i> (tritt näher an Franziska.
 1 mkrl,letx
 2 9
 3 0
@@ -5105,7 +5105,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 13
-1 list(node = <pointer: 0x7fc9c1f73950>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1f73b80>, doc = <pointer: 0x7fc9ec947870>) <i> (wirft sich vor Franziska nieder und legt seine Hände auf ihren Schooß) (aufstehend zu Montenegro)
+1 list(node = <pointer: 0x7fc9ecc72700>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc72970>, doc = <pointer: 0x7fc9c5206620>) <i> (wirft sich vor Franziska nieder und legt seine Hände auf ihren Schooß) (aufstehend zu Montenegro)
 1 mkrl,letx
 2 24
 3 0
@@ -5140,7 +5140,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9c1f742d0>, doc = <pointer: 0x7fc9ec947870>) <i> (bey Seite)
+1 list(node = <pointer: 0x7fc9ecc730c0>, doc = <pointer: 0x7fc9c5206620>) <i> (bey Seite)
 1 mkrl,letx
 2 8
 3 0
@@ -5195,7 +5195,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 4
-1 list(node = <pointer: 0x7fc9c1f74ba0>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1f2b1c0>, doc = <pointer: 0x7fc9ec947870>) <i> (die Hände ringend) (geht unwillig ab.)
+1 list(node = <pointer: 0x7fc9ecc73990>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc73ba0>, doc = <pointer: 0x7fc9c5206620>) <i> (die Hände ringend) (geht unwillig ab.)
 1 mkrl,letx
 2 8
 3 0
@@ -5252,7 +5252,7 @@
 1 #R3gsub.bi.re
 2 Priester.
 1 1
-1 list(node = <pointer: 0x7fc9c1f07f80>, doc = <pointer: 0x7fc9ec947870>) <i> (zu Katelli)
+1 list(node = <pointer: 0x7fc9ecc752c0>, doc = <pointer: 0x7fc9c5206620>) <i> (zu Katelli)
 1 mkrl,letx
 2 (
 3 )
@@ -5286,7 +5286,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 6
-1 list(node = <pointer: 0x7fc9c1fb43d0>, doc = <pointer: 0x7fc9ec947870>) <i> (nach einer kleinen Pause mit gebrochner Stimme)
+1 list(node = <pointer: 0x7fc9ecc75f50>, doc = <pointer: 0x7fc9c5206620>) <i> (nach einer kleinen Pause mit gebrochner Stimme)
 1 mkrl,letx
 2 (
 3 (
@@ -5313,7 +5313,7 @@
 1 #R3gsub.bi.re
 2 Monten.
 1 2
-1 list(node = <pointer: 0x7fc9c1fb1550>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1fb1740>, doc = <pointer: 0x7fc9ec947870>) <i> (zu Franziska) (vor sich)
+1 list(node = <pointer: 0x7fc9ecc763c0>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc765b0>, doc = <pointer: 0x7fc9c5206620>) <i> (zu Franziska) (vor sich)
 1 mkrl,letx
 2 (
 3 (
@@ -5345,7 +5345,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 5
-1 list(node = <pointer: 0x7fc9c1fb1bd0>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1fb1d80>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1fb1f30>, doc = <pointer: 0x7fc9ec947870>) <i> (hitzig) (fährt auf) Montenegro versucht sie zu halten)
+1 list(node = <pointer: 0x7fc9ecc76a40>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc76bf0>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc76da0>, doc = <pointer: 0x7fc9c5206620>) <i> (hitzig) (fährt auf) Montenegro versucht sie zu halten)
 1 mkrl,letx
 2 (
 3 )
@@ -5366,7 +5366,7 @@
 1 #R3gsub.bi.re
 2 Monten.
 1 1
-1 list(node = <pointer: 0x7fc9c1fb2360>, doc = <pointer: 0x7fc9ec947870>) <i> (steht auf)
+1 list(node = <pointer: 0x7fc9ecc771d0>, doc = <pointer: 0x7fc9c5206620>) <i> (steht auf)
 1 mkrl,letx
 2 1
 3 0
@@ -5397,7 +5397,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 1
-1 list(node = <pointer: 0x7fc9c1f3d610>, doc = <pointer: 0x7fc9ec947870>) <i> (zum Priester)
+1 list(node = <pointer: 0x7fc9ecc78950>, doc = <pointer: 0x7fc9c5206620>) <i> (zum Priester)
 1 mkrl,letx
 2 21
 3 0
@@ -5432,7 +5432,7 @@
 1 #R3gsub.bi.re
 2 Mont.
 1 5
-1 list(node = <pointer: 0x7fc9c1f3dda0>, doc = <pointer: 0x7fc9ec947870>) <i> (Priester und Wache mit Franziska ab.)
+1 list(node = <pointer: 0x7fc9ecc790e0>, doc = <pointer: 0x7fc9c5206620>) <i> (Priester und Wache mit Franziska ab.)
 1 mkrl,letx
 2 2
 3 1
@@ -5546,7 +5546,7 @@
 1 #R3gsub.bi.re
 2 Monten.
 1 5
-1 list(node = <pointer: 0x7fc9c1f91890>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1f91a10>, doc = <pointer: 0x7fc9ec947870>) <i> (Der Pater Hieronimus kömmt) (Katelli eiligst ab.)
+1 list(node = <pointer: 0x7fc9ecc7bf40>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc7c110>, doc = <pointer: 0x7fc9c5206620>) <i> (Der Pater Hieronimus kömmt) (Katelli eiligst ab.)
 1 mkrl,letx
 2 1
 3 0
@@ -5827,7 +5827,7 @@
 1 #R3gsub.bi.re
 2 Hieronimus.
 1 8
-1 list(node = <pointer: 0x7fc9c1f09ae0>, doc = <pointer: 0x7fc9ec947870>) <i> (Hilft ihn vom Stuhl auf und führt ihn ab)
+1 list(node = <pointer: 0x7fc9ecc83210>, doc = <pointer: 0x7fc9c5206620>) <i> (Hilft ihn vom Stuhl auf und führt ihn ab)
 1 mkrl,letx
 2 41
 3 0
@@ -5966,7 +5966,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 3
-1 list(node = <pointer: 0x7fc9c1f470d0>, doc = <pointer: 0x7fc9ec947870>) <i> (Nach einer langen Pause)
+1 list(node = <pointer: 0x7fc9ecc88920>, doc = <pointer: 0x7fc9c5206620>) <i> (Nach einer langen Pause)
 1 mkrl,letx
 2 11
 3 0
@@ -6085,7 +6085,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 6
-1 list(node = <pointer: 0x7fc9c1f0e7c0>, doc = <pointer: 0x7fc9ec947870>) <i> (horcht auf ein Geräusch hinter der Bühne)
+1 list(node = <pointer: 0x7fc9ecc8bd00>, doc = <pointer: 0x7fc9c5206620>) <i> (horcht auf ein Geräusch hinter der Bühne)
 1 mkrl,letx
 2 (
 3 (
@@ -6163,7 +6163,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 7
-1 list(node = <pointer: 0x7fc9c1f66ee0>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1f670d0>, doc = <pointer: 0x7fc9ec947870>) <i> (Im Hintergrunde der Bühne) (Nach einer Pause zu Katelli)
+1 list(node = <pointer: 0x7fc9ecc8e1c0>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc8e3e0>, doc = <pointer: 0x7fc9c5206620>) <i> (Im Hintergrunde der Bühne) (Nach einer Pause zu Katelli)
 1 mkrl,letx
 2 11
 3 0
@@ -6238,7 +6238,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 3
-1 list(node = <pointer: 0x7fc9c1fbca60>, doc = <pointer: 0x7fc9ec947870>) <i> (Nach einer langen Pause.)
+1 list(node = <pointer: 0x7fc9ecc4a1e0>, doc = <pointer: 0x7fc9c5206620>) <i> (Nach einer langen Pause.)
 1 mkrl,letx
 2 6
 3 0
@@ -6449,7 +6449,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9c1f5b7a0>, doc = <pointer: 0x7fc9ec947870>) <i> (Geht näher)
+1 list(node = <pointer: 0x7fc9ecc4d690>, doc = <pointer: 0x7fc9c5206620>) <i> (Geht näher)
 1 mkrl,letx
 2 (
 3 )
@@ -6470,7 +6470,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 7
-1 list(node = <pointer: 0x7fc9c1fdc9c0>, doc = <pointer: 0x7fc9ec947870>) <i> (Wird immer furchtsamer und geht auf und nieder)
+1 list(node = <pointer: 0x7fc9ecc4daa0>, doc = <pointer: 0x7fc9c5206620>) <i> (Wird immer furchtsamer und geht auf und nieder)
 1 mkrl,letx
 2 41
 3 0
@@ -6516,7 +6516,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 2
-1 list(node = <pointer: 0x7fc9c1f774c0>, doc = <pointer: 0x7fc9ec947870>) <i> (läuft verwirrt herum)
+1 list(node = <pointer: 0x7fc9ecc3dfa0>, doc = <pointer: 0x7fc9c5206620>) <i> (läuft verwirrt herum)
 1 mkrl,letx
 2 (
 3 )
@@ -6537,7 +6537,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 10
-1 list(node = <pointer: 0x7fc9c1f39690>, doc = <pointer: 0x7fc9ec947870>) <i> (Sarg nieder. Ein Vermummter trit vor und zeigt auf den Namen!)
+1 list(node = <pointer: 0x7fc9ecc3e3b0>, doc = <pointer: 0x7fc9c5206620>) <i> (Sarg nieder. Ein Vermummter trit vor und zeigt auf den Namen!)
 1 mkrl,letx
 2 (
 3 )
@@ -6558,7 +6558,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 8
-1 list(node = <pointer: 0x7fc9c1f39b80>, doc = <pointer: 0x7fc9ec947870>) <i> (Will mit den Degen stossen, fährt aber erschrokken zurük.)
+1 list(node = <pointer: 0x7fc9ecc3e8c0>, doc = <pointer: 0x7fc9c5206620>) <i> (Will mit den Degen stossen, fährt aber erschrokken zurük.)
 1 mkrl,letx
 2 (
 3 )
@@ -6597,7 +6597,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 1
-1 list(node = <pointer: 0x7fc9c1f8ddf0>, doc = <pointer: 0x7fc9ec947870>) <i> (zu Katelli)
+1 list(node = <pointer: 0x7fc9ecc3fe20>, doc = <pointer: 0x7fc9c5206620>) <i> (zu Katelli)
 1 mkrl,letx
 2 (
 3 )
@@ -6618,7 +6618,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9c1f8e230>, doc = <pointer: 0x7fc9ec947870>) <i> (bey Seite)
+1 list(node = <pointer: 0x7fc9ecc40260>, doc = <pointer: 0x7fc9c5206620>) <i> (bey Seite)
 1 mkrl,letx
 2 (
 3 )
@@ -6996,7 +6996,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 2
-1 list(node = <pointer: 0x7fc9c1f3ac90>, doc = <pointer: 0x7fc9ec947870>) <i> (Mit gezwungener Stimme)
+1 list(node = <pointer: 0x7fc9ecc3bd50>, doc = <pointer: 0x7fc9c5206620>) <i> (Mit gezwungener Stimme)
 1 mkrl,letx
 2 11
 3 0
@@ -7031,7 +7031,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9c1fce3d0>, doc = <pointer: 0x7fc9ec947870>) <i> (Gefangenwärter ab.)
+1 list(node = <pointer: 0x7fc9ecc35d80>, doc = <pointer: 0x7fc9c5206620>) <i> (Gefangenwärter ab.)
 1 mkrl,letx
 2 3
 3 3
@@ -7075,7 +7075,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 14
-1 list(node = <pointer: 0x7fc9c1f3d170>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1f3d380>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1fd05b0>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1fd0770>, doc = <pointer: 0x7fc9ec947870>) <i> (Auffahrend und schüchtern sich umsehend. Nach einer langen Pause.) (Sanftmüthig) (Nach einer Pause. Stark) (zeigt ihm die Hand)
+1 list(node = <pointer: 0x7fc9ecc36750>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc36960>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc36b30>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc36d20>, doc = <pointer: 0x7fc9c5206620>) <i> (Auffahrend und schüchtern sich umsehend. Nach einer langen Pause.) (Sanftmüthig) (Nach einer Pause. Stark) (zeigt ihm die Hand)
 1 mkrl,letx
 2 (
 3 )
@@ -7096,7 +7096,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 3
-1 list(node = <pointer: 0x7fc9c1fd0bb0>, doc = <pointer: 0x7fc9ec947870>) <i> (Steht wie in Betäubung.)
+1 list(node = <pointer: 0x7fc9ecc37180>, doc = <pointer: 0x7fc9c5206620>) <i> (Steht wie in Betäubung.)
 1 mkrl,letx
 2 6
 3 0
@@ -7171,7 +7171,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 3
-1 list(node = <pointer: 0x7fc9c1fc3730>, doc = <pointer: 0x7fc9ec947870>) <i> (Sie legt sich nieder.)
+1 list(node = <pointer: 0x7fc9ecc38cf0>, doc = <pointer: 0x7fc9c5206620>) <i> (Sie legt sich nieder.)
 1 mkrl,letx
 2 (
 3 )
@@ -7192,7 +7192,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 3
-1 list(node = <pointer: 0x7fc9c1fc3ca0>, doc = <pointer: 0x7fc9ec947870>) <i> (trit näher an Franziska)
+1 list(node = <pointer: 0x7fc9ecc39260>, doc = <pointer: 0x7fc9c5206620>) <i> (trit näher an Franziska)
 1 mkrl,letx
 2 (
 3 )
@@ -7213,7 +7213,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 4
-1 list(node = <pointer: 0x7fc9c1f36da0>, doc = <pointer: 0x7fc9ec947870>) <i> (Holt plötzlich stark Odem. Mat.)
+1 list(node = <pointer: 0x7fc9ecc350d0>, doc = <pointer: 0x7fc9c5206620>) <i> (Holt plötzlich stark Odem. Mat.)
 1 mkrl,letx
 2 7
 3 0
@@ -7360,7 +7360,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 2
-1 list(node = <pointer: 0x7fc9c1f9fa20>, doc = <pointer: 0x7fc9ec947870>) <i> (Nach einer Pause)
+1 list(node = <pointer: 0x7fc9ecc33590>, doc = <pointer: 0x7fc9c5206620>) <i> (Nach einer Pause)
 1 mkrl,letx
 2 (
 3 )
@@ -7413,7 +7413,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 2
-1 list(node = <pointer: 0x7fc9c1fbb770>, doc = <pointer: 0x7fc9ec947870>) <i> (Mit gesezter Stimme)
+1 list(node = <pointer: 0x7fc9ecc2ccf0>, doc = <pointer: 0x7fc9c5206620>) <i> (Mit gesezter Stimme)
 1 mkrl,letx
 2 5
 3 0
@@ -7492,7 +7492,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 1
-1 list(node = <pointer: 0x7fc9c1fbfd90>, doc = <pointer: 0x7fc9ec947870>) <i> (zu Franziska)
+1 list(node = <pointer: 0x7fc9ecc11810>, doc = <pointer: 0x7fc9c5206620>) <i> (zu Franziska)
 1 mkrl,letx
 2 31
 3 0
@@ -7541,7 +7541,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 2
-1 list(node = <pointer: 0x7fc9c1ff1860>, doc = <pointer: 0x7fc9ec947870>) <i> (auf ihn zu.)
+1 list(node = <pointer: 0x7fc9ecc12eb0>, doc = <pointer: 0x7fc9c5206620>) <i> (auf ihn zu.)
 1 mkrl,letx
 2 (
 3 )
@@ -7562,7 +7562,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 2
-1 list(node = <pointer: 0x7fc9c1ff1c20>, doc = <pointer: 0x7fc9ec947870>) <i> (stößt sie zurük)
+1 list(node = <pointer: 0x7fc9ecc13280>, doc = <pointer: 0x7fc9c5206620>) <i> (stößt sie zurük)
 1 mkrl,letx
 2 (
 3 )
@@ -7583,7 +7583,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 2
-1 list(node = <pointer: 0x7fc9c1ff2050>, doc = <pointer: 0x7fc9ec947870>) <i> (Läuft wüthend herum)
+1 list(node = <pointer: 0x7fc9ecc136b0>, doc = <pointer: 0x7fc9c5206620>) <i> (Läuft wüthend herum)
 1 mkrl,letx
 2 20
 3 0
@@ -7712,7 +7712,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 4
-1 list(node = <pointer: 0x7fc9c1f4a400>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1f4a630>, doc = <pointer: 0x7fc9ec947870>) <i> (geht auf die Thür zu) (ab.)
+1 list(node = <pointer: 0x7fc9ecc15d60>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc15f90>, doc = <pointer: 0x7fc9c5206620>) <i> (geht auf die Thür zu) (ab.)
 1 mkrl,letx
 2 3
 3 3
@@ -7764,7 +7764,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 8
-1 list(node = <pointer: 0x7fc9c1f4bea0>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1f4c1d0>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1f4c400>, doc = <pointer: 0x7fc9ec947870>) <i> (Nach einer langen Pause) (schlägt sich vor die Stirn) (zu Franziska)
+1 list(node = <pointer: 0x7fc9ecc17800>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc17b30>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc17d60>, doc = <pointer: 0x7fc9c5206620>) <i> (Nach einer langen Pause) (schlägt sich vor die Stirn) (zu Franziska)
 1 mkrl,letx
 2 (
 3 )
@@ -7837,7 +7837,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 3
-1 list(node = <pointer: 0x7fc9c1f4e230>, doc = <pointer: 0x7fc9ec947870>) <i> (wirft sich wieder nieder.)
+1 list(node = <pointer: 0x7fc9ecc19b90>, doc = <pointer: 0x7fc9c5206620>) <i> (wirft sich wieder nieder.)
 1 mkrl,letx
 2 (
 3 )
@@ -7866,7 +7866,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 1
-1 list(node = <pointer: 0x7fc9c1f4ecc0>, doc = <pointer: 0x7fc9ec947870>) <i> (zu Katelli)
+1 list(node = <pointer: 0x7fc9ecc1a620>, doc = <pointer: 0x7fc9c5206620>) <i> (zu Katelli)
 1 mkrl,letx
 2 (
 3 )
@@ -7887,7 +7887,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 2
-1 list(node = <pointer: 0x7fc9c1f89260>, doc = <pointer: 0x7fc9ec947870>) <i> (Mit verbissener Wuth)
+1 list(node = <pointer: 0x7fc9ecc1aac0>, doc = <pointer: 0x7fc9c5206620>) <i> (Mit verbissener Wuth)
 1 mkrl,letx
 2 4
 3 4
@@ -7925,7 +7925,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 21
-1 list(node = <pointer: 0x7fc9c1f11de0>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1f120b0>, doc = <pointer: 0x7fc9ec947870>) list(node = <pointer: 0x7fc9c1f760f0>, doc = <pointer: 0x7fc9ec947870>) <i> (faßt ihm mit der einen Hand den Degen und mit der andern vor die Brust) (Er holt geschwind ein Stilet hervor und ersticht ihn. Pedrillo will mit dem Degen auf ihn zu, wankt aber. Katelli stößt ihn noch einmal und er fällt.) (den Dolch in erhabner Hand. Zu Franziska)
+1 list(node = <pointer: 0x7fc9ecc1bd80>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc1c050>, doc = <pointer: 0x7fc9c5206620>) list(node = <pointer: 0x7fc9ecc1d0e0>, doc = <pointer: 0x7fc9c5206620>) <i> (faßt ihm mit der einen Hand den Degen und mit der andern vor die Brust) (Er holt geschwind ein Stilet hervor und ersticht ihn. Pedrillo will mit dem Degen auf ihn zu, wankt aber. Katelli stößt ihn noch einmal und er fällt.) (den Dolch in erhabner Hand. Zu Franziska)
 1 mkrl,letx
 2 0
 3 0
