@@ -246,7 +246,9 @@ assign.sp<-function(x,r){
       l.ti<-unlist(strsplit(i.gs," "))
       l.tix<-l.ti[l.ti!=""]
       l.tl<-length(l.tix)
+      print(l.tix)
       if(print(l.tb+l.tl==l.tx)){
+        l.tix<-gsub("\n","",l.tix)
         l.tix<-paste0(l.tix,collapse = " ")
         sp.ezd<-paste0("@",b.tx,":\n(",l.tix,")")
 #      sp.ezd<-gsub("\n"," ",sp.ezd)
@@ -276,6 +278,8 @@ assign.sp<-function(x,r){
     cat("length lti,ltx,mfirst",l.tx,l.ti,m.kl.first)
     if(l.tx==l.ti&length(m.kl.first)==0){
     sp.ezd<-paste0("$",sp.ezd,"\n")
+    sp.ezd<-gsub("[)(]|\n","",sp.ezd)
+    sp.ezd<-paste0(sp.ezd,"\n")
     print("R10")
     }
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
@@ -298,7 +302,7 @@ assign.sp<-function(x,r){
 ###
 ### test assign
 test.dep<-function(){
-m1<-grep("Rasebank",all.elements)
+m1<-grep("Huth",all.elements)
 m1
 # critical: 160
 all.elements[m1]
@@ -327,7 +331,7 @@ ezd.lines[1:50]
 
 # removes redundant lines
 m<-ezd.lines=="$"|ezd.lines=="@ *"|ezd.lines==""|
-  ezd.lines=="[ ]{1,10}"|ezd.lines=="[.]{1,2}"|ezd.lines=="\n"|ezd.lines=="("|ezd.lines==")"|
+  ezd.lines=="[ ]{1,10}"|ezd.lines=="[.]{1,2}"|ezd.lines=="\n"|ezd.lines=="\n\n"|ezd.lines=="("|ezd.lines==")"|
   ezd.lines==")\n"
 sum(m)
 # 15066
@@ -362,9 +366,9 @@ ezd.nl<-gsub("(:\n<pb.+/>.?)\n","\\1",ezd.nl)
 # ezd.nl<-gsub("\t","",ezd.nl)
 head(ezd.nl,100)
 ### normalise speaker ids
-m<-grep("^@.*[:.]",ezd.nl)
+ms<-grep("^@.*[:.]",ezd.nl)
 #strsplit()
-sp.u<-unique(strsplit(ezd.nl[m],"\n"))
+sp.u<-unique(strsplit(ezd.nl[ms],"\n"))
 sp.u[1]
 sp.u.df<-abind(lapply(sp.u,function(x){x[1]}),along = 0)
 # unique speakers
@@ -391,6 +395,7 @@ for (k in 1:length(sp.cor$speaker)){
     ezd.nl.sp[m]<-gsub(sp.cor$speaker[k],sp.cor$corrected[k],ezd.nl.sp[m])
   }
 }
+ezd.nl.sp[ms]<-gsub(":","",ezd.nl.sp[ms])
 ezd.nl.sp<-gsub("\t","\n",ezd.nl.sp)
 
 #wks.
@@ -441,8 +446,7 @@ ezd.nl.sp.f<-c(front,ezd.nl.sp[ezd.nl.out])
 # removes redundant lines
 ezd.lines<-ezd.nl.sp.f
 m<-ezd.lines=="$"|ezd.lines=="@ *"|ezd.lines==""|
-  ezd.lines=="[ ]{1,10}"|ezd.lines=="[.]{1,2}"|ezd.lines=="\n"|ezd.lines=="("|ezd.lines==")"|
-  ezd.lines==")\n"
+  ezd.lines=="[ ]{1,10}"|ezd.lines=="[.]{1,2}"|ezd.lines=="\n"|ezd.lines=="\n\n"|ezd.lines=="("|ezd.lines==")"|ezd.lines==")\n"
 sum(m)
 # 15066
 ### preserve inserted linebreaks!

@@ -6,7 +6,9 @@
 <title type="sub" xml:lang="eng"></title>
         <author>
           <persName>
-            <forename>Christian Julius Ludwig</forename>
+            <forename>Christian</forename>
+            <forename>Julius</forename>
+            <forename>Ludwig</forename>
             <surname>Steltzer</surname>
           </persName>
           <persName xml:lang="eng">
@@ -14,6 +16,7 @@
             <surname></surname>
           </persName>
           <idno type="wikidata">Q21212871</idno>
+          <idno type="pnd">104254858</idno>
         </author>
       </titleStmt>
       <publicationStmt>
