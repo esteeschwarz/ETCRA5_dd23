@@ -255,10 +255,28 @@ assign.sp<-function(x,r){
       return(sp.ezd)
       }
     }
+    l.ti<-length(unlist(strsplit(i.tx," ")))
+    l.tx<-length(unlist(strsplit(p.tx," ")))
+    # if <p> includes <i>
+    if(l.tx>l.ti){
+      sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',p.tx)
+      sp.ezd<-gsub("\n"," ",sp.ezd)
+      print("R9")
+      return(sp.ezd)
+    }
+    # if <p> not includes more than <i>
     sp.ezd<-paste0("$",p.tx)
-    sp.ezd<-gsub("\n"," ",sp.ezd)
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+    sp.ezd<-gsub("\n"," ",sp.ezd)
+    ###################### 15066.critical.pg-78, stage
+    sp.ezd<-c(sp.ezd,"\n")
+    ######################
+    print(xml_name(sub))
+    print(p.tx)
+    print(i.tx)
+    print(b.tx)
     print("R7")
+    print(sp.ezd)
     return(sp.ezd)
   }
       # returns checked and adapted element
@@ -267,18 +285,20 @@ assign.sp<-function(x,r){
 }
 ###
 ### test assign
-m1<-grep("Dreyzehn",all.elements)
+test.dep<-function(){
+m1<-grep("Vorherwissen",all.elements)
 m1
 # critical: 160
-all.elements[40:50]
+all.elements[m1]
 i<-160 # critical, not wks.
 i<-164 # reference, wks.
 i<-161
 i<-49
 i<-40
-i<-87
+i<-584
+i<-m1
 assign.sp(all.elements[[i]],i)
-
+}
 sp.lines<-lapply(seq_along(all.elements),function(i){
   assign.sp(all.elements[[i]],i)
 })
@@ -472,6 +492,6 @@ write.final.xml<-function(xml,xml.final){
 xml.final<-paste0("~/Documents/GitHub/ETCRA5_dd23/tei/","steltzer_montenegro.final.xml")
 xml.final.dracor<-paste0("~/Documents/GitHub/fork/gerdracor/tei/","steltzer_franziska-montenegro.xml")
 write.final.xml(xml,xml.final)
-write.final.xml(xml,xml.final.dracor)
+#write.final.xml(xml,xml.final.dracor)
 
 

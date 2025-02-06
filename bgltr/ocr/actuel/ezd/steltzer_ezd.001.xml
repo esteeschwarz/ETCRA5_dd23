@@ -29,35 +29,29 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person sex="MALE" xml:id="anton">
-            <persName>Anton</persName>
-          </person>
-          <person sex="MALE" xml:id="bedienter">
-            <persName>Bedienter</persName>
-          </person>
-          <person sex="MALE" xml:id="gefangenwärter">
-            <persName>Gefangenwärter</persName>
-          </person>
-          <person sex="FEMALE" xml:id="kamilla">
-            <persName>Kamilla</persName>
+          <person sex="MALE" xml:id="niklas">
+            <persName>Niklas</persName>
           </person>
           <person sex="MALE" xml:id="pedrillo">
             <persName>Pedrillo</persName>
           </person>
-          <person sex="MALE" xml:id="priester">
-            <persName>Priester</persName>
-          </person>
           <person sex="MALE" xml:id="katelli">
             <persName>Katelli</persName>
-          </person>
-          <person sex="FEMALE" xml:id="franziska">
-            <persName>Franziska</persName>
           </person>
           <person sex="MALE" xml:id="zisterzius">
             <persName>Zisterzius</persName>
           </person>
-          <person sex="MALE" xml:id="niklas">
-            <persName>Niklas</persName>
+          <person sex="MALE" xml:id="bedienter">
+            <persName>Bedienter</persName>
+          </person>
+          <person sex="FEMALE" xml:id="kamilla">
+            <persName>Kamilla</persName>
+          </person>
+          <person sex="MALE" xml:id="priester">
+            <persName>Priester</persName>
+          </person>
+          <person sex="MALE" xml:id="anton">
+            <persName>Anton</persName>
           </person>
           <person sex="MALE" xml:id="hieronimus">
             <persName>Hieronimus</persName>
@@ -68,12 +62,18 @@
           <person sex="MALE" xml:id="der_vermummte">
             <persName>Der Vermummte</persName>
           </person>
+          <person sex="MALE" xml:id="gefangenwärter">
+            <persName>Gefangenwärter</persName>
+          </person>
+          <person sex="FEMALE" xml:id="franziska">
+            <persName>Franziska</persName>
+          </person>
         </listPerson>
       </particDesc>
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change when="2025-02-05">DESCRIBE CHANGE</change>
+        <change when="2025-02-06">DESCRIBE CHANGE</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -512,7 +512,7 @@
           </sp>
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
-            <p>Ey! Geb er her, Anton! Sein Herr ist doch auch ein gar scharmanter Herr! Ey! Hm! er soll auch einmal sehen, was ich ihn nun so alles erzehlen werde, was ich von meinem Jakob höre.</p>
+            <p>Ey! Geb er her, Anton! Sein Herr ist doch auch ein gar scharmanter Herr! Ey! Hm! er soll auch einmal sehen, was ich ihm nun so alles erzehlen werde, was ich von meinem Jakob höre.</p>
           </sp>
           <sp who="#anton">
             <speaker>Anton:</speaker>
@@ -592,9 +592,9 @@
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
             <p><stage>(allein.)</stage></p>
+            <p><stage>(Liest)</stage> Hier die Antwort, bester Vater, die ich Ihnen vor einer halben Stunde schuldig blieb: Ich liebe Franziska. Nach ernster reifer Ueberlegung lieb’ ich Sie. Die Ungewißheit, ob Sie mich Ihrer Hand würdigen mögten, machte mich seit einiger Zeit tiefdenkend; aber länger duld’ ich nicht. Ich falle Ihnen zu Füssen. – Das Billet hat an mich gesollt, und weil’s ihm nicht recht gewesen ist, hat er’s zerrissen. Erklärung aber genug! Das Blizmädchen! Welche Verwirrung sie mir im Hause macht!</p>
+            <p>&lt;pb n="23"/&gt;</p>
           </sp>
-          <stage>(Liest) Hier die Antwort, bester Vater, die ich Ihnen vor einer halben Stunde schuldig blieb: Ich liebe Franziska. Nach ernster reifer Ueberlegung lieb’ ich Sie. Die Ungewißheit, ob Sie mich Ihrer Hand würdigen mögten, machte mich seit einiger Zeit tiefdenkend; aber länger duld’ ich nicht. Ich falle Ihnen zu Füssen. – Das Billet hat an mich gesollt, und weil’s ihm nicht recht gewesen ist, hat er’s zerrissen. Erklärung aber genug! Das Blizmädchen! Welche Verwirrung sie mir im Hause macht!
-            &lt;pb n="23"/&gt;</stage>
         </div>
         <div type="scene">
           <head>Sechszehnter Auftrit.</head>
@@ -734,7 +734,7 @@
           </sp>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
-            <p>Und was sucht er bey ihnen?</p>
+            <p>Und was sucht’ er bey ihnen?</p>
           </sp>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
@@ -1213,9 +1213,9 @@
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
             <p><stage>(allein.)</stage></p>
+            <p><stage>(Zieht die Uhr heraus)</stage> Wie es spätet! schon halb zwey! – Noch nichts verlohren! Sie sind noch am Tische – Aber über den bunten Plan! Der alte Montenegro ist noch stämmig genug, einem Stosse zu wehren; und Katelli? Ihm wird’s gewiß nicht an welschem Muthe fehlen. <stage>(Klingt – zur Thür hinaus)</stage> Jakob!</p>
+            <p>&lt;pb n="49"/&gt;</p>
           </sp>
-          <stage>(Zieht die Uhr heraus) Wie es spätet! schon halb zwey! – Noch nichts verlohren! Sie sind noch am Tische – Aber über den bunten Plan! Der alte Montenegro ist noch stämmig genug, einem Stosse zu wehren; und Katelli? Ihm wird’s gewiß nicht an welschem Muthe fehlen. (Klingt – zur Thür hinaus) Jakob!
-            &lt;pb n="49"/&gt;</stage>
         </div>
       </div>
       <div type="act">
@@ -1701,8 +1701,11 @@
         <div type="scene">
           <head>Erster Auftrit.</head>
           <stage>Ein Vorsaal in Montenegro’s Schloß, den eine Lampe ganz schwach erleuchtet</stage>
-          <stage>Katelli allein, kurz angezogen, in einen Mantel verhüllt und einen blossen Degen in der Hand haltend.</stage>
-          <stage>(Nach dem Gartenfenster zu) Bald wird der Mond aufgehen, und ich noch ohne dem Mädchen? Muß sie noch leiden lassen, ohne dem Strom meiner Rache freyen Lauf geben zu können? Und Pedrillo? – Gedulde dich, liebe Seele! Er soll büssen! Heute noch! – Wie alles so still ist; alles sich zur Ruhe rüstet! Vom Fürsten an, bis zu dem Wurm, der an seinen Thron nagt; nur ich nicht! Holder Schlaf, du warst oft der Tröster meines schwärmenden Geistes; aber jezt ist deine Hülfe zu schwach. Er hat seine Schranken gesprengt; ist das schäumende wilde Roß, das jedem zu muthig ist. – Wie unter Ungeheur, die auf mich einkrallen, steh’ ich hier! Erbarmer genug um mich her, aber kein Retter! – Was ist doch der Mensch für ein schwaches, furchtsames Ding! Schüchtern und unentschlossen steh’ ich da, und weiß nicht welchen Weg ich wandeln soll. Auf der einen Seite kettet heisse Liebe und tolle &lt;pb n="67"/&gt; Wuth, zu allem bereit, was menschliche Natur noch übersteiget, meinen Fuß; und auf der andern Seite ruft mir der Hang, der allen Menschen angebohren ist, der Hang zum Leben zu: Entfliehe, Katelli! Klimme über Felsen hinweg! – Was soll ich nun thun? Hier harren und mit dem Schiksal hadern, ist mir Trost auf keiner Seite. Soll ich meine Franziska verlassen? Oder geduldig zusehen, wenn man sie in die Wolfsgrube hineinwirft? Nein! Ich will für sie hineinspringen, und mit den tobenden Bestien kämpfen. Oder ich will ihr selbst den Dolch ins Herz rennen, wenn ich sie nicht retten kann, und dann von ihrer welkenden Wange, von ihren erblaßten Lippen den Tod auch für mich abküssen! – Aber warum weil’ ich deshalb hier, wo die Hippe des Todes schon um meinen Kopf herumschwirrt? Er hat mich hereinschlüpfen sehen, und sinnt jezt schon vor der Thür des Schlosses den rauhsten Weg zum Tode für mich aus.</stage>
+          <sp who="#katelli">
+            <speaker>Katelli:</speaker>
+            <p><stage>(allein, kurz angezogen, in einen Mantel verhüllt und einen blossen Degen in der Hand haltend. )</stage></p>
+            <p><stage>(Nach dem Gartenfenster zu)</stage> Bald wird der Mond aufgehen, und ich noch ohne dem Mädchen? Muß sie noch leiden lassen, ohne dem Strom meiner Rache freyen Lauf geben zu können? Und Pedrillo? – Gedulde dich, liebe Seele! Er soll büssen! Heute noch! – Wie alles so still ist; alles sich zur Ruhe rüstet! Vom Fürsten an, bis zu dem Wurm, der an seinen Thron nagt; nur ich nicht! Holder Schlaf, du warst oft der Tröster meines schwärmenden Geistes; aber jezt ist deine Hülfe zu schwach. Er hat seine Schranken gesprengt; ist das schäumende wilde Roß, das jedem zu muthig ist. – Wie unter Ungeheur, die auf mich einkrallen, steh’ ich hier! Erbarmer genug um mich her, aber kein Retter! – Was ist doch der Mensch für ein schwaches, furchtsames Ding! Schüchtern und unentschlossen steh’ ich da, und weiß nicht welchen Weg ich wandeln soll. Auf der einen Seite kettet heisse Liebe und tolle &lt;pb n="67"/&gt; Wuth, zu allem bereit, was menschliche Natur noch übersteiget, meinen Fuß; und auf der andern Seite ruft mir der Hang, der allen Menschen angebohren ist, der Hang zum Leben zu: Entfliehe, Katelli! Klimme über Felsen hinweg! – Was soll ich nun thun? Hier harren und mit dem Schiksal hadern, ist mir Trost auf keiner Seite. Soll ich meine Franziska verlassen? Oder geduldig zusehen, wenn man sie in die Wolfsgrube hineinwirft? Nein! Ich will für sie hineinspringen, und mit den tobenden Bestien kämpfen. Oder ich will ihr selbst den Dolch ins Herz rennen, wenn ich sie nicht retten kann, und dann von ihrer welkenden Wange, von ihren erblaßten Lippen den Tod auch für mich abküssen! – Aber warum weil’ ich deshalb hier, wo die Hippe des Todes schon um meinen Kopf herumschwirrt? Er hat mich hereinschlüpfen sehen, und sinnt jezt schon vor der Thür des Schlosses den rauhsten Weg zum Tode für mich aus.</p>
+          </sp>
         </div>
         <div type="scene">
           <head>Zweyter Auftrit.</head>
@@ -1982,8 +1985,8 @@
             <speaker>Katelli:</speaker>
             <p><stage>(allein.)</stage></p>
           </sp>
-          <stage>(Nach einer langen Pause.)</stage>
-          <stage>Gottlob, daß ich den Kampf gekämpfet habe. Es war ein arger Kampf. Aber, – (langsam) Zweye folgen ihm! – Gott, bald tod! denn lange frist’ ich ihm sein Leben nicht! Ich ihm folgen? Auch deshalb schon’ ich dich nicht, wenn du mir nicht meine Franziska gibst. – Noch gehen die Propheten des &lt;pb n="78"/&gt; Himmels vor mir her! Mein Auge sieht sie noch immer. – Ich soll sein Richter seyn? das Amt nehm’ ich willig, nehm’ ich mit Freuden. Um alle Schätze der Welt schlüg’ ich’s nicht aus. Aber sterben! Wie das Vorherwissen so schreklich ist! Doch, Mensch, was ist dein Streben wider Schiksal? Wir können nichts thun, als uns die Wege die es uns zeigt, leicht machen, und das will ich thun. Ich will meine Seele rüsten. &lt;pb n="79"/&gt;</stage>
+          <stage>(Nach einer langen Pause.)
+            Gottlob, daß ich den Kampf gekämpfet habe. Es war ein arger Kampf. Aber, – (langsam) Zweye folgen ihm! – Gott, bald tod! denn lange frist’ ich ihm sein Leben nicht! Ich ihm folgen? Auch deshalb schon’ ich dich nicht, wenn du mir nicht meine Franziska gibst. – Noch gehen die Propheten des &lt;pb n="78"/&gt; Himmels vor mir her! Mein Auge sieht sie noch immer. – Ich soll sein Richter seyn? das Amt nehm’ ich willig, nehm’ ich mit Freuden. Um alle Schätze der Welt schlüg’ ich’s nicht aus. Aber sterben! Wie das Vorherwissen so schreklich ist! Doch, Mensch, was ist dein Streben wider Schiksal? Wir können nichts thun, als uns die Wege die es uns zeigt, leicht machen, und das will ich thun. Ich will meine Seele rüsten. &lt;pb n="79"/&gt;</stage>
         </div>
       </div>
       <div type="act">
@@ -1994,8 +1997,8 @@
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
             <p><stage>(allein (geht mit zerrissenen Haaren wild herum.)</stage></p>
+            <p><stage>(Nach einer langen Pause.)</stage> Ha! mein Katelli! Ich seh’ ihn streiten! Streit, braver Junge, streit, wie der Mann unter Tausenden! – Bet zu Gott! Er übermannt dich! Fasse Muth! Engel schüzen dich! Sie brechen dir schon den Lorbeer! – – Wirf ihn nieder und reiß ihm sein Bubenherz heraus! Katelli! Katelli! dein Arm sinkt! Sieg, Sieg dir, Katelli! Sieh, wie er mit den Händen den Erdboden zerreißt! mit den Zähnen Steine zerknirscht! – Eh er sich ermannt, Katelli! – Horch! jezt stößt er seinen lezten Fluch aus! – Wehe dir, Katelli, daß du ihn nicht länger gepeinigt hast! Schon tod! tod? daß er nicht noch einmal sterben kann! <stage>(Sie fällt entkräftet aufs Bette, und richtet sich nach einiger Zeit wieder auf.)</stage> Sey mir willkommen, mein Bester! Du hast rittersam &lt;pb n="80"/&gt; gestritten. Eil in meine Arm; sollst dich erholen! – Wie du so keichst! <stage>(als wenn sie ihn küßt)</stage> Wie dieser Kuß so süß ist, dieser heisse Kuß der Liebe! – Heute noch ist unsre Hochzeit. Weist du’s Lieber? Und kein Priester soll uns dazwischen kommen. <stage>(Nach einer langen Pause.)</stage> Aber sieh! Ein neuer Kampf! Legionen Teufel! Sie reissen sich um seine Seele! Sieh! Schulknaben, sich um eine wurmstichige Haselnuß raufend! – Sie ziehen mit ihm fort! – Teufel hört! Franziska ruft euch! Laßt die andern Verbrecher alle, eine Stunde ruhen! Täglich eine Stunde! und dann über ihn allein! Es ist Pedrillo! Jezt mögt’ ich wünschen, ein Teufel zu seyn! Aber Mädchenarm ist zur Qual seines Gebeins zu schwach! <stage>(sezt sich matt nieder.)</stage></p>
           </sp>
-          <stage>(Nach einer langen Pause.) Ha! mein Katelli! Ich seh’ ihn streiten! Streit, braver Junge, streit, wie der Mann unter Tausenden! – Bet zu Gott! Er übermannt dich! Fasse Muth! Engel schüzen dich! Sie brechen dir schon den Lorbeer! – – Wirf ihn nieder und reiß ihm sein Bubenherz heraus! Katelli! Katelli! dein Arm sinkt! Sieg, Sieg dir, Katelli! Sieh, wie er mit den Händen den Erdboden zerreißt! mit den Zähnen Steine zerknirscht! – Eh er sich ermannt, Katelli! – Horch! jezt stößt er seinen lezten Fluch aus! – Wehe dir, Katelli, daß du ihn nicht länger gepeinigt hast! Schon tod! tod? daß er nicht noch einmal sterben kann! (Sie fällt entkräftet aufs Bette, und richtet sich nach einiger Zeit wieder auf.) Sey mir willkommen, mein Bester! Du hast rittersam &lt;pb n="80"/&gt; gestritten. Eil in meine Arm; sollst dich erholen! – Wie du so keichst! (als wenn sie ihn küßt) Wie dieser Kuß so süß ist, dieser heisse Kuß der Liebe! – Heute noch ist unsre Hochzeit. Weist du’s Lieber? Und kein Priester soll uns dazwischen kommen. (Nach einer langen Pause.) Aber sieh! Ein neuer Kampf! Legionen Teufel! Sie reissen sich um seine Seele! Sieh! Schulknaben, sich um eine wurmstichige Haselnuß raufend! – Sie ziehen mit ihm fort! – Teufel hört! Franziska ruft euch! Laßt die andern Verbrecher alle, eine Stunde ruhen! Täglich eine Stunde! und dann über ihn allein! Es ist Pedrillo! Jezt mögt’ ich wünschen, ein Teufel zu seyn! Aber Mädchenarm ist zur Qual seines Gebeins zu schwach! (sezt sich matt nieder.)</stage>
         </div>
         <div type="scene">
           <head>Zweyter Auftrit.</head>
