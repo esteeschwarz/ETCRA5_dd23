@@ -29,26 +29,23 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person sex="MALE" xml:id="niklas">
-            <persName>Niklas</persName>
-          </person>
-          <person sex="MALE" xml:id="pedrillo">
-            <persName>Pedrillo</persName>
-          </person>
-          <person sex="MALE" xml:id="katelli">
-            <persName>Katelli</persName>
-          </person>
-          <person sex="MALE" xml:id="zisterzius">
-            <persName>Zisterzius</persName>
+          <person sex="MALE" xml:id="der_vermummte">
+            <persName>Der Vermummte</persName>
           </person>
           <person sex="MALE" xml:id="bedienter">
             <persName>Bedienter</persName>
           </person>
+          <person sex="MALE" xml:id="priester">
+            <persName>Priester</persName>
+          </person>
           <person sex="FEMALE" xml:id="kamilla">
             <persName>Kamilla</persName>
           </person>
-          <person sex="MALE" xml:id="priester">
-            <persName>Priester</persName>
+          <person sex="MALE" xml:id="gefangenwärter">
+            <persName>Gefangenwärter</persName>
+          </person>
+          <person sex="MALE" xml:id="zisterzius">
+            <persName>Zisterzius</persName>
           </person>
           <person sex="MALE" xml:id="anton">
             <persName>Anton</persName>
@@ -56,17 +53,20 @@
           <person sex="MALE" xml:id="hieronimus">
             <persName>Hieronimus</persName>
           </person>
-          <person sex="MALE" xml:id="montenegro">
-            <persName>Montenegro</persName>
-          </person>
-          <person sex="MALE" xml:id="der_vermummte">
-            <persName>Der Vermummte</persName>
-          </person>
-          <person sex="MALE" xml:id="gefangenwärter">
-            <persName>Gefangenwärter</persName>
-          </person>
           <person sex="FEMALE" xml:id="franziska">
             <persName>Franziska</persName>
+          </person>
+          <person sex="MALE" xml:id="niklas">
+            <persName>Niklas</persName>
+          </person>
+          <person sex="MALE" xml:id="katelli">
+            <persName>Katelli</persName>
+          </person>
+          <person sex="MALE" xml:id="pedrillo">
+            <persName>Pedrillo</persName>
+          </person>
+          <person sex="MALE" xml:id="montenegro">
+            <persName>Montenegro</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -101,7 +101,7 @@
         <head>Erster Aufzug.</head>
         <div type="scene">
           <head>Erster Auftrit.</head>
-          <stage>Montenegro’s Garten bey dessen Landgut vor Madrit. Buschwerk, Rasenbänke und im Hintergrunde das freye Feld.</stage>
+          <stage>(Montenegro’s Garten bey dessen Landgut vor Madrit. Buschwerk, Rasenbänke und im Hintergrunde das freye Feld.)</stage>
           <stage>Katelli und Montenegro, (beide auf einer Rasenbank sitzend.)</stage>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
@@ -159,7 +159,7 @@
         </div>
         <div type="scene">
           <head>Dritter Auftrit.</head>
-          <stage>Katelli und Anton, (der fortgehen will)</stage>
+          <stage>(Katelli und Anton, (der fortgehen will)</stage>
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
             <p>Bleib, Anton, und schließ mir den Garten zu! – Daß es aber mein Vetter nicht merkt. <stage>(Anton geht.)</stage></p>
@@ -169,14 +169,15 @@
           <head>Vierter Auftrit.</head>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
-            <p><stage>(allein. )</stage></p>
+            <p>(allein.</p>
+            <p>)</p>
             <p>Nicht eher will ich mich sehen lassen, als bis ich mich gefaßt habe; – und fassen will ich mich, muß ich mich! – Sonst so entschlossen, und jezt nichts, als Zweifel um mich her! – Ist mein Trit denn so schwach, daß ich mich von einem nächtlichen Traum sollte umstossen lassen? Ich weiß, sie liebt mich. Das sagt mir ihr warmer Handdruk, ihr feuriger Blik, womit sie mich überschauet, und das Röthen ihres Gesichts, wenn ich sie ansehe. Und Pedrillo? O vielleicht ist er so der gute Mann, als ich ihn für den arglistigen, boshaften halte! – Wie der Argwohn den Menschen trillen kann, wenn er einmal in ihm haushält! – Aber hier hell’ ich mich nicht auf; Täglich hab’ ich das Mädchen vor Augen. Fort, Katelli, fort! Auf eine kurze Zeit wenigstens muß du sie verlassen!</p>
             <p>&lt;pb n="8"/&gt;</p>
           </sp>
         </div>
         <div type="scene">
           <head>Fünfter Auftrit.</head>
-          <stage>Katelli und Anton.</stage>
+          <stage>(Katelli und Anton. )</stage>
           <sp who="#anton">
             <speaker>Anton:</speaker>
             <p>Alles vest verschlossen, lieber Herr, daß auch kein Mäuschen hinein kann.</p>
@@ -317,13 +318,14 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p><stage>(allein, (dem Anton nachrufend)</stage></p>
+            <p>)</p>
             <p>Bleib! Ich kann dort schreiben, oder – gehe nur – Welche arge, böse Krankheit ist die Liebe! Als ein König herrscht sie in unserm Gehirn und keine Macht ist groß genug, ihr Schranken zu setzen.</p>
           </sp>
         </div>
         <div type="scene">
           <head>Siebenter Auftrit.</head>
-          <stage>Katelli. Anton (bringt einen kleinen Tisch, Feder, Papier und Tinte.)</stage>
-          <stage>Katelli (setzt sich auf einer Rasebank nieder und schreibt.)</stage>
+          <stage>(Katelli. Anton (bringt einen kleinen Tisch, Feder, Papier und Tinte.)</stage>
+          <stage>( Katelli (setzt sich auf einer Rasebank nieder und schreibt.)</stage>
           <sp who="#anton">
             <speaker>Anton:</speaker>
             <p>Schönes verwirrtes Zeug wird’s werden! Sein Kopf ist so voll, daß er nicht wissen wird, was er zuerst herausnehmen soll. Was ein schwaches Mädchen nicht kann! Die ganze weite Welt macht so ein Ding zum Gefängniß, und mit dem &lt;pb n="14"/&gt; ernsthaftesten Mann handirt’s und spielt’s, wie mit einer Drathpuppe.</p>
@@ -339,7 +341,7 @@
         </div>
         <div type="scene">
           <head>Achter Auftrit.</head>
-          <stage>Katelli und Franziska. (kömmt aus dem Gebüsch hinter Katelli hervor)</stage>
+          <stage>(Katelli und Franziska. (kömmt aus dem Gebüsch hinter Katelli hervor)</stage>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
             <p>Ich habe dich belauscht, Katelli!</p>
@@ -363,7 +365,7 @@
         </div>
         <div type="scene">
           <head>Neunter Auftrit.</head>
-          <stage>Die vorigen und Anton.</stage>
+          <stage>(Die vorigen und Anton. )</stage>
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
             <p>Trag dies wieder weg, Anton! Ich will allein seyn. <stage>(Anton ab.)</stage></p>
@@ -372,7 +374,7 @@
         </div>
         <div type="scene">
           <head>Zehnter Auftrit.</head>
-          <stage>Katelli. Franziska.</stage>
+          <stage>(Katelli. Franziska. )</stage>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
             <p>Aber du siehst so finster, Katelli? Bin ich dir lästig?</p>
@@ -440,12 +442,13 @@
           <sp who="#anton">
             <speaker>Anton:</speaker>
             <p><stage>(allein. (kömmt von der Gartenhausseite)</stage></p>
+            <p>)</p>
             <p>Die lieben Kinder! wie sie sich so gut sind! das Herz mögte mir springen, wenn ich sie sehe. Aber, aber –</p>
           </sp>
         </div>
         <div type="scene">
           <head>Zwölfter Auftrit.</head>
-          <stage>Anton und Kamilla.</stage>
+          <stage>(Anton und Kamilla. )</stage>
           <sp who="#kamilla">
             <speaker>Kamilla:</speaker>
             <p>Guten Morgen, Alter!</p>
@@ -549,7 +552,7 @@
         </div>
         <div type="scene">
           <head>Vierzehnter Auftrit.</head>
-          <stage>Anton und Montenegro.</stage>
+          <stage>(Anton und Montenegro. )</stage>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
             <p>Was denn hier so allein in der Irre? Wo ist dein Herr? Und meine Tochter, hast du die nicht gesehn?</p>
@@ -598,7 +601,7 @@
         </div>
         <div type="scene">
           <head>Sechszehnter Auftrit.</head>
-          <stage>Montenegro und ein Bedienter.</stage>
+          <stage>(Montenegro und ein Bedienter. )</stage>
           <sp who="#bedienter">
             <speaker>Bedienter:</speaker>
             <p>Der Pater Zisterzius verlangt sie zu sprechen.</p>
@@ -610,7 +613,7 @@
         </div>
         <div type="scene">
           <head>Siebzehnter Auftrit.</head>
-          <stage>Die vorigen und Zisterzius.</stage>
+          <stage>( Die vorigen und Zisterzius. )</stage>
           <sp who="#zisterzius">
             <speaker>Zisterzius:</speaker>
             <p>Entschuldigen sie, daß ich sie so kurz vor Tische beschwere. Ich bitte mir einige geheime Augenblikke aus.</p>
@@ -674,7 +677,7 @@
         </div>
         <div type="scene">
           <head>Achtzehnter Auftrit.</head>
-          <stage>Die vorigen und Anton.</stage>
+          <stage>(Die vorigen und Anton. )</stage>
           <sp who="#anton">
             <speaker>Anton.:</speaker>
             <p><stage>((raunt dem Montenegro etwas in die Ohren.)</stage></p>
@@ -703,7 +706,7 @@
         </div>
         <div type="scene">
           <head>Neunzehnter Auftrit.</head>
-          <stage>Die vorigen, Franziska und Katelli.</stage>
+          <stage>(Die vorigen, Franziska und Katelli. )</stage>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Warum so hitzig? Was ist ihnen?</p>
@@ -727,7 +730,7 @@
         </div>
         <div type="scene">
           <head>Zwanzigster Auftrit.</head>
-          <stage>Montenegro, Franziska und Katelli.</stage>
+          <stage>(Montenegro, Franziska und Katelli. )</stage>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
             <p>Das hieß die Natterzunge ausstrekken, ohne zu stechen! Kinder, er ist kein Priester, ein Betrüger ist er. Dein Anton, Katelli, hat mir das Leben gerettet. Er kannte den Kerl und seine ganze hämische Seele.</p>
@@ -886,8 +889,8 @@
         <head>Zweyter Aufzug.</head>
         <div type="scene">
           <head>Erster Auftrit.</head>
-          <stage>Ein Wohnzimmer des Pedrillo.</stage>
-          <stage>Pedrillo sitzt und schreibt. Niklas kömmt bald in Priesterkleidern dazu.</stage>
+          <stage>(Ein Wohnzimmer des Pedrillo. )</stage>
+          <stage>(Pedrillo sitzt und schreibt. Niklas kömmt bald in Priesterkleidern dazu. )</stage>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
             <p>So emsig?</p>
@@ -1015,12 +1018,12 @@
         </div>
         <div type="scene">
           <head>Zweyter Auftrit.</head>
-          <stage>Pedrillo allein. (auf und niedergehend)
+          <stage>(Pedrillo allein. (auf und niedergehend)
             Bald wird das Meer überschift seyn! Nur eine kleine Sandbank verhindert die Landung noch! (Sezt sich nachdenkend hin) Ich seh’ aber warlich noch nicht ein, wie wir uns unentdekt ihnen nähern wollen! Es ist &lt;pb n="41"/&gt; wahr, der Garten ist zum Verbergen buschicht genug; aber sollten sie nicht auf Sicherheit gedacht haben, da sie wissen, daß der Garten nach der Feldseite offen ist; da sie von dort aus ein jeder, nach Gefallen, beschleichen kann? Und werden sie sich an ihrer eigenen Gesellschaft begnügen? Niklas, Niklas, dein Plan ist zu hitzig gemacht.</stage>
         </div>
         <div type="scene">
           <head>Dritter Auftrit.</head>
-          <stage>Pedrillo, Niklas und Kamilla.</stage>
+          <stage>(Pedrillo, Niklas und Kamilla. )</stage>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
             <p>Da hab’ ich einen hübschen Vogel gefangen. Ich glaube, das Mädchen ist ein Spion.</p>
@@ -1178,7 +1181,7 @@
         </div>
         <div type="scene">
           <head>Vierter Auftrit.</head>
-          <stage>Pedrillo und Niklas.</stage>
+          <stage>(Pedrillo und Niklas. )</stage>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
             <p>Entweder die Hexe ist schlau, oder hat aus Geldgierde oder Dummheit die Wahrheit gesagt. Aber auf beiden Seiten sind wir betrogen; die Zeit ist gewiß schon verplaudert. – Doch machen sie nur, daß wir fertig werden. Hofnung ist noch da – Aller Vermuthung nach, ist heute Nachmittag Hochzeit. Denn Morgens war die Verlobung; dazu war ich, als Zeuge, gebeten.</p>
@@ -1247,7 +1250,7 @@
         </div>
         <div type="scene">
           <head>Vierter Auftrit.</head>
-          <stage>Anton kömmt von der einen Seite mit Stühlen. Ein anderer Bedienter kömmt von der andern Seite; mit Gewehr in der Hand, und trit an den Tisch.</stage>
+          <stage>(Anton kömmt von der einen Seite mit Stühlen. Ein anderer Bedienter kömmt von der andern Seite; mit Gewehr in der Hand, und trit an den Tisch. )</stage>
           <sp who="#anton">
             <speaker>Anton:</speaker>
             <p>Sind deine Leute noch nicht da? Wozu das Zaudern? Sie sind um halb zwey bestellt.</p>
@@ -1267,7 +1270,7 @@
         </div>
         <div type="scene">
           <head>Fünfter Auftrit.</head>
-          <stage>Pedrillo und Niklas.</stage>
+          <stage>(Pedrillo und Niklas. )</stage>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
             <p>Und wenn uns der Teufel noch oben drein seine Garde schikte, so richten wir hier nichts aus.</p>
@@ -1279,8 +1282,8 @@
           <sp who="#pedrillo">
             <speaker>Pedrillo.:</speaker>
             <p><stage>(nach einer Pause)</stage> Nein, nun will ich’s bis aufs Höchste treiben. Willst du mich denn zum Ball machen, womit das Schiksal sein muthwilliges Spiel treiben soll?</p>
+            <p><stage>(Hinter der Bühne ein Geräusch.)</stage></p>
           </sp>
-          <stage>(Hinter der Bühne ein Geräusch.)</stage>
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
             <p>Hören sie? Die Buben tummeln sich schon aus ihrem Hinterhalt heraus. Länger weilen ist für uns Gift. Ich verliere meinen Kopf, wenn ich mein Wort breche. Ich habe gewissere Wege im Sinn. Mögte der Teufel denken, daß man hier so viel Gesindel finden würde. Ich glaube, sie haben ihre halbe Baurschaft aufgeboten.</p>
@@ -1300,21 +1303,22 @@
           <sp who="#niklas">
             <speaker>Niklas:</speaker>
             <p>Wäre doch schlim, wenn aus meinem Besuch bey dem alten Montenegro nicht mehr Honig zu saugen wäre.</p>
+            <p><stage>(Nach einer kleinen Pause kommen einige Wächter hervor und gehen über’s Theater. Pedrillo und Niklas schleichen sich weg.)</stage></p>
+            <p>&lt;pb n="52"/&gt;</p>
           </sp>
-          <stage>(Nach einer kleinen Pause kommen einige Wächter hervor und gehen über’s Theater. Pedrillo und Niklas schleichen sich weg.)
-            &lt;pb n="52"/&gt;</stage>
         </div>
         <div type="scene">
           <head>Sechster Auftrit.</head>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
-            <p><stage>(kömmt von der andern Seite fast mit denen Wächtern zugleich und sezt sich auf einen Stuhl. )</stage></p>
+            <p>(kömmt von der andern Seite fast mit denen Wächtern zugleich und sezt sich auf einen Stuhl.</p>
+            <p>)</p>
             <p>Lieber, guter Tag, wie willkommen bist du mir! Wie mein Blik so ganz aufgeklärt, und mein wankender Trit so vest wird! Mit Freuden geh’ ich jezt ins Grab, denn Sorgen bleiben nicht hinter mir.</p>
           </sp>
         </div>
         <div type="scene">
           <head>Siebenter Auftrit.</head>
-          <stage>Montenegro und Anton, (der aus dem Hintergrunde dazu kömmt.)</stage>
+          <stage>(Montenegro und Anton, (der aus dem Hintergrunde dazu kömmt.)</stage>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
             <p>Das freut mich, Anton, daß du im Dienst deines Herrn so wachsam bist. Eine gute, rechtschafne Seele bist du, und Gott wird’s dir segnen.</p>
@@ -1342,12 +1346,12 @@
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
             <p>Was vermögen wir, wenn wir sollen geprüft werden? Nicht mehr als das Sandkörnchen unter unserm Fusse. – Da kommen meine Kinder. Laß dir nichts gegen sie merken. Es würde sie nur trübsinnig machen.</p>
+            <p><stage>(Anton ab.)</stage></p>
           </sp>
-          <stage>(Anton ab.)</stage>
         </div>
         <div type="scene">
           <head>Achter Auftrit.</head>
-          <stage>Montenegro, Katelli und Franziska (in Reisekleidern.)</stage>
+          <stage>(Montenegro, Katelli und Franziska (in Reisekleidern.)</stage>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
             <p>Der Himmel segne euch meine Kinder! <stage>(faßt sie bey der Hand und sezt sich nieder mit ihnen)</stage> &lt;pb n="54"/&gt; Wenn der Priester nur eilte! Aber, <stage>(sieht nach der Uhr)</stage> er kann noch nicht kommen. An euch fehlt’s nun doch nicht?</p>
@@ -1399,7 +1403,7 @@
         </div>
         <div type="scene">
           <head>Neunter Auftrit.</head>
-          <stage>Die vorigen, Priester, Wache und Anton.</stage>
+          <stage>(Die vorigen, Priester, Wache und Anton. )</stage>
           <sp who="#priester">
             <speaker>Priester:</speaker>
             <p>Ist hier ein gewisser Katelli?</p>
@@ -1531,17 +1535,17 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Gehen will ich mit euch, ihr Diener der Bosheit. O, ich kenne eure Tükke! Pedrillo! – witterst du Unrath, Priester? Ich folge &lt;pb n="59"/&gt; dir, gleich folg’ ich; aber meinen Degen behalt’ ich. Von keinem Priester laß’ ich mich entwafnen.</p>
+            <p><stage>(Wache trit zu, ihm den Degen abzunehmen.)</stage></p>
           </sp>
-          <stage>(Wache trit zu, ihm den Degen abzunehmen.)</stage>
           <sp who="#priester">
             <speaker>Priester.:</speaker>
             <p>Laßt! Er ist seines Verstandes nicht mächtig. Bietet euer Leben nicht muthwillig aus. <stage>(zu Katelli)</stage> Ich will nachsichtig seyn. Aber ich beschwöre sie bey dem Zorn des heiligen Gerichts, daß sie gelassen gehen!</p>
+            <p><stage>(Katelli, Priester und Wache ab.)</stage></p>
           </sp>
-          <stage>(Katelli, Priester und Wache ab.)</stage>
         </div>
         <div type="scene">
           <head>Zehnter Auftrit.</head>
-          <stage>Montenegro. Franziska.</stage>
+          <stage>(Montenegro. Franziska. )</stage>
           <sp who="#franziska">
             <speaker>Franziska.:</speaker>
             <p><stage>(nach einer kleinen Pause mit gebrochner Stimme)</stage> Katelli! – Wo bist du? – mein Katelli!</p>
@@ -1562,7 +1566,7 @@
         </div>
         <div type="scene">
           <head>Eilfter Auftrit.</head>
-          <stage>Die vorigen, Priester und Wache, Franziska entgegen kommend.</stage>
+          <stage>(Die vorigen, Priester und Wache, Franziska entgegen kommend. )</stage>
           <sp who="#franziska">
             <speaker>Franziska.:</speaker>
             <p><stage>(zum Priester)</stage> Ha, Räuber! von dir fordre ich ihn wieder! Wo ist mein Katelli?</p>
@@ -1586,7 +1590,7 @@
         </div>
         <div type="scene">
           <head>Dreyzehnter Auftrit.</head>
-          <stage>Montenegro und Katelli, der plötzlich von hinten auf ihn zuspringt.</stage>
+          <stage>(Montenegro und Katelli, der plötzlich von hinten auf ihn zuspringt. )</stage>
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
             <p>Katelli! deine Tollkühnheit, deine Unbesonnenheit hat keine Schranken.</p>
@@ -1611,7 +1615,7 @@
         </div>
         <div type="scene">
           <head>Vierzehnter Auftrit.</head>
-          <stage>Montenegro und Hieronimus.</stage>
+          <stage>(Montenegro und Hieronimus. )</stage>
           <sp who="#hieronimus">
             <speaker>Hieronimus:</speaker>
             <p>Mein Segen mit ihnen!</p>
@@ -1691,25 +1695,26 @@
           <sp who="#montenegro">
             <speaker>Montenegro:</speaker>
             <p>Ich fürchte jede Sünde, ich fürchte auch diese. – – Sie sollen bey mir bleiben, bis ich ins Grab sinke. Hören sie das ängstliche Schlagen meiner Brust? Es wird bald, bald mit mir aus seyn. Höchstens wenige Tage noch bin ich Bürger dieser argen Welt.</p>
+            <p><stage>(beyde ab.)</stage></p>
+            <p>&lt;pb n="66"/&gt;</p>
           </sp>
-          <stage>(beyde ab.)
-            &lt;pb n="66"/&gt;</stage>
         </div>
       </div>
       <div type="act">
         <head>Vierter Aufzug.</head>
         <div type="scene">
           <head>Erster Auftrit.</head>
-          <stage>Ein Vorsaal in Montenegro’s Schloß, den eine Lampe ganz schwach erleuchtet</stage>
+          <stage>(Ein Vorsaal in Montenegro’s Schloß, den eine Lampe ganz schwach erleuchtet )</stage>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
-            <p><stage>(allein, kurz angezogen, in einen Mantel verhüllt und einen blossen Degen in der Hand haltend. )</stage></p>
+            <p>(allein, kurz angezogen, in einen Mantel verhüllt und einen blossen Degen in der Hand haltend.</p>
+            <p>)</p>
             <p><stage>(Nach dem Gartenfenster zu)</stage> Bald wird der Mond aufgehen, und ich noch ohne dem Mädchen? Muß sie noch leiden lassen, ohne dem Strom meiner Rache freyen Lauf geben zu können? Und Pedrillo? – Gedulde dich, liebe Seele! Er soll büssen! Heute noch! – Wie alles so still ist; alles sich zur Ruhe rüstet! Vom Fürsten an, bis zu dem Wurm, der an seinen Thron nagt; nur ich nicht! Holder Schlaf, du warst oft der Tröster meines schwärmenden Geistes; aber jezt ist deine Hülfe zu schwach. Er hat seine Schranken gesprengt; ist das schäumende wilde Roß, das jedem zu muthig ist. – Wie unter Ungeheur, die auf mich einkrallen, steh’ ich hier! Erbarmer genug um mich her, aber kein Retter! – Was ist doch der Mensch für ein schwaches, furchtsames Ding! Schüchtern und unentschlossen steh’ ich da, und weiß nicht welchen Weg ich wandeln soll. Auf der einen Seite kettet heisse Liebe und tolle &lt;pb n="67"/&gt; Wuth, zu allem bereit, was menschliche Natur noch übersteiget, meinen Fuß; und auf der andern Seite ruft mir der Hang, der allen Menschen angebohren ist, der Hang zum Leben zu: Entfliehe, Katelli! Klimme über Felsen hinweg! – Was soll ich nun thun? Hier harren und mit dem Schiksal hadern, ist mir Trost auf keiner Seite. Soll ich meine Franziska verlassen? Oder geduldig zusehen, wenn man sie in die Wolfsgrube hineinwirft? Nein! Ich will für sie hineinspringen, und mit den tobenden Bestien kämpfen. Oder ich will ihr selbst den Dolch ins Herz rennen, wenn ich sie nicht retten kann, und dann von ihrer welkenden Wange, von ihren erblaßten Lippen den Tod auch für mich abküssen! – Aber warum weil’ ich deshalb hier, wo die Hippe des Todes schon um meinen Kopf herumschwirrt? Er hat mich hereinschlüpfen sehen, und sinnt jezt schon vor der Thür des Schlosses den rauhsten Weg zum Tode für mich aus.</p>
           </sp>
         </div>
         <div type="scene">
           <head>Zweyter Auftrit.</head>
-          <stage>Katelli und Anton.</stage>
+          <stage>(Katelli und Anton. )</stage>
           <sp who="#anton">
             <speaker>Anton:</speaker>
             <p>Endlich find’ ich sie, nachdem ich weit und breit herumgelaufen bin. Um ihres alten Vaters, um die lezten Worte des alten Montenegro’s bitt’ ich sie, retten sie sich.</p>
@@ -1782,7 +1787,7 @@
         </div>
         <div type="scene">
           <head>Vierter Auftrit.</head>
-          <stage>Katelli. (verhüllt sich etwas in Mantel), Pedrillo (kurz angezogen, den Degen unter den Arm haltend und den Huth ins Gesicht gedrükt.)</stage>
+          <stage>(Katelli. (verhüllt sich etwas in Mantel), Pedrillo (kurz angezogen, den Degen unter den Arm haltend und den Huth ins Gesicht gedrükt.)</stage>
           <sp who="#pedrillo">
             <speaker>Pedrillo.:</speaker>
             <p><stage>(Im Hintergrunde der Bühne)</stage> Licht? Ich glaub’, ich find’ ihn. Wenigstens find’ ich hier doch Schutz für Regen und Sturm. <stage>(Nach einer Pause zu Katelli)</stage> Bist du ein Geist, oder wer bist du?</p>
@@ -1854,8 +1859,8 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Es bleibt bey allem, was abgeredet ist.</p>
+            <p><stage>(Es wird im Hintergrunde der Bühne hell.)</stage></p>
           </sp>
-          <stage>(Es wird im Hintergrunde der Bühne hell.)</stage>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
             <p>Was ist da? Wer kömmt?</p>
@@ -1875,8 +1880,8 @@
         </div>
         <div type="scene">
           <head>Vierter Auftrit.</head>
-          <stage>Die Vorigen.</stage>
-          <stage>(Vier Vermummte tragen langsam Schrit vor Schrit einen Sarg in Tüchern. In der andern Hand Fakkeln. Der Sarg ist schwarz und am Dekkel brennt Pedrillo’s Name.)</stage>
+          <stage>(Die Vorigen. )
+            (Vier Vermummte tragen langsam Schrit vor Schrit einen Sarg in Tüchern. In der andern Hand Fakkeln. Der Sarg ist schwarz und am Dekkel brennt Pedrillo’s Name.)</stage>
           <sp who="#pedrillo">
             <speaker>Pedrillo.:</speaker>
             <p>Mein Name? Beym Teufel, wenn die Ahndung träfe; Es fehlt nichts, als daß ich mir selbst aus Verzweiflung den Degen durch den Leib züge! <stage>(läuft verwirrt herum)</stage></p>
@@ -1900,12 +1905,12 @@
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>
             <p><stage>(bey Seite)</stage> Wen doch Gewissen sticht!</p>
+            <p><stage>(Die Leiche ab mit dumpfen murmelnden Gesange.)</stage></p>
           </sp>
-          <stage>(Die Leiche ab mit dumpfen murmelnden Gesange.)</stage>
         </div>
         <div type="scene">
           <head>Fünfter Auftrit.</head>
-          <stage>Katelli und Pedrillo.</stage>
+          <stage>(Katelli und Pedrillo. )</stage>
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p>Eine böse Ahndung.</p>
@@ -1984,14 +1989,14 @@
           <sp who="#katelli">
             <speaker>Katelli:</speaker>
             <p><stage>(allein.)</stage></p>
+            <p><stage>(Nach einer langen Pause.)</stage></p>
+            <p>Gottlob, daß ich den Kampf gekämpfet habe. Es war ein arger Kampf. Aber, – <stage>(langsam)</stage> Zweye folgen ihm! – Gott, bald tod! denn lange frist’ ich ihm sein Leben nicht! Ich ihm folgen? Auch deshalb schon’ ich dich nicht, wenn du mir nicht meine Franziska gibst. – Noch gehen die Propheten des &lt;pb n="78"/&gt; Himmels vor mir her! Mein Auge sieht sie noch immer. – Ich soll sein Richter seyn? das Amt nehm’ ich willig, nehm’ ich mit Freuden. Um alle Schätze der Welt schlüg’ ich’s nicht aus. Aber sterben! Wie das Vorherwissen so schreklich ist! Doch, Mensch, was ist dein Streben wider Schiksal? Wir können nichts thun, als uns die Wege die es uns zeigt, leicht machen, und das will ich thun. Ich will meine Seele rüsten. &lt;pb n="79"/&gt;</p>
           </sp>
-          <stage>(Nach einer langen Pause.)
-            Gottlob, daß ich den Kampf gekämpfet habe. Es war ein arger Kampf. Aber, – (langsam) Zweye folgen ihm! – Gott, bald tod! denn lange frist’ ich ihm sein Leben nicht! Ich ihm folgen? Auch deshalb schon’ ich dich nicht, wenn du mir nicht meine Franziska gibst. – Noch gehen die Propheten des &lt;pb n="78"/&gt; Himmels vor mir her! Mein Auge sieht sie noch immer. – Ich soll sein Richter seyn? das Amt nehm’ ich willig, nehm’ ich mit Freuden. Um alle Schätze der Welt schlüg’ ich’s nicht aus. Aber sterben! Wie das Vorherwissen so schreklich ist! Doch, Mensch, was ist dein Streben wider Schiksal? Wir können nichts thun, als uns die Wege die es uns zeigt, leicht machen, und das will ich thun. Ich will meine Seele rüsten. &lt;pb n="79"/&gt;</stage>
         </div>
       </div>
       <div type="act">
         <head>Fünfter Aufzug.</head>
-        <stage>Ein Gefängniß, welches von einer Lampe, die im Hintergrunde desselben hängt, schwach erleuchtet wird. Auf der Seite, der Thür gegenüber, ein Bette.</stage>
+        <stage>(Ein Gefängniß, welches von einer Lampe, die im Hintergrunde desselben hängt, schwach erleuchtet wird. Auf der Seite, der Thür gegenüber, ein Bette. )</stage>
         <div type="scene">
           <head>Erster Auftrit.</head>
           <sp who="#franziska">
@@ -2002,7 +2007,7 @@
         </div>
         <div type="scene">
           <head>Zweyter Auftrit.</head>
-          <stage>Franziska, Katelli in Priesterkleidern und ein Gefangenwärter.</stage>
+          <stage>(Franziska, Katelli in Priesterkleidern und ein Gefangenwärter. )</stage>
           <sp who="#gefangenwärter">
             <speaker>Gefangenwärter:</speaker>
             <p>Dort auf dem Bette. Aber nehmen sie sich in Acht! Sie raset, oder ist wenigstens auf dem Weg zur Raserey.</p>
@@ -2022,7 +2027,7 @@
         </div>
         <div type="scene">
           <head>Dritter Auftrit.</head>
-          <stage>Franziska und Katelli.</stage>
+          <stage>(Franziska und Katelli. )</stage>
           <sp who="#franziska">
             <speaker>Franziska.:</speaker>
             <p><stage>(Auffahrend und schüchtern sich umsehend. Nach einer langen Pause.)</stage> Wehe, wehe! Sie haben ihn verlohren! – – <stage>(Sanftmüthig)</stage> Seine Seele ist nicht hier! Laßt mich! <stage>(Nach einer Pause. Stark)</stage> Weich Satan, weich! Sieh, ich bin kein schwaches Mädchen! <stage>(zeigt ihm die Hand)</stage> Dolch und Schwert! Und wenn ich streite, streitet mein Katelli mit mir. Katelli! Katelli, zum Kampf!</p>
@@ -2123,8 +2128,8 @@
         </div>
         <div type="scene">
           <head>Vierter Auftrit.</head>
-          <stage>Die Vorigen und Pedrillo.</stage>
-          <stage>(Katelli zieht sich in den dunkelsten Winkel des Gefängnisses bey Franziska’s Bette zurük.</stage>
+          <stage>(Die Vorigen und Pedrillo. )
+            (Katelli zieht sich in den dunkelsten Winkel des Gefängnisses bey Franziska’s Bette zurük.</stage>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
             <p>Nein! Nein! das duld’ ich nicht. Ich bin ein Mädchen. Sein Blik ist Gift.</p>
@@ -2188,7 +2193,7 @@
         </div>
         <div type="scene">
           <head>Fünfter Auftrit.</head>
-          <stage>Franziska und Katelli.</stage>
+          <stage>(Franziska und Katelli. )</stage>
           <sp who="#franziska">
             <speaker>Franziska:</speaker>
             <p>Mein Katelli! Mein Katelli!</p>
@@ -2220,7 +2225,7 @@
         </div>
         <div type="scene">
           <head>Sechster Auftrit.</head>
-          <stage>Die Vorigen und Pedrillo (mit entblößten Degen.)</stage>
+          <stage>(Die Vorigen und Pedrillo (mit entblößten Degen.)</stage>
           <sp who="#pedrillo">
             <speaker>Pedrillo.:</speaker>
             <p>Wie die schwache Hure da liegt, von dem Sturm ihres eigenen Weibergrimms niedergeworfen! Oder wälzet sie sich da aus Aerger, daß sie mir die Kehle nicht zuschnüren kann? <stage>(zu Katelli)</stage> Niederträchtiger, was hast du gelogen? Du sprichst hier nicht mit Kreuzträgern im Beichtstuhl. Wo ist Katelli? Mein Arm will Blut; seins oder deins! Mit einem Wort, ohne Stammlen!</p>
@@ -2231,7 +2236,8 @@
           </sp>
           <sp who="#pedrillo">
             <speaker>Pedrillo:</speaker>
-            <p><stage>(trit zu ihm. )</stage></p>
+            <p>(trit zu ihm.</p>
+            <p>)</p>
           </sp>
           <sp who="#katelli">
             <speaker>Katelli.:</speaker>

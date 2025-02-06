@@ -264,12 +264,24 @@ assign.sp<-function(x,r){
       print("R9")
       return(sp.ezd)
     }
-    # if <p> not includes more than <i>
-    sp.ezd<-paste0("$",p.tx)
+    # if <p> not includes more than <i> i.e. just stage line, brackets already? chk!
+    sp.ezd<-gsub("\n"," ",p.tx)
+    m.kl.first<-grep("^\\(",p.tx)
+    if(length(m.kl.first)==0){
+       sp.ezd<-paste0("(",sp.ezd,")","\n")
+       sp.ezd<-gsub("(\\(\\()","(",sp.ezd)
+       sp.ezd<-gsub("(\\)\\))",")",sp.ezd)
+    }
+    m.kl<-grep("[)(]",p.tx)
+    cat("length lti,ltx,mfirst",l.tx,l.ti,m.kl.first)
+    if(l.tx==l.ti&length(m.kl.first)==0){
+    sp.ezd<-paste0("$",sp.ezd,"\n")
+    print("R10")
+    }
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
-    sp.ezd<-gsub("\n"," ",sp.ezd)
+    #sp.ezd<-gsub("\n"," ",sp.ezd)
     ###################### 15066.critical.pg-78, stage
-    sp.ezd<-c(sp.ezd,"\n")
+    #sp.ezd<-c(sp.ezd,"\n")
     ######################
     print(xml_name(sub))
     print(p.tx)
@@ -286,7 +298,7 @@ assign.sp<-function(x,r){
 ###
 ### test assign
 test.dep<-function(){
-m1<-grep("Vorherwissen",all.elements)
+m1<-grep("Rasebank",all.elements)
 m1
 # critical: 160
 all.elements[m1]
@@ -315,11 +327,16 @@ ezd.lines[1:50]
 
 # removes redundant lines
 m<-ezd.lines=="$"|ezd.lines=="@ *"|ezd.lines==""|
-  ezd.lines=="[ ]{1,10}"|ezd.lines=="[.]{1,2}"|ezd.lines=="\n"
+  ezd.lines=="[ ]{1,10}"|ezd.lines=="[.]{1,2}"|ezd.lines=="\n"|ezd.lines=="("|ezd.lines==")"|
+  ezd.lines==")\n"
 sum(m)
-ezd.lines<-gsub("\n"," ",ezd.lines)
+# 15066
+### preserve inserted linebreaks!
+#ezd.lines<-gsub("\n"," ",ezd.lines)
+###################################
 ezd.lines<-ezd.lines[!m]
 ezd.lines<-gsub("\t","\n",ezd.lines)
+ezd.lines<-gsub(") )",")",ezd.lines)
 for (k in 1:3){
   ezd.lines<-gsub("(^@.+[:])[ \t]{1,2}","\\1\n",ezd.lines)
 }
@@ -334,6 +351,11 @@ ezd.lines[m3]<-paste0(ezd.lines[m3],ezd.lines[m2])
 ezd.lines<-ezd.lines[!m1]
 #ezd.lines[1:100]
 ezd.nl<-gsub("  "," ",ezd.lines)
+repl.dep<-function(){
+  tetext<-'##\n<pb n="10"/>'
+  gsub("[^:]\n<pb","<pb",tetext)
+  
+}
 ezd.nl<-gsub("[^:]\n<pb","<pb",ezd.nl)
 ezd.nl[1:100]
 ezd.nl<-gsub("(:\n<pb.+/>.?)\n","\\1",ezd.nl)
@@ -372,11 +394,22 @@ for (k in 1:length(sp.cor$speaker)){
 ezd.nl.sp<-gsub("\t","\n",ezd.nl.sp)
 
 #wks.
+writetx<-function(tx,outns){
+outns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/test/nltest.txt"
+  writeLines(tx,outns)  
+
+outns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/test/nltest.txt"
+tx<-c("drei","mal","schwarzer\n","kater")
+#writetx(tx,outns)
+#wks., \n linebreaks are preserved/inserted in output
+}
 save.lines<-function(ezd.lines){
   ezd_markup.ns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001"
   ezd_markup_text<-paste0(ezd_markup.ns,".txt")
   writeLines(unlist(ezd.lines),ezd_markup_text)
-  return(list(ezd_markup.ns,ezd_markup_text))
+  writeLines(unlist(ezd.lines),ezd_markup_text)
+#?writetext
+    return(list(ezd_markup.ns,ezd_markup_text))
   }
 ### personal:
 head(ezd.nl.sp,10)
@@ -404,7 +437,21 @@ front<-front[1:2]
 ezd.nl.out<-ezd.nl.l[c(ezd.nl.l[m[4]+1]:ezd.nl.l[length(ezd.nl.l)])]
 ezd.nl.sp.f<-c(front,ezd.nl.sp[ezd.nl.out])
 ### save ezd before fail
-ezd_markup<-save.lines(ezd.nl.sp.f)
+###################################
+# removes redundant lines
+ezd.lines<-ezd.nl.sp.f
+m<-ezd.lines=="$"|ezd.lines=="@ *"|ezd.lines==""|
+  ezd.lines=="[ ]{1,10}"|ezd.lines=="[.]{1,2}"|ezd.lines=="\n"|ezd.lines=="("|ezd.lines==")"|
+  ezd.lines==")\n"
+sum(m)
+# 15066
+### preserve inserted linebreaks!
+#ezd.lines<-gsub("\n"," ",ezd.lines)
+###################################
+ezd.lines<-ezd.lines[!m]
+###################################
+ezd_markup<-save.lines(ezd.lines)
+###################################
 ezd_markup_text<-ezd_markup[[2]]
 ezd_markup.ns<-ezd_markup[[1]]
 #####################
@@ -449,6 +496,7 @@ xml.tx<-readLines(xml.ns)
 m<-grep("&lt|&gt;",xml.tx)
 xml.tx[m]<-gsub("&lt;","<",xml.tx[m])
 xml.tx[m]<-gsub("&gt;",">",xml.tx[m])
+xml.tx[m]<-gsub("p>pb","p><pb",xml.tx[m])
 xmltemp<-tempfile("xmltemp.xml")
 dracor_head<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/dracor_header.xml")
 # insert fixed header
@@ -487,7 +535,7 @@ xml_set_attr(xml,"xml:lang",xmllang)
 #########################################
 write.final.xml<-function(xml,xml.final){
   write_xml(xml,xml.final)
-  write_xml(xml,xml.final)
+ # write_xml(xml,xml.final)
 }
 xml.final<-paste0("~/Documents/GitHub/ETCRA5_dd23/tei/","steltzer_montenegro.final.xml")
 xml.final.dracor<-paste0("~/Documents/GitHub/fork/gerdracor/tei/","steltzer_franziska-montenegro.xml")
