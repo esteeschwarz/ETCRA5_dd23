@@ -68,15 +68,20 @@ assign.sp<-function(x,r){
     h3.tx<-paste0("##",xml_text(sub))
     return(h3.tx)
   }
+  #######################################
+  ### TODO: increase +1
   pb<-xml_attr(sub,"class")=="PageNumber"
     if(!is.na(pb)){
     pb<-xml_text(sub)
     pb<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',xml_text(sub))
     return(pb)
- }
+    }
+  #######################################
   # get speaker and p wo/ declaration
   # pattern <p><b><i> : p,speaker,stage
   # get p
+  p.tx<-xml_text(sub)
+  p.tx<-gsub("\n"," ",p.tx)
   if(xml_name(sub)=="p"){
     # chk if speaker
     p.ur.tx<-xml_text(sub)
@@ -183,31 +188,10 @@ assign.sp<-function(x,r){
       }
     }
   }
-      
-  #     
-  #     p.tx<-xml_text(sub)
-  #     b.tx<-xml_text(b)
-  #     p.tx<-gsub(b.tx[1],"",p.tx)
-  #     b.tx<-gsub("\\.",":",b.tx)
-  #     sp.ezd<-paste0("@",b.tx,p.tx)
-  #     sp.ezd<-gsub("\n"," ",sp.ezd)
-  #     sp.ezd<-gsub(":[ ]{1,2}\t",":\t",sp.ezd)
-  #     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
-  #     return(sp.ezd)
-  #   }
-  #   
-  #   p.tx<-xml_text(sub)
-  #   sp.ezd<-paste0("$",p.tx)
-  #   sp.ezd<-gsub("\n"," ",sp.ezd)
-  #   sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
-  #   return(sp.ezd)
-  # }
   # all kursive stage directions
   # r
-    if(xml_name(sub)=="i"){
-    p.tx<-xml_text(sub)
+  if(xml_name(sub)=="i"){
     sp.ezd<-paste0("$",p.tx)
-    sp.ezd<-gsub("\n"," ",sp.ezd)
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
     print("R5")
     return(sp.ezd)
@@ -215,7 +199,7 @@ assign.sp<-function(x,r){
 # all bold speaker
     b<-xml_find_all(sub,"b")
   if(length(b)>0){
-    p.tx<-xml_text(sub)
+#    p.tx<-xml_text(sub)
     b.tx<-xml_text(b)
     p.tx<-gsub(b.tx[1],"",p.tx)
     b.tx<-gsub("\\.",":",b.tx)
@@ -389,40 +373,14 @@ replace.sp.ids<-function(x){
 head(ezd.nl,10)
 
 ezd.nl.sp<-ezd.nl
-for (k in 1:length(sp.cor$speaker)){
-  if(sp.cor$corrected[k]!=""){
-    m<-grep(sp.cor$speaker[k],ezd.nl.sp)
-    ezd.nl.sp[m]<-gsub(sp.cor$speaker[k],sp.cor$corrected[k],ezd.nl.sp[m])
-  }
-}
-ezd.nl.sp[ms]<-gsub(":","",ezd.nl.sp[ms])
-ezd.nl.sp<-gsub("\t","\n",ezd.nl.sp)
-
-#wks.
-writetx<-function(tx,outns){
-outns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/test/nltest.txt"
-  writeLines(tx,outns)  
-
-outns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/test/nltest.txt"
-tx<-c("drei","mal","schwarzer\n","kater")
-#writetx(tx,outns)
-#wks., \n linebreaks are preserved/inserted in output
-}
-save.lines<-function(ezd.lines){
-  ezd_markup.ns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001"
-  ezd_markup_text<-paste0(ezd_markup.ns,".txt")
-  writeLines(unlist(ezd.lines),ezd_markup_text)
-  writeLines(unlist(ezd.lines),ezd_markup_text)
-#?writetext
-    return(list(ezd_markup.ns,ezd_markup_text))
-  }
 ### personal:
-head(ezd.nl.sp,10)
-m<-grep("\\[I\\]|\\[II\\]|\\[III\\]|\\[IV\\]",ezd.nl.sp)
+head(ezd.nl,10)
+head(ezd.nl.sp,15)
 # split personal list
+m<-grep("\\[I\\]|\\[II\\]|\\[III\\]|\\[IV\\]",ezd.nl.sp)
 p.head<-strsplit(ezd.nl.sp[m[3]+1],"\\.")
 p.head
-p.head<-gsub("^ ","",unlist(p.head))
+p.head<-gsub("(^ )|\n","",unlist(p.head))
 p.head<-p.head[p.head!=""]
 p.head<-strsplit(p.head,",")
 p.head<-abind(lapply(p.head,function(x){x[1:4]}),along = 0)
@@ -438,24 +396,128 @@ front<-unlist(strsplit(front,"\\."))
 front.desc<-c("@title ","@subtitle ","")
 front<-paste0(front.desc,front)
 front<-front[1:2]
+front
 #m
 ezd.nl.out<-ezd.nl.l[c(ezd.nl.l[m[4]+1]:ezd.nl.l[length(ezd.nl.l)])]
 ezd.nl.sp.f<-c(front,ezd.nl.sp[ezd.nl.out])
+### end personal
+###########################################
+ezd.nl.sp<-gsub("\t","\n",ezd.nl.sp.f)
+ezd.temp<-tempfile("ezdramamarkup.txt")
+writeLines(unlist(ezd.nl.sp),ezd.temp)
+ezd.nl.sp<-readLines(ezd.temp)
+head(ezd.nl.sp,10)
+ms<-grep("^@.*[:.]",ezd.nl.sp)
+ms<-grep("^@.*",ezd.nl.sp)
+ezd.nl.sp[ms]
+
+for (k in 1:length(sp.cor$speaker)){
+  if(sp.cor$corrected[k]!=""){
+    m<-grep(sp.cor$speaker[k],ezd.nl.sp)
+    ezd.nl.sp[m]<-gsub(sp.cor$speaker[k],sp.cor$corrected[k],ezd.nl.sp[m])
+  }
+}
+ezd.nl.sp[ms]<-gsub(":",".",ezd.nl.sp[ms])
+#ezd.nl.sp<-gsub("\t","\n",ezd.nl.sp)
+mna<-ezd.nl.sp==""
+ezd.nl.sp<-ezd.nl.sp[!mna]
+ezd.nl.sp<-gsub("^ ?|^\n","",ezd.nl.sp)
+#wks.
+writetx<-function(tx,outns){
+outns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/test/nltest.txt"
+  writeLines(tx,outns)  
+
+outns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/test/nltest.txt"
+tx<-c("drei","mal","schwarzer\n","kater")
+#writetx(tx,outns)
+#wks., \n linebreaks are preserved/inserted in output
+}
+save.lines<-function(ezd.lines){
+  ezd_markup.ns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001"
+  ezd_markup_text<-paste0(ezd_markup.ns,".txt")
+  writeLines(unlist(ezd.lines),ezd_markup_text)
+ # writeLines(unlist(ezd.lines),ezd_markup_text)
+#?writetext
+    return(list(ezd_markup.ns,ezd_markup_text))
+  }
+### personal:
+head(ezd.nl,10)
+head(ezd.nl.sp,10)
+# m<-grep("\\[I\\]|\\[II\\]|\\[III\\]|\\[IV\\]",ezd.nl.sp)
+# # split personal list
+# p.head<-strsplit(ezd.nl.sp[m[3]+1],"\\.")
+# p.head
+# p.head<-gsub("^ ","",unlist(p.head))
+# p.head<-p.head[p.head!=""]
+# p.head<-strsplit(p.head,",")
+# p.head<-abind(lapply(p.head,function(x){x[1:4]}),along = 0)
+# p.person<-p.head[,1]
+# p.head[is.na(p.head)]<-""
+# p.head
+# ezd.nl.l<-1:length(ezd.nl.sp)
+# # front replace
+# m2<-grep("#",ezd.nl.sp[m[1]:m[3]])
+# ezd.nl.sp[m2]<-gsub("#","",ezd.nl.sp[m2])
+# front<-paste0(ezd.nl.sp[m2],collapse = " ")
+# front<-unlist(strsplit(front,"\\."))
+# front.desc<-c("@title ","@subtitle ","")
+# front<-paste0(front.desc,front)
+# front<-front[1:2]
+# #m
+# ezd.nl.out<-ezd.nl.l[c(ezd.nl.l[m[4]+1]:ezd.nl.l[length(ezd.nl.l)])]
+# ezd.nl.sp.f<-c(front,ezd.nl.sp[ezd.nl.out])
 ### save ezd before fail
 ###################################
 # removes redundant lines
-ezd.lines<-ezd.nl.sp.f
+ezd.lines<-ezd.nl.sp
 m<-ezd.lines=="$"|ezd.lines=="@ *"|ezd.lines==""|
   ezd.lines=="[ ]{1,10}"|ezd.lines=="[.]{1,2}"|ezd.lines=="\n"|ezd.lines=="\n\n"|ezd.lines=="("|ezd.lines==")"|ezd.lines==")\n"
 sum(m)
+ezd.lines<-ezd.lines[!m]
+##### TODO shift <pb>
+shift.pb<-function(){
+m<-grep("^<pb",ezd.lines)
+m0<-grep("^<pb",ezd.lines)
+m.1<-m-1
+ezd.lines[m.1]
+m.3<-grepl("^@",ezd.lines[m.1])
+m.3<-(m.3*1-1)*-1
+m.3<-m.3==1
+ezd.lines[m.1][m.3]<-paste0(ezd.lines[m.1][m.3],ezd.lines[m][m.3])
+ezd.lines[m]
+m.3<-grep("^@",ezd.lines[m.1])
+m.4<-m.3-1
+ezd.lines[m.1[m.4]]
+#m<-m[!m.3]
+m.2<-m-2
+m.3<-grepl("^@",ezd.lines[m.2])
+m.3<-(m.3*1-1)*-1
+m.3<-m.3==1
+sum(m.3)
+ezd.lines[m.2][m.3]<-paste0(ezd.lines[m.2][m.3],ezd.lines[m][m.3])
+ezd.lines[m.2]
+#ezd.lines[m.2]<-paste0(ezd.lines[m.2][m.3],ezd.lines[m][m.3])
+m<-m[!m.3]
+m.4<-m-3
+m.3<-grepl("^@",ezd.lines[m.4])
+m.3<-(m.3*1-1)*-1
+m.3<-m.3==1
+sum(m.3)
+ezd.lines[m.4][m.3]<-paste0(ezd.lines[m.4][m.3],ezd.lines[m][m.3])
+ezd.lines[m.4]
+ezd.lines[m0-2]
+ezd.lines.pb<-ezd.lines[!m0]
+m<-grep("<pb",ezd.lines)
+ezd.lines[m]
+}
+#ezd.lines[m.2]<-paste0(ezd.lines[m.2][m.3],ezd.lines[m][m.3])
 # 15066
 ### preserve inserted linebreaks!
 #ezd.lines<-gsub("\n"," ",ezd.lines)
 ###################################
-ezd.lines<-ezd.lines[!m]
 ###################################
 ezd_markup<-save.lines(ezd.lines)
-###################################
+###############################################################################
 ezd_markup_text<-ezd_markup[[2]]
 ezd_markup.ns<-ezd_markup[[1]]
 #####################
