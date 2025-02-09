@@ -1,0 +1,14 @@
+<includeonly><div id="bstand">
+{| align="center" style="margin:0px; padding:0px; margin-bottom:0.5em;width:100%;border: 1px solid; border-color:#e3e3e3; background-color:#f3f3f3; font-size:95%;"
+| rowspan="2" style="width:40px" | [[Bild:Liste.svg]]
+| align="center" | '''{{#if:{{{1|}}}|{{{1}}}:}} {{{2}}}'''<br>{{#if:{{{4|}}}|{{{4}}}}}
+|-
+| align="center" | 
+<span id=pr_bstand></span>
+
+|}
+</div>{{#if:{{{3|}}}|[[Kategorie:{{{3}}}]]}}</includeonly><noinclude>
+{{Vorlagendokumentation}}
+[[Kategorie:Vorlage:Bearbeitungsstand|S]]
+[[Kategorie:Vorlage:Wartung|S]]
+</noinclude>

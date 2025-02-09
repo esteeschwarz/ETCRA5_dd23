@@ -1,0 +1,24 @@
+.indextemplate > tr > td,
+.indextemplate > tbody > tr > td {
+	vertical-align: top;
+}
+.indextemplate .purgelink {
+	clear: both;
+	text-align: center;
+}
+.indextemplate th {
+	font-weight: normal;
+	text-align: left;
+}
+.indextemplate-longfield > th,
+.indextemplate-longfield > td {
+	vertical-align: top;
+}
+@media screen and (max-width: 719px) {
+	.indextemplate,
+	.indextemplate > tbody,
+	.indextemplate > tbody > tr,
+	.indextemplate > tbody > tr > td {
+		display: block;
+	}
+}

@@ -1,0 +1,13 @@
+{{:MediaWiki:Proofreadpage_index_template
+|BILD=[[File:Hb09201 wstest.pdf|page=1|thumb|HB09201]]
+|AUTOR=Helmut Bröker
+|TITEL=[[HB09202]]
+|VERLAG=
+|JAHR=1958
+|ORT=
+|QUELLE=
+|SEITEN=<pagelist/>
+|ER=*custom
+|PROJEKTFORTSCHRITT=HB test correct
+|BEARBEITUNGSSTAND=unkorrigiert
+}}

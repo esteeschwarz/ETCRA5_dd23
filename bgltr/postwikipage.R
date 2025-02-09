@@ -11,25 +11,40 @@ m<-grep("dhiwswiki",cred$q)
 mu<-grep("dhi2wswiki-st",cred$q)
 ma<-grep("dhi2wswiki-admin",cred$q)
 mws<-grep("wikisource",cred$q)
+miad<-grep("mini12wiki-ad",cred$q)
+miguhl<-grep("mini12wiki-guhl",cred$q)
 
 admin<-credit[1]
 ws<-credit[2]
-ifelse(admin==F,username<-cred$bn[mu],username<-cred$bn[ma])
-ifelse(admin==T,password<-cred$pwd[ma],password<-cred$pwd[mu])
-if(ws==T){
-  username<-cred$bn[mws]
-  password<-cred$pwd[mws]
-}
-ifelse(ws==T,mwiki<-cred$url[mws],mwiki<-cred$url[ma])
+mw<-credit[3]
 
-#password<-cred$pwd[m]
-#mwiki<-cred$url[ma]
+mwiki<-cred$url[ma]
+username<-cred$bn[ma]
+password<-cred$pwd[ma]
+
+if(admin==T&ws!="yes"&mw==F)
+  grp<-ma
+if(admin==T&ws!="yes"&mw==T)
+  grp<-miad
+if(admin==F&ws!="yes"&mw==F)
+  grp<-mu
+if(admin==F&ws!="yes"&mw==T)
+  grp<-miguhl
+if(mw==F&ws==5)
+  grp<-mws
+
+username<-cred$bn[grp]
+password<-cred$pwd[grp]
+mwiki<-cred$url[grp]
+
 
 api_url<-mwiki
 mwiki
 
 api_url <- paste0(mwiki,"api.php")
-return(list(url=api_url,username=username,password=password))
+crlist<-list(mwiki=mwiki,url=api_url,username=username,password=password)
+print(crlist)
+return(crlist)
 }
 #########
 #username <- "your-username"
@@ -39,7 +54,7 @@ wiki_login<-function(credit,api_url){
   credits<-get_credit(credit)
   
 # credits<-get_credit(credit=c(admin=T,ws=F))
-# credits<-get_credit(credit=c(admin=F,ws=T))
+ credits<-get_credit(credit=c(admin=T,ws=5,mw=F))
 credits
 api_url<-credits$url
 login_response <- POST(api_url, body = list(
@@ -69,7 +84,7 @@ token_response <- GET(api_url, query = list(
 csrf_token <- content(token_response)$query$tokens$csrftoken
 }
 
-post.page<-function(page.x,inuse,credit){
+post.page<-function(page.x,model,inuse,credit){
   if(inuse==T)
     page.x$content<-paste0("{{Vorlage:inuse}}",page.x$content)
   page.x$content
@@ -77,6 +92,7 @@ api_url<-get_credit(credit)$url
     csrf_token<-wiki_login(credit)
   edit_response <- POST(api_url, body = list(
   action = "edit",
+  contentmodel = model,
   title = page.x$ns,
   text = page.x$content,
   #title = "Testpage",
@@ -91,6 +107,28 @@ edit_result <- content(edit_response)
 print(edit_result)
 return(edit_result)
 }
+set.content.model<-function(page,credit){
+  # Step 4: Set the content model of the page
+  page_title = page
+  content_model = "sanitized-css"
+  api_url<-get_credit(credit)$url
+  csrf_token<-wiki_login(credit)
+  edit_response <- POST(api_url, body = list(
+    action = "changecontentmodel",
+    title = page_title,
+    model= content_model,
+    token= csrf_token,
+    format= "json"
+  ))
+    
+    
+  
+  edit_result <- content(edit_response)
+  print(edit_result)
+  return(edit_result)
+}
+
+
 #admin=T
 del.page<-function(credit,page_name){
 credits<-get_credit(credit)
@@ -155,19 +193,33 @@ x
 
 ######################
 ### HB to dhiws
-page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/ws.hbindex.txt")
+page.x<-list()
+page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/mw.hbindex.txt")
+page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/de.seitenstatus2.txt")
+page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/dhws.styles.css")
 page.x$content<-paste0(page.x$content,collapse = "\n")
 page.x$content
 page.ns<-c("Index:","Hb09201_wstest",".pdf",".txt")
+page.ns<-c("Mediawiki:","Proofreadpage_index_template","",".txt")
+page.ns<-c("Vorlage:","Seitenstatus2","",".txt")
+page.ns<-c("Index/","styles.css","",".txt")
 page.x$ns<-paste0(page.ns[1:3],collapse = "")
 page.x$ns
-credits<-get_credit(credit = c(F,F))
+credits<-get_credit(credit = c(F,4,F))
 credits
 #page_title<-page.x$ns
 #content<-page.x$content
 ####################
-x<-post.page(page.x,inuse = F,credit = c(admin=F,ws=T))
+x<-post.page(page.x,model="sanitized-css",inuse = F,credit = c(T,4,F))
 x
+
+#set css contentmodel
+page.ns<-c("Vorlage:Index/","styles.css","",".txt")
+page.x$ns<-paste0(page.ns[1:3],collapse = "")
+page.x$ns
+set.content.model(page.x$ns,c(T,4,F))
+
+
 }
 ####################
 ### reupload pg 2-14/15-17(@17,18), corrected:
