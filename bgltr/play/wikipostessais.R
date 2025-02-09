@@ -31,6 +31,7 @@ credits<-get_credit(c(F,4,T))
 page<-"MediaWiki:Proofreadpage_index_template"
 page<-"Vorlage:Seitenstatus2"
 page<-"Module:Index template/styles.css"
+page<-"Vorlage:Index/styles.css"
 page<-"Index:Hb09201_wstest.pdf"
 t1<-page.get.content(api,page)
 t1<-page.get.content(api.de,page)
