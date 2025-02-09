@@ -1,0 +1,39 @@
+<includeonly><templatestyles src="Index/styles.css" />
+{| class="indextemplate"
+|-
+| {{{BILD}}}<div class="plainlinks purgelink">[https://de.wikisource.org/w/index.php?title={{urlencode:{{FULLPAGENAME}}}}&action=purge <span class="mw-ui-button mw-ui-progressive">Seitencache leeren (Korrekturstände anzeigen)</span>]</div>
+| <table>
+<!--
+-->{{#if:{{{AUTOR|}}}|<tr><th>Autor</th><td>{{{AUTOR}}}</td></tr>}}<!--
+
+--><tr><th>Titel</th><td>{{{TITEL}}}</td></tr><!--
+
+-->{{#if:{{{VERLAG|}}}|<tr><th>Verlag</th><td>{{{VERLAG}}}</td></tr>}}<!--
+
+-->{{#if:{{{JAHR|}}}|<tr><th>Erscheinungsjahr </th><td>{{{JAHR}}}</td></tr>}}<!--
+
+-->{{#if:{{{ORT|}}}|<tr><th>Erscheinungsort</th><td>{{{ORT}}}</td></tr>}}<!--
+
+--><tr><th>Quelle</th><td>{{{QUELLE}}}</td></tr><!--
+
+--><tr class="indextemplate-longfield"><th>'''Seiten'''</th><td>
+{{{SEITEN}}}
+</td></tr><!--
+
+-->{{#if:{{{ER|}}}|<tr class="indextemplate-longfield"><th>Editionsrichtlinien</th><td>
+{{{ER}}}
+</td></tr>}}<!--
+
+--><tr class="indextemplate-longfield"><th>Projektfortschritt</th>{{#if:{{{PROJEKTFORTSCHRITT|}}}|<td>{{Projektfortschritt|{{{PROJEKTFORTSCHRITT}}}|102}}[[Kategorie:Index|{{{PROJEKTFORTSCHRITT}}}]]|<td class="error">Fehler: Projektkategorie nicht angegeben [[Kategorie:Index|!]]}}</td></tr><!--
+
+-->{{#if:{{{BEARBEITUNGSSTAND|}}}|{{#switch: {{lc:{{{BEARBEITUNGSSTAND}}}}}
+| unvollständig (geplant)
+| unvollständig
+| unkorrigiert
+| korrigiert
+| fertig = [[Kategorie:{{ucfirst:{{lc:{{{BEARBEITUNGSSTAND}}}}}}}]]
+| #default = [[Kategorie:Unbekannter Bearbeitungsstand]]
+}}|<tr class="indextemplate-longfield"><th>&nbsp;</th><td class="error">Fehler: kein Bearbeitungsstand [[Kategorie:Unbekannter Bearbeitungsstand]]</td></tr>}}
+</table>
+|}
+</includeonly><noinclude>{{Dokumentation}}[[Kategorie:Wikisource:Formatvorlage]]</noinclude>

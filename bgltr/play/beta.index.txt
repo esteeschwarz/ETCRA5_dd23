@@ -1,0 +1,30 @@
+{{:MediaWiki:Proofreadpage_index_template
+|Type=book
+|Title=[[Human Rights Act 1998]]
+|Language=en
+|Volume=
+|Author=Parliament of the United Kingdom
+|Translator=
+|Editor=
+|Illustrator=
+|School=
+|Publisher=Stationary Office
+|Address=London
+|Year=1998
+|Key=
+|ISBN=
+|OCLC=
+|LCCN=
+|BNF_ARK=
+|ARC=
+|Source=pdf
+|Image=1
+|Progress=C
+|Pages=<pagelist />
+|Volumes=
+|Remarks=
+|Width=
+|Css=
+|Header=
+|Footer=
+}}

@@ -150,10 +150,23 @@ page.x$ns
 page.x$content<-readLines(paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/wiki/",page.ns[2],page.ns[4]))
 page.x$content<-paste0(page.x$content,collapse = "\n")
 page.x
+x<-post.page(page.x,inuse = T,credit = c(admin=F,ws=T))
+x
+
+######################
+### HB to dhiws
+page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/ws.hbindex.txt")
+page.x$content<-paste0(page.x$content,collapse = "\n")
+page.x$content
+page.ns<-c("Index:","Hb09201_wstest",".pdf",".txt")
+page.x$ns<-paste0(page.ns[1:3],collapse = "")
+page.x$ns
+credits<-get_credit(credit = c(F,F))
+credits
 #page_title<-page.x$ns
 #content<-page.x$content
 ####################
-x<-post.page(page.x,inuse = T,credit = c(admin=F,ws=T))
+x<-post.page(page.x,inuse = F,credit = c(admin=F,ws=T))
 x
 }
 ####################

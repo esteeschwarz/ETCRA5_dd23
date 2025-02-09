@@ -1,0 +1,18 @@
+{{:MediaWiki:Proofreadpage_index_template
+|BILD=[[File:steltzer_montenegro_ggl.pdf|page=1|thumb|Steltzer montenegro]]
+|AUTOR=Anonym ({{=}} [[ADB:Steltzer,_Christian_Julius_Ludwig|Christian Julius Ludwig Steltzer]])
+|TITEL=[[Franziska Montenegro]]
+|VERLAG=
+|JAHR=1781
+|ORT=
+|QUELLE=[https://books.google.de/books?id=CrxTAAAAcAAJ&hl=de&pg=PA14#v=onepage&q&f=false GBS] = {{co|Steltzer_montenegro_ggl.pdf}}
+|SEITEN=<pagelist from=1 to=94 1=1 />
+|ER=*siehe [[Wikisource:Editionsrichtlinien]]
+* überschriebene Buchstaben werden als normale Umlaute (ä, ö, ü) transkribiert
+* langes ſ wird als rundes s wiedergegeben.
+* von einem Punkt (.) gefolgte, größer gedruckte Personennamen (speaker declarations) am Anfang der Zeile werden '''fett''' wiedergegeben
+* nicht umklammerte (...) stage directions (Bühnenanweisungen) werden ''kursiv'' wiedergegeben.
+* Zeilenumbrüche bleiben als einfache Zeilenumbrüche entsprechend der Vorlage erhalten.
+|PROJEKTFORTSCHRITT=Steltzer montenegro
+|BEARBEITUNGSSTAND=unkorrigiert
+}}
