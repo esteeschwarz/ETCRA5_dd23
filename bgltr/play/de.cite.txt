@@ -1,0 +1,12 @@
+<onlyinclude>
+<div id="zitierhilfe" style="clear:both; background-color:#fff;margin-top:5px;padding:5px;border:1px solid darkgray; position:relative; font-size:95%;text-align:left"><span>Empfohlene Zitierweise:<br>{{{Projekt}}}, {{#if:{{{FLAG|}}}|{{{Seite}}}|Seite {{{Seite}}}}}. Digitale Volltext-Ausgabe bei [https://de.wikisource.org Wikisource], URL: <span style="word-break:break-all">{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID:{{FULLPAGENAME}}}}}}</span> (Version vom {{REVISIONDAY}}.{{REVISIONMONTH1}}.{{REVISIONYEAR}})</span></div></onlyinclude>
+
+{{Vorlagendokumentation}}
+<pre><nowiki>
+{{Zitierempfehlung
+|Projekt=
+|Seite=
+}}
+</nowiki></pre>
+
+[[Kategorie:Wikisource:Vorlagen]]

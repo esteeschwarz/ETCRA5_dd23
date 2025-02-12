@@ -107,6 +107,17 @@ edit_result <- content(edit_response)
 print(edit_result)
 return(edit_result)
 }
+credits
+page.get.info<-function(page,credit){
+  #page.x$content
+  api_url<-get_credit(credit)$url
+  url<-paste0(api_url,"?action=query&prop=info&format=json&titles=",page)
+  x<-GET(url)
+  t1<-content(x,"text")
+  library(jsonlite)
+  t2<-fromJSON(t1,simplifyDataFrame = T)
+  print(t2)
+}
 set.content.model<-function(page,credit){
   # Step 4: Set the content model of the page
   page_title = page
@@ -197,12 +208,15 @@ page.x<-list()
 page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/mw.hbindex.txt")
 page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/de.seitenstatus2.txt")
 page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/dhws.styles.css")
+page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/dhws.hb3.txt")
 page.x$content<-paste0(page.x$content,collapse = "\n")
 page.x$content
 page.ns<-c("Index:","Hb09201_wstest",".pdf",".txt")
 page.ns<-c("Mediawiki:","Proofreadpage_index_template","",".txt")
 page.ns<-c("Vorlage:","Seitenstatus2","",".txt")
+page.ns<-c("Vorlage:","Zitierempfehlung","",".txt")
 page.ns<-c("Index/","styles.css","",".txt")
+page.ns<-c("Seite:","Hb09201_wstest",".pdf/3",".txt")
 page.x$ns<-paste0(page.ns[1:3],collapse = "")
 page.x$ns
 credits<-get_credit(credit = c(F,4,F))
@@ -211,6 +225,8 @@ credits
 #content<-page.x$content
 ####################
 x<-post.page(page.x,model="sanitized-css",inuse = F,credit = c(T,4,F))
+x<-post.page(page.x,model="proofread-page",inuse = F,credit = c(F,4,F))
+x<-post.page(page.x,model="wikitext",inuse = F,credit = c(F,4,F))
 x
 
 #set css contentmodel

@@ -25,21 +25,30 @@ page<-"Index:Human_Rights_Act_1998.pdf"
 # r<-content(x,"text")
 page<-"Index:Steltzer_montenegro.pdf"
 page<-"indexTemplate"
-credits<-get_credit(c(F,4,T))
+credits<-get_credit(c(F,4,F))
 
 #raw<-paste0("https://de.wikisource.org/w/index.php?action=raw&format=",format,"&title=",page)
 page<-"MediaWiki:Proofreadpage_index_template"
 page<-"Vorlage:Seitenstatus2"
 page<-"Module:Index template/styles.css"
 page<-"Vorlage:Index/styles.css"
-page<-"Index:Hb09201_wstest.pdf"
+page<-"Seite:Hb09201_wstest.pdf/2"
+page<-"Vorlage:Zitierempfehlung"
+page<-"Seite:Steltzer_montenegro.pdf/77"
+
 t1<-page.get.content(api,page)
 t1<-page.get.content(api.de,page)
 t1<-page.get.content(api.m,page)
 t1<-page.get.content(mwiki.dhm,page)
-writeLines(t1,"~/Documents/GitHub/ETCRA5_dd23/bgltr/play/de.seitenstatus2.txt")
+writeLines(t1,"~/Documents/GitHub/ETCRA5_dd23/bgltr/play/de.cite.txt")
 t1
-
-
-
-
+page<-"Seite:Hb09201_wstest.pdf/2"
+"https://de.wikisource.org/w/api.php?action=query&prop=info&titles=Hauptseite"
+url<-paste0(credits$url,"?action=query&prop=info&format=json&titles=",page)
+x<-GET(url)
+t1<-content(x,"text")
+library(jsonlite)
+t2<-fromJSON(t1,simplifyDataFrame = T)
+t2
+t2<-page.get.info(page,c(F,5,F))
+t2
