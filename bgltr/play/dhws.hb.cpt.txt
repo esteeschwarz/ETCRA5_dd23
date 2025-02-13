@@ -1,0 +1,38 @@
+{{Textdaten
+|AUTOR=[[Helmut Bröker]]
+|TITEL=HB09201
+|SUBTITEL=KUNSTGESPRÄCH. Helmut Bröker in Briefen und Vorträgen 1958-2006.
+|HERKUNFT=off
+|HERAUSGEBER=
+|AUFLAGE=
+|ENTSTEHUNGSJAHR=11958
+|ERSCHEINUNGSJAHR=2025
+|VERLAG=edition rotefadenbuecher
+|ERSCHEINUNGSORT=Berlin
+|ÜBERSETZER=
+|ORIGINALTITEL=
+|ORIGINALSUBTITEL=
+|ORIGINALHERKUNFT=
+|WIKIPEDIA=
+|BILD=
+|QUELLE=
+|INDEXSEITE=Hb09201 wstest.pdf
+|KURZBESCHREIBUNG=
+|SONSTIGES= 
+|BEARBEITUNGSSTAND=unkorrigiert
+|BENUTZERHILFE=on
+}}
+{{BlockSatzStart}}
+{{SeitePR|I|Hb09201 wstest.pdf/1}}
+{{SeitePR|II|Hb09201 wstest.pdf/2}}
+{{SeitePR|III|Hb09201 wstest.pdf/4}}
+{{SeitePR|IV|Hb09201 wstest.pdf/5}}
+{{SeitePR|5|Hb09201 wstest.pdf/6}}
+{{SeitePR|6|Hb09201 wstest.pdf/7}}
+{{SeitePR|7|Hb09201 wstest.pdf/8}}
+{{SeitePR|8|Hb09201 wstest.pdf/9}}
+{{BlockSatzEnd}}
+
+[[Kategorie:1950er Jahre]]
+[[Kategorie:Deutschland]]
+[[Kategorie:Philosophie]]

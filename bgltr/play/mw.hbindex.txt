@@ -1,11 +1,11 @@
 {{:MediaWiki:Proofreadpage_index_template
 |BILD=[[File:Hb09201 wstest.pdf|page=1|thumb|HB09201]]
-|AUTOR=Helmut Bröker ({{=}} [[WS:Bröker,_Helmut|Helmut Bröker]])
+|AUTOR=Helmut Bröker ({{=}} [[Autor/Helmut_Broeker|Helmut Bröker]])
 |TITEL=[[HB09201]]
 |VERLAG=privat
 |JAHR=1958
 |ORT=
-|QUELLE=[https://ws.dh-index.org WS] = [[File:Hb09201 wstest.pdf]]
+|QUELLE=[[File:Hb09201 wstest.pdf]]
 |SEITEN=<pagelist/>
 |ER=*custom
 *test editionsrichtlinien

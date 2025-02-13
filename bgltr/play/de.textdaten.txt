@@ -1,0 +1,83 @@
+<onlyinclude><div id="textdaten" style="float:right;" class="noprint ws-noexport">
+{| width="280px" style="margin:0;margin-left:0.5em;margin-bottom:0.5em;" 
+|-
+|
+{|width="100%" border="1" cellpadding="2" cellspacing="0" style="border-collapse:collapse; border-style:1px solid; border-color:#AAAAAA; background-color:#fff; font-size:100%; color:#191919"
+|-
+! colspan="2" bgcolor="#B0C4DE" | Textdaten
+|- valign="top"  {{#ifeq:{{#expr:{{#if:{{{VORIGER|}}}|0|1}} and {{#if:{{{NÄCHSTER|}}}|0|1}}}}|1|class="hiddenStructure"|}}
+! width="50%" align="left"| {{#if: {{{VORIGER|}}}|[[{{{VORIGER}}}|'''<<<''']]}} || width="50%" align="right"|{{#if: {{{NÄCHSTER|}}}|[[{{{NÄCHSTER}}}|'''>>>''']]}}
+|- valign="top" {{HideIfEmpty|{{{AUTOR|}}}}}
+| width="40%" | Autor: || width="60%" | '''<span id="ws-author">{{{AUTOR|''unbekannt''}}}</span> ''' {{#if:{{{AUTOR}}}||<includeonly>{{NoCat|[[Kategorie:Ohne Autor]]}}</includeonly>}}
+|-valign="top" {{HideIfEmpty|{{{ILLUSTRATOR|}}}}}
+| Illustrator: || {{{ILLUSTRATOR}}}
+|- valign="top"
+| Titel: || '''<span id="ws-title">{{{TITEL|{{PAGENAME}}}}}</span>''' {{#if:{{{TITEL|}}}||<includeonly>{{NoCat|[[Kategorie:Ohne Titel]]}}</includeonly>}}
+|-valign="top" {{HideIfEmpty|{{{SUBTITEL|}}}}}
+| Untertitel: || {{{SUBTITEL}}}
+|-valign="top" {{#ifeq:{{{HERKUNFT}}}|off|class="hiddenStructure"|{{HideIfEmpty|{{{HERKUNFT|}}}}}}}
+| aus: ||  {{#ifeq:{{{HERKUNFT}}}|off|[[:Vorlage:none]]|{{#if:{{{HERKUNFT}}}|{{{HERKUNFT}}}|<includeonly>{{NoCat|[[Kategorie:Ohne Textgrundlage]]}}</includeonly>}}}}
+|-valign="top" {{HideIfEmpty|{{{HERAUSGEBER|}}}}}
+| Herausgeber: || {{{HERAUSGEBER}}}
+|-valign="top" {{HideIfEmpty|{{{AUFLAGE|}}}}}
+| Auflage: || {{{AUFLAGE}}}
+|-valign="top" {{HideIfEmpty|{{{ENTSTEHUNGSJAHR|}}}}}
+| Entstehungsdatum: || {{{ENTSTEHUNGSJAHR}}}
+|-valign="top" {{#ifeq:{{{ERSCHEINUNGSJAHR}}}|off|class="hiddenStructure"|{{HideIfEmpty|{{{ERSCHEINUNGSJAHR|}}}}}}} 
+| Erscheinungsdatum: || {{#ifeq:{{{ERSCHEINUNGSJAHR}}}|off|[[:Vorlage:none]]|{{#if:{{{ERSCHEINUNGSJAHR}}}|<span id="ws-year">{{{ERSCHEINUNGSJAHR}}}</span>|<includeonly>{{NoCat|[[Kategorie:Ohne Erscheinungsjahr]]}}</includeonly>}}}}
+|-valign="top" {{#ifeq:{{{VERLAG}}}|off|class="hiddenStructure"|{{HideIfEmpty|{{{VERLAG|}}}}}}}
+| Verlag: || {{#ifeq:{{{VERLAG}}}|off|[[:Vorlage:none]]|{{#if:{{{VERLAG|}}}|<span id="ws-publisher">{{{VERLAG}}}</span>|<includeonly>{{NoCat|[[Kategorie:Ohne Verlag]]}}</includeonly>}}}}
+|-valign="top" {{HideIfEmpty|{{{DRUCKER|}}}}}
+| Drucker: || | {{{DRUCKER}}}
+|-valign="top" {{HideIfEmpty|{{{ERSCHEINUNGSORT|}}}}}
+| Erscheinungsort: || <span id="ws-place">{{{ERSCHEINUNGSORT}}}</span>
+|-valign="top" {{HideIfEmpty|{{{ÜBERSETZER|}}}}}
+| Übersetzer: || <span id="ws-translator">{{{ÜBERSETZER}}}</span>
+|-valign="top" {{HideIfEmpty|{{{ORIGINALTITEL|}}}}}
+| Originaltitel: || |{{{ORIGINALTITEL}}}
+|-valign="top" {{HideIfEmpty|{{{ORIGINALSUBTITEL|}}}}}
+| Originalsubtitel: || {{{ORIGINALSUBTITEL}}}
+|-valign="top" {{HideIfEmpty|{{{ORIGINALHERKUNFT|}}}}}
+| Originalherkunft: || {{{ORIGINALHERKUNFT}}}
+|-valign="top"
+|Quelle: || <span id="ws-scan">{{{QUELLE}}}</span> {{#if:{{{QUELLE}}}||<includeonly>{{NoCat|[[Kategorie:Ohne Quelle]]}}</includeonly>}}
+|-valign="top" {{HideIfEmpty|{{{KURZBESCHREIBUNG|}}}}}
+| Kurzbeschreibung: || {{{KURZBESCHREIBUNG}}}
+|-valign="top" {{HideIfEmpty|{{{SONSTIGES|}}}}}
+| colspan="2" | {{{SONSTIGES}}}
+|-valign="top" {{HideIfEmpty|{{{WIKIPEDIA|}}}}}
+| colspan="2" | <div class="center">[[Bild:Wikipedia-logo-v2.svg|20px]] [[w:{{{WIKIPEDIA}}}|Artikel in der Wikipedia]]</div>
+|-valign="top" {{HideIfEmpty|{{{GND|}}}}}
+| colspan="2" style="text-align: center;"| Eintrag in der [[:w:Gemeinsame Normdatei|GND]]: [http://d-nb.info/gnd/{{{GND}}} {{{GND}}}]
+|- {{HideIfEmpty|{{{BILD|}}}}}
+! colspan="2" bgcolor="#f9f9f9"  | Bild
+|- {{HideIfEmpty|{{{BILD|}}}}}
+| colspan="2" | <div class="center">[[Bild:{{{BILD}}}|250px]]</div><span id="ws-cover" style="display:none;">{{{BILD}}}</span>
+|- {{#ifeq:{{{BEARBEITUNGSSTAND}}}|off|class="hiddenStructure"|{{HideIfEmpty|{{{BEARBEITUNGSSTAND|}}}}}}}
+! colspan="2" bgcolor="#f9f9f9" | Bearbeitungsstand
+|- {{#ifeq:{{{BEARBEITUNGSSTAND}}}|off|class="hiddenStructure"|{{HideIfEmpty|{{{BEARBEITUNGSSTAND|}}}}}}}
+|colspan="2" align="center"|<includeonly>{{BeStandK|{{{BEARBEITUNGSSTAND}}}}}</includeonly>
+|- {{#ifeq:{{{BEARBEITUNGSSTAND}}}|off|class="hiddenStructure"|{{HideIfEmpty|{{{BEARBEITUNGSSTAND|}}}}}}} 
+|colspan="2"  style="background-color: #f3f3f3;" align="justify" |<includeonly>{{#ifeq:{{{BEARBEITUNGSSTAND}}}|off|[[:Vorlage:none]]|{{#if:{{{BEARBEITUNGSSTAND}}}|{{BeStand|{{{BEARBEITUNGSSTAND}}}}}|{{NoCat|[[Kategorie:Ohne Bearbeitungsstand]]}}</includeonly>}}}}
+|-{{HideIfEmpty|{{{BENUTZERHILFE|}}}}}
+! colspan="2" bgcolor="#f9f9f9" | <span style="font-size:85%; color:#009900">Um eine Seite zu bearbeiten, brauchst du nur auf die entsprechende <nowiki>[</nowiki>Seitenzahl<nowiki>]</nowiki> zu klicken. Weitere Informationen findest du hier: [[Wikisource:Proofread|'''Hilfe''']]</span>
+|- {{HideIfEmpty|{{{INDEXSEITE|}}}}}
+! colspan="2" bgcolor="#f9f9f9" align="center" |<span id="textdaten_index">[[index:{{{INDEXSEITE|}}}|Indexseite]]</span>
+{{ #if: {{{KOPIERVORLAGE|}}} | {{!}}-
+{{!}} colspan="2" style="background-color: #f3f3f3;" align="center"  {{!}}<table class="mw-collapsible mw-collapsed" style="font-size:90%; background-color: transparent;">
+ <tr>
+  <th><span style="color:#606060;">Kopiervorlage</span>&nbsp;&nbsp;</th>
+ </tr>
+ <tr>
+  <td style="font-size:100%;">{{{KOPIERVORLAGE}}}</td>
+ </tr>
+</table>}}
+|}
+|}
+</div><includeonly>
+{{NoCat|[[Kategorie:Werke]]}}
+</includeonly></onlyinclude>
+{{Dokumentation}}
+<noinclude>
+* Siehe auch die Übersichtsseite '''[[Literatur]]''' und die '''[[:Kategorie:Textgattung|Kategorie Textgattung]]''', mit den Hauptkategorien '''[[:Kategorie:Drama|Drama]]''', '''[[:Kategorie:Erzählprosa|Erzählprosa]]''' und '''[[:Kategorie:Sachprosa|Sachprosa]]'''
+</noinclude>

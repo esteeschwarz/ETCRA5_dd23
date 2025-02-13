@@ -207,16 +207,17 @@ x
 page.x<-list()
 page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/mw.hbindex.txt")
 page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/de.seitenstatus2.txt")
-page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/dhws.styles.css")
-page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/dhws.hb3.txt")
+page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/dhws.cite.txt")
+page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/de.textdaten.txt")
 page.x$content<-paste0(page.x$content,collapse = "\n")
 page.x$content
+page.x$content<-"empty"
 page.ns<-c("Index:","Hb09201_wstest",".pdf",".txt")
 page.ns<-c("Mediawiki:","Proofreadpage_index_template","",".txt")
 page.ns<-c("Vorlage:","Seitenstatus2","",".txt")
 page.ns<-c("Vorlage:","Zitierempfehlung","",".txt")
 page.ns<-c("Index/","styles.css","",".txt")
-page.ns<-c("Seite:","Hb09201_wstest",".pdf/3",".txt")
+page.ns<-c("","HB09201","",".txt")
 page.x$ns<-paste0(page.ns[1:3],collapse = "")
 page.x$ns
 credits<-get_credit(credit = c(F,4,F))

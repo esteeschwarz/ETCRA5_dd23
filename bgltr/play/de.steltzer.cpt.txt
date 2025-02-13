@@ -1,0 +1,123 @@
+{{Textdaten
+|AUTOR=[[ADB:Steltzer, Christian Julius Ludwig|Christian Julius Ludwig Steltzer]]
+|TITEL=Franziska Montenegro
+|SUBTITEL=Ein Trauerspiel in fünf Aufzügen
+|HERKUNFT=off
+|HERAUSGEBER=
+|AUFLAGE=
+|ENTSTEHUNGSJAHR=
+|ERSCHEINUNGSJAHR=1781
+|VERLAG=Johann Adam Creutz
+|ERSCHEINUNGSORT=Magdeburg und Leipzig
+|ÜBERSETZER=
+|ORIGINALTITEL=
+|ORIGINALSUBTITEL=
+|ORIGINALHERKUNFT=
+|WIKIPEDIA=
+|BILD=Steltzer Montenegro Zeichnung.jpg
+|QUELLE=[https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10118086-3 MDZ] = {{co|Steltzer_montenegro.pdf}}
+|INDEXSEITE=Steltzer montenegro.pdf
+|KURZBESCHREIBUNG=
+|SONSTIGES={{center|Dies ist der anonym veröffentlichte Erstdruck des Werkes aus dem Jahr 1781.}} 
+|BEARBEITUNGSSTAND=fertig
+|BENUTZERHILFE=on
+}}
+{{BlockSatzStart}}
+{{SeitePR|I|Steltzer montenegro.pdf/1}}
+{{SeitePR|II|Steltzer montenegro.pdf/2}}
+{{SeitePR|III|Steltzer montenegro.pdf/4}}
+{{SeitePR|IV|Steltzer montenegro.pdf/5}}
+{{SeitePR|5|Steltzer montenegro.pdf/6}}
+{{SeitePR|6|Steltzer montenegro.pdf/7}}
+{{SeitePR|7|Steltzer montenegro.pdf/8}}
+{{SeitePR|8|Steltzer montenegro.pdf/9}}
+{{SeitePR|9|Steltzer montenegro.pdf/10}}
+{{SeitePR|10|Steltzer montenegro.pdf/11}}
+{{SeitePR|11|Steltzer montenegro.pdf/12}}
+{{SeitePR|12|Steltzer montenegro.pdf/13}}
+{{SeitePR|13|Steltzer montenegro.pdf/14}}
+{{SeitePR|14|Steltzer montenegro.pdf/15}}
+{{SeitePR|15|Steltzer montenegro.pdf/16}}
+{{SeitePR|16|Steltzer montenegro.pdf/17}}
+{{SeitePR|17|Steltzer montenegro.pdf/18}}
+{{SeitePR|18|Steltzer montenegro.pdf/19}}
+{{SeitePR|19|Steltzer montenegro.pdf/20}}
+{{SeitePR|20|Steltzer montenegro.pdf/21}}
+{{SeitePR|21|Steltzer montenegro.pdf/22}}
+{{SeitePR|22|Steltzer montenegro.pdf/23}}
+{{SeitePR|23|Steltzer montenegro.pdf/24}}
+{{SeitePR|24|Steltzer montenegro.pdf/25}}
+{{SeitePR|25|Steltzer montenegro.pdf/26}}
+{{SeitePR|26|Steltzer montenegro.pdf/27}}
+{{SeitePR|27|Steltzer montenegro.pdf/28}}
+{{SeitePR|28|Steltzer montenegro.pdf/29}}
+{{SeitePR|29|Steltzer montenegro.pdf/30}}
+{{SeitePR|30|Steltzer montenegro.pdf/31}}
+{{SeitePR|31|Steltzer montenegro.pdf/32}}
+{{SeitePR|32|Steltzer montenegro.pdf/33}}
+{{SeitePR|33|Steltzer montenegro.pdf/34}}
+{{SeitePR|34|Steltzer montenegro.pdf/35}}
+{{SeitePR|35|Steltzer montenegro.pdf/36}}
+{{SeitePR|36|Steltzer montenegro.pdf/37}}
+{{SeitePR|37|Steltzer montenegro.pdf/38}}
+{{SeitePR|38|Steltzer montenegro.pdf/39}}
+{{SeitePR|39|Steltzer montenegro.pdf/40}}
+{{SeitePR|40|Steltzer montenegro.pdf/41}}
+{{SeitePR|41|Steltzer montenegro.pdf/42}}
+{{SeitePR|42|Steltzer montenegro.pdf/43}}
+{{SeitePR|43|Steltzer montenegro.pdf/44}}
+{{SeitePR|44|Steltzer montenegro.pdf/45}}
+{{SeitePR|45|Steltzer montenegro.pdf/46}}
+{{SeitePR|46|Steltzer montenegro.pdf/47}}
+{{SeitePR|47|Steltzer montenegro.pdf/48}}
+{{SeitePR|48|Steltzer montenegro.pdf/49}}
+{{SeitePR|49|Steltzer montenegro.pdf/50}}
+{{SeitePR|50|Steltzer montenegro.pdf/51}}
+{{SeitePR|51|Steltzer montenegro.pdf/52}}
+{{SeitePR|52|Steltzer montenegro.pdf/53}}
+{{SeitePR|53|Steltzer montenegro.pdf/54}}
+{{SeitePR|54|Steltzer montenegro.pdf/55}}
+{{SeitePR|55|Steltzer montenegro.pdf/56}}
+{{SeitePR|56|Steltzer montenegro.pdf/57}}
+{{SeitePR|57|Steltzer montenegro.pdf/58}}
+{{SeitePR|58|Steltzer montenegro.pdf/59}}
+{{SeitePR|59|Steltzer montenegro.pdf/60}}
+{{SeitePR|60|Steltzer montenegro.pdf/61}}
+{{SeitePR|61|Steltzer montenegro.pdf/62}}
+{{SeitePR|62|Steltzer montenegro.pdf/63}}
+{{SeitePR|63|Steltzer montenegro.pdf/64}}
+{{SeitePR|64|Steltzer montenegro.pdf/65}}
+{{SeitePR|65|Steltzer montenegro.pdf/66}}
+{{SeitePR|66|Steltzer montenegro.pdf/67}}
+{{SeitePR|67|Steltzer montenegro.pdf/68}}
+{{SeitePR|68|Steltzer montenegro.pdf/69}}
+{{SeitePR|69|Steltzer montenegro.pdf/70}}
+{{SeitePR|70|Steltzer montenegro.pdf/71}}
+{{SeitePR|71|Steltzer montenegro.pdf/72}}
+{{SeitePR|72|Steltzer montenegro.pdf/73}}
+{{SeitePR|73|Steltzer montenegro.pdf/74}}
+{{SeitePR|74|Steltzer montenegro.pdf/75}}
+{{SeitePR|75|Steltzer montenegro.pdf/76}}
+{{SeitePR|76|Steltzer montenegro.pdf/77}}
+{{SeitePR|77|Steltzer montenegro.pdf/78}}
+{{SeitePR|78|Steltzer montenegro.pdf/79}}
+{{SeitePR|79|Steltzer montenegro.pdf/80}}
+{{SeitePR|80|Steltzer montenegro.pdf/81}}
+{{SeitePR|81|Steltzer montenegro.pdf/82}}
+{{SeitePR|82|Steltzer montenegro.pdf/83}}
+{{SeitePR|83|Steltzer montenegro.pdf/84}}
+{{SeitePR|84|Steltzer montenegro.pdf/85}}
+{{SeitePR|85|Steltzer montenegro.pdf/86}}
+{{SeitePR|86|Steltzer montenegro.pdf/87}}
+{{SeitePR|87|Steltzer montenegro.pdf/88}}
+{{SeitePR|88|Steltzer montenegro.pdf/89}}
+{{SeitePR|89|Steltzer montenegro.pdf/90}}
+{{SeitePR|90|Steltzer montenegro.pdf/91}}
+{{SeitePR|91|Steltzer montenegro.pdf/92}}
+{{SeitePR|92|Steltzer montenegro.pdf/93}}
+{{SeitePR|93|Steltzer montenegro.pdf/94}}
+{{BlockSatzEnd}}
+
+[[Kategorie:1780er Jahre]]
+[[Kategorie:Deutschland]]
+[[Kategorie:Neuhochdeutsch]]

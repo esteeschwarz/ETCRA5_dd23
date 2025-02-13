@@ -1,5 +1,5 @@
 <onlyinclude>
-<div id="zitierhilfe" style="clear:both; background-color:#fff;margin-top:5px;padding:5px;border:1px solid darkgray; position:relative; font-size:95%;text-align:left"><span>Empfohlene Zitierweise:<br>{{{Projekt}}}, {{#if:{{{FLAG|}}}|{{{Seite}}}|Seite {{{Seite}}}}}. Digitaler Volltext bei [https://ws.dh-index.org], URL: <span style="word-break:break-all">{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID:{{FULLPAGENAME}}}}}}</span> (Version vom {{REVISIONDAY}}.{{REVISIONMONTH1}}.{{REVISIONYEAR}})</span></div></onlyinclude>
+<div id="zitierhilfe" style="clear:both; background-color:#fff;margin-top:5px;padding:5px;border:1px solid darkgray; position:relative; font-size:95%;text-align:left"><span>Empfohlene Zitierweise:<br>{{{Projekt}}}, {{#if:{{{FLAG|}}}|{{{Seite}}}|Seite {{{Seite}}}}}. Digitaler Volltext bei WS, URL: <span style="word-break:break-all">{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID:{{FULLPAGENAME}}}}}}</span> (Version vom {{REVISIONDAY}}.{{REVISIONMONTH1}}.{{REVISIONYEAR}})</span></div></onlyinclude>
 
 <pre><nowiki>
 {{Zitierempfehlung

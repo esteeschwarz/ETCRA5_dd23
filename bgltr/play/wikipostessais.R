@@ -35,18 +35,20 @@ page<-"Vorlage:Index/styles.css"
 page<-"Seite:Hb09201_wstest.pdf/2"
 page<-"Vorlage:Zitierempfehlung"
 page<-"Seite:Steltzer_montenegro.pdf/77"
-
+page<-"Vorlage:Textdaten"
 t1<-page.get.content(api,page)
 t1<-page.get.content(api.de,page)
 t1<-page.get.content(api.m,page)
 t1<-page.get.content(mwiki.dhm,page)
-writeLines(t1,"~/Documents/GitHub/ETCRA5_dd23/bgltr/play/de.cite.txt")
+writeLines(t1,"~/Documents/GitHub/ETCRA5_dd23/bgltr/play/de.textdaten.txt")
 t1
 page<-"Seite:Hb09201_wstest.pdf/2"
 "https://de.wikisource.org/w/api.php?action=query&prop=info&titles=Hauptseite"
-url<-paste0(credits$url,"?action=query&prop=info&format=json&titles=",page)
+"https://www.mediawiki.org/w/api.php?action=query&list=recentchanges"
+url<-paste0(credits$url,"?action=query&list=recentchanges")
 x<-GET(url)
 t1<-content(x,"text")
+t1
 library(jsonlite)
 t2<-fromJSON(t1,simplifyDataFrame = T)
 t2
