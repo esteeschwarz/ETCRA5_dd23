@@ -191,7 +191,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 1
-1 list(node = <pointer: 0x7fc9c1cbfc90>, doc = <pointer: 0x7fc9c1c1e730>) <i> (zu Montenegro.)
+1 list(node = <pointer: 0x112ceabb0>, doc = <pointer: 0x132f26820>) <i> (zu Montenegro.)
 1 mkrl,letx
 2 20
 3 0
@@ -239,7 +239,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9c1cc1b90>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Anton geht.)
+1 list(node = <pointer: 0x112ceca30>, doc = <pointer: 0x132f26820>) <i> (Anton geht.)
 1 mkrl,letx
 2 0
 3 0
@@ -411,7 +411,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 3
-1 list(node = <pointer: 0x7fc9c1cc7d70>, doc = <pointer: 0x7fc9c1c1e730>) <i> (nach einer kleinen Pause)
+1 list(node = <pointer: 0x112cf12c0>, doc = <pointer: 0x132f26820>) <i> (nach einer kleinen Pause)
 1 mkrl,letx
 2 14
 3 0
@@ -586,7 +586,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9c1ccd900>, doc = <pointer: 0x7fc9c1c1e730>) <i> (etwas hitzig)
+1 list(node = <pointer: 0x112cf4dc0>, doc = <pointer: 0x132f26820>) <i> (etwas hitzig)
 1 mkrl,letx
 2 18
 3 0
@@ -675,7 +675,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 2
-1 list(node = <pointer: 0x7fc9c1ccca10>, doc = <pointer: 0x7fc9c1c1e730>) <i> (nach einer Pause)
+1 list(node = <pointer: 0x112cf6eb0>, doc = <pointer: 0x132f26820>) <i> (nach einer Pause)
 1 mkrl,letx
 2 28
 3 0
@@ -815,7 +815,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 5
-1 list(node = <pointer: 0x7fc9c1cd13f0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (zerreißt das Papier und wirft’s fort)
+1 list(node = <pointer: 0x112cfae10>, doc = <pointer: 0x132f26820>) <i> (zerreißt das Papier und wirft’s fort)
 1 mkrl,letx
 2 (
 3 )
@@ -836,7 +836,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 1
-1 list(node = <pointer: 0x7fc9c1cd1820>, doc = <pointer: 0x7fc9c1c1e730>) <i> (geht ab.)
+1 list(node = <pointer: 0x112cfb250>, doc = <pointer: 0x132f26820>) <i> (geht ab.)
 1 mkrl,letx
 2 0
 3 0
@@ -884,7 +884,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9c1cd2690>, doc = <pointer: 0x7fc9c1c1e730>) <i> (vor sich)
+1 list(node = <pointer: 0x112cfc040>, doc = <pointer: 0x132f26820>) <i> (vor sich)
 1 mkrl,letx
 2 (
 3 )
@@ -905,7 +905,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 5
-1 list(node = <pointer: 0x7fc9c1cd2af0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Sie fällt ihm um den Hals)
+1 list(node = <pointer: 0x112cfc4a0>, doc = <pointer: 0x132f26820>) <i> (Sie fällt ihm um den Hals)
 1 mkrl,letx
 2 3
 3 0
@@ -964,7 +964,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9c1cd3b80>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Anton ab.)
+1 list(node = <pointer: 0x112cfd530>, doc = <pointer: 0x132f26820>) <i> (Anton ab.)
 1 mkrl,letx
 2 1
 3 0
@@ -1023,7 +1023,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 1
-1 list(node = <pointer: 0x7fc9c1cd60f0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (sezt sich)
+1 list(node = <pointer: 0x112cff120>, doc = <pointer: 0x132f26820>) <i> (sezt sich)
 1 mkrl,letx
 2 38
 3 0
@@ -1207,7 +1207,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 5
-1 list(node = <pointer: 0x7fc9c1cd9fb0>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9c1cda180>, doc = <pointer: 0x7fc9c1c1e730>) <i> (steht auf) (gehen Hand in Hand ab.)
+1 list(node = <pointer: 0x112c12b40>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x1165cc4b0>, doc = <pointer: 0x132f26820>) <i> (steht auf) (gehen Hand in Hand ab.)
 1 mkrl,letx
 2 0
 3 0
@@ -1474,7 +1474,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 7
-1 list(node = <pointer: 0x7fc9eca3f460>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9eca3f630>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9eca3f860>, doc = <pointer: 0x7fc9c1c1e730>) <i> (vor sich) (laut) (er nimmt ein Goldstük aus der Tasche)
+1 list(node = <pointer: 0x1165d1bb0>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x1165d1d80>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x1165d1fb0>, doc = <pointer: 0x132f26820>) <i> (vor sich) (laut) (er nimmt ein Goldstük aus der Tasche)
 1 mkrl,letx
 2 33
 3 0
@@ -1537,7 +1537,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 1
-1 list(node = <pointer: 0x7fc9eca309c0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (gibt’s ihr)
+1 list(node = <pointer: 0x1165d2bf0>, doc = <pointer: 0x132f26820>) <i> (gibt’s ihr)
 1 mkrl,letx
 2 15
 3 0
@@ -1651,7 +1651,7 @@
 1 #R3gsub.bi.re
 2 Mont.
 1 1
-1 list(node = <pointer: 0x7fc995d1f9b0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (will gehen)
+1 list(node = <pointer: 0x1165d6a10>, doc = <pointer: 0x132f26820>) <i> (will gehen)
 1 mkrl,letx
 2 24
 3 0
@@ -1754,7 +1754,7 @@
 1 #R3gsub.bi.re
 2 Mont.
 1 8
-1 list(node = <pointer: 0x7fc995d21150>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc995d212d0>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc995d21450>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Hebt ein Stükchen Papier auf) (liest. Nach einer Pause) (Anton ab.)
+1 list(node = <pointer: 0x1165d8820>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x1165d89f0>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x1165d8c00>, doc = <pointer: 0x132f26820>) <i> (Hebt ein Stükchen Papier auf) (liest. Nach einer Pause) (Anton ab.)
 1 mkrl,letx
 2 2
 3 1
@@ -2201,7 +2201,7 @@
 1 #R3gsub.bi.re
 2 Zisterzius.
 1 18
-1 list(node = <pointer: 0x7fc995d0b4f0>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc995d0b6f0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Im gehen vor sich) (ab. und nach einiger Zeit gehen die Bedienten, die kein Geschäft für sich sehen, auch ab.)
+1 list(node = <pointer: 0x1165e41f0>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x1165e4420>, doc = <pointer: 0x132f26820>) <i> (Im gehen vor sich) (ab. und nach einiger Zeit gehen die Bedienten, die kein Geschäft für sich sehen, auch ab.)
 1 mkrl,letx
 2 4
 3 4
@@ -2818,7 +2818,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 1
-1 list(node = <pointer: 0x7fc995d09cc0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (steht auf)
+1 list(node = <pointer: 0x1165f2e30>, doc = <pointer: 0x132f26820>) <i> (steht auf)
 1 mkrl,letx
 2 (
 3 )
@@ -2839,7 +2839,7 @@
 1 #R3gsub.bi.re
 2 Niklas.
 1 2
-1 list(node = <pointer: 0x7fc995d0a040>, doc = <pointer: 0x7fc9c1c1e730>) <i> (auf sich zeigend)
+1 list(node = <pointer: 0x1165f3260>, doc = <pointer: 0x132f26820>) <i> (auf sich zeigend)
 1 mkrl,letx
 2 9
 3 0
@@ -2956,7 +2956,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 3
-1 list(node = <pointer: 0x7fc995d07320>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc995d074f0>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc995d07750>, doc = <pointer: 0x7fc9c1c1e730>) <i> (vor sich) (laut) (Nach einer Pause)
+1 list(node = <pointer: 0x1165f5400>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x1165f55d0>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x1165f5830>, doc = <pointer: 0x132f26820>) <i> (vor sich) (laut) (Nach einer Pause)
 1 mkrl,letx
 2 52
 3 0
@@ -3019,7 +3019,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 2
-1 list(node = <pointer: 0x7fc995d08f50>, doc = <pointer: 0x7fc9c1c1e730>) <i> (spricht Franziska nach)
+1 list(node = <pointer: 0x1165f7060>, doc = <pointer: 0x132f26820>) <i> (spricht Franziska nach)
 1 mkrl,letx
 2 55
 3 0
@@ -3108,7 +3108,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 5
-1 list(node = <pointer: 0x7fc9a33f4510>, doc = <pointer: 0x7fc9c1c1e730>) <i> (geht höhnisch lächelnd auf und nieder)
+1 list(node = <pointer: 0x1165f9120>, doc = <pointer: 0x132f26820>) <i> (geht höhnisch lächelnd auf und nieder)
 1 mkrl,letx
 2 31
 3 0
@@ -3344,11 +3344,11 @@
 8 20
 9 4
 10 1
-1 304 Pedrillo. <p> Pedrillo. (zu Niklas) Ich glaube, sie haben meine eigenen Leute schon vergiftet! – (vor sich) Ich will euch aber zur Reue dringen!
+1 304 Pedrillo. <p> Pedrillo. (zu Niklas) Ich glaube, sie haben meine eigenen Leute schon vergiftet! – (vor sich) Ich will euch aber zur Reue bringen!
 1 Pedrillo.
 2 Pedrillo.
 1 tfirst==bold
-1 304 <sp> Pedrillo. <p>  (zu Niklas) Ich glaube, sie haben meine eigenen Leute schon vergiftet! – (vor sich) Ich will euch aber zur Reue dringen! 
+1 304 <sp> Pedrillo. <p>  (zu Niklas) Ich glaube, sie haben meine eigenen Leute schon vergiftet! – (vor sich) Ich will euch aber zur Reue bringen! 
 1 gsub.bi
 2 (zu Niklas)
 3 (vor sich)
@@ -3360,7 +3360,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 2
-1 list(node = <pointer: 0x7fc9a33137f0>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a3324360>, doc = <pointer: 0x7fc9c1c1e730>) <i> (zu Niklas) (vor sich)
+1 list(node = <pointer: 0x1165ff790>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x1165ff980>, doc = <pointer: 0x132f26820>) <i> (zu Niklas) (vor sich)
 1 mkrl,letx
 2 1
 3 0
@@ -3456,7 +3456,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 4
-1 list(node = <pointer: 0x7fc9a33f6900>, doc = <pointer: 0x7fc9c1c1e730>) <i> (dreht sich um und lacht)
+1 list(node = <pointer: 0x112d4aa50>, doc = <pointer: 0x132f26820>) <i> (dreht sich um und lacht)
 1 mkrl,letx
 2 (
 3 )
@@ -3477,7 +3477,7 @@
 1 #R3gsub.bi.re
 2 Niklas.
 1 1
-1 list(node = <pointer: 0x7fc9a33f6c80>, doc = <pointer: 0x7fc9c1c1e730>) <i> (zu Pedrillo)
+1 list(node = <pointer: 0x112d84160>, doc = <pointer: 0x132f26820>) <i> (zu Pedrillo)
 1 mkrl,letx
 2 55
 3 0
@@ -3512,7 +3512,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 3
-1 list(node = <pointer: 0x7fc9a33f31f0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (streichelt ihr das Gesicht)
+1 list(node = <pointer: 0x112d979e0>, doc = <pointer: 0x132f26820>) <i> (streichelt ihr das Gesicht)
 1 mkrl,letx
 2 33
 3 0
@@ -3545,11 +3545,11 @@
 2 83
 3 0
 4 1
-1 320 Kamilla. <p> Kamilla. Wenn ich das nicht einmal hätte erfahren sollen! Doch, wer weiß auch? Es ist wohl heute Verlobung, wenn sie so in der Stille gehalten, werden kann. Da ist mit dem Kleidern gekramt; da ist das Haus von der Herrschaft soviel durchlaufen! Aber sie haben ja alle Leute fortgeschickt! Wer sollte denn aufwarten? Anton und noch so ein Paar steife Graubärte sind zu Hause geblieben; und die werden’s doch nicht ausmachen? Man erfährt auch gar nichts. Es ist jezt recht arg in unserm Hause. Und der alte Anton ist gegen mich der Allerschlimste.
+1 320 Kamilla. <p> Kamilla. Wenn ich das nicht einmal hätte erfahren sollen! Doch, wer weiß auch? Es ist wohl heute Verlobung, wenn sie so in der Stille gehalten werden kann. Da ist mit dem Kleidern gekramt; da ist das Haus von der Herrschaft soviel durchlaufen! Aber sie haben ja alle Leute fortgeschickt! Wer sollte denn aufwarten? Anton und noch so ein Paar steife Graubärte sind zu Hause geblieben; und die werden’s doch nicht ausmachen? Man erfährt auch gar nichts. Es ist jezt recht arg in unserm Hause. Und der alte Anton ist gegen mich der Allerschlimste.
 1 Kamilla.
 2 Kamilla.
 1 tfirst==bold
-1 320 <sp> Kamilla. <p>  Wenn ich das nicht einmal hätte erfahren sollen! Doch, wer weiß auch? Es ist wohl heute Verlobung, wenn sie so in der Stille gehalten, werden kann. Da ist mit dem Kleidern gekramt; da ist das Haus von der Herrschaft soviel durchlaufen! Aber sie haben ja alle Leute fortgeschickt! Wer sollte denn aufwarten? Anton und noch so ein Paar steife Graubärte sind zu Hause geblieben; und die werden’s doch nicht ausmachen? Man erfährt auch gar nichts. Es ist jezt recht arg in unserm Hause. Und der alte Anton ist gegen mich der Allerschlimste. 
+1 320 <sp> Kamilla. <p>  Wenn ich das nicht einmal hätte erfahren sollen! Doch, wer weiß auch? Es ist wohl heute Verlobung, wenn sie so in der Stille gehalten werden kann. Da ist mit dem Kleidern gekramt; da ist das Haus von der Herrschaft soviel durchlaufen! Aber sie haben ja alle Leute fortgeschickt! Wer sollte denn aufwarten? Anton und noch so ein Paar steife Graubärte sind zu Hause geblieben; und die werden’s doch nicht ausmachen? Man erfährt auch gar nichts. Es ist jezt recht arg in unserm Hause. Und der alte Anton ist gegen mich der Allerschlimste. 
 1 gsub.bi
 2 Kamilla.
 1 #R3gsub.bi.re
@@ -3593,7 +3593,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 3
-1 list(node = <pointer: 0x7fc9a33f2580>, doc = <pointer: 0x7fc9c1c1e730>) <i> (fängt an sich anzuziehen.)
+1 list(node = <pointer: 0x112d90990>, doc = <pointer: 0x132f26820>) <i> (fängt an sich anzuziehen.)
 1 mkrl,letx
 2 35
 3 0
@@ -3628,7 +3628,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 2
-1 list(node = <pointer: 0x7fc9a33f2d20>, doc = <pointer: 0x7fc9c1c1e730>) <i> (gibt ihr Geld)
+1 list(node = <pointer: 0x112d726d0>, doc = <pointer: 0x132f26820>) <i> (gibt ihr Geld)
 1 mkrl,letx
 2 (
 3 )
@@ -3669,7 +3669,7 @@
 1 #R3gsub.bi.re
 2 Kamilla.
 1 7
-1 list(node = <pointer: 0x7fc9a33f0e00>, doc = <pointer: 0x7fc9c1c1e730>) <i> (sieht die ganze Scene durch das Geld an)
+1 list(node = <pointer: 0x112d4d660>, doc = <pointer: 0x132f26820>) <i> (sieht die ganze Scene durch das Geld an)
 1 mkrl,letx
 2 18
 3 0
@@ -3780,7 +3780,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 1
-1 list(node = <pointer: 0x7fc9a33eea60>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a33eec40>, doc = <pointer: 0x7fc9c1c1e730>) <i> (vor sich) (laut)
+1 list(node = <pointer: 0x112d78d50>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112d78f30>, doc = <pointer: 0x132f26820>) <i> (vor sich) (laut)
 1 mkrl,letx
 2 (
 3 )
@@ -3801,7 +3801,7 @@
 1 #R3gsub.bi.re
 2 Kamilla.
 1 6
-1 list(node = <pointer: 0x7fc9a33ef070>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Sieht das Geld in der Hand an)
+1 list(node = <pointer: 0x112d721b0>, doc = <pointer: 0x132f26820>) <i> (Sieht das Geld in der Hand an)
 1 mkrl,letx
 2 35
 3 0
@@ -3955,11 +3955,11 @@
 2 79
 3 0
 4 1
-1 347 Niklas. <p> Niklas. Hören sie nur weiter. Wir warten alsdenn, bis sie auf ein Häuschen beysammen sind; bis der Pfaff sie einsegnen will, damit sie die Trauung und die Leichenpredigt für ein Geld haben. Husch! springen wir hervor. Das Unerwartete wird sie wehrlos machen. Der Pfaff wird froh seyn, wenn er mit dem Leben davon kömmt, und die alten Bedienten, diese dürren klapperichten Gerippe sind leicht [48] aufgerieben, wenn sie uns in die Quere kommen. Ich dächte durch sechs und wenn’s auch noch mehrere sind, hätten wir uns schon ehr durchgeschlagen.
+1 347 Niklas. <p> Niklas. Hören sie nur weiter. Wir warten alsdenn, bis sie auf ein Häufchen beysammen sind; bis der Pfaff sie einsegnen will, damit sie die Trauung und die Leichenpredigt für ein Geld haben. Husch! springen wir hervor. Das Unerwartete wird sie wehrlos machen. Der Pfaff wird froh seyn, wenn er mit dem Leben davon kömmt, und die alten Bedienten, diese dürren klapperichten Gerippe sind leicht [48] aufgerieben, wenn sie uns in die Quere kommen. Ich dächte durch sechs und wenn’s auch noch mehrere sind, hätten wir uns schon ehr durchgeschlagen.
 1 Niklas.
 2 Niklas.
 1 tfirst==bold
-1 347 <sp> Niklas. <p>  Hören sie nur weiter. Wir warten alsdenn, bis sie auf ein Häuschen beysammen sind; bis der Pfaff sie einsegnen will, damit sie die Trauung und die Leichenpredigt für ein Geld haben. Husch! springen wir hervor. Das Unerwartete wird sie wehrlos machen. Der Pfaff wird froh seyn, wenn er mit dem Leben davon kömmt, und die alten Bedienten, diese dürren klapperichten Gerippe sind leicht [48] aufgerieben, wenn sie uns in die Quere kommen. Ich dächte durch sechs und wenn’s auch noch mehrere sind, hätten wir uns schon ehr durchgeschlagen. 
+1 347 <sp> Niklas. <p>  Hören sie nur weiter. Wir warten alsdenn, bis sie auf ein Häufchen beysammen sind; bis der Pfaff sie einsegnen will, damit sie die Trauung und die Leichenpredigt für ein Geld haben. Husch! springen wir hervor. Das Unerwartete wird sie wehrlos machen. Der Pfaff wird froh seyn, wenn er mit dem Leben davon kömmt, und die alten Bedienten, diese dürren klapperichten Gerippe sind leicht [48] aufgerieben, wenn sie uns in die Quere kommen. Ich dächte durch sechs und wenn’s auch noch mehrere sind, hätten wir uns schon ehr durchgeschlagen. 
 1 gsub.bi
 2 Niklas.
 1 #R3gsub.bi.re
@@ -4064,7 +4064,7 @@
 1 #R3gsub.bi.re
 2 Niklas.
 1 3
-1 list(node = <pointer: 0x7fc9a33e4b60>, doc = <pointer: 0x7fc9c1c1e730>) <i> (verbirgt sich mit Pedrillo)
+1 list(node = <pointer: 0x112dfb350>, doc = <pointer: 0x132f26820>) <i> (verbirgt sich mit Pedrillo)
 1 mkrl,letx
 2 (
 3 )
@@ -4085,7 +4085,7 @@
 1 #R3gsub.bi.re
 2 Niklas.
 1 1
-1 list(node = <pointer: 0x7fc9a33e5d10>, doc = <pointer: 0x7fc9c1c1e730>) <i> (verbergen sich)
+1 list(node = <pointer: 0x112dfc500>, doc = <pointer: 0x132f26820>) <i> (verbergen sich)
 1 mkrl,letx
 2 1
 3 0
@@ -4144,7 +4144,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 7
-1 list(node = <pointer: 0x7fc9a33e1af0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Geht ab auf der Seite, wo er hergekommen)
+1 list(node = <pointer: 0x112dfe3a0>, doc = <pointer: 0x132f26820>) <i> (Geht ab auf der Seite, wo er hergekommen)
 1 mkrl,letx
 2 (
 3 )
@@ -4165,7 +4165,7 @@
 1 #R3gsub.bi.re
 2 Bedienter.
 1 7
-1 list(node = <pointer: 0x7fc9a33e0cf0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (der bald drauf auf der andern Seite abgeht)
+1 list(node = <pointer: 0x112dfe7b0>, doc = <pointer: 0x132f26820>) <i> (der bald drauf auf der andern Seite abgeht)
 1 mkrl,letx
 2 3
 3 3
@@ -4217,7 +4217,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 2
-1 list(node = <pointer: 0x7fc9a33df330>, doc = <pointer: 0x7fc9c1c1e730>) <i> (nach einer Pause)
+1 list(node = <pointer: 0x112ddc310>, doc = <pointer: 0x132f26820>) <i> (nach einer Pause)
 1 mkrl,letx
 2 (
 3 )
@@ -4421,7 +4421,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 1
-1 list(node = <pointer: 0x7fc9a33d8fc0>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a33d9190>, doc = <pointer: 0x7fc9c1c1e730>) <i> (vor sich) (laut)
+1 list(node = <pointer: 0x112de1380>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112de1550>, doc = <pointer: 0x132f26820>) <i> (vor sich) (laut)
 1 mkrl,letx
 2 30
 3 0
@@ -4478,7 +4478,7 @@
 1 #R3gsub.bi.re
 2 Monten.
 1 13
-1 list(node = <pointer: 0x7fc9a33d7390>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a33d6ae0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (faßt sie bey der Hand und sezt sich nieder mit ihnen) (sieht nach der Uhr)
+1 list(node = <pointer: 0x112de2530>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112de2e30>, doc = <pointer: 0x132f26820>) <i> (faßt sie bey der Hand und sezt sich nieder mit ihnen) (sieht nach der Uhr)
 1 mkrl,letx
 2 20
 3 0
@@ -4778,7 +4778,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 3
-1 list(node = <pointer: 0x7fc9a33cfbf0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Sie fällt schwach über.)
+1 list(node = <pointer: 0x112de8bb0>, doc = <pointer: 0x132f26820>) <i> (Sie fällt schwach über.)
 1 mkrl,letx
 2 (
 3 )
@@ -4799,7 +4799,7 @@
 1 #R3gsub.bi.re
 2 Priester.
 1 3
-1 list(node = <pointer: 0x7fc9a33cfff0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (indem Katelli nachdenkend steht)
+1 list(node = <pointer: 0x112de8fb0>, doc = <pointer: 0x132f26820>) <i> (indem Katelli nachdenkend steht)
 1 mkrl,letx
 2 (
 3 )
@@ -4854,7 +4854,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 10
-1 list(node = <pointer: 0x7fc9a33d0b60>, doc = <pointer: 0x7fc9c1c1e730>) <i> (sieht sich nach Franziska um, die matt auf dem Stuhl sizt.)
+1 list(node = <pointer: 0x112de9b20>, doc = <pointer: 0x132f26820>) <i> (sieht sich nach Franziska um, die matt auf dem Stuhl sizt.)
 1 mkrl,letx
 2 (
 3 )
@@ -4875,7 +4875,7 @@
 1 #R3gsub.bi.re
 2 Monten.
 1 6
-1 list(node = <pointer: 0x7fc9a33d0fe0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (weinend und Franziska immer im Arm habend)
+1 list(node = <pointer: 0x112de9fa0>, doc = <pointer: 0x132f26820>) <i> (weinend und Franziska immer im Arm habend)
 1 mkrl,letx
 2 (
 3 (
@@ -4920,7 +4920,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 4
-1 list(node = <pointer: 0x7fc9a33ce2c0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (fällt ihm in den Arm)
+1 list(node = <pointer: 0x112deb6a0>, doc = <pointer: 0x132f26820>) <i> (fällt ihm in den Arm)
 1 mkrl,letx
 2 23
 3 0
@@ -4955,7 +4955,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 4
-1 list(node = <pointer: 0x7fc9a33cea00>, doc = <pointer: 0x7fc9c1c1e730>) <i> (faßt ihn vor die Brust)
+1 list(node = <pointer: 0x112debde0>, doc = <pointer: 0x132f26820>) <i> (faßt ihn vor die Brust)
 1 mkrl,letx
 2 7
 3 0
@@ -4989,11 +4989,11 @@
 3 10
 4 4
 5 1
-1 436 Priester. <p> Priester. Folgen sie, oder ich nehme Franziska. (tritt näher an Franziska. )
+1 436 Priester. <p> Priester. Folgen sie, oder ich nehme Franziska. <stage>tritt näher an Franziska. </stage>
 1 Priester.
 2 Priester.
 1 tfirst==bold
-1 436 <sp> Priester. <p>  Folgen sie, oder ich nehme Franziska. (tritt näher an Franziska. )
+1 436 <sp> Priester. <p>  Folgen sie, oder ich nehme Franziska. <stage>tritt näher an Franziska. </stage>
 1 gsub.bi
 2 (tritt näher an Franziska.
 3 Priester.
@@ -5001,8 +5001,7 @@
 2 \(tritt näher an Franziska.
 1 #R3gsub.bi.re
 2 Priester.
-1 3
-1 list(node = <pointer: 0x7fc9a33cf310>, doc = <pointer: 0x7fc9c1c1e730>) <i> (tritt näher an Franziska.
+1 0
 1 mkrl,letx
 2 9
 3 0
@@ -5085,7 +5084,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 13
-1 list(node = <pointer: 0x7fc9a33cc420>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a33cc690>, doc = <pointer: 0x7fc9c1c1e730>) <i> (wirft sich vor Franziska nieder und legt seine Hände auf ihren Schooß) (aufstehend zu Montenegro)
+1 list(node = <pointer: 0x112dee0c0>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112dee330>, doc = <pointer: 0x132f26820>) <i> (wirft sich vor Franziska nieder und legt seine Hände auf ihren Schooß) (aufstehend zu Montenegro)
 1 mkrl,letx
 2 24
 3 0
@@ -5120,7 +5119,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9a33ca970>, doc = <pointer: 0x7fc9c1c1e730>) <i> (bey Seite)
+1 list(node = <pointer: 0x112deea80>, doc = <pointer: 0x132f26820>) <i> (bey Seite)
 1 mkrl,letx
 2 8
 3 0
@@ -5175,7 +5174,7 @@
 1 #R3gsub.bi.re
 2 Anton.
 1 4
-1 list(node = <pointer: 0x7fc9a33c7510>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a33c76f0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (die Hände ringend) (geht unwillig ab.)
+1 list(node = <pointer: 0x112def350>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112def560>, doc = <pointer: 0x132f26820>) <i> (die Hände ringend) (geht unwillig ab.)
 1 mkrl,letx
 2 8
 3 0
@@ -5232,7 +5231,7 @@
 1 #R3gsub.bi.re
 2 Priester.
 1 1
-1 list(node = <pointer: 0x7fc9a33c8dc0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (zu Katelli)
+1 list(node = <pointer: 0x112df0c80>, doc = <pointer: 0x132f26820>) <i> (zu Katelli)
 1 mkrl,letx
 2 (
 3 )
@@ -5266,7 +5265,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 6
-1 list(node = <pointer: 0x7fc9a33c9a50>, doc = <pointer: 0x7fc9c1c1e730>) <i> (nach einer kleinen Pause mit gebrochner Stimme)
+1 list(node = <pointer: 0x112df1910>, doc = <pointer: 0x132f26820>) <i> (nach einer kleinen Pause mit gebrochner Stimme)
 1 mkrl,letx
 2 (
 3 (
@@ -5293,7 +5292,7 @@
 1 #R3gsub.bi.re
 2 Monten.
 1 2
-1 list(node = <pointer: 0x7fc9a33c9ec0>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a33c6f90>, doc = <pointer: 0x7fc9c1c1e730>) <i> (zu Franziska) (vor sich)
+1 list(node = <pointer: 0x112df1d80>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112df1f70>, doc = <pointer: 0x132f26820>) <i> (zu Franziska) (vor sich)
 1 mkrl,letx
 2 (
 3 (
@@ -5306,11 +5305,11 @@
 10 16
 11 8
 12 1
-1 456 Franziska. <p> Franziska. (hitzig) Mein Katelli! (fährt auf) Montenegro versucht sie zu halten) Nein! ich will ihn aufsuchen, ihn losmachen! )
+1 456 Franziska. <p> Franziska. <stage>hitzig) Mein Katelli! (fährt auf) Montenegro versucht sie zu halten) Nein! ich will ihn aufsuchen, ihn losmachen! </stage>
 1 Franziska.
 2 Franziska.
 1 tfirst==bold
-1 456 <sp> Franziska. <p>  (hitzig) Mein Katelli! (fährt auf) Montenegro versucht sie zu halten) Nein! ich will ihn aufsuchen, ihn losmachen! )
+1 456 <sp> Franziska. <p>  <stage>hitzig) Mein Katelli! (fährt auf) Montenegro versucht sie zu halten) Nein! ich will ihn aufsuchen, ihn losmachen! </stage>
 1 gsub.bi
 2 (hitzig)
 3 (fährt auf)
@@ -5325,7 +5324,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 5
-1 list(node = <pointer: 0x7fc9a33c6680>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a33c6830>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a33c69e0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (hitzig) (fährt auf) Montenegro versucht sie zu halten)
+1 list(node = <pointer: 0x112df2400>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112df25b0>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112df2760>, doc = <pointer: 0x132f26820>) <i> (hitzig) (fährt auf) Montenegro versucht sie zu halten)
 1 mkrl,letx
 2 (
 3 )
@@ -5346,7 +5345,7 @@
 1 #R3gsub.bi.re
 2 Monten.
 1 1
-1 list(node = <pointer: 0x7fc9a33c44f0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (steht auf)
+1 list(node = <pointer: 0x112df2b90>, doc = <pointer: 0x132f26820>) <i> (steht auf)
 1 mkrl,letx
 2 1
 3 0
@@ -5377,7 +5376,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 1
-1 list(node = <pointer: 0x7fc9a33c34b0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (zum Priester)
+1 list(node = <pointer: 0x112dd8c70>, doc = <pointer: 0x132f26820>) <i> (zum Priester)
 1 mkrl,letx
 2 21
 3 0
@@ -5412,7 +5411,7 @@
 1 #R3gsub.bi.re
 2 Mont.
 1 5
-1 list(node = <pointer: 0x7fc9a33c1810>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Priester und Wache mit Franziska ab.)
+1 list(node = <pointer: 0x112dd9400>, doc = <pointer: 0x132f26820>) <i> (Priester und Wache mit Franziska ab.)
 1 mkrl,letx
 2 2
 3 1
@@ -5426,7 +5425,7 @@
 2 75
 3 0
 4 0
-1 467 Umsonst! <p> Umsonst! O, daß meine Füße zu schwach sind, ihnen nachzueilen! – Katelli, Katelli! du bist ein Mörder! Mein und meiner Tochter Mörder! Unbesonnener Jüngling, warum folgst du deines Vaters Lehren nicht und schmiedest dir selbst das Eisen, das deinen Kopf abschlagen wird? Und der Unmensch von Priester! Loderte denn kein Fünkchen Midleids in ihm? O, habt ihr noch nicht an ihr [61] genug, nehmt zu eurer Sätigung auch mich! Entreißt meinen Händen die Krükke, schlagt meine graue Hirnschädel damit ein, und trinkt mein Gehirn, ihr Blutigel!
+1 467 Umsonst! <p> Umsonst! O, daß meine Füße zu schwach sind, ihnen nachzueilen! – Katelli, Katelli! du bist ein Mörder! Mein und meiner Tochter Mörder! Unbesonnener Jüngling, warum folgst du deines Vaters Lehren nicht und schmiedest dir selbst das Eisen, das deinen Kopf abschlagen wird? Und der Unmensch von Priester! Loderte denn kein Fünkchen Mitleids in ihm? O, habt ihr noch nicht an ihr [61] genug, nehmt zu eurer Sätigung auch mich! Entreißt meinen Händen die Krükke, schlagt meine graue Hirnschädel damit ein, und trinkt mein Gehirn, ihr Blutigel!
 1 mkrl,letx
 2 10
 3 10
@@ -5526,7 +5525,7 @@
 1 #R3gsub.bi.re
 2 Monten.
 1 5
-1 list(node = <pointer: 0x7fc9a33bfd80>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a33bff50>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Der Pater Hieronimus kömmt) (Katelli eiligst ab.)
+1 list(node = <pointer: 0x112dcd160>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112dcd330>, doc = <pointer: 0x132f26820>) <i> (Der Pater Hieronimus kömmt) (Katelli eiligst ab.)
 1 mkrl,letx
 2 1
 3 0
@@ -5807,7 +5806,7 @@
 1 #R3gsub.bi.re
 2 Hieronimus.
 1 8
-1 list(node = <pointer: 0x7fc9a33b49a0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Hilft ihn vom Stuhl auf und führt ihn ab)
+1 list(node = <pointer: 0x112dd4400>, doc = <pointer: 0x132f26820>) <i> (Hilft ihn vom Stuhl auf und führt ihn ab)
 1 mkrl,letx
 2 41
 3 0
@@ -5849,10 +5848,10 @@
 2 (
 3 )
 4 FALSE
-5 270
+5 271
 6 4
 7 0
-1 506 (Nach <p> (Nach dem Gartenfenster zu) Bald wird der Mond aufgehen, und ich noch ohne dem Mädchen? Muß sie noch leiden lassen, ohne dem Strom meiner Rache freyen Lauf geben zu können? Und Pedrillo? – Gedulde dich, liebe Seele! Er soll büssen! Heute noch! – Wie alles so still ist; alles sich zur Ruhe rüstet! Vom Fürsten an, bis zu dem Wurm, der an seinen Thron nagt; nur ich nicht! Holder Schlaf, du warst oft der Tröster meines schwärmenden Geistes; aber jezt ist deine Hülfe zu schwach. Er hat seine Schranken gesprengt; ist das schäumende wilde Roß, das jedem zu muthig ist. – Wie unter Ungeheur, die auf mich einkrallen, steh’ ich hier! Erbarmer genug um mich her, aber kein Retter! – Was ist doch der Mensch für ein schwaches, furchtsames Ding! Schüchtern und unentschlossen steh’ ich da, und weiß nicht welchen Weg ich wandeln soll. Auf der einen Seite kettet heisse Liebe und tolle [67] Wuth, zu allem bereit, was menschliche Natur noch übersteiget, meinen Fuß; und auf der andern Seite ruft mir der Hang, der allen Menschen angebohren ist, der Hang zum Leben zu: Entfliehe, Katelli! Klimme über Felsen hinweg! – Was soll ich nun thun? Hier harren und mit dem Schiksal hadern, ist mir Trost auf keiner Seite. Soll ich meine Franziska verlassen? Oder geduldig zusehen, wenn man sie in die Wolfsgrube hineinwirft? Nein! Ich will für sie hineinspringen, und mit den tobenden Bestien kämpfen. Oder ich will ihr selbst den Dolch ins Herz rennen, wenn ich sie nicht retten kann, und dann von ihrer welkenden Wange, von ihren erblaßten Lippen den Tod auch für mich abküssen! – Aber warum weil’ ich deshalb hier, wo die Hippe des Todes schon um meinen Kopf herumschwirrt? Er hat mich hereinschlüpfen sehen, und sinnt jezt schon vor der Thür des Schlosses den rauhsten Weg zum Tode für mich aus.
+1 506 (Nach <p> (Nach dem Gartenfenster zu) Bald wird der Mond aufgehen, und ich noch ohne dem Mädchen? Muß sie noch leiden lassen, ohne dem Strom meiner Rache freyen Lauf geben zu können? Und Pedrillo? – Gedulde dich, liebe Seele! Er soll büssen! Heute noch! – Wie alles so still ist; alles sich zur Ruhe rüstet! Vom Fürsten an, bis zu dem Wurm, der an seinen Thron nagt; nur ich nicht! Holder Schlaf, du warst oft der Tröster meines schwärmenden Geistes; aber jezt ist deine Hülfe zu schwach. Er hat seine Schranken gesprengt; ist das schäumende wilde Roß, das jedem zu muthig ist. – Wie unter Ungeheur, die auf mich einkrallen, steh’ ich hier! Erbarmer genug um mich her, aber kein Retter! – Was ist doch der Mensch für ein schwaches, furchtsames Ding! Schüchtern und unentschlossen steh’ ich da, und weiß nicht welchen Weg ich wandeln soll. Auf der einen Seite kettet heisse Liebe und tolle [67] Wuth, zu allem bereit, was menschliche Natur noch übersteiget, meinen Fuß; und auf der andern Seite ruft mir der Hang, der allen Menschen angebohren ist, der Hang zum Leben zu: Entfliehe, Katelli! Klimme über Felsen hinweg! – Was soll ich nun thun? Hier harren und mit dem Schiksal hadern, ist mir Trost auf keiner Seite. Soll ich meine Franziska verlassen? Oder geduldig zusehen, wenn man sie in die Wolfsgrube hineinwirft? Nein! Ich will für sie hineinspringen, und mit den tobenden Bestien kämpfen. Oder ich will ihr selbst den Dolch ins Herz rennen, wenn ich sie nicht retten kann, und dann von ihrer welkenden Wange, von ihren erblaßten Lippen den Tod auch für mich abküssen! – – Aber warum weil’ ich deshalb hier, wo die Hippe des Todes schon um meinen Kopf herumschwirrt? Er hat mich hereinschlüpfen sehen, und sinnt jezt schon vor der Thür des Schlosses den rauhsten Weg zum Tode für mich aus.
 1 mkrl,letx
 2 3
 3 3
@@ -5933,11 +5932,11 @@
 5 106
 6 4
 7 1
-1 514 Katelli. <p> Katelli. (Nach einer langen Pause) Anton ich bin jezt auf einen besondern Entschluß gekommen. Kühn, aber gut, wenn er gelingt. Tiefsinnig irrt’ ich an den Mauren von Madrit. Nicht fern von mir hört ich ein Gelispel. Ich schlich hin und vernahm, daß Pedrillo Blutrath über mich hielt. Ich ward aufmerksamer. Er trug seinem Niklas, so heißt der Bube, den er bey sich hat – auf, einen Priester zu holen, mit ihm ins Gefängniß zu meiner  Franziska zu gehen, und sie auf seine Seite zu ziehen. Nun höre! du sollst dich verkleiden. Sollst mit einigen Leuten dem Gesindel aufpassen, und sie beide aufheben lassen. Alsdenn will ich den Priester [69] spielen. Nur mußt du dahin sehen, daß keiner davon kömmt.
+1 514 Katelli. <p> Katelli. (Nach einer langen Pause) Anton ich bin jezt auf einen besondern Entschluß gekommen. Kühn, aber gut, wenn er gelingt. Tiefsinnig irrt’ ich an den Mauren von Madrit. Nicht fern von mir hört’ ich ein Gelispel. Ich schlich hin und vernahm, daß Pedrillo Blutrath über mich hielt. Ich ward aufmerksamer. Er trug seinem Niklas, so heißt der Bube, den er bey sich hat – auf, einen Priester zu holen, mit ihm ins Gefängniß zu meiner  Franziska zu gehen, und sie auf seine Seite zu ziehen. Nun höre! du sollst dich verkleiden. Sollst mit einigen Leuten dem Gesindel aufpassen, und sie beide aufheben lassen. Alsdenn will ich den Priester [69] spielen. Nur mußt du dahin sehen, daß keiner davon kömmt.
 1 Katelli.
 2 Katelli.
 1 tfirst==bold
-1 514 <sp> Katelli. <p>  (Nach einer langen Pause) Anton ich bin jezt auf einen besondern Entschluß gekommen. Kühn, aber gut, wenn er gelingt. Tiefsinnig irrt’ ich an den Mauren von Madrit. Nicht fern von mir hört ich ein Gelispel. Ich schlich hin und vernahm, daß Pedrillo Blutrath über mich hielt. Ich ward aufmerksamer. Er trug seinem Niklas, so heißt der Bube, den er bey sich hat – auf, einen Priester zu holen, mit ihm ins Gefängniß zu meiner  Franziska zu gehen, und sie auf seine Seite zu ziehen. Nun höre! du sollst dich verkleiden. Sollst mit einigen Leuten dem Gesindel aufpassen, und sie beide aufheben lassen. Alsdenn will ich den Priester [69] spielen. Nur mußt du dahin sehen, daß keiner davon kömmt. 
+1 514 <sp> Katelli. <p>  (Nach einer langen Pause) Anton ich bin jezt auf einen besondern Entschluß gekommen. Kühn, aber gut, wenn er gelingt. Tiefsinnig irrt’ ich an den Mauren von Madrit. Nicht fern von mir hört’ ich ein Gelispel. Ich schlich hin und vernahm, daß Pedrillo Blutrath über mich hielt. Ich ward aufmerksamer. Er trug seinem Niklas, so heißt der Bube, den er bey sich hat – auf, einen Priester zu holen, mit ihm ins Gefängniß zu meiner  Franziska zu gehen, und sie auf seine Seite zu ziehen. Nun höre! du sollst dich verkleiden. Sollst mit einigen Leuten dem Gesindel aufpassen, und sie beide aufheben lassen. Alsdenn will ich den Priester [69] spielen. Nur mußt du dahin sehen, daß keiner davon kömmt. 
 1 gsub.bi
 2 (Nach einer langen Pause)
 3 Katelli.
@@ -5946,7 +5945,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 3
-1 list(node = <pointer: 0x7fc9a33ad750>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Nach einer langen Pause)
+1 list(node = <pointer: 0x112dc95c0>, doc = <pointer: 0x132f26820>) <i> (Nach einer langen Pause)
 1 mkrl,letx
 2 11
 3 0
@@ -6065,7 +6064,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 6
-1 list(node = <pointer: 0x7fc9a33aacd0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (horcht auf ein Geräusch hinter der Bühne)
+1 list(node = <pointer: 0x112dcc9a0>, doc = <pointer: 0x132f26820>) <i> (horcht auf ein Geräusch hinter der Bühne)
 1 mkrl,letx
 2 (
 3 (
@@ -6116,7 +6115,7 @@
 8 21
 9 21
 10 0
-1 528 Katelli. <p> Katelli. (verhüllt sich etwas in Mantel), Pedrillo (kurz angezogen, den Degen unter den Arm haltend und den Huth ins Gesicht gedrükt.)
+1 528 Katelli. <p> Katelli. (verhüllt sich etwas in Mantel). Pedrillo (kurz angezogen, den Degen unter den Arm haltend und den Huth ins Gesicht gedrükt.)
 1 mkrl,letx
 2 (
 3 (
@@ -6143,16 +6142,16 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 7
-1 list(node = <pointer: 0x7fc9a33ad190>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a33a9210>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Im Hintergrunde der Bühne) (Nach einer Pause zu Katelli)
+1 list(node = <pointer: 0x112dc3bf0>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112dc3e10>, doc = <pointer: 0x132f26820>) <i> (Im Hintergrunde der Bühne) (Nach einer Pause zu Katelli)
 1 mkrl,letx
 2 11
 3 0
 4 1
-1 530 Katelli. <p> Katelli. Man nenne mich, wie man will. Meinen Nahmen sag’ ich keinen.
+1 530 Katelli. <p> Katelli. Man nenne mich, wie man will. Meinen Namen sag’ ich keinen.
 1 Katelli.
 2 Katelli.
 1 tfirst==bold
-1 530 <sp> Katelli. <p>  Man nenne mich, wie man will. Meinen Nahmen sag’ ich keinen. 
+1 530 <sp> Katelli. <p>  Man nenne mich, wie man will. Meinen Namen sag’ ich keinen. 
 1 gsub.bi
 2 Katelli.
 1 #R3gsub.bi.re
@@ -6218,7 +6217,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 3
-1 list(node = <pointer: 0x7fc9a33a72a0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Nach einer langen Pause.)
+1 list(node = <pointer: 0x112dc5910>, doc = <pointer: 0x132f26820>) <i> (Nach einer langen Pause.)
 1 mkrl,letx
 2 6
 3 0
@@ -6429,7 +6428,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9a33a3a90>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Geht näher)
+1 list(node = <pointer: 0x112dbf3d0>, doc = <pointer: 0x132f26820>) <i> (Geht näher)
 1 mkrl,letx
 2 (
 3 )
@@ -6450,7 +6449,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 7
-1 list(node = <pointer: 0x7fc9a33a3ea0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Wird immer furchtsamer und geht auf und nieder)
+1 list(node = <pointer: 0x112dbf7e0>, doc = <pointer: 0x132f26820>) <i> (Wird immer furchtsamer und geht auf und nieder)
 1 mkrl,letx
 2 41
 3 0
@@ -6496,7 +6495,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 2
-1 list(node = <pointer: 0x7fc9a33a1f50>, doc = <pointer: 0x7fc9c1c1e730>) <i> (läuft verwirrt herum)
+1 list(node = <pointer: 0x112dc1590>, doc = <pointer: 0x132f26820>) <i> (läuft verwirrt herum)
 1 mkrl,letx
 2 (
 3 )
@@ -6517,7 +6516,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 10
-1 list(node = <pointer: 0x7fc9a339f0a0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Sarg nieder. Ein Vermummter trit vor und zeigt auf den Namen!)
+1 list(node = <pointer: 0x112dbbd00>, doc = <pointer: 0x132f26820>) <i> (Sarg nieder. Ein Vermummter trit vor und zeigt auf den Namen!)
 1 mkrl,letx
 2 (
 3 )
@@ -6538,7 +6537,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 8
-1 list(node = <pointer: 0x7fc9a339f5b0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Will mit den Degen stossen, fährt aber erschrokken zurük.)
+1 list(node = <pointer: 0x112dbc210>, doc = <pointer: 0x132f26820>) <i> (Will mit den Degen stossen, fährt aber erschrokken zurük.)
 1 mkrl,letx
 2 (
 3 )
@@ -6577,7 +6576,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 1
-1 list(node = <pointer: 0x7fc9a33a0b40>, doc = <pointer: 0x7fc9c1c1e730>) <i> (zu Katelli)
+1 list(node = <pointer: 0x112dbd7a0>, doc = <pointer: 0x132f26820>) <i> (zu Katelli)
 1 mkrl,letx
 2 (
 3 )
@@ -6598,7 +6597,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9a33a0f80>, doc = <pointer: 0x7fc9c1c1e730>) <i> (bey Seite)
+1 list(node = <pointer: 0x112db29b0>, doc = <pointer: 0x132f26820>) <i> (bey Seite)
 1 mkrl,letx
 2 (
 3 )
@@ -6976,7 +6975,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 2
-1 list(node = <pointer: 0x7fc9a3393820>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Mit gezwungener Stimme)
+1 list(node = <pointer: 0x112dad510>, doc = <pointer: 0x132f26820>) <i> (Mit gezwungener Stimme)
 1 mkrl,letx
 2 11
 3 0
@@ -7011,7 +7010,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 1
-1 list(node = <pointer: 0x7fc9a3391e80>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Gefangenwärter ab.)
+1 list(node = <pointer: 0x112dae6f0>, doc = <pointer: 0x132f26820>) <i> (Gefangenwärter ab.)
 1 mkrl,letx
 2 3
 3 3
@@ -7055,7 +7054,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 14
-1 list(node = <pointer: 0x7fc9a3392850>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a3392a60>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a3392c30>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a3392e20>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Auffahrend und schüchtern sich umsehend. Nach einer langen Pause.) (Sanftmüthig) (Nach einer Pause. Stark) (zeigt ihm die Hand)
+1 list(node = <pointer: 0x112daf0c0>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112daf2d0>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112daf4a0>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112daf690>, doc = <pointer: 0x132f26820>) <i> (Auffahrend und schüchtern sich umsehend. Nach einer langen Pause.) (Sanftmüthig) (Nach einer Pause. Stark) (zeigt ihm die Hand)
 1 mkrl,letx
 2 (
 3 )
@@ -7076,7 +7075,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 3
-1 list(node = <pointer: 0x7fc9a3393280>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Steht wie in Betäubung.)
+1 list(node = <pointer: 0x112dafaf0>, doc = <pointer: 0x132f26820>) <i> (Steht wie in Betäubung.)
 1 mkrl,letx
 2 6
 3 0
@@ -7151,7 +7150,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 3
-1 list(node = <pointer: 0x7fc9a3390080>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Sie legt sich nieder.)
+1 list(node = <pointer: 0x112db1690>, doc = <pointer: 0x132f26820>) <i> (Sie legt sich nieder.)
 1 mkrl,letx
 2 (
 3 )
@@ -7172,7 +7171,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 3
-1 list(node = <pointer: 0x7fc9a33905f0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (trit näher an Franziska)
+1 list(node = <pointer: 0x112db1c00>, doc = <pointer: 0x132f26820>) <i> (trit näher an Franziska)
 1 mkrl,letx
 2 (
 3 )
@@ -7193,7 +7192,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 4
-1 list(node = <pointer: 0x7fc9a338c830>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Holt plötzlich stark Odem. Mat.)
+1 list(node = <pointer: 0x112daaad0>, doc = <pointer: 0x132f26820>) <i> (Holt plötzlich stark Odem. Mat.)
 1 mkrl,letx
 2 7
 3 0
@@ -7226,11 +7225,11 @@
 2 34
 3 0
 4 1
-1 613 Katelli. <p> Katelli. Ich bin da meine Liebe. Ich habe den Furien die Krallen gebunden. Du sollst mit mir ihrer Wuth entrinnen. Arme Unschuld! Der Himmel verzeihe dem, der ein solches Mädchen martern kann. Ich kanns nicht, denn ich bin Mensch.
+1 613 Katelli. <p> Katelli. Ich bin da, meine Liebe. Ich habe den Furien die Krallen gebunden. Du sollst mit mir ihrer Wuth entrinnen. Arme Unschuld! Der Himmel verzeihe dem, der ein solches Mädchen martern kann. Ich kanns nicht, denn ich bin Mensch.
 1 Katelli.
 2 Katelli.
 1 tfirst==bold
-1 613 <sp> Katelli. <p>  Ich bin da meine Liebe. Ich habe den Furien die Krallen gebunden. Du sollst mit mir ihrer Wuth entrinnen. Arme Unschuld! Der Himmel verzeihe dem, der ein solches Mädchen martern kann. Ich kanns nicht, denn ich bin Mensch. 
+1 613 <sp> Katelli. <p>  Ich bin da, meine Liebe. Ich habe den Furien die Krallen gebunden. Du sollst mit mir ihrer Wuth entrinnen. Arme Unschuld! Der Himmel verzeihe dem, der ein solches Mädchen martern kann. Ich kanns nicht, denn ich bin Mensch. 
 1 gsub.bi
 2 Katelli.
 1 #R3gsub.bi.re
@@ -7240,11 +7239,11 @@
 2 62
 3 0
 4 1
-1 614 Franziska. <p> Franziska. Bester, wir wollen uns keinen weitern Gefahren unterziehen. Laß mich hier und geh. Genug, daß für ein Lamm die Schlachtbank bereitet ist. Ich sterbe jezt gern, denn du hast mir [84] Wonne drüber gegossen. Ich habe dich noch einmal gesehen. – Aber, Katelli, was dreistest du dich um mich? Du handelst als Jüngling, nicht als Mann. Heißt es nicht willig ins Grab hineinspringen, wenn man über diese Schwelle trit?
+1 614 Franziska. <p> Franziska. Bester, wir wollen uns keinen weitern Gefahren unterziehen. Laß mich hier und geh. Genug, daß für ein Lamm die Schlachtbank bereitet ist! Ich sterbe jezt gern, denn du hast mir [84] Wonne drüber gegossen. Ich habe dich noch einmal gesehen. – Aber, Katelli, was dreistest du dich um mich? Du handelst als Jüngling, nicht als Mann. Heißt es nicht willig ins Grab hineinspringen, wenn man über diese Schwelle trit?
 1 Franziska.
 2 Franziska.
 1 tfirst==bold
-1 614 <sp> Franziska. <p>  Bester, wir wollen uns keinen weitern Gefahren unterziehen. Laß mich hier und geh. Genug, daß für ein Lamm die Schlachtbank bereitet ist. Ich sterbe jezt gern, denn du hast mir [84] Wonne drüber gegossen. Ich habe dich noch einmal gesehen. – Aber, Katelli, was dreistest du dich um mich? Du handelst als Jüngling, nicht als Mann. Heißt es nicht willig ins Grab hineinspringen, wenn man über diese Schwelle trit? 
+1 614 <sp> Franziska. <p>  Bester, wir wollen uns keinen weitern Gefahren unterziehen. Laß mich hier und geh. Genug, daß für ein Lamm die Schlachtbank bereitet ist! Ich sterbe jezt gern, denn du hast mir [84] Wonne drüber gegossen. Ich habe dich noch einmal gesehen. – Aber, Katelli, was dreistest du dich um mich? Du handelst als Jüngling, nicht als Mann. Heißt es nicht willig ins Grab hineinspringen, wenn man über diese Schwelle trit? 
 1 gsub.bi
 2 Franziska.
 1 #R3gsub.bi.re
@@ -7310,11 +7309,11 @@
 2 75
 3 0
 4 1
-1 619 Katelli. <p> Katelli. Du überschreitest Menschenpflicht. Dein Leib ist nicht dein Eigenthum. Dies Kleid ist deiner Seele nur geborgt, in den Jahren deiner Pilgerschaft auf dieser Erde damit einher zu wandeln. Da es nun nicht dir gehört, darfst du’s wohl zerreissen? Würd’s dir nicht sauer werden, es zu bezahlen? – Das werd’ ich nicht thun, gute Franziska. Diese That würde die guten Handlungen deines und meines Lebens mit einem Schleyer überziehn. Und sollt’ ich dir eine Bitte erfüllen, da du mit die meinige abgeschlagen hast? Franziska, folge mir!
+1 619 Katelli. <p> Katelli. Du überschreitest Menschenpflicht. Dein Leib ist nicht dein Eigenthum. Dies Kleid ist deiner Seele nur geborgt, in den Jahren deiner Pilgerschaft auf dieser Erde damit einher zu wandeln. Da es nun nicht dir gehört, darfst du’s wohl zerreissen? Würd’s dir nicht sauer werden, es zu bezahlen? – Das werd’ ich nicht thun, gute Franziska. Diese That würde die guten Handlungen deines und meines Lebens mit einem Schleyer überziehn. Und sollt’ ich dir eine Bitte erfüllen, da du mir die meinige abgeschlagen hast? Franziska, folge mir!
 1 Katelli.
 2 Katelli.
 1 tfirst==bold
-1 619 <sp> Katelli. <p>  Du überschreitest Menschenpflicht. Dein Leib ist nicht dein Eigenthum. Dies Kleid ist deiner Seele nur geborgt, in den Jahren deiner Pilgerschaft auf dieser Erde damit einher zu wandeln. Da es nun nicht dir gehört, darfst du’s wohl zerreissen? Würd’s dir nicht sauer werden, es zu bezahlen? – Das werd’ ich nicht thun, gute Franziska. Diese That würde die guten Handlungen deines und meines Lebens mit einem Schleyer überziehn. Und sollt’ ich dir eine Bitte erfüllen, da du mit die meinige abgeschlagen hast? Franziska, folge mir! 
+1 619 <sp> Katelli. <p>  Du überschreitest Menschenpflicht. Dein Leib ist nicht dein Eigenthum. Dies Kleid ist deiner Seele nur geborgt, in den Jahren deiner Pilgerschaft auf dieser Erde damit einher zu wandeln. Da es nun nicht dir gehört, darfst du’s wohl zerreissen? Würd’s dir nicht sauer werden, es zu bezahlen? – Das werd’ ich nicht thun, gute Franziska. Diese That würde die guten Handlungen deines und meines Lebens mit einem Schleyer überziehn. Und sollt’ ich dir eine Bitte erfüllen, da du mir die meinige abgeschlagen hast? Franziska, folge mir! 
 1 gsub.bi
 2 Katelli.
 1 #R3gsub.bi.re
@@ -7340,7 +7339,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 2
-1 list(node = <pointer: 0x7fc9a33877c0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Nach einer Pause)
+1 list(node = <pointer: 0x112da67f0>, doc = <pointer: 0x132f26820>) <i> (Nach einer Pause)
 1 mkrl,letx
 2 (
 3 )
@@ -7393,7 +7392,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 2
-1 list(node = <pointer: 0x7fc9a3388ff0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Mit gesezter Stimme)
+1 list(node = <pointer: 0x112da4e80>, doc = <pointer: 0x132f26820>) <i> (Mit gesezter Stimme)
 1 mkrl,letx
 2 5
 3 0
@@ -7437,7 +7436,7 @@
 3 13
 4 13
 5 0
-1 630 (Katelli <p> (Katelli zieht sich in den dunkelsten Winkel des Gefängnisses bey Franziska’s Bette zurük. )
+1 630 <stage>Katelli <p> <stage>Katelli zieht sich in den dunkelsten Winkel des Gefängnisses bey Franziska’s Bette zurük. </stage>
 1 mkrl,letx
 2 14
 3 0
@@ -7472,7 +7471,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 1
-1 list(node = <pointer: 0x7fc9a3385750>, doc = <pointer: 0x7fc9c1c1e730>) <i> (zu Franziska)
+1 list(node = <pointer: 0x112da1da0>, doc = <pointer: 0x132f26820>) <i> (zu Franziska)
 1 mkrl,letx
 2 31
 3 0
@@ -7521,7 +7520,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 2
-1 list(node = <pointer: 0x7fc9a33830e0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (auf ihn zu.)
+1 list(node = <pointer: 0x112d9e360>, doc = <pointer: 0x132f26820>) <i> (auf ihn zu.)
 1 mkrl,letx
 2 (
 3 )
@@ -7542,7 +7541,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 2
-1 list(node = <pointer: 0x7fc9a33834b0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (stößt sie zurük)
+1 list(node = <pointer: 0x112d9e6e0>, doc = <pointer: 0x132f26820>) <i> (stößt sie zurük)
 1 mkrl,letx
 2 (
 3 )
@@ -7563,7 +7562,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 2
-1 list(node = <pointer: 0x7fc9a33838e0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Läuft wüthend herum)
+1 list(node = <pointer: 0x112d9eb10>, doc = <pointer: 0x132f26820>) <i> (Läuft wüthend herum)
 1 mkrl,letx
 2 20
 3 0
@@ -7692,7 +7691,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 4
-1 list(node = <pointer: 0x7fc9a3380350>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a3380580>, doc = <pointer: 0x7fc9c1c1e730>) <i> (geht auf die Thür zu) (ab.)
+1 list(node = <pointer: 0x112d9b580>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112d9b7b0>, doc = <pointer: 0x132f26820>) <i> (geht auf die Thür zu) (ab.)
 1 mkrl,letx
 2 3
 3 3
@@ -7744,7 +7743,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 8
-1 list(node = <pointer: 0x7fc9a337e8f0>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a337ec20>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a337ee50>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Nach einer langen Pause) (schlägt sich vor die Stirn) (zu Franziska)
+1 list(node = <pointer: 0x112d9ad60>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112d98250>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112d98480>, doc = <pointer: 0x132f26820>) <i> (Nach einer langen Pause) (schlägt sich vor die Stirn) (zu Franziska)
 1 mkrl,letx
 2 (
 3 )
@@ -7817,7 +7816,7 @@
 1 #R3gsub.bi.re
 2 Franziska.
 1 3
-1 list(node = <pointer: 0x7fc9a337cba0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (wirft sich wieder nieder.)
+1 list(node = <pointer: 0x112d96a80>, doc = <pointer: 0x132f26820>) <i> (wirft sich wieder nieder.)
 1 mkrl,letx
 2 (
 3 )
@@ -7846,7 +7845,7 @@
 1 #R3gsub.bi.re
 2 Pedrillo.
 1 1
-1 list(node = <pointer: 0x7fc9a337b6e0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (zu Katelli)
+1 list(node = <pointer: 0x112d93080>, doc = <pointer: 0x132f26820>) <i> (zu Katelli)
 1 mkrl,letx
 2 (
 3 )
@@ -7867,7 +7866,7 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 2
-1 list(node = <pointer: 0x7fc9a337adc0>, doc = <pointer: 0x7fc9c1c1e730>) <i> (Mit verbissener Wuth)
+1 list(node = <pointer: 0x112d93500>, doc = <pointer: 0x132f26820>) <i> (Mit verbissener Wuth)
 1 mkrl,letx
 2 4
 3 4
@@ -7905,54 +7904,9 @@
 1 #R3gsub.bi.re
 2 Katelli.
 1 21
-1 list(node = <pointer: 0x7fc9a33791d0>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a33794a0>, doc = <pointer: 0x7fc9c1c1e730>) list(node = <pointer: 0x7fc9a337a530>, doc = <pointer: 0x7fc9c1c1e730>) <i> (faßt ihm mit der einen Hand den Degen und mit der andern vor die Brust) (Er holt geschwind ein Stilet hervor und ersticht ihn. Pedrillo will mit dem Degen auf ihn zu, wankt aber. Katelli stößt ihn noch einmal und er fällt.) (den Dolch in erhabner Hand. Zu Franziska)
+1 list(node = <pointer: 0x112d947c0>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112d94a90>, doc = <pointer: 0x132f26820>) list(node = <pointer: 0x112d95b50>, doc = <pointer: 0x132f26820>) <i> (faßt ihm mit der einen Hand den Degen und mit der andern vor die Brust) (Er holt geschwind ein Stilet hervor und ersticht ihn. Pedrillo will mit dem Degen auf ihn zu, wankt aber. Katelli stößt ihn noch einmal und er fällt.) (den Dolch in erhabner Hand. Zu Franziska)
 1 mkrl,letx
 2 0
 3 0
 4 0
 1 662 NA <p>
-1 --- pdesc --- 
-1 Montenegro  ein alter reicher Spanier  
-2 Franziska  seine Tochter  
-3 Katelli  ein Italiener  Vetter des Montenegro und Franziska’s Liebhaber 
-4 Pedrillo  Sekretär eines Ministers  
-5 Anton  Katelli’s Bedienter  
-6 Kamilla  Franziska’s Mädchen  
-7 Hieronimus  ein Mönch  
-8 Niklas  ein Bandit  
-9 Bedienten   
-10 Priester   
-11 Wache   
-1  ein alter reicher Spanier
-2 
-3 
-1  seine Tochter
-2 
-3 
-1  ein Italiener
-2  Vetter des Montenegro und Franziska’s Liebhaber
-3 
-1  Sekretär eines Ministers
-2 
-3 
-1  Katelli’s Bedienter
-2 
-3 
-1  Franziska’s Mädchen
-2 
-3 
-1  ein Mönch
-2 
-3 
-1  ein Bandit
-2 
-3 
-1 
-2 
-3 
-1 
-2 
-3 
-1 
-2 
-3 
