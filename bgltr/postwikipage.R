@@ -207,7 +207,7 @@ x
 page.x<-list()
 page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/mw.hbindex.txt")
 page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/de.seitenstatus2.txt")
-page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/dhws.cite.txt")
+page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/dhws.broeker.txt")
 page.x$content<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/play/de.textdaten.txt")
 page.x$content<-paste0(page.x$content,collapse = "\n")
 page.x$content
@@ -217,6 +217,7 @@ page.ns<-c("Mediawiki:","Proofreadpage_index_template","",".txt")
 page.ns<-c("Vorlage:","Seitenstatus2","",".txt")
 page.ns<-c("Vorlage:","Zitierempfehlung","",".txt")
 page.ns<-c("Index/","styles.css","",".txt")
+page.ns<-c("Autor/","Helmut_Broeker","",".txt")
 page.ns<-c("","HB09201","",".txt")
 page.x$ns<-paste0(page.ns[1:3],collapse = "")
 page.x$ns

@@ -45,7 +45,7 @@ t1
 page<-"Seite:Hb09201_wstest.pdf/2"
 "https://de.wikisource.org/w/api.php?action=query&prop=info&titles=Hauptseite"
 "https://www.mediawiki.org/w/api.php?action=query&list=recentchanges"
-url<-paste0(credits$url,"?action=query&list=recentchanges")
+url<-paste0(credits$url,"?action=query&list=recentchanges&format=json")
 x<-GET(url)
 t1<-content(x,"text")
 t1
