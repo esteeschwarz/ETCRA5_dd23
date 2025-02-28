@@ -352,13 +352,32 @@ all.i<-xml_find_all(all.e.x,".//i")
 xml_name(all.i)<-"stage"
 all.b<-xml_find_all(all.e.x,".//b")
 xml_name(all.b)<-"speaker"
-all.p<-xml_find_all(all.e.x,"*")
-xml_name(all.p)<-""
-aex.2<-xml_new_root("body")
+#all.p<-xml_find_all(all.e.x,"*")
+#xml_name(all.p)<-""
+all.span<-xml_find_all(all.e.x,".//span")
+all.pb<-xml_attr(all.span,"class")=="PageNumber"
+all.pb[is.na(all.pb)]<-F
+xml_name(all.span[all.pb])<-"pb"
+all.pb<-xml_find_all(all.e.x,".//pb")
+for(k in 1:length(all.pb)){
+  n<-xml_attr(all.pb[k],"id")
+  n<-gsub("Seite_","",n)
+  xml_attrs(all.pb[k])<-NULL
+  xml_attr(all.pb[k],"n")<-n
+  xml_text(all.pb[k])<-NULL
+            
+}
+all.a<-xml_find_all(all.e.x,".//a")
+xml_remove(all.a)
+aex.body<-xml_find_all(all.e.x,"body")
+k
 for(k in 1:length(xml_children(xml_children(all.e.x)))){
-xml_add_child(aex.2,"sp")
-all.sp<-xml_find_all(aex.2,".//sp")  
-xml_add_child(all.sp[k],xml_children(xml_children(all.e.x))[k])  
+el<-xml_children(xml_children(all.e.x))[k]
+if(xml_name(el)=="p"){
+xml_add_child(aex.body,"sp",.where = k)
+#all.sp<-xml_find_all(aex.2,".//sp")  
+xml_add_child(aex.body[[1]][k],el)
+}
 }
 write_html(aex.2,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/tempxml.xml")
 ###################################################################################
