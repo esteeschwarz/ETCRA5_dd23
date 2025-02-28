@@ -52,6 +52,11 @@ file.create(log.ns)
 #r<-49
 x<-all.elements[[49]]
 x
+rem.dbl<-function(ezd){
+  ezd<-gsub("<stage><stage>","<stage>",ezd)
+  ezd<-gsub("</stage></stage>","</stage>",ezd)
+  return(ezd)
+}
 assign.sp<-function(x,r){
   log.tx<-matrix("",ncol = 10)
   sub<-x
@@ -125,6 +130,7 @@ assign.sp<-function(x,r){
         return(paste0("<del>",sp.ezd,"</del>"))
       }
       sp.ezd<-paste0("<p>",sp.ezd,"</p></sp>")
+      sp.ezd<-rem.dbl(sp.ezd)
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
       print("R1")
       return(sp.ezd) 
@@ -152,6 +158,8 @@ assign.sp<-function(x,r){
         }
       i<-xml_find_all(sub,"i")
       pi.tx<-xml_text(i)
+      pi.tx<-gsub("\\(","<stage>",pi.tx)
+      pi.tx<-gsub("\\)","</stage>",pi.tx)
       print(pi.tx)
       l.bi<-length(unlist(strsplit(pb.tx," ")))+length(unlist(strsplit(pi.tx," ")))
       print(c(l.tx,l.bi))
@@ -161,6 +169,7 @@ assign.sp<-function(x,r){
        l.tx<-100
        l.bi<-200
        print("R2")
+       ezd<-rem.dbl(ezd)
        return(ezd)
       }
       gsub.bi<-c(pi.tx,pb.tx)
@@ -182,6 +191,7 @@ assign.sp<-function(x,r){
         sp.ezd<-paste0("<sp><speaker>",pb.tx,"</speaker><p>",p.tx,"</p></sp>")
        # sp.ezd<-gsub("\n"," ",sp.ezd)
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+      sp.ezd<-rem.dbl(sp.ezd)
       print("R3")
       return(sp.ezd)
       }
@@ -197,6 +207,7 @@ assign.sp<-function(x,r){
   #      sp.ezd<-paste0("@#R4",pb.tx,":\n(",pi.tx,")",p.tx)
       sp.ezd<-paste0("<sp><speaker>",pb.tx,"</speaker><p>",p.tx,"</p></sp>")
         #sp.ezd<-gsub("\n"," ",sp.ezd)
+      sp.ezd<-rem.dbl(sp.ezd)
         sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
         print("R4")
         return(sp.ezd)
@@ -208,8 +219,7 @@ assign.sp<-function(x,r){
   if(xml_name(sub)=="i"){
     sp.ezd<-paste0("<stage>",p.tx,"</stage>")
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
-    sp.ezd<-gsub("<stage><stage>","<stage>",sp.ezd)
-    sp.ezd<-gsub("</stage></stage>","</stage>",sp.ezd)
+    sp.ezd<-rem.dbl(sp.ezd)
     print("R5")
     return(sp.ezd)
   }
@@ -223,6 +233,7 @@ assign.sp<-function(x,r){
     sp.ezd<-paste0("<sp><speaker>",b.tx,"</speaker><p>",p.tx,"</p></sp>")
     sp.ezd<-gsub("\n"," ",sp.ezd)
 #    sp.ezd<-gsub(":[ ]{1,2}\t",":\t",sp.ezd)
+    sp.ezd<-rem.dbl(sp.ezd)
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
     print("R6")
     return(sp.ezd)
@@ -238,6 +249,7 @@ assign.sp<-function(x,r){
     #p.tx<-xml_text(sub)
    # p.tx<-paste0("<p>",p.tx,"</p>")
     i.tx<-xml_text(i)
+    i.tx<-gsub("([)(])","",i.tx)
     b.tx<-xml_text(b)
     if(length(b.tx)>0){
     l.tb<-length(unlist(strsplit(b.tx," ")))
@@ -253,7 +265,7 @@ assign.sp<-function(x,r){
         l.tix<-gsub("\n","",l.tix)
         l.tix<-paste0(l.tix,collapse = " ")
         sp.ezd<-paste0("<sp><speaker>",b.tx,"</speaker><stage>",l.tix,"</stage>")
-      
+        sp.ezd<-rem.dbl(sp.ezd)
 #      sp.ezd<-gsub("\n"," ",sp.ezd)
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
       print("R8")
@@ -264,8 +276,10 @@ assign.sp<-function(x,r){
     l.tx<-length(unlist(strsplit(p.tx," ")))
     # if <p> includes <i>
     if(l.tx>l.ti){
+      
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',p.tx)
       sp.ezd<-gsub("\n"," ",sp.ezd)
+      sp.ezd<-rem.dbl(sp.ezd)
       print("R9")
       return(sp.ezd)
     }
@@ -282,6 +296,8 @@ assign.sp<-function(x,r){
     if(l.tx==l.ti&length(m.kl.first)==0){
     sp.ezd<-paste0("<stage>",sp.ezd,"</stage>")
     sp.ezd<-gsub("[)(]|\n","",sp.ezd)
+    sp.ezd<-rem.dbl(sp.ezd)
+    
     sp.ezd<-paste0(sp.ezd,"\n")
     print("R10")
     }
@@ -298,6 +314,8 @@ assign.sp<-function(x,r){
     print(b.tx)
     print("R7")
     print(sp.ezd)
+    sp.ezd<-rem.dbl(sp.ezd)
+    
     return(sp.ezd)
   }
       # returns checked and adapted element
@@ -320,6 +338,30 @@ i<-584
 i<-m1
 assign.sp(all.elements[[i]],i)
 }
+temp.htm<-tempfile("temphtm")
+library(htmltools)
+aex<-as_xml_document(x=all.elements,root = "body")
+write_html(aex,temp.htm)
+library(readtext)
+temp.tx<-readtext(temp.htm)$text
+temp.tx<-gsub("\n"," ",temp.tx)
+###################################
+### new approach tag editing
+all.e.x<-read_html(temp.tx)
+all.i<-xml_find_all(all.e.x,".//i")
+xml_name(all.i)<-"stage"
+all.b<-xml_find_all(all.e.x,".//b")
+xml_name(all.b)<-"speaker"
+all.p<-xml_find_all(all.e.x,"*")
+xml_name(all.p)<-""
+aex.2<-xml_new_root("body")
+for(k in 1:length(xml_children(xml_children(all.e.x)))){
+xml_add_child(aex.2,"sp")
+all.sp<-xml_find_all(aex.2,".//sp")  
+xml_add_child(all.sp[k],xml_children(xml_children(all.e.x))[k])  
+}
+write_html(aex.2,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/tempxml.xml")
+###################################################################################
 sp.lines<-lapply(seq_along(all.elements),function(i){
   assign.sp(all.elements[[i]],i)
 })
@@ -336,7 +378,7 @@ ezd.lines<-gsub("<stage><stage>","<stage>",ezd.lines)
 ezd.lines<-gsub("</stage></stage>","</stage>",ezd.lines)
 ezd.lines<-gsub("<stage>[ ]{0,10}<stage>","<stage>",ezd.lines)
 mt<-grepl("^@",ezd.lines)
-ezd.lines<-ezd.lines[!m]
+ezd.lines<-ezd.lines[!mt]
 mh2<-grep("^##h2",ezd.lines)
 # get speaker wo/ declaration
 m<-grep("Anton",ezd.lines)
