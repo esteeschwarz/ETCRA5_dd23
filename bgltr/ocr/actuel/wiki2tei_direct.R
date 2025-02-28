@@ -60,13 +60,13 @@ assign.sp<-function(x,r){
     # # get all #level 1 (aufzug) headers
   m1<-grepl("170%",xml_attr(sub,"style"))
   if(m1){
-    h2.tx<-paste0("#h1",xml_text(sub))
+    h2.tx<-paste0('<div type="act"><head>',xml_text(sub),'</head></div>')
     return(h2.tx)
   }  
   # # get all #level 2 (auftritt) headers
   m2<-grepl("130%",xml_attr(sub,"style"))
   if(m2){
-    h3.tx<-paste0("##h2",xml_text(sub))
+    h3.tx<-paste0('<div type="scene"><head>',xml_text(sub),'</head></div>')
     return(h3.tx)
   }
   #######################################
@@ -83,6 +83,9 @@ assign.sp<-function(x,r){
   # get p
   p.tx<-xml_text(sub)
   p.tx<-gsub("\n"," ",p.tx)
+  p.tx<-gsub("\\(","<stage>",p.tx)
+  p.tx<-gsub("\\)","</stage>",p.tx)
+  
   if(xml_name(sub)=="p"){
     # chk if speaker
     p.ur.tx<-xml_text(sub)
@@ -101,6 +104,8 @@ assign.sp<-function(x,r){
       p.tx<-gsub("[(](.+)","<stage>\\1</stage>",p.tx)
     }
     p.tx<-gsub("\n"," ",p.tx)
+    p.tx<-gsub("\\(","<stage>",p.tx)
+    p.tx<-gsub("\\)","</stage>",p.tx)
     t.sub<-unlist(strsplit(p.tx," "))
     t.first<-t.sub[1]
     logx<-c(r,t.first,"<p>",t.sub)
@@ -112,6 +117,14 @@ assign.sp<-function(x,r){
     if(length(b)==0&length(i)==0){
 #      p.tx<-xml_text(sub)
       sp.ezd<-gsub("\n"," ",p.tx)
+      sp.ezd<-gsub("\\(","<stage>",sp.ezd)
+      sp.ezd<-gsub("\\)","</stage>",sp.ezd)
+      # if empty <p>
+      if (sp.ezd==""|sp.ezd==" "){
+        print("R11")
+        return(paste0("<del>",sp.ezd,"</del>"))
+      }
+      sp.ezd<-paste0("<p>",sp.ezd,"</p></sp>")
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
       print("R1")
       return(sp.ezd) 
@@ -195,6 +208,8 @@ assign.sp<-function(x,r){
   if(xml_name(sub)=="i"){
     sp.ezd<-paste0("<stage>",p.tx,"</stage>")
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
+    sp.ezd<-gsub("<stage><stage>","<stage>",sp.ezd)
+    sp.ezd<-gsub("</stage></stage>","</stage>",sp.ezd)
     print("R5")
     return(sp.ezd)
   }
@@ -215,12 +230,13 @@ assign.sp<-function(x,r){
 # rest of stage directions after kursive speaker names
     i<-xml_find_all(sub,"i")
     b<-xml_find_all(i,"b")
-    p.tx<-xml_text(sub)
+   # p.tx<-xml_text(sub)
   i 
   b
     print(c(b,i))
   if(length(i)>0){
     #p.tx<-xml_text(sub)
+   # p.tx<-paste0("<p>",p.tx,"</p>")
     i.tx<-xml_text(i)
     b.tx<-xml_text(b)
     if(length(b.tx)>0){
@@ -237,6 +253,7 @@ assign.sp<-function(x,r){
         l.tix<-gsub("\n","",l.tix)
         l.tix<-paste0(l.tix,collapse = " ")
         sp.ezd<-paste0("<sp><speaker>",b.tx,"</speaker><stage>",l.tix,"</stage>")
+      
 #      sp.ezd<-gsub("\n"," ",sp.ezd)
       sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
       print("R8")
@@ -268,6 +285,8 @@ assign.sp<-function(x,r){
     sp.ezd<-paste0(sp.ezd,"\n")
     print("R10")
     }
+    # plain <p>
+    #sp.ezd<-paste0("<p>",p.tx,"</p></sp>")
     sp.ezd<-gsub("\\[([0-9]{1,100})\\]",'<pb n="\\1"/>',sp.ezd)
     #sp.ezd<-gsub("\n"," ",sp.ezd)
     ###################### 15066.critical.pg-78, stage
@@ -307,13 +326,24 @@ sp.lines<-lapply(seq_along(all.elements),function(i){
 ### RUN
 # clean up text
 ezd.lines<-unlist(sp.lines)
-mh1<-grep("^#h1",ezd.lines)
+mh1<-grep("^<sp>",ezd.lines)
+msp<-grep("</sp>",ezd.lines[mh1])
+# no end speaker tag:
+ezd.lines[mh1[!msp]]<-paste0(ezd.lines[mh1[!msp]],"</sp>")
+ezd.lines<-gsub("(<stage>[^<]*)(<stage>)([^<]*</stage>)", "\\1\\3",ezd.lines , perl = TRUE)
+ezd.lines<-gsub("</stage>[ ]{0,10}</stage>","</stage>",ezd.lines)
+ezd.lines<-gsub("<stage><stage>","<stage>",ezd.lines)
+ezd.lines<-gsub("</stage></stage>","</stage>",ezd.lines)
+ezd.lines<-gsub("<stage>[ ]{0,10}<stage>","<stage>",ezd.lines)
+mt<-grepl("^@",ezd.lines)
+ezd.lines<-ezd.lines[!m]
 mh2<-grep("^##h2",ezd.lines)
 # get speaker wo/ declaration
 m<-grep("Anton",ezd.lines)
 ezd.lines[m]
 # critical: L54
 ezd.lines[1:50]
+# 15097 direct.test
 ###############
 l.htm<-read_html(paste0(ezd.lines,collapse = "\n"))
 
@@ -439,9 +469,12 @@ tx<-c("drei","mal","schwarzer\n","kater")
 save.lines<-function(ezd.lines){
   ezd_markup.ns<-"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/steltzer_ezd.001"
   ezd_markup_text<-paste0(ezd_markup.ns,".txt")
+  ezd_markup_html<-paste0(ezd_markup.ns,".xml")
   writeLines(unlist(ezd.lines),ezd_markup_text)
- # writeLines(unlist(ezd.lines),ezd_markup_text)
-#?writetext
+  writeLines(unlist(ezd.lines),ezd_markup_text)
+  ezd.tei<-c("<TEI>",unlist(ezd.lines),"</TEI>")
+  writeLines(ezd.tei,ezd_markup_html)
+  #?writetext
     return(list(ezd_markup.ns,ezd_markup_text))
   }
 ### personal:
