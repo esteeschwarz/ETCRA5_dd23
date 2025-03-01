@@ -407,14 +407,20 @@ all.l.b<-lapply(seq_along(all.l), function(i){
   spyes<-xml_name(xml_children(all.l[i]))=="speaker"
   spyes<-sum(spyes)>0
   b.tx<-xml_text(xml_find_all(all.l[i],".//speaker"))
+  cat("btx---\n")
   print(b.tx)
-  if(spyes>0){
+  cat("xmltx---\n")
+  print(xml_text(all.l[i]))
+  if(spyes){
+    cat("ltx---\n")
     l.tx<-gsub(b.tx,"",xml_text(all.l[i]))
+    print(l.tx)
     #b.tx<-xml_text(xml_children(all.l[i]))
-    xml_set_text(all.l[i],"")
-    xml_set_text(all.l[i],b.tx)
-    
-  xml_add_child(all.l[i],"p",l.tx)
+    xml_text(all.l[i])<-""
+    #xml_set_text(all.l[i],b.tx)
+    cat("inloop----\n")
+    print(xml_text(all.l[i]))
+#  xml_add_child(all.l[i],"p",l.tx)
   }
   return(T)
 })
