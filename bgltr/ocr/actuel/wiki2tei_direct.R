@@ -347,39 +347,97 @@ temp.tx<-readtext(temp.htm)$text
 temp.tx<-gsub("\n"," ",temp.tx)
 ###################################
 ### new approach tag editing
-all.e.x<-read_html(temp.tx)
+ground<-function(){
+# all.e.x<-read_html(temp.tx)
 all.i<-xml_find_all(all.e.x,".//i")
 xml_name(all.i)<-"stage"
 all.b<-xml_find_all(all.e.x,".//b")
 xml_name(all.b)<-"speaker"
-#all.p<-xml_find_all(all.e.x,"*")
-#xml_name(all.p)<-""
+all.p<-xml_find_all(all.e.x,".//p")
+xml_name(all.p)<-"line"
 all.span<-xml_find_all(all.e.x,".//span")
-all.pb<-xml_attr(all.span,"class")=="PageNumber"
-all.pb[is.na(all.pb)]<-F
-xml_name(all.span[all.pb])<-"pb"
+all.pn<-xml_attr(all.span,"class")=="PageNumber"
+all.pn[is.na(all.pn)]<-F
+xml_name(all.span[all.pn])<-"pb"
 all.pb<-xml_find_all(all.e.x,".//pb")
+xml_remove(xml_children(all.pb))
 for(k in 1:length(all.pb)){
   n<-xml_attr(all.pb[k],"id")
   n<-gsub("Seite_","",n)
   xml_attrs(all.pb[k])<-NULL
   xml_attr(all.pb[k],"n")<-n
-  xml_text(all.pb[k])<-NULL
-            
+#  xml_set_text(all.pb[k],"")
+  xml_set_text(all.pb[k],NULL)
+  
 }
+xml_set_text(xml_children(all.pb),"")
+xml_remove(xml_children(xml_children(all.pb)))
+xml_text(xml_children(all.pb))
+xml_text(all.pb)
+
+xml_attr(all.pb,"n")
 all.a<-xml_find_all(all.e.x,".//a")
 xml_remove(all.a)
 aex.body<-xml_find_all(all.e.x,"body")
 k
-for(k in 1:length(xml_children(xml_children(all.e.x)))){
-el<-xml_children(xml_children(all.e.x))[k]
-if(xml_name(el)=="p"){
-xml_add_child(aex.body,"sp",.where = k)
-#all.sp<-xml_find_all(aex.2,".//sp")  
-xml_add_child(aex.body[[1]][k],el)
+
+all.l<-xml_find_all(all.e.x,".//line")
+l.em<-xml_text(all.l)==""|xml_text(all.l)==" "
+sum(l.em)
+all.l<-all.l[!l.em]
+l.div<-xml_name(xml_children(all.l))=="div"|xml_name(xml_children(all.l))=="span"
+sum(l.div)
+xml_text(xml_children(all.l)[xml_name(xml_children(all.l))=="span"])
+xml_remove(xml_children(all.l)[xml_name(xml_children(all.l))=="span"])
+# all.l.s<-xml_find_all(all.e.x,".//speaker")  
+# all.l.s<-xml_name(xml_children(all.l))
+# all.l.sp<-all.l.s=="speaker"
+all.l.spk<-lapply(seq_along(all.l), function(i){
+  spyes<-xml_name(xml_children(all.l[i]))=="speaker"
+  spyes<-sum(spyes)>0
+})
+all.l.spk<-unlist(all.l.spk)
+return(all.l)
 }
-}
-write_html(aex.2,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/tempxml.xml")
+###############
+all.e.x<-read_html(temp.tx)
+all.l<-ground()
+###############
+all.l.b<-lapply(seq_along(all.l), function(i){
+  spyes<-xml_name(xml_children(all.l[i]))=="speaker"
+  spyes<-sum(spyes)>0
+  b.tx<-xml_text(xml_find_all(all.l[i],".//speaker"))
+  print(b.tx)
+  if(spyes>0){
+    l.tx<-gsub(b.tx,"",xml_text(all.l[i]))
+    #b.tx<-xml_text(xml_children(all.l[i]))
+    xml_set_text(all.l[i],"")
+    xml_set_text(all.l[i],b.tx)
+    
+  xml_add_child(all.l[i],"p",l.tx)
+  }
+  return(T)
+})
+#all.l.spk.tx<-unlist(all.l.b)
+#all.l.spk.tx
+# sum(all.l.spk)
+# xml_text(xml_children(all.l)[all.l.spk])
+# xml_text(all.l[all.l.spk])
+# #all.l.spk<-xml_find_all(all.e.x,".//speaker")  
+# #sp.lines<-xml_children(all.l)[all.l.sp]
+# 
+# 
+# xml_add_child(all.l[all.l.spk],"p",xml_text(all.l[all.l.spk]))
+# 
+# for(k in 1:length(xml_children(xml_children(all.e.x)))){
+# el<-xml_children(xml_children(all.e.x))[k]
+# if(xml_name(el)=="p"){
+# xml_add_child(aex.body,"sp",.where = k)
+# xml_add_child(aex.body[[1]][k],el)
+# }
+# }
+write_html(all.e.x,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/tempxml.xml")
+write_html(aex.body,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/tempxml.xml")
 ###################################################################################
 sp.lines<-lapply(seq_along(all.elements),function(i){
   assign.sp(all.elements[[i]],i)
