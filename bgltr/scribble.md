@@ -41,3 +41,21 @@ germ. 1229] > 12:P.O. bayr. staatsb.
 
 # wikisource pages
 <https://www.mediawiki.org/wiki/Manual:Pywikibot/Scripts>
+
+#### klopstock, der tod abels
+## 15125.samling
+Q1: (b/w) de gruyter: [https://doi.org/10.1515/9783111428048-toc](https://doi.org/10.1515/9783111428048-toc)
+Klopstock, Margareta. "Inhalt des eilften Bandes". Band 11 Hinterlaßne Schriften, Berlin, Boston: De Gruyter, 1823, pp. V-VI. https://doi.org/10.1515/9783111428048-toc
+[https://www.degruyter.com/document/doi/10.1515/9783111428048-toc/html](https://www.degruyter.com/document/doi/10.1515/9783111428048-toc/html)
+Q2: [https://books.google.de/books?id=xMI6AAAAcAAJ&pg=PA55&redir\_esc=y\#v=onepage&q&f=false](https://books.google.de/books?id=xMI6AAAAcAAJ&pg=PA55&redir_esc=y#v=onepage&q&f=false)
+Q3: (color) <https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN642528764&PHYSID=PHYS_0010&DMDID=DMDLOG_0002&view=picture-download>
+---
+- Q1 used for transkribus OCR, model ONB_Newseye, 0.5 credits, accuracy nearly 100%, few layout (line) mistakes, in 11 pg. ca. 10 type errors
+- corrected pg. 1-14
+	- [zip download:](https://transkribus.eu/export/622951506133228886/export_job_15596099.zip)
+	- preview text in [](bgltr/ocr/klopstock)
+- markup (#,##) scene/act header, $stages directly in in transkribus mask
+- just markup inconsistencies
+	- Speaker. (if not able to automatise)
+	- (...) in p which is not stage direction > (#i...)
+	- 10 pagebreak > 10::
