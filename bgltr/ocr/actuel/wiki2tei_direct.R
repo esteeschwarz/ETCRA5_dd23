@@ -443,7 +443,7 @@ all.l.b<-lapply(seq_along(all.l), function(i){
 # }
 # }
 write_html(all.e.x,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/tempxml.xml")
-write_html(aex.body,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/tempxml.xml")
+#write_html(aex.body,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/ezd/tempxml.xml")
 ###################################################################################
 sp.lines<-lapply(seq_along(all.elements),function(i){
   assign.sp(all.elements[[i]],i)
@@ -467,11 +467,15 @@ mh2<-grep("^##h2",ezd.lines)
 m<-grep("Anton",ezd.lines)
 ezd.lines[m]
 # critical: L54
-ezd.lines[1:50]
+ezd.lines[1:60]
 # 15097 direct.test
 ###############
 l.htm<-read_html(paste0(ezd.lines,collapse = "\n"))
-
+###################################################
+# 15125.<
+#########
+# from here TODO
+################
 # # removes redundant lines
 # m<-ezd.lines=="$"|ezd.lines=="@ *"|ezd.lines==""|
 #   ezd.lines=="[ ]{1,10}"|ezd.lines=="[.]{1,2}"|ezd.lines=="\n"|ezd.lines=="\n\n"|ezd.lines=="("|ezd.lines==")"|
