@@ -46,9 +46,7 @@ auf! Wie froh geht sie unter! Wie lacht uns das
 Gras auf dem Felde! Wie erfreut uns die unschul¬
 dige Heerde! Niemals, Abel, wird deinen Schafen
 ein Lamm gebohren, daß ich die Freude seiner Mut¬
-ter nicht theile. Wie fröhlich hüpft es in seiner jun¬
-gen Schönheit! wie mütterlich sorgt die Mutter da¬
-für! O Weisheit des Herrn! und o Güte! wie nahe
+ter nicht theile. Wie fröhlich hüpft es in seiner jungen Schönheit! wie mütterlich sorgt die Mutter dafür! O Weisheit des Herrn! und o Güte! wie nahe
 geht alles den Menschen an! Und selbst sein Nutzen
 ist seine Freude. Es ist uns zur Strafe aufgelegt:
 Im Schweiße unsers Angesichts unser. Brot zu essen.
@@ -176,7 +174,7 @@ nicht wie Kain ist!
 Ich kann niemand hassen, o
 Abel, aber ... es wird
 mir doch schwer, Kain wie
-#b#
+#o
 unsre Schwestern zu lieben!
 Abel.
 Wir wollen für ihn beten, Zilla.
@@ -203,7 +201,7 @@ Zilla.
 Es ist alles bereitet, meine Mutter.
 Eva.
 Ich glückselige Mutter so vieler Unsterblichen! so
-#b#
+#o
 vieler Tugendhaften! so vieler einst seligen Kinder!
 Meine Kinder! wie liebe ich euch, meine Kinder!
 Zilla.
@@ -335,8 +333,8 @@ Abel.
 Adam wolle das Opfer seben, das ich dem Herrn
 darbringen will. Siehe, Adam, es ist von den Erst¬
 lingen meiner Heerde, es ist ohne Fehl, und mein
-#eoutKlopst. Werke. 11. Bd.
-#eoutII
+#outKlopst. Werke. 11. Bd.
+#outII
 
 
 162::
@@ -345,13 +343,13 @@ Herrn angenehm seyn!
 Adam.
 Ja, mein Sohn, der Herr wird dein Opfer an¬
 nehmen! Er legt seine Hand auf ihn. Gott segne dich,
-mein bester Sohn, und sey dir gnädig! . . .  Ach
+mein bester Sohn, und sey dir gnädig! . . . Ach
 er ist nicht gefallen! ... aber er trägt die Schuld
 seines Vaters! .. Mein bester Sohn Abel! du hei¬
 ligfter und unschuldigster unter den Sündern! Wenn
 dein Vater nun alt und Lebens satt geworden ist,
-wenn er alle Schrecken des Todes gefühlt hat, (#iach,
-keiner wird sie so wie Adam fühlen!) wenn er ge¬
+wenn er alle Schrecken des Todes gefühlt hat, #(#ach,
+keiner wird sie so wie Adam fühlen!#)# wenn er ge¬
 storben, und nun wieder Erde ist, davon er ge¬
 nommen war! dann lehre du meine und deine Kin¬
 der den Herrn fürchten! Lehre sie die Glückseligkeit
@@ -408,16 +406,16 @@ Abel! Dankt dem Herrn, daß ihr geschaffen seyd!
 Lobt seinen Namen! betet an! preist und rühmt
 seine Werke, und freut euch! ach, freut euch in dem
 Herrn, der so gnädig ist!
-(Abel reicht Kain die Hand, er nimmt sie nicht an, und sie
-gehen beyde ab.)
+(Abel reicht Kain die Hand, er nimmt sie nicht an, und sie gehen beyde ab.)
 
 
-155::
+165::
 ##Achter Auftritt.
 $Adam. Eva. Zilla. Die übrigen Kin¬
 der Adams.
 #o
-Adam. (vor sich.)
+Adam. 
+(vor sich.)
 Vergieb ihm, o Herr, der du mir vergeben hast!
 vergieb meinem erstgebohrnen Sohne! Geht meine
 Kinder, und betet an. Ich will allein opfern. Adams
@@ -433,7 +431,7 @@ Eva.
 Ja, seine Güte ist überschwenglich groß, und
 seine Erbarmung hat kein Ende. ..
 Aber Kain,
-mein Sohn Kain! . .  Ach, seine Sünde ist auch
+mein Sohn Kain! . . Ach, seine Sünde ist auch
 meine Sünde.
 Adam.
 Gott wird sich seiner erbarmen, meine Eva!
@@ -444,21 +442,17 @@ Durch das Opfer selbst wird Gott sein Herz stärken,
 wenn er mit Glauben und Vertrauen opfert. Gott
 segne euch, meine Kinder!
 ##Neunter Auftritt.
-$Eva. Zilla. Die Töchter. Die Unmän¬
-digen. Einige Mütter mit ihren Säug¬
-lingen, um anzubeten.
+$Eva. Zilla. Die Töchter. Die Unmündigen. Einige Mütter mit ihren Säuglingen, um anzubeten.
 $Dieser Auftritt wird gesungen. *)
-—
- *) (Er sollte aus einem Gesange von ungleichen Strophen
+*) (Er sollte aus einem Gesange von ungleichen Strophen
 bestehen.)
-—
+
 
 
 167::
 #Dritte Handlung.
 ##Erster Auftritt.
-(Adam. Eva. Die Mütter mit ihren
-Kindern.)
+$Adam. Eva. Die Mütter mit ihren Kindern.
 #o
 Adam.
 Habt ihr gebetet, Kinder? habt ihr den Herrn sein
@@ -480,7 +474,8 @@ $*) An diesem Auftritte fehlt etwas.
 168::
 ##Zweyter Auftritt.
 $Adam. Eva. Kain.
-Adam. (zu Eva.)
+Adam. 
+(zu Eva.)
 Noch ist er finster, Eva! ... Kain, mein Sohn
 Kain, hast du geopfert? Du antwortest nicht? Du
 bist noch finster? Hat auch das Gebet deine Seele
@@ -527,7 +522,8 @@ ganz! Wißt ihre Strafe! Abel ist todt! Ich hab
 ihn erschlagen! Dort beym Altare, dort liegt er!
 ##Dritter Auftritt.
 $Adam. Eva.
-Adam. (nach langem Schweigen.)
+Adam. 
+(nach langem Schweigen.)
 Eva! ...
 
 
@@ -541,14 +537,13 @@ Eva.
 (die den Vorhang wegziehn will.)
 Ich kann nicht!
 Adam.
-(der endlich den Vorhang wegzieht: man sieht Abel auf dem
-Felde liegen.)
+(der endlich den Vorhang wegzieht: man sieht Abel auf dem Felde liegen.)
 Er ist todt!
 Eva.
 Ach! (sie geht zu Abel.) O du, der uns richtet!
 Adam.
 Das ist unsre Sünde! o Eva!
-#iBeyde.
+Beyde.
 Richter der Menschen, erbarme dich unser!
 Eva.
 Ist dieß deine blühende Wange, o Abel? dieß
@@ -597,8 +592,8 @@ O laß uns für ihn beten, Adam!
 $Sie fallen nieder.
 Adam.
 Vater der Menschen! ihr Gott! ihr Erbarmer!
-der du uns schufst! (wir fielen, doch du verwarfst
-uns nicht!) der du den ersten Sündern vergabst,
+der du uns schufst! #(#wir fielen, doch du verwarfst
+uns nicht!#)# der du den ersten Sündern vergabst,
 vergieb ihren Kindern! Vergieb unserm erstgebohr¬
 nen Sohne!
 Eva.
@@ -677,7 +672,7 @@ der, so sehr ein Sünder, daß ich deine Tugend be¬
 neidete! daß ich ..
 dich erschlug! O wendet euch
 von mir! Tödtet mich nicht!
-#0
+#o
 Adam.
 Kain!
 Eva.
