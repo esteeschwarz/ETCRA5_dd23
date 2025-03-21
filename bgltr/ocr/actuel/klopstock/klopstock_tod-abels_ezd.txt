@@ -1,8 +1,12 @@
-@title: Der Tod Abels
-@subtitle: Ein Trauerspiel
-@author: Margarete Klopstock
+@title Der Tod Abels
+@subtitle Ein Trauerspiel
+@author Margarete Klopstock
 ^Personen.
-Adam Eva Kain Abel Zilla 
+Adam
+Eva
+Kain
+Abel
+Zilla
 #Erste Handlung.
 ##Erster Auftritt.
 $Abel. Zilla.
@@ -33,9 +37,7 @@ O Kain, verdamm unsern Vater nicht! Vielleicht wären wir an seiner Statt noch t
 @Kain.
 Es ist wahr, die ganze Schöpfung ist finster für mich! 
 @Abel.
-So laß die Bruderliebe wenigstens Freude für dich haben. Welche Freude ist nicht in der Freundschaft! Wie lieben sich nicht Adams Kinder alle! aber keins liebt dich mehr, o Kain, als dein Bruder 
-@Abel.
-154:: 
+So laß die Bruderliebe wenigstens Freude für dich haben. Welche Freude ist nicht in der Freundschaft! Wie lieben sich nicht Adams Kinder alle! aber keins liebt dich mehr, o Kain, als dein Bruder Abel. 154:: 
 @Kain.
 Geh, du Glücklicher! ich erwarte dich beym Altare!... ———— 
 ##Dritter Auftritt.
@@ -126,7 +128,8 @@ Weil ich mich nicht freuen kann.
 Geh, Kain, und heitre dich auf. Opfre nicht mit einem Herzen voll Unmuth! Wir sollen dem Herrn mit Freuden dienen. Geh, und freu dich mit deinem Bruder Abel! Dankt dem Herrn, daß ihr geschaffen seyd! Lobt seinen Namen! betet an! preist und rühmt seine Werke, und freut euch! ach, freut euch in dem Herrn, der so gnädig ist! (Abel reicht Kain die Hand, er nimmt sie nicht an, und sie gehen beyde ab.) 165:: 
 ##Achter Auftritt.
 $Adam. Eva. Zilla. Die übrigen Kinder Adams.
-Adam.  (vor sich.) Vergieb ihm, o Herr, der du mir vergeben hast! vergieb meinem erstgebohrnen Sohne! Geht meine Kinder, und betet an. Ich will allein opfern. Adams Thränen sollen keine Wehmuth in eure Jubel mischen. Kommt wieder zu mir, wenn ihr gebetet habt, dann sollt ihr das Abendopfer dem Herrn bringen. (Adam geht mit Eva etwas vorwärts.) Heitre dich auf, meine Eva! Laß die Thränen deinen Dank nicht entkräften. Laß deine Kinder hören, daß du gesündigt hast; aber laß sie auch hören, daß deine Sünde versöhnt ist. 
+@Adam.
+(vor sich.) Vergieb ihm, o Herr, der du mir vergeben hast! vergieb meinem erstgebohrnen Sohne! Geht meine Kinder, und betet an. Ich will allein opfern. Adams Thränen sollen keine Wehmuth in eure Jubel mischen. Kommt wieder zu mir, wenn ihr gebetet habt, dann sollt ihr das Abendopfer dem Herrn bringen. (Adam geht mit Eva etwas vorwärts.) Heitre dich auf, meine Eva! Laß die Thränen deinen Dank nicht entkräften. Laß deine Kinder hören, daß du gesündigt hast; aber laß sie auch hören, daß deine Sünde versöhnt ist. 
 @Eva.
 Ja, seine Güte ist überschwenglich groß, und seine Erbarmung hat kein Ende. .. Aber Kain, mein Sohn Kain! . . Ach, seine Sünde ist auch meine Sünde. 
 @Adam.
@@ -146,7 +149,8 @@ $*) An diesem Auftritte fehlt etwas.
 168:: 
 ##Zweyter Auftritt.
 $Adam. Eva. Kain.
-Adam.  (zu Eva.) Noch ist er finster, Eva! ... Kain, mein Sohn Kain, hast du geopfert? Du antwortest nicht? Du bist noch finster? Hat auch das Gebet deine Seele nicht besänftigen, dein Herz nicht erweichen können? 
+@Adam.
+(zu Eva.) Noch ist er finster, Eva! ... Kain, mein Sohn Kain, hast du geopfert? Du antwortest nicht? Du bist noch finster? Hat auch das Gebet deine Seele nicht besänftigen, dein Herz nicht erweichen können? 
 @Kain.
 Frage nicht, Adam! 
 @Adam.
@@ -162,13 +166,14 @@ Er kann nicht, er kann nicht!
 @Eva.
 Wo ist dein besserer Bruder Abel? 
 $Kain will fortgehn.
-$Adam und Eva zugleich.
-Wo ist er? wo ist er? 
+@Adam und Eva
+(zugleich.) Wo ist er? wo ist er? 
 @Kain.
 So vernehmts denn .. vernehmts! . . Ihr habt die Sünde auf uns gebracht! Kennt eure Sünde ganz! Wißt ihre Strafe! Abel ist todt! Ich hab ihn erschlagen! Dort beym Altare, dort liegt er! 
 ##Dritter Auftritt.
 $Adam. Eva.
-Adam.  (nach langem Schweigen.) Eva! ... 170:: 
+@Adam.
+(nach langem Schweigen.) Eva! ... 170:: 
 @Eva.
 Adam! ... Ach, er ist todt: 
 @Adam.

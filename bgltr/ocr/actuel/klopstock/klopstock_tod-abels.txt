@@ -3,11 +3,9 @@
 
 ^Personen.
 Adam
-Eva.
-Kain.
+Eva
+Kain
 Abel
-
-
 Zilla.
 
 
@@ -137,8 +135,7 @@ Abel.
 So laß die Bruderliebe wenigstens Freude für
 dich haben. Welche Freude ist nicht in der Freund¬
 schaft! Wie lieben sich nicht Adams Kinder alle!
-aber keins liebt dich mehr, o Kain, als dein Bruder
-Abel.
+aber keins liebt dich mehr, o Kain, als dein Bruder Abel.
 
 
 154::
@@ -411,12 +408,10 @@ Herrn, der so gnädig ist!
 
 165::
 ##Achter Auftritt.
-$Adam. Eva. Zilla. Die übrigen Kin¬
-der Adams.
+$Adam. Eva. Zilla. Die übrigen Kinder Adams.
 #o
-Adam. 
-(vor sich.)
-Vergieb ihm, o Herr, der du mir vergeben hast!
+Adam.
+(vor sich.) Vergieb ihm, o Herr, der du mir vergeben hast!
 vergieb meinem erstgebohrnen Sohne! Geht meine
 Kinder, und betet an. Ich will allein opfern. Adams
 Thränen sollen keine Wehmuth in eure Jubel mischen.
@@ -474,7 +469,7 @@ $*) An diesem Auftritte fehlt etwas.
 168::
 ##Zweyter Auftritt.
 $Adam. Eva. Kain.
-Adam. 
+Adam.
 (zu Eva.)
 Noch ist er finster, Eva! ... Kain, mein Sohn
 Kain, hast du geopfert? Du antwortest nicht? Du
@@ -513,7 +508,8 @@ Er kann nicht, er kann nicht!
 Eva.
 Wo ist dein besserer Bruder Abel?
 $Kain will fortgehn.
-$Adam und Eva zugleich.
+@Adam und Eva
+(zugleich.)
 Wo ist er? wo ist er?
 Kain.
 So vernehmts denn .. vernehmts! . . Ihr habt
@@ -522,7 +518,7 @@ ganz! Wißt ihre Strafe! Abel ist todt! Ich hab
 ihn erschlagen! Dort beym Altare, dort liegt er!
 ##Dritter Auftritt.
 $Adam. Eva.
-Adam. 
+Adam.
 (nach langem Schweigen.)
 Eva! ...
 

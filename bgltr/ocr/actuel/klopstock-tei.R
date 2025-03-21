@@ -18,7 +18,7 @@ m3<-grep("#f",t2)
 title<-unlist(strsplit(t2[m3],"\\."))
 title<-gsub("(^ )|( $)","",title)
 title[1]<-"Margarete Klopstock"
-title<-paste0(c("@author: ","@title: ","@subtitle: "),title)
+title<-paste0(c("@author ","@title ","@subtitle "),title)
 title
 t3<-c(title[c(2,3,1)],t2[(m3+1):length(t2)])
 head(t3,20)
@@ -65,12 +65,13 @@ t4<-t4[!m10]
 #t4<-gsub("^[(](.+)[)]","$\\1",t4)
 char.s<-"[#@$^]"
 char.gr<-paste0("^",char.s)
-m12<-grep(char.gr,t4)
-m12<-grepl(char.gr,t4)
-t4[!m12]<-paste0(t4[!m12],"3p")
-writeLines(t4,ezd_markup_text)
+tbody<-(m9[1]+1):length(t4)
+m12<-grep(char.gr,t4[tbody])
+m12<-grepl(char.gr,t4[tbody])
+t4[tbody][!m12]<-paste0(t4[tbody][!m12],"3p")
+writeLines(t4,ezd_markup.temp)
 
-t5<-readtext(ezd_markup_text)$text
+t5<-readtext(ezd_markup.temp)$text
 t5
 t5<-gsub(paste0("(3p)\n(?!",char.s,")")," ",t5,perl = T)
 t5<-gsub("(@.+\\.)\n(\\(.+\\))","\\1\\2",t5)
@@ -91,3 +92,8 @@ process.ezd()
 xml.ns<-paste0(ezd_markup.ns,".xml")
 # read in ezd output .xml
 xml.tx<-readLines(xml.ns)
+m14<-grep("[0-9]{1,3}:: ",xml.tx)
+xml.tx[m14]<-gsub("([0-9]{1,3}::) ","\\1",xml.tx[m14])
+m14<-grep("[0-9]{1,3}::",xml.tx)
+xml.tx[m14]<-gsub("([0-9]{1,3})::",'<pb n="\\1"/>',xml.tx[m14])
+writeLines(xml.tx,xml.ns)
