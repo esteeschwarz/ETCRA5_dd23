@@ -97,3 +97,5 @@ xml.tx[m14]<-gsub("([0-9]{1,3}::) ","\\1",xml.tx[m14])
 m14<-grep("[0-9]{1,3}::",xml.tx)
 xml.tx[m14]<-gsub("([0-9]{1,3})::",'<pb n="\\1"/>',xml.tx[m14])
 writeLines(xml.tx,xml.ns)
+xml.final<-"~/Documents/GitHub/ETCRA5_dd23/tei/klopstock_tod-abels.final.xml"
+writeLines(xml.tx,xml.final)
