@@ -5,6 +5,7 @@ t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock/klopsto
 ezd_markup.ns<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock/klopstock_tod-abels_ezd")
 ezd_markup_text<-paste0(ezd_markup.ns,".txt")
 ezd_markup.temp<-tempfile("ezdtemp.txt")
+library(readtext)
 # m1<-grep("¬",t1)
 # m1p<-m1+1
 # tm1<-paste0(t1[m1],t1[m1p])
@@ -96,6 +97,14 @@ m14<-grep("[0-9]{1,3}:: ",xml.tx)
 xml.tx[m14]<-gsub("([0-9]{1,3}::) ","\\1",xml.tx[m14])
 m14<-grep("[0-9]{1,3}::",xml.tx)
 xml.tx[m14]<-gsub("([0-9]{1,3})::",'<pb n="\\1"/>',xml.tx[m14])
+m15<-grep("(\\[)",xml.tx)
+xml.tx[m15]
+xml.tx[m15]<-gsub("\\[","(",xml.tx[m15])
+
+m15<-grep("(\\])",xml.tx)
+xml.tx[m15]
+xml.tx[m15]<-gsub("\\]",")",xml.tx[m15])
+xml.tx[m15]
 writeLines(xml.tx,xml.ns)
 xml.final<-"~/Documents/GitHub/ETCRA5_dd23/tei/klopstock_tod-abels.final.xml"
 writeLines(xml.tx,xml.final)
