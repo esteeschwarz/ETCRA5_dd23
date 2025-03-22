@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.24.0:model_id=37738:lm=none:date=19_03_2025_17:58</Creator>
+        <Created>2025-03-19T17:46:15.411+01:00</Created>
+        <LastChange>2025-03-20T17:20:39.959+01:00</LastChange>
+        <TranskribusMetadata docId="7516113" pageId="93686472" pageNr="10" status="DONE" userId="88658" imgUrl="https://files.transkribus.eu/Get?id=KOHKXZVLGDDYXNMZOQSJOSJA&amp;fileType=view" imageId="78350781"/>
+    </Metadata>
+    <Page imageFilename="93686472.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1742487639959" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="567,1185 567,2736 1907,2736 1907,1185"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="679,1213 850,1208 886,1244 1032,1194 1117,1244 1182,1204 1218,1238 1269,1206 1301,1236 1703,1219 1736,1251 1815,1223 1746,1167 1604,1201 1489,1149 1447,1184 1393,1154 679,1171"/>
+                <Baseline points="689,1224 745,1221 801,1222 858,1224 914,1224 971,1221 1027,1223 1084,1224 1140,1224 1197,1222 1253,1222 1309,1224 1366,1221 1422,1221 1479,1221 1535,1221 1592,1224 1648,1224 1705,1224 1761,1227 1818,1227"/>
+                <TextEquiv>
+                    <Unicode>#Erste Handlung.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="853,1465 998,1499 1050,1472 1136,1484 1169,1450 1206,1484 1335,1500 1617,1484 1617,1443 1482,1412 1413,1435 1335,1410 1306,1437 1027,1410 853,1433"/>
+                <Baseline points="862,1477 901,1474 941,1472 981,1471 1021,1471 1061,1471 1101,1471 1141,1471 1181,1471 1221,1471 1261,1471 1301,1474 1341,1472 1381,1473 1421,1472 1461,1471 1501,1470 1541,1469 1581,1474 1621,1474"/>
+                <TextEquiv>
+                    <Unicode>##Erster Auftritt.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="990,1604 1024,1627 1189,1629 1233,1607 1279,1636 1310,1621 1460,1619 1460,1584 1373,1549 1340,1565 1274,1550 1233,1591 1196,1589 1167,1562 1112,1577 1054,1545 990,1572"/>
+                <Baseline points="1000,1606 1025,1609 1051,1612 1077,1610 1103,1609 1129,1609 1155,1610 1180,1612 1206,1612 1232,1613 1258,1614 1284,1614 1310,1612 1335,1612 1361,1612 1387,1612 1413,1612 1439,1612 1465,1612"/>
+                <TextEquiv>
+                    <Unicode>$Abel. Zilla.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="1137,1748 1169,1764 1206,1758 1261,1764 1281,1754 1293,1763 1311,1763 1335,1756 1333,1714 1318,1714 1303,1699 1276,1716 1243,1711 1216,1696 1166,1701 1152,1714 1137,1714"/>
+                <Baseline points="1146,1749 1173,1749 1200,1749 1227,1749 1255,1749 1282,1749 1309,1751 1337,1749"/>
+                <TextEquiv>
+                    <Unicode>Abel.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="575,1861 1900,1865 1900,1815 1828,1798 1764,1830 1540,1796 1438,1843 1243,1798 1002,1830 575,1798"/>
+                <Baseline points="585,1845 654,1851 723,1851 793,1854 862,1854 932,1856 1001,1856 1070,1854 1140,1853 1209,1857 1279,1856 1348,1859 1418,1859 1487,1857 1556,1857 1626,1857 1695,1857 1765,1856 1834,1854 1904,1851"/>
+                <TextEquiv>
+                    <Unicode>Es ist der Tag der Schöpfung, meine Zilla, der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="570,1925 1900,1927 1872,1882 1671,1873 570,1880"/>
+                <Baseline points="579,1913 645,1919 711,1919 777,1919 844,1919 910,1919 976,1919 1042,1919 1109,1919 1175,1922 1241,1922 1307,1925 1374,1925 1440,1924 1506,1922 1572,1922 1639,1924 1705,1922 1771,1920 1837,1919 1904,1913"/>
+                <TextEquiv>
+                    <Unicode>Tag, an dem Gott den Menschen schuf, Adam, un¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="579,2009 1898,2000 1880,1937 579,1942"/>
+                <Baseline points="588,1985 653,1988 719,1985 784,1988 850,1985 916,1985 981,1985 1047,1985 1113,1987 1178,1988 1244,1988 1310,1988 1375,1988 1441,1988 1507,1988 1572,1988 1638,1988 1704,1985 1769,1985 1835,1985 1901,1985"/>
+                <TextEquiv>
+                    <Unicode>sern besten Vater! O laß uns ihm danken! So wie</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="572,2057 1897,2067 1897,2004 1828,2000 1482,2039 1218,2002 1174,2044 1112,2002 572,2019"/>
+                <Baseline points="582,2051 651,2054 720,2051 790,2053 859,2051 929,2053 998,2053 1067,2054 1137,2054 1206,2057 1276,2057 1345,2054 1415,2055 1484,2057 1553,2057 1623,2057 1692,2057 1762,2053 1831,2051 1901,2051"/>
+                <TextEquiv>
+                    <Unicode>unsre Seele ihm dankt, so laß die ganze Feyer des</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="564,2119 1897,2129 1872,2081 1631,2066 1201,2104 564,2081"/>
+                <Baseline points="573,2119 639,2119 705,2122 772,2120 838,2121 905,2121 971,2121 1037,2121 1104,2122 1170,2122 1237,2119 1303,2122 1369,2122 1436,2122 1502,2119 1569,2121 1635,2119 1701,2119 1768,2119 1834,2120 1901,2116"/>
+                <TextEquiv>
+                    <Unicode>Aeußerlichen ihm danken. Adam hat die Opfer ange¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="572,2194 1897,2203 1897,2149 1821,2137 1766,2174 1651,2137 572,2158"/>
+                <Baseline points="582,2185 651,2184 720,2188 790,2188 859,2188 929,2188 998,2190 1067,2191 1137,2188 1206,2191 1276,2191 1345,2191 1415,2186 1484,2185 1553,2185 1623,2185 1692,2185 1762,2185 1831,2185 1901,2188"/>
+                <TextEquiv>
+                    <Unicode>ordnet. Kain und ich sollen zusammen opfern. Eva</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="564,2250 1903,2268 1903,2218 1805,2199 564,2218"/>
+                <Baseline points="573,2245 639,2249 706,2254 773,2254 839,2254 906,2254 973,2254 1039,2254 1106,2254 1173,2254 1240,2254 1306,2255 1373,2257 1440,2253 1506,2251 1573,2253 1640,2253 1706,2253 1773,2253 1840,2253 1907,2251"/>
+                <TextEquiv>
+                    <Unicode>will mit euch und den Unmündigen beten; und Adam</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="570,2318 1898,2331 1898,2283 1636,2265 1112,2275 1079,2308 948,2271 850,2305 789,2270 570,2285"/>
+                <Baseline points="579,2313 645,2316 711,2316 777,2319 843,2316 909,2319 975,2319 1041,2321 1107,2317 1173,2318 1240,2318 1306,2317 1372,2319 1438,2318 1504,2316 1570,2319 1636,2319 1702,2319 1768,2318 1834,2319 1901,2316"/>
+                <TextEquiv>
+                    <Unicode>will allein opfern. Es werden sich Thränen unter</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="575,2403 1897,2395 1897,2335 1300,2375 1156,2335 1114,2377 575,2336"/>
+                <Baseline points="585,2382 650,2382 716,2385 782,2386 848,2388 914,2388 979,2388 1045,2385 1111,2387 1177,2385 1243,2387 1308,2385 1374,2386 1440,2385 1506,2383 1572,2382 1637,2385 1703,2388 1769,2388 1835,2385 1901,2385"/>
+                <TextEquiv>
+                    <Unicode>seine Opfer mischen. Denn er wird das Paradies</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="572,2455 1900,2459 1900,2413 1838,2400 1741,2442 1570,2400 1268,2437 572,2410"/>
+                <Baseline points="582,2445 648,2446 714,2448 780,2451 846,2454 912,2454 978,2454 1044,2452 1110,2454 1176,2454 1243,2454 1309,2454 1375,2454 1441,2453 1507,2451 1573,2451 1639,2451 1705,2454 1771,2451 1837,2451 1904,2448"/>
+                <TextEquiv>
+                    <Unicode>nicht aus seinen Gedanken entfernen können. Aber</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="564,2515 1897,2539 1895,2480 1770,2464 564,2482"/>
+                <Baseline points="573,2510 639,2514 705,2516 772,2518 838,2516 905,2519 971,2519 1037,2519 1104,2519 1170,2522 1237,2519 1303,2521 1369,2519 1436,2519 1502,2517 1569,2517 1635,2519 1701,2519 1768,2519 1834,2519 1901,2519"/>
+                <TextEquiv>
+                    <Unicode>unter unsre Opfer sollen keine Thränen sich mischen;</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_16" custom="readingOrder {index:15;}">
+                <Coords points="579,2594 1900,2592 1900,2547 1825,2537 1353,2569 856,2537 825,2569 579,2536"/>
+                <Baseline points="588,2579 653,2579 719,2579 785,2580 851,2582 917,2585 982,2585 1048,2585 1114,2585 1180,2588 1246,2588 1311,2588 1377,2585 1443,2585 1509,2585 1575,2585 1640,2586 1706,2588 1772,2584 1838,2582 1904,2579"/>
+                <TextEquiv>
+                    <Unicode>#(#nur die, daß wir mit Adam fortfahren gegen den</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="559,2643 1622,2676 1880,2659 1898,2617 557,2611"/>
+                <Baseline points="567,2639 633,2643 700,2645 767,2646 834,2651 901,2651 968,2651 1034,2652 1101,2651 1168,2652 1235,2654 1302,2654 1369,2654 1436,2650 1502,2648 1569,2651 1636,2654 1703,2651 1770,2648 1837,2647 1904,2645"/>
+                <TextEquiv>
+                    <Unicode>Allmächtigen zu sündigen!#)# warum wollten wir wei¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_18" custom="readingOrder {index:17;}">
+                <Coords points="564,2711 1897,2723 1897,2666 564,2674"/>
+                <Baseline points="573,2701 639,2708 705,2710 772,2711 838,2713 905,2714 971,2719 1037,2718 1104,2719 1170,2717 1237,2719 1303,2719 1369,2719 1436,2719 1502,2719 1569,2721 1635,2717 1701,2716 1768,2716 1834,2716 1901,2716"/>
+                <TextEquiv>
+                    <Unicode>nen? Wir haben die Glückseligkeit des Paradieses</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
+

@@ -2,6 +2,10 @@
 #15126.klopstock-abel.TEI
 #########################
 t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock/klopstock_tod-abels.txt")
+# to fetch transcript text from transkribus API:
+source("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/transkribus-api.R")
+#t1<-tx.text # generated above
+# i made few changes corrections/adaptations in the t1 static file to make this script run fluently, so modifications in the transkribus editor make no sense at the moment.
 ezd_markup.ns<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock/klopstock_tod-abels_ezd")
 ezd_markup_text<-paste0(ezd_markup.ns,".txt")
 ezd_markup.temp<-tempfile("ezdtemp.txt")
