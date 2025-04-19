@@ -20,7 +20,7 @@ andere im Druck gesehen. Vermuthlich hat
 der Herr Verfasser es verhindert. Er mag
 mir indessen verzeihen, daß da ich Gelegen=
 heit gehabt eine Abschrift von der ersten Aus=
-ärbeitung, nemlich in drey Handlungen, an
+arbeitung, nemlich in drey Handlungen, an
 mich zu bringen, ich die Ausgabe desselben be=
 sorge. So viel kan ich jedoch aufrichtig ver=
 sichern, daß ich mir nicht eine Sylbe darin
@@ -100,6 +100,7 @@ gefügt. Wetzlar, den 20. May 1770.
 Der Herausgeber.
 
 
+7::
 Iwanette.
 Denken Sie, daß die Gattin eines zärtlichen und
 verdienstvollen Mannes strafbar genug ist,
@@ -108,6 +109,7 @@ scheinet.
 Act. 2.
 
 
+8::
 ^Personen.
 Iwanette.
 Stormond.
@@ -119,6 +121,7 @@ Ein Medicus.
 Die Scene ist im Zimmer der Iwanette.
 
 
+9::
 .
 #Erste Handlung.
 Iwanette.
@@ -140,10 +143,11 @@ dauern?
 Wolsey.
 
 
+10::
 Wolsey.
 (neben dem Ruhebette auf einem Stuhl.)
 Ich finde Ihren Zustand gar nicht entsezlich.
-Die Dürftigkeit ist freulich eine harte Sache für den,
+Die Dürftigkeit ist freylich eine harte Sache für den,
 der ihrer ungewohnt ist, Aber --
 Iwanette.
 O Wolsey! man kan dürftig seyn, verachtet
@@ -174,8 +178,8 @@ selbst mich verabscheuete, und meiner Qualen nicht
 achtend, mir größere zuzutheilen bereit wäre.
 
 
-.
-Walsey.
+11::
+Wolsey.
 Die erschrecklichen Bilder, die Sie sich schaffen,
 vollenden Ihr Unglück. Gegen das übrige sind Mit¬
 tel vorhanden. Es steht in Ihrer Gewalt, sich der¬
@@ -186,7 +190,7 @@ Wolsey.
 Können Sie mich noch fragen?
 Warum schla=
 gen Sie die großmüthigen Anerbietungen des Gra¬
-ren Golowin aus?
+fen Golowin aus?
 Ist er es, der von Ihnen mit
 Verachtung begegnet werden solte? Jung seyn, vom
 Stande seyn und großmüthig seyn, findet sich nicht
@@ -195,7 +199,7 @@ endlich ein Unmensch wie Ihr Stormond, daß man
 seiner schone, und ihm die grausame Freude schaffe,
 sich über seine Flucht in Gram zu verzehren?
 Iwanette.
-Welche Redan führen Sie, Madame? Golo¬
+Welche Reden führen Sie, Madame? Golo¬
 win mag schön seyn, wie ein Liebesgott schön seyn,
 Iwanette hat keine Augen seine Schönheit zu bemer-
 ken. O Stormond! selbst deine Gransamkeit ist un¬
@@ -209,13 +213,13 @@ ist.
 12::
 ist. Vieleicht will er das lezte. Und Golowin,
 der ganz Zärtlichkeit für Sie ist, sey dann auf
-ewig verbannet
+ewig verbannet!
 Iwanette.
 Nichts weiter von Golowin! -- O Stormond!
 Wolsey.
 Wenn Sie denn würklich den Stormond lie¬
 ben, warum gaben Sie durch Ihr Betragen ihm
-ursach, Sie zu fliehen?
+Ursach, Sie zu fliehen?
 Iwanette.
 Ob ich ihn liebe! —
 Dieses Herz hätte vie¬
@@ -240,8 +244,7 @@ der
 
 
 13::
-.
-der Betheurungen Ihrer Liebe zum Stormund un¬
+der Betheurungen Ihrer Liebe zum Stormond un¬
 geachtet, mir selbst diese Zweifel nicht verschwinden.
 Er verdient aber dennoch Verachtung. Wenn er
 Sie auch verlassen wolte, warum sezte er Sie in den
@@ -296,7 +299,7 @@ von meiner Liebe vorzusagen. Ihr Zustand, ach
 Ihr beklagenswürdiger Zustand läßt mir nur das
 Gefühl eines thränenvollen Mitleids übrig. Nicht,
 als wenn ich Sie jezt weniger schön, weniger anbe¬
-censwürdig fände, sondern ich verlange Ihnen nicht
+tenswürdig fände, sondern ich verlange Ihnen nicht
 weiter durch Anträge beschwerlich zu fallen, die
 Ihre Tugend verabscheuet. Sehen Sie in mir nicht
 einen ungestümen Liebhaber, sondern einen solchen,
@@ -517,7 +520,7 @@ sucht andre auf, denen er erschrecklich ist? -- Stor¬
 mond koͤmt mit seinem Vater sich auszusoͤhnen. Er
 wird meine Wohnung erfahren, und
 ich werde von
-ihm mit so vielem Recht verabscheuet werden, aͤls je
+ihm mit so vielem Recht verabscheuet werden, als je
 ein Sterblicher es wurde. —
 Und doch schlaͤgt die¬
 ses Herz füͤr ihn, kennt kein Gluͤck als mit dem sei¬
@@ -543,7 +546,7 @@ seiner Eltern, und die Drohungen der Enterbung
 nicht achten machte. Ja, ich verdiene alles Ungluͤck,
 das mich jezt verfolgt. (Sie ist eine zeitlang still.)
 Ist diese Empfindung die sich meiner bemeistert, ein
-drohender Schlaͤf, oder vieleicht der herannahende
+drohender Schlaf, oder vieleicht der herannahende
 Tod. — Sey mir gesegnet. --
 Ich --
 (Sie geraͤth in Schlaf.)
@@ -613,7 +616,7 @@ nicht Ihre Freundin?
 
 24::
 Stormond.
-(tritt wieder ins Zimmer.
+(tritt wieder ins Zimmer.)
 (fuͤr sich, indem sich Wolsey mit Iwanetten
 beschaͤftiget.)
 Diese Freundschaft ist eine Brut der Hölle; --
