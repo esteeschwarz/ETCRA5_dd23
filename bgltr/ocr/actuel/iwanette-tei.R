@@ -55,10 +55,11 @@ lti2<-utf8ToInt(t2[548])
 lti2
 k<-548
 t3<-t2
-k<-551
+k<-124
 x
-r<-5
+r<-6
 r
+k
 for(r in 1:length(umrepl)){
   x<-umrepl[r]
   for (k in 1:length(t3)){
@@ -67,6 +68,10 @@ for(r in 1:length(umrepl)){
     mu
     mup<-which(mu)-1
     u<-intToUtf8(ltint[mup])
+    u<-unlist(strsplit(u,""))
+    u
+am<-u==names(x)|u==x
+u<-u[am]
 am<-u==names(x)|u==x
 if(sum(am)>0) { 
 if(ltint[mup+1]!=1000) {
@@ -82,6 +87,8 @@ t3[k]<-intToUtf8(lt2)
 }
 t3[548:570]
 utf8ToInt(t3[551])
+writeLines(t2,ezd_markup_text)
+writeLines(t3,ezd_markup_text)
 #outlist
 ltint
 mout<-ltint==1000
