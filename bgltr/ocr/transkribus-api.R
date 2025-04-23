@@ -89,8 +89,11 @@ transcript_url<-paste0("https://transkribus.eu/TrpServer/rest/collections/197329
 k<-10
 length(all.pg)
 tx.list<-list()
+klopstock<-7516113
+iwanette<-7599198
+doc_id<-iwanette
 for (k in 1:length(all.pg)){
-transcript_url<-paste0("https://transkribus.eu/TrpServer/rest/collections/1973292/7516113/",k,"/curr")
+transcript_url<-paste0("https://transkribus.eu/TrpServer/rest/collections/1973292/",doc_id,"/",k,"/curr")
 
 transcript_response <- GET(transcript_url, add_headers(Authorization = paste("sessionId", access_token)))
 json.df<-fromJSON(content(transcript_response,"text"),flatten = T)
@@ -105,7 +108,8 @@ t.tx<-unlist(xml_text(t.lines))
 tx.list[[k]]<-t.tx
 }
 tx.text<-unlist(tx.list)
-writeLines(tx.text,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock/klopstock_tod-abels_apiexpo.txt")
+# writeLines(tx.text,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock/klopstock_tod-abels_apiexpo.txt")
+writeLines(tx.text,"~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/goue_iwanette_apiexpo.txt")
 # 15131.klopstock
 #writeLines(content(transcript_response, "text"), "TEI/api-export_transcript.xml")
 # writeLines(content(transcript_response, "text"), "~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock/api-export_transcript.xml")
