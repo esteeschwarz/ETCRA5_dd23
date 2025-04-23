@@ -7,19 +7,15 @@
 
 
 
-Iwanette
-und
-Stormond
-ein
-Trauerspiel, in drey Handlungen.
+@title Iwanette und Stormond
+
+
+@subtitle ein Trauerspiel, in drey Handlungen.
 
 
 
-So spricht Iwanette!
-Act. 2.
 
-
-
+@cite So spricht Iwanette! Act. 2.
 
 
 
@@ -28,8 +24,12 @@ Act. 2.
 
 
 
-Wetzlar,
-gedruckt bey Georg Ernst Winkler.
+
+
+
+
+@publisher Wetzlar, gedruckt bey Georg Ernst Winkler.
+
 
 
 
@@ -128,7 +128,7 @@ Stormonds, und also eine interessantere Per¬
 son. Die Unterredungen dieser Freunde, die
 Monologen des Stormonds, worin dessen
 heftige Leidenschaft, und Unentschlossenheit
-hervorleuchtet, sind ruͤhrende Scenen. Voͤn
+hervorleuchtet, sind ruͤhrende Scenen. Von
 dieser Seite haͤtte also das Trauerspiel gewon¬
 nen; ohne zu gedenken, daß mancher fuͤnf
 Handlungen zu einem vollkommenen Trauer¬
@@ -161,7 +161,7 @@ burtsfeste Jhro Kaiserlichen Majestät als ein
 Zwischenspiel aufgeführet. Auf diese Weise
 ist es in meine Hände gerathen. Und weil
 ich es einmal wage, fremde Arbeiten heraus=
-zugeben, so habe ich es der Jwanette hinze=
+zugeben, so habe ich es der Jwanette hinzu=
 gefügt. Wetzlar, den 20. May 1770.
 Der Herausgeber.
 

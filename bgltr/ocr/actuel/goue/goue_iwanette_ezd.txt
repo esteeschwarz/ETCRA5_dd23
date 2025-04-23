@@ -7,19 +7,15 @@
 
 
 
-Iwanette
-und
-Stormond
-ein
-Trauerspiel, in drey Handlungen.
+@title Iwanette und Stormond
+
+
+@subtitle ein Trauerspiel, in drey Handlungen.
 
 
 
-So spricht Iwanette!
-Act. 2.
 
-
-
+@cite So spricht Iwanette! Act. 2.
 
 
 
@@ -28,8 +24,12 @@ Act. 2.
 
 
 
-Wetzlar,
-gedruckt bey Georg Ernst Winkler.
+
+
+
+
+@publisher Wetzlar, gedruckt bey Georg Ernst Winkler.
+
 
 
 
@@ -123,12 +123,12 @@ wird. Ich werde nur noch meine Gedanken
 äußern, die ich von der Vermehrung dieses
 Stücks, da es in fünf Aufzügen aufgeführet
 wurde, hegte. Bender wurde bey dieser
-Veränderung der Vertraute des jängeren
+Veränderung der Vertraute des jüngeren
 Stormonds, und also eine interessantere Per¬
 son. Die Unterredungen dieser Freunde, die
 Monologen des Stormonds, worin dessen
 heftige Leidenschaft, und Unentschlossenheit
-hervorleuchtet, sind röhrende Scenen. Vön
+hervorleuchtet, sind rührende Scenen. Von
 dieser Seite hätte also das Trauerspiel gewon¬
 nen; ohne zu gedenken, daß mancher fünf
 Handlungen zu einem vollkommenen Trauer¬
@@ -161,7 +161,7 @@ burtsfeste Jhro Kaiserlichen Majestät als ein
 Zwischenspiel aufgeführet. Auf diese Weise
 ist es in meine Hände gerathen. Und weil
 ich es einmal wage, fremde Arbeiten heraus=
-zugeben, so habe ich es der Jwanette hinze=
+zugeben, so habe ich es der Jwanette hinzu=
 gefügt. Wetzlar, den 20. May 1770.
 Der Herausgeber.
 
@@ -617,7 +617,7 @@ Golowin.
 Ich will Sie Ihnen aufrichtig schildern: Wol¬
 sey war in ihren jungern Jahren ein Frauenzimmer,
 das mehrere Liebhaber annahm. Jezt da ihre
-Schönheit verblöhet, steht sie in dem Ruf, fremden
+Schönheit verblühet, steht sie in dem Ruf, fremden
 Liebesgeschichten mit Freuden die Hände zu bieten.
 Ich weiß diesen Ruf am besten zu beurtheilen. Er
 ist gegründet. Ich habe nie einem Herzen Gewalt
@@ -641,7 +641,7 @@ zu thun. Aber Ihre Wohnung und die Nachricht
 die ich von Ihnen erhalten --
 
 Iwanette.
-Ach! was höre ich, Unglöckliche! Mössen denn
+Ach! was höre ich, Unglückliche! Müssen denn
 alle Umstände beytragen, deine Ehre vor der Welt
 völlig zu Grunde zu richten. -- Wolsey, nun ver¬
 stehe ich die schmeichlerischen Lobsprüche, die du bey
@@ -670,7 +670,7 @@ nem hinterlassenen Schreiben erfahe; so überließ ich
 mich ganz dem Schmerz, der die traurige Würkung
 desselben war. Menschenflüchtig gieng ich oft in
 einen Wald, entfernt vom Getümmel der Erde
-mein Unglöck dahin weinen zu können.
+mein Unglück dahin weinen zu können.
 Ich weiß
 nicht durch welchen Zufall sich Wolsey eines Tages
 im Walde befand. Ich suchte ihr auszuweichen,
@@ -753,7 +753,7 @@ Iwanette,
 
 Welch ein erschrecklicher Zustand! -- Ach,
 diese lezte Entdeckung zeigt mir das Grab meiner
-zertrümmerten Ehre!ü Ich bin eine Unglückliche
+zertrümmerten Ehre! — Ich bin eine Unglückliche
 von der Art, die von dem widrigen Verhängniß mit
 keinem Streich verschonet wird! -- Ich glaube
 nicht Ursach zu haben, die Großmuth des Golowin
@@ -803,7 +803,7 @@ kostete der Entschluß mich zu fliehen viel. Und war
 gleich mein Herz unfähig ihn zu beleidigen, so war
 dennoch mein unachtsames Betragen Beleidigung ge¬
 nug für ihn. So habe ich den besten Jüngling be¬
-handelt, dessen Zärtlichkeit fär mich, ihn den Zorn
+handelt, dessen Zärtlichkeit für mich, ihn den Zorn
 seiner Eltern, und die Drohungen der Enterbung
 nicht achten machte. Ja, ich verdiene alles Unglück,
 das mich jezt verfolgt. (Sie ist eine zeitlang still.)
@@ -844,7 +844,7 @@ stellung. Aber eine heitere folgte drauf: weiß
 gekleidet und rein wie das Licht, nicht schwarz, wie
 ich der Welt jezt scheine, stand ich da auf blumen¬
 reichen Fluren, und reichte meinem Stormond die
-Hand zu mir herüber zu kommen.ü Aber was ist
+Hand zu mir herüber zu kommen. — Aber was ist
 
 dieses? fahre ich fort zu träumen, oder sehe ich die
 Erfüllung meines Traums. Stormond ist hier! Wie
@@ -916,7 +916,7 @@ Iwanette ist
 nicht fähig,
 Ihren Anblick zu ertragen.
 Treten
-Sie gefällig etwas zuräck.
+Sie gefällig etwas zurück.
 Stormond.
 (tritt zurück, daß ihn Iwaneite nicht sehen
 kan.)
@@ -940,7 +940,7 @@ Wache
 
 
 
-Wache ich? Träume ich? Stand Stormond wärklich
+Wache ich? Träume ich? Stand Stormond würklich
 da und fluchte mir? Oder ist es sein Schatten der
 mich verfolgt? -- In welcher Lage befinde ich
 mich? Und das ist alles noch Leben. Soll ich immer
