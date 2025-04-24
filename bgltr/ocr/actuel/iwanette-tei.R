@@ -12,7 +12,7 @@ ezd_markup.ns<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock
 ezd_markup.ns<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/goue_iwanette_ezd")
 ezd_markup_text<-paste0(ezd_markup.ns,".txt")
 ezd_markup.temp<-tempfile("ezdtemp.txt")
-library(readtext)
+#library(readtext)
 # m1<-grep("¬",t1)
 # m1p<-m1+1
 # tm1<-paste0(t1[m1],t1[m1p])
@@ -27,7 +27,7 @@ t2<-t1
 # umlaute:
 lx<-548
 t2[lx]
-library(string)
+#library(stringi)
 ltint<-utf8ToInt("Gl--cks")
 utf8ToInt("u")
 intToUtf8(868)
@@ -55,11 +55,13 @@ lti2<-utf8ToInt(t2[548])
 lti2
 k<-548
 t3<-t2
-k<-124
+k<-126
 x
 r<-6
 r
 k
+mp<-4
+mp<-32
 for(r in 1:length(umrepl)){
   x<-umrepl[r]
   for (k in 1:length(t3)){
@@ -73,10 +75,14 @@ for(r in 1:length(umrepl)){
 am<-u==names(x)|u==x
 u<-u[am]
 am<-u==names(x)|u==x
-if(sum(am)>0) { 
-if(ltint[mup+1]!=1000) {
-ltint[mup]<-utf8ToInt(x)
-ltint[mup+1]<-1000
+if(sum(am)>0) {
+  mp
+for (mp in mup){  
+if(ltint[mp+1]!=1000&(intToUtf8(ltint[mp])%in%names(x)|intToUtf8(ltint[mp])%in%x)) {
+ltint[mp]<-utf8ToInt(x)
+ltint[mp+1]<-1000
+}
+}
 mout<-ltint==1000
 lt2<-ltint[!mout]
 t3[k]<-intToUtf8(lt2)
@@ -84,10 +90,10 @@ t3[k]<-intToUtf8(lt2)
 }
   
   }
-}
+
 t3[548:570]
 utf8ToInt(t3[551])
-writeLines(t2,ezd_markup_text)
+#writeLines(t2,ezd_markup_text)
 writeLines(t3,ezd_markup_text)
 #outlist
 ltint
