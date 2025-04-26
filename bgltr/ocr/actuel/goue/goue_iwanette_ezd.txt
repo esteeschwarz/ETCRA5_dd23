@@ -85,7 +85,7 @@ Ein Medicus.
 Die Scene ist im Zimmer der Iwanette.
 9::
 #Erste Handlung.
-@Iwanette.
+@Iwanette.spknl
 (auf einem Ruhebett sizend.)
 War es möglich Madame, daß ein
 Mensch, ein Frauenzimmer leiden
@@ -100,13 +100,13 @@ Träumen unterhalten, die mir auch das einige Labsal anderer Unglücklichen, den
 Aber sagen Sie mir, o sagen Sie mir, Madame,
 kan dieser mein beklagenswürdiger Zustand lang
 dauern?
-@Wolsey.
+@Wolsey.spknl
 10::
-@Wolsey.
+@Wolsey.spknl
 (neben dem Ruhebette auf einem Stuhl.)
 Ich finde Ihren Zustand gar nicht entsezlich.
 Die Dürftigkeit ist freylich eine harte Sache für den,
-der ihrer ungewohnt ist, Aber -@Iwanette.
+der ihrer ungewohnt ist, Aber -@Iwanette.spknl
 O Wolsey! man kan dürftig seyn, verachtet
 seyn; ich bin beydes. Aber suchen Sie nicht hierin
 den Grund meiner mich verzehrenden Plagen. -Sie finden meinen Zustand nicht entsezlich?
@@ -129,12 +129,12 @@ der Antheil an meinem Zustand nähme, der nicht
 selbst mich verabscheuete, und meiner Qualen nicht
 achtend, mir größere zuzutheilen bereit wäre.
 11::
-@Wolsey.
+@Wolsey.spknl
 Die erschrecklichen Bilder, die Sie sich schaffen,
 vollenden Ihr Unglück. Gegen das übrige sind Mittel vorhanden. Es steht in Ihrer Gewalt, sich derselben zu bedienen.
-@Iwanette.
+@Iwanette.spknl
 Und was für Mittel Madame?
-@Wolsey.
+@Wolsey.spknl
 Können Sie mich noch fragen?
 Warum schlagen Sie die großmüthigen Anerbietungen des Grafen Golowin aus?
 Ist er es, der von Ihnen mit
@@ -144,10 +144,10 @@ oft so glücklich als in ihm vereinet. Und verdient es
 endlich ein Unmensch wie Ihr Stormond, daß man
 seiner schone, und ihm die grausame Freude schaffe,
 sich über seine Flucht in Gram zu verzehren?
-@Iwanette.
+@Iwanette.spknl
 Welche Reden führen Sie, Madame? Golowin mag schön seyn, wie ein Liebesgott schön seyn,
 Iwanette hat keine Augen seine Schönheit zu bemerken. O Stormond! selbst deine Gransamkeit ist unfähig, dir dieses Herz zu rauben.
-@Wolsey.
+@Wolsey.spknl
 Nun, so besize er denn dieses Herz! es wird
 ihm gleichgültig seyn, ob es schläget oder erstarret
 ist.
@@ -155,12 +155,12 @@ ist.
 ist. Vieleicht will er das lezte. Und Golowin,
 der ganz Zärtlichkeit für Sie ist, sey dann auf
 ewig verbannet!
-@Iwanette.
+@Iwanette.spknl
 Nichts weiter von Golowin! -- O Stormond!
-@Wolsey.
+@Wolsey.spknl
 Wenn Sie denn würklich den Stormond lieben, warum gaben Sie durch Ihr Betragen ihm
 Ursach, Sie zu fliehen?
-@Iwanette.
+@Iwanette.spknl
 Ob ich ihn liebe! —
 Dieses Herz hätte vieleicht nie die Zärtlichkeit kennen gelernt, wenn kein
 Stormond seine Wunsche erregt hätte. Ihn kaum
@@ -173,7 +173,7 @@ Betragen verdient freylich Vorwürfe. Sie können
 mir nicht härter gemacht werden, als ich sie mir vorhalte. Aber wie konte ich glauben, daß er einen
 Augenblick zweifeln würde, das bey mir zu seyn, was
 er ewig seyn wird.
-@Wolsey.
+@Wolsey.spknl
 Hat er nicht Ursache genug zu diesem Zweifel
 bekommen? -Ein zu frühzeitig gebornes Kind. -Ich muß es Ihnen gestehen, Iwanette, daß aller
 der
@@ -183,14 +183,14 @@ Er verdient aber dennoch Verachtung. Wenn er
 Sie auch verlassen wolte, warum sezte er Sie in den
 erbarmenswürdigen Zustand in dem Sie sich befinden, und den er leicht voraus sehen konte?
 —
-@Iwanette.
+@Iwanette.spknl
 Fahren Sie nur fort
 mir Vorwürfe dieser entsezlichen Art zu machen; vieleicht beschleunigen diese
 das Ende meiner Qualen. Aber hören Sie auf,
 den Stormond verachtenswürdig zu finden. Wenn
 Sie mich für eine Ungetreue halten, verdiene ich da
 die geringste Rücksicht?
-@Wolsey.
+@Wolsey.spknl
 Lassen Sie uns hiervon abbrechen. Es war
 nicht meine Absicht Ihnen Vorwürfe zu machen.
 Was hilft aber Ihre gegenwärtige Eingezogenheit,
@@ -204,15 +204,15 @@ Ihren Willen, Ihrer Dürftigkeit abzuhelfen bereit
 ist. und ich hoffe immer, daß sodann das übrige —
 #oIwanette.
 14::
-@Iwanette.
+@Iwanette.spknl
 O quälen Sie mich nicht. Wie oft soll ich
 Ihnen es sagen, daß ich noch nicht Zeit hatte, meine
 Dürftigkeit zu fühlen. Ich habe ohnehin den Schein
 genug gegen mich. Es ist nicht nöthig ihn noch zu
 vermehren. --- Aber, wer kömt da?
-@Wolsey.
+@Wolsey.spknl
 Er selbst, der Graf Golowin.
-@Golowin.
+@Golowin.spknl
 (im Hereintreten.)
 In welchem erschrecklichen Zustande sehe ich
 Iwanetten. und dennoch ist der Gram, der ihren
@@ -232,7 +232,7 @@ Wolsey. (für sich.)
 Der arme Golowin verdient selbst Mitleiden.
 #oIwanette
 15::
-@Iwanette.
+@Iwanette.spknl
 Lassen Sie, Herr Graf, lassen Sie eine Unglückliche, zu deren gänzlichen Untergang sich tausend
 widrige Zufälle vereinigen musten, — überlassen Sie
 diese ihrer martervollen Bestimmung.
@@ -240,21 +240,21 @@ Ich verdanke
 Ihre Großmuth; aber aller Beystand der Erden
 ist zu schwach, die Ruhe in diesem Herzen herzustellen;
 in diesem Herzen das geflohen wird, von dem vermieden wird, der einig in demselben herschen konte.
-@Golowin.
+@Golowin.spknl
 Wäre ich vermögend Madame, Ihnen das
 Herz, uber dessen Verlust Sie klagen, zurückzuführen; glauben Sie gewiß, daß ich alles daran wagen und mich selbst darüber vergessen würde. Ich
 weiß mehr als jemand, daß Sie desselben noch würdig sind. O könte ich dem Stormond diese Ueberzeugung beybringen, und ihn bald zu Ihren Füßen
 sehen.
-@Iwanette.
+@Iwanette.spknl
 Ach! diese schmeichlerische Hofnung darf in
 meiner Seele nicht weiter Plaz greifen.
-@Golowin.
+@Golowin.spknl
 Und warum nicht? Ich habe gehört, daß
 Stormond in kurzen hier seyn wird. Einer seiner
 Freunde hat es ubernommen, seine Aussöhnung
 bey dem Vater zu bewürken.
 16::
-@Iwanette.
+@Iwanette.spknl
 Und bin ich sodann
 nicht ohnfehlbar das Opfer
 dieser Versöhnung? Hat nicht Stormond seines Vaters Zorn eben dadurch besänftiget, daß er sich mir
@@ -262,18 +262,18 @@ entzogen hat?
 Jedoch ich bin es gern zufrieden
 das Opfer zu seyn, das Stormonds Glücks-Umstände erfordern. Die Tage, die mir etwa noch übrig
 sind, sie werden auch dahin fließen, mit dem Strome, der die übrigen fortriß.
-@Golowin.
+@Golowin.spknl
 Glauben Sie, daß Stormond, wenn er von
 Ihrer Unschuld überzeugt würde, Sie aufopfern
 könte. Ich kenne ihn zwar nicht: Aber er müste
 sehr unedel denken, wenn er Ihnen nicht Gerechtigkeit wiederfahren ließe. Ich behalte mir es vor
 über diesen Gegenstand noch eine besondere Unterredung mit Ihnen zu haben.
-@Wolsey.
+@Wolsey.spknl
 Sie können es gleich. Ich will Sie allein lassen. (Im Weggehen) Ich bekomme Hofnung.
 Das Zutrauen eines Frauenzimmers gewonnen zu
 haben, ist schon der halbe Besiz ihres Herzens.
 (geht ab.)
-@Golowin.
+@Golowin.spknl
 Ihr Schicksal Iwanette, ist von der Art, daß
 man Ihnen billig jede Betrachtung ersparet, die
 neuen Schmerz in Ihrer Seele erregen kan. Aber
@@ -288,19 +288,19 @@ Denkungsart überzeugt. Aber verzeyhen Sie, Sie
 haben den Schein gegen sich, und die Menschen sind
 gewohnt, diesen zum Prüfstein fremder Handlungen
 zu machen.
-@Iwanette.
+@Iwanette.spknl
 Ich weiß es, Herr Graf.
 Ich weiß auch, daß
 mein Verbrechen darin besteht,
 den gegen mich redenden Schein nicht sorgfältiger vermieden zu haben.
-@Golowin.
+@Golowin.spknl
 Dieser Schein wird durch Ihre gegenwärtige
 Wohnung vermehret.
 Ich glaube kaum, daß Sie
 wissen, was Wolsey für eine Frau ist.
-@Iwanette.
+@Iwanette.spknl
 Und wie?
-@Golowin.
+@Golowin.spknl
 Ich will Sie Ihnen aufrichtig schildern: Wolsey war in ihren jungern Jahren ein Frauenzimmer,
 das mehrere Liebhaber annahm. Jezt da ihre
 Schönheit verblühet, steht sie in dem Ruf, fremden
@@ -321,7 +321,7 @@ Ein gewisses Edles, daß ich in Ihrer Miene sogleich
 zu finden glaubte, würde mich abgehalten haben, die
 unbescheidene Erklärung, die ich mir jezt verweise,
 zu thun. Aber Ihre Wohnung und die Nachricht
-die ich von Ihnen erhalten -@Iwanette.
+die ich von Ihnen erhalten -@Iwanette.spknl
 Ach! was höre ich, Unglückliche! Müssen denn
 alle Umstände beytragen, deine Ehre vor der Welt
 völlig zu Grunde zu richten. -- Wolsey, nun verstehe ich die schmeichlerischen Lobsprüche, die du bey
@@ -332,10 +332,10 @@ ich die Kunstgriffe, durch welche du ein dir ähnliches
 Geschöpf aus mir zu machen versuchtest. Ach! jezt
 verschwindet alle Hofnung mich jemals gerechtfertiget
 zu sehen.
-@Golowin.
+@Golowin.spknl
 Ich dachte es wohl, daß Sie die Wolsey nicht
 wie ich kennten. Sagen Sie mir aber, wie machten Sie die unglückliche Bekantschaft?
-@Iwanette.
+@Iwanette.spknl
 Ich will es Ihnen sagen. Wie ich die unglückliche Nachricht von der Abreise meines Mannes, und
 die
 19::
@@ -363,7 +363,7 @@ Einöde des Waldes eine Schlange auf mich warten
 würde, und konte ich die dafür ansehen, die allein
 menschlich genug schien, mein Elend theilen zu
 wollen?
-@Golowin.
+@Golowin.spknl
 Ich bin unfähig, Ihnen alles auszudrücken,
 was ich bey Ihrer Erzählung empfunden.
 Aber
@@ -372,10 +372,10 @@ zu entziehen, die nur Ihres Kummers lachet; Sie
 werden doch diese Mittel nicht ausschlagen?
 #oIwanette.
 20::
-@Iwanette.
+@Iwanette.spknl
 (unentschlossen.)
 O Herr Graf! - Sie sind großmüthig Aber — solte nicht —
-@Golowin.
+@Golowin.spknl
 Ich sehe Ihre Unentschlossenheit. Ich bin entfernt Sie darüber zu tadeln. - Aber wenn ich
 Mittel fände Sie diesem Hause zu entziehen, ohne
 daß ich dabey mit zu würken schiene; würden Sie
@@ -426,7 +426,7 @@ Tod. — Sey mir gesegnet. -Ich -(Sie geräth in Schlaf.)
 (Der Vorhang bleibt offen.)
 22::
 #Zweyte Handlung.
-@Iwanette.
+@Iwanette.spknl
 (erwachend.)
 Ich, noch am Leben! Es war also nicht die
 Unterwelt, in der ich jene Schreckbilder sahe?
@@ -443,7 +443,7 @@ dieses? fahre ich fort zu träumen, oder sehe ich die
 Erfüllung meines Traums. Stormond ist hier! Wie
 kömt er hieher? Was wird er mir sagen wollen?
 Welche Flüche wird er gegen mich ausschütten?
-@Stormond.
+@Stormond.spknl
 (im Hereingehen.)
 Warum kan ich nicht unterlassen, die Ungetreue, die mir durch
 die Falschheit ihres Herzens
@@ -454,22 +454,22 @@ Siehest du nun, Ungetreue, das Wetter des Unglücks, das dein Betragen über dic
 Fühlst du die Schmach und das Elend, in das du
 dich stürztest? Fühle es ganz, und dann kenst du
 einen Theil der Leiden, die du dem getreuesten Herzen zuzogest.
-@Iwanette.
+@Iwanette.spknl
 O Himmel!
 (sie sinkt in Ohnmacht.)
-@Stormond.
+@Stormond.spknl
 (betrachtet sie.)
 Sie sinkt in Schrecken dahin.
 So sehr sie auch
 meinen Zorn verdiente, so darf ich dennoch das Mitleiden ihr nicht entziehen. Ich werde Hülfe suchen.
 (er geht heraus. Iwanette bleibt in
 Ohnmacht.)
-@Wolsey.
+@Wolsey.spknl
 (tritt herein und beschäftiget sich, die Iwanette zu sich zu bringen.)
 Madame, sehen Sie mich nicht? Sehen Sie
 nicht Ihre Freundin?
 24::
-@Stormond.
+@Stormond.spknl
 (tritt wieder ins Zimmer.)
 (für sich, indem sich Wolsey mit Iwanetten
 beschäftiget.)
@@ -478,20 +478,20 @@ wählete sie, die Gottlosigkeiten zum Zweck haben;
 nur solche Gesellschaften, in denen das Laster thronet.
 (Iwanette schlägt die Augen auf, sinkt aber
 in Ohnmacht zurück, da sie den Stormond erblickt.)
-@Wolsey.
+@Wolsey.spknl
 Herr Stormond verzeihen Sie
 Iwanette ist
 nicht fähig,
 Ihren Anblick zu ertragen.
 Treten
 Sie gefällig etwas zurück.
-@Stormond.
+@Stormond.spknl
 (tritt zurück, daß ihn Iwaneite nicht sehen
 kan.)
 Ich will es thun. —
 Das ist der Triumph
 der Tugend das Laster beben zu sehen.
-@Iwanette.
+@Iwanette.spknl
 (erholet sich eine Zeit hernach.)
 O Wolsey, was ist dieses? Unaufhörlich verfolgt mich Stormonds Bild.
 Ich kan meinen Zustand nicht entwickeln. Wie ist mir? Lebe ich?
@@ -503,14 +503,14 @@ mich verfolgt? -- In welcher Lage befinde ich
 mich? Und das ist alles noch Leben. Soll ich immer
 neue Arten der Qualen kennen lernen? Hat niemand Mitleiden mit dem unglücklichsten unter allen
 Geschöpfen?
-@Stormond.
+@Stormond.spknl
 (für sich.)
 Ihr Zustand erschüttert meine Seele.
-@Wolsey.
+@Wolsey.spknl
 Hören Sie mich Iwanette. Stormond ist
 würklich bey Ihnen gewesen. Er wird nicht mehr
 über Sie fluchen.
-@Iwanette.
+@Iwanette.spknl
 Mag er es immer. Ich kan doch jezt nicht
 ferne vom Grabe seyn. Ein so gewaltsamer Zustand
 kan ohnmöglich noch lang dauern. Aber was sage
@@ -518,16 +518,16 @@ ich? Stormond soll mir fluchen. Kan ich mir auch
 einen erschrecklichern Gedanken denken? Stormond
 den ich einig liebe, und von dem ich ehemals geliebt
 wurde, soll mir jezt fluchen?
-@Stormond.
+@Stormond.spknl
 (weinet.)
 Ich kan meinen
 Empfindungen nicht wehren
 in Zähren auszustießen.
 26::
-@Wolsey.
+@Wolsey.spknl
 Beruhigen Sie sich Iwanette; Ihre Freundin
 wird suchen, alles mögliche zu Ihrem Troste beyzutragen.
-@Iwanette.
+@Iwanette.spknl
 Wer? — Sie?
 Meine Freundin!
 O hätte ich Sie nie gekant.
@@ -537,17 +537,17 @@ ich erst erfahren von welcher Niederträchtigen ich
 Wohlthaten empfange.
 Ich kan nicht anders
 als Sie verabscheuen, Wolsey.
-@Wolsey.
+@Wolsey.spknl
 (für sich.) Ich erschrecke.
 (laut.) und was
 kan ich denn dafür, wenn jener weniger grosmüthig
 war, als ich ihn glaubte.
-@Stormond.
+@Stormond.spknl
 (wird aufmerksam.)
 (für sich.) Was höre ich da von Niederträchtigkeit und minderer Grosmuth.
 Ist dieses
 Iwanettens Sprache?
-@Iwanette.
+@Iwanette.spknl
 Ich weiß nicht ob der Graf großmüthig ist oder
 nicht. Darin aber hat er edel gegen mich
 gehandelt; daß er mir entdeckte, mit welcher Frau ich
@@ -563,32 +563,32 @@ mir bewust, daß Sie vor mir erzittern. Die Tugend behält immer ihre Rechte. Ic
 Classe zu gehören. Aber ich überlasse es Ihrer Seele,
 den Unterschied zu entdecken, der zwischen Ihrer
 Gesinnung und der meinigen ist.
-@Stormond.
+@Stormond.spknl
 (für sich.) Wie? So spricht Iwanette; und
 Wolsey schweigt. Wenn es noch möglich seyn
 kan,
 daß Iwanette unschuldig ist, wie vieles Unrecht habe
 ich ihr in diesem Fall zugefüget. (laut.) Frau Wolsey, darf ich Sie bitten, sich ein wenig zu entfernen.
-@Iwanette.
+@Iwanette.spknl
 Wie? Stormond noch hier?
-@Wolsey.
+@Wolsey.spknl
 (erschrocken.)
 Ich gehe. —
 Aber glauben Sie nicht, daß
 ich in der That so strafbar sey, wie ich es in Iwanettens Augen bin.
-@Stormond.
+@Stormond.spknl
 Ich bitte nochmals, entfernen Sie sich.
 (Wolsey geht ab.)
-@Stormond.
+@Stormond.spknl
 28::
-@Stormond.
+@Stormond.spknl
 Erschrecken Sie nicht über meine Gegenwart,
 Iwanette. Erwarten Sie keine weitere Vorwürfe
 von mir.
 Ich würde in diesem Augenblick der
 glückseligste Mensch seyn, wenn ich Sie unschuldig
 finden könte.
-@Iwanette.
+@Iwanette.spknl
 Stormond, Ihre Härte schien meinem Leben
 den lezten Stoß zu geben. Und schon da waren
 meine Wünsche erreicht. Nun bin ich über meine
@@ -596,17 +596,17 @@ Wünsche befriediget. Ich kan nun entzückt sterben,
 weil Stormond
 meinem Zustande das Mitleiden
 nicht entsagen kan.
-@Stormond.
+@Stormond.spknl
 Mitleiden! — Selbst wenn Sie strafbar sind,
 o so kan dieses Herz, das sich vergebens zwang, Sie
 zu fliehen, Ihnen es nicht versagen. Aber Iwanette.
 Ich kan Ihnen nichts weiter sagen.
 Mein Schicksal ist das grausamste, das je über ein
 zärtliches Herz verhängt war.
-@Iwanette.
+@Iwanette.spknl
 Tausend Empfindungen bestürmen mich in diesem Augenblick. Aber ich bin zu schwach, Ihnen die
 geringste davon auszudrucken.
-@Stormond.
+@Stormond.spknl
 Ich wäre es gern überhoben Iwanette, Ihnen
 neuen Schmerz durch eine Frage zu verursachen.
 29::
@@ -614,7 +614,7 @@ Aber ich muß sie thun diese unangenehme Frage.
 Wo ist das unglückselige Kind, das die nähere
 Ursach
 unserer Trennung war?
-@Iwanette.
+@Iwanette.spknl
 Dieses beklagenswürdige Geschöpf, ward gleich
 nach Ihrer Entfernung, das traurige Opfer meiner
 Unbesonnenheiten und Ihres Zornes. Ich reichte
@@ -622,9 +622,9 @@ ihm mit meiner Brust den Tod. Aber ich schwöre
 Ihnen bey der reinesten Liebe bey dem Himmel,
 bey meinem nahen Tode schwore ich es Ihnen, daß
 es sein Leben von Ihnen hatte. Und Sie sind es, -nein, ich war es, die ihm das Leben nahm.
-@Stormond.
+@Stormond.spknl
 Und wie kan es möglich seyn Iwanette, daß dieses mein Kind war?
-@Iwanette.
+@Iwanette.spknl
 Hören Sie mich Stormond:
 In meiner
 Schwangerschaft that ich einen Fall.
@@ -633,19 +633,19 @@ Ihnen denselben, um Ihnen den Schmerz zu ersparen, den Sie bey Ihrer mir bekante
 darüber empfunden haben würden. Der Fall beschleunigte die Geburt des Kindes, ohne daß dieses
 durch den Zufall litt. Zu meinem Nachtheil war
 dieses Kind vollkommener als gewöhnlich.
-@Stormond.
+@Stormond.spknl
 Und auch dieses schwören Sie mir bey allem das
 Ihnen jemals schäzbar, heilig und schreckhaft seyn
 konte?
 30::
-@Iwanette.
+@Iwanette.spknl
 Ja, ich schwöre es Stormond. Ich schwöre es
 nochmals bey meinem Uebergang in die Ewigkeit,
 daß es ihr Kind war. Und ich schwöre Ihnen,
 daß nie eine Mannsperson außer Ihnen meine Liebe
 oder meine Vertraulichkeit, weniger das, was ich
 Ihnen schuldig bin, erhalten hat.
-@Stormond.
+@Stormond.spknl
 Aber, wenn dieses ist, warum suchten Sie den
 Umgang verschiedener meines Geschlechts, denen ich
 eben den Vorzug nicht streitig machen konte?
@@ -658,7 +658,7 @@ Ermüdung den rauschenden Ergözlichkeiten widmeten; dann, dann würden Sie mir 
 daß ich einige mehrere Gefälligkeit von einer Frau
 wünschte, um deren Besitz ich jede Betrachtung und
 den offenbaren Nachtheil, den mir unsere Verbindung zuzog, verachtete.
-@Iwanette.
+@Iwanette.spknl
 Stormond, alle die Vorwürfe die ich hierüber
 verdiene, habe ich mir lang und wiederholt gemacht.
 Freylich hätte ich Gründe genug, die mir gebieten
@@ -683,7 +683,7 @@ Denken Sie, daß die Gattin eines zärtlichen und
 verdienstvollen Mannes strafbar genug ist, wenn sie
 es zu seyn, mit einigem Grunde scheinet. Ich verlange blos Ihr Mitleid, und für dieses sind mir
 Ihre Thränen bürge.
-@Stormond.
+@Stormond.spknl
 Ich, Sie verlassen! — Nein
 Iwanette, Sie
 sind in meinen Augen gerechtfertiget, und keine Betrachtung wird fähig seyn, mich zu einer Trennung
@@ -701,13 +701,13 @@ zeige,
 zeige, daß ich Sie für tugendhaft, und mich schuldig
 erkenne. Sie versichern es also Iwanette, daß Sie
 mich lieben, und mir alles verzeyhen?
-@Iwanette.
+@Iwanette.spknl
 (will ihm zu Füssen fallen, er hält sie.)
 Großmüthiger Sterblicher! Sie müssen verzeihen. Für mich bleibt es übrig, Ihre Liebe nunmehr
 zu verdienen. Glauben Sie indes, daß in diesem Herzen der Eindruck nie erlöschen konte, noch
 verlöschen wird, den nur Stormond auf selbiges
 zu machen geschaffen war.
-@Der ältere Stormond.
+@Der ältere Stormond.spknl
 (tritt herein von Bender begleitet.)
 Dies ist also der Aufenthalt der Nichtswürdigen, die mich die Reugier zu sehen antrieb, weil sie
 meinem Hause so viel Unglück zubereitete. — Aber
@@ -718,11 +718,11 @@ hintergehen? Aber wisse, daß dein Vater seiner nicht
 spotten lässet. Du must dich sofort erklären, ob du
 dieser Verbrecherin auf ewig entsagen, oder meinen
 Anblick auf ewig vermeiden wilst? Rede!
-@Iwanette.
+@Iwanette.spknl
 (für sich.) Ein heiterer Augenblick! Und schon
 ziehen sich neue Wetter zusammen.
 33::
-@Stormond.
+@Stormond.spknl
 Herr Vater! Es war nicht meine Absicht,
 Ihnen Versicherungen zu geben, die ich zu brechen
 gesonnen war. Ich kam hieher, der Iwanette meine
@@ -730,7 +730,7 @@ endliche Meynung zu eröfnen. Aber wenn sich nun
 die Aussicht veränderte, und Iwanette so liebenswürdig, so tugendhaft, so zärtlich und so treu wäre, als
 sie lasterhaft und ungetreu schien; Würden Sie alsdenn nicht fähig seyn, Ihre Gesinnung in Ansehung
 ihrer gleichfalls zu verändern:
-@Der ältere Stormond.
+@Der ältere Stormond.spknl
 Wie? So schwach bist du, daß du nicht einzusehen vermagst, wie entsezlich du hintergangen wirst,
 oder vielmehr dich selber hintergehest. Hat jemals
 eine rasendere Verblendung gedacht werden können?
@@ -749,20 +749,20 @@ scheinlichsten Beweise. Ich aber hoffe dich jezt zum
 lezten male zu sehen.
 Iwanette (für sich.)
 Ist möglich alles dieses noch auszustehen?
-@Stormond.
+@Stormond.spknl
 Sie wollen mich nicht hören, Herr Vater! Sie
 sind im Eyfer. O wüsten Sie, wie verehrungswürdig meine Iwanette ist, und wie ungerecht ich gegen
 sie verfuhr; — Sie würden sie nicht mit solchen
 Beleidigungen überhäufen.
-@Der ältere Stormond.
+@Der ältere Stormond.spknl
 (spöttisch.)
 Sehr schön! Entrüste dich noch gegen deinen
 Vater. Fordere eine Ehrenerklärung für diese beleidigte Tugend von ihm.
-@Bender.
+@Bender.spknl
 (zum ältern Stormond.)
 Ereifern Sie sich nicht ferner, Herr Stormond.
 Ihr Sohn wird sich besinnen. Verlassen Sie inzwischen mit mir dieses Haus.
-@Der ältere Stormond.
+@Der ältere Stormond.spknl
 Ja, ich will mich nicht weiter in dieser niedrigen Behausung entweyhen. (zum Sohn.) Sie
 kennen mich Herr Sohn. Mein Entschluß ist genommen.
 35::
@@ -771,14 +771,14 @@ Dame, verzeyhen Sit, daß ich Sie in Ihrem Zeitvertreibe gestöhret. Ich muß es
 gestehen, daß Sie Ihre Handthierung vollkommen
 ausgelernet haben.
 (der ältere Stormend und Bender gehen ab.
-@Stormond.
+@Stormond.spknl
 Iwanette, welche Empfindungen, welche schrekliche Beängstigungen habe ich jezt Ihrentwegen ausgestanden.
 Verzeyhen Sie,  Es war mein
 Vater. —
 Von niemand anders konten Sie in
 meiner Gegenwart solcher unanständigen Begegnung
 ausgesetzet seyn.
-@Iwanette.
+@Iwanette.spknl
 Machen Sie sich keine Sorge um nich.
 Ich habe dergleichen Vorwürfe wohl verschuldet.
 Aber
@@ -794,7 +794,7 @@ mich
 36::
 mich lasterhaft zu finden, nicht das Aergerniß habe,
 eine Verbrecherin in der Bosheit bis ans Ende beharrend zu glauben.
-@Stormond.
+@Stormond.spknl
 Ich habe schon daran gedacht, Ihnen eine anständige Wohnung zu geben. Aber warum flehen
 Sie mich Ihren Umgang zu meiden?
 Ist dieses eine
@@ -817,19 +817,19 @@ besänftigen. Wenn Sie selbst da wären, so hofte ich
 wohl zu Stande zu kommen. Bedenken Sie, daß Sie
 mit einem Vater zu thun haben, der nur über Ihren
 Ungehorsam entrüstet ist, Sie selbst aber auf das zärtlichste liebet.
-@Iwanette.
+@Iwanette.spknl
 O Stormond,
 geben Sie der Vorstellung Ihres
 Freundes Gehör.
 Stormond
 37::
-@Stormond.
+@Stormond.spknl
 Ich folge Ihnen, Bender. -- Iwanette, sorgen Sie für Ihre Gesundheit, und versichern Sie
 sich, daß ich Ihnen und meinem
 Herzen nicht fehlen
 werde
 (Bender und Stormond gehen ab.)
-@Iwanette.
+@Iwanette.spknl
 (allein.)
 Welch ein Tag! Theils schön, theils schrecklich
 und mit lauter unerwarteten Begebenheiten für mich
@@ -841,27 +841,27 @@ Doch ich kan Ihnen nicht nachhängen. Nur meinen
 geliebten Stormond will ich denken.
 Ist auch ein
 zweyter Sterblicher vorhanden, der ihm an Großmuth und Zärtlichkeit gleich käme?
-@Golowin.
+@Golowin.spknl
 (im Hereintreten.)
 Theureste Iwanette! Ich habe alles eingerichtet.
 Sie kommen zu einer Dame ins Haus, die Sie auf
 das liebreichste empfangen wird, und der Sie sicher
 Ihr ganzes Herz eröfnen durfen. Es ist keine Wolsey. Sie ist ein Muster der Tugend. Ihr widriges Schicksal, Madame und Ihre edle Gesinnung
 haben so viel Eindtuck auf Sie gemacht, daß sie sehnlichst wünscht, Sie bald um sich zu sehen.
-@Iwanette.
+@Iwanette.spknl
 38::
-@Iwanette.
+@Iwanette.spknl
 Ich bin Ihnen für Ihre Bemühung sehr verbunden. Sie werden aber noch nicht wissen, wie
 gnädig der Himmel auf mein Elend herabgeblickt
 Stormond ist hier, sein Zorn ist besänftiget und ich
 bin in seinen Augen gerechtfertiget.
-@Golowin.
+@Golowin.spknl
 Stormond hier,
 und Sie in seinen Augen gerechfertiget! Sagen
 Sie mir, wie ist dieses zugegangen?
-@Iwanette.
+@Iwanette.spknl
 So wunderbar, daß ich es selbst kaum begreifen kan.
-@Golowin.
+@Golowin.spknl
 (zärtlich.)
 Es kostet mir etwas den Antheil an Ihrem
 Glück zu nehmen, zu dem ich verbunden bin.
@@ -869,26 +869,26 @@ Aber
 dennoch freue ich mich über die gute Nachricht.
 und
 Stormonds Vater?
-@Iwanette.
+@Iwanette.spknl
 Er ist auch hier gewesen.
-@Golowin.
-Also mit seinem Sohn und mit Ihnen versöhnt? -@Iwanette.
+@Golowin.spknl
+Also mit seinem Sohn und mit Ihnen versöhnt? -@Iwanette.spknl
 39::
-@Iwanette.
+@Iwanette.spknl
 Nein Herr Graf, erzürnt war er.
 Ich habe
 den Stormond gebeten, sich mit ihm auszusöhnen,
 und meinen Umgang zu vermeiden.
-@Golowin.
+@Golowin.spknl
 Wie! — Welche Bitte Madame! — und
 er ging sie ein? —
-@Iwanette.
+@Iwanette.spknl
 Ich wünsche zu seinem Vortheil, daß er sie
 eingehen mag.
 Genug, daß ich seines Herzens
 versichert bin. Die wenigen Augenblicke, — —
 denn ich glaube zu fühlen,
-@Golowin.
+@Golowin.spknl
 Nein, Madame! Sie müssen leben, recht
 glücklich mit ihrem Stormond leben. Ich, der Sie
 vielleicht eben so zärtlich liebe, wie Sie es verdienen
@@ -896,29 +896,29 @@ und wie Sie vom Stormond geliebt werden; Aber
 nicht lieben darf: — werde mich bemühen — Sie
 verstatten mir es doch (er küst ihr die Hand)
 Ihres Umgangs würdig zu seyn und Ihre Freundschaft zu verdienen.
-@Stormond.
+@Stormond.spknl
 (im Hereintreten.)
 (für sich) Ja, Bender hat mich nicht unrecht
 berichtet. 
 Der Verwegene küst ihr die Hand und sie
 scheint entzückt. Das ist zu grausam hintergangen.
-@Iwanette.
+@Iwanette.spknl
 40::
-@Iwanette.
+@Iwanette.spknl
 Sie scheinen aufgebracht, mein Stormond!
-@Stormond.
+@Stormond.spknl
 Nicht Ihr Stormond. Einmal war ich noch
 schwach genug Verrätherin, durch dein falsches Lächeln gerührt zu werden. Aber das war auch gewiß
 das leztemal. Mein Vater hatte recht, wie er dich
 beschuldigte, alle Eigenschaften einer Buhlerin, in
 der Vollkommenheit zu besitzen.
-@Iwanette.
+@Iwanette.spknl
 Das war der Dolch ins Herz! Höher kan mein
 Unglück nicht steigen.
-@Golowin.
+@Golowin.spknl
 Sie irren sich Herr Stormond, wenn Sie mich
 als den Liebhaber Ihrer Gemahlin ansehen.
-@Stormond.
+@Stormond.spknl
 Schweig, Niedriger! Was hält mich ab, dir
 das Leben zu rauben?
 (er zieht den Degen, besinnet sich, wirft
@@ -926,25 +926,25 @@ ihn zu Golowins Füssen, und geht
 zornig ab.)
 Iwanett
 41::
-@Iwanette.
+@Iwanette.spknl
 Ach! welch ein Auftritt! — Verzeihn Sie
 dem Ungestüm Herr Graf.
-@Golowin.
+@Golowin.spknl
 O den kan ich ertragen.
 — Aber Sie Iwanette, Sie werden ohnmächtig. Ich eile Ihnen
 Hülfe herbey zu schaffen.
 (geht ab.)
-@Wolsey.
+@Wolsey.spknl
 (kömmt Herein.)
 Was fehlet Ihnen theureste Madame? Wodurch kan ich Ihnen nüzlich werden?
-@Iwanette.
+@Iwanette.spknl
 Entfernen Sie sich Wolsey. Ich bedarf Ihrer
 nicht. Ich werde bald andre Hülfe erhalten.
-@Wolsey.
+@Wolsey.spknl
 Das ist eine eigensinnige Person. — Wenn
 die Tugend solche Leute bildet; so bin ich froh, daß
 ich mich nie sehr um sie bekümmerte.
-@Iwanette.
+@Iwanette.spknl
 40::
 Iwanette
 #unclear Was habe ich alles erduldet, das zu ertragen
@@ -957,9 +957,9 @@ Ende des zweyten Acts.
 (Der Vorhang bleibt wieder offen.)
 43::
 #Dritte Handlung.
-@Iwanette.
+@Iwanette.spknl
 (liegt todt auf dem Ruhebette.)
-@Golowin.
+@Golowin.spknl
 (von einem Medicus begleitet.)
 Sehen Sie hier die kranke Dame. Argwöhnen Sie nichts darüber, daß sie in dem
 Hause der Wolsey ist. Sie ist vom Stande,
@@ -967,26 +967,26 @@ tugendhaft, aber unglücklich. Thun Sie alles ihre
 Gesundheit bald herzustellen. (Er
 betrachtet sie.)
 Sie schlummert wie ich sehe.
-@Der Medicus.
+@Der Medicus.spknl
 (besiehet sie genau)
 Ach, das ist ein Todes=Schlummer! Hier
 kömt
 meine Hülfe zu spät. Sie haben mich zu einer Leiche
 geführet.
-@Golowin.
+@Golowin.spknl
 Sie wäre todt?
-@Der Medicus.
+@Der Medicus.spknl
 Ja, sie ist todt.
-@Golowin.
+@Golowin.spknl
 44::
-@Golowin.
+@Golowin.spknl
 Iwanette todt! O! warum hat man Sie nicht
 eher geruffen.
-@Der Medicus.
+@Der Medicus.spknl
 Ich glaube nicht, daß ich dieser Dame das Leben erhalten hätte, wenn ich auch früher gerufen
 wäre. Sie haben hier das Beyspiel einer Person, die durch den Gram verzehret wurde. Was
 muß sie erlitten haben?
-@Golowin.
+@Golowin.spknl
 (geht im Zimmer umher.)
 Iwanette ist todt! und ich kan den Gedanken
 ertragen? Ich kan ihn einen Augenblick überleben? O Beste, deines Geschlechts, von der ich
@@ -1012,20 +1012,20 @@ sie
 schaffen! Und denn mit eben dem blutigen Eisen,
 mit dem er sie schafte, sich den Weg bahnen, dir
 die Nachricht davon zu bringen.
-@Der Medicus.
+@Der Medicus.spknl
 Herr Graf, verlassen Sie dieses Zimmer. —
 Ihr Schmerz
-@Golowin.
+@Golowin.spknl
 Lassen Sie mich Elender! Sie wissen nicht
 wer Iwanette war. Ich weiß es. Ich war auch
 ihr Verfolger: aber ihre unüberwindliche Tugend
 schlug mich mächtig zu Boden.
-@Der Medicus.
+@Der Medicus.spknl
 Ich gehe Hülfe zu suchen, um den Grafen
 aus diesem Zimmer zu schaffen.
 (geht ab.)
 46::
-@Golowin.
+@Golowin.spknl
 Iwanette, du sahest meine Reue, und lächeltest
 mir: — nicht mit einem Blick voll
 Zärtlichkeit;
@@ -1041,10 +1041,10 @@ Schwerd das kostbare Blut an deinem Herzen
 hinweg. O Welt! du vermagst nicht ein zweytes Herz dieser Art aufzuweisen! Ach! du bist
 nicht mehr Iwanette, und siehest nicht meinen
 tödtlichen Schmerz um deinen Verlust.
-@Wolsey.
+@Wolsey.spknl
 (tritt herein von dem Medicus begleitet.)
 Was höre ich? Iwanette wäre todt.
-@Golowin.
+@Golowin.spknl
 Ja todt ist sie die vollkommenste ihres Geschlechts: und Sie Nichtswürdige leben. O
 welch ein grausames Schicksal wütet gegen mich.
 Sie machten es Wolsey, daß auch ich diesen Engel beleidigte. Ich habe es bereuet. Aber nun
@@ -1071,7 +1071,7 @@ andre auf dich zu würken fähig, als die Flamme
 deines Barbaren, die in dem Augenblick, da sie
 am heftigsten zu brennen schien, erlosch, und dich
 in ihrem Untergange verzehrte.
-@Wolsey.
+@Wolsey.spknl
 Beruhigen Sie sich Herr Graf.
 Folgen Sie
 mir in ein anderes Zimmer.
@@ -1079,20 +1079,20 @@ Ich will mit Ihnen den Verlust
 der Iwanette
 daselbst beklagen.
 48::
-@Golowin.
+@Golowin.spknl
 Unglückliche! Unternehmen Sie nicht diesen
 geheiligten Ueberrest der Iwanette durch Ihre Zähren zu entweyhen.
 — Entfernen Sie sich. —
 Schon der Ort, wo er sich befindet, ist zu heilig
 für Sie.
-@Stormond.
+@Stormond.spknl
 (tritt ins Zimmer.)
 Wie stehts um Iwanetten.
 Ich hoffe nicht
 die Bestätigung der traurigen Zeitung ihres Todes.
-@Wolsey.
+@Wolsey.spknl
 Sie hat leider ihre vollkommne Richtigkeit.
-@Golowin.
+@Golowin.spknl
 Wie, Barbar! Du unternimst, dich hier
 noch sehen zu lassen, an dem Orte, wo du deine
 Grausamkeiten vollführet hast, an dem Orte, wo
@@ -1104,12 +1104,12 @@ Zittre und erwarte die Folgen meines Zornes und die gerechte Strafe deiner unerh
 (er will den Degen ziehen, wird aber
 von dem Medico und der Wolsey
 zurückgehalten.)
-@Stormond.
+@Stormond.spknl
 Jezt ist es zu spät, mir den Besiz eines Herzens streitig zu machen; eines Herzens, das, —
 ach: das schon erstarret ist.
-@Golowin.
+@Golowin.spknl
 49::
-@Golowin.
+@Golowin.spknl
 Ich konte dir ihn niemals streitig machen.
 Die Rechte der Ehe, und mehr, die unverdiente
 Zärtlichkeit; die dieses nun erstarte Herz gegen
@@ -1118,41 +1118,41 @@ hast du dich aller dieser Rechte durch deine Grausamkeit verlustig gemacht. Dies
 werden.
 (er bemüht sich wiederum den Degen
 zu ziehen.
-@Stormond.
+@Stormond.spknl
 Räche sie dann! durchstos dieses Herz und
 endige seine Qual.
-@Golowin.
+@Golowin.spknl
 Du fühlest jezt Qual?
 Und welch eine
 Qual? die Pein der Höllen fühlest du. Sehe
 ich nicht Furien um dich, die dich verfolgen?
 (er läst die Hand vom Degen und wird
 unvermerkt entwafnet.)
-@Stormond.
+@Stormond.spknl
 Ja, Furien, die mich verfolgen. und du bist
 eine dieser Furien.
 Ohne dich hätte ich wohl den
 Besitz eines Herzens hoffen können, das allein mein
 Glück machen konte.
-@Golowin.
+@Golowin.spknl
 Was wilt du jezt mit deiner Eifersucht? Glaubst
 du, daß ich mich gegen dich rechtfertigen werde?
 Mehr als du, verdiente ich wenigstens von Iwanetten geliebt zu werden.
-@Stormond.
+@Stormond.spknl
 50::
-@Stormond.
+@Stormond.spknl
 Du möchtest es seyn, wenn nur Iwanette noch
 da wäre. O Iwanette! Warum machte ich die
 Vorwürfe über eine Neigung,
 die zu vertilgen
 wohl nicht in deiner Gewalt stund.
-@Golowin.
+@Golowin.spknl
 Was höre ich Stormond? Sie glauben noch
 immer, daß ich von Iwanetten geliebt wurde? Ich
 bin dieser, ihre Rechtfertigung zu geben schuldig, so
 ungern ich auch gegen Sie es thue. Ach! ich ward
 nie von Iwanetten geliebt.
-@Stormond.
+@Stormond.spknl
 Sie, nie von Iwanetten geliebt! —
 Dieses
 Geständniß, unter Umständen gethan, durch die es
@@ -1165,7 +1165,7 @@ Iwanetten gerächt.
 Iwanette liebts also mich
 und nicht Sie:
 Ach! Und ich
-@Golowin.
+@Golowin.spknl
 Ja, Iwanette liebte Sie. Sie verdienen nicht
 weiter geschonet zu werden. Hören Sie alles: Ich
 habe Ihre Gattin geliebt. Aber nie verstattete ihr
@@ -1177,12 +1177,12 @@ kennen, in dem Sie den Mord der Iwanette vollendeten.
 deten. Nun wissen Sie alles.
 Ich bin durch Iwanettens Tod nicht minder unglücklich, obgleich ich
 nicht geliebt wurde.
-@Stormond.
+@Stormond.spknl
 (geht verwirt im Zimmer umher.)
 O Stormond! die Martern und Gewissensbisse
 aller Verbrecher des ganzen Erdbodens zusammen
 genommen, sind nichts gegen das, was du jezt fühlest. Aber es verdiente auch kein Mensch mehr gestraft zu seyn als du. Du wurdest von dem zärtlichsten Herzen geliebet und deine unselige Eifersucht!
-@Golowin.
+@Golowin.spknl
 Er ist weniger strafbar als er es schien. Doch
 immer strafbar genug. Seine Eifersucht und meine
 unglückliche Neigung vollendeten den Mord des liebenswürdigsten Frauenzimmers. — Aber ich werde
@@ -1191,7 +1191,7 @@ mich entfernen. Stormond mag sich seinem Schmerz
 dem meinigen mich ganz ergeben.
 (Golowin geht ab und blickt noch einmal
 auf den Cörper der Iwanette.)
-@Wolsey.
+@Wolsey.spknl
 Ach welch ein Tag für mich! Ich weiß nicht die
 ohngewöhnliche Beängstigung meines Herzens zu entwickeln. O! wenn schon der Schein des Lasters so
 viel Unglück gebieret, welche traurige Folgen muß
@@ -1201,7 +1201,7 @@ Tugend
 Tugend zu erschüttern gedachte! Verflucht der Gedanke, der sie einiger Niederträchtigkeit beschuldigte.
 Ihr Tod vollendet die Lehren in mir, die ihre sanfte
 bekümmerte Miene mir zu geben anfieng.
-@Der ältere Stormond.
+@Der ältere Stormond.spknl
 (von Bender begleitet.)
 Ich eile, mich von den Geschichten zu belehren
 die man mir erzählt, und die mich so nahe betreffen
@@ -1213,33 +1213,33 @@ Du antwortest nicht. (Zum Medico.) Mein Herr,
 sagen Sie mir wie meinem Sohn zu helfen ist, daß
 er nicht in Tiefsinn verfällt. Ich erwarte alles von
 Ihrem Beystande.
-@Der Medicus.
+@Der Medicus.spknl
 Für Ihren Sohn, haben Sie wie ich hoffe,
 nichts zu fürchten. Sein Schmerz scheint mir nicht
 ungewöhnlich. Aber übrigens war ich nicht Gott genug, das Unglück dieses Tages zu verhüten.
-@Wolsey.
+@Wolsey.spknl
 Freylich ein unglücklicher Tag! vieleicht der
 einige in seiner Art.
-@Bender.
+@Bender.spknl
 (zur Wolsey.)
 Sagen Sie mir doch, ist Iwanette todt? —
 53::
-@Wolsey.
+@Wolsey.spknl
 Ja, sie ist todt, und ihr Tod ist lehrreich und
 von den grösten Folgen.
-@Der ältere Stormond.
+@Der ältere Stormond.spknl
 Sie möchte immer todt seyn, wenn sie nur meinen
 Sohn nicht mit ins Grab nimt. Ich kenne die Heftigkeit seiner Neigung.
-@Wolsey.
+@Wolsey.spknl
 Sie wissen es nicht was Iwanette für ein Verlust ist: Wäre sie so lästerhaft gewesen, als sie es
 schien; so hätte gewiß der Gram ihr das Leben nicht
 geraubt.
-@Der ältere Stormond.
+@Der ältere Stormond.spknl
 Sie mag tugendhaft oder lasterhaft gewesen
 seyn; Sie ist nun todt. Aber mein Sohn! —
 Bender (zur Wolsey.
 Man sagte der Graf Golowin sey hier:
-@Wolsey.
+@Wolsey.spknl
 Ja, er ist hier, er befindet sich in einem andern
 Zimmer, ohngefehr in eben dem Zustande, wie der
 jüngere Herr Stormond.
@@ -1248,7 +1248,7 @@ Der jüngere Stormond.
 Wie? Mein Vater hier! Kommen Sie mich
 zu verfolgen, so gesellen Sie sich nur zu jenen Furien, die dort mich erwarten.
 54::
-@Der ältere Stormond.
+@Der ältere Stormond.spknl
 Was sagt er? Ich verstehe nichts davon. O mein
 Sohn! Ich komme nicht dich zu verfolgen. Mich
 ganz mit dir auszusöhnen, ist mein
@@ -1260,20 +1260,20 @@ Freude der Erden
 weiter.
 Aber du antwortest mir nicht? — du
 siehest nicht deinen Vater?
-@Bender.
+@Bender.spknl
 (zum älteren Stormond.)
 Beruhigen Sie sich: Ein heftiger Schmerz zerstreuet gewönlich und dauert selten lange.
-@Der ältere Stormond.
+@Der ältere Stormond.spknl
 Aber ich befürchte alles von dem Uebermaas des
 Schmerzens, in dem mein Sohn den Tod seiner
-Gattin empfindet. Er war stets nur heftiger Leidenschaften fähig. Und ich weiß mit welcher Heftigkeit er liebte! -@Bender.
+Gattin empfindet. Er war stets nur heftiger Leidenschaften fähig. Und ich weiß mit welcher Heftigkeit er liebte! -@Bender.spknl
 Ich weiß es auch. Aber Sie haben sich nie
 Vorwürfe zu machen. Was konten Sie dafür,
 daß er eine Ungetreue liebte, die ihm Schande
 zuzog: Als Vater konten Sie ja ohnmöglich,
 einer Verbindurg dieser Art, Ihren Beyfall
 geben.
-@Wolsey.
+@Wolsey.spknl
 Ein unglückliche
 Irthum hat alle diese Lelden verursacht.
 55::
@@ -1283,7 +1283,7 @@ Wer ist
 hier? -Kein Vater, kein Golowin, die mir
 Vorwürfe
 machen; keine Furien die mich verfolgen?
-@Der ältere Stormond.
+@Der ältere Stormond.spknl
 Keine Vorwürfe mein Sohn! von mir keine
 Vorwürfe. Fasse dich, beruhige dich und beglücke
 dadurch deinen Väter.

@@ -1,8 +1,8 @@
 #20250320(17.29)
 #15126.klopstock-abel.TEI
 #########################
-t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock/klopstock_tod-abels.txt")
-t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/txt/goue_iwanette_ggl.txt")
+#t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock/klopstock_tod-abels.txt")
+#t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/txt/goue_iwanette_ggl.txt")
 # to fetch transcript text from transkribus API:
 source("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/transkribus-api.R")
 t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/goue_iwanette_apiexpo.txt")
@@ -38,7 +38,7 @@ utf8ToInt("bB")
 utf8ToInt("äaöoüuÄAÖOÜU")
 umrepl<-c(A="Ä",O="Ö",U="Ü",a="ä",o="ö",u="ü")
 umrepl
-library(purrr)
+#library(purrr)
 ltx<-unlist(strsplit(t2[lx]," "))
 ltx
 ltint<-utf8ToInt(ltx[7])
@@ -95,6 +95,69 @@ t3[548:570]
 utf8ToInt(t3[551])
 #writeLines(t2,ezd_markup_text)
 writeLines(t3,ezd_markup_text)
+##############################
+# ezd markup refine >
+#####################
+### front
+m<-grep("@",t3)
+author<-"August Siegfried von Goué"
+author.p<-paste0("@author ",author)
+published<-"1771"
+t3[m]
+m2<-grep("title|subtitle",t3[m])
+front<-c(author.p,t3[m][m2])
+front
+############################
+### personal
+m<-grep("\\^",t3)
+t3[m:(m+30)]
+person.array<-c("Iwanette","Stormond","Golowin","Wolsey","Bender","Der Medicus","Der ältere Stormond")
+speaker.m<-paste0(person.array,"\\.$")
+speaker.m<-paste0("^",speaker.m,collapse = "|")
+speaker.m
+m<-grep(speaker.m,t3)
+t3[m]
+#####################
+### I/J replacement
+# regx.I<-"J(h|w|c|s)"
+# t4<-gsub(regx.I,"I\\1",t3)
+# m<-grep(speaker.m,t4)
+# t4[m]
+##############################
+### general replacement
+repl.df<-data.frame(regx=NA,repl=NA)
+repl.df[1,]<-c("W.l.ey","Wolsey")
+repl.df[2,]<-c("J(h|w|c|s)","I\\1")
+repl.df[3,]<-c("G.l.w.n","Golowin")
+t4<-t3
+for (k in 1:length(repl.df$regx)){
+  t4<-gsub(repl.df$regx[k],repl.df$repl[k],t4)
+}
+writeLines(t4,ezd_markup_text)
+### remove blancs
+m<-t4==""|t4==" "|t4=="."
+sum(m)
+t4<-t4[!m]
+writeLines(t4,ezd_markup_text)
+### get body start
+m<-grep("^#",t4)
+t4[m][1]
+m2<-grep(speaker.m,t4[m[1]:length(t4)])+m[1]-1
+t4[m2]
+t4[m2]<-paste0("@",t4[m2],"spknl")
+writeLines(t4,ezd_markup_text)
+##############################
+### remove linebreaks
+ezdtemp<-tempfile("ezdtx.txt")
+library(readtext)
+ezdtx<-readtext(ezd_markup_text)$text
+repl.df[4,]<-c("(¬|=|-)\n","")
+ezdtx<-gsub(repl.df$regx[4],repl.df$repl[4],ezdtx)
+ezdtx
+repl.df[5,]<-c("((?<!spknl)\n)(\n(?!@))"," ")
+ezdtx<-gsub(repl.df$regx[5],repl.df$repl[5],ezdtx,perl = T)
+writeLines(ezdtx,ezd_markup_text)
+
 #outlist
 ltint
 mout<-ltint==1000
