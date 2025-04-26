@@ -4,11 +4,13 @@
 #t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock/klopstock_tod-abels.txt")
 #t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/txt/goue_iwanette_ggl.txt")
 # to fetch transcript text from transkribus API:
+library(readtext)
+runtoezd<-function(){
 source("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/transkribus-api.R")
 t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/goue_iwanette_apiexpo.txt")
 #t1<-tx.text # generated above
 # i made few changes corrections/adaptations in the t1 static file to make this script run fluently, so modifications in the transkribus editor make no sense at the moment.
-ezd_markup.ns<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock/klopstock_tod-abels_ezd")
+# ezd_markup.ns<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock/klopstock_tod-abels_ezd")
 ezd_markup.ns<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/goue_iwanette_ezd")
 ezd_markup_text<-paste0(ezd_markup.ns,".txt")
 ezd_markup.temp<-tempfile("ezdtemp.txt")
@@ -129,6 +131,9 @@ repl.df<-data.frame(regx=NA,repl=NA)
 repl.df[1,]<-c("W.l.ey","Wolsey")
 repl.df[2,]<-c("J(h|w|c|s)","I\\1")
 repl.df[3,]<-c("G.l.w.n","Golowin")
+repl.df[4,]<-c(".wane..e","Iwanette")
+repl.df[5,]<-c("#[(]#","[")
+repl.df[6,]<-c("#[)]#","]")
 t4<-t3
 for (k in 1:length(repl.df$regx)){
   t4<-gsub(repl.df$regx[k],repl.df$repl[k],t4)
@@ -138,6 +143,8 @@ writeLines(t4,ezd_markup_text)
 m<-t4==""|t4==" "|t4=="."
 sum(m)
 t4<-t4[!m]
+m10<-grepl("#o",t4)
+t4<-t4[!m10]
 writeLines(t4,ezd_markup_text)
 ### get body start
 m<-grep("^#",t4)
@@ -146,19 +153,30 @@ m2<-grep(speaker.m,t4[m[1]:length(t4)])+m[1]-1
 t4[m2]
 t4[m2]<-paste0("@",t4[m2],"spknl")
 writeLines(t4,ezd_markup_text)
+}
+##########
+# run before remove linebreaks, wt fetch from api
+# >>>>>>>>
+runtoezd()
+##########
 ##############################
 ### remove linebreaks
 ezdtemp<-tempfile("ezdtx.txt")
-library(readtext)
 ezdtx<-readtext(ezd_markup_text)$text
-repl.df[4,]<-c("(¬|=|-)\n","")
-ezdtx<-gsub(repl.df$regx[4],repl.df$repl[4],ezdtx)
+lrg<-length(repl.df$regx)
+repl.df[lrg+1,]<-c("(¬|=|-)\n","")
+ezdtx<-gsub(repl.df$regx[lrg+1],repl.df$repl[lrg+1],ezdtx)
 ezdtx
-repl.df[5,]<-c("((?<!spknl)\n)(\n(?!@))"," ")
-ezdtx<-gsub(repl.df$regx[5],repl.df$repl[5],ezdtx,perl = T)
+writeLines(ezdtx,ezd_markup_text)
+repl.df[lrg+2,]<-c("((?<!spknl)\n)(?!@|#)"," ")
+ezdtx<-gsub(repl.df$regx[lrg+2],repl.df$repl[lrg+2],ezdtx,perl = T)
+ezdtx
+writeLines(ezdtx,ezdtemp)
+t4<-readLines(ezdtemp)
 writeLines(ezdtx,ezd_markup_text)
 
 #outlist
+fun.temp1<-function(){
 ltint
 mout<-ltint==1000
 lt2<-ltint[!mout]
@@ -227,7 +245,7 @@ t5<-gsub("(@.+\\.)\n(\\(.+\\))","\\1\\2",t5)
 t5<-gsub("(3p)"," ",t5)
 
 writeLines(t5,ezd_markup_text)
-
+}
 ##########
 process.ezd<-function(){
   path.local.home<-"~/Documents/GitHub/dybbuk-cor"
@@ -238,6 +256,7 @@ process.ezd<-function(){
 # perform ezd processing
 process.ezd()
 ########################
+fun.temp2<-function(){
 xml.ns<-paste0(ezd_markup.ns,".xml")
 # read in ezd output .xml
 xml.tx<-readLines(xml.ns)
@@ -256,3 +275,4 @@ xml.tx[m15]
 writeLines(xml.tx,xml.ns)
 xml.final<-"~/Documents/GitHub/ETCRA5_dd23/tei/klopstock_tod-abels.final.xml"
 writeLines(xml.tx,xml.final)
+}
