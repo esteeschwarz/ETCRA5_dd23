@@ -112,7 +112,7 @@ traurigsten Folgen haben kan.
 
 Jedoch es ist überflüßig, eine Moral
 dem Trauerspiel voranzusetzen, welche bey
-geringer
+
 
 
 
@@ -196,7 +196,7 @@ Graf von Golowin.
 Frau Wolsey.
 Ein Medicus.
 
-Die Scene ist im Zimmer der Iwanette.
+$Die Scene ist im Zimmer der Iwanette.
 
 9::
 
@@ -249,7 +249,7 @@ sal anderer Unglücklichen, den Schlaf, rauben.
 Aber sagen Sie mir, o sagen Sie mir, Madame,
 kan dieser mein beklagenswürdiger Zustand lang
 dauern?
-Wolsey.
+
 
 
 
@@ -323,7 +323,7 @@ fähig, dir dieses Herz zu rauben.
 Wolsey.
 Nun, so besize er denn dieses Herz! es wird
 ihm gleichgültig seyn, ob es schläget oder erstarret
-ist.
+
 
 12::
 
@@ -375,7 +375,7 @@ Hat er nicht Ursache genug zu diesem Zweifel
 bekommen? --
 Ein zu frühzeitig gebornes Kind. --
 Ich muß es Ihnen gestehen, Iwanette, daß aller
-der
+
 
 
 
@@ -432,7 +432,7 @@ Ihren Willen, Ihrer Dürftigkeit abzuhelfen bereit
 ist. und ich hoffe immer, daß sodann das übrige —
 
 
-#oIwanette.
+
 
 
 
@@ -484,7 +484,7 @@ gewinnen und Ihren Kummer zu theilen.
 Wolsey. (für sich.)
 Der arme Golowin verdient selbst Mitleiden.
 
-#oIwanette
+
 
 
 15::
@@ -584,7 +584,7 @@ Ihr Schicksal Iwanette, ist von der Art, daß
 man Ihnen billig jede Betrachtung ersparet, die
 neuen Schmerz in Ihrer Seele erregen kan. Aber
 Sie vergeben mir, daß ich Ihnen dennoch etwas
-entdecke,
+
 
 17::
 
@@ -624,7 +624,7 @@ ist gegründet. Ich habe nie einem Herzen Gewalt
 zu thun, weniger die Tugend in Gefahr zu setzen
 oder zu bestuͤrmen getrachtet. Aber verzeyhen Sie
 Madame, nicht immer schienen Sie mir das zu seyn
-wofür
+
 
 18::
 
@@ -660,7 +660,7 @@ ten Sie die ungluͤckliche Bekantschaft?
 Iwanette.
 Ich will es Ihnen sagen. Wie ich die unglück-
 liche Nachricht von der Abreise meines Mannes, und
-die
+
 
 19::
 
@@ -710,7 +710,7 @@ werden doch diese Mittel nicht ausschlagen?
 
 
 
-#oIwanette.
+
 
 20::
 
@@ -856,7 +856,7 @@ Stormond.
 Warum kan ich nicht unterlassen, die Unge¬
 treue, die mir durch
 die Falschheit ihres Herzens
-mein
+
 
 
 
@@ -930,7 +930,7 @@ O Wolsey, was ist dieses? Unaufhöͤrlich ver¬
 folgt mich Stormonds Bild.
 Ich kan meinen Zu¬
 stand nicht entwickeln. Wie ist mir? Lebe ich?
-Wache
+
 
 
 
@@ -1005,7 +1005,7 @@ gehan=
 delt; daß er mir entdeckte, mit welcher Frau ich
 zu thun habe. Nahmen Sie sich meiner darum an;
 wie mich jedermann verließ; theilten Sie darum
-meinen
+
 
 27::
 
@@ -1041,7 +1041,7 @@ Stormond.
 Ich bitte nochmals, entfernen Sie sich.
 
 (Wolsey geht ab.)
-Stormond.
+
 
 28::
 
@@ -1179,7 +1179,7 @@ Freylich hätte ich Gründe genug, die mir gebieten
 konten, Ihnen mich gefälliger zu machen. Aber
 
 stolz auf eine Tugend, die ich mitten im Geräusch der
-Welt,
+
 
 31::
 Welt, und meines Leichtsinns ohnerachtet, erhielt;
@@ -1223,7 +1223,7 @@ die meine übereilte Entweichung
 Sie stürzte.
 Ich kan dieses nicht besser, als wenn
 ich der Welt es
-zeige,
+
 32::
 
 
@@ -1307,7 +1307,7 @@ stellungen zu thun. Lebe dann glücklich und sey stolz
 auf deine Wahl. Sey das Gespött der Menschen
 und traue deinen Sinnen nicht ferner. Ein Blick,
 eine buhlerische Rede, sey dir mehr als die augen=
-schein=
+
 
 34::
 
@@ -1338,7 +1338,7 @@ Ja, ich will mich nicht weiter in dieser niedri=
 gen Behausung entweyhen. (zum Sohn.) Sie
 
 kennen mich Herr Sohn. Mein Entschluß ist ge=
-nommen.
+
 
 35::
 
@@ -1382,7 +1382,7 @@ nem Umgang. Jch bin durch das Bewustseyn Jhrer
 noch fortdaurenden Zärtlichkeit dennoch beglückt ge=
 nug. Nur suchen Sie mich diesem Hause zu entzie=
 hen, damit die Welt, wenn sie auch nicht aufhöret
-mich
+
 
 36::
 
@@ -1427,7 +1427,7 @@ Jwanette.
 O Stormond,
 geben Sie der Vorstellung Jhres
 Freundes Gehör.
-Stormond
+
 
 37::
 Stormond.
@@ -1469,7 +1469,7 @@ ges Schicksal, Madame und Jhre edle Gesinnung
 haben so viel Eindtuck auf Sie gemacht, daß sie sehn=
 lichst wünscht, Sie bald um sich zu sehen.
 
-Jwanette.
+
 
 
 38::
@@ -1521,7 +1521,7 @@ Er ist auch hier gewesen.
 Golowin.
 Also mit seinem Sohn und mit Jhnen ver=
 söhnt? --
-Jwanette.
+
 
 39::
 
@@ -1564,7 +1564,7 @@ berichtet. 
 
 Der Verwegene küst ihr die Hand und sie
 scheint entzückt. Das ist zu grausam hintergangen.
-Jwanette.
+
 
 
 
@@ -1607,7 +1607,7 @@ das Leben zu rauben?
 ihn zu Golowins Füssen, und geht
 zornig ab.)
 
-Jwanett
+
 
 41::
 
@@ -1645,7 +1645,7 @@ Das ist eine eigensinnige Person. — Wenn
 die Tugend solche Leute bildet; so bin ich froh, daß
 ich mich nie sehr um sie bekümmerte.
 
-Jwanette.
+
 
 
 40::
@@ -1772,7 +1772,7 @@ Ja, sie ist todt.
 
 
 
-Golowin.
+
 
 44::
 
@@ -1828,7 +1828,7 @@ du alle Martern verdientest, die je einen Verbre=
 cher peinigten. Ja, du verdienest sie zehnfach,
 und nach ihnen eine Ewigkeit fortdauernder Qua=
 
-len.
+
 
 
 45::
@@ -1994,7 +1994,7 @@ Stormond.
 Jezt ist es zu spät, mir den Besiz eines Her=
 zens streitig zu machen; eines Herzens, das, —
 ach: das schon erstarret ist.
-Golowin.
+
 
 
 
@@ -2032,7 +2032,7 @@ Was wilt du jezt mit deiner Eifersucht? Glaubst
 du, daß ich mich gegen dich rechtfertigen werde?
 Mehr als du, verdiente ich wenigstens von Jwa=
 netten geliebt zu werden.
-Stormond.
+
 
 
 50::
@@ -2080,7 +2080,7 @@ ward davon überzeugt, und flehte Freundschaft.
 Jch erbot mich selbst Jhre Aussöhnung zu überneh=
 men. Aber ich lernte erst in dem Augenblick Sie
 kennen, in dem Sie den Mord der Jwanette vollen=
-deten.
+
 
 51::
 
@@ -2118,7 +2118,7 @@ nicht das Laster selbst nach sich ziehen. Iwa=
 nette, — ihr Andenken wird mir unvergeßlich blei=
 ben. Verflucht sey die Unternehmung, die Jhre
 
-Tugend
+
 
 
 

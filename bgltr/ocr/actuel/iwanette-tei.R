@@ -109,6 +109,8 @@ t3[m]
 m2<-grep("title|subtitle",t3[m])
 front<-c(author.p,t3[m][m2])
 front
+m<-grepl("@",t3)
+t3<-c(front,t3[!m])
 ############################
 ### personal
 m<-grep("\\^",t3)
@@ -134,6 +136,9 @@ repl.df[3,]<-c("G.l.w.n","Golowin")
 repl.df[4,]<-c(".wane..e","Iwanette")
 repl.df[5,]<-c("#[(]#","[")
 repl.df[6,]<-c("#[)]#","]")
+repl.df[7,]<-c(" "," ")
+repl.df[8,]<-c("  "," ")
+
 t4<-t3
 for (k in 1:length(repl.df$regx)){
   t4<-gsub(repl.df$regx[k],repl.df$repl[k],t4)
@@ -152,28 +157,41 @@ t4[m][1]
 m2<-grep(speaker.m,t4[m[1]:length(t4)])+m[1]-1
 t4[m2]
 t4[m2]<-paste0("@",t4[m2],"spknl")
+
+
 writeLines(t4,ezd_markup_text)
+return(t4)
 }
 ##########
 # run before remove linebreaks, wt fetch from api
 # >>>>>>>>
-runtoezd()
+t4<-runtoezd()
 ##########
 ##############################
 ### remove linebreaks
+mp<-grep("\\^",t4)
+ms<-grep("^#",t4)[1]-1
+personal<-t4[mp:ms]
+body<-t4[ms:length(t4)]
+pre1<-grep("@",t4)
+prepage<-t4[1:(mp-1)]
+
 ezdtemp<-tempfile("ezdtx.txt")
-ezdtx<-readtext(ezd_markup_text)$text
+writeLines(body,ezdtemp)
+ezdtx<-readtext(ezdtemp)$text
 lrg<-length(repl.df$regx)
-repl.df[lrg+1,]<-c("(¬|=|-)\n","")
+repl.df[lrg+1,]<-c("([a-z]¬|[a-z]=|[a-z]-)\n","")
 ezdtx<-gsub(repl.df$regx[lrg+1],repl.df$repl[lrg+1],ezdtx)
 ezdtx
 writeLines(ezdtx,ezd_markup_text)
 repl.df[lrg+2,]<-c("((?<!spknl)\n)(?!@|#)"," ")
 ezdtx<-gsub(repl.df$regx[lrg+2],repl.df$repl[lrg+2],ezdtx,perl = T)
-ezdtx
+#ezdtx
 writeLines(ezdtx,ezdtemp)
-t4<-readLines(ezdtemp)
-writeLines(ezdtx,ezd_markup_text)
+ezd_markup.temp<-readLines(ezdtemp)
+ezd_markup.temp<-c(t4[1:(ms-1)],ezd_markup.temp)
+#t4<-readLines(ezdtemp)
+writeLines(ezd_markup.temp,ezd_markup_text)
 
 #outlist
 fun.temp1<-function(){
@@ -247,6 +265,7 @@ t5<-gsub("(3p)"," ",t5)
 writeLines(t5,ezd_markup_text)
 }
 ##########
+library(reticulate)
 process.ezd<-function(){
   path.local.home<-"~/Documents/GitHub/dybbuk-cor"
   system(paste0("python3 ",path.local.home,"/convert/actuel/","parser.git.py ",ezd_markup_text))
