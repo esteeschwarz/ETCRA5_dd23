@@ -20,8 +20,11 @@ password<-cred$pwd[m]
 # # Set the collection ID and document ID
 # # yudale_xml-edited006, ID: 2917647
 # # xmledited, ID: 411671
-collection_id <- 411671
-document_id <- 2917647
+
+# collection_id <- 411671
+# document_id <- 2917647
+
+
 # 
 # # Get the transcript file in XML format
 # transcript_url <- paste0("https://transkribus.eu/TrpServer/rest/collections/",
@@ -70,8 +73,11 @@ transcript_url<-"https://files.transkribus.eu/Get?id=RDKCGHQCNKBZZQOJWZBSTWBZ"
 transcript_url<-"https://files.transkribus.eu/Get?id=RDKCGHQCNKBZZQOJWZBSTWBZ"
 # klopstock, abel
 # gets xml of single page
+klopstock<-7516113
+iwanette<-7599198
+doc_id<-iwanette
 transcript_url<-"https://transkribus.eu/TrpServer/rest/collections/1973292/7516113/10/curr"
-transcript_url<-"https://transkribus.eu/TrpServer/rest/collections/1973292/7516113/fulldoc.xml"
+transcript_url<-paste0("https://transkribus.eu/TrpServer/rest/collections/1973292/",doc_id,"/fulldoc.xml")
 # transcript_url<-"https://files.transkribus.eu/Get?id=KRADRBATBFQKQVXJZJWHDLFW" # page10, id fetched from above (json)
 # transcript_url<-"https://files.transkribus.eu/Get?id=OVQQGHBEKEBTZSCUHCBFVTKM" # page10, id fetched from above (json) # no
 
@@ -89,9 +95,6 @@ transcript_url<-paste0("https://transkribus.eu/TrpServer/rest/collections/197329
 k<-10
 length(all.pg)
 tx.list<-list()
-klopstock<-7516113
-iwanette<-7599198
-doc_id<-iwanette
 for (k in 1:length(all.pg)){
 transcript_url<-paste0("https://transkribus.eu/TrpServer/rest/collections/1973292/",doc_id,"/",k,"/curr")
 
