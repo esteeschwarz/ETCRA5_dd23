@@ -110,7 +110,7 @@ author.p<-paste0("@author ",author)
 published<-"1771"
 t3[m]
 m2<-grep("title|subtitle",t3[m])
-front<-c(author.p,t3[m][m2])
+front<-c(t3[m][m2],author.p)
 front
 m<-grepl("@",t3)
 t3<-c(front,t3[!m])
@@ -118,7 +118,7 @@ t3<-c(front,t3[!m])
 ### personal
 m<-grep("\\^",t3)
 t3[m:(m+30)]
-person.array<-c("Iwanette","Stormond","Golowin","Wolsey","Bender","Der Medicus","Der ältere Stormond")
+person.array<-c("Iwanette","Stormond","Golowin","Wolsey","Bender","Der Medicus","Der ältere Stormond","Der jüngere Stormond")
 speaker.m<-paste0(person.array,"\\.$")
 speaker.m<-paste0("^",speaker.m,collapse = "|")
 speaker.m
@@ -163,7 +163,7 @@ t4[m2]<-paste0("@",t4[m2],"spknl")
 
 
 writeLines(t4,ezd_markup_text)
-return(list(ezd=t4,repldf=repl.df))
+return(list(ezd=t4,repldf=repl.df,speaker=person.array))
 }
 ##########
 # run before remove linebreaks, wt fetch from api
@@ -176,10 +176,12 @@ t4<-ezd.p$ezd
 ### remove linebreaks
 mp<-grep("\\^",t4)
 ms<-grep("^(#|\\$)",t4)
-ms<-ms[1]-1
-personal<-t4[mp:ms]
+t4[ms]
+ms<-ms[1]
+personal<-t4[mp:(ms-1)]
 personal
 body<-t4[ms:length(t4)]
+head(body)
 pre1<-grep("@",t4)
 prepage<-t4[1:(mp-1)]
 prepage
@@ -190,23 +192,31 @@ ezdtx<-readtext(ezdtemp)$text
 lrg<-length(repl.df$regx)
 repl.df[lrg+1,]<-c("([a-zA-ZÄÜÖäüö])(¬|=|-)\n","\\1")
 ezdtx<-gsub(repl.df$regx[lrg+1],repl.df$repl[lrg+1],ezdtx)
+repl.df[lrg+2,]<-c("((?<!spknl)\n)(?![@#$])"," ")
+ezdtx<-gsub(repl.df$regx[lrg+2],repl.df$repl[lrg+2],ezdtx,perl = T)
+
 #ezdtx
 writeLines(ezdtx,ezd_markup_text)
-repl.df[lrg+2,]<-c("((?<!spknl)\n)(?!@|#)"," ")
-ezdtx<-gsub(repl.df$regx[lrg+2],repl.df$repl[lrg+2],ezdtx,perl = T)
+#ezdtx<-gsub(repl.df$regx[lrg+2],repl.df$repl[lrg+2],ezdtx,perl = T)
 #ezdtx
 writeLines(ezdtx,ezdtemp)
-ezd_markup.temp<-readLines(ezdtemp)
-writeLines(prepage,ezdtemp)
-prepage<-readtext(ezdtemp)$text
+ezd_markup.body<-readLines(ezdtemp) # read body
+m<-grep("@",prepage)
+prepage[m]<-paste0(prepage[m],".spknl")
+writeLines(prepage,ezdtemp) # write prepages
+prepage<-readtext(ezdtemp)$text # read utf prepages
 prepage<-gsub(repl.df$regx[lrg+1],repl.df$repl[lrg+1],prepage)
+prepage<-gsub(repl.df$regx[lrg+2],repl.df$repl[lrg+2],prepage,perl = T)
 writeLines(prepage,ezdtemp)
 prepage<-readLines(ezdtemp)
 
 # ezd_markup.temp<-c(t4[1:(ms-1)],ezd_markup.temp)
-ezd_markup.temp<-c(prepage,personal,ezd_markup.temp)
+ezd_markup.temp<-c(prepage,personal,ezd_markup.body)
+ezd_markup.temp<-gsub("\\.spknl","",ezd_markup.temp)
 #t4<-readLines(ezdtemp)
 writeLines(ezd_markup.temp,ezd_markup_text)
+m<-grep("@",ezd_markup.temp)
+ezd_markup.temp[m]
 
 #outlist
 fun.temp1<-function(){
@@ -290,12 +300,12 @@ process.ezd<-function(){
 # perform ezd processing
 process.ezd()
 ########################
-fun.temp2<-function(){
+xml.finalize<-function(){
 xml.ns<-paste0(ezd_markup.ns,".xml")
 # read in ezd output .xml
 xml.tx<-readLines(xml.ns)
 m14<-grep("[0-9]{1,3}:: ",xml.tx)
-xml.tx[m14]<-gsub("([0-9]{1,3}::) ","\\1",xml.tx[m14])
+#xml.tx[m14]<-gsub("([0-9]{1,3}::) ","\\1",xml.tx[m14])
 m14<-grep("[0-9]{1,3}::",xml.tx)
 xml.tx[m14]<-gsub("([0-9]{1,3})::",'<pb n="\\1"/>',xml.tx[m14])
 m15<-grep("(\\[)",xml.tx)
@@ -306,7 +316,29 @@ m15<-grep("(\\])",xml.tx)
 xml.tx[m15]
 xml.tx[m15]<-gsub("\\]",")",xml.tx[m15])
 xml.tx[m15]
+xmltemp<-tempfile("temp.xml")
+writeLines(xml.tx,xmltemp)
+xmlht<-read_xml(xmltemp)
+xml_ns_strip(xmlht)
+all.per<-xml_find_all(xmlht,"//persName")
+
+xml_text(all.per)
+m<-grep("jünger",xml_text(all.per))
+#m2<-grep("Stormond",ezd.p$speaker)
+xml_text(all.per[m])<-"Stormond"
+xmlns<-xml_find_all(xmlht,"//TEI")
+xml_attr(xmlns,"xmlns")<-"http://www.tei-c.org/ns/1.0"
+xml.final<-paste0(Sys.getenv("GIT_TOP"),"/ETCRA5_dd23/tei/goue_iwanette.final.xml")
+#writeLines(xml.tx,xml.final)
+write_xml(xmlht,xmltemp)
+xml.tx<-readLines(xmltemp)
+xml.tx<-xml.tx[2:length(xml.tx)]
+xml.tx<-gsub("^[ ].+?(<)","\\1",xml.tx)
 writeLines(xml.tx,xml.ns)
-xml.final<-"~/Documents/GitHub/ETCRA5_dd23/tei/klopstock_tod-abels.final.xml"
-writeLines(xml.tx,xml.final)
+formatcom<-paste0('xmlformat ',xml.ns,' > ',xml.final)
+# library(clipr)
+# write_clip(formatcom)
+system(formatcom)
 }
+xml.finalize()
+
