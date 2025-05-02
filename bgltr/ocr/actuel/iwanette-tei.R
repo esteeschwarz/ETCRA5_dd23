@@ -5,15 +5,18 @@
 #t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/txt/goue_iwanette_ggl.txt")
 # to fetch transcript text from transkribus API:
 library(readtext)
-runtoezd<-function(){
 source("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/transkribus-api.R")
+ezd_markup.ns<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/goue_iwanette_ezd")
+ezd_markup_text<-paste0(ezd_markup.ns,".txt")
+ezd_markup.temp<-tempfile("ezdtemp.txt")
+runtoezd<-function(){
 t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/goue_iwanette_apiexpo.txt")
 #t1<-tx.text # generated above
 # i made few changes corrections/adaptations in the t1 static file to make this script run fluently, so modifications in the transkribus editor make no sense at the moment.
 # ezd_markup.ns<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock/klopstock_tod-abels_ezd")
-ezd_markup.ns<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/goue_iwanette_ezd")
-ezd_markup_text<-paste0(ezd_markup.ns,".txt")
-ezd_markup.temp<-tempfile("ezdtemp.txt")
+# ezd_markup.ns<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/goue_iwanette_ezd")
+# ezd_markup_text<-paste0(ezd_markup.ns,".txt")
+# ezd_markup.temp<-tempfile("ezdtemp.txt")
 #library(readtext)
 # m1<-grep("¬",t1)
 # m1p<-m1+1
@@ -160,36 +163,48 @@ t4[m2]<-paste0("@",t4[m2],"spknl")
 
 
 writeLines(t4,ezd_markup_text)
-return(t4)
+return(list(ezd=t4,repldf=repl.df))
 }
 ##########
 # run before remove linebreaks, wt fetch from api
 # >>>>>>>>
-t4<-runtoezd()
+ezd.p<-runtoezd()
+repl.df<-ezd.p$repldf
+t4<-ezd.p$ezd
 ##########
 ##############################
 ### remove linebreaks
 mp<-grep("\\^",t4)
-ms<-grep("^#",t4)[1]-1
+ms<-grep("^(#|\\$)",t4)
+ms<-ms[1]-1
 personal<-t4[mp:ms]
+personal
 body<-t4[ms:length(t4)]
 pre1<-grep("@",t4)
 prepage<-t4[1:(mp-1)]
-
+prepage
+t4[1:200]
 ezdtemp<-tempfile("ezdtx.txt")
 writeLines(body,ezdtemp)
 ezdtx<-readtext(ezdtemp)$text
 lrg<-length(repl.df$regx)
-repl.df[lrg+1,]<-c("([a-z]¬|[a-z]=|[a-z]-)\n","")
+repl.df[lrg+1,]<-c("([a-zA-ZÄÜÖäüö])(¬|=|-)\n","\\1")
 ezdtx<-gsub(repl.df$regx[lrg+1],repl.df$repl[lrg+1],ezdtx)
-ezdtx
+#ezdtx
 writeLines(ezdtx,ezd_markup_text)
 repl.df[lrg+2,]<-c("((?<!spknl)\n)(?!@|#)"," ")
 ezdtx<-gsub(repl.df$regx[lrg+2],repl.df$repl[lrg+2],ezdtx,perl = T)
 #ezdtx
 writeLines(ezdtx,ezdtemp)
 ezd_markup.temp<-readLines(ezdtemp)
-ezd_markup.temp<-c(t4[1:(ms-1)],ezd_markup.temp)
+writeLines(prepage,ezdtemp)
+prepage<-readtext(ezdtemp)$text
+prepage<-gsub(repl.df$regx[lrg+1],repl.df$repl[lrg+1],prepage)
+writeLines(prepage,ezdtemp)
+prepage<-readLines(ezdtemp)
+
+# ezd_markup.temp<-c(t4[1:(ms-1)],ezd_markup.temp)
+ezd_markup.temp<-c(prepage,personal,ezd_markup.temp)
 #t4<-readLines(ezdtemp)
 writeLines(ezd_markup.temp,ezd_markup_text)
 
