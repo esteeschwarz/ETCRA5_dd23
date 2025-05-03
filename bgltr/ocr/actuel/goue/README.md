@@ -14,4 +14,4 @@ Q: <https://books.google.de/books?id=kYk6AAAAcAAJ&pg=PA1&redir_esc=y#v=onepage&q
     - f/s
 
 - TEI chk:
-  - p.26: if 2 <stage> nacheinander at beginning of <sp> then <p> is empty?
+  - p.26: if 2 stage nacheinander at beginning of sp then p is empty?
