@@ -14,4 +14,7 @@ Q: <https://books.google.de/books?id=kYk6AAAAcAAJ&pg=PA1&redir_esc=y#v=onepage&q
     - f/s
 
 - TEI chk:
-  - p.26: if 2 stage nacheinander at beginning of sp then p is empty?
+  - p.26, p.39, p.24 if 2 \<stage> nacheinander at beginning of \<sp> then \<p> is empty? (ezd:121, xml:349)
+  - xml:469: \<pb> in between words, xml:641, p.45 missing l in Qual after \<pb> in word
+  - p.41, xml:596: #unclear markup! creates div act, trailing iwanette sp end of page, wrong pagenumber, correct in transkribus.
+  - xml:827: end of play line
