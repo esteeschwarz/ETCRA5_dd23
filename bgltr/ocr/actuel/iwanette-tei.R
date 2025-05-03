@@ -141,6 +141,7 @@ repl.df[5,]<-c("#[(]#","[")
 repl.df[6,]<-c("#[)]#","]")
 repl.df[7,]<-c(" "," ")
 repl.df[8,]<-c("  "," ")
+repl.df[9,]<-c("#unclear","[unclear]")
 
 t4<-t3
 for (k in 1:length(repl.df$regx)){
@@ -193,7 +194,10 @@ lrg<-length(repl.df$regx)
 repl.df[lrg+1,]<-c("([a-zA-ZÄÜÖäüö])(¬|=|-)\n","\\1")
 ezdtx<-gsub(repl.df$regx[lrg+1],repl.df$repl[lrg+1],ezdtx)
 repl.df[lrg+2,]<-c("((?<!spknl)\n)(?![@#$])"," ")
+repl.df[lrg+3,]<-c("\\) \\(","[.-.]") # double <stage> creates empty <p>
+
 ezdtx<-gsub(repl.df$regx[lrg+2],repl.df$repl[lrg+2],ezdtx,perl = T)
+ezdtx<-gsub(repl.df$regx[lrg+3],repl.df$repl[lrg+3],ezdtx,perl = T)
 
 #ezdtx
 writeLines(ezdtx,ezd_markup_text)
@@ -334,6 +338,7 @@ write_xml(xmlht,xmltemp)
 xml.tx<-readLines(xmltemp)
 xml.tx<-xml.tx[2:length(xml.tx)]
 xml.tx<-gsub("^[ ].+?(<)","\\1",xml.tx)
+xml.tx<-gsub('(<pb n="2"/>.+<pb n="8"/>)',"<preface>\\1</preface>",xml.tx)
 writeLines(xml.tx,xml.ns)
 formatcom<-paste0('xmlformat ',xml.ns,' > ',xml.final)
 # library(clipr)
