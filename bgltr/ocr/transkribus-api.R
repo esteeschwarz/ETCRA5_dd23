@@ -2,12 +2,14 @@ library(httr)
 library(xml2)
 getwd()
 # Set your Transkribus credentials
-cred<-read.csv("~/boxHKW/21S/DH/local/R/cred_gener.csv")
+cred<-read.csv(paste0(Sys.getenv("HKW_TOP"),"/R/cred_gener.csv"))
+e<-parse(text=cred$q[1])
+# q<-"transkribus"
 m<-grep("transkribus",cred$q)
-username <- "your_username"
-password <- "your_password"
-username<-cred$bn[m]
-password<-cred$pwd[m]
+q<-cred$q[m]
+eval(e)
+# username <- "your_username"
+# password <- "your_password"
 
 # Authenticate and get an access token
 # auth_url <- "https://transkribus.eu/TrpServer/rest/auth/login"
