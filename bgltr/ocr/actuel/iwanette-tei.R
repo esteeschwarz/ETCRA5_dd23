@@ -5,12 +5,20 @@
 #t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/txt/goue_iwanette_ggl.txt")
 # to fetch transcript text from transkribus API:
 library(readtext)
-source("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/transkribus-api.R")
-ezd_markup.ns<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/goue_iwanette_ezd")
+library(httr)
+#source("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/transkribus-api.R")
+ezd_markup.ns<-paste0(Sys.getenv("GIT_TOP"),"/ETCRA5_dd23/bgltr/ocr/actuel/goue/goue_iwanette_ezd")
 ezd_markup_text<-paste0(ezd_markup.ns,".txt")
 ezd_markup.temp<-tempfile("ezdtemp.txt")
 runtoezd<-function(){
-t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/goue_iwanette_apiexpo.txt")
+#t1<-readLines("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/goue/goue_iwanette_apiexpo.txt")
+#r<-GET("https://ids.dh-index.org/api/trans?collection=1973292&doc_id=7599198")
+r<-GET("https://ids.dh-index.org/api/trans?transcript=iwanette")
+t2<-content(r,"text")
+ttemp<-tempfile("trans.txt")
+writeLines(t2,ttemp)
+t1<-readLines(ttemp)
+t1
 #t1<-tx.text # generated above
 # i made few changes corrections/adaptations in the t1 static file to make this script run fluently, so modifications in the transkribus editor make no sense at the moment.
 # ezd_markup.ns<-paste0("~/Documents/GitHub/ETCRA5_dd23/bgltr/ocr/actuel/klopstock/klopstock_tod-abels_ezd")

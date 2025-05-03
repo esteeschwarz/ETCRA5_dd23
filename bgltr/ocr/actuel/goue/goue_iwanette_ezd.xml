@@ -30,29 +30,29 @@
 <profileDesc>
 <particDesc>
 <listPerson>
-<person sex="MALE" xml:id="golowin">
-<persName>Golowin</persName>
-</person>
-<person sex="MALE" xml:id="iwanette">
-<persName>Iwanette</persName>
-</person>
 <person sex="MALE" xml:id="wolsey">
 <persName>Wolsey</persName>
 </person>
 <person sex="MALE" xml:id="der_jüngere_stormond">
 <persName>Stormond</persName>
 </person>
-<person sex="MALE" xml:id="bender">
-<persName>Bender</persName>
-</person>
-<person sex="MALE" xml:id="der_medicus">
-<persName>Der Medicus</persName>
-</person>
 <person sex="MALE" xml:id="der_ältere_stormond">
 <persName>Der ältere Stormond</persName>
 </person>
+<person sex="MALE" xml:id="bender">
+<persName>Bender</persName>
+</person>
+<person sex="MALE" xml:id="golowin">
+<persName>Golowin</persName>
+</person>
+<person sex="MALE" xml:id="iwanette">
+<persName>Iwanette</persName>
+</person>
 <person sex="MALE" xml:id="stormond">
 <persName>Stormond</persName>
+</person>
+<person sex="MALE" xml:id="der_medicus">
+<persName>Der Medicus</persName>
 </person>
 </listPerson>
 </particDesc>
