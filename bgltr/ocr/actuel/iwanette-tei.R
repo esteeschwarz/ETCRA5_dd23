@@ -339,6 +339,7 @@ xml.tx<-readLines(xmltemp)
 xml.tx<-xml.tx[2:length(xml.tx)]
 xml.tx<-gsub("^[ ].+?(<)","\\1",xml.tx)
 xml.tx<-gsub('(<pb n="2"/>.+<pb n="8"/>)',"<preface>\\1</preface>",xml.tx)
+xml.tx<-gsub('\\(\\.-\\.\\)',") (",xml.tx)
 writeLines(xml.tx,xml.ns)
 formatcom<-paste0('xmlformat ',xml.ns,' > ',xml.final)
 # library(clipr)

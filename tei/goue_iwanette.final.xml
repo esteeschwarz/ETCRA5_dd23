@@ -29,29 +29,29 @@
   <profileDesc>
    <particDesc>
     <listPerson>
+     <person sex="MALE" xml:id="golowin">
+      <persName>Golowin</persName>
+     </person>
      <person sex="MALE" xml:id="iwanette">
       <persName>Iwanette</persName>
-     </person>
-     <person sex="MALE" xml:id="der_medicus">
-      <persName>Der Medicus</persName>
-     </person>
-     <person sex="MALE" xml:id="bender">
-      <persName>Bender</persName>
-     </person>
-     <person sex="MALE" xml:id="stormond">
-      <persName>Stormond</persName>
      </person>
      <person sex="MALE" xml:id="wolsey">
       <persName>Wolsey</persName>
      </person>
-     <person sex="MALE" xml:id="golowin">
-      <persName>Golowin</persName>
-     </person>
      <person sex="MALE" xml:id="der_jüngere_stormond">
       <persName>Stormond</persName>
      </person>
+     <person sex="MALE" xml:id="bender">
+      <persName>Bender</persName>
+     </person>
+     <person sex="MALE" xml:id="der_medicus">
+      <persName>Der Medicus</persName>
+     </person>
      <person sex="MALE" xml:id="der_ältere_stormond">
       <persName>Der ältere Stormond</persName>
+     </person>
+     <person sex="MALE" xml:id="stormond">
+      <persName>Stormond</persName>
      </person>
     </listPerson>
    </particDesc>
@@ -254,7 +254,7 @@
     </sp>
     <sp who="#iwanette">
      <speaker>Iwanette</speaker>
-     <p>Welch ein erschrecklicher Zustand! -- Ach, diese lezte Entdeckung zeigt mir das Grab meiner zertrümmerten Ehre! — Ich bin eine Unglückliche von der Art, die von dem widrigen Verhängniß mit keinem Streich verschonet wird! -- Ich glaube nicht Ursach zu haben, die Großmuth des Golowin in Zweifel ziehen zu dürfen. Aber, in welche Labyrinthe hat mein zu voreiliges Zutrauen mich bereits gestürzet. - Zwar kan ich freylich nicht tiefer mehr sinken. Allein, wenn man sich einer Mörderhöle entziehet und einer andern zufliehet, wird man dadurch gebessert? und vermehrt man dadurch nicht den Schein, diese Wohnungen aufzusuchen. Ach! unfähig zu jeder Entschliessung, finde ich keine Stütze, um mich aus den Trümmern, die mich bedecken, zu erheben; keine Aussicht als den Tod! Aber warum fliehet er mich, die ihm mit Lächeln <pb n="21"/> und ausgestreckten Armen entgegen eilen würde, und sucht andre auf, denen er erschrecklich ist? -- Stormond kömt mit seinem Vater sich auszusöhnen. Er wird meine Wohnung erfahren, und ich werde von ihm mit so vielem Recht verabscheuet werden, als je ein Sterblicher es wurde. — Und doch schlägt dieses Herz für ihn, kennt kein Glück als mit dem seinigen verbunden zu seyn, und vergehet im Schmerz darüber, weil er sich ihm entriß. Jene, die von Theseus verlassen, ihr Unglück den Felsen und Wellen klagte, wie gering war ihr Elend gegen das meinige. Ihr verbothen nicht die Gründe ihrer Religion es zu endigen, und sich ins Meer zu stürzen. Sie hatte sich keine Vorwurfe zu machen. Ihr Ungetreuer, von ihr durch nichts beleidiget, ward ihrer aus Leichtsinn überdrußig. Aber dem Stormond, kostete der Entschluß mich zu fliehen viel. Und war gleich mein Herz unfähig ihn zu beleidigen, so war dennoch mein unachtsames Betragen Beleidigung genug für ihn. So habe ich den besten Jüngling behandelt, dessen Zärtlichkeit für mich, ihn den Zorn seiner Eltern, und die Drohungen der Enterbung nicht achten machte. Ja, ich verdiene alles Unglück, das mich jezt verfolgt. <stage>(Sie ist eine zeitlang still.)</stage> Ist diese Empfindung die sich meiner bemeistert, ein drohender Schlaf, oder vieleicht der herannahende Tod. — Sey mir gesegnet. -- Ich -- <stage>(Sie geräth in Schlaf.(.-.)Ende des ersten Acts.(.-.)Der Vorhang bleibt offen.)</stage>
+     <p>Welch ein erschrecklicher Zustand! -- Ach, diese lezte Entdeckung zeigt mir das Grab meiner zertrümmerten Ehre! — Ich bin eine Unglückliche von der Art, die von dem widrigen Verhängniß mit keinem Streich verschonet wird! -- Ich glaube nicht Ursach zu haben, die Großmuth des Golowin in Zweifel ziehen zu dürfen. Aber, in welche Labyrinthe hat mein zu voreiliges Zutrauen mich bereits gestürzet. - Zwar kan ich freylich nicht tiefer mehr sinken. Allein, wenn man sich einer Mörderhöle entziehet und einer andern zufliehet, wird man dadurch gebessert? und vermehrt man dadurch nicht den Schein, diese Wohnungen aufzusuchen. Ach! unfähig zu jeder Entschliessung, finde ich keine Stütze, um mich aus den Trümmern, die mich bedecken, zu erheben; keine Aussicht als den Tod! Aber warum fliehet er mich, die ihm mit Lächeln <pb n="21"/> und ausgestreckten Armen entgegen eilen würde, und sucht andre auf, denen er erschrecklich ist? -- Stormond kömt mit seinem Vater sich auszusöhnen. Er wird meine Wohnung erfahren, und ich werde von ihm mit so vielem Recht verabscheuet werden, als je ein Sterblicher es wurde. — Und doch schlägt dieses Herz für ihn, kennt kein Glück als mit dem seinigen verbunden zu seyn, und vergehet im Schmerz darüber, weil er sich ihm entriß. Jene, die von Theseus verlassen, ihr Unglück den Felsen und Wellen klagte, wie gering war ihr Elend gegen das meinige. Ihr verbothen nicht die Gründe ihrer Religion es zu endigen, und sich ins Meer zu stürzen. Sie hatte sich keine Vorwurfe zu machen. Ihr Ungetreuer, von ihr durch nichts beleidiget, ward ihrer aus Leichtsinn überdrußig. Aber dem Stormond, kostete der Entschluß mich zu fliehen viel. Und war gleich mein Herz unfähig ihn zu beleidigen, so war dennoch mein unachtsames Betragen Beleidigung genug für ihn. So habe ich den besten Jüngling behandelt, dessen Zärtlichkeit für mich, ihn den Zorn seiner Eltern, und die Drohungen der Enterbung nicht achten machte. Ja, ich verdiene alles Unglück, das mich jezt verfolgt. <stage>(Sie ist eine zeitlang still.)</stage> Ist diese Empfindung die sich meiner bemeistert, ein drohender Schlaf, oder vieleicht der herannahende Tod. — Sey mir gesegnet. -- Ich -- <stage>(Sie geräth in Schlaf.) (Ende des ersten Acts.) (Der Vorhang bleibt offen.)</stage>
       <pb n="22"/>
      </p>
     </sp>
@@ -291,7 +291,7 @@
     <sp who="#stormond">
      <speaker>Stormond</speaker>
      <p>
-      <stage>(tritt wieder ins Zimmer.(.-.)für sich, indem sich Wolsey mit Iwanetten beschäftiget.)</stage> Diese Freundschaft ist eine Brut der Hölle; -- Unglücklicher Stormond! Umsonst suchtest du Iwanettens Freund zu seyn. Nur solche Freundschaften wählete sie, die Gottlosigkeiten zum Zweck haben; nur solche Gesellschaften, in denen das Laster thronet. <stage>(Iwanette schlägt die Augen auf, sinkt aber in Ohnmacht zurück, da sie den Stormond erblickt.)</stage>
+      <stage>(tritt wieder ins Zimmer.) (für sich, indem sich Wolsey mit Iwanetten beschäftiget.)</stage> Diese Freundschaft ist eine Brut der Hölle; -- Unglücklicher Stormond! Umsonst suchtest du Iwanettens Freund zu seyn. Nur solche Freundschaften wählete sie, die Gottlosigkeiten zum Zweck haben; nur solche Gesellschaften, in denen das Laster thronet. <stage>(Iwanette schlägt die Augen auf, sinkt aber in Ohnmacht zurück, da sie den Stormond erblickt.)</stage>
      </p>
     </sp>
     <sp who="#wolsey">
@@ -343,7 +343,7 @@
     <sp who="#stormond">
      <speaker>Stormond</speaker>
      <p>
-      <stage>(wird aufmerksam.(.-.)für sich.)</stage> Was höre ich da von Niederträchtigkeit und minderer Grosmuth. Ist dieses Iwanettens Sprache?</p>
+      <stage>(wird aufmerksam.) (für sich.)</stage> Was höre ich da von Niederträchtigkeit und minderer Grosmuth. Ist dieses Iwanettens Sprache?</p>
     </sp>
     <sp who="#iwanette">
      <speaker>Iwanette</speaker>
@@ -542,7 +542,7 @@
     <sp who="#stormond">
      <speaker>Stormond</speaker>
      <p>
-      <stage>(im Hereintreten.(.-.)für sich)</stage> Ja, Bender hat mich nicht unrecht berichtet.  Der Verwegene küst ihr die Hand und sie scheint entzückt. Das ist zu grausam hintergangen. <pb n="40"/>
+      <stage>(im Hereintreten.) (für sich)</stage> Ja, Bender hat mich nicht unrecht berichtet.  Der Verwegene küst ihr die Hand und sie scheint entzückt. Das ist zu grausam hintergangen. <pb n="40"/>
      </p>
     </sp>
     <sp who="#iwanette">
@@ -587,7 +587,7 @@
     </sp>
     <sp who="#wolsey">
      <speaker>Wolsey</speaker>
-     <p>Das ist eine eigensinnige Person. — Wenn die Tugend solche Leute bildet; so bin ich froh, daß ich mich nie sehr um sie bekümmerte. <pb n="42"/> Iwanette (unclear) Was habe ich alles erduldet, das zu ertragen möglich war. -- Dieses Gefühl —ach! dieses herbe Gefühl — wird mich vieleicht erlösen. Ewiger! — der mit verzieh, gieb mir jezt Muth, und segne den Stormond. <stage>(Ende des zweyten Acts.(.-.)Der Vorhang bleibt wieder offen.)</stage>
+     <p>Das ist eine eigensinnige Person. — Wenn die Tugend solche Leute bildet; so bin ich froh, daß ich mich nie sehr um sie bekümmerte. <pb n="42"/> Iwanette (unclear) Was habe ich alles erduldet, das zu ertragen möglich war. -- Dieses Gefühl —ach! dieses herbe Gefühl — wird mich vieleicht erlösen. Ewiger! — der mit verzieh, gieb mir jezt Muth, und segne den Stormond. <stage>(Ende des zweyten Acts.) (Der Vorhang bleibt wieder offen.)</stage>
       <pb n="43"/>
      </p>
     </sp>
