@@ -12,15 +12,15 @@ personal	7	Der ältere Stormond	NA	NA	10
 personal	8	Der jüngere Stormond	NA	NA	11
 header_decl	1	NA	NA	NA	12
 header_decl	2	NA	NA	NA	13
-repl	1	W.l.ey	Wolsey	W.l.ey	14
-repl	1	J(h|w|c|s)	I\1	J(h|w|c|s)	15
-repl	1	G.l.w.n	Golowin	G.l.w.n	16
-repl	1	.wane..e	Iwanette	.wane..e	17
-repl	1	#[(]#	[	#[(]#	18
-repl	1	#[)]#	]	#[)]#	19
-repl	1	 	 	 	20
-repl	1	  	 	  	21
-repl	1	#unclear	[unclear]	#unclear	22
+repl	1	W.l.ey	Wolsey	NA	14
+repl	1	J(h|w|c|s)	I\1	NA	15
+repl	1	G.l.w.n	Golowin	NA	16
+repl	1	.wane..e	Iwanette	NA	17
+repl	1	#[(]#	[	NA	18
+repl	1	#[)]#	]	NA	19
+repl	1	 	 	NA	20
+repl	1	  	 	NA	21
+repl	1	#unclear	[unclear]	NA	22
 repl	2	([a-zA-ZÄÜÖäüö])(¬|=|-)
 	\1	NA	23
 repl	2	((?<!spknl)
