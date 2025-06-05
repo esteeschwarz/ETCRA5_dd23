@@ -59,3 +59,7 @@ Q3: (color) <https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN64252
 	- Speaker. (if not able to automatise)
 	- (...) in p which is not stage direction > (#i...)
 	- 10 pagebreak > 10::
+
+#### 15236.
+karl theodor breithaupt, der renegat: <https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10117030-0>
+- transkribus ocr, wr diarium
