@@ -1,0 +1,35 @@
+key	id	string1	string2	comment	lfd
+author	1	Karl Theodor Breithaupt	NA	NA	1
+title	1	Der Renegat	NA	NA	2
+subtitle	1	Ein Trauerspiel in fünf Aufzügen	NA	NA	3
+personal	1	Zapor	NA	NA	4
+personal	2	Orchan	NA	NA	5
+personal	3	Grandlove	NA	NA	6
+personal	4	Welwood	NA	NA	7
+personal	5	Therise	NA	NA	7
+personal	6	Einige Türken	NA	NA	8
+header_decl	1	Aufzug	NA	NA	12
+header_decl	2	Auftritt	NA	NA	13
+scribble          
+repl  1 fündig sündig
+repl	1	J(h|w|c|s)	I\1	J(h|w|c|s)	15
+repl	1	W.l.ey	Wolsey	W.l.ey	14
+repl	1	G.l.w.n	Golowin	G.l.w.n	16
+repl	1	.wane..e	Iwanette	.wane..e	17
+repl	1	#[(]#	[	#[(]#	18
+repl	1	#[)]#	]	#[)]#	19
+repl	1	 	 	 	20
+repl	1	  	 	  	21
+repl	1	#unclear	[unclear]	#unclear	22
+repl	2	([a-zA-ZÄÜÖäüö])(¬|=|-)
+	\1	NA	23
+repl	2	((?<!spknl)
+)(?![@#$])	 	NA	24
+repl	2	\) \(	[.-.]	NA	25
+repl	3	\.spknl		NA	26
+repl	4	¬
+	&lb	NA	27
+repl	4	¬	&lb	NA	28
+repl	5	(&lb)
+		NA	29
+NA	NA	NA	NA	NA	30
