@@ -30,10 +30,11 @@ create_tei_document <- function() {
   
   # Titre et auteur
   titleStmt <- xml_add_child(fileDesc, "titleStmt")
+  ### 15305.TODO > globalise!
   xml_add_child(titleStmt, "title", "Der Tod Abels", type = "main")
   xml_add_child(titleStmt, "title", "Ein Trauerspiel", type = "sub")
   xml_add_child(titleStmt, "author", "Margarete Klopstock")
-  
+  #########################################################
   # Section de publication
   publicationStmt <- xml_add_child(fileDesc, "publicationStmt")
   xml_add_child(publicationStmt, "publisher", "DraCor", `xml:id` = "dracor")
@@ -73,7 +74,7 @@ create_tei_document <- function() {
   )
 }
 
-input_file<-"klopstock_tod-abels_ezd.txt"
+#input_file<-"klopstock_tod-abels_ezd.txt"
 parse_drama_text <- function(input_file, output_file) {
   # Lire le fichier d'entrée
   lines <- readLines(input_file, encoding = "UTF-8")
