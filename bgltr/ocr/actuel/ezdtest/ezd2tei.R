@@ -87,63 +87,73 @@ parse_drama_text <- function(input_file, output_file) {
   line<-lines[length(lines)-2]
   # Traiter chaque ligne
   #line<-l1
-  k<-11
+  k<-14
   line
   for (k in 1:length(lines)) {
     # 1. Gestion des personnages (@)
    # ?str_detect
+    line.true<-""
     line<-lines[k]
     if (str_detect(line, "^@[^.]+\\.", )) {
       parts <- str_match(line, "^@([^.]+?)\\.(.*)")
-      speaker <- str_trim(parts[2])
+      speaker <- gsub("[@.]","",str_trim(parts[2]))
       text <- str_trim(parts[3])
-      
+      line.true<-"speaker"
       # Traitement des numéros de page (150::)
-      text <- str_replace_all(text, "(\\d{1,4})::", "</p><pb n=\"\\1\"/><p>")
-      
+     # text <- str_replace_all(text, "(\\d{1,4})::", "</p><pb n=\"\\1\"/><p>")
+      text <- str_replace_all(text, "(\\d{1,4})::", "<pb n=\"\\1\"/>")
       # Traitement des didascalies inline ((texte))
       text <- str_replace_all(text, "\\(([^)]+)\\)", "<stage>\\1</stage>")
+      text<-"" # empty text array
       
       # Ajouter au XML
       if (!is.null(current_scene)) {
         sp <- xml_add_child(current_scene, "sp", who = paste0("#", tolower(speaker)))
         xml_add_child(sp, "speaker", speaker)
         p <- xml_add_child(sp, "p")
-        xml_text(p) <- text
+        #xml_text(p) <- text
       }
     } 
     # 2. Didascalies de bloc ($)
      if (str_detect(line, "^\\$")) {
-      stage_content <- str_trim(str_sub(line, 2))
+      stage_content <- gsub("[$]","",str_trim(str_sub(line, 2)))
       if (!is.null(current_scene)) {
         xml_add_child(current_scene, "stage", stage_content)
       }
+      text<-""
+      line.true<-"stage"
     }
     # 3. Actes (#)
-    if (str_detect(line, "^#")) {
-      act_title <- str_trim(str_sub(line, 2))
+    if (str_detect(line, "^[#]{1}[^#]")) {
+      act_title <- gsub("#","",str_trim(str_sub(line, 2)))
       current_act <- xml_add_child(xml_doc$body, "div", type = "act")
       xml_add_child(current_act, "head", act_title)
       current_scene <- NULL
+      text<-""
+      line.true<-"act"
     }
     # 4. Scènes (##)
-    if (str_detect(line, "^##")) {
-      scene_title <- str_trim(str_sub(line, 3))
+    if (str_detect(line, "^[#]{2}")) {
+      scene_title <- gsub("##","",str_trim(str_sub(line, 3)))
       if (!is.null(current_act)) {
         current_scene <- xml_add_child(current_act, "div", type = "scene")
         xml_add_child(current_scene, "head", scene_title)
       }
+      text<-""
+      line.true<-"scene"
     }
     # 5. Texte continu
-    if (str_trim(line) != "") {
+    if (str_trim(line) != ""&!line.true%in%c("stage","speaker","act","scene")) {
       if (!is.null(current_scene)) {
         # Appliquer les mêmes transformations que pour le texte des personnages
         processed <- line %>%
-          str_replace_all("(\\d{1,4})::", "</p><pb n=\"\\1\"/><p>") %>%
+          str_replace_all("(\\d{1,4})::", "<pb n=\"\\1\"/>") %>%
           str_replace_all("\\(([^)]+)\\)", "<stage>\\1</stage>")
         
-        p <- xml_add_child(current_scene, "p")
+#        p <- xml_add_child(current_scene, "p")
+       # p <- xml_add_child(sp, "p")
         xml_text(p) <- processed
+        line.true<-"p"
       }
     }
   }
