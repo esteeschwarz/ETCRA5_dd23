@@ -26,7 +26,26 @@
     </fileDesc>
     <profileDesc>
       <particDesc>
-        <listPerson/>
+        <listPerson>
+          <person sex="TODO" xml:id="#abel">
+            <persName>Abel</persName>
+          </person>
+          <person sex="TODO" xml:id="#zilla">
+            <persName>Zilla</persName>
+          </person>
+          <person sex="TODO" xml:id="#kain">
+            <persName>Kain</persName>
+          </person>
+          <person sex="TODO" xml:id="#eva">
+            <persName>Eva</persName>
+          </person>
+          <person sex="TODO" xml:id="#adam">
+            <persName>Adam</persName>
+          </person>
+          <person sex="TODO" xml:id="#beyde">
+            <persName>Beyde</persName>
+          </person>
+        </listPerson>
       </particDesc>
     </profileDesc>
   </teiHeader>
@@ -34,6 +53,11 @@
     <front>
       <castList>
         <head>Personen.</head>
+        <castItem>Adam</castItem>
+        <castItem>Eva</castItem>
+        <castItem>Kain</castItem>
+        <castItem>Abel</castItem>
+        <castItem>Zilla</castItem>
       </castList>
     </front>
     <body>

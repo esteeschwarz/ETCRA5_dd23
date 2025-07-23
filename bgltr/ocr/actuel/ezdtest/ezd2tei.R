@@ -56,12 +56,12 @@ create_tei_document <- function() {
   profileDesc <- xml_add_child(teiHeader, "profileDesc")
   particDesc <- xml_add_child(profileDesc, "particDesc")
   listPerson <- xml_add_child(particDesc, "listPerson")
-  
+  #person <-xml_add_child(listPerson,"person")
   # Corps du texte
   text <- xml_add_child(tei, "text")
   front <- xml_add_child(text, "front")
   castList <- xml_add_child(front, "castList")
-  xml_add_child(castList, "head", "Personen.")
+  # xml_add_child(castList, "head", "Personen.")
   
   body <- xml_add_child(text, "body")
   
@@ -85,25 +85,51 @@ parse_drama_text <- function(input_file, output_file) {
   current_act <- NULL
   current_scene <- NULL
   line<-lines[length(lines)-2]
+  speaker.a<-array()
   # Traiter chaque ligne
   #line<-l1
-  k<-14
+  k<-13
   line
   for (k in 1:length(lines)) {
     # 1. Gestion des personnages (@)
    # ?str_detect
     line.true<-""
     line<-lines[k]
+    
+    # get cast
+    if(str_detect(line,"[\\^]",)){
+      parts<-str_match(line,"[\\^](.*)")
+      desc<-parts[2]
+      r<-k:length(lines)
+      m<-str_detect(lines[r],"[$#@]",)
+      mw<-which(m)
+      mw<-first(mw)
+      mw<-(k+1):r[mw-1]
+      castlist.r<-mw
+      castlist.t<-lines[castlist.r]
+      castlist.t
+#      castList<-xml_find_all(xml_doc$,"//castList")
+      xml_add_child(xml_doc$castList, "head", desc)
+      
+      for(item in castlist.t){
+        xml_add_child(xml_doc$castList,"castItem",item)
+      }
+    }
+    
     if (str_detect(line, "^@[^.]+\\.", )) {
       parts <- str_match(line, "^@([^.]+?)\\.(.*)")
       speaker <- gsub("[@.]","",str_trim(parts[2]))
+      speaker.id<-paste0("#",tolower(speaker))
+      speaker.a<-append(speaker.a,speaker,after = k)
+      speaker.a<-speaker.a[!is.na(speaker.a)]
+      
       text <- str_trim(parts[3])
       line.true<-"speaker"
       # Traitement des numéros de page (150::)
      # text <- str_replace_all(text, "(\\d{1,4})::", "</p><pb n=\"\\1\"/><p>")
-      text <- str_replace_all(text, "(\\d{1,4})::", "<pb n=\"\\1\"/>")
-      # Traitement des didascalies inline ((texte))
-      text <- str_replace_all(text, "\\(([^)]+)\\)", "<stage>\\1</stage>")
+      # text <- str_replace_all(text, "(\\d{1,4})::", "<pb n=\"\\1\"/>")
+      # # Traitement des didascalies inline ((texte))
+      # text <- str_replace_all(text, "\\(([^)]+)\\)", "<stage>\\1</stage>")
       text<-"" # empty text array
       
       # Ajouter au XML
@@ -156,6 +182,12 @@ parse_drama_text <- function(input_file, output_file) {
         line.true<-"p"
       }
     }
+  }
+  speaker.a<-unique(speaker.a)
+  speaker.ids<-paste0("#",tolower(speaker.a))
+  for(sp in 1:length(speaker.a)){
+    person<-xml_add_child(xml_doc$listPerson,"person",sex="TODO",`xml:id`=speaker.ids[sp])
+    xml_add_child(person,"persName",speaker.a[sp])
   }
   xml_text(xml_doc$body)
   # Écrire le fichier XML de sortie
