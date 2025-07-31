@@ -31,9 +31,9 @@ create_tei_document <- function() {
   # Titre et auteur
   titleStmt <- xml_add_child(fileDesc, "titleStmt")
   ### 15305.TODO > globalise!
-  xml_add_child(titleStmt, "title", "Der Tod Abels", type = "main")
-  xml_add_child(titleStmt, "title", "Ein Trauerspiel", type = "sub")
-  xml_add_child(titleStmt, "author", "Margarete Klopstock")
+  title<-xml_add_child(titleStmt, "title", "Der Tod Abels", type = "main")
+  subtitle<-xml_add_child(titleStmt, "title", "Ein Trauerspiel", type = "sub")
+  author<-xml_add_child(titleStmt, "author", "Margarete Klopstock")
   #########################################################
   # Section de publication
   publicationStmt <- xml_add_child(fileDesc, "publicationStmt")
@@ -68,6 +68,10 @@ create_tei_document <- function() {
   
   list(
     doc = doc,
+    front =front,
+    title=title,
+    subtitle=subtitle,
+    author=author,
     body = body,
     castList = castList,
     listPerson = listPerson
@@ -75,6 +79,7 @@ create_tei_document <- function() {
 }
 
 #input_file<-"klopstock_tod-abels_ezd.txt"
+input_file<-"ezdmarkup.txt"
 parse_drama_text <- function(input_file, output_file) {
   # Lire le fichier d'entrée
   lines <- readLines(input_file, encoding = "UTF-8")
@@ -85,17 +90,36 @@ parse_drama_text <- function(input_file, output_file) {
   # Variables d'état pour suivre la structure
   current_act <- NULL
   current_scene <- NULL
-  line<-lines[length(lines)-2]
+  #line<-lines[length(lines)-2]
   speaker.a<-array()
   # Traiter chaque ligne
   #line<-l1
-  k<-13
+  k<-1
+  line<-lines[k]
   line
   for (k in 1:length(lines)) {
     # 1. Gestion des personnages (@)
    # ?str_detect
     line.true<-""
     line<-lines[k]
+    if(str_detect(line,"^@title",)){
+      parts<-str_match(line,"^@title (.*)")
+      desc<-parts[2]
+      xml_text(xml_doc$title)<-desc
+      line.true<-"title"
+    }
+    if(str_detect(line,"^@subtitle",)){
+      parts<-str_match(line,"^@subtitle (.*)")
+      desc<-parts[2]
+      xml_text(xml_doc$subtitle)<-desc
+      line.true<-"subtitle"
+    }
+    if(str_detect(line,"^@author",)){
+      parts<-str_match(line,"^@author (.*)")
+      desc<-parts[2]
+      xml_text(xml_doc$author)<-desc
+      line.true<-"author"
+    }
     
     # get cast
     if(str_detect(line,"[\\^]",)){
@@ -115,15 +139,17 @@ parse_drama_text <- function(input_file, output_file) {
       for(item in castlist.t){
         xml_add_child(xml_doc$castList,"castItem",item)
       }
+     line.true<-"personal"
     }
+    line.true
     
-    if (str_detect(line, "^@[^.]+\\.", )) {
+    if (str_detect(line, "^@[^.]+\\.", )&!line.true%in%c("title","subtitle","author")) {
       parts <- str_match(line, "^@([^.]+?)\\.(.*)")
       speaker <- gsub("[@.]","",str_trim(parts[2]))
       speaker.id<-paste0("#",tolower(speaker))
       speaker.a<-append(speaker.a,speaker,after = k)
       speaker.a<-speaker.a[!is.na(speaker.a)]
-      
+      speaker.a
       text <- str_trim(parts[3])
       line.true<-"speaker"
       # Traitement des numéros de page (150::)
@@ -141,6 +167,8 @@ parse_drama_text <- function(input_file, output_file) {
         #xml_text(p) <- text
       }
     } 
+    parts
+    speaker.a
     # 2. Didascalies de bloc ($)
      if (str_detect(line, "^\\$")) {
       stage_content <- gsub("[$]","",str_trim(str_sub(line, 2)))
@@ -170,7 +198,7 @@ parse_drama_text <- function(input_file, output_file) {
       line.true<-"scene"
     }
     # 5. Texte continu
-    if (str_trim(line) != ""&!line.true%in%c("stage","speaker","act","scene")) {
+    if (str_trim(line) != ""&!line.true%in%c("stage","speaker","act","scene","author","title","subtitle","personal")) {
       if (!is.null(current_scene)) {
         # Appliquer les mêmes transformations que pour le texte des personnages
         processed <- line %>%
@@ -185,6 +213,7 @@ parse_drama_text <- function(input_file, output_file) {
     }
   }
   speaker.a<-unique(speaker.a)
+  speaker.a
   speaker.ids<-paste0("#",tolower(speaker.a))
   for(sp in 1:length(speaker.a)){
     person<-xml_add_child(xml_doc$listPerson,"person",sex="TODO",`xml:id`=speaker.ids[sp])
@@ -197,4 +226,5 @@ parse_drama_text <- function(input_file, output_file) {
 output_file<-"r-output.xml"
 
 # Exemple d'utilisation
-parse_drama_text("klopstock_tod-abels_ezd.txt", "r-output.xml")
+parse_drama_text("ezdmarkup.txt", "toldetest.xml")
+#parse_drama_text("klopstock_tod-abels_ezd.txt", "toldetest.xml")
