@@ -80,10 +80,18 @@ create_tei_document <- function() {
 
 #input_file<-"klopstock_tod-abels_ezd.txt"
 input_file<-"ezdmarkup.txt"
-parse_drama_text <- function(input_file, output_file) {
+parse_drama_text <- function(input_tx, output_file) {
   # Lire le fichier d'entrée
-  lines <- readLines(input_file, encoding = "UTF-8")
+  lines<-input_tx
+#  lines <- readLines(input_file, encoding = "UTF-8")
+  lines<-lines[!is.na(lines)]
+  lines<-lines[lines!=""&lines!=" "&lines!="  "]
+  #lines<-gsub("\\^","!personal!",lines)
+ # write("start parse---","debug.txt",append = T)
+  #write(paste0(length(lines)," lines to process..."),"debug.txt",append = T)
   
+  # Initialiser le document XML
+  #xml_doc <- create_tei_document()
   # Initialiser le document XML
   xml_doc <- create_tei_document()
   
@@ -92,9 +100,10 @@ parse_drama_text <- function(input_file, output_file) {
   current_scene <- NULL
   #line<-lines[length(lines)-2]
   speaker.a<-array()
+  scenes.t<-F
   # Traiter chaque ligne
   #line<-l1
-  k<-1
+  k<-4
   line<-lines[k]
   line
   for (k in 1:length(lines)) {
@@ -102,33 +111,92 @@ parse_drama_text <- function(input_file, output_file) {
    # ?str_detect
     line.true<-""
     line<-lines[k]
+    write(k,"debug.txt",append = T)
+    if(str_detect(line,"\\^",)){
+      parts<-str_match(line,"\\^(.*)")
+      write(parts,"debug.txt",append = T)
+      
+      desc<-parts[2]
+      r<-k:length(lines)
+      m<-str_detect(lines[r],"[$#@]",)
+      mw<-which(m)
+      mw<-mw[1]
+      mw<-(k+1):r[mw-1]
+      #castlist.r<-mw
+      write("---catslist.r","debug.txt",append = T)
+      
+      write(mw,"debug.txt",append = T)
+      
+      castlist.t<-lines[mw]
+      castlist.t
+      #      castList<-xml_find_all(xml_doc$,"//castList")
+      xml_add_child(xml_doc$castList, "head", desc)
+      
+      for(item in castlist.t){
+        xml_add_child(xml_doc$castList,"castItem",item)
+      }
+      line.true<-"personal"
+      write(castlist.t,"debug.txt",append = T)
+      xml_text(xml_doc$castList)
+      write_xml(xml_doc$doc,"cstest.xml")
+    }
+    
     if(str_detect(line,"^@title",)){
       parts<-str_match(line,"^@title (.*)")
       desc<-parts[2]
       xml_text(xml_doc$title)<-desc
       line.true<-"title"
+      write(xml_text(xml_doc$title),"debug.txt",append = T)
+      parts
     }
     if(str_detect(line,"^@subtitle",)){
       parts<-str_match(line,"^@subtitle (.*)")
       desc<-parts[2]
       xml_text(xml_doc$subtitle)<-desc
       line.true<-"subtitle"
+      write(xml_text(xml_doc$subtitle),"debug.txt",append = T)
     }
+    xml_text(xml_doc$subtitle)
+    #parts
+    
     if(str_detect(line,"^@author",)){
       parts<-str_match(line,"^@author (.*)")
       desc<-parts[2]
       xml_text(xml_doc$author)<-desc
       line.true<-"author"
+      write(xml_text(xml_doc$author),"debug.txt",append = T)
+     parts 
     }
-    
+    if(str_detect(line,"@front",)){
+      parts<-str_match(line,"(@front(.*) )(.*)")
+      p4<-parts[4]
+      n<-unlist(strsplit(parts[2],"-"))
+      p1<-
+      n<-n[n!=""]
+      r<-k:length(lines)
+      m<-str_detect(lines[r],"[\\^$#]",)
+      mw<-which(m)
+      lines[k:(r[mw[1]-1])]
+      mw<-k:(r[mw[1]-1])
+#      mw<-(k+1):r[mw]
+      lines[mw]
+      front.r<-mw
+      front.t<-lines[front.r]
+      front.t[1]<-p4
+#      front.t<-paste0(front.t,collapse = "\n")
+      #      castList<-xml_find_all(xml_doc$,"//castList")
+      for(p in front.t){
+      xml_add_child(xml_doc$front, "p", p)
+      }
+    }
     # get cast
-    if(str_detect(line,"[\\^]",)){
+    if(str_detect(line,"^depr",)){
       parts<-str_match(line,"[\\^](.*)")
       desc<-parts[2]
       r<-k:length(lines)
       m<-str_detect(lines[r],"[$#@]",)
       mw<-which(m)
-      mw<-first(mw)
+      mw<-mw[1]
       mw<-(k+1):r[mw-1]
       castlist.r<-mw
       castlist.t<-lines[castlist.r]
@@ -140,6 +208,8 @@ parse_drama_text <- function(input_file, output_file) {
         xml_add_child(xml_doc$castList,"castItem",item)
       }
      line.true<-"personal"
+     write(castlist.t,"debug.txt",append = T)
+     
     }
     line.true
     
@@ -163,8 +233,12 @@ parse_drama_text <- function(input_file, output_file) {
       if (!is.null(current_scene)) {
         sp <- xml_add_child(current_scene, "sp", who = paste0("#", tolower(speaker)))
         xml_add_child(sp, "speaker", speaker)
+        write(speaker,"debug.txt",append = T)
+        
         p <- xml_add_child(sp, "p")
         #xml_text(p) <- text
+        write("<p>","debug.txt",append = T)
+        
       }
     } 
     parts
@@ -174,6 +248,8 @@ parse_drama_text <- function(input_file, output_file) {
       stage_content <- gsub("[$]","",str_trim(str_sub(line, 2)))
       if (!is.null(current_scene)) {
         xml_add_child(current_scene, "stage", stage_content)
+        write("<stage>","debug.txt",append = T)
+        
       }
       text<-""
       line.true<-"stage"
@@ -184,8 +260,11 @@ parse_drama_text <- function(input_file, output_file) {
       current_act <- xml_add_child(xml_doc$body, "div", type = "act")
       xml_add_child(current_act, "head", act_title)
       current_scene <- NULL
+      ifelse(sum(str_detect(lines, "^[#]{2}"))>0,scenes.t<-T,current_scene<-current_act)
       text<-""
       line.true<-"act"
+      write(act_title,"debug.txt",append = T)
+      
     }
     # 4. Scènes (##)
     if (str_detect(line, "^[#]{2}")) {
@@ -193,6 +272,8 @@ parse_drama_text <- function(input_file, output_file) {
       if (!is.null(current_act)) {
         current_scene <- xml_add_child(current_act, "div", type = "scene")
         xml_add_child(current_scene, "head", scene_title)
+        write(scene_title,"debug.txt",append = T)
+        
       }
       text<-""
       line.true<-"scene"
@@ -209,6 +290,8 @@ parse_drama_text <- function(input_file, output_file) {
        # p <- xml_add_child(sp, "p")
         xml_text(p) <- processed
         line.true<-"p"
+        write(processed,"debug.txt",append = T)
+        
       }
     }
   }
@@ -219,12 +302,14 @@ parse_drama_text <- function(input_file, output_file) {
     person<-xml_add_child(xml_doc$listPerson,"person",sex="TODO",`xml:id`=speaker.ids[sp])
     xml_add_child(person,"persName",speaker.a[sp])
   }
+  write(speaker.a,"debug.txt",append = T)
+  
   xml_text(xml_doc$body)
   # Écrire le fichier XML de sortie
   write_xml(xml_doc$doc, output_file)
 }
 output_file<-"r-output.xml"
-
+input_tx<-readLines("ezdmarkup.txt")
 # Exemple d'utilisation
-parse_drama_text("ezdmarkup.txt", "toldetest.xml")
+parse_drama_text(input_tx, "toldetest.xml")
 #parse_drama_text("klopstock_tod-abels_ezd.txt", "toldetest.xml")

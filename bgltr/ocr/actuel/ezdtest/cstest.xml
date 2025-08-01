@@ -3,8 +3,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Der Tod Abels</title>
-        <title type="sub">Ein Trauerspiel</title>
+        <title type="main">Iwanette und Stormond</title>
+        <title type="sub">ein Trauerspiel, in drey Handlungen.</title>
         <author>August Siegfried von Goué</author>
       </titleStmt>
       <publicationStmt>
@@ -32,7 +32,19 @@
   </teiHeader>
   <text>
     <front>
-      <castList/>
+      <castList>
+        <head>Personen.</head>
+        <castItem>Iwanette.</castItem>
+        <castItem>Stormond.</castItem>
+        <castItem>Der ältere Stormond, dessen Vater. </castItem>
+        <castItem>Bender, des ältern Stormonds Vertrauter. </castItem>
+        <castItem>Graf von Golowin. </castItem>
+        <castItem>Frau Wolsey. </castItem>
+        <castItem>Ein Medicus.</castItem>
+      </castList>
+      <p>testfront</p>
+      <p>testfrontcontent1</p>
+      <p>testfrontcontent2</p>
     </front>
     <body/>
   </text>
