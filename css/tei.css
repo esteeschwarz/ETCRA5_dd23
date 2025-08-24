@@ -1,0 +1,14 @@
+p {
+color: black;
+
+}
+speaker{
+  font-size: 1.1em;
+  font-style: bold;
+}
+stage {
+  font-weight:italic;
+}
+head {
+  font-size: 1.6em;
+}
