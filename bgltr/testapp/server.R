@@ -34,7 +34,7 @@ function(input, output, session) {
       tags$iframe(
       #  src = paste0("data:application/xml;base64,", b64),
        src = "hamlet.xml",
-        style="width:100%; height:100%; border:none;"
+        style="width:100%; height:100vH; border:none;"
       )
     })
   })
