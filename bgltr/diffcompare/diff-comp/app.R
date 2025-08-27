@@ -1,84 +1,57 @@
+# Install required packages
+# install.packages(c("shiny", "diffobj", "shinyAce"))
+
 library(shiny)
 library(diffobj)
+library(shinyAce)
 
 ui <- fluidPage(
-  titlePanel("Advanced Text Comparison"),
-  tags$head(
-    tags$style(HTML("
-      .diff-container { 
-        border: 1px solid #ddd; 
-        border-radius: 5px; 
-        padding: 10px; 
-        margin: 10px 0; 
-        background: #f8f9fa;
-      }
-      .diff-header {
-        background: #e9ecef;
-        padding: 10px;
-        border-radius: 3px;
-        margin-bottom: 10px;
-      }
-    "))
-  ),
-  
-  fluidRow(
-    column(6,
-           div(class = "diff-container",
-               h4("Original Text", class = "diff-header"),
-               textAreaInput("original_text", NULL, 
-                             "This is the first version of the transcript.\nIt contains several errors and typos.\nSome sentences need rephrasing.\nThe overall structure could be improved.",
-                             rows = 12, width = "100%")
-           )
+  titlePanel("Text Comparison Tool"),
+  sidebarLayout(
+    sidebarPanel(
+      width = 3,
+      h4("Original Text"),
+      aceEditor("text1", mode = "text", height = "200px", value = "This is the original text.\nIt contains some errors.\nWe need to correct them."),
+      h4("Corrected Text"),
+      aceEditor("text2", mode = "text", height = "200px", value = "This is the corrected text.\nIt contains no errors.\nWe fixed all issues."),
+      actionButton("compare", "Compare Texts", class = "btn-primary"),
+      br(), br(),
+      selectInput("diff_style", "Diff Style:",
+                  choices = c("auto", "unified", "sidebyside", "context"),
+                  selected = "sidebyside")
     ),
-    column(6,
-           div(class = "diff-container",
-               h4("Corrected Text", class = "diff-header"),
-               textAreaInput("corrected_text", NULL, 
-                             "This is the corrected version of the transcript.\nIt contains no errors and is properly formatted.\nAll sentences have been rephrased for clarity.\nThe structure has been significantly improved.",
-                             rows = 12, width = "100%")
-           )
-    )
-  ),
-  
-  fluidRow(
-    column(12,
-           actionButton("compare", "Compare Texts", class = "btn-primary btn-lg"),
-           selectInput("view_mode", "View Mode:",
-                       choices = c("Side by Side" = "sidebyside",
-                                   "Unified" = "unified",
-                                   "Context" = "context"),
-                       selected = "sidebyside"),
-           div(class = "diff-container",
-               h4("Comparison Results", class = "diff-header"),
-               uiOutput("diff_display")
-           )
+    mainPanel(
+      width = 9,
+      h3("Differences"),
+      uiOutput("diff_output")
     )
   )
 )
 
 server <- function(input, output) {
   
-  output$diff_display <- renderUI({
-    input$compare
+  diff_result <- eventReactive(input$compare, {
+    text1 <- input$text1
+    text2 <- input$text2
     
-    isolate({
-      if (nchar(input$original_text) > 0 && nchar(input$corrected_text) > 0) {
-        lines1 <- unlist(strsplit(input$original_text, "\n"))
-        lines2 <- unlist(strsplit(input$corrected_text, "\n"))
-        
-        diff <- diffobj::diffChr(
-          lines1, 
-          lines2,
-          mode = input$view_mode,
-          format = "html",
-          style = list(html.output = "page")
-        )
-        
-        return(diff)
-      } else {
-        return(HTML("<p>Please enter text in both fields to compare.</p>"))
-      }
-    })
+    # Split into lines for better diff display
+    lines1 <- unlist(strsplit(text1, "\n"))
+    lines2 <- unlist(strsplit(text2, "\n"))
+    
+    # Create diff object
+    diff <- diffobj::diffChr(
+      lines1, 
+      lines2,
+      mode = input$diff_style,
+      format = "html",
+      style = list(html.output = "page")
+    )
+    
+    return(diff)
+  })
+  
+  output$diff_output <- renderUI({
+    diff_result()
   })
 }
 
