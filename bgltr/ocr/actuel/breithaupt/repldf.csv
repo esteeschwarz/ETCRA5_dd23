@@ -22,3 +22,4 @@ id,find,replace,comment
 21,Za[^p]or,Zapor,
 22,Zapo[^r],Zapor,
 23,[^Z]apor,Zapor,
+24,(messregex),should break,
