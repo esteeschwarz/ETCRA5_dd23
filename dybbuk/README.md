@@ -14,7 +14,7 @@ this folder contains scripts and tables associated to working on a transcription
 
 ### 3rd approach.NT.15362
 global replacement of common misrecognized vocalisations via find/replace table
-see: <dybbuk_transkribus-edit.R> and <replace.df-m.csv>
+see: [dybbuk_transkribus-edit.R](https://github.com/esteeschwarz/ETCRA5_dd23/blob/master/dybbuk/dybbuk_transkribus-edit.R) and [replace.df-m.csv](https://github.com/esteeschwarz/ETCRA5_dd23/blob/master/dybbuk/replace.df-m.csv)
 
 
 
