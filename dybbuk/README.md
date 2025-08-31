@@ -13,8 +13,9 @@ this folder contains scripts and tables associated to working on a transcription
   - replace token at position in training pages with vocalised gold set token
 
 ### 3rd approach.NT.15362
-global replacement of common misrecognized vocalisations via find/replace table
+- global replacement of common misrecognized vocalisations via find/replace table
 see: [dybbuk_transkribus-edit.R](https://github.com/esteeschwarz/ETCRA5_dd23/blob/master/dybbuk/dybbuk_transkribus-edit.R) and [replace.df-m.csv](https://github.com/esteeschwarz/ETCRA5_dd23/blob/master/dybbuk/replace.df-m.csv)
+- the corrected transcript files (the transkribus page-xml documents for each page after the find/replace run) were fed back into transkribus via the transkribus API to proceed OCR correction on base of that auto-corrected transcripts, which spared a lot of manually inserting the dmn nikku-dots...
 
 
 
