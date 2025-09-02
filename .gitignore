@@ -61,3 +61,4 @@ docs/_build/
 .vscode/
 **/.DS_Store
 #**/*.lwp
+**/debug.txt

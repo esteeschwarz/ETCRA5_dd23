@@ -12,8 +12,11 @@ source("ezd2tei.R")
 source("functions.R")
 #sp.default<-"Iwanette,Golowin,Wolsey,Stormond,Bender"
 transcript<-"iwanette"
-output_file<-"www/r-tempxmlout.xml"
+output_file_s_www<-"r-tempxmlout.xml"
+output_file<-paste0("www/",output_file_s_www)
+
 output_file_ezd<-"www/ezdmarkup.txt"
+output_file_pb<-"www/r-tempxmlout_pb.xml"
 # Load defaults when app starts
 observe({
   # Load default speaker names from database
@@ -382,7 +385,8 @@ function(input, output, session) {
      # style="width:100%; height:100%;",
       tags$iframe(
 #        src = paste0("data:application/xml;base64,", b64),
-       src = "r-tempxmlout.xml",
+       # src = "r-tempxmlout.xml",
+        src = output_file_s_www,
         style="width:100%; height:100vH; border:none;"
       )
     })
