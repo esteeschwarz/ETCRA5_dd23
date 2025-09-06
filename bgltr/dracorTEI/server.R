@@ -53,8 +53,9 @@ function(input, output, session) {
     df = defaults,
     title = NULL,
     subtitle = NULL,
-    author = NULL
-    
+    author = NULL,
+    h1.set = FALSE,
+    ezd = "no text processed"
   )
   metadf<-fromJSON("repldf.json",flatten = T)
   repldf<-metadf$repl
@@ -243,7 +244,8 @@ function(input, output, session) {
   )
   output$downloadEZD<-downloadHandler(
     filename="ezdmarkup.txt",
-    content=function(file){writeLines(readLines(output_file_ezd),file)}
+    # content=function(file){writeLines(readLines(output_file_ezd),file)}
+    content=function(file){writeLines(rv$ezd,file)}
   )
   observeEvent(input$defaults.save,{
     req(input$id_select)
@@ -446,7 +448,10 @@ function(input, output, session) {
     # heads$h1<-rv$h1.sf
     # heads$h2=rv$h2.sf
     print(rv$heads)
-    
+    if(length(rv$heads)>0){
+      rv$h1.set<-TRUE
+      rv$ezd<-rv$t2
+    }
     writeLines(rv$t2,"www/ezdmarkup.txt")
     # Update the UI with the processed act headers
    # output$proutput <- renderText(paste("level 1/2 headers found:\n",paste(rv$heads, collapse = "\n"),collapse = "\n"))
@@ -471,13 +476,17 @@ function(input, output, session) {
   })
   observeEvent(input$guess.sp, {
     print("guess speakers")
+    
     sp.guess<-guess_speaker(rv$t2,input$cast)
     rv$sp.guess<-sp.guess
     output$proutput<- renderText(paste("SPEAKERS guessed:\n",paste(sp.guess,collapse = "\n")))
     updateTextInput(session, "speaker", value = paste0(sp.guess,collapse = ","))
   })
+  #################################
     observeEvent(input$submit.sp, {
     vario <- input$speaker
+    req(rv$h1.set)
+    
     print("getting speaker")
     #t <- get.speakers(t3, vario)  # Use the transcript stored in reactiveValues
     print(rv$cast)
@@ -501,11 +510,15 @@ function(input, output, session) {
    # output$acts <- renderText(paste(rv$heads, collapse = "\n"))
     ### remove linebreaks
     sp6<-gsub("%front%","",t2$text)
-   # sp6<-t2$text
+   # sp6<-gsub("%hnl%","",t2$text)
+    # sp6<-t2$text
     t3<-clean.t(sp6,F,rv$repl)
+    t3<-gsub("%hnl%","",t3)
+    t3<-gsub("^\\((.+)\\)$","$\\1",t3)
     print("clean.t...")
    # t3<-get.front(t3)
     rv$t3<-t3
+    rv$ezd<-t3
     writeLines(rv$t3,"www/ezdmarkup.txt")
     
     output$processed <- renderUI({
