@@ -1,3 +1,5 @@
+library(R.utils)
+#library(Hmisc)
 check_regex_dep<-function(repldf){
   sampletx<-"just a random sample text"
   tryCatch({
@@ -92,7 +94,7 @@ get.transcript<-function(transcript){
 # defaults<-data.frame(id=1,h1="Act|Akt|Handlung",h2="Szene|Scene",speaker="Stormond,Iwanette,Golowin,Bender,Wolsey")
 # save(defaults,file = "default-values.RData")
 save_defaults<-function(rvdf){
-  load("default-values.RData")
+  load("default-values.RData") #### >>> CHK if OUT!
   print(head(defaults))
   id<-rvdf[["id"]]
   defaults[id,]<-rvdf
@@ -109,7 +111,7 @@ load_defaults <- function(id=F) {
     # result <- dbGetQuery(con, "SELECT speaker_names FROM defaults WHERE id = 1")
     # dbDisconnect(con)
     # return(result$speaker_names[1])
-    load("default-values.RData")
+    load("default-values.RData") ### >>> CHK if OUT!!!!!!
     print("loaded...")
     print(id)
     cat("----\n")
@@ -216,16 +218,52 @@ transform.ezd<-function(ezd,output_file){
 headx.1<-"Aufzug"
 headx.2<-"Auftritt"
 #t1<-t3
+metadf<-read.csv("lx/metadf-mlx.csv")
 get.heads.s<-function(t1,headx.1="(Akt|Act|Handlung)",headx.2="(Szene|Scene)"){
   numer<-c("(Erst|Zweyt|Zweit|Dritt|Viert|Fünfte|Fuenft|Sechs|Sieben|Acht|Neun|Zehn|Elf|Zwoelf|Zwölf|Dreizehn|Dreyzehn)")
   #  ifelse(level==1,headx<-headx.1,headx<-headx.2)
   # ifelse(level==1,ph<-"#",ph<-"##")
+  numer<-metadf$cardinal
+  do.caps<-function(numer){
+  numer.s<-unlist(strsplit(numer,"\\|"))
+  numer.s<-gsub("[)(]","",numer.s)
+  numer.s<-numer.s[numer.s!=""]
+  numer.s<-numer.s[!is.na(numer.s)]
+  numer.c<-capitalize(numer.s)
+  numer.x<-gsub("[A-ZВ-Ш]",".",numer.c)
+  numer.x
+  numer.dc<-decapitalize(numer.s)
+  
+  numer.tu<-toupper(numer.s)
+  numer.tu.x<-toupper(numer.x)
+  n.all<-c(numer.s,numer.c,numer.dc,numer.tu,numer.x,numer.tu.x)
+  n.all<-unique(n.all)
+  numer.all<-paste0(n.all,collapse = "|")
+  length(numer.all)
+  return(numer.all)
+  }
+  numer.all<-do.caps(numer)
+  #h1.all<-do.caps(h1)
+  #h1<-paste0("(",paste0(metadf$h1,collapse = "|"),")")
+  #h2<-paste0("(",paste0(metadf$h2,collapse = "|"),")")
+  h1<-metadf$h1
+  h2<-metadf$h2
+  h1<-c(h1,headx.1)
+  h2<-c(h2,headx.2)
+  h1.all<-do.caps(h1)
+  h2.all<-do.caps(h2)
+  h1.all
+  numer<-paste0(numer,collapse = "|")
   regx.1<-paste0("^.+?",numer,".+(",headx.1,")\\.")
   regx.1<-paste0("^+?",numer,".+(",headx.1,")\\.")
-  regx.1
+# global from metadf
+  # imp: ^[^a-zA-Z][ \t]{1,}?F.RSTE.+(AKT)\.?$
+  regx.1<-paste0("^[ \t]{0,}?(",numer.all,").+(",h1.all,")\\.?$")
+  #print(regx.1)
   regx.2<-paste0("^.+?",numer,".+(",headx.2,")\\.")
   regx.2<-paste0("^+?",numer,".+(",headx.2,")\\.")
-  regx.2
+  regx.2<-paste0("^[ \t]{1,}?(",numer.all,").+(",h2.all,")\\.?$")
+  #print(regx.2)
   m1<-grep(regx.1,t1)
   t1
   t2<-t1
@@ -235,8 +273,11 @@ get.heads.s<-function(t1,headx.1="(Akt|Act|Handlung)",headx.2="(Szene|Scene)"){
   t2[m2]<-paste0("## ",t2[m2])
   #return(t1)
   vario<-c(t2[m1],t2[m2])
-           print(vario)
-  return(list(vario=vario,text=t2))
+  h1<-t2[m1]
+  h2<-t2[m2]
+    #       print(h1[1:10])
+     #      print(h2[1:10])
+           return(list(vario=vario,text=t2))
 }
 get.heads.dep<-function(t1,headx="(Akt|Act"){
   numer<-c("(Erst|Zweyt|Zweit|Dritt|Viert|Fünfte|Fuenft|Sechs|Sieben|Acht|Neun|Zehn|Elf|Zwoelf|Zwölf|Dreizehn|Dreyzehn)")
