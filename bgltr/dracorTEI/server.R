@@ -16,24 +16,27 @@ load("default-values.RData")
 transcript<-"iwanette"
 output_file_s_www<-"r-tempxmlout.xml"
 output_file<-paste0("www/",output_file_s_www)
-
+output_file<-tempfile("tempxmlout.xml")
 output_file_ezd<-"www/ezdmarkup.txt"
+output_file_ezd<-tempfile("ezdmarkup.txt")
 output_file_pb<-"www/r-tempxmlout_pb.xml"
 # Load defaults when app starts
-observe({
-  # Load default speaker names from database
-  #sp_default <- load_default_speakers()
-  defaults<-load_defaults(1)
-  # Update the text input with the loaded default
-  updateTextInput(session, "speaker", value = defaults$speaker)
-  updateTextInput(session, "h1", value = defaults$h1)
-  updateTextInput(session, "h2", value = defaults$h2)
-  updateTextInput(session, "cast", value = defaults$cast)
-  
-})
+# observe({
+#   # Load default speaker names from database
+#   #sp_default <- load_default_speakers()
+#   defaults<-load_defaults(1)
+#   # Update the text input with the loaded default
+#   updateTextInput(session, "speaker", value = defaults$speaker)
+#   updateTextInput(session, "h1", value = defaults$h1)
+#   updateTextInput(session, "h2", value = defaults$h2)
+#   updateTextInput(session, "cast", value = defaults$cast)
+#   
+# })
 # Define server logic
 function(input, output, session) {
   # Reactive values to store intermediate states
+  copyrighted<-TRUE
+  copyvc<-!copyrighted
   rv <- reactiveValues(
     t1 = "input docname...",
     repl = NULL,
@@ -55,17 +58,48 @@ function(input, output, session) {
     subtitle = NULL,
     author = NULL,
     h1.set = FALSE,
-    ezd = "no text processed"
+    ezd = "no text processed",
+    copyrighted = TRUE,
+    copyvc = copyvc,
+    xmlout = "you have not yet created an xml file or it is copyrighted"
   )
   metadf<-fromJSON("repldf.json",flatten = T)
   repldf<-metadf$repl
   rv$repl<-repldf
   
   
-
+  observe({
+    # Load default speaker names from database
+    #sp_default <- load_default_speakers()
+    defaults<-load_defaults(1)
+    # Update the text input with the loaded default
+    updateTextInput(session, "speaker", value = defaults$speaker)
+    updateTextInput(session, "h1", value = defaults$h1)
+    updateTextInput(session, "h2", value = defaults$h2)
+    updateTextInput(session, "cast", value = defaults$cast)
+    
+  })
+  
   #ui <- fluidPage(
    # titlePanel("Dataframe Dropdown with Save Functionality"),
-    
+  observe({
+    updatePickerInput(
+     # copyvc<-!rv$copyrighted
+      
+      session,
+      "copy",
+      choices = c(rv$copyrighted,rv$copyvc)
+    )
+  }) 
+  observeEvent(input$copy, {
+    rv$copyrighted<-input$copy
+    print(rv$copyrighted)
+    copyrighted<-rv$copyrighted
+    print(copyrighted)
+    copyvc<-ifelse(copyrighted,FALSE,TRUE)
+    print(copyvc)
+    rv$copyvc<-copyvc
+  })
     # Update dropdown choices when dataframe changes
     observe({
       updatePickerInput(
@@ -91,7 +125,7 @@ function(input, output, session) {
     observeEvent(input$save_btn, {
       req(input$id_select, input$id_select != "new")
       print("saving...")
-      row_to_save<-c(input$id_select,input$h1,input$h2,input$speaker,input$cast,input$author,input$title,input$subtitle)
+      row_to_save<-c(input$id_select,input$h1,input$h2,input$speaker,input$cast,input$author,input$title,input$subtitle,input$copy)
       print(row_to_save)
       print(rv$df$id)
       print(rv$df)
@@ -125,6 +159,7 @@ function(input, output, session) {
       updateTextInput(session, "h1", value = rv$df[id,"h1"])
       updateTextInput(session, "h2", value = rv$df[id,"h2"])
       updateTextInput(session, "cast", value = rv$df[id,"cast"])
+      updateTextInput(session, "copy", value = rv$df[id,"copyrighted"])
       rv$sp.sf<-rv$df[id,"speaker"]
       rv$h1.sf<-rv$df[id,"h1"]
       rv$h2.sf<-rv$df[id,"h2"]
@@ -132,6 +167,7 @@ function(input, output, session) {
       rv$author<-rv$df[id,"author"]
       rv$title<-rv$df[id,"title"]
       rv$subtitle<-rv$df[id,"subtitle"]
+      rv$copyrighted<-rv$df[id,"copyrighted"]
       print(rv$df)
       showNotification("Data loaded successfully!", type = "message")
       
@@ -154,8 +190,12 @@ function(input, output, session) {
       new_row <- c(id=new_id,h1 = input$h1,h2 = input$h2,speaker = input$speaker,cast = input$cast,
                    author = input$author,title = input$title,subtitle = input$subtitle)
       new_row <- c(id=new_id,h1 = NA,h2 = NA,speaker = NA,cast = NA,
-                   author = NA,title = NA,subtitle = NA)
+                   author = NA,title = NA,subtitle = NA,copyrighted=TRUE)
       print(new_row)
+      ldf<-length(rv$df)
+      ln<-length(new_row)
+      if(ln>ldf)
+        rv$df<-cbind(rv$df,copyrighted=new_row[length(new_row)])
       rv$df <- rbind(rv$df, new_row)
       print("rbind done")
       # Update selection to the new ID
@@ -452,7 +492,7 @@ function(input, output, session) {
       rv$h1.set<-TRUE
       rv$ezd<-rv$t2
     }
-    writeLines(rv$t2,"www/ezdmarkup.txt")
+   # writeLines(rv$t2,"www/ezdmarkup.txt")
     # Update the UI with the processed act headers
    # output$proutput <- renderText(paste("level 1/2 headers found:\n",paste(rv$heads, collapse = "\n"),collapse = "\n"))
     #output$proutput<-renderDT(rv$heads)
@@ -519,7 +559,7 @@ function(input, output, session) {
    # t3<-get.front(t3)
     rv$t3<-t3
     rv$ezd<-t3
-    writeLines(rv$t3,"www/ezdmarkup.txt")
+   # writeLines(rv$t3,"www/ezdmarkup.txt")
     
     output$processed <- renderUI({
       div(
