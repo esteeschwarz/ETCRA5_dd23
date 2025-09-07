@@ -46,11 +46,11 @@ En gammel Skomager.
 En ung Mand. Hans Søn.
 
 En Armenier.
-                     Handlingen foregaar i Schweiz.
+                     $Handlingen foregaar i Schweiz.
                                FØRSTE AKT
 
 
-   En lys Villagaard i sydlig Stil. I Baggrunden ser man igennem en
+   (En lys Villagaard i sydlig Stil. I Baggrunden ser man igennem en
    Porthvælving ud i Haven. Over Porten og langs venstre Mur løber
    et Galleri baaret af Søjler. Herfra fører Døre ind til Værelserne
    i anden Etage. Til Galleriet kommer man ad en bred stejl Trappe
@@ -64,7 +64,7 @@ En Armenier.
    sig over Huset og høje Bjerge ses. Chauffeuren (i Skjorteærmer)
    er ifærd med at vande Blomsterne. Den gamle Tjener Raum sidder
    ved den forreste, aabenstaaende Dør tilvenstre. En Pige kommer
-                               fra Højre.
+                               fra Højre.)
 
                                  PIGEN
 
