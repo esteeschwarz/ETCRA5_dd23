@@ -346,9 +346,9 @@ clean.t<-function(t,r,repldf){
 transform.ezd<-function(ezd,output_file){
   #ezdtemp<-tempfile("ezd.txt")
   #writeLines(ezd,ezdtemp)
-  xmlout<-tempfile("xmlout.xml")
+  #xmlout<-tempfile("xmlout.xml")
   #xmlout<-"r-tempxmlout.xml"
-  #xmlout<-output_file
+  xmlout<-output_file
   #writeLines(ezd,"ezdmarkup.txt")
   parse_drama_text(ezd,xmlout)
   return(readLines(xmlout))
@@ -358,6 +358,9 @@ headx.1<-"Aufzug"
 headx.2<-"Auftritt"
 #t1<-t3
 metadf<-read.csv("lx/metadf-mlx.csv")
+
+
+
 get.heads.2<-function(t1,h1.all,h2.all,numer.all){
 m1<-grep(h1.all,t1)
 m2<-grep(h2.all,t1)
@@ -371,11 +374,16 @@ h3<-t1[m3][m1x]
 htemp<-tempfile("heads.txt")
 t2<-t1
 t2[m3][m1x]<-paste0("%#% ",t2[m3][m1x])
-t2[m3][m1x]<-gsub(", ","\n%##% ",t2[m3][m1x])
+t2[m3][m1x]<-gsub(", ","\n%##% ",t2[m3][m1x]) # seperate ACT from scene declaration
 writeLines(t2,htemp)
 t2<-readLines(htemp)
 #t2[m3][m1x]
 m4<-grep("%#+%",t2)
+m5<-grep("%#%",t2)
+m6<-duplicated(t2[m5])
+print("remove duplicated acts...")
+print(m6)
+t2[m5][m6]<-""
 vario<-t2[m4]
 vario
 vario<-gsub("%","",vario)
@@ -435,7 +443,13 @@ get.heads.s<-function(t1,headx.1="(Akt|Act|Handlung)",headx.2="(Szene|Scene)"){
   t1
   t2<-t1
  # t2[m1]<-paste0("# ",t2[m1])
+  ### 15372.NOTE: the shakespeare-ingentingen contains AKT definitions at each scene, so the <div> element is always created anew. this maybe okay for the library and of editorial perspective, but for the dracor scheme its not a way since it messes up the network and speech distribution.
+  
   t2[m1]<-paste0("# ",t2[m1],"%hnl%")
+  m3<-duplicated(t2[m1])
+  print("duplicated act") ### > is never run
+  print(m3)
+  t2[m1][m3]<-"" # duplicated ACT definitions are deleted
   m2<-grep(regx.2,t1)
   #t2<-t1
 #  t2[m2]<-paste0("## ",t2[m2])
@@ -575,22 +589,29 @@ get.speakers<-function(t1,sp){
   sp2<-paste0(sp01,".")
   print(sp1)
   #regx<-paste0("^.+?",sp1,"\\.")
-  regx1<-paste0("^",sp1,"\\.$")
+  regx1<-paste0("^",sp1,"\\.?$")
   regx2<-paste0("^(",sp1,"\\.?)( .+)?$")
   print(regx2)
   m<-grep(regx1,t1)
+  
   print(length(m))
+  cat("\rm1",m)
 #  parts<-str_match(t1[m],regx)
   #spk<-parts[1]
   #print(spk)
   t2<-t1
   m2<-grep(regx2,t1)
+  cat("\rm2:",m2)
   ### 15371.critical### TO FIX !!!!########
-  t2[m2]<-gsub(regx2,"\\2%spknl%\\3",t2[m])
+  t2[m2]<-gsub(regx2,"@\\2%spknl%\\\n\\3",t2[m2]) # this wks in editor
   print(m2)
   #########################################
   t2
   sp2
+  regx1<-paste0("^",sp1,"(\\.|:)?$")
+  
+  m<-grep(regx1,t2)
+  
   crit<-t2[m]%in%sp2 # if {speaker}. appears in text
   print(crit)
   crit.sp<-t2[m][!crit]

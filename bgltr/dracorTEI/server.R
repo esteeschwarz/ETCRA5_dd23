@@ -345,7 +345,8 @@ function(input, output, session) {
     # if(typeof(replchk)!="character"){
     repldf<-res$result
     output$proutput<- renderText("replacements loaded...")
-      
+    showNotification("replacements loaded...", type = "message")
+    
     repldf$replace<-gsub("\\\\n","\\\\\n",repldf$replace)
     # repldf$replace<-gsub("[\\\\]([1-9])","\\\\\\\\\1",repldf$replace)
     repldf$replace<-gsub("[\\]([1-9])","\\\\1",repldf$replace)
@@ -398,6 +399,8 @@ function(input, output, session) {
   # mode(repl1$string1)<-"character"
   # mode(repl1$string2)<-"character"
   observeEvent(input$upload_tr,{
+    showNotification("processing transcript...", type = "message")
+    
     output$proutput <- renderText("processing...\n")
     file<-input$upload_tr
     # ext<-tools::file_ext(file$datapath)
@@ -417,6 +420,8 @@ function(input, output, session) {
                  paste(rv$t1, collapse = "\n"))
       )
     })
+    showNotification("transcript loaded...", type = "message")
+    
     output$proutput <- renderText("transcript fetched...\n")
   })
   observeEvent(input$upload_ezd,{
@@ -439,10 +444,14 @@ function(input, output, session) {
                  paste(rv$t3, collapse = "\n"))
       )
     })
+    showNotification("ezd markup transcript loaded...", type = "message")
+    
     output$proutput <- renderText("markup transcript uploaded\n")
   })
   # Observe the submit button for fetching the transcript
   observeEvent(input$submit.doc, {
+    showNotification("fetching transcript from transkribus DB...", type = "message")
+    
     output$apidoc <- renderUI({ div(tags$pre("Processing...")) })  # Show a loading message
     output$proutput <- renderText("processing...\n")
     
@@ -466,13 +475,16 @@ function(input, output, session) {
                  paste(rv$t1, collapse = "\n"))
       )
     })
-    output$proutput <- renderText("transcript fetched...\n")
+    showNotification("transcript fetched...", type = "message")
+    
+#    output$proutput <- renderText("transcript fetched...\n")
     
   })
   
   # Observe the submit button for processing act headers
   observeEvent(input$submit.h, {
-    output$proutput <- renderText("processing headers...\n")
+    showNotification("processing headers...", type = "message")
+#    output$proutput <- renderText("processing headers...\n")
     
     vario.1 <- input$h1
     vario.2<-input$h2
@@ -510,12 +522,15 @@ function(input, output, session) {
                  paste(rv$heads, collapse = "\n"))
       )
     })
+    showNotification("headers processed...", type = "message")
+    
     # output$pr_progress<-renderDT(
     #   iris
     #   )
   })
   observeEvent(input$guess.sp, {
     print("guess speakers")
+    showNotification("guessing speakers...", type = "message")
     
     sp.guess<-guess_speaker(rv$t2,input$cast)
     rv$sp.guess<-sp.guess
@@ -526,6 +541,7 @@ function(input, output, session) {
     observeEvent(input$submit.sp, {
     vario <- input$speaker
     req(rv$h1.set)
+    showNotification("processing speakers...", type = "message")
     
     print("getting speaker")
     #t <- get.speakers(t3, vario)  # Use the transcript stored in reactiveValues
@@ -576,26 +592,30 @@ function(input, output, session) {
                        "\ncritical lines:\n",paste(rv$speaker.crit,collapse = "\n")))
       )
     })
+    showNotification("speaker processed...", type = "message")
     
     # output$proutput<- renderText(paste("SPEAKERS found:\n",paste(rv$speaker,collapse = "\n"),
     #                                    "\ncritical lines:\n",paste(rv$speaker.crit,collapse = "\n")))
   })
   observeEvent(input$submit.xml, {
-    output$proutput <- renderText("processing ezd > TEI...\n")
+#    output$proutput <- renderText("processing ezd > TEI...\n")
+    showNotification("transform ezd > TEI...", type = "message")
     
     xml.t<-transform.ezd(rv$t3,output_file)
     xml.test<-c("<p>testxmlrender</p>","<h1>head1</h1><p><stage>stages</stage>paragraph</p>")
    # xml.test<-list.files(".")
-#    xml.str<-paste0("<div>",paste0(xml.t),"</div>")
-    xml.str<-paste0(xml.t,collapse = "")
+  # xml.str<-paste0("<div>",paste0(xml.test),"</div>")
+     xml.str<-paste0(xml.t,collapse = "")
     #print("----- xmlstr ------")
    # print(xml.str)
-    b64 <- jsonlite::base64_enc(charToRaw(xml.str))
+   b64 <- jsonlite::base64_enc(charToRaw(xml.str))
+    rv$xmlout<-b64
     
   #  valid<-validate_tei(output_file,"dracor-scheme.rng") # not on M7, cant install jing
     #t2<-xml.t
    # print(valid$ok)
-    output$proutput <- renderText("ezd > TEI processed...\n")
+#    output$proutput <- renderText("ezd > TEI processed...\n")
+    showNotification("TEI process finished...", type = "message")
     
     output$processed <- renderUI({
       div(
@@ -608,9 +628,12 @@ function(input, output, session) {
    # div(id="xml",
      # style="width:100%; height:100%;",
       tags$iframe(
-#        src = paste0("data:application/xml;base64,", b64),
+       src = paste0("data:application/xml;base64,", rv$xmlout),
+       # src = paste0("data:text/html,", rv$xmlout),
+       
        # src = "r-tempxmlout.xml",
-        src = output_file_s_www,
+        # src = output_file_s_www, # this wks.
+        # src = output_file,
         style="width:100%; height:100vH; border:none;"
       )
     })

@@ -63,3 +63,7 @@ Q3: (color) <https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN64252
 #### 15236.
 karl theodor breithaupt, der renegat: <https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10117030-0>
 - transkribus ocr, wr diarium
+
+#### technotes
+xmlout tei.css: https://ada-sub.dh-index.org/shiny/work/essais/dracorTEI/tei.css
+https://raw.githubusercontent.com/esteeschwarz/dracorTEI/main/www/tei.css
