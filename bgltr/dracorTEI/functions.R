@@ -499,15 +499,18 @@ get.heads.s<-function(t1,headx.1="(Akt|Act|Handlung)",headx.2="(Szene|Scene)"){
  # t2[m1]<-paste0("# ",t2[m1])
   ### 15372.NOTE: the shakespeare-ingentingen contains AKT definitions at each scene, so the <div> element is always created anew. this maybe okay for the library and of editorial perspective, but for the dracor scheme its not a way since it messes up the network and speech distribution.
   
-  #t2[m1]<-paste0("# ",t2[m1],"%hnl%") #out
+  #########################################################
+  t2[m1]<-paste0("# ",t2[m1],"%hnl%") #out
 #  ^([ \t]{0,})?(",numer.all,").+?(",h1.all,")\\.?(.+)?$
-  t2[m1]<-gsub(regx.1,"# \\2 \\3%hnl%\\4",t2[m1],perl = T)
+  # t2[m1]<-gsub(regx.1,"# \\2 \\3%hnl%\\4",t2[m1],perl = T) #in
   m2<-grep(regx.2,t1)
   #t2<-t1
 #  t2[m2]<-paste0("## ",t2[m2])
-  #t2[m2]<-paste0("## ",t2[m2],"%hnl%") #out
-  t2[m2]<-gsub(regx.2,"## \\2 \\3%hnl%\\4",t2[m2],perl = T)
-  
+  m3<-m2%in%m1
+  #if (m2!=m1)
+    t2[m2][!m3]<-paste0("## ",t2[m2],"%hnl%") #out
+  # t2[m2]<-gsub(regx.2,"## \\2 \\3%hnl%\\4",t2[m2],perl = T) #in
+  #########################################################
   vario<-c(t2[m1],t2[m2])
   h1<-t2[m1]
   h2<-t2[m2]  
