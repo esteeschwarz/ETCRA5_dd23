@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="insertID" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">STOR STÅHEJ FOR INGENTING</title>
+        <title type="sub"/>
+        <author>WILLIAM SHAKESPEARE</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>ENTER SOURCE NAME HERE</name>
+          <idno type="URL">ENTER SOURCE URL HERE</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson/>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>ROLLELISTE</head>
+        <castItem>DON PEDRO, fyrste af Aragonien</castItem>
+        <castItem>DON JUAN, uægte bror til don Pedro</castItem>
+        <castItem>CLAUDIO, greve fra Firenze</castItem>
+        <castItem>BENEDIKT, adelsmand fra Padua</castItem>
+        <castItem>Morten Hauch-Fausbøll</castItem>
+        <castItem>Peter Jorde</castItem>
+        <castItem>Johannes Lilleøre</castItem>
+        <castItem>Lars Mikkelsen</castItem>
+        <castItem>LEONATO, Messinas guvernør</castItem>
+        <castItem>ANTONIO, Leonatos bror</castItem>
+        <castItem>Hans Henrik Voetmann</castItem>
+        <castItem>Christoffer Bro</castItem>
+        <castItem>CONRAD/BORACHIO, don Juans følgesvend</castItem>
+        <castItem>BRODER FRANCISCUS</castItem>
+        <castItem>HØNSEBÆR, vagtmester</castItem>
+        <castItem>SURSAFT, underfoged</castItem>
+        <castItem>EN GRAVER</castItem>
+        <castItem>Benjamin Boe Rasmussen</castItem>
+        <castItem>Benjamin Boe Rasmussen</castItem>
+        <castItem>Lane Lind</castItem>
+        <castItem>Steen Stig Lommer * / Klaus Bondam **</castItem>
+        <castItem>Linnea Voss ***</castItem>
+        <castItem>EN BUDBRINGER</castItem>
+        <castItem>HERO, Leonatos datter</castItem>
+        <castItem>BEATRICE, Leonatos niece</castItem>
+        <castItem>Steen Stig Lommer * / Klaus Bondam **</castItem>
+        <castItem>Maria Rossing</castItem>
+        <castItem>Tammi Øst</castItem>
+        <castItem>MARGARETA, kammerfrøken i Leonatos hus</castItem>
+        <castItem>URSULA, kammerfrøken i Leonatos hus</castItem>
+        <castItem>Christiane Gjellerup Koch</castItem>
+        <castItem>Linnea Voss ***</castItem>
+        <castItem>BUDBRINGERE, MUSIKANTER, SANGERE, VÆGTERE OG ANDRE LEDSAGENDE</castItem>
+        <castItem>PERSONER.</castItem>
+      </castList>
+      <p>«177 DET KGL. BIBLIOTEK Royal Danish Library Digitaliseret af Digitised by DK Dette manuskript er ophavsretligt beskyttet, og må kun benyttes til personlig brug. Du må dog også bruge manuskriptet i forbindelse med optagelsesprøve på de danske teaterskoler. Hvis du vil opføre manuskriptet, skal du have samtykke fra rettighedshaveren. Du kan i den forbindelse kontakte fagorganisationen Danske Dramatikere. Husk altid at kreditere ophavsmanden. Manuskriptkopien må ikke anvendes til opførelse og må ikke videre distribueres. UK This manuscript is copyright protected and is only for personal use. However, you may also use the manuscript in connection with the entrance exam at the Danish theatre schools. If you want to perform the manuscript, you must have the consent of the copyright holder. In that regard, you can contact the Danish Writers Guild. Always remember to credit the author. The manuscript may not be used for public performance and may not be distributed. i DRAlæs-A372 Dramat Bibi. DET KONGELIGE BIBLIOTEK DRAMATISK BIBLIOTEK POSTBOKS 2149 1016 KØBENHAVN K DANMARK 1 GRØNNEGÅRDS TEATRET SOMMEREN 2003 WILLIAM SHAKESPEARE STOR STÅHEJ FOR INGENTING FORPREMIERER : 24. - 27. JUNI 2003 PREMIERE : 28. JUNI 2003 HEREFTER MANDAG - LØRDAG KL. 19.30 T.O.M. 23. AUGUST 2003 DET KONGELIGE BIBLIOTEK 130016273962 POSTBOKS 2149 1016 København k DANMARK 3</p>
+    </front>
+    <body/>
+  </text>
+</TEI>
