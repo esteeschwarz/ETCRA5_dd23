@@ -2,6 +2,7 @@ library(R.utils)
 library(fuzzyjoin)
 library(stringi)
 #library(Hmisc)
+is.system<-Sys.getenv("SYS")
 get.str.dist<-function(t1,sp.cast,sp.guess){
  # sp1<-c("Billing","Katrine Stockmann","dummyNO")
   sp1<-unique(unlist(strsplit(sp.cast," ")))
@@ -758,11 +759,12 @@ get.speakers<-function(t1,sp,rswitch=F,copyrighted){
   t2<-gsub("^[ \t]{1,}","",t2)
  # t2<-gsub("(\\([^)]+?[^)](?=[@%$#]))","\\1)")
   #return(t1)
+  # print(copyrighted)
+  # mode(copyrighted)<-"logical"
+  # print(mode(copyrighted))
   print(copyrighted)
-  mode(copyrighted)<-"logical"
-  print(mode(copyrighted))
   print("get.speakers() finished...")
-  if(!copyrighted)
+  if(is.local=="lapsi")
     writeLines(t2,paste0(Sys.getenv("GIT_TOP"),"/test/temp/ezdmarkup.txt"))
   return(list(vario=t1[m][crit],text=t2,eval=crit.sp))
   
