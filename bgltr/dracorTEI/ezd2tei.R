@@ -183,7 +183,7 @@ parse_drama_text <- function(input_tx, output_file,meta) {
       line.true<-"personal"
       write(castlist.t,"debug.txt",append = T)
       xml_text(xml_doc$castList)
-      write_xml(xml_doc$doc,"cstest.xml")
+     # write_xml(xml_doc$doc,"cstest.xml")
     }
     
     if(str_detect(line,"^@title",)){
