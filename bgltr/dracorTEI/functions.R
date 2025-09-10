@@ -399,6 +399,7 @@ clean.t<-function(t,range,repldf,h1.first){
   print(mh1)
   r<-1:mh1
   ma<-grep("^@",t3[r])
+  
   mb<-grep("author|front|title|subtitle",t3[ma])
   mc<-ma[mb]
   
@@ -409,6 +410,11 @@ clean.t<-function(t,range,repldf,h1.first){
   if(length(r)>0)
     t3[r]<-gsub("^@[ ]{0,}","",t3[r])
   }
+  t3<-gsub("^@[ \t]{0,}","@",t3)
+  t3<-gsub("^#[ \t]{0,}","#",t3)
+  t3<-gsub("^\\$[ \t]{0,}","$",t3)
+  t3<-gsub("^\\^[ \t]{0,}","^",t3)
+  
   return(t3)
 }
 transform.ezd<-function(ezd,output_file,meta,h1.first){

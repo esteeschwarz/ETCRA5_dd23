@@ -156,7 +156,7 @@ parse_drama_text <- function(input_tx, output_file,meta,h1.first) {
     if(line=="")
       break
     
-    write(k,"debug.txt",append = T)
+    # write(k,"debug.txt",append = T)
     if(str_detect(line,"\\^",)){
       parts<-str_match(line,"\\^(.*)")
       write(parts,"debug.txt",append = T)
@@ -308,11 +308,11 @@ parse_drama_text <- function(input_tx, output_file,meta,h1.first) {
       if (!is.null(current_scene)) {
         sp <- xml_add_child(current_scene, "sp", who = paste0("#", speaker.id))
         xml_add_child(sp, "speaker", speaker)
-        write(speaker.id,"debug.txt",append = T)
+        # write(speaker.id,"debug.txt",append = T)
         
        # p <- xml_add_child(sp, "p") #### this critical
         #xml_text(p) <- text
-        write("<p>","debug.txt",append = T)
+        # write("<p>","debug.txt",append = T)
         
       }
     } 
@@ -321,11 +321,11 @@ parse_drama_text <- function(input_tx, output_file,meta,h1.first) {
     # 2. Didascalies de bloc ($)
     print("check single stage")
     #print(k)
-    write("single<stage>","debug.txt",append = T)
-    write(k,"debug.txt",append = T)
-    write(line,"debug.txt",append = T)
+    # write("single<stage>","debug.txt",append = T)
+    # write(k,"debug.txt",append = T)
+    # write(line,"debug.txt",append = T)
     cat(k,line,"@325\n")
-    if(!is.na(line)){
+    # if(!is.na(line)){
     if (str_detect(line, "^\\$")) {
       print("single stage detected")
       stage_content <- gsub("[$]","",str_trim(str_sub(line, 2)))
@@ -338,26 +338,26 @@ parse_drama_text <- function(input_tx, output_file,meta,h1.first) {
       text<-""
       line.true<-"stage"
     }
-      if (str_detect(line, "^\\(")) {
-        #line<-"(stage) ...continue."
-        print("starting stage detected")
-        print(k)
-        parts <- str_match(line, "^[ ]{0,}\\((.+)\\)(.+)") #wks. wt transkribus
-        parts
-        stage_content <- parts[2]
-        text<-parts[3]
-        if (!is.null(current_scene)) {
-          print("current scene not NULL")
-          xml_add_child(current_scene, "stage", stage_content)
-          write("<stage>","debug.txt",append = T)
-          
-        }
-        #text<-""
-        #line<-text #critical
-        
-        line.true<-"stage"
-      }
-    }
+      #  if (str_detect(line, "^\\(")) {
+      #   #line<-"(stage) ...continue."
+      #   print("starting stage detected")
+      #   print(k)
+      #   parts <- str_match(line, "^[ ]{0,}\\((.+)\\)(.+)") #wks. wt transkribus
+      #   parts
+      #   stage_content <- parts[2]
+      #   text<-parts[3]
+      #   if (!is.null(current_scene)) {
+      #     print("current scene not NULL")
+      #     xml_add_child(current_scene, "stage", stage_content)
+      #     write("<stage>","debug.txt",append = T)
+      #     
+      #   }
+      #   #text<-""
+      #   #line<-text #critical
+      #   
+      #   line.true<-"stage"
+      # }
+    # }
     # if(is.na(line))
     #   break
     # 3. Actes (#)
@@ -400,7 +400,7 @@ parse_drama_text <- function(input_tx, output_file,meta,h1.first) {
         # <pb n="11">[11]</pb>
         #        p <- xml_add_child(current_scene, "p")
         p <- xml_add_child(sp, "p")
-        write(processed,"debug.txt",append = T)
+        # write(processed,"debug.txt",append = T)
         
         xml_text(p) <- processed
         line.true<-"p"
@@ -417,7 +417,7 @@ parse_drama_text <- function(input_tx, output_file,meta,h1.first) {
     person<-xml_add_child(xml_doc$listPerson,"person",sex="TODO",`xml:id`=speaker.ids[sp])
     xml_add_child(person,"persName",speaker.a[sp])
   }
-  write(speaker.a,"debug.txt",append = T)
+  # write(speaker.a,"debug.txt",append = T)
   #xmltemp_pb<-tempfile("temppb.xml")
   xmltemp<-tempfile("temp.xml")
   
