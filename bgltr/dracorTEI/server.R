@@ -680,8 +680,9 @@ function(input, output, session) {
     req(rv$xmlprocessed,rv$xmlprocessed==TRUE)
     ifelse(rv$t1=="%ezd%",text1<-rv$t3,
            text1 <- rv$t1)
-   print(text1)
-   
+   #print(text1)
+    text1<-gsub("^[ ]{1,}","",text1)
+    text1<-text1[text1!=""]
     #text2 <- paste0(rv$t3,collapse = "<nl>")
    doc<-read_xml(output_file)
    texts <- xml_text(xml_find_all(doc, "//text()"))

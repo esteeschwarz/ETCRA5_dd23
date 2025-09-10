@@ -1,0 +1,8 @@
+Welcome to our application
+This is important content\nPlease read carefully
+Version 1.0
+
+Key features:
+- Fast processing
+- Accurate results
+- Easy to use

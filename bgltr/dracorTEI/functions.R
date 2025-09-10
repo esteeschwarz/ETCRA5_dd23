@@ -509,16 +509,19 @@ get.heads.s<-function(t1,headx.1="(Akt|Act|Handlung)",headx.2="(Szene|Scene)"){
 # global from metadf
   # imp: ^[^a-zA-Z][ \t]{1,}?F.RSTE.+(AKT)\.?$
   regx.1<-paste0("^[ \t]{0,}?(",numer.all,").+(",h1.all,")\\.?$")
-  regx.1<-paste0("^([ \t]{0,})?(",numer.all,").+?(",h1.all,")\\.?(.+)?$")
-  
+  regx.1<-paste0("^([ \t]{0,}[^#] ?)?(",numer.all,").+?(",h1.all,")\\.?(.+)?$")
+  regx.1<-paste0("^([ \t]{0,}#?)?((",numer.all,").+?(",h1.all,")\\.?(.+)?)$")
+
   print(regx.1)
   regx.2<-paste0("^.+?",numer,".+(",headx.2,")\\.")
   regx.2<-paste0("^+?",numer,".+(",headx.2,")\\.")
   regx.2<-paste0("^[ \t]{1,}?(",numer.all,").+(",h2.all,")\\.?$")
   regx.2<-paste0("^([ \t]{1,})?(",numer.all,").+?(",h2.all,")\\.?(.+)?$")
+  regx.2<-paste0("^([ \t]{0,}#?)?((",numer.all,").+?(",h2.all,")\\.?(.+)?)$")
   #print(regx.2)
   #m1<-grep("1\\. AKT",t1)
   m1<-grep(regx.1,t1,perl = T)
+  #parts[223,]
   ifelse(length(m1)==0,return(get.heads.2(t1,h1.all,h2.all,numer.all)),print("heads found with M1"))
   print("should not print after heads with M1")
   t1[1:50]
@@ -527,20 +530,42 @@ get.heads.s<-function(t1,headx.1="(Akt|Act|Handlung)",headx.2="(Szene|Scene)"){
   ### 15372.NOTE: the shakespeare-ingentingen contains AKT definitions at each scene, so the <div> element is always created anew. this maybe okay for the library and of editorial perspective, but for the dracor scheme its not a way since it messes up the network and speech distribution.
   
   #########################################################
-  t2[m1]<-paste0("# ",t2[m1],"%hnl%") #out
+  ### chk if already marked up
+  # m12<-grepl("^#",t2[m1])
+  # m1<-m1[!m12]
+  parts<-str_match(t1,regx.1)
+  mna<-is.na(parts[,1])
+  parts[!mna,3]
+  t2[which(!mna)]
+  h1<-parts[!mna,3]
+#  h2<-t2[m2]  
+  
+  t2[which(!mna)]<-paste0("#",parts[!mna,3]) #15375.marked up header issue
+ # t2[m1]<-paste0("# ",t2[m1],"%hnl%") #out
 #  ^([ \t]{0,})?(",numer.all,").+?(",h1.all,")\\.?(.+)?$
   # t2[m1]<-gsub(regx.1,"# \\2 \\3%hnl%\\4",t2[m1],perl = T) #in
-  m2<-grep(regx.2,t1)
+  m2<-grep(regx.2,t2)
+  t2[m2]
+  parts<-str_match(t2,regx.2)
+  mna<-is.na(parts[,1])
+  parts[!mna,3]
+  h2<-parts[!mna,3]
+  wma<-which(!mna)
+  t2[wma]
+  wma
+  m22<-grepl("^#",t2[wma])
+  wma<-wma[!m22]
   #t2<-t1
 #  t2[m2]<-paste0("## ",t2[m2])
   m3<-m2%in%m1
   #if (m2!=m1)
-    t2[m2][!m3]<-paste0("## ",t2[m2],"%hnl%") #out
+  t2[wma]<-paste0("##",parts[wma,3]) #15375.marked up header issue
+#    t2[m2][!m3]<-paste0("## ",t2[m2][!m3],"%hnl%") #out
   # t2[m2]<-gsub(regx.2,"## \\2 \\3%hnl%\\4",t2[m2],perl = T) #in
   #########################################################
-  vario<-c(t2[m1],t2[m2])
-  h1<-t2[m1]
-  h2<-t2[m2]  
+  vario<-c(h1,h2)
+  # h1<-t2[m1]
+  # h2<-t2[m2]  
   m3<-duplicated(t2[m1])
   print("duplicated act") ### > is never run
   print(m3)
