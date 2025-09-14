@@ -238,16 +238,28 @@ parse_drama_text <- function(input_tx, output_file,meta,h1.first) {
         print(line)
       }
       line
-      
-      p4<-parts[4]
+      print(parts)
+      parts<-unlist(parts)
+      parts<-parts[!is.na(parts)]
+      parts<-gsub("@front[.:]{0,}","",parts)
+      parts<-unique(parts)
+      p4<-parts[1]
       n<-unlist(strsplit(parts[2],"-"))
       p1<-
         n<-n[n!=""]
-      r<-k:length(lines)
-      m<-str_detect(lines[r],"[\\^$#]",)
+      l.next<-k+1
+      r<-l.next:length(lines)
+#      m<-str_detect(lines[r],"[\\^$#@]",)
+      m<-grepl("[$#@^]",lines[r])
       mw<-which(m)
-      lines[k:(r[mw[1]-1])]
-      mw<-k:(r[mw[1]-1])
+      cat("lines from",l.next,"til mark:",mw,"\n")
+      r1<-r[mw][1]
+      print(r1)
+      ifelse(r1>l.next,msg<-paste0("front following lines:",r1),msg<-"no lines til next markup")
+      print(msg)
+
+      lines[l.next:(r1)]
+      ifelse(r1>l.next,mw<-l.next:(r[mw[1]-1]),mw<-k)
       #      mw<-(k+1):r[mw]
       lines[mw]
       front.r<-mw
