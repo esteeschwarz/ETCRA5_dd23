@@ -1217,3 +1217,39 @@ get.speakers<-function(t1,sp,rswitch=F,copyrighted){
   return(list(vario=t1[m][crit],text=t2,eval=crit.sp))
   
 }
+push.dracor<-function(target,xml,corpusname,playname){
+  
+  #target<-"mini12"
+  #target<-"localhost"
+  apibase<- paste0("http://",target,":8088/api/v1/")
+  #apibase<- "http://localhost:8088/api/v1/"
+  
+  # endpoint<-"info"
+  # request_url <- paste0(apibase,endpoint)
+  # r<-httr::GET(request_url)
+  # t<-content(r,"text")
+  # t
+  #wks.
+  ###############
+  method<-"tei"
+  # corpusname="files"
+  # playname="shakepeare-ingenting"
+  username<-"admin"
+  password<-Sys.getenv("dracorpw")
+  # headers=list("Content-Type" = "application/xml")
+  # headers
+  ##############################################
+  request_url = paste0(apibase,"corpora/",corpusname,"/plays/",playname,"/tei")
+  request_url
+  #  xml.t<-readLines(paste0(Sys.getenv("GIT_TOP"),"/ulysses/work/dracor/dracortei.xml"))
+  xml.t<-paste0(xml,collapse = "\n")
+  data <- xml.t # or JSON string
+  headers <- c("Content-Type" = "application/xml")
+  credentials <- authenticate("admin", "")
+  
+  if (!is.null(data) && !is.null(headers) && !is.null(credentials)) {
+    response <- PUT(request_url, body = data, add_headers(.headers = headers), credentials)
+    cat(sprintf("Executed PUT request. Server returned status code: %d\n", status_code(response)))
+    r<-return(status_code(response))
+  }
+}

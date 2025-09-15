@@ -7,6 +7,7 @@ library(diffr)
 #library(xml2)
 #library(dplyr)
 library(shinycssloaders)
+#library(shinyjs)
 #library(DT)
 #library(tools)
 # takes 9.40min to install packages on silver
@@ -650,7 +651,9 @@ function(input, output, session) {
   # })
     xml.f<-transform.ezd(rv$t3,output_file,meta,h1.first)
     xml.t<-xml.f$xml
-    writeLines(xml.t,paste0(output_dracor,"/dracortei.xml"))
+    push.dracor("localhost",xml.t,"files","preview")
+    
+   # writeLines(xml.t,paste0(output_dracor,"/dracortei.xml"))
     xml.test<-c("<p>testxmlrender</p>","<h1>head1</h1><p><stage>stages</stage>paragraph</p>")
    # xml.test<-list.files(".")
   # xml.str<-paste0("<div>",paste0(xml.test),"</div>")
@@ -769,4 +772,69 @@ function(input, output, session) {
       "Output will appear here after processing."
     )
   })
+  # output$framePreview <- renderUI({
+  #   tags$iframe(
+  #     src = "http://localhost:8088/files/preview",
+  #     style = "width: 100%; height: 300px; border: 1px solid #ddd;"
+  #   )
+  # })
+  observeEvent(input$tabset, {
+    if (input$tabset == "dracor_preview") {
+     
+      shinyjs::addClass("iframe-navbar","showing")
+      #shinyjs::toggle("iframe-navbar")
+      # Insert the fullscreen iframe
+      insertUI(
+        selector = "body",
+        where = "beforeEnd",
+        ui = tags$iframe(
+          id = "fullscreen-iframe",
+          class = "fullscreen-iframe",
+          src = "http://localhost:8088/files/preview"
+        )
+      )
+      
+    }
+  })
+  observeEvent(input$`view-external`, {
+    # Show the iframe navbar
+    shinyjs::addClass("iframe-navbar","showing")
+    #shinyjs::toggle("iframe-navbar")
+    # Insert the fullscreen iframe
+    insertUI(
+      selector = "body",
+      where = "beforeEnd",
+      ui = tags$iframe(
+        id = "fullscreen-iframe",
+        class = "fullscreen-iframe",
+        src = "http://localhost:8088/files/preview"
+      )
+    )
+   # shinyjs::addClass("iframe-navbar","showing")
+    shinyjs::show("iframe-navbar")
+
+
+  })
+
+  # Handle return to app
+  observeEvent(input$`back-to-app`, {
+    # Remove the iframe
+    removeUI("#fullscreen-iframe")
+    
+    # Hide the navbar
+    shinyjs::hide("iframe-navbar")
+    
+   
+    # Switch back to the first tab
+   # updateTabsetPanel(session, "mainTabs", selected = "progress")
+  })
+  ### init dracor preview.xml to clean db from previous play
+  observe ({
+    xml.t<-readLines("samplepreview.xml")
+    # xml.f<-transform.ezd(rv$t3,output_file,meta,h1.first)
+    # xml.t<-xml.f$xml
+    push.dracor("localhost",xml.t,"files","preview")
+
+  })
+  
 }
