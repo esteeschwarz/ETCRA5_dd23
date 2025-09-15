@@ -21,6 +21,7 @@ output_file<-tempfile("tempxmlout.xml")
 output_file_ezd<-"www/ezdmarkup.txt"
 output_file_ezd<-tempfile("ezdmarkup.txt")
 output_file_pb<-"www/r-tempxmlout_pb.xml"
+output_dracor<-paste0(Sys.getenv("GIT_TOP"),"/ulysses/work/dracor")
 # Load defaults when app starts
 # observe({
 #   # Load default speaker names from database
@@ -649,6 +650,7 @@ function(input, output, session) {
   # })
     xml.f<-transform.ezd(rv$t3,output_file,meta,h1.first)
     xml.t<-xml.f$xml
+    writeLines(xml.t,paste0(output_dracor,"/dracortei.xml"))
     xml.test<-c("<p>testxmlrender</p>","<h1>head1</h1><p><stage>stages</stage>paragraph</p>")
    # xml.test<-list.files(".")
   # xml.str<-paste0("<div>",paste0(xml.test),"</div>")

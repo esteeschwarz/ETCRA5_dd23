@@ -905,6 +905,7 @@ get.heads.s<-function(t1,headx.1="(Akt|Act|Handlung)",headx.2="(Szene|Scene)"){
   cl1<-is.na(parts[,6]) # 6=NA&10:12=NA 
   cl2<-is.na(parts[,10])
   cl3<-10000
+  ### > this messes up the act-scene-1-line segmentation! parts[6] is not NA! 
   if(length(parts[1,])>10)
      cl3<-which(!is.na(parts[,11]))
   cl4<-is.na(parts[,8])
@@ -927,14 +928,19 @@ get.heads.s<-function(t1,headx.1="(Akt|Act|Handlung)",headx.2="(Szene|Scene)"){
   h1<-parts[mw,1]
   return(list(mw=mw,h=h1))
   }
+  ### VIP! check if now is empty!
   mw.sel<-rm.na(parts,mw)
-  mw<-mw.sel$mw
+  mw.na<-mw.sel$mw
   h1<-mw.sel$h
+  ifelse(length(mw.na)<1,mw<-mw,mw<-mw.na)
+  ifelse(length(mw.na)<1,vario<-h1,vario<-mw.sel$h)
   #mw<-mw[mw%in%m.out]
   ############################
   t2[mw]<-paste0("#",parts[mw,1]) #15375.marked up header issue
   rm(mw)
   vario<-h1
+  print("vario-h1")
+  print(vario)
  # t2[m1]<-paste0("# ",t2[m1],"%hnl%") #out
 #  ^([ \t]{0,})?(",numer.all,").+?(",h1.all,")\\.?(.+)?$
   # t2[m1]<-gsub(regx.1,"# \\2 \\3%hnl%\\4",t2[m1],perl = T) #in
@@ -944,9 +950,13 @@ get.heads.s<-function(t1,headx.1="(Akt|Act|Handlung)",headx.2="(Szene|Scene)"){
   mna<-is.na(parts2[,1])
   parts2[!mna,1]
   #parts[!mna,3:length(parts[1,])]
+  ### 15382.still multiple header issue #TODO
   mw<-which(!mna)
   h2c<-grepl("#",parts2[mw,1])
   mw<-mw[!h2c]
+  print("mw in t2 after removing # headers")
+  print(mw)
+  print(t2[mw])
   if(length(mw)>0){
     mw.sel<-rm.na(parts2,mw)
     mw<-mw.sel$mw
@@ -955,6 +965,7 @@ get.heads.s<-function(t1,headx.1="(Akt|Act|Handlung)",headx.2="(Szene|Scene)"){
     t2[mw]<-paste0("##",parts2[mw,1]) #15375.marked up header issue
     
   }
+  # this critical > mw always 0 if found # in vario!
   if(length(mw)==0){
   t.sep<-get.heads.3(t2,vario,h1.all,h2.all,numer.all)  
   vario<-t.sep$vario
