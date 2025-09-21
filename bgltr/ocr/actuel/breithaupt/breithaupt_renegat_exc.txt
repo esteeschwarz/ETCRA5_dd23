@@ -24,7 +24,7 @@ Erster Aufzug.
 Erster Auftritt.
 $Zapor, Welwood.
 Zapor. (zu Welwood, der ihm nachfolgt.)
-Schweig. Keinen Vorwurf mehr / wen
+%~Schweig. Keinen Vorwurf mehr / wen
 ich dich hören soll.
 Was will dein Ungestüm
 Welwood.
@@ -37,7 +37,7 @@ Und überfällst mich stets mit unverschämten Klagen?
 
 Der Renegat
 Welwood.
-%~So hör dies wenigstens, es ist der Klage werth=
+So hör dies wenigstens, es ist der Klage werth=
 Was ich --
 Zapor.
 Entferne dich. Jch habe gnug gehört.
@@ -269,7 +269,7 @@ Verlör ich auch den Gott, der so nur straft und dräut.
 12::
 Der Renergl.
 Welwood.
-%o~Erschrecklicher Entschluß! Um Nichts, um Kleinigkeit
+%~Erschrecklicher Entschluß! Um Nichts, um Kleinigkeit
 Verräthst du deinen Gott, und Vaterland und Vater!
 Zapor.
 Um Nichts! Jst Glück denn nichts? Bald wird Orchan
@@ -373,7 +373,7 @@ Das hier dein Herz beglückt, und künftig soll beglücken,
 Bey dem, der unseres und das Geschick der Welt,
 und in furchtbarer Hand des Lichtes Tafel hält, *
 -----
-%o~* Die meisten Mahometaner glauben / daß alle vergangene
+%~* Die meisten Mahometaner glauben / daß alle vergangene
 und zukünftige Begebenheiten / wie auch die Nahmen der
 Menschen auf einer hellen Tafel geschrieben stehen / wel=
 che sie die Lichttafel nennen / und bey ihnen so viel ist /
@@ -382,10 +382,10 @@ als das unvermeidliche Geschick.
 
 Der Renegat.
 16::
-Bey dem geweyhten Stein am Grabe des Propheten, *
+%~Bey dem geweyhten Stein am Grabe des Propheten, *
 Beschwöre dies.
 Zapor.
-%~Jch schwörs. War dieser Schwur vonnöthen?
+Jch schwörs. War dieser Schwur vonnöthen?
 Der Feind von Mahomet sey ewig auch mein Feind,
 Wer ihn verschmäht, mein Haß und wer ihn ehrt, mein Freund.
 Du, der du sonst mein Ach, itzt meinen Schwur gehöret,
@@ -406,12 +406,12 @@ Der Türk.
 Herr, alles scheint,
 Da heute sich Zapor auf ewig uns vereint,
 Auch diesen heitern Tag verherrlichen zu müssen;
-* Einer ihrer gewöhnlichsten Schwüre:
+%~* Einer ihrer gewöhnlichsten Schwüre:
 
 
 ein Trauerspiel.
 17::
-So eben hat der Sturm ein fremdes Schiff zerrissen.
+%~So eben hat der Sturm ein fremdes Schiff zerrissen.
 Ohnmächtig rangen sie bereits mit Flut und Tod,
 Allein wir endeten mitleidig ihre Noth,
 Und brachten sie ans Land, den Alten und die Schöne,
@@ -561,7 +561,7 @@ Vierter Auftritt.
 $Zapor, Orchan.
 Orchan. (sagt zu einem Türken der mit ihm ge=
 kommey ist.)
-%o~Ja. Führe sie hieher.
+%~Ja. Führe sie hieher.
 (Der Türk geht ab.)
 Fünfter Auftritt.
 $Orchan. Zavor, (steht in Gedanken.)
@@ -740,7 +740,7 @@ Beklage noch, daß du in solche Noth gekommen!
 Grandlove.
 Dies hätte nimmermehr mir meine Ruh genommen.
 Orchan.
-%o~Der war es dann, der dir dein Glück in Abgrund trat,
+Der war es dann, der dir dein Glück in Abgrund trat,
 Ein Feind, der --
 Grandlove.
 Himmel! nein. Das liebste, was man hat,
@@ -756,7 +756,7 @@ Du haßtest ihn vielleicht?
 Der Reneyat
 30::
 Grandlove.
-%~Ach! er war meine Freude.
+Ach! er war meine Freude.
 O du, vor dem ich oft, ins Einsame gehüllt,
 Nach ihm mit Thränen rang, die noch kein Trost gestillt.
 Du kennst des Vaters Schmerz und hörest seine Klagen.
@@ -1353,7 +1353,7 @@ Die Tochter bleibet nur: erst will ich ihr vergönnen,
 Zu glauben, daß auch sie von hier wird reisen können.
 Jst nur ihr Vater fort: so halt ich sie zurück,
 und wiedersetzt sie sich, erzwing ich dann mein Glück.
-%o~* Es ist ein bey den mehresten Mahometanern gewöhnlicher
+%~* Es ist ein bey den mehresten Mahometanern gewöhnlicher
 Aberglauben / daß sie eine Stuffe höher in der Seeligkeit zu
 kommen denken / wenn sie einen Christen getödtet haben. Man
 sehe davon ein besonderes Beyspiel in der History of the py-
