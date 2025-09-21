@@ -609,7 +609,8 @@ apply.verse<-function(t1){
   mi<-grep("^~",t1)
   #mi<-c(mi,167)
   tx<-t1
-  z1<-mi[seq(1, length(mi), by = 2)]
+  if(length(mi)>0)
+    z1<-mi[seq(1, length(mi), by = 2)]
   if(length(mi)>1){
     z2<-mi[seq(2, length(mi), by = 2)]
   z2<-c(z2,length(t1))
@@ -927,7 +928,7 @@ get.heads.4<-function(t1,headx.1="Act,Handlung,Akt,Aufzug",headx.2="Scene,Szene,
     }
   }
   m5<-m5[order(m5)]
-  txt[m5]
+  print(txt[m5])
   #tagged <- unlist(lapply(txt[m5], tag_line))
   tagged <- lapply(txt[m5], tag_line)
   replace_with_list <- function(vec, pos, vals_list) {
@@ -949,7 +950,7 @@ get.heads.4<-function(t1,headx.1="Act,Handlung,Akt,Aufzug",headx.2="Scene,Szene,
   txm<-replace_with_list(txt,m5,tagged)
   vario<-unlist(tagged)
   print(vario)
-  h1.first<-grep("[#]{1}",txm)[1]
+  h1.first<-grep("^[#]{1}",txm)[1]
   print(h1.first)
   return(list(text=txm,vario=vario,h1.first=h1.first))
 }
