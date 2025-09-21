@@ -622,6 +622,8 @@ apply.verse<-function(t1){
   }
   if(length(mi)==1)
     tx[mi:length(tx)]<-paste0(tx[mi:length(tx)],"%verse%")
+  if(length(mi)==0)
+    return(tx)
   tx<-gsub("^~","",tx)
   tx
   # mo<-grep("%o~",t1)
