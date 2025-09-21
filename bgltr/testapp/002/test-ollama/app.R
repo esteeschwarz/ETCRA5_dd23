@@ -47,107 +47,72 @@ check_ollama_status_async <- function() {
     })
   })
 }
-
-analyze_with_ollama_async <- function(text_sample, model = DEFAULT_MODEL) {
-  future({
+p.text<-paste0("Analyse the drama and find all speakernames. Extract speakernames as JSON only. dont change speakernames, output as appear in the speaker declaration within the dialogues. dont output any preamble")
+p.text
+analyze_with_ollama_async <- function(text_sample, p.text,model = DEFAULT_MODEL) {
+  # future({
     # Prepare prompt (shorter for faster processing)
-    prompt <- paste0(
-      "Analyse the drama segmentation into headers (acts, scenes) and speakers within scenes. Usually these are occuring as full line content, but thats not sure. For improvement you ought to c",
-      "Extract drama structure patterns as JSON only:\n",
-      '{"h1_patterns": ["act_regex1", "act_regex2"], ',
-      '"h2_patterns": ["scene_regex1", "scene_regex2"], ',
-      '"speaker_patterns": ["speaker_regex1", "speaker_regex2"], ',
-      '"h1_examples": ["Act example"], "h2_examples": ["Scene example"], ',
-      '"speaker_examples": ["Speaker example"]}\n\n',
-      "TEXT:\n", substr(text_sample, 1, 2000)  # Limit sample size for speed
-    )
+    # prompt <- paste0(
+    #   "Analyse the drama segmentation into headers (acts, scenes) and speakers within scenes. Usually these are occuring as full line content, but thats not sure. For improvement you ought to c",
+    #   "Extract drama structure patterns as JSON only:\n",
+    #   '{"h1_patterns": ["act_regex1", "act_regex2"], ',
+    #   '"h2_patterns": ["scene_regex1", "scene_regex2"], ',
+    #   '"speaker_patterns": ["speaker_regex1", "speaker_regex2"], ',
+    #   '"h1_examples": ["Act example"], "h2_examples": ["Scene example"], ',
+    #   '"speaker_examples": ["Speaker example"]}\n\n',
+    #   "TEXT:\n", substr(text_sample, 1, 2000)  # Limit sample size for speed
+    # )
+    limit<-"\nDONT output any preamble or introduction, dont output/repeat the spoken text. just output the speakernames and only the speakernames in pure json.\nExtract only the unique speaker names as they appear in the following play. Output a valid JSON array of strings. Do not add any explanation, preamble, or extra text. Only output the JSON. DONT hallucinate, interprete, summarize the text or anything else which is not demanded by this prompt"
     # Prepare prompt for Claude
-    prompt <- paste0(p.text,
+    prompt <- paste0(p.text,limit,
       "TEXT SAMPLE:\n",
-      substr(text_sample, 1, 2000)    )
+      text_sample    )
     request_body <- list(
       model = model,
       prompt = prompt,
       stream = FALSE,
       options = list(temperature = 0.1, num_predict = 500)
     )
-    
+    print(prompt)
     tryCatch({
       response <- POST(
         url = paste0(OLLAMA_BASE_URL, "/api/generate"),
         body = toJSON(request_body, auto_unbox = TRUE),
         add_headers("Content-Type" = "application/json"),
         encode = "raw",
-        timeout(30)  # 30 second timeout
+        timeout(100)  # 30 second timeout
       )
+     # content(GET(paste0(OLLAMA_BASE_URL,"/api/info")),"text")
+      print(content(response,"text"))
       
       if (status_code(response) == 200) {
         result <- fromJSON(content(response, "text", encoding = "UTF-8"))
         response_text <- result$response
-        
+       # print(response_text)
+      #  response_text<-'{"Algernon": ["ALGERNON"], "Lane": ["LANE"], "Jack": ["JACK"]}'
         # Extract JSON
         json_pattern <- "\\{[^}]*(?:\"[^\"]*\"\\s*:\\s*\\[[^\\]]*\\][^}]*)*\\}"
         json_match <- str_extract(response_text, json_pattern)
-        
+        json_match
+        #json<-fromJSON(response_text)
         if (!is.na(json_match)) {
           json_match <- str_replace_all(json_match, "\\\\\\\\", "\\\\")
-          return(fromJSON(json_match))
+          return(unique(unlist(fromJSON(json_match))))
         }
       }
+      print("not 200")
       return(NULL)
     }, error = function(e) {
+      print("error...")
+      print(content(response,"text"))
       return(NULL)
     })
-  })
+  
 }
 
 # Enhanced fallback patterns
-get_fallback_patterns <- function() {
-  list(
-    h1_patterns = c(
-      "^\\s*FØRSTE\\s+AKT", "^\\s*ANDEN\\s+AKT", "^\\s*TREDJE\\s+AKT",
-      "^\\s*Erster\\s+Aufzug", "^\\s*Zweiter\\s+Aufzug",
-      "^\\s*ACT\\s+[IVX]+", "^\\s*Act\\s+[0-9]+"
-    ),
-    h2_patterns = c(
-      "^\\s*.*AKT,\\s*SCENE\\s+[0-9IVX]+", "^\\s*SCENE\\s+[0-9IVX]+",
-      "^\\s*.*Auftritt", "^\\s*[0-9]+\\.\\s*Auftritt"
-    ),
-    speaker_patterns = c(
-      "^\\s*[A-ZÆØÅ][A-ZÆØÅ\\s'-]*[A-ZÆØÅ]\\s*:",
-      "^\\s*[A-Z][a-zA-ZÆØÅæøå\\s'-]+\\s*:",
-      "^\\s*[A-ZÄÖÜ][A-ZÄÖÜß\\s'-]*\\s*\\."
-    ),
-    h1_examples = c("FØRSTE AKT", "Erster Aufzug"),
-    h2_examples = c("SCENE 1", "Erster Auftritt"),
-    speaker_examples = c("HAMLET:", "Der Prinz.")
-  )
-}
 
 # Apply patterns function (optimized)
-apply_patterns <- function(text_lines, patterns) {
-  if (length(text_lines) == 0) return(list(h1_headers = c(), h2_headers = c(), speakers = c()))
-  
-  # Filter non-empty lines
-  clean_lines <- text_lines[!is.na(text_lines) & str_trim(text_lines) != ""]
-  
-  extract_matches <- function(lines, patterns) {
-    matches <- c()
-    for (pattern in patterns) {
-      tryCatch({
-        new_matches <- lines[str_detect(lines, regex(pattern, ignore_case = TRUE))]
-        matches <- c(matches, new_matches)
-      }, error = function(e) {})
-    }
-    unique(str_trim(matches[matches != ""]))
-  }
-  
-  list(
-    h1_headers = extract_matches(clean_lines, patterns$h1_patterns %>% c()),
-    h2_headers = extract_matches(clean_lines, patterns$h2_patterns %>% c()),
-    speakers = extract_matches(clean_lines, patterns$speaker_patterns %>% c())
-  )
-}
 
 # UI
 ui <- dashboardPage(
@@ -168,8 +133,11 @@ ui <- dashboardPage(
                   title = "Upload Drama Text", status = "primary", solidHeader = TRUE, width = 12,
                   fileInput("file", "Choose Text File",
                             accept = c(".txt", ".text")),
-                  numericInput("sample_lines", "Sample Lines for AI Analysis:", 
-                               value = 100, min = 50, max = 500, step = 50),
+                  numericInput("sample_start", "sample FROM line", 
+                               value = 1, min = 50, max = 500, step = 50),
+                  numericInput("sample_end", "sample TO line", 
+                               value = 300, min = 50, max = 500, step = 50),
+                  textInput("prompt","query...","Analyse the drama and find all speakernames. Extract speakernames as JSON only. dont change speakernames, output as appear in the speaker declaration within the dialogues. dont output any preamble"),
                   selectInput("model", "Ollama Model:", choices = NULL),
                   checkboxInput("use_ai", "Use AI Analysis (uncheck for regex-only)", TRUE),
                   actionButton("analyze", "Analyze Structure", class = "btn-primary"),
@@ -180,17 +148,17 @@ ui <- dashboardPage(
               
               fluidRow(
                 box(
-                  title = "Acts (H1)", status = "success", solidHeader = TRUE, width = 4,
-                  DT::dataTableOutput("h1_table")
-                ),
-                box(
-                  title = "Scenes (H2)", status = "info", solidHeader = TRUE, width = 4,
-                  DT::dataTableOutput("h2_table")
-                ),
-                box(
-                  title = "Speakers", status = "warning", solidHeader = TRUE, width = 4,
-                  DT::dataTableOutput("speakers_table")
+                  title = "speaker", status = "success", solidHeader = TRUE, width = 4,
+                  DT::dataTableOutput("speakers")
                 )
+                # box(
+                #   title = "Scenes (H2)", status = "info", solidHeader = TRUE, width = 4,
+                #   DT::dataTableOutput("h2_table")
+                # ),
+                # box(
+                #   title = "Speakers", status = "warning", solidHeader = TRUE, width = 4,
+                #   DT::dataTableOutput("speakers_table")
+                # )
               ),
               
               fluidRow(
@@ -225,7 +193,9 @@ ui <- dashboardPage(
 server <- function(input, output, session) {
   
   # Reactive values
-  results <- reactiveVal(NULL)
+  rv <- reactiveValues(
+    speaker = NULL
+  )
   file_content <- reactiveVal(NULL)
   
   # Check Ollama status on startup
@@ -274,48 +244,45 @@ server <- function(input, output, session) {
     
     output$progress <- renderText("Analyzing...")
     content <- file_content()
-    sample_text <- paste(head(content, input$sample_lines), collapse = "\n")
-    
-    if (input$use_ai) {
+    range<-input$sample_start:input$sample_end
+    sample_text<-paste0(content[range],collapse = "\n")
+    # sample_text <- paste(head(content, input$sample_lines), collapse = "\n")
+    print(sample_text)
+    # if (input$use_ai) {
       # AI analysis
-      analyze_with_ollama_async(sample_text, input$model) %...>% {
-        patterns <- .
+      patterns<-analyze_with_ollama_async(sample_text, input$prompt,input$model)
         if (is.null(patterns)) {
-          patterns <- get_fallback_patterns()
+#          patterns <- get_fallback_patterns()
           output$progress <- renderText("AI analysis failed, using fallback patterns")
         } else {
           output$progress <- renderText("AI analysis complete, applying to full text")
-        }
+         print(patterns)
         
         # Apply patterns
-        analysis_results <- apply_patterns(content, patterns)
-        results(analysis_results)
-        output$progress <- renderText("Analysis complete!")
-      }
-    } else {
-      # Direct regex analysis
-      patterns <- get_fallback_patterns()
-      analysis_results <- apply_patterns(content, patterns)
-      results(analysis_results)
-      output$progress <- renderText("Regex analysis complete!")
-    }
-  })
+        # analysis_results <- patterns
+         rv$speaker<-patterns
+         output$progress <- renderText("Analysis complete!")
+      
+        } 
+  }
+  )
   
   # Results tables
-  output$h1_table <- DT::renderDataTable({
-    if (is.null(results())) return(data.frame())
-    data.frame(Acts = results()$h1_headers)
+  output$speakers <- DT::renderDataTable({
+    if (is.null(rv$speaker))
+      return(data.frame())
+    data.frame(speakers = rv$speaker)
   }, options = list(pageLength = 10, scrollY = "300px"))
   
-  output$h2_table <- DT::renderDataTable({
-    if (is.null(results())) return(data.frame())
-    data.frame(Scenes = results()$h2_headers)
-  }, options = list(pageLength = 10, scrollY = "300px"))
-  
-  output$speakers_table <- DT::renderDataTable({
-    if (is.null(results())) return(data.frame())
-    data.frame(Speakers = results()$speakers)
-  }, options = list(pageLength = 15, scrollY = "300px"))
+  # output$h2_table <- DT::renderDataTable({
+  #   if (is.null(results())) return(data.frame())
+  #   data.frame(Scenes = results()$h2_headers)
+  # }, options = list(pageLength = 10, scrollY = "300px"))
+  # 
+  # output$speakers_table <- DT::renderDataTable({
+  #   if (is.null(results())) return(data.frame())
+  #   data.frame(Speakers = results()$speakers)
+  # }, options = list(pageLength = 15, scrollY = "300px"))
   
   # Status display
   output$ollama_status <- renderText({
@@ -348,14 +315,14 @@ server <- function(input, output, session) {
   
   # Summary
   output$summary <- renderText({
-    if (is.null(results())) return("No analysis results yet")
+    if (is.null(rv$speaker))
+        return("No analysis results yet")
     
-    r <- results()
+#    r <- rv$speaker
     paste0("Analysis Summary:\n",
-           "Acts found: ", length(r$h1_headers), "\n",
-           "Scenes found: ", length(r$h2_headers), "\n", 
-           "Speakers found: ", length(r$speakers))
-  })
+           "Speakers found: ", length(rv$speaker))
+  
+})
   
   # Download handler
   output$download <- downloadHandler(
@@ -363,17 +330,18 @@ server <- function(input, output, session) {
       paste0("drama_analysis_", Sys.Date(), ".csv")
     },
     content = function(file) {
-      if (is.null(results())) return()
+      if (is.null(rv$speaker))
+          return()
       
-      r <- results()
-      max_len <- max(length(r$h1_headers), length(r$h2_headers), length(r$speakers))
+#      r <- results()
+      max_len <- max(length(rv$speaker), length(r$h2_headers), length(r$speakers))
       
       # Pad vectors to same length
       df <- data.frame(
-        Acts = c(r$h1_headers, rep("", max_len - length(r$h1_headers))),
-        Scenes = c(r$h2_headers, rep("", max_len - length(r$h2_headers))),
-        Speakers = c(r$speakers, rep("", max_len - length(r$speakers)))
-      )
+        speaker = rv$speaker)
+        # Scenes = c(r$h2_headers, rep("", max_len - length(r$h2_headers))),
+        # Speakers = c(r$speakers, rep("", max_len - length(r$speakers)))
+      
       
       write.csv(df, file, row.names = FALSE)
     }

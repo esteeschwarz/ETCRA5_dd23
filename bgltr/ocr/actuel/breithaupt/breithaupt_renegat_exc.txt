@@ -37,7 +37,7 @@ Und überfällst mich stets mit unverschämten Klagen?
 
 Der Renegat
 Welwood.
-So hör dies wenigstens, es ist der Klage werth=
+%~So hör dies wenigstens, es ist der Klage werth=
 Was ich --
 Zapor.
 Entferne dich. Jch habe gnug gehört.
@@ -269,14 +269,14 @@ Verlör ich auch den Gott, der so nur straft und dräut.
 12::
 Der Renergl.
 Welwood.
-Erschrecklicher Entschluß! Um Nichts, um Kleinigkeit
+%o~Erschrecklicher Entschluß! Um Nichts, um Kleinigkeit
 Verräthst du deinen Gott, und Vaterland und Vater!
 Zapor.
 Um Nichts! Jst Glück denn nichts? Bald wird Orchan
 mein Vater,
 Und Mahomet mein Gott.
 Welwood.
-O Schöpfer, o Natur!
+%~O Schöpfer, o Natur!
 So fehlte dieses noch, daß er auch euch verschwur!
 Hör Edward, wenn vielleicht, wenn dich voreilge Freunde
 Nach deinem Wahn gekränkt, so meide sie als Feinde.
@@ -373,7 +373,7 @@ Das hier dein Herz beglückt, und künftig soll beglücken,
 Bey dem, der unseres und das Geschick der Welt,
 und in furchtbarer Hand des Lichtes Tafel hält, *
 -----
-* Die meisten Mahometaner glauben / daß alle vergangene
+%o~* Die meisten Mahometaner glauben / daß alle vergangene
 und zukünftige Begebenheiten / wie auch die Nahmen der
 Menschen auf einer hellen Tafel geschrieben stehen / wel=
 che sie die Lichttafel nennen / und bey ihnen so viel ist /
@@ -385,7 +385,7 @@ Der Renegat.
 Bey dem geweyhten Stein am Grabe des Propheten, *
 Beschwöre dies.
 Zapor.
-Jch schwörs. War dieser Schwur vonnöthen?
+%~Jch schwörs. War dieser Schwur vonnöthen?
 Der Feind von Mahomet sey ewig auch mein Feind,
 Wer ihn verschmäht, mein Haß und wer ihn ehrt, mein Freund.
 Du, der du sonst mein Ach, itzt meinen Schwur gehöret,
@@ -551,7 +551,8 @@ Der Renegat
 22::
 Warf dich dein Gott ans Licht! Er schuf dich mich zu kränken;
 Doch der Gedank' entehrt. Laßt uns was würd'gers denken!
-Die Fremde, -- welch ein Bild! Schwell, stolzes Herz, empor! Sie ist hier, sie ist dein, glückseliger Zapor!
+Die Fremde, -- welch ein Bild! Schwell, stolzes Herz, empor! 
+Sie ist hier, sie ist dein, glückseliger Zapor!
 Doch eine Christin — ach! hab ich da viel zu hoffen?
 Jst hier nicht ein Gesetz? Was steh ich so betroffen?
 Jsts Mitleid oder Furcht? -- Wer quält auch beftiger,
@@ -560,12 +561,12 @@ Vierter Auftritt.
 $Zapor, Orchan.
 Orchan. (sagt zu einem Türken der mit ihm ge=
 kommey ist.)
-Ja. Führe sie hieher.
+%o~Ja. Führe sie hieher.
 (Der Türk geht ab.)
 Fünfter Auftritt.
 $Orchan. Zavor, (steht in Gedanken.)
 Orchan.
-Zapor, hier laß mich dir die Sklaven übergeben.
+%~Zapor, hier laß mich dir die Sklaven übergeben.
 Dein Wink beherrsche sie. Er sey ihr Tod und Leben.
 Doch wie so stumm! Was hat dich so bestürzt gemacht,
 Hat dir der Tag nicht Reiz, der, allen heiter lacht?
@@ -739,7 +740,7 @@ Beklage noch, daß du in solche Noth gekommen!
 Grandlove.
 Dies hätte nimmermehr mir meine Ruh genommen.
 Orchan.
-Der war es dann, der dir dein Glück in Abgrund trat,
+%o~Der war es dann, der dir dein Glück in Abgrund trat,
 Ein Feind, der --
 Grandlove.
 Himmel! nein. Das liebste, was man hat,
@@ -755,7 +756,7 @@ Du haßtest ihn vielleicht?
 Der Reneyat
 30::
 Grandlove.
-Ach! er war meine Freude.
+%~Ach! er war meine Freude.
 O du, vor dem ich oft, ins Einsame gehüllt,
 Nach ihm mit Thränen rang, die noch kein Trost gestillt.
 Du kennst des Vaters Schmerz und hörest seine Klagen.
@@ -1352,7 +1353,7 @@ Die Tochter bleibet nur: erst will ich ihr vergönnen,
 Zu glauben, daß auch sie von hier wird reisen können.
 Jst nur ihr Vater fort: so halt ich sie zurück,
 und wiedersetzt sie sich, erzwing ich dann mein Glück.
-* Es ist ein bey den mehresten Mahometanern gewöhnlicher
+%o~* Es ist ein bey den mehresten Mahometanern gewöhnlicher
 Aberglauben / daß sie eine Stuffe höher in der Seeligkeit zu
 kommen denken / wenn sie einen Christen getödtet haben. Man
 sehe davon ein besonderes Beyspiel in der History of the py-
@@ -1361,7 +1362,7 @@ ratical States §. 40.
 
 Der Renegat
 52::
-Sie wird, ist Welwood tod, mich dann viel leichter hören:
+%~Sie wird, ist Welwood tod, mich dann viel leichter hören:
 Und durch nichts mehr verstockt zu deiner Lehre kehren.
 Ja, großer Mahomet! Dann läßt sie mir Orchan,
 Und dann ist nichts, das mir mein Glück erhöhen kann;
@@ -2084,7 +2085,7 @@ Sey wiederum ein Christ, so sterb ich mit Vergnügen.
 Der Renegat
 78::
 Zapor.
-Laß ab, Entsetzlicher! Laß ab, ichsterbe schon,
+Laß ab, Entsetzlicher! Laß ab, ich sterbe schon,
 Jch bin genug entselt.
 Grandlove.
 O mein geliebter Sohn! --
