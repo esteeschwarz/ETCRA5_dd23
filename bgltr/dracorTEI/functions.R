@@ -604,20 +604,26 @@ return(t3)
 r<-F
 #t<-t3
 r<-F
-#t1<-readLines(source)
+t1<-readLines(source)
 apply.verse<-function(t1){
-  mi<-grep("%~",t1)
+  mi<-grep("^~",t1)
+  #mi<-c(mi,167)
+  tx<-t1
   z1<-mi[seq(1, length(mi), by = 2)]
-  z2<-mi[seq(2, length(mi), by = 2)]
+  if(length(mi)>1){
+    z2<-mi[seq(2, length(mi), by = 2)]
   z2<-c(z2,length(t1))
   z2<-z2-1
-  tx<-t1
   for(k in 1:length(z1)){
     r<-z1[k]:z2[k]
     #ifelse(k<length(mi),r<-mi[k]:mi[k+1],r<-mi[k]:length(t1))
     tx[r]<-paste0(t1[r],"%verse%")
   }
-  tx<-gsub("^%~","",tx)
+  }
+  if(length(mi)==1)
+    tx[mi:length(tx)]<-paste0(tx[mi:length(tx)],"%verse%")
+  tx<-gsub("^~","",tx)
+  tx
   # mo<-grep("%o~",t1)
   # mo1<-mo-1
   # mc<-c(mi,mo)
