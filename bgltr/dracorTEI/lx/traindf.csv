@@ -36,5 +36,17 @@
 "und der king ab (König geht.)","stage_spc"
 "DAME: (jetzt laut.)","stage_spk"
 "da geht er hin der könig geht (König ab.)","stage_spc"
-"da geht er hin der könig geht (König ab.)","stage_spk"
 "da geht er hin der könig geht (König ab.)","stage_spc"
+"da geht er hin der könig geht (König ab.)","stage_spc"
+"KÖNIG: is mir egal was du sagst.","spk_p"
+"ACT I, Scene 1","act_scene"
+"ACT I","act"
+"Scene One","scene"
+"First Act","act"
+"First Scene","scene"
+"Second Scene","scene"
+Second Act,act
+Third Act,act
+Third Scene,scene
+"KÖNIG: is mir egal was du sagst (König ab.)","spk_p_stage"
+"PRINCE: mir auch, wie immer (Prinz ab.)","spk_p_stage"
