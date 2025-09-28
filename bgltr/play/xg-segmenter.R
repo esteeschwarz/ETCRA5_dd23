@@ -31,7 +31,6 @@ train3<-rbind(traindf,train2)
 traindf<-train3
 tokens<-traindf$tokens
 tags<-traindf$tags
-
 metadf<-read.csv("~/Documents/GitHub/ETCRA5_dd23/bgltr/dracorTEI/lx/metadf-mlx-03.csv")
 act<-paste0(unique(metadf$h1),collapse = "|")
 scene<-paste0(unique(metadf$h2),collapse = "|")
@@ -51,27 +50,55 @@ stage_spc<-"(\\w+) \\((.+)\\.?\\)( \\w+)?"
 #tokens<-"this is a (stage between) text"
 is_stage_spc = as.integer(grepl(stage_spc, tokens))
 # Features simples
-df <- data.table(
-  token = tokens,
-  is_capitalized = as.integer(grepl(capt, tokens)),
-  is_allcaps = as.integer(grepl(allcaps, tokens)),
-  is_lowercase = as.integer(grepl(lc, tokens)),
-  is_spk_1 = as.integer(grepl(spk_1, tokens)),
-  is_colon = as.integer(grepl(colon, tokens)),
-  is_comma = as.integer(grepl(comma, tokens)),
-  is_number = as.integer(unlist(lapply(strsplit(tokens," "),length)<2)),
-  len_t = unlist(lapply(strsplit(tokens," "),length)),
-  is_stage = as.integer(grepl(stage, tokens)),
-  is_stage_spk = as.integer(grepl(stage_spk, tokens)),
-  is_stage_spc = as.integer(grepl(stage_spc, tokens)),
-  len = nchar(tokens),
-  label = as.integer(factor(tags)) - 1L,
-  is_scene = as.integer(grepl(scene, tokens)),
-  is_act = as.integer(grepl(act, tokens))
+create_feature_matrix <- function(tokens) {
+  df <- data.table(
+    token = tokens,
+    is_capitalized = as.integer(grepl(capt, tokens)),
+    is_allcaps = as.integer(grepl(allcaps, tokens)),
+    is_lowercase = as.integer(grepl(lc, tokens)),
+    is_spk_1 = as.integer(grepl(spk_1, tokens)),
+    
+    is_colon = as.integer(grepl(colon, tokens)),
+    is_comma = as.integer(grepl(comma, tokens)),
+    is_number = as.integer(unlist(lapply(strsplit(tokens, " "), length) <2 )),
+    len_t = unlist(lapply(strsplit(tokens," "),length)),
+    
+    is_stage = as.integer(grepl(stage, tokens)),
+    is_stage_spk = as.integer(grepl(stage_spk, tokens)),
+    is_stage_spc = as.integer(grepl(stage_spc, tokens)),
+    len = nchar(tokens),
+    is_scene = as.integer(grepl(scene, tokens)),
+    is_act = as.integer(grepl(act, tokens))
+  )
   
-)
-sum(is.na(df))
+  
+  return(as.matrix(df[, ..features]))
+}
+
+# df <- data.table(
+#   token = tokens,
+#   is_capitalized = as.integer(grepl(capt, tokens)),
+#   is_allcaps = as.integer(grepl(allcaps, tokens)),
+#   is_lowercase = as.integer(grepl(lc, tokens)),
+#   is_spk_1 = as.integer(grepl(spk_1, tokens)),
+#   is_colon = as.integer(grepl(colon, tokens)),
+#   is_comma = as.integer(grepl(comma, tokens)),
+#   is_number = as.integer(unlist(lapply(strsplit(tokens," "),length)<2)),
+#   len_t = unlist(lapply(strsplit(tokens," "),length)),
+#   is_stage = as.integer(grepl(stage, tokens)),
+#   is_stage_spk = as.integer(grepl(stage_spk, tokens)),
+#   is_stage_spc = as.integer(grepl(stage_spc, tokens)),
+#   len = nchar(tokens),
+#   label = as.integer(factor(tags)) - 1L,
+#   is_scene = as.integer(grepl(scene, tokens)),
+#   is_act = as.integer(grepl(act, tokens))
+#   
+# )
 features<-c("is_capitalized","is_allcaps","is_lowercase","is_spk_1","is_colon","is_comma","is_number","len_t","is_stage","is_stage_spk","is_stage_spc","is_scene","is_act","len")
+
+df<-create_feature_matrix(tokens)
+sum(is.na(df))
+sum(is.na(tags))
 # Matrice XGBoost
 # X <- as.matrix(df[, .(is_capitalized, 
 #                       is_allcaps, 
@@ -84,11 +111,15 @@ features<-c("is_capitalized","is_allcaps","is_lowercase","is_spk_1","is_colon","
 #                       is_stage_spc,
 #                       len)])
 #X <- as.matrix(df[, .(..features)])
-dtrain <- xgb.DMatrix(data = as.matrix(df[,..features]), label = df$label)
-#print(sum(is.na(dtrain)))
-y <- df$label
+#dtrain <- xgb.DMatrix(data = as.matrix(df[,..features]), label = df$label)
+#dtrain <- xgb.DMatrix(data = df, label = dftr)
+y_tags<- as.integer(factor(tags)) - 1L
 
-y
+dtrain <- xgb.DMatrix(df, label = y_tags)
+#print(sum(is.na(dtrain)))
+#y <- df$label
+
+y<-tags
 # Entraînement XGBoost
 #dtrain <- xgb.DMatrix(data = X, label = y)
 params <- list(objective = "multi:softprob", num_class = length(unique(y)), eval_metric = "mlogloss")
@@ -119,7 +150,7 @@ xgb.plot.tree(model = model, trees = 0) # arbre 0
 #tokens<-"this is a (stage between) text"
 #is_stage_spc = as.integer(grepl(stage_spc, tokens))
 #token<-"KÖNIG: is mir egal (geht ab.)"
-create_test.df<-function(token){
+create_test.df_dep<-function(token){
   test_df<-data.table(
     token=token,
     is_capitalized = as.integer(grepl(capt, token)),
@@ -172,30 +203,30 @@ return(label_map[which.max(probs)])
 
 ### training
 ### training
-create_feature_matrix <- function(tokens) {
-  df <- data.table(
-    token = tokens,
-    is_capitalized = as.integer(grepl(capt, tokens)),
-    is_allcaps = as.integer(grepl(allcaps, tokens)),
-    is_lowercase = as.integer(grepl(lc, tokens)),
-    is_spk_1 = as.integer(grepl(spk_1, tokens)),
-    
-    is_colon = as.integer(grepl(colon, tokens)),
-    is_comma = as.integer(grepl(comma, tokens)),
-    is_number = as.integer(unlist(lapply(strsplit(tokens, " "), length) <2 )),
-    len_t = unlist(lapply(strsplit(tokens," "),length)),
-    
-    is_stage = as.integer(grepl(stage, tokens)),
-    is_stage_spk = as.integer(grepl(stage_spk, tokens)),
-    is_stage_spc = as.integer(grepl(stage_spc, tokens)),
-    len = nchar(tokens),
-    is_scene = as.integer(grepl(scene, tokens)),
-    is_act = as.integer(grepl(act, tokens))
-  )
-  
-  
-  return(as.matrix(df[, ..features]))
-}
+# create_feature_matrix <- function(tokens) {
+#   df <- data.table(
+#     token = tokens,
+#     is_capitalized = as.integer(grepl(capt, tokens)),
+#     is_allcaps = as.integer(grepl(allcaps, tokens)),
+#     is_lowercase = as.integer(grepl(lc, tokens)),
+#     is_spk_1 = as.integer(grepl(spk_1, tokens)),
+#     
+#     is_colon = as.integer(grepl(colon, tokens)),
+#     is_comma = as.integer(grepl(comma, tokens)),
+#     is_number = as.integer(unlist(lapply(strsplit(tokens, " "), length) <2 )),
+#     len_t = unlist(lapply(strsplit(tokens," "),length)),
+#     
+#     is_stage = as.integer(grepl(stage, tokens)),
+#     is_stage_spk = as.integer(grepl(stage_spk, tokens)),
+#     is_stage_spc = as.integer(grepl(stage_spc, tokens)),
+#     len = nchar(tokens),
+#     is_scene = as.integer(grepl(scene, tokens)),
+#     is_act = as.integer(grepl(act, tokens))
+#   )
+#   
+#   
+#   return(as.matrix(df[, ..features]))
+# }
 
 get.train.model<-function(traindf){
 set.seed(42)
@@ -346,6 +377,7 @@ while (length(model.d$fail)>0) {
 }
 model<-model.d$model
 ###############################
+create_test.df<-create_feature_matrix
 test_df<-create_test.df("KÖNIG: is mir egal (geht ab.)")
 test_df<-create_test.df("KÖNIG: (im gehen.)")
 test_df<-create_test.df("KÖNIG: is mir egal was du sagst.")
@@ -357,14 +389,14 @@ test_df<-create_test.df("(reine stage)")
 # test_df<-create_test.df("1. Szene")
 # test_df<-create_test.df("1. Akt")
 #dtest <- xgb.DMatrix(as.matrix(test_df[, .(..features)])) 
-dtest <- xgb.DMatrix(data = as.matrix(test_df[,..features]))
+#dtest <- xgb.DMatrix(data = as.matrix(test_df[,..features]))
 
 
 
-call.model(model,dtest)
+call.model(model,test_df)
 ma<-unlist(lapply(train.df$tokens, function(x){
-  test_df<-create_test.df(x)
-  dtest <- xgb.DMatrix(data = as.matrix(test_df[,..features]))
+  dtest<-create_test.df(x)
+  #dtest <- xgb.DMatrix(data = as.matrix(test_df[,..features]))
   m<-call.model(model,dtest)
 }))
 m<-ma==train.df$tags
