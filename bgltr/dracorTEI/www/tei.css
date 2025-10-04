@@ -3,7 +3,18 @@ p {
   font-family: Georgia, serif;
   margin: 0.5em 0;
 }
-
+/*l {
+  display: block;
+  color: darkred;
+  font-family: Georgia, serif;
+  margin: 0.5em 0;
+}
+note {
+  display: block;
+  color: darkred;
+  font-family: Georgia, serif;
+  margin: 0.5em 0;
+}*/
 stage {
   display: block;
   font-style: italic;

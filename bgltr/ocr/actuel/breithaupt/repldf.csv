@@ -12,7 +12,7 @@ id,find,replace,comment
 11,Frr,Irr,
 12,frr,irr,
 13,Jrr,Irr,
-14,\n.er Reneg..\\.?\n,"\n",
+14,\n.er Reneg..\.?\n,"\n",
 15,\n.in Trauerspiel.?\n,"\n",
 16,[^W]elwood,Welwood,
 17,\n.er Rene..t\n,"\n",
@@ -24,3 +24,4 @@ id,find,replace,comment
 22,Zapo[^r],Zapor,
 23,[^Z]apor,Zapor,
 24,(messregex),should break,
+25,\nDer Renegat\.\n,"\n",

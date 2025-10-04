@@ -130,10 +130,10 @@ model <- xgb.train(params, dtrain, nrounds = 20, verbose = 0)
 # Exporter le premier arbre en texte
 xgb.dump(model, with_stats = TRUE)#[1:100]
 
-library(Ckmeans.1d.dp) # nécessaire pour xgb.plot.tree
+#library(Ckmeans.1d.dp) # nécessaire pour xgb.plot.tree
 #library(xgboost)
 
-xgb.plot.tree(model = model, trees = 0) # arbre 0
+#xgb.plot.tree(model = model, trees = 0) # arbre 0
 
 # test_df <- data.table(
 #   token = "PRINCE:",
@@ -193,9 +193,9 @@ label_map <- levels(factor(tags))
 
 names(probs) <- label_map
 print(probs)
-library(Ckmeans.1d.dp) # nécessaire pour xgb.plot.tree
+#library(Ckmeans.1d.dp) # nécessaire pour xgb.plot.tree
 
-xgb.plot.tree(model = model, trees = 1) # arbre 0
+#xgb.plot.tree(model = model, trees = 1) # arbre 0
 
 cat("Label choisi:", label_map[which.max(probs)], "\n")
 return(label_map[which.max(probs)])
@@ -405,5 +405,5 @@ q<-sum(m)/length(train.df$tokens)
 print(q)
 train.df$tokens[!m]
 #library(Ckmeans.1d.dp) # nécessaire pour xgb.plot.tree
-xgb.plot.tree(model = model, trees = 0) # arbre 0
+#xgb.plot.tree(model = model, trees = 0) # arbre 0
 
