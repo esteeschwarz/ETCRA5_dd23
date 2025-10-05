@@ -349,6 +349,7 @@ function(input, output, session) {
   })
   observeEvent(input$upload_repl,{
     file<-input$upload_repl$datapath
+    #file<-paste0(Sys.getenv("GIT_TOP"),"/ETCRA5_dd23/bgltr/ocr/actuel/breithaupt/repldf.csv")
     repldf<-read.csv(file)
     print(repldf)
     res <- check_regex(repldf)
@@ -378,6 +379,7 @@ function(input, output, session) {
       print(repldf$replace)
       #    rv$repl<-repldf
       # metadf<-fromJSON("repldf.json",flatten = T)
+      #repl1<-metadf$repl
       repl1<-rv$repl
       print(colnames(repl1)[1:3])
       print(head(repl1))
@@ -390,6 +392,10 @@ function(input, output, session) {
       repl2<-bind_rows(repldf,repl1[,1:3])
       colnames(repl2)[2:3]<-c("string1","string2")
       print(repl2)
+      #library(clipr)
+      #write_clip(toJSON(repldf))
+      #metadf$repl<-toJSON(repl2)
+      #write_json(metadf,"repldf.json")
       rv$repl<-repl2
       t3<-clean.t(rv$t1,1,rv$repl,NULL)
       #t3
