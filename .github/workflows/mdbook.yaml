@@ -32,7 +32,7 @@ jobs:
     env:
       MDBOOK_VERSION: 0.4.21
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
      # - name: check
       # - uses: actions/cache/restore@v3
       #   id: cache-restore
@@ -64,7 +64,7 @@ jobs:
       #   run: /home/runner/work/_temp/mdbook build -d ./mdbook/workflow/book
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v4
       # - name: getcached
       #   uses: actions/cache/restore@v3
       #   with:
@@ -74,7 +74,7 @@ jobs:
         run: mdbook build -d ./mdbook/workflow/book
          
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./mdbook/workflow/book
       # - name: docache
